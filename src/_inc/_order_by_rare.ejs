@@ -1,0 +1,20 @@
+
+<% page.heros.sort((a, b) => a.rare_order - b.rare_order); %>
+<% const rareNames = ["SSR", "SR", "R"]; %>
+<% for (let i = 0; i < page.heros.length;) { %>
+    <% let item = page.heros[i]; %>
+    <% let cur_rare = item.rare_order; %>
+<tr class="hero_tr" data-val="<%= item.rare_order %>" data-tab="レア" data-disp_tab="1" data-disp_val="1">
+    <th><%= rareNames[item.rare_order] %></th>
+</tr>
+<tr class="hero_tr" data-val="<%= item.rare_order %>" data-tab="レア" data-disp_tab="1" data-disp_val="1">
+    <td>
+        <ul class="hero_container" data-val="<%= item.rare_order %>" data-tab="レア">
+    <% for (; i < page.heros.length && page.heros[i].rare_order === cur_rare; i++) { %>
+        <% item = page.heros[i]; %>
+        <li data-disp="1" data-rare="<%= item.rare %>" data-role_set="<%= item.role_set %>" data-attr="<%= item.attr %>" data-atk_attr="<%= item.atk_attr %>" data-equip_type="<%= item.equip_type %>" data-atk_speed="<%= item.atk_speed %>" data-gacha_type="<%= item.gacha_type %>" data-added_year="<%= new Date(item.added_date).getFullYear() %>"><a class="s-link" href="./hero/<%= item.id %>.html"><img src="./img/hero/<%= item.id %>.png" class="s-img" alt="<%= item.altname %>の画像"><%- item.name %></a></li>
+    <% } %>
+        </ul>
+    </td>
+</tr>
+<% } %>

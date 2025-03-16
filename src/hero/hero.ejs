@@ -1,0 +1,19 @@
+<%
+var baseUrl = '..';
+%>
+
+<%-
+    include('../_inc/_head.ejs', {
+        baseUrl: baseUrl,
+        page: json
+    });
+%>
+
+<%-
+    include('../_inc/_contents.ejs', {
+        baseUrl: baseUrl,
+        page: json
+    });
+%>
+</body>
+</html>

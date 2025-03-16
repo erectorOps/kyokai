@@ -1,0 +1,22 @@
+<%
+var baseUrl = '.';
+%>
+
+<%-
+    include('./_inc/_head.ejs', {
+        baseUrl: baseUrl,
+        page: json
+    });
+%>
+<script src="<%= baseUrl %>/js/jquery-3.3.1.min.js"></script>
+
+<%-
+    include('./_inc/_list.ejs', {
+        baseUrl: baseUrl,
+        page: json
+    });
+%>
+
+
+</body>
+</html>

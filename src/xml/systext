@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+	<systext id="1"/>
+	<systext/>
+	<systext id="11" text="はい"/>
+	<systext id="12" text="いいえ"/>
+	<systext id="13" text="確定"/>
+	<systext id="14" text="取消"/>
+	<systext id="15" text="閉じる"/>
+	<systext id="16" text="{0}日"/>
+	<systext id="17" text="{0}時"/>
+	<systext id="18" text="{0}分"/>
+	<systext id="19" text="{0}秒"/>
+	<systext id="20" text="未解放"/>
+	<systext id="21" text="接続が不安定なため、タイトル画面に戻ります"/>
+	<systext id="22" text="サーバーリストにアクセスできませんでした"/>
+	<systext id="23" text="ネットワークエラー"/>
+	<systext id="24" text="読み込みできません&#xA;確定で再接続します&#xA;取消でタイトル画面に戻ります"/>
+	<systext id="25" text="現在、サーバーが混雑しております。&#xA;時間をおいて再度お試しください。"/>
+	<systext id="26" text="メンテナンス中です"/>
+	<systext id="27" text="ゲームをログアウトしますか？"/>
+	<systext id="28" text="ゲームを更新します&#xA;タイトル画面に戻ります"/>
+	<systext id="29" text="1年以上"/>
+	<systext id="30" text="2023/8/31 00:00:00"/>
+	<systext id="31" text="DMM GAMESストア"/>
+	<systext id="32" text="ポイントチャージ"/>
+	<systext id="33" text="利用規約"/>
+	<systext id="34" text="お問い合わせ"/>
+	<systext id="35" text="DMMアカウント"/>
+	<systext id="36" text="購入に失敗しました"/>
+	<systext id="37" text="購入がキャンセルされました"/>
+	<systext id="38" text="エラー"/>
+	<systext id="39" text="11:00 ～ 15:00"/>
+	<systext id="40" text="購入キャンセル"/>
+	<systext id="41" text="システムメッセージ"/>
+	<systext id="42" text="現在、購入手続きが進行中です。完了までしばらくお待ちください"/>
+	<systext id="43" text="Logout"/>
+	<systext/>
+	<systext id="50"/>
+	<systext id="51" text="https://play.google.com/store/apps/details?id=com.userjoy.lm4.jp"/>
+	<systext id="52" text="itms-apps://apps.apple.com/tw/app/id1616471495"/>
+	<systext id="53" text="https://accounts.dmm.co.jp/settings/service"/>
+	<systext/>
+	<systext id="200" text="ボイスをダウンロードしますか？{0}"/>
+	<systext id="201" text="バージョン確認中"/>
+	<systext id="202" text="ダウンロード"/>
+	<systext id="203" text="データをダウンロードします&#xA;（約{0}）"/>
+	<systext id="204" text="ダウンロード中 {0}/{1}"/>
+	<systext id="205" text="ダウンロード状況 {0:P0}"/>
+	<systext id="206" text="ネットワークに繋がりません。再接続中…"/>
+	<systext id="207" text="Loading…"/>
+	<systext id="208" text="Loading状況 {0:P0}"/>
+	<systext id="209" text="システムメッセージ"/>
+	<systext id="210" text="個人データ"/>
+	<systext id="211" text="紹介"/>
+	<systext id="212" text="イラスト"/>
+	<systext id="213" text="ボイス"/>
+	<systext id="214" text="役割"/>
+	<systext id="215" text="スキル"/>
+	<systext id="216" text="身長"/>
+	<systext id="217" text="スリーサイズ"/>
+	<systext id="218" text="誕生日"/>
+	<systext id="219" text="ダウンロード中…"/>
+	<systext id="220" text="ローディング中…"/>
+	<systext id="221" text="サーバーに接続しています&#xA;少々お待ちください"/>
+	<systext/>
+	<systext id="301" text="アカウント"/>
+	<systext id="302" text="パスワード"/>
+	<systext id="303" text="ログイン"/>
+	<systext id="304" text="接続が中断されました。タイトルに戻ります"/>
+	<systext id="305" text="ログインに失敗しました"/>
+	<systext id="306" text="サーバー制限"/>
+	<systext id="307" text="ただいまメンテナンス中です。"/>
+	<systext id="308" text="接続エラー"/>
+	<systext id="309" text="メニュー"/>
+	<systext id="310" text="お知らせ"/>
+	<systext id="311" text="引き継ぎ"/>
+	<systext id="312" text="お問い合わせ"/>
+	<systext id="313" text="キャッシュクリア"/>
+	<systext id="314" text="利用規約"/>
+	<systext id="315" text="データ切替"/>
+	<systext id="316" text="サーバー選択"/>
+	<systext id="317" text="直前にログインしたサーバー"/>
+	<systext id="318" text="おすすめサーバー"/>
+	<systext id="319" text="サーバー一覧"/>
+	<systext id="320" text="快適"/>
+	<systext id="321" text="混雑"/>
+	<systext id="322" text="満員"/>
+	<systext id="323" text="アカウント切替"/>
+	<systext id="324" text="アカウントとパスワードを入力してください"/>
+	<systext id="325" text="ここに入力"/>
+	<systext id="326" text="パスワードを入力"/>
+	<systext id="327" text="閉じる"/>
+	<systext id="328" text="確定"/>
+	<systext id="329" text="引き継ぎコードを入力"/>
+	<systext id="330" text="引き継ぎID"/>
+	<systext id="331" text="引き継ぎパスワード"/>
+	<systext id="332" text="引き継ぎIDを入力"/>
+	<systext id="333" text="引き継ぎパスワードを入力"/>
+	<systext id="334" text="データ:{0}"/>
+	<systext id="335" text="アカウントを入力してください"/>
+	<systext id="336" text="パスワードを入力してください"/>
+	<systext id="337" text="Ver.{0}"/>
+	<systext id="338" text="引き継ぎIDを入力してください"/>
+	<systext id="339" text="引き継ぎパスワードを入力してください"/>
+	<systext id="340" text="アカウントのフォーマットエラー"/>
+	<systext id="341" text="引き継ぎに失敗しました"/>
+	<systext id="342" text="引き継ぎが完了しました"/>
+	<systext id="343" text="引き継ぎID"/>
+	<systext id="344" text="ゲーム開始日"/>
+	<systext id="345" text="最終ログイン時間"/>
+	<systext id="346" text="所有数"/>
+	<systext id="347" text="バージョン認証エラー。ストア画面に移動し、アプリをアップデートしてください"/>
+	<systext id="348" text="他の端末からのログインを確認しました。ゲームを終了します。"/>
+	<systext id="349" text="このアカウントは凍結されました&#xA;※ご不明な点がございましたら、お問い合わせよりご連絡ください"/>
+	<systext id="350" text="キャッシュをクリアしました"/>
+	<systext id="351" text="登入頁 公告網址"/>
+	<systext id="352" text="SDK通信エラー"/>
+	<systext id="353" text="アカウントがロックされました"/>
+	<systext id="354" text="お問い合わせ窓口"/>
+	<systext id="355" text="メンテナンス中"/>
+	<systext id="356" text="サーバーが満員になりました"/>
+	<systext id="357" text="設定"/>
+	<systext id="358" text="アカウント情報読取失敗しました"/>
+	<systext id="359" text="https://contact.games.dmm.co.jp/game/contact/kyonyufantasyburstx"/>
+	<systext id="360" text="特定商取引法に基づく表示"/>
+	<systext id="361" text="https://www.dmm.co.jp/netgame/game/-/legalcommerce/=/app_id=610774/"/>
+	<systext id="362" text="https://coupon.dmm.com/"/>
+	<systext id="363" text="https://coupon.dmm.co.jp/"/>
+	<systext/>
+	<systext id="861"/>
+	<systext id="862" text="テレシア"/>
+	<systext id="863" text="西條サトル"/>
+	<systext id="864" text="蒼乃むすび"/>
+	<systext id="865" text="166cm"/>
+	<systext id="866" text="B101(J)/W60/H89"/>
+	<systext id="867" text="コミュ障の聖騎士。&#xA;商業王国――通称商都ヴェルン――の辺境の町エルロンで、主人公に聖騎士として仕えている。&#xA;槍の実力はなかなかのものだが、びびりですぐ緊張する。&#xA;おまけにコミュ障で、よく変なことを口走る。&#xA;そのせいか、大会ではあまり実力を発揮できずにいる。"/>
+	<systext/>
+	<systext id="871"/>
+	<systext id="872" text="ソルティナ"/>
+	<systext id="873" text="サブロー"/>
+	<systext id="874" text="柏木逢花"/>
+	<systext id="875" text="162cm"/>
+	<systext id="876" text="B100(J)/W60/H85"/>
+	<systext id="877" text="闇の過去を持つメイド&#xA;商業王国ヴェルン――通称、商都ヴェルン――に住み、主人公とは別の主人にメイドとして仕えている。&#xA;世間的には有能なメイド。巧みに過去や素性を隠しているが、実はフリーランスの暗殺者である。"/>
+	<systext/>
+	<systext id="881"/>
+	<systext id="882" text="黒騎士"/>
+	<systext id="883" text="ぴず"/>
+	<systext id="884" text="渦井ゆきの"/>
+	<systext id="885" text="172cm"/>
+	<systext id="886" text="B120(N)/W68/H97"/>
+	<systext id="887" text="闇の力に取り込まれし者。&#xA;彼女は聖騎士を狩る者である。&#xA;ある時はヴェルンに、ある時はディミニオンに現れ、女神の力を持つ者、すなわち聖騎士を狩って回っている。&#xA;経歴は一切謎。誰もその素性を知らない。"/>
+	<systext/>
+	<systext id="891"/>
+	<systext id="892" text="エスティリエル"/>
+	<systext id="893" text="サブロー"/>
+	<systext id="894" text="美空なつひ"/>
+	<systext id="895" text="165cm"/>
+	<systext id="896" text="B95(G)/W61/H89"/>
+	<systext id="897" text="女神の力の探究者。&#xA;何百年も前から生きている古エルフの生き残りで、物言いが丁寧。&#xA;多くの聖騎士たちの師匠になっている。&#xA;力の謎を突き止めようと諸国を行脚している。"/>
+	<systext/>
+	<systext id="901"/>
+	<systext id="902" text="リュッカ"/>
+	<systext id="903" text="ねぶそく"/>
+	<systext id="904" text="天知遥"/>
+	<systext id="905" text="156cm"/>
+	<systext id="906" text="B94(H)/W66/H84"/>
+	<systext id="907" text="夢追う純朴の傭兵。&#xA;農業の国ファエ――通称、農都ファエ――出身。&#xA;聖騎士への憧れ、聖騎士への夢を捨てられず、農都を出てひとまず傭兵の世界に飛び込んだ。&#xA;目指すは聖騎士の道だが、未来は開けない。その中、主人公に会うことになるのだが――。"/>
+	<systext/>
+	<systext id="911"/>
+	<systext id="912" text="ナターシャ"/>
+	<systext id="913" text="ねぶそく"/>
+	<systext id="914" text="姫川あいり"/>
+	<systext id="915" text="153cm"/>
+	<systext id="916" text="B96(I)/W57/H83"/>
+	<systext id="917" text="ネガティブの聖騎士。&#xA;とにかく自分に自信がない。心のどこかで自分は役立たずなんだと思っている。&#xA;またヘマをしないか……と不安ばかりで、試合ではいつも臆病な姿を見せてしまう。"/>
+	<systext/>
+	<systext id="1101" text="設定"/>
+	<systext id="1102" text="システム"/>
+	<systext id="1103" text="ストーリー"/>
+	<systext id="1104" text="Androidアプリ版"/>
+	<systext id="1105" text="戦闘"/>
+	<systext/>
+	<systext id="1147" text="戦闘速度"/>
+	<systext id="1148" text="X1"/>
+	<systext id="1149" text="X2"/>
+	<systext id="1150" text="X3"/>
+	<systext id="1151" text="スキル演出"/>
+	<systext id="1152" text="「1日1回」に設定すると、各キャラクターのスキル演出は毎日1回目のみ演出が表示されます"/>
+	<systext id="1153" text="1日1回のみ"/>
+	<systext id="1154" text="ON"/>
+	<systext id="1155" text="OFF"/>
+	<systext id="1156" text="AUTO戦闘時の自動発動"/>
+	<systext id="1157" text="手動"/>
+	<systext id="1158" text="自動"/>
+	<systext id="1159" text="戦闘時の設定（AUTO、SPEED）の自動保存"/>
+	<systext id="1160" text="OFF"/>
+	<systext id="1161" text="ON"/>
+	<systext id="1162" text="フレームレート(FPS)"/>
+	<systext id="1163" text="高（60fps）"/>
+	<systext id="1164" text="低（30fps）"/>
+	<systext id="1165" text="画面の向き（Android）"/>
+	<systext id="1166" text="自動"/>
+	<systext id="1167" text="左固定"/>
+	<systext id="1168" text="右固定"/>
+	<systext id="1169" text="音量"/>
+	<systext id="1170" text="BGM"/>
+	<systext id="1171" text="SE"/>
+	<systext id="1172" text="VOICE"/>
+	<systext id="1173" text="テキスト"/>
+	<systext id="1174" text="表示速度"/>
+	<systext id="1175" text="ウィンドウ"/>
+	<systext id="1176" text="戦闘時の設定（AUTO、SPEED）の自動保存"/>
+	<systext id="1177" text="透明度"/>
+	<systext id="1178" text="AP上限"/>
+	<systext id="1179" text="天賦切り替え確認"/>
+	<systext id="1180" text="表示"/>
+	<systext id="1181" text="非表示"/>
+	<systext id="1182" text="デフォルト"/>
+	<systext id="1183" text="OFF"/>
+	<systext id="1184" text="奥義のみ"/>
+	<systext id="1185" text="Pスキル、奥義"/>
+	<systext id="1186" text="BP上限"/>
+	<systext id="1187" text="MIN"/>
+	<systext id="1188" text="MAX"/>
+	<systext id="1189" text="VIDEO"/>
+	<systext id="1190" text="スキルエフェクト"/>
+	<systext id="1191" text="BGV"/>
+	<systext id="1192" text="操作SE"/>
+	<systext id="1193" text="周回中省電力モード"/>
+	<systext id="1194" text="戦闘中では設定できません"/>
+	<systext id="1195" text="戦闘中スリープ防止"/>
+	<systext id="1196" text="戦闘中のみミュート"/>
+	<systext id="1197" text="Pスキルのみ"/>
+	<systext/>
+	<systext id="1201" text="日付切替"/>
+	<systext id="1202" text="毎日03：00に日付が切り替わります"/>
+	<systext/>
+	<systext id="1203" text="AP受取"/>
+	<systext id="1204" text="毎日12：00、18：00にAPを受け取れます&#xA;日付が切り替わるとリセットされます"/>
+	<systext/>
+	<systext id="1205" text="迷宮1"/>
+	<systext id="1206" text="迷宮の挑戦回数は日付が切り替わるとリセットされます&#xA;日付が切り替わってからクリアしても当日の挑戦回数にはカウントされません"/>
+	<systext/>
+	<systext id="1207" text="迷宮2"/>
+	<systext id="1208" text="迷宮の戦闘で離脱した聖騎士は、その挑戦時には戦闘できなくなります&#xA;アイテムを使用するとHPが回復します"/>
+	<systext/>
+	<systext id="1209" text="迷宮3"/>
+	<systext id="1210" text="迷宮の戦闘は時間切れでもクリア失敗になりません&#xA;その状態が記録され、再度挑戦できます"/>
+	<systext/>
+	<systext id="1211" text="救援戦1"/>
+	<systext id="1212" text="救援戦は討伐時間に制限があります&#xA;時間切れになるとクリア失敗となります"/>
+	<systext/>
+	<systext id="1213" text="救援戦2"/>
+	<systext id="1214" text="戦闘に進むと救援を要請できます&#xA;発見報酬も獲得できます"/>
+	<systext/>
+	<systext/>
+	<systext/>
+	<systext/>
+	<systext id="1217" text="資源収集"/>
+	<systext id="1218" text="資源収集の挑戦回数は日付が切り替わるとリセットされます"/>
+	<systext/>
+	<systext id="1219" text="遺跡"/>
+	<systext id="1220" text="遺跡は日によって解放されるクエストが異なります"/>
+	<systext/>
+	<systext id="1221" text="属性相性"/>
+	<systext id="1222" text="属性は水、火、風、聖、魔、想の6種類あります&#xA;それぞれ矢印の方向に有利で、属性ダメージに影響します&#xA;&#xA;水→火、火→風、風→水&#xA;聖→魔、魔→想、想→聖"/>
+	<systext/>
+	<systext id="1223" text="クエスト1"/>
+	<systext id="1224" text="クエストを★3でクリアするとスキップできます"/>
+	<systext/>
+	<systext id="1225" text="クエスト2"/>
+	<systext id="1226" text="戦闘から撤退してもAPは消費されません"/>
+	<systext/>
+	<systext id="1227" text="戦闘1"/>
+	<systext id="1228" text="戦闘中、MENUから聖騎士の状態と戦闘情報が確認できます"/>
+	<systext/>
+	<systext id="1229" text="戦闘2"/>
+	<systext id="1230" text="戦闘情報はスキルの発動時間だけでなく、詳細も確認できます"/>
+	<systext/>
+	<systext id="1231" text="戦闘3"/>
+	<systext id="1232" text="戦闘は時間切れ、あるいはチームの全ての聖騎士が離脱すると失敗となります"/>
+	<systext/>
+	<systext id="1233" text="編成1"/>
+	<systext id="1234" text="1チームにつき、Pスキルを2つ選択できます"/>
+	<systext/>
+	<systext id="1235 " text="編成2"/>
+	<systext id="1236 " text="1チームにつき、聖騎士を6人編成できます&#xA;さらにサポート聖騎士も選択できます"/>
+	<systext/>
+	<systext id="1237" text="Lv突破"/>
+	<systext id="1238" text="Lv突破すると聖騎士のLv上限が上がります"/>
+	<systext/>
+	<systext id="1239" text="装備"/>
+	<systext id="1240" text="聖騎士は武器を1つ、装飾品を5つ装備できます&#xA;装備は同時に複数の聖騎士に対して装備できません"/>
+	<systext/>
+	<systext id="1241" text="戦闘3"/>
+	<systext id="1242" text="戦闘は時間切れ、あるいはチームの全ての聖騎士が離脱すると失敗となります"/>
+	<systext/>
+	<systext id="1243" text="編成1"/>
+	<systext id="1244" text="1チームにつき、Pスキルを2つ選択できます"/>
+	<systext/>
+	<systext id="1245" text="編成2"/>
+	<systext id="1246" text="1チームにつき、聖騎士を6人編成できます&#xA;さらにサポート聖騎士も選択できます"/>
+	<systext/>
+	<systext id="1247" text="Lv突破"/>
+	<systext id="1248" text="Lv突破すると聖騎士のLv上限が上がります"/>
+	<systext/>
+	<systext text="同盟戦1"/>
+	<systext text="同盟戦の開催期間中は、加入、脱退することができません"/>
+	<systext/>
+	<systext text="同盟戦2"/>
+	<systext text="同盟戦は1日3回挑戦できます&#xA;当日戦闘した聖騎士は日付が切り替わるまで戦闘できません"/>
+	<systext/>
+	<systext text="同盟戦3"/>
+	<systext text="同盟戦はメンバーの協力聖騎士がいます&#xA;1日1回戦闘でき、日付が切り替わるとリセットされます"/>
+	<systext/>
+	<systext text="同盟戦4"/>
+	<systext text="同盟戦のBOSSバトルは、&#xA;時間切れ、あるいはチームの全ての聖騎士が離脱してもダメージが記録されます"/>
+	<systext/>
+	<systext/>
+	<systext id="1301" text="演出をスキップしますか？"/>
+	<systext id="1302" text="スキップ確認"/>
+	<systext id="1303" text="スキップしますか？"/>
+	<systext/>
+	<systext id="1400" text="一般版"/>
+	<systext id="1401" text="R-18版"/>
+	<systext/>
+	<systext/>
+	<systext id="1501" text="このゲームは音声が再生されます。&#xA;ご注意ください。"/>
+	<systext/>
+	<systext/>
+	<systext id="1601" text="ストーリー上の名前"/>
+	<systext id="1602" text="音声カットオフ"/>
+	<systext id="1603" text="ルーファス"/>
+	<systext id="1604" text="プレイヤー名"/>
+</root>

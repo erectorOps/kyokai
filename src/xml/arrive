@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="1101" type="常駐RAID" name="火" icon="raid001/火" contribution_reward="10001" show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="1201" type="常駐RAID" name="水" icon="raid001/水" contribution_reward="10002" show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="1301" type="常駐RAID" name="風" icon="raid001/木" contribution_reward="10003" show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="1401" type="常駐RAID" name="聖" icon="raid001/聖" contribution_reward="10004" show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="1501" type="常駐RAID" name="魔" icon="raid001/魔" contribution_reward="10005" show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="1601" type="常駐RAID" name="想" icon="raid001/人" contribution_reward="10006" show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2000" type="活動" activity_mode_id="900000" name="【おπの日】特別クエスト" icon="arrive-1108/event_oppai" hero_group_id="2046" stage_hero_group_id="2064" stage_world_id="5000" shop_id="5000" activity_draw_id="80" show="true">
+		<button_show>交換所</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2199" type="活動" activity_mode_id="9999999" name="【おπの日】特別クエスト" icon="arrive-1108/event_oppai" hero_group_id="2046" stage_hero_group_id="2064" stage_world_id="5000" shop_id="5000" activity_draw_id="80" start_time="2025/02/22 00:00:00" end_time="2025/02/22 23:59:59" close_time="2025/02/22 23:59:59" show="true">
+		<button_show>交換所</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2001" type="活動" activity_mode_id="900001" name="ヴェルン建国記念祭" icon="arrive-2001/event_1" hero_group_id="2068" stage_hero_group_id="2069" stage_world_id="5001" activity_draw_id="7" contribution_reward="200101" contribution_buff_special_id="200101" normal_boss_id="50011" hard_boss_id="50012" very_hard_boss_id="50013" boss_cost_item_id="1201" start_time="2023/09/12 12:00:00" end_time="2023/09/28 12:00:00" close_time="2023/10/12 11:00:00" show="true">
+		<button_show>報酬一覽</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2002" type="活動" activity_mode_id="900002" name="タコタコ、ビーチパニック" icon="arrive-2002/event_2" hero_group_id="2077" stage_hero_group_id="2078" stage_world_id="5002" shop_id="5002" activity_draw_id="12" contribution_buff_special_id="200201" normal_boss_id="50021" hard_boss_id="50022" very_hard_boss_id="50023" boss_cost_item_id="1207" end_time="2023/10/12 11:00:00" close_time="2023/10/26 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2004" type="活動" activity_mode_id="900003" name="裁きの刃" icon="arrive-2004/event_3" hero_group_id="2073" stage_hero_group_id="2074" stage_world_id="5004" shop_id="5003" activity_draw_id="14" contribution_buff_special_id="200401" normal_boss_id="50041" hard_boss_id="50042" very_hard_boss_id="50043" boss_cost_item_id="1213" end_time="2023/10/26 11:00:00" close_time="2023/11/02 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2006" type="活動RAID" activity_mode_id="900004" name="悪玉ハロウィン" icon="arrive-2006/raid_1" hero_group_id="2081" stage_hero_group_id="2082" stage_world_id="5006" shop_id="5006" activity_draw_id="18" contribution_reward="200601" ranking_reward="200601" contribution_buff_special_id="200601" boss_cost_item_id="1220" end_time="2023/11/09 11:00:00" close_time="2023/11/16 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>報酬一覽</button_show>
+		<button_show>排行榜</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2003" type="無雙模式" activity_mode_id="700001" name="想望のアルドラナ" icon="arrive-2003/musou_1" hero_group_id="2071" stage_hero_group_id="2071" stage_world_id="5003" activity_draw_id="13" contribution_reward="200301" ranking_reward="200301" contribution_buff_special_id="200301" end_time="2023/10/13 11:00:00" close_time="2023/10/27 11:00:00" show="true">
+		<button_show>報酬一覽</button_show>
+		<button_show>排行榜</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2005" type="時間塔模式" activity_mode_id="1001" name="美魔女・パーリーピーポー☆" icon="arrive-2005/tower_1" hero_group_id="2076" stage_hero_group_id="2076" stage_world_id="5005" activity_draw_id="17" contribution_buff_special_id="200501" end_time="2023/10/26 11:00:00" close_time="2023/10/26 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive type="頭目連戰模式" activity_mode_id="800001" name="疾走討伐戦" icon="arrive-1/bossrushtest" hero_group_id="2058" stage_hero_group_id="2064" stage_world_id="9999" contribution_reward="4000101" ranking_reward="4000102" end_time="2025/05/01 00:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>排行榜</button_show>
+		<button_show>報酬一覽</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2007" type="無雙模式" activity_mode_id="700002" name="情熱とともに殴りぬ" icon="arrive-2007/musou_2" hero_group_id="2080" stage_hero_group_id="2080" stage_world_id="5007" activity_draw_id="19" contribution_reward="200701" ranking_reward="200701" contribution_buff_special_id="200701" end_time="2023/11/09 11:00:00" close_time="2023/11/16 11:00:00" show="true">
+		<button_show>報酬一覽</button_show>
+		<button_show>排行榜</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2008" type="活動" activity_mode_id="900005" name="血の凶刃" icon="arrive-2008/event_4" hero_group_id="2059" stage_hero_group_id="2086" stage_world_id="5008" shop_id="5008" activity_draw_id="20" contribution_buff_special_id="200801" normal_boss_id="50081" hard_boss_id="50082" very_hard_boss_id="50083" boss_cost_item_id="1226" end_time="2023/11/23 11:00:00" close_time="2023/11/30 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2009" sort="4" type="競擊戰模式" name="競擊戰模式" icon="arrive-limit/2" end_time="2025/03/27 11:00:00" close_time="2025/03/27 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="8000" type="競擊戰模式" name="競擊戰模式" icon="arrive-limit/6" start_time="2025/01/30 11:00:00" end_time="2025/02/11 11:00:00" close_time="2025/02/11 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2010" type="活動" activity_mode_id="900006" name="孤高の聖騎士" icon="arrive-2010/event_5" hero_group_id="2092" stage_hero_group_id="2093" stage_world_id="5010" activity_lottery_id="910006" activity_draw_id="24" contribution_buff_special_id="201001" normal_boss_id="50101" hard_boss_id="50102" very_hard_boss_id="50103" boss_cost_item_id="1235" end_time="2023/11/30 11:00:00" close_time="2023/12/07 11:00:00" show="true">
+		<button_show>一番賞</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2011" type="活動" activity_mode_id="900007" name="踊りの女神に微笑みを" icon="arrive-2011/event_6" hero_group_id="2089" stage_hero_group_id="2090" stage_world_id="5011" shop_id="5011" activity_draw_id="25" contribution_buff_special_id="201101" normal_boss_id="50111" hard_boss_id="50112" very_hard_boss_id="50113" boss_cost_item_id="1239" end_time="2023/12/14 11:00:00" close_time="2023/12/21 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2012" type="時間塔模式" activity_mode_id="900008" name="奴隷の飴" icon="arrive-2012/event_7" hero_group_id="2085" stage_hero_group_id="2085" stage_world_id="5012" activity_draw_id="26" contribution_buff_special_id="201201" end_time="2023/12/14 11:00:00" close_time="2023/12/14 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2013" type="活動" activity_mode_id="900009" name="聖夜祭にクッキーを" icon="arrive-2013/event_8" hero_group_id="2095" stage_hero_group_id="2096" stage_world_id="5013" shop_id="5013" activity_draw_id="28" contribution_buff_special_id="201301" normal_boss_id="50131" hard_boss_id="50132" very_hard_boss_id="50133" boss_cost_item_id="1247" end_time="2023/12/28 11:00:00" close_time="2024/01/04 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2014" type="無雙模式" activity_mode_id="700003" name="揺れよ、乳" icon="arrive-2014/musou_3" hero_group_id="2098" stage_hero_group_id="2098" stage_world_id="5014" activity_draw_id="30" contribution_reward="201401" ranking_reward="201401" contribution_buff_special_id="201401" end_time="2023/12/28 11:00:00" close_time="2024/01/04 11:00:00" show="true">
+		<button_show>報酬一覽</button_show>
+		<button_show>排行榜</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2015" type="活動RAID" activity_mode_id="900010" name="新春の邪竜" icon="arrive-2015/raid_2" hero_group_id="2099" stage_hero_group_id="2100" stage_world_id="5015" shop_id="5015" activity_draw_id="31" contribution_reward="201501" ranking_reward="201501" contribution_buff_special_id="201501" boss_cost_item_id="1254" end_time="2024/01/11 11:00:00" close_time="2024/01/18 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>報酬一覽</button_show>
+		<button_show>排行榜</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2016" type="時間塔模式" activity_mode_id="900011" name="疾風のユニコーン" icon="arrive-2016/event_9" hero_group_id="2088" stage_hero_group_id="2088" stage_world_id="5016" activity_draw_id="35" contribution_buff_special_id="201601" end_time="2024/01/11 11:00:00" close_time="2024/01/18 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2018" type="活動" activity_mode_id="900012" name="審眼の女" icon="arrive-2018/event_11" hero_group_id="2050" stage_hero_group_id="2102" stage_world_id="5018" shop_id="5018" activity_draw_id="37" contribution_buff_special_id="201801" normal_boss_id="50181" hard_boss_id="50182" very_hard_boss_id="50183" boss_cost_item_id="1262" end_time="2024/01/25 11:00:00" close_time="2024/02/01 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2019" type="無雙模式" activity_mode_id="700004" name="エルロンの幽霊" icon="arrive-2019/musou_4" hero_group_id="2104" stage_hero_group_id="2104" stage_world_id="5019" activity_draw_id="38" contribution_reward="201901" ranking_reward="201901" contribution_buff_special_id="201901" end_time="2024/01/25 11:00:00" close_time="2024/02/01 11:00:00" show="true">
+		<button_show>報酬一覽</button_show>
+		<button_show>排行榜</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2020" type="活動" activity_mode_id="900013" name="毒と勝利" icon="arrive-2020/event_12" hero_group_id="2105" stage_hero_group_id="2106" stage_world_id="5020" shop_id="5020" activity_draw_id="41" contribution_buff_special_id="202001" normal_boss_id="50201" hard_boss_id="50202" very_hard_boss_id="50203" boss_cost_item_id="1271" end_time="2024/02/08 11:00:00" close_time="2024/02/15 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2021" type="活動RAID" activity_mode_id="900014" name="馬に願いを" icon="arrive-2021/event_13" hero_group_id="2110" stage_hero_group_id="2109" stage_world_id="5021" shop_id="5021" activity_draw_id="45" contribution_reward="202101" ranking_reward="202101" contribution_buff_special_id="202101" boss_cost_item_id="1278" end_time="2024/02/22 11:00:00" close_time="2024/02/29 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>報酬一覽</button_show>
+		<button_show>排行榜</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2022" type="時間塔模式" activity_mode_id="900015" name="ぬいぐるみの孤児" icon="arrive-2022/event_14" hero_group_id="2112" stage_hero_group_id="2112" stage_world_id="5022" activity_draw_id="46" end_time="2024/02/22 11:00:00" close_time="2024/02/29 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="8001" sort="5" type="公會戰" name="同盟戰" icon="arrive-guild/3" start_time="2025/03/10 03:00:00" end_time="2025/03/17 03:00:00" close_time="2025/03/17 03:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2922" type="活動" activity_mode_id="900016" name="バーストフェス" icon="arrive-2922/event_fes" hero_group_id="2113" stage_hero_group_id="2113" stage_world_id="5922" activity_lottery_id="910016" activity_draw_id="48" contribution_buff_special_id="292201" normal_boss_id="59221" hard_boss_id="59222" very_hard_boss_id="59223" boss_cost_item_id="1284" end_time="2024/02/29 11:00:00" close_time="2024/03/07 11:00:00" show="true">
+		<button_show>一番賞</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2023" type="活動" activity_mode_id="900017" name="双剣の門" icon="arrive-2023/event_15" hero_group_id="2114" stage_hero_group_id="2115" stage_world_id="5023" shop_id="5023" activity_draw_id="49" contribution_buff_special_id="202301" normal_boss_id="50231" hard_boss_id="50232" very_hard_boss_id="50233" boss_cost_item_id="1288" end_time="2024/03/14 11:00:00" close_time="2024/03/21 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2024" type="無雙模式" activity_mode_id="700005" name="お菓子と獣" icon="arrive-2024/musou_5" hero_group_id="2118" stage_hero_group_id="2118" stage_world_id="5024" activity_draw_id="50" contribution_reward="202401" ranking_reward="202401" contribution_buff_special_id="202401" end_time="2024/03/14 11:00:00" close_time="2024/03/21 11:00:00" show="true">
+		<button_show>報酬一覽</button_show>
+		<button_show>排行榜</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2025" type="活動" activity_mode_id="900018" name="プロジェクト・バニー" icon="arrive-2025/halfyear" hero_group_id="2119" stage_hero_group_id="2119" stage_world_id="5025" activity_lottery_id="910026" activity_draw_id="55" contribution_buff_special_id="202501" normal_boss_id="50251" hard_boss_id="50252" very_hard_boss_id="50253" boss_cost_item_id="1296" end_time="2024/03/21 11:00:00" close_time="2024/03/28 11:00:00" show="true">
+		<button_show>一番賞</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="8101" type="投票" activity_mode_id="201" name="【0.5周年】人気聖騎士総選挙" icon="arrive-2000/vote" end_time="2024/03/28 11:00:00" close_time="2024/04/04 11:00:00" show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2026" type="活動RAID" activity_mode_id="900019" name="脂肪は正義、否、悪魔" icon="arrive-2026/event_16" hero_group_id="2120" stage_hero_group_id="2121" stage_world_id="5026" shop_id="5026" activity_draw_id="57" contribution_reward="202601" ranking_reward="202601" contribution_buff_special_id="202601" boss_cost_item_id="1303" end_time="2024/04/04 11:00:00" close_time="2024/04/11 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>報酬一覽</button_show>
+		<button_show>排行榜</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2027" type="時間塔模式" activity_mode_id="900020" name="復活の母乳" icon="arrive-2027/event_17" hero_group_id="2123" stage_hero_group_id="2123" stage_world_id="5027" activity_draw_id="59" end_time="2024/04/04 11:00:00" close_time="2024/04/11 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2028" type="活動" activity_mode_id="900021" name="【PLAYER版リリース紀念】クエスト" icon="arrive-2028/event_18" hero_group_id="2124" stage_hero_group_id="2124" stage_world_id="5028" activity_lottery_id="910036" activity_draw_id="61" contribution_buff_special_id="202801" normal_boss_id="50281" hard_boss_id="50282" very_hard_boss_id="50283" boss_cost_item_id="1312" end_time="2024/04/11 11:00:00" close_time="2024/04/18 11:00:00" show="true">
+		<button_show>一番賞</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2928" type="活動" activity_mode_id="900022" name="裁きの刃" icon="arrive-2028/event_3" hero_group_id="2073" stage_hero_group_id="2074" stage_world_id="5928" activity_draw_id="62" end_time="2024/04/11 11:00:00" close_time="2024/04/18 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2029" type="活動" activity_mode_id="900023" name="魔女、ふたり" icon="arrive-2029/event_19" hero_group_id="2125" stage_hero_group_id="2125" stage_world_id="5029" shop_id="5029" activity_draw_id="63" contribution_buff_special_id="202901" normal_boss_id="50291" hard_boss_id="50292" very_hard_boss_id="50293" boss_cost_item_id="1317" end_time="2024/04/18 11:00:00" close_time="2024/04/25 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2929" type="活動" activity_mode_id="900024" name="美魔女・パーリーピーポー☆" icon="arrive-2029/tower_1" hero_group_id="2076" stage_hero_group_id="2076" stage_world_id="5929" activity_draw_id="64" end_time="2024/04/18 11:00:00" close_time="2024/04/25 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2030" type="活動" activity_mode_id="900025" name="バーストフェス" icon="arrive-2030/event_fes3" hero_group_id="2126" stage_hero_group_id="2126" stage_world_id="5030" activity_lottery_id="910046" activity_draw_id="70" contribution_buff_special_id="203001" normal_boss_id="50301" hard_boss_id="50302" very_hard_boss_id="50303" boss_cost_item_id="1326" end_time="2024/04/25 11:00:00" close_time="2024/05/02 11:00:00" show="true">
+		<button_show>一番賞</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2031" type="活動" activity_mode_id="900026" name="GO! FIGHT! WIN!!" icon="arrive-2031/event_20" hero_group_id="2127" stage_hero_group_id="2128" stage_world_id="5031" shop_id="5031" activity_draw_id="71" contribution_buff_special_id="203101" normal_boss_id="50311" hard_boss_id="50312" very_hard_boss_id="50313" boss_cost_item_id="1330" end_time="2024/05/09 11:00:00" close_time="2024/05/16 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2931" type="活動" activity_mode_id="900027" name="想望のアルドラナ" icon="arrive-2931/musou_1" hero_group_id="2071" stage_hero_group_id="2071" stage_world_id="5931" activity_draw_id="74" end_time="2024/05/09 11:00:00" close_time="2024/05/16 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2032" type="活動PVP" activity_mode_id="900028" name="【Fanzine】クエスト" icon="arrive-2032/event_21" hero_group_id="2130" stage_hero_group_id="2130" stage_world_id="5032" activity_draw_id="77" end_time="2024/05/16 11:00:00" close_time="2024/05/23 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2033" type="活動RAID" activity_mode_id="900029" name="隣国の魔獣狩り女" icon="arrive-2033/event_22" hero_group_id="2131" stage_hero_group_id="2132" stage_world_id="5033" shop_id="5033" activity_draw_id="79" contribution_reward="203301" ranking_reward="203301" contribution_buff_special_id="203301" boss_cost_item_id="1340" end_time="2024/05/30 11:00:00" close_time="2024/06/06 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>報酬一覽</button_show>
+		<button_show>排行榜</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2034" type="活動PVP" activity_mode_id="900030" name="【Fanzine】クエスト" icon="arrive-2034/event_23" hero_group_id="2134" stage_hero_group_id="2134" stage_world_id="5034" activity_draw_id="83" end_time="2024/05/30 11:00:00" close_time="2024/06/06 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2035" type="活動" activity_mode_id="900031" name="No more bet" icon="arrive-2035/event_24" hero_group_id="2135" stage_hero_group_id="2136" stage_world_id="5035" shop_id="5035" activity_draw_id="85" contribution_buff_special_id="203501" normal_boss_id="50351" hard_boss_id="50352" very_hard_boss_id="50353" boss_cost_item_id="1347" end_time="2024/06/13 11:00:00" close_time="2024/06/20 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="8102" type="投票" activity_mode_id="202" name="コスチューム追加投票" icon="arrive-2000/vote1" end_time="2024/06/20 11:00:00" close_time="2024/06/27 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2037" type="活動" activity_mode_id="900032" name="物資調達" icon="arrive-2037/event_25" hero_group_id="2050" stage_hero_group_id="2062" stage_world_id="5037" shop_id="2001" end_time="2024/06/20 11:00:00" close_time="2024/06/27 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2038" type="活動RAID" activity_mode_id="900033" name="花嫁の恵み" icon="arrive-2038/event_26" hero_group_id="2140" stage_hero_group_id="2141" stage_world_id="5038" shop_id="5038" activity_draw_id="91" contribution_reward="203801" ranking_reward="203801" contribution_buff_special_id="203801" normal_boss_id="50381" hard_boss_id="50382" very_hard_boss_id="50383" boss_cost_item_id="1360" end_time="2024/07/04 11:00:00" close_time="2024/07/11 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>報酬一覽</button_show>
+		<button_show>排行榜</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2039" type="活動PVP" activity_mode_id="900034" name="【Fanzine】クエスト" icon="arrive-2039/event_27" hero_group_id="2143" stage_hero_group_id="2143" stage_world_id="5039" activity_draw_id="93" end_time="2024/07/04 11:00:00" close_time="2024/07/11 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2040" type="活動" activity_mode_id="900035" name="洞窟に潜むもの" icon="arrive-2040/event_28" hero_group_id="2144" stage_hero_group_id="2145" stage_world_id="5040" shop_id="5039" activity_draw_id="94" contribution_buff_special_id="204001" normal_boss_id="50401" hard_boss_id="50402" very_hard_boss_id="50403" boss_cost_item_id="1367" end_time="2024/07/18 11:00:00" close_time="2024/07/25 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2041" type="無雙模式" activity_mode_id="700006" name="天と痴と" icon="arrive-2041/musou_6" hero_group_id="2147" stage_hero_group_id="2147" stage_world_id="5041" activity_draw_id="97" contribution_reward="204101" ranking_reward="204101" contribution_buff_special_id="204101" end_time="2024/07/18 11:00:00" close_time="2024/07/25 11:00:00" show="true">
+		<button_show>報酬一覽</button_show>
+		<button_show>排行榜</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2042" type="活動" activity_mode_id="900036" name="バーストフェス" icon="arrive-2042/event_fes4" hero_group_id="2148" stage_hero_group_id="2148" stage_world_id="5042" activity_lottery_id="910056" activity_draw_id="99" contribution_buff_special_id="204201" normal_boss_id="50421" hard_boss_id="50422" very_hard_boss_id="50423" boss_cost_item_id="1374" end_time="2024/07/25 11:00:00" close_time="2024/08/01 11:00:00" show="true">
+		<button_show>一番賞</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2043" type="活動RAID" activity_mode_id="900037" name="タコ帝国の逆襲" icon="arrive-2043/event_29" hero_group_id="2149" stage_hero_group_id="2150" stage_world_id="5043" shop_id="5040" activity_draw_id="104" contribution_reward="204301" ranking_reward="204301" contribution_buff_special_id="204301" normal_boss_id="50431" hard_boss_id="50432" very_hard_boss_id="50433" boss_cost_item_id="1379" end_time="2024/08/08 11:00:00" close_time="2024/08/15 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>報酬一覽</button_show>
+		<button_show>排行榜</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2044" type="活動" activity_mode_id="900038" name="【Fanzine】クエスト" icon="arrive-2044/event_30" hero_group_id="2152" stage_hero_group_id="2152" stage_world_id="5044" activity_draw_id="105" mini_game_id="1" end_time="2024/08/08 11:00:00" close_time="2024/08/15 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2944" type="活動" activity_mode_id="900039" name="タコタコ、ビーチパニック" icon="arrive-2944/event_2" hero_group_id="2077" stage_hero_group_id="2078" stage_world_id="5944" activity_draw_id="106" end_time="2024/08/08 11:00:00" close_time="2024/08/15 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2045" type="活動" activity_mode_id="900040" name="太陽と月" icon="arrive-2045/event_31" hero_group_id="2153" stage_hero_group_id="2154" stage_world_id="5045" shop_id="5045" activity_draw_id="108" contribution_buff_special_id="204501" normal_boss_id="50451" hard_boss_id="50452" very_hard_boss_id="50453" boss_cost_item_id="1396" end_time="2024/08/22 11:00:00" close_time="2024/08/29 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="9000" sort="1" type="地城" name="地城" icon="arrive-2000/deep" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="3000" type="活動" name="おπの月特別クエスト" icon="arrive-1108/event_oppaimonth" hero_group_id="2078" stage_hero_group_id="2078" stage_world_id="3000" shop_id="5100" activity_draw_id="9997" start_time="2024/08/01  00:00:00" end_time="2024/09/01  00:00:00" close_time="2024/09/01  00:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2046" type="時間塔模式" activity_mode_id="900041" name="風、纏いて" icon="arrive-2046/event_32" hero_group_id="2156" stage_hero_group_id="2156" stage_world_id="5046" activity_draw_id="109" end_time="2024/08/22 11:00:00" close_time="2024/08/29 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2047" type="活動RAID" activity_mode_id="900042" name="真夏の大空祭" icon="arrive-2047/event_33" hero_group_id="2157" stage_hero_group_id="2158" stage_world_id="5047" shop_id="5047" activity_draw_id="111" contribution_reward="204701" ranking_reward="204701" contribution_buff_special_id="204701" normal_boss_id="50471" hard_boss_id="50472" very_hard_boss_id="50473" boss_cost_item_id="1404" end_time="2024/09/05 11:00:00" close_time="2024/09/12 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>報酬一覽</button_show>
+		<button_show>排行榜</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2048" type="活動PVP" activity_mode_id="900043" name="【Fanzine】クエスト" icon="arrive-2048/event_34" hero_group_id="2160" stage_hero_group_id="2160" stage_world_id="5048" activity_draw_id="112" end_time="2024/09/05 11:00:00" close_time="2024/09/12 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2049" type="活動" activity_mode_id="900044" name="物資調達" icon="arrive-2049/event_35" hero_group_id="2098" stage_hero_group_id="2085" stage_world_id="5049" shop_id="2004" end_time="2024/09/12 11:00:00" close_time="2024/09/19 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="8103" type="投票" activity_mode_id="203" name="【0.5周年】人気聖騎士総選挙" icon="arrive-2000/vote2" end_time="2024/09/19 11:00:00" close_time="2024/09/26 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2149" type="活動" activity_mode_id="900045" name="【一周年】特別クエスト" icon="arrive-2049/event_36" hero_group_id="2046" stage_hero_group_id="2064" stage_world_id="5149" end_time="2024/09/26 11:00:00" close_time="2024/10/03 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2050" type="活動RAID" activity_mode_id="900046" name="巨大魔獣、襲来" icon="arrive-2050/event_37" hero_group_id="2164" stage_hero_group_id="2163" stage_world_id="5050" shop_id="5050" activity_draw_id="118" contribution_reward="205001" ranking_reward="205001" contribution_buff_special_id="205001" normal_boss_id="50501" hard_boss_id="50502" very_hard_boss_id="50503" boss_cost_item_id="1421" end_time="2024/09/26 11:00:00" close_time="2024/10/03 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>報酬一覽</button_show>
+		<button_show>排行榜</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2051" type="活動" activity_mode_id="900047" name="ヴェルン建国記念祭" icon="arrive-2051/event_38" hero_group_id="2068" stage_hero_group_id="2069" stage_world_id="5051" activity_draw_id="122" end_time="2024/09/26 11:00:00" close_time="2024/10/03 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2052" type="活動" activity_mode_id="900048" name="乳魔に狙われて" icon="arrive-2052/event_39" hero_group_id="2166" stage_hero_group_id="2166" stage_world_id="5052" activity_lottery_id="910066" activity_draw_id="125" contribution_buff_special_id="205201" normal_boss_id="50521" hard_boss_id="50522" very_hard_boss_id="50523" boss_cost_item_id="1432" end_time="2024/10/03 11:00:00" close_time="2024/10/10 11:00:00" show="true">
+		<button_show>一番賞</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2053" type="活動" activity_mode_id="900049" name="【Fanzine】クエスト" icon="arrive-2053/event_40" hero_group_id="2167" stage_hero_group_id="2167" stage_world_id="5053" activity_draw_id="127" mini_game_id="2" end_time="2024/10/10 11:00:00" close_time="2024/10/17 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2054" type="活動RAID" activity_mode_id="900050" name="にじげんカノジョコラボ　～ようこそ、異世界へ～" icon="arrive-2054/event_41" hero_group_id="2168" stage_hero_group_id="2169" stage_world_id="5054" shop_id="5051" activity_draw_id="128" contribution_reward="205401" ranking_reward="205401" contribution_buff_special_id="205401" normal_boss_id="50541" hard_boss_id="50542" very_hard_boss_id="50543" boss_cost_item_id="1441" end_time="2024/10/24 11:00:00" close_time="2024/10/31 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>報酬一覽</button_show>
+		<button_show>排行榜</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2055" type="活動" activity_mode_id="900051" name="【Fanzine】クエスト" icon="arrive-2055/event_42" hero_group_id="2171" stage_hero_group_id="2171" stage_world_id="5055" activity_draw_id="130" mini_game_id="3" end_time="2024/10/24 11:00:00" close_time="2024/10/31 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2056" type="活動" activity_mode_id="900052" name="大淫鬼ハロウィン" icon="arrive-2056/event_43" hero_group_id="2172" stage_hero_group_id="2173" stage_world_id="5056" shop_id="5056" activity_draw_id="134" contribution_buff_special_id="205601" normal_boss_id="50561" hard_boss_id="50562" very_hard_boss_id="50563" boss_cost_item_id="1452" end_time="2024/11/07 11:00:00" close_time="2024/11/14 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2057" type="活動" activity_mode_id="900053" name="悪玉ハロウィン" icon="arrive-2057/event_44" hero_group_id="2081" stage_hero_group_id="2082" stage_world_id="5057" activity_draw_id="136" end_time="2024/11/07 11:00:00" close_time="2024/11/14 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2957" type="投票" activity_mode_id="204" name="聖騎士覚醒投票" icon="arrive-2057/vote3" end_time="2024/11/14 11:00:00" close_time="2024/11/28 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2058" type="頭目連戰模式" activity_mode_id="900054" name="俺の妹は水兵さん" icon="arrive-2058/event_45" hero_group_id="2175" stage_hero_group_id="2175" stage_world_id="5058" activity_draw_id="138" contribution_reward="205801" ranking_reward="205801" contribution_buff_special_id="205801" end_time="2024/11/14 11:00:00" close_time="2024/11/21 11:00:00" show="true">
+		<button_show>報酬一覽</button_show>
+		<button_show>排行榜</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2958" type="活動" activity_mode_id="900055" name="【いいおπの日】特別クエスト" icon="arrive-2058/event_iioppaiday" hero_group_id="2176" stage_hero_group_id="2176" stage_world_id="5958" activity_draw_id="140" start_time="2024/11/08 00:00:00" end_time="2024/11/15 00:00:00" close_time="2024/11/15 00:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2059" type="活動RAID" activity_mode_id="900056" name="エルロンの収穫祭" icon="arrive-2059/event_46" hero_group_id="2177" stage_hero_group_id="2178" stage_world_id="5059" shop_id="5059" activity_draw_id="142" contribution_reward="205901" ranking_reward="205901" contribution_buff_special_id="205901" normal_boss_id="50591" hard_boss_id="50592" very_hard_boss_id="50593" boss_cost_item_id="1464" end_time="2024/11/28 11:00:00" close_time="2024/12/05 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>報酬一覽</button_show>
+		<button_show>排行榜</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2060" type="活動" activity_mode_id="900057" name="踊りの女神に微笑みを" icon="arrive-2060/event_47" hero_group_id="2089" stage_hero_group_id="2090" stage_world_id="5060" activity_draw_id="143" end_time="2024/11/28 11:00:00" close_time="2024/12/05 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2061" type="活動" activity_mode_id="900058" name="【Fanzine】クエスト" icon="arrive-2061/event_48" hero_group_id="2181" stage_hero_group_id="2181" stage_world_id="5061" activity_draw_id="148" mini_game_id="4" end_time="2024/12/05 11:00:00" close_time="2024/12/12 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2062" type="活動" activity_mode_id="900059" name="バーストフェス" icon="arrive-2062/event_fes6" hero_group_id="2180" stage_hero_group_id="2180" stage_world_id="5062" activity_lottery_id="910076" activity_draw_id="149" contribution_buff_special_id="206201" normal_boss_id="50621" hard_boss_id="50622" very_hard_boss_id="50623" boss_cost_item_id="1477" end_time="2024/12/12 11:00:00" close_time="2024/12/19 11:00:00" show="true">
+		<button_show>一番賞</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="8104" type="投票" activity_mode_id="205" name="コスチューム追加投票" icon="arrive-2000/vote1" end_time="2024/12/26 11:00:00" close_time="2025/1/2 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2063" type="活動" activity_mode_id="900060" name="誰ぞ　聖夜の恵み手よ" icon="arrive-2063/event_49" hero_group_id="2184" stage_hero_group_id="2185" stage_world_id="5063" shop_id="5061" activity_draw_id="152" contribution_buff_special_id="206301" normal_boss_id="50631" hard_boss_id="50632" very_hard_boss_id="50633" boss_cost_item_id="1482" end_time="2024/12/26 11:00:00" close_time="2025/01/02 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2064" type="時間塔模式" activity_mode_id="900061" name="天使なあの娘はエロが好き" icon="arrive-2064/event_50" hero_group_id="2187" stage_hero_group_id="2187" stage_world_id="5064" activity_draw_id="153" end_time="2024/12/26 11:00:00" close_time="2025/01/02 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2065" type="活動RAID" activity_mode_id="900062" name="新年、来たりて" icon="arrive-2065/event_51" hero_group_id="2188" stage_hero_group_id="2189" stage_world_id="5065" shop_id="5065" activity_draw_id="155" contribution_reward="206501" ranking_reward="206501" contribution_buff_special_id="206501" normal_boss_id="50651" hard_boss_id="50652" very_hard_boss_id="50653" boss_cost_item_id="1491" end_time="2025/01/09 11:00:00" close_time="2025/01/16 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>報酬一覽</button_show>
+		<button_show>排行榜</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2066" type="活動" activity_mode_id="900063" name="聖夜祭にクッキーを" icon="arrive-2065/event_52" hero_group_id="2095" stage_hero_group_id="2096" stage_world_id="5066" activity_draw_id="156" end_time="2025/01/02 11:00:00" close_time="2025/01/09 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2166" type="活動" activity_mode_id="900064" name="【お正月】特別クエスト" icon="arrive-2065/event_53" hero_group_id="2190" stage_hero_group_id="2190" stage_world_id="5166" start_time="2025/01/01 00:00:00" end_time="2025/01/16 11:00:00" close_time="2025/01/23 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2067" type="活動" activity_mode_id="900065" name="【Fanzine】クエスト" icon="arrive-2067/event_54" hero_group_id="2191" hero_face="笑顔" stage_hero_group_id="2191" stage_hero_face="笑顔" stage_world_id="5067" activity_draw_id="161" mini_game_id="5" start_time="2025/01/02 11:00:00" end_time="2025/01/16 11:00:00" close_time="2025/01/23 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2068" type="活動" activity_mode_id="900066" name="【Fanzine】クエスト" icon="arrive-2068/event_55" hero_group_id="2192" hero_face="笑顔" stage_hero_group_id="2192" stage_hero_face="笑顔" stage_world_id="5068" shop_id="5068" activity_draw_id="163" contribution_buff_special_id="206801" mini_game_id="6" end_time="2025/01/16 11:00:00" close_time="2025/01/23 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2968" type="活動" activity_mode_id="900067" name="新春の邪竜" icon="arrive-2068/event_56" hero_group_id="2099" stage_hero_group_id="2100" stage_world_id="5968" activity_draw_id="164" end_time="2025/01/16 11:00:00" close_time="2025/01/23 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2069" type="活動" activity_mode_id="900068" name="３姉妹は崖っぷち" icon="arrive-2069/event_57" hero_group_id="2193" stage_hero_group_id="2194" stage_world_id="5069" shop_id="5069" activity_draw_id="165" contribution_buff_special_id="206901" normal_boss_id="50691" hard_boss_id="50692" very_hard_boss_id="50693" boss_cost_item_id="1511" end_time="2025/01/30 11:00:00" close_time="2025/02/06 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2070" type="活動" activity_mode_id="900069" name="物資調達" icon="arrive-2070/event_58" hero_group_id="2177" stage_hero_group_id="2177" stage_world_id="5070" shop_id="2007" end_time="2025/01/30 11:00:00" close_time="2025/02/06 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2071" type="活動" activity_mode_id="900070" name="【Fanzine】クエスト" icon="arrive-2071/event_59" hero_group_id="2197" stage_hero_group_id="2197" stage_world_id="5071" activity_draw_id="168" mini_game_id="7" start_time="2025/01/30 11:00:00" end_time="2025/02/06 11:00:00" close_time="2025/02/13 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2072" type="活動RAID" activity_mode_id="900071" name="聖菓のために、我ゆかん" icon="arrive-2072/event_60" hero_group_id="2198" hero_face="微笑み" stage_hero_group_id="2199" stage_world_id="5072" shop_id="5072" activity_draw_id="171" contribution_reward="207201" ranking_reward="207201" contribution_buff_special_id="207201" normal_boss_id="507201" hard_boss_id="507202" very_hard_boss_id="507203" boss_cost_item_id="1525" end_time="2025/02/20 11:00:00" close_time="2025/02/27 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>報酬一覽</button_show>
+		<button_show>排行榜</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2073" type="頭目連戰模式" activity_mode_id="900072" name="オッパイ大好きな俺と、生真面目ナース" icon="arrive-2073/event_61" hero_group_id="2205" stage_hero_group_id="2205" stage_world_id="5073" activity_draw_id="172" contribution_reward="207301" ranking_reward="207301" contribution_buff_special_id="207301" end_time="2025/02/20 11:00:00" close_time="2025/02/27 11:00:00" show="true">
+		<button_show>報酬一覽</button_show>
+		<button_show>排行榜</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2074" type="活動" activity_mode_id="900073" name="バーストフェス" icon="arrive-2074/event_fes7" hero_group_id="2202" stage_hero_group_id="2202" stage_world_id="5074" activity_lottery_id="910086" activity_draw_id="174" contribution_buff_special_id="207401" normal_boss_id="50741" hard_boss_id="50742" very_hard_boss_id="50743" boss_cost_item_id="1533" end_time="2025/03/03 11:00:00" close_time="2025/03/06 11:00:00" show="true">
+		<button_show>一番賞</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2974" type="活動" activity_mode_id="900074" name="馬に願いを" icon="arrive-2074/event_62" hero_group_id="2109" stage_hero_group_id="2110" stage_world_id="5974" activity_draw_id="175" end_time="2025/03/03 11:00:00" close_time="2025/03/06 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2075" sort="8" type="活動" activity_mode_id="900075" name="【Fanzine】クエスト" icon="arrive-2075/event_63" hero_group_id="2201" stage_hero_group_id="2201" stage_world_id="5075" activity_draw_id="179" ap_bonus_hero_special_id="207501" ap_bonus_stage_site_id="50750116" mini_game_id="8" end_time="2025/03/06 11:00:00" close_time="2025/03/13 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2076" sort="6" type="活動" activity_mode_id="900076" name="物資調達" icon="arrive-2076/event_64" hero_group_id="2119" stage_hero_group_id="2119" stage_world_id="5076" shop_id="2010" end_time="2025/03/13 11:00:00" close_time="2025/03/20 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2976" sort="7" type="活動" activity_mode_id="900077" name="双剣の門" icon="arrive-2076/event_65" hero_group_id="2114" stage_hero_group_id="2115" stage_world_id="5976" activity_draw_id="184" start_time="2025/03/10 11:00:00" end_time="2025/03/20 11:00:00" close_time="2025/03/27 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2876" sort="2" type="投票" activity_mode_id="206" name="第2回聖騎士覚醒投票" icon="arrive-2076/vote" end_time="2025/03/20 11:00:00" close_time="2025/03/27 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2077" sort="3" type="活動" activity_mode_id="900078" name="【1.5周年】特別クエスト" icon="arrive-2077/event_66" hero_group_id="2206" stage_hero_group_id="2206" stage_world_id="5077" shop_id="9008" end_time="2025/03/27 11:00:00" close_time="2025/04/03 11:00:00" show="true">
+		<button_show>交換所</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+</root>

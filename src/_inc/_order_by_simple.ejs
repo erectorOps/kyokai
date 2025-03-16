@@ -1,0 +1,14 @@
+<tr><th>キャラ</th><th>レア</th><th>属性</th><th>隊列</th><th>行動速度</th><th>役割</th></tr>
+<% for (let i = 0; i < page.heros.length; i++) { %>
+    <% let item = page.heros[i]; %>    
+    <tr>
+        <td class="center">
+            <a class="s-link" href="./hero/<%= item.id %>.html"><img src="./img/hero/<%= item.id %>.png" class="s-img" alt="<%= item.altname %>の画像"><%- item.name %></a>
+        </td>
+        <td class="center"><%= item.rare %></td>
+        <td class="center"><%= item.attr %><%= item.atk_attr %></td>
+        <td class="center" data-range="<%= item.range %>"><%= item.position %></td>
+        <td class="center"><%= item.atk_speed %></td>
+        <td class="center"><%= item.role_set %></td>
+    </tr>  
+<% } %>      

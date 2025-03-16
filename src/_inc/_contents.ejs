@@ -1,0 +1,166 @@
+<div id="wrapper" class="style-wrapper">
+    <table class="s-table">
+        <tbody>
+            <tr>
+                <th colspan="3" width="100%"><%- page['name'] %></th>
+            </tr>
+
+            <tr><th width="25%">レアリティ</th><td colspan="2"><%= page['rare'] %></td></tr>
+            <tr><th width="25%">レベル</th><td colspan="2"><%= page['lv'] %></td></tr>
+            <tr><th width="25%">属性</th><td colspan="2"><%= page['attr'] %></td></tr>
+            <tr><th width="25%">攻撃</th><td colspan="2"><%= page['atk_attr'] %></td></tr>
+            <tr><th width="25%">武器</th><td colspan="2"><%= page['equip_type'] %></td></tr>
+            <tr><th width="25%">隊列</th><td colspan="2"><%= page['position'] %> (射程：<%= page['range'] %>)</td></tr>
+            <tr><th width="25%">役割</th><td colspan="2"><%= page['role_set'] %></td></tr>
+            <tr><th width="25%">行動速度</th><td colspan="2"><%= page['atk_speed'] %></td></tr>
+            <tr><th width="25%">サポート</th><td colspan="2"><%- page['support'] %></td></tr>
+            <tr><th width="25%">サポートボーナス</th><td colspan="2"><%= page['feature'] %></td></tr>
+
+
+            <tr><th width="33%">HP</th><th width="33%">治癒</th><th width="33%">HP回復</th></tr>
+            <tr><td class="center"><%= page['hp'] %></td><td class="center"><%= page['healing_power'] %></td><td class="center"><%= page['end_hp_recovery'] %></td></tr>
+            <tr><th>物理攻撃</th><th>物理クリ</th><th>MP回復</th></tr>
+            <tr><td class="center"><%= page['atk'] %></td><td class="center"><%= (parseInt(page['atk_crit']) * 0.05).toFixed(2) + "%" %></td><td class="center"><%= page['end_mp_recovery'] %></td></tr>
+            <tr><th>魔法攻撃</th><th>魔法クリ</th><th>HP吸収</th></tr>
+            <tr><td class="center"><%= page['matk'] %></td><td class="center"><%= (parseInt(page['matk_crit']) * 0.05).toFixed(2) + "%" %></td><td class="center"><%= page['dmg_suck_hp'] %></td></tr>
+            <tr><th>物理防御</th><th>魔法防御</th><th>MPチャージ</th></tr>
+            <tr><td class="center"><%= page['def'] %></td><td class="center"><%= page['mdef'] %></td><td class="center"><%= page['mp_recovery'] %></td></tr>
+            <tr><th>命中</th><th>ブロック</th><th>MP消費減少</th></tr>
+            <tr><td class="center"><%= page['hit'] %></td><td class="center"><%= page['block'] %></td><td class="center"><%= page['mp_cost_down'] %></td></tr>
+            </tbody>
+        </tbody>
+    </table>
+
+    <h3 class="s-header--3">行動タイムライン</h3>
+
+    <div class="table-scroll">
+        <% for (let i = 0; i < page['first_skill_order'].length; i++) { %>
+          <% let c = page['first_skill_order'][i]; %>
+          <% if (c === '/') { %>
+            <span class="dli-arrow-right"></span>
+          <% } else if (c === '0') { %>
+            <span class="attack">攻撃</span>
+          <% } else if (c === '1') { %>
+            <span class="skill">ｽｷﾙ1</span>
+          <% } else if (c === '2') { %>
+            <span class="skill">ｽｷﾙ2</span>
+          <% } %> 
+        <% } %>
+        <span class="dli-arrow-right"></span>
+        <div class="loop">
+            <span class="loop-text">LOOP</span>
+            <% for (let i = 0; i < page['loop_skill_order'].length; i++) { %>
+              <% let c = page['loop_skill_order'][i]; %>
+              <% if (c === '/') { %>
+                <span class="dli-arrow-right"></span>
+              <% } else if (c === '0') { %>
+                <span class="attack">攻撃</span>
+              <% } else if (c === '1') { %>
+                <span class="skill">ｽｷﾙ1</span>
+              <% } else if (c === '2') { %>
+                <span class="skill">ｽｷﾙ2</span>
+              <% } %> 
+            <% } %>            
+        </div>
+    </div>
+
+    <h3 class="s-header--3">奥義</h3>
+    <% if (page.passive3) { %>
+      <table class="s-table">
+        <tbody>
+          <tr><th width="100%" colspan="2"><div><%- page.awake_ubskills[0].name %></div></th></tr>
+          <% for (let i = page.awake_ubskills.length - 1; i >= 0; i--) { %>
+          <tr><th width="20%">Lv:<%= i+1 %></th><td class="center"><%- page.awake_ubskills[i].text %></td></tr>
+          <% } %>
+        </tbody>
+      </table>  
+      <details>
+        <summary>覚醒前の奥義はこちら</summary>
+        <h4 class="s-header--4">覚醒前</h4>
+    <% } %>
+    <table class="s-table">
+      <tbody>
+        <tr><th width="100%" colspan="2"><div><%- page.ubskills[0].name %></div></th></tr>
+        <% for (let i = page.ubskills.length - 1; i >= 0; i--) { %>
+        <tr><th width="20%">Lv:<%= i+1 %></th><td class="center"><%- page.ubskills[i].text %></td></tr>
+        <% } %>
+      </tbody>
+    </table>
+    <% if (page.passive3) { %>
+    </details>
+    <% } %>
+
+    <h3 class="s-header--3">スキル</h3>
+    <% if (page.passive3) { %>
+      <table class="s-table">
+        <tbody>
+          <tr><th width="100%"><div><%= page.atkskill.name %></div></th></tr>
+          <tr><td class="center">【硬直時間】<%= page.atkskill.time %>s</td></tr>
+          <tr><th><div><%- page.awake_skill1.name %></div></th></tr>
+          <tr><td class="center"><div>【硬直時間】<%=page.awake_skill1.time %>s</div><%- page.awake_skill1.text %></td></tr>
+          <tr><th><div><%- page.skill2.name %></div></th></tr>
+          <tr><td class="center"><div>【硬直時間】<%=page.awake_skill2.time %>s</div><%- page.awake_skill2.text %></td></tr>
+        </tbody>
+      </table>
+      <details>
+        <summary>覚醒前のスキルはこちら</summary>
+        <h4 class="s-header--4">覚醒前</h4>
+    <% } %>
+      <table class="s-table">
+        <tbody>
+          <tr><th width="100%"><div><%= page.atkskill.name %></div></th></tr>
+          <tr><td class="center">【硬直時間】<%= page.atkskill.time %>s</td></tr>
+          <tr><th><div><%- page.skill1.name %></div></th></tr>
+          <tr><td class="center"><div>【硬直時間】<%=page.skill1.time %>s</div><%- page.skill1.text %></td></tr>
+          <tr><th><div><%- page.skill2.name %></div></th></tr>
+          <tr><td class="center"><div>【硬直時間】<%=page.skill2.time %>s</div><%- page.skill2.text %></td></tr>
+        </tbody>
+      </table>
+    <% if (page.passive3) { %>
+    </details>
+    <% } %>
+    <p class="s-paragraph">※硬直時間は完璧でないので参考程度に。また行動速度0%で計算しています。硬直時間/(1+行動速度)で求められます。</p>
+
+    <h3 class="s-header--3">パッシブ</h3>
+    <h4 class="s-header--4">奥義レベル3で開放</h4>
+    <table class="s-table">
+      <tbody>
+        <tr><th width="100%"><div><%- page.passive1.name %></div></th></tr>
+        <tr><td class="center"><%- page.passive1.text %></td></tr>
+      </tbody>
+    </table>
+    <h4 class="s-header--4">奥義レベル5で開放</h4>
+    <table class="s-table">
+      <tbody>
+        <tr><th width="100%"><div><%- page.passive2.name %></div></th></tr>
+        <tr><td class="center"><%- page.passive2.text %></td></tr>
+      </tbody>
+    </table>
+    <% if (page.passive3) { %>
+    <h4 class="s-header--4">覚醒で開放</h4>
+    <table class="s-table">
+      <tbody>
+          <tr><th width="100%"><div><%- page.passive3.name %></div></th></tr>
+          <tr><td class="center"><%- page.passive3.text %></td></tr>
+      </tbody>
+    </table>    
+    <% } %>
+    <h3 class="s-header--3">備考</h3>
+    <table class="s-table">
+      <tbody>
+          <tr><th width="25%">イラスト</th><td><%= page['drawer'] %></td></tr>
+          <tr><th width="25%">ボイス</th><td><%= page['voicer'] %></td></tr>
+          <tr><th width="25%">役割</th><td><%= page['role_set'] %></td></tr>
+          <tr><th width="25%">スキル</th><td><%= page['skill_set'] %></td></tr>
+          <tr><th width="25%">身長</th><td><%= page['height'] %>属性</td></tr>
+          <tr><th width="25%">体型</th><td><%= page['measurements'] %></td></tr>
+          <tr><th width="25%">実装日</th><td><%= page['added_date'] %></td></tr>
+          <%  const ignore = ["周年", "Fanzine", "報酬", "同盟戦"];
+             let gtype = page['gacha_type'].split(',').filter(n => n && ignore.indexOf(n) == -1).join('、');
+          %>
+          <tr><th width="25%">入手方法</th><td><%= gtype %><br><%- page['obtain'].replace(/,/ig, "<br>") %></td></tr>
+          </tbody>
+      </tbody>
+  </table>
+    <p class="s-paragraph">※各項目は聖騎士Lv、スキル、アビリティ、奥義、絆、覚醒、を最大育成し、◯◯ダメージ以外のパッシブ効果を加えた能力値です。</p>
+</div>

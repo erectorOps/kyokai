@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+	<month_card>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card name="每日轉蛋" dur_day="1">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card name="30天一般月卡" dur_day="30" daily_free_point="100" resource_atk_cnt_add="3">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card name="90天超級季卡" dur_day="90" daily_free_point="150">
+		<daily_item_id>5</daily_item_id>
+		<daily_item_num>5</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card name="每週轉蛋" dur_day="7">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card name="每月轉蛋" dur_day="30">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card name="每日特惠禮包" dur_day="1">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card name="每週特惠禮包" dur_day="7">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card name="每月特惠禮包" dur_day="30">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card name="商城+簽到簿_月卡">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="22" name="30日簽到簿的內容" dur_day="30" daily_free_point="60" ap_max_add="0">
+		<daily_item_id>3402</daily_item_id>
+		<daily_item_num>1</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="23" name="ログインスタンプ" dur_day="14" daily_free_point="0" ap_max_add="0">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card name="商城_月卡">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card dur_day="7" can_buy_day="3" daily_ap="300" ap_max_add="50" resource_atk_cnt_add="1">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card dur_day="28" can_buy_day="15" daily_ap="300" ap_max_add="50" resource_atk_cnt_add="1">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card dur_day="30" can_buy_day="15" daily_free_point="230" ap_max_add="0">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card dur_day="30" can_buy_day="15" daily_free_point="460" ap_max_add="0" resource_atk_cnt_add="1">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card dur_day="30" can_buy_day="15" daily_free_point="230" daily_ap="100" ap_max_add="50">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1010" name="メインストーリー第6章実装記念セット①" icon="item001/PASS01_7日パス" dur_day="7" daily_ap="300">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1011" name="【タコタコ、ビーチパニック!!】セット①" icon="item001/PASS01_7日パス" dur_day="7" daily_ap="300">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1012" name="【裁きの刃】イベントセット①" icon="item001/PASS01_7日パス" dur_day="7" daily_ap="300">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1013" name="【リリース30日】記念パス" icon="item001/PASS01_7日パス" dur_day="10" daily_money="1000000" resource_atk_cnt_add="1">
+		<daily_item_id>3404</daily_item_id>
+		<daily_item_num>20</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1014" name="【リリース30日】特別APセット" icon="item001/PASS01_7日パス" dur_day="7" daily_ap="200">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1015" name="【悪玉ハロウィン】イベントセット①" icon="item001/PASS01_7日パス" dur_day="7" daily_ap="300">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1016" name="【血の凶刃】イベントセット①" icon="item001/PASS01_7日パス" dur_day="7" daily_ap="300">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1017" name="【メインストーリー第7章実装記念】イベントセット①" icon="item001/PASS01_7日パス" dur_day="7" daily_ap="300">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1018" name="【バーストフェス】特別パス" icon="item001/PASS01_7日パス" dur_day="7" daily_free_point="500" daily_ap="200" resource_atk_cnt_add="1">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1019" name="【踊りの女神に微笑みを】イベントセット①" icon="item001/PASS01_7日パス" dur_day="7" daily_ap="300">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1020" name="【聖夜祭にクッキーを】イベントセット①" icon="item001/PASS01_7日パス" dur_day="7" daily_ap="300">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1021" name="【リリース100日記念】特別パス" icon="item001/PASS01_7日パス" dur_day="7" daily_free_point="500" daily_ap="300" resource_atk_cnt_add="1">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1022" name="【新春の邪竜】イベントセット①" icon="item001/PASS01_7日パス" dur_day="7" daily_ap="300">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1023" name="年越し特別パス" icon="item001/PASS01_7日パス" dur_day="7" daily_free_point="250" daily_ap="150" resource_atk_cnt_add="1">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1024" name="【2024新春限定】よくばりセット（大）" icon="item001/PASS01_7日パス" dur_day="10" daily_ap="500" daily_bp="10">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1025" name="【2024新春限定】よくばりセット（中）" icon="item001/PASS01_7日パス" dur_day="10" daily_ap="280" daily_bp="5">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1026" name="【2024新春限定】よくばりセット（小）" icon="item001/PASS01_7日パス" dur_day="10" daily_ap="100">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1027" name="【審眼の女】イベントセット①" icon="item001/PASS01_7日パス" dur_day="7" daily_ap="300">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1028" name="【バーストフェス】特別パス" icon="item001/PASS01_7日パス" dur_day="7" daily_free_point="500" daily_ap="200" resource_atk_cnt_add="1">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1029" name="【復帰ユーザー限定】APパス" icon="item001/PASS01_7日パス" dur_day="5" daily_ap="100">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1030" name="【復帰ユーザー限定】よくばりパス" icon="item001/PASS01_7日パス" dur_day="5" daily_ap="200" daily_bp="20" resource_atk_cnt_add="1">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1031" name="【復帰ユーザー限定】晶石パス" icon="item001/PASS01_7日パス" dur_day="6" daily_free_point="500">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1032" name="【プロジェクト・バニー】特別パス" icon="item001/PASS01_7日パス" dur_day="7" daily_free_point="500" daily_ap="200" resource_atk_cnt_add="1">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1033" name="【0.5周年記念】特別パス" icon="item001/PASS01_7日パス" dur_day="7" daily_free_point="300" daily_ap="200" resource_atk_cnt_add="1">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1034" name="【GW第二弾】特別パス" icon="item001/PASS01_7日パス" dur_day="7" daily_free_point="500" daily_ap="200" resource_atk_cnt_add="1">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1035" name="【300日記念】特別パス" icon="item001/PASS01_7日パス" dur_day="7" daily_free_point="500" daily_ap="200" resource_atk_cnt_add="1">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1036" name="【おπの月(前半)】特別パス" icon="item001/PASS01_7日パス" dur_day="7" daily_free_point="500" daily_ap="200" resource_atk_cnt_add="1">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1037" name="【1周年記念】特別パス（7日）" icon="item001/PASS01_7日パス" dur_day="7" daily_free_point="300" daily_ap="200" resource_atk_cnt_add="1">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1038" name="【1周年記念】特別パス（30日）" icon="item001/PASS03_30日パス" dur_day="30" daily_free_point="300" daily_ap="200" resource_atk_cnt_add="1">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1039" name="年越し特別セット" icon="item001/PASS01_7日パス" dur_day="7" daily_ap="300">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1040" name="年越し特別パス" icon="item001/PASS01_7日パス" dur_day="7" daily_free_point="250" daily_ap="150" resource_atk_cnt_add="1">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1041" name="【1.5周年記念】特別パス" icon="item001/PASS01_7日パス" dur_day="7" daily_free_point="300" daily_ap="200" resource_atk_cnt_add="1">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card name="限時禮包">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card name="7日成長好禮" dur_day="7" daily_ap="200">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card name="DMM月卡">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1001" name="7日パス" icon="item001/PASS01_7日パス" dur_day="7" can_buy_day="3" daily_ap="300" ap_max_add="50" resource_atk_cnt_add="1">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="10014" name="7日パス 4枚セット" icon="item001/PASS02_7日パス+(仮)" dur_day="28" can_buy_day="15" daily_ap="300" ap_max_add="50" resource_atk_cnt_add="1">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1002" name="30日パス" icon="item001/PASS03_30日パス" dur_day="30" can_buy_day="15" daily_free_point="230" ap_max_add="0">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1003" name="30日ゴールドパス" icon="item001/PASS04_30日ゴールドパス" dur_day="30" can_buy_day="15" daily_free_point="460" ap_max_add="0" resource_atk_cnt_add="1">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1004" name="【リリース記念限定】30日パス" icon="item001/PASS05_リリース記念限定-30日パス" dur_day="30" can_buy_day="15" daily_free_point="230" daily_ap="100" ap_max_add="50">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1005" name="ぶるんぶるんパス（30日）" icon="item001/PASS01_7日パス" dur_day="30" daily_free_point="30" vip_id="1" vip_add_exp="0">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+	<month_card id="1006" name="ぶるんぶるんパス（90日）" icon="item001/PASS02_7日パス+(仮)" dur_day="90" daily_free_point="90" vip_id="1" vip_add_exp="300">
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+		<daily_item_id>0</daily_item_id>
+		<daily_item_num>0</daily_item_num>
+	</month_card>
+</root>

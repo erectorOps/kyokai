@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+	<help_sub_title_content id="1010101" sub_title_id="10101" content="ゲームのホーム画面に進むと、各システムに移動できます。"/>
+	<help_sub_title_content id="1010102" sub_title_id="10101"/>
+	<help_sub_title_content id="1010103" sub_title_id="10101" content="左上はプレイヤーの名前、RANK、EXPが表示されています。"/>
+	<help_sub_title_content id="1010104" sub_title_id="10101" content="右上はプレイヤーの「&lt;color=#00A600&gt;AP&lt;/color&gt;」、「&lt;color=#00A600&gt;BP&lt;/color&gt;」、「&lt;color=#6C6C6C&gt;レゴル&lt;/color&gt;」、「&lt;color=#FF9224&gt;晶石&lt;/color&gt;」、ホーム画面設定、メニューが表示されています。"/>
+	<help_sub_title_content id="1010105" sub_title_id="10101" content="「+」をクリックすると購入画面に移動します。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1010201" sub_title_id="10102" content="ホーム画面左上の聖騎士は変更できます。"/>
+	<help_sub_title_content id="1010202" sub_title_id="10102" content="「メニュー」→「プレイヤー情報」→聖騎士のアイコンをクリックしてください。"/>
+	<help_sub_title_content id="1010203" sub_title_id="10102" content="所有している聖騎士の中から選択できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1010301" sub_title_id="10103" content="「&lt;color=#00A600&gt;AP&lt;/color&gt;」は各クエストに挑戦する際に消費する資源です。"/>
+	<help_sub_title_content id="1010302" sub_title_id="10103"/>
+	<help_sub_title_content id="1010303" sub_title_id="10103" content="3分毎にAP×1を回復します。"/>
+	<help_sub_title_content id="1010304" sub_title_id="10103" content="上限に達すると、回復しません。"/>
+	<help_sub_title_content id="1010305" sub_title_id="10103"/>
+	<help_sub_title_content id="1010306" sub_title_id="10103" content="「&lt;color=#00A600&gt;AP&lt;/color&gt;」はアイテムを消費して回復できます。"/>
+	<help_sub_title_content id="1010307" sub_title_id="10103" content="回復回数が増えるにつれ、消費アイテムも増えます。"/>
+	<help_sub_title_content id="1010308" sub_title_id="10103"/>
+	<help_sub_title_content id="1010309" sub_title_id="10103" content="最大AP×999まで回復できます。"/>
+	<help_sub_title_content id="1010310" sub_title_id="10103" content="上限を超えたAP分はお便りに送られます。"/>
+	<help_sub_title_content id="1010311" sub_title_id="10103"/>
+	<help_sub_title_content id="1010312" sub_title_id="10103" content="「&lt;color=#00A600&gt;BP&lt;/color&gt;」は各クエストに挑戦する際に消費する資源です。"/>
+	<help_sub_title_content id="1010313" sub_title_id="10103"/>
+	<help_sub_title_content id="1010314" sub_title_id="10103" content="1時間毎にBP×1を回復します。"/>
+	<help_sub_title_content id="1010315" sub_title_id="10103" content="上限に達すると、回復しません。"/>
+	<help_sub_title_content id="1010316" sub_title_id="10103"/>
+	<help_sub_title_content id="1010317" sub_title_id="10103" content="「&lt;color=#00A600&gt;BP&lt;/color&gt;」はアイテムを消費して回復できます。"/>
+	<help_sub_title_content id="1010318" sub_title_id="10103" content="回復回数が増えるにつれ、消費アイテムも増えます。"/>
+	<help_sub_title_content id="1010319" sub_title_id="10103"/>
+	<help_sub_title_content id="1010320" sub_title_id="10103" content="上限BP×20まで回復できます。"/>
+	<help_sub_title_content id="1010321" sub_title_id="10103" content="上限を超えたBP分はお便りに送られます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1010401" sub_title_id="10104" content="「&lt;color=#6C6C6C&gt;レゴル&lt;/color&gt;」は各システムに使用する資源です。"/>
+	<help_sub_title_content id="1010402" sub_title_id="10104"/>
+	<help_sub_title_content id="1010403" sub_title_id="10104" content="上限レゴル×999,999,999まで獲得できます。"/>
+	<help_sub_title_content id="1010404" sub_title_id="10104" content="それ以上は、レゴルを獲得できません。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1010501" sub_title_id="10105" content="「&lt;color=#FF9224&gt;晶石&lt;/color&gt;」は各システムに使用する資源です。"/>
+	<help_sub_title_content id="1010502" sub_title_id="10105" content="「無償晶石」、「有償晶石」があります。"/>
+	<help_sub_title_content id="1010503" sub_title_id="10105"/>
+	<help_sub_title_content id="1010504" sub_title_id="10105" content="「無償晶石」はゲーム内で獲得できます。"/>
+	<help_sub_title_content id="1010505" sub_title_id="10105"/>
+	<help_sub_title_content id="1010506" sub_title_id="10105" content="「有償晶石」はDMMポイントを消費して獲得できます。"/>
+	<help_sub_title_content id="1010507" sub_title_id="10105" content="「有償晶石」のみの召喚もあります。"/>
+	<help_sub_title_content id="1010508" sub_title_id="10105" content="召喚画面の「詳細」をご確認ください。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1020101" sub_title_id="10201" content="「聖騎士」は召喚で獲得できます。"/>
+	<help_sub_title_content id="1020102" sub_title_id="10201" content="それぞれ能力やストーリーがあります。"/>
+	<help_sub_title_content id="1020103" sub_title_id="10201"/>
+	<help_sub_title_content id="1020104" sub_title_id="10201" content="一覧には、所有している聖騎士の情報が表示されています。"/>
+	<help_sub_title_content id="1020105" sub_title_id="10201" content="（能力、Lv、アビリティ、スキル、装備、絆、ウルティマなど）"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1020201" sub_title_id="10202" content="「聖騎士」は秘薬を消費してLvをアップできます。"/>
+	<help_sub_title_content id="1020202" sub_title_id="10202" content="また、クエストクリアでLvをアップできます。"/>
+	<help_sub_title_content id="1020203" sub_title_id="10202"/>
+	<help_sub_title_content id="1020204" sub_title_id="10202" content="「聖騎士」はLv突破で最大Lvをアップできます。"/>
+	<help_sub_title_content id="1020205" sub_title_id="10202" content="最大Lvはレアリティによって異なります。"/>
+	<help_sub_title_content id="1020206" sub_title_id="10202" content="●R聖騎士：Lv70まで"/>
+	<help_sub_title_content id="1020207" sub_title_id="10202" content="●SR聖騎士：Lv80まで"/>
+	<help_sub_title_content id="1020208" sub_title_id="10202" content="●SSR聖騎士：Lv90まで"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1020301" sub_title_id="10203" content="「聖騎士」のアビリティはGrade毎に5つあります。"/>
+	<help_sub_title_content id="1020302" sub_title_id="10203" content="5つ解放すると、ボーナスアビリティが獲得できます。"/>
+	<help_sub_title_content id="1020303" sub_title_id="10203"/>
+	<help_sub_title_content id="1020304" sub_title_id="10203" content="解放できるアビリティはGrade毎に異なります。"/>
+	<help_sub_title_content id="1020305" sub_title_id="10203" content="解放したアビリティは、リセットできません。"/>
+	<help_sub_title_content id="1020306" sub_title_id="10203"/>
+	<help_sub_title_content id="1020307" sub_title_id="10203" content="アビリティ5つを解放すると、Gradeをアップできます。"/>
+	<help_sub_title_content id="1020308" sub_title_id="10203" content="聖騎士の能力アップ、スキル解放ができます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1020401" sub_title_id="10204" content="「聖騎士」のスキルは以下の通りです。"/>
+	<help_sub_title_content id="1020402" sub_title_id="10204" content="1.奥義：MPを消費して発動できます。"/>
+	<help_sub_title_content id="1020403" sub_title_id="10204" content="2. アクティブスキル：聖騎士のアビリティがGrade2、Grade4になると解放されます。"/>
+	<help_sub_title_content id="1020404" sub_title_id="10204" content="戦闘時、自動で発動します。"/>
+	<help_sub_title_content id="1020405" sub_title_id="10204" content="3.パッシブスキル：聖騎士の奥義がLv3、Lv5になると解放されます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1020501" sub_title_id="10205" content="「聖騎士」の能力は以下の通りです。"/>
+	<help_sub_title_content id="1020502" sub_title_id="10205" content="●戦力：聖騎士の総合的な強さを示す数値。"/>
+	<help_sub_title_content id="1020503" sub_title_id="10205" content="（アクティブスキル、パッシブスキルは含まない）"/>
+	<help_sub_title_content id="1020504" sub_title_id="10205" content="●HP：聖騎士の体力。体力が0になると、離脱して、戦闘できません。"/>
+	<help_sub_title_content id="1020505" sub_title_id="10205" content="●MP：聖騎士の魔力。魔力が100%になると、奥義を発動できます。"/>
+	<help_sub_title_content id="1020506" sub_title_id="10205" content="●物理攻撃：物理ダメージの攻撃に影響する数値。"/>
+	<help_sub_title_content id="1020507" sub_title_id="10205" content="●魔法攻撃：魔法ダメージの攻撃に影響する数値。"/>
+	<help_sub_title_content id="1020508" sub_title_id="10205" content="●物理防御：物理ダメージの防御に影響する数値。"/>
+	<help_sub_title_content id="1020509" sub_title_id="10205" content="●魔法防御：魔法ダメージの防御に影響する数値。"/>
+	<help_sub_title_content id="1020510" sub_title_id="10205" content="●物理クリティカル：物理ダメージの攻撃に影響する数値。"/>
+	<help_sub_title_content id="1020511" sub_title_id="10205" content="●魔法クリティカル：魔法ダメージの攻撃に影響する数値。"/>
+	<help_sub_title_content id="1020512" sub_title_id="10205" content="●命中：ダメージが減少する確率に影響する数値。"/>
+	<help_sub_title_content id="1020513" sub_title_id="10205" content="●ブロック：ダメージが減少する確率に影響する数値。"/>
+	<help_sub_title_content id="1020514" sub_title_id="10205" content="●HP回復：戦闘のWAVE毎に、自動で回復するHPの数値。"/>
+	<help_sub_title_content id="1020515" sub_title_id="10205" content="●MP回復：戦闘のWAVE毎に、自動で回復するMPの数値。"/>
+	<help_sub_title_content id="1020516" sub_title_id="10205" content="●HP吸収：攻撃時、ダメージによって回復するHPの数値。"/>
+	<help_sub_title_content id="1020517" sub_title_id="10205" content="●治癒：スキル、奥義によって回復するHPの数値。"/>
+	<help_sub_title_content id="1020518" sub_title_id="10205" content="●MPチャージ：スキル、奥義の発動によって増加するMPの数値。"/>
+	<help_sub_title_content id="1020519" sub_title_id="10205" content="●MP消費減少：奥義の発動によって消費するMPに影響する数値。"/>
+	<help_sub_title_content id="1020520" sub_title_id="10205" content="（奥義の発動に必要なMPの数値には影響しない）"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1020601" sub_title_id="10206" content="属性は6種類あります。"/>
+	<help_sub_title_content id="1020602" sub_title_id="10206" content="以下の矢印の方向に有利で、属性ダメージに影響します。"/>
+	<help_sub_title_content id="1020603" sub_title_id="10206"/>
+	<help_sub_title_content id="1020604" sub_title_id="10206" content="水→火、火→風、風→水"/>
+	<help_sub_title_content id="1020605" sub_title_id="10206" content="聖→魔、魔→想、想→聖"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1020701" sub_title_id="10207" content="チームに編成した聖騎士以外に、サポート聖騎士を編成できます。"/>
+	<help_sub_title_content id="1020702" sub_title_id="10207" content="サポート聖騎士を編成すると、能力が追加されます。"/>
+	<help_sub_title_content id="1020703" sub_title_id="10207"/>
+	<help_sub_title_content id="1020704" sub_title_id="10207" content="サポート聖騎士はプレイヤーRANKによって解放されます。"/>
+	<help_sub_title_content id="1020705" sub_title_id="10207" content="サポート聖騎士は1チーム最大10人まで編成できます。"/>
+	<help_sub_title_content id="1020706" sub_title_id="10207"/>
+	<help_sub_title_content id="1020707" sub_title_id="10207" content="サポート聖騎士の能力はそれぞれ異なり、Lv突破で強化できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1030101" sub_title_id="10301" content="「Pスキル」はプレイヤーが任意に選択できるスキルです。"/>
+	<help_sub_title_content id="1030102" sub_title_id="10301" content="2種類選択できます。"/>
+	<help_sub_title_content id="1030103" sub_title_id="10301"/>
+	<help_sub_title_content id="1030104" sub_title_id="10301" content="「Pスキル」は、メインストーリーの進捗によって解放されます。"/>
+	<help_sub_title_content id="1030105" sub_title_id="10301" content="聖騎士画面や編成画面から変更できます。"/>
+	<help_sub_title_content id="1030106" sub_title_id="10301"/>
+	<help_sub_title_content id="1030107" sub_title_id="10301" content="「Pスキル」は能力をアップできます。"/>
+	<help_sub_title_content id="1030108" sub_title_id="10301" content="●強化：レゴルを消費してLvを強化できます。"/>
+	<help_sub_title_content id="1030109" sub_title_id="10301" content="●突破：Lv強化が上限に達すると、アイテムを消費してLv上限を突破できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1040101" sub_title_id="10401" content="「武器」は、聖騎士に装備すると、聖騎士の能力が上がります。"/>
+	<help_sub_title_content id="1040102" sub_title_id="10401" content="武器は1つ装備できます。"/>
+	<help_sub_title_content id="1040103" sub_title_id="10401"/>
+	<help_sub_title_content id="1040104" sub_title_id="10401" content="武器は倉庫、武器選択画面から強化できます。"/>
+	<help_sub_title_content id="1040105" sub_title_id="10401" content="武器はアイテムを消費するとLv強化できます。"/>
+	<help_sub_title_content id="1040106" sub_title_id="10401" content="指定のアイテムを消費してLv突破すると、最大Lvが上がります。"/>
+	<help_sub_title_content id="1040107" sub_title_id="10401"/>
+	<help_sub_title_content id="1040108" sub_title_id="10401" content="最大Lvはレアリティによって異なります。"/>
+	<help_sub_title_content id="1040109" sub_title_id="10401" content="R武器：Lv70まで"/>
+	<help_sub_title_content id="1040110" sub_title_id="10401" content="SR武器：Lv80まで"/>
+	<help_sub_title_content id="1040111" sub_title_id="10401" content="SSR武器：Lv90まで"/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1040201" sub_title_id="10402" content="聖騎士に装飾品を装備すると、聖騎士の能力が上がります。"/>
+	<help_sub_title_content id="1040202" sub_title_id="10402" content="「装飾品」は5種類あり、1つずつ装備できます。"/>
+	<help_sub_title_content id="1040203" sub_title_id="10402" content="装飾品はセット効果があり、同じシリーズを装備すると、追加の効果を獲得できます。"/>
+	<help_sub_title_content id="1040204" sub_title_id="10402"/>
+	<help_sub_title_content id="1040205" sub_title_id="10402" content="装飾品は倉庫、装飾品選択画面から強化できます。"/>
+	<help_sub_title_content id="1040206" sub_title_id="10402" content="装飾品は他の装飾品を消費するとLv強化できます。"/>
+	<help_sub_title_content id="1040207" sub_title_id="10402" content="最大Lv20です。"/>
+	<help_sub_title_content id="1040208" sub_title_id="10402"/>
+	<help_sub_title_content id="1040209" sub_title_id="10402" content="装飾品はメインのパラメータとサブのパラメータがあります。"/>
+	<help_sub_title_content id="1040210" sub_title_id="10402" content="Lvが上がると、メインのパラメータが上がります。"/>
+	<help_sub_title_content id="1040211" sub_title_id="10402" content="さらに、4Lv毎にサブのパラメータが1つずつ追加されます。"/>
+	<help_sub_title_content id="1040212" sub_title_id="10402" content="サブパラメータが4つになった後は、ランダムにサブパラメータが1つ強化されます。"/>
+	<help_sub_title_content id="1040213" sub_title_id="10402"/>
+	<help_sub_title_content id="1040214" sub_title_id="10402" content="レアリティによって、初期に追加されているサブパラメータ数は異なります。"/>
+	<help_sub_title_content id="1040215" sub_title_id="10402" content="★1：0個"/>
+	<help_sub_title_content id="1040216" sub_title_id="10402" content="★2：1個"/>
+	<help_sub_title_content id="1040217" sub_title_id="10402" content="★3：2個"/>
+	<help_sub_title_content id="1040218" sub_title_id="10402" content="★4：2個"/>
+	<help_sub_title_content id="1040219" sub_title_id="10402" content="★5：3個"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1050101" sub_title_id="10501" content="ホーム画面下の【記録】から、アルバム、ストーリー、ランキングを確認できます。"/>
+	<help_sub_title_content id="1050102" sub_title_id="10501" content="アルバム：所有している聖騎士の情報を確認できます。"/>
+	<help_sub_title_content id="1050103" sub_title_id="10501" content="ストーリー：解放したストーリーを確認できます。"/>
+	<help_sub_title_content id="1050104" sub_title_id="10501" content="ランキング：各ランキングを確認できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1060101" sub_title_id="10601" content="冒険はプレイヤーRANKによって解放されます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1060201" sub_title_id="10602" content="「メインストーリー」はクエストの進捗によって解放されます。"/>
+	<help_sub_title_content id="1060202" sub_title_id="10602"/>
+	<help_sub_title_content id="1060203" sub_title_id="10602" content="難易度は「Normal」、「Hard」があります。"/>
+	<help_sub_title_content id="1060204" sub_title_id="10602"/>
+	<help_sub_title_content id="1060205" sub_title_id="10602" content="「Normal」は、クエストをクリアすると"/>
+	<help_sub_title_content id="1060206" sub_title_id="10602" content="プレイヤーEXP、聖騎士EXP、レゴル、アイテムが獲得できます。"/>
+	<help_sub_title_content id="1060207" sub_title_id="10602"/>
+	<help_sub_title_content id="1060208" sub_title_id="10602" content="「Hard」は、1日の挑戦回数に上限があります。"/>
+	<help_sub_title_content id="1060209" sub_title_id="10602" content="挑戦回数はクエスト情報から確認できます。"/>
+	<help_sub_title_content id="1060210" sub_title_id="10602" content="毎日03：00にリセットされますが、アイテムを消費して回復できます。"/>
+	<help_sub_title_content id="1060211" sub_title_id="10602"/>
+	<help_sub_title_content id="1060212" sub_title_id="10602" content="クエストを挑戦するには「AP」が必要です。"/>
+	<help_sub_title_content id="1060213" sub_title_id="10602" content="APが不足していると、挑戦できません。"/>
+	<help_sub_title_content id="1060214" sub_title_id="10602"/>
+	<help_sub_title_content id="1060215" sub_title_id="10602" content="クエストには「★」で示されるクリア評価があります。"/>
+	<help_sub_title_content id="1060216" sub_title_id="10602" content="クエストによって条件は異なります。"/>
+	<help_sub_title_content id="1060217" sub_title_id="10602" content="クリア評価が★3に達すると、初回クリア報酬を獲得できます。"/>
+	<help_sub_title_content id="1060218" sub_title_id="10602"/>
+	<help_sub_title_content id="1060219" sub_title_id="10602" content="また、スキップチケットを消費して、すぐにクエストをクリアできます。"/>
+	<help_sub_title_content id="1060220" sub_title_id="10602" content="その際、聖騎士EXPは秘薬として獲得できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1060301" sub_title_id="10603" content="「資源収集」はレゴルと秘薬が獲得できます。"/>
+	<help_sub_title_content id="1060302" sub_title_id="10603" content="1日3回、APを消費しないで挑戦できます。"/>
+	<help_sub_title_content id="1060303" sub_title_id="10603"/>
+	<help_sub_title_content id="1060304" sub_title_id="10603" content="レゴル収集：「レゴル」を獲得できます。"/>
+	<help_sub_title_content id="1060305" sub_title_id="10603" content="秘薬収集：「秘薬」を獲得できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1060401" sub_title_id="10604" content="「遺跡」は特定の素材がドロップします。"/>
+	<help_sub_title_content id="1060402" sub_title_id="10604" content="APを消費して挑戦できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1070101" sub_title_id="10701" content="「迷宮」は毎回、挑戦するクエスト内容が異なります。"/>
+	<help_sub_title_content id="1070102" sub_title_id="10701" content="クエストをクリアすると、報酬を獲得できます。"/>
+	<help_sub_title_content id="1070103" sub_title_id="10701"/>
+	<help_sub_title_content id="1070104" sub_title_id="10701" content="「迷宮」は、プレイヤーRANKによって解放されます。"/>
+	<help_sub_title_content id="1070105" sub_title_id="10701" content="1日1回挑戦でき、毎日「03：00」にリセットされます。"/>
+	<help_sub_title_content id="1070106" sub_title_id="10701" content="迷宮をクリアする前に日付が切り替わった場合、"/>
+	<help_sub_title_content id="1070107" sub_title_id="10701" content="続けて挑戦できます。リセットして挑戦もできます。"/>
+	<help_sub_title_content id="1070108" sub_title_id="10701"/>
+	<help_sub_title_content id="1070109" sub_title_id="10701" content="迷宮は3つ出現します。"/>
+	<help_sub_title_content id="1070110" sub_title_id="10701" content="迷宮を選択すると、クエストが5つ出現します。"/>
+	<help_sub_title_content id="1070111" sub_title_id="10701" content="クエストを3つクリアすると、次に進めます。"/>
+	<help_sub_title_content id="1070112" sub_title_id="10701" content="クエストは5つ全てクリアすることもできます。"/>
+	<help_sub_title_content id="1070113" sub_title_id="10701" content="クリアするほど、獲得できる報酬も多くなります。"/>
+	<help_sub_title_content id="1070114" sub_title_id="10701" content="迷宮のBOSSを討伐すれば、迷宮をクリアできます。"/>
+	<help_sub_title_content id="1070115" sub_title_id="10701"/>
+	<help_sub_title_content id="1070116" sub_title_id="10701" content="聖騎士はHPが残っていれば、何度でも戦闘できます。"/>
+	<help_sub_title_content id="1070117" sub_title_id="10701" content="離脱した聖騎士は、その挑戦時には戦闘できません。"/>
+	<help_sub_title_content id="1070118" sub_title_id="10701"/>
+	<help_sub_title_content id="1070119" sub_title_id="10701" content="敵は難易度ごとに異なります。"/>
+	<help_sub_title_content id="1070120" sub_title_id="10701" content="Normal：計3F、おすすめLv20~Lv30以上"/>
+	<help_sub_title_content id="1070121" sub_title_id="10701" content="Hard：計5F、おすすめLv40~Lv60以上"/>
+	<help_sub_title_content id="1070122" sub_title_id="10701"/>
+	<help_sub_title_content id="1070123" sub_title_id="10701" content="「迷宮」：騎士王、聖王、魔導王、拳王、狙撃王、覇王がそれぞれ守護する6種類の迷宮。"/>
+	<help_sub_title_content id="1070124" sub_title_id="10701" content="「迷宮コイン」：迷宮で獲得できる通貨。迷宮ショップでアイテムを購入できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1070201" sub_title_id="10702" content="「迷宮」は、さまざまな効果や報酬があります。"/>
+	<help_sub_title_content id="1070202" sub_title_id="10702" content="1.加護：迷宮クリアまで効果が発動できる。 "/>
+	<help_sub_title_content id="1070203" sub_title_id="10702" content="2.仲間：迷宮クリアまで参戦できる。"/>
+	<help_sub_title_content id="1070204" sub_title_id="10702" content="3.復活：HP0の聖騎士がランダムに復活、MPが30%回復する。"/>
+	<help_sub_title_content id="1070205" sub_title_id="10702" content="または、最低HPの聖騎士が回復、MPが30%回復する。"/>
+	<help_sub_title_content id="1070206" sub_title_id="10702" content="4.食料：聖騎士のHPが25％回復する。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1080101" sub_title_id="10801" content="「救援戦」は複数のプレイヤーと共にBOSSと戦闘します。"/>
+	<help_sub_title_content id="1080102" sub_title_id="10801" content="属性ごとに6種類常設されています。"/>
+	<help_sub_title_content id="1080103" sub_title_id="10801"/>
+	<help_sub_title_content id="1080104" sub_title_id="10801" content="「救援戦」は、プレイヤーRANKによって解放されます。"/>
+	<help_sub_title_content id="1080105" sub_title_id="10801" content="救援戦はチケットを消費すると参加できます。"/>
+	<help_sub_title_content id="1080106" sub_title_id="10801" content="要請された救援戦はBPのみ消費します。"/>
+	<help_sub_title_content id="1080107" sub_title_id="10801"/>
+	<help_sub_title_content id="1080108" sub_title_id="10801" content="「救援戦」は、Easy、Normal、Hardがあります。 "/>
+	<help_sub_title_content id="1080109" sub_title_id="10801" content="難易度によって報酬が異なります。 "/>
+	<help_sub_title_content id="1080110" sub_title_id="10801"/>
+	<help_sub_title_content id="1080111" sub_title_id="10801" content="「救援戦」は、聖騎士の奥義ダメージが3倍になります。"/>
+	<help_sub_title_content id="1080112" sub_title_id="10801"/>
+	<help_sub_title_content id="1080113" sub_title_id="10801" content="「救援戦」は討伐時間があります。"/>
+	<help_sub_title_content id="1080114" sub_title_id="10801" content="制限時間内にBOSSを討伐できなければ、敗北となります。"/>
+	<help_sub_title_content id="1080115" sub_title_id="10801" content="救援戦の戦闘は時間内に討伐できなくても、"/>
+	<help_sub_title_content id="1080116" sub_title_id="10801" content="TIME UPと表示され、与えたダメージが計算されます。"/>
+	<help_sub_title_content id="1080117" sub_title_id="10801" content="自身で開始した救援戦のBOSSが討伐できなかった場合、"/>
+	<help_sub_title_content id="1080118" sub_title_id="10801" content="要請画面からBPを消費して、続けてダメージを与えられます。"/>
+	<help_sub_title_content id="1080119" sub_title_id="10801" content=" "/>
+	<help_sub_title_content id="1080120" sub_title_id="10801" content="「救援戦」の要請は挑戦開始前、戦闘中に選択できます。 "/>
+	<help_sub_title_content id="1080121" sub_title_id="10801" content="要請はフレンド、同盟、全世界があります。 "/>
+	<help_sub_title_content id="1080122" sub_title_id="10801" content="追加で要請できますが、要請すると取り消せません。 "/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1080201" sub_title_id="10802" content="「救援戦」はBOSSを討伐すると、プレイヤーの貢献によって異なる報酬を獲得できます。"/>
+	<help_sub_title_content id="1080202" sub_title_id="10802" content="発見報酬：救援戦を開始したプレイヤーが獲得できる報酬。"/>
+	<help_sub_title_content id="1080203" sub_title_id="10802" content="救援報酬：要請したプレイヤーが獲得できる報酬。"/>
+	<help_sub_title_content id="1080204" sub_title_id="10802" content="貢献報酬：BOSSに与えたダメージによって、プレイヤー毎に獲得できる報酬。報酬の割合が最も多い。"/>
+	<help_sub_title_content id="1080205" sub_title_id="10802" content="トドメ報酬：BOSSに最後のダメージを与えたプレイヤーが獲得できる報酬。"/>
+	<help_sub_title_content id="1080206" sub_title_id="10802"/>
+	<help_sub_title_content id="1080207" sub_title_id="10802" content="また、「救援戦」はBOSSを討伐すると、ポイントが獲得できます。"/>
+	<help_sub_title_content id="1080208" sub_title_id="10802" content="累計ポイントによって報酬を獲得できます。"/>
+	<help_sub_title_content id="1080209" sub_title_id="10802"/>
+	<help_sub_title_content id="1080210" sub_title_id="10802" content="さらに、「救援戦」はBOSSを討伐すると「救援コイン」がドロップします。"/>
+	<help_sub_title_content id="1080211" sub_title_id="10802" content="救援ショップでアイテムを購入できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1080301" sub_title_id="10803" content="要請画面では要請されている救援戦を確認できます。"/>
+	<help_sub_title_content id="1080302" sub_title_id="10803" content="クエスト内容、難易度、残りHP、残り時間、参加人数などが確認できます。"/>
+	<help_sub_title_content id="1080303" sub_title_id="10803"/>
+	<help_sub_title_content id="1080304" sub_title_id="10803" content="未確認画面では参加してまだ報酬を受け取っていない救援戦の結果を確認できます。"/>
+	<help_sub_title_content id="1080305" sub_title_id="10803" content="BOSSが討伐されていれば、7日間記録されます。"/>
+	<help_sub_title_content id="1080306" sub_title_id="10803" content="BOSSが討伐されていなければ、2時間記録されます。"/>
+	<help_sub_title_content id="1080307" sub_title_id="10803"/>
+	<help_sub_title_content id="1080308" sub_title_id="10803" content="結果画面では参加した救援戦の詳細が確認できます。"/>
+	<help_sub_title_content id="1080309" sub_title_id="10803" content="クエスト内容、難易度、参加人数、貢献ランキングなどが確認できます。"/>
+	<help_sub_title_content id="1080310" sub_title_id="10803"/>
+	<help_sub_title_content id="1080311" sub_title_id="10803" content="フィルター画面では要請リストを絞り込みできます。"/>
+	<help_sub_title_content id="1080312" sub_title_id="10803" content="要請対象や難易度で絞り込みできます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1090101" sub_title_id="10901" content="深淵の地下神殿は、階層ごとに敵を討伐していくチャレンジ型コンテンツです。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1090201" sub_title_id="10902" content="深淵の地下神殿は、NORMALの10個のクエストと、EXの5個のクエストで構成されています。"/>
+	<help_sub_title_content id="1090202" sub_title_id="10902" content="クエストを進めるごとに、挑戦に必要なパーティの編成が増え、敵の難易度も徐々に上がります。"/>
+	<help_sub_title_content id="1090203" sub_title_id="10902" content="NORMALの全クエストをクリアすると、EXクエストへの挑戦が可能になります。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1090301" sub_title_id="10903" content="各クエストには「挑戦目標」が設定されています。"/>
+	<help_sub_title_content id="1090302" sub_title_id="10903" content="挑戦目標は「Normal」と「EX」に分かれており、クエストクリア時の達成状況に応じて、評価（★）が0～3個獲得できます。"/>
+	<help_sub_title_content id="1090303" sub_title_id="10903" content="「Normal」だけを達成すると黄色の★が、「Normal」と「EX」の両方を達成すると虹色の★が獲得できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1090401" sub_title_id="10904" content="深淵の地下神殿には「クリア評価報酬」があります。"/>
+	<help_sub_title_content id="1090402" sub_title_id="10904" content="各クエストで獲得した黄色の★の総数に応じて、クリア評価報酬がもらえます。"/>
+	<help_sub_title_content id="1090403" sub_title_id="10904" content="NORMALクエストとEXクエストの「クリア評価報酬」は別々にカウントされます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1090501" sub_title_id="10905" content="EXクエストの「クリア評価報酬」は毎月1日と15日の3時にリセットされ、"/>
+	<help_sub_title_content id="1090502" sub_title_id="10905" content="クエストを再挑戦することで再び報酬が獲得できます。"/>
+	<help_sub_title_content id="1090503" sub_title_id="10905" content="※NORMALクエストの「クリア評価報酬」は1回のみ取得可能で、リセットはされません。"/>
+	<help_sub_title_content id="1090504" sub_title_id="10905"/>
+	<help_sub_title_content id="1090505" sub_title_id="10905" content="報酬のリセットに伴い、クエスト内の敵の構成や特殊効果、制限、加護が変更される場合があります。"/>
+	<help_sub_title_content id="1090506" sub_title_id="10905" content="挑戦する前に、是非確認してください。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1090601" sub_title_id="10906" content="EX各クエストのクリアタイムの合計に基づいて、ランキングが設定されます。"/>
+	<help_sub_title_content id="1090602" sub_title_id="10906" content="ランキングに応じた称号や報酬も獲得できます。ぜひ上位を目指しましょう！"/>
+	<help_sub_title_content id="1090603" sub_title_id="10906" content="ランキングの集計時間は毎月1日の3時で、集計完了後に順次ランキング報酬が配布されます。"/>
+	<help_sub_title_content id="1090604" sub_title_id="10906" content="※初回のランキング集計時間のみ2024年9月1日3時となります。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1100101" sub_title_id="11001" content="「FANZINEすごろく」は、ダイスを振って駒を移動させることで、マスや周回に応じた報酬が得られるミニゲーム型コンテンツです。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1100201" sub_title_id="11002" content="【FANZINE】クエスト1～3をクリアすると、周回クエストが解放され、そこでダイスを獲得できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1100301" sub_title_id="11003" content="ダイスを所持している場合、「ダイスを振る」をタップしてダイスを消費します。ダイスの数字に応じて駒が移動し、たどり着いたマスに応じて報酬が得られます。"/>
+	<help_sub_title_content id="1100302" sub_title_id="11003" content="また、「仕掛ダイス」を使って、1~6から任意の数字を選択可能となります。"/>
+	<help_sub_title_content id="1100303" sub_title_id="11003" content="「10回連続」や「演出スキップ」を選択すると、連続で移動したり、演出をスキップしたりできます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1100401" sub_title_id="11004" content="報酬には以下の4種類があります："/>
+	<help_sub_title_content id="1100402" sub_title_id="11004"/>
+	<help_sub_title_content id="1100403" sub_title_id="11004" content="・移動報酬：移動するたびにレゴル×10000を獲得します。「RANDOM」マスに移動すると、レゴル×77777を獲得できます。"/>
+	<help_sub_title_content id="1100404" sub_title_id="11004" content="・周回報酬：一周するたびに「START」マスを通過すると、周回回数に応じた報酬が得られます。"/>
+	<help_sub_title_content id="1100405" sub_title_id="11004" content="・マス報酬：移動したマスに応じて、その色の報酬を獲得できます。各色の報酬は7回まで獲得可能で、「おまけ」付き枠の報酬を得ると、FANZINE聖騎士の「蓄音水晶」も手に入れることができます。また、「RANDOM」マスに移動すると、まだ獲得していない色の報酬枠をランダムで1つ獲得できます。"/>
+	<help_sub_title_content id="1100406" sub_title_id="11004" content="・オールクリア報酬：5色の報酬を全て獲得すると、さらにオールクリア報酬が得られます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1100501" sub_title_id="11005" content="イベント期間中に「FANZINEすごろく」画面で再生ボタンをタップすると、所持している蓄音水晶に応じてFANZINE聖騎士の特別ボイスがランダムで再生されます。聖騎士を所持している場合、イベント終了後もアルバムのボイス画面で確認できます。"/>
+	<help_sub_title_content id="1100502" sub_title_id="11005" content="※特別ボイスはR18版のみ再生できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1110101" sub_title_id="11101" content="「同盟」は活動、チャットがあります。"/>
+	<help_sub_title_content sub_title_id="11101"/>
+	<help_sub_title_content id="1110201" sub_title_id="11102" content="「同盟」の活動は以下の通りです。"/>
+	<help_sub_title_content id="1110202" sub_title_id="11102" content="1.本部：盟主がメンバーを管理できます。お知らせの編集、メンバーの貢献状況を確認できます。"/>
+	<help_sub_title_content id="1110203" sub_title_id="11102" content="2.滞在：所有している聖騎士を協力聖騎士に設定すると、メンバーが「同盟戦」で敵と戦闘する際、協力できます。"/>
+	<help_sub_title_content id="1110204" sub_title_id="11102" content="協力聖騎士を設定すると、毎分毎にレゴルを獲得できます。"/>
+	<help_sub_title_content id="1110205" sub_title_id="11102" content="さらに、協力するたびに報酬を獲得できます。"/>
+	<help_sub_title_content id="1110206" sub_title_id="11102" content="3.寄付：レゴルを寄付すると、同盟コインを獲得できます。また、貢献度も上がります。"/>
+	<help_sub_title_content id="1110207" sub_title_id="11102" content="4.同盟戦：「同盟戦」画面に進みます。"/>
+	<help_sub_title_content id="1110208" sub_title_id="11102" content="5.礼拝殿：レゴルを消費すると、報酬を獲得できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1110301" sub_title_id="11103" content="「貢献度」はプレイヤーの同盟に対する貢献状況を示します。"/>
+	<help_sub_title_content id="1110302" sub_title_id="11103" content="貢献度が上がると、同盟全体の総貢献度も上がります。"/>
+	<help_sub_title_content id="1110303" sub_title_id="11103" content="貢献度によって、同盟Lvがアップし、活動Lvもアップします。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1110401" sub_title_id="11104" content="盟主は同盟の加入条件、雰囲気を変更できます。"/>
+	<help_sub_title_content id="1110402" sub_title_id="11104" content="盟主は副盟主を任命できます。"/>
+	<help_sub_title_content id="1110403" sub_title_id="11104" content="同盟の理念に反するプレイヤーを除名することもできます。"/>
+	<help_sub_title_content id="1110404" sub_title_id="11104"/>
+	<help_sub_title_content id="1110405" sub_title_id="11104" content="同盟を脱退、解散すると、24時間は同盟を加入、設立できません。除名された場合は除きます。"/>
+	<help_sub_title_content id="1110406" sub_title_id="11104" content="同盟戦の開催期間中は、同盟の加入、脱退ができません。盟主も同盟の除名、解散ができません。"/>
+	<help_sub_title_content id="1110407" sub_title_id="11104"/>
+	<help_sub_title_content id="1110408" sub_title_id="11104" content="盟主はメンバーに引き継げます。引き継ぐと、一般メンバーになります。"/>
+	<help_sub_title_content id="1110409" sub_title_id="11104" content="盟主が14日以上ログインしなかった場合、メンバーの貢献度、ログイン時間などを考慮して、最適なメンバーに引き継ぎます。"/>
+	<help_sub_title_content id="1110410" sub_title_id="11104" content="最適なメンバーがいなかった場合、引き続き盟主となります。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content sub_title_id="11001" content="「同盟戦」は同盟間で競い合うイベントです。"/>
+	<help_sub_title_content sub_title_id="11001" content="敵との挑戦でポイントを貯め、ランキングを競います。"/>
+	<help_sub_title_content sub_title_id="11001" content="同盟戦は毎月1回開催され、イベント期間は10日間です。"/>
+	<help_sub_title_content sub_title_id="11001"/>
+	<help_sub_title_content sub_title_id="11001" content="「同盟戦」は同盟に設立、加入すれば参加できます。"/>
+	<help_sub_title_content sub_title_id="11001" content="1日3回挑戦でき、毎日「03：00」にリセットされます。"/>
+	<help_sub_title_content sub_title_id="11001"/>
+	<help_sub_title_content sub_title_id="11001" content="同盟戦の参加には条件があります。"/>
+	<help_sub_title_content sub_title_id="11001" content="聖騎士は1日1回のみ戦闘でき、"/>
+	<help_sub_title_content sub_title_id="11001" content="当日戦闘した聖騎士は日付が切り替わるまで戦闘できません。"/>
+	<help_sub_title_content sub_title_id="11001"/>
+	<help_sub_title_content sub_title_id="11001" content="同盟ポイント：敵にダメージを与えることで、獲得できるポイント。同盟ランキングに影響します。"/>
+	<help_sub_title_content sub_title_id="11001" content="同盟コイン：敵との戦闘、同盟ランキングで獲得できる報酬。同盟ショップでアイテムを購入できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content sub_title_id="11002" content="同盟戦は「討伐」と「練習」があります。"/>
+	<help_sub_title_content sub_title_id="11002"/>
+	<help_sub_title_content sub_title_id="11002" content="「練習」は何度も練習でき、アイテムや挑戦回数を消費しません。"/>
+	<help_sub_title_content sub_title_id="11002" content="「討伐」はダメージを計算して、ポイント獲得やランキングを記録します。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content sub_title_id="11003" content="「同盟」は「全世界」と「同盟内」のランキングがあります。"/>
+	<help_sub_title_content sub_title_id="11003" content="同盟戦が終了すると、同盟ポイントによってランキングが決まります。"/>
+	<help_sub_title_content sub_title_id="11003" content="ランキングによって獲得できる報酬は異なります。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content sub_title_id="11004" content="同盟戦に参加する際、同盟メンバーが設定した協力聖騎士をチームに編成できます。"/>
+	<help_sub_title_content sub_title_id="11004" content="1回の挑戦につき、1人の協力聖騎士をチームに編成できます。"/>
+	<help_sub_title_content sub_title_id="11004" content="編成された協力聖騎士を設定した同盟メンバーは「レゴル」を獲得できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1120101" sub_title_id="11201" content="「闘技場1vs1」はプレイヤー間で競い合います。"/>
+	<help_sub_title_content id="1120102" sub_title_id="11201" content="戦闘に勝利するとポイントが増え、敗北するとポイントが減ります。"/>
+	<help_sub_title_content id="1120103" sub_title_id="11201" content="ポイントによって、毎月ランキングが確定して、報酬を獲得できます。"/>
+	<help_sub_title_content id="1120104" sub_title_id="11201"/>
+	<help_sub_title_content id="1120105" sub_title_id="11201" content="「闘技場1vs1」は、メインストーリーの進捗によって解放されます。"/>
+	<help_sub_title_content id="1120106" sub_title_id="11201" content="1日5回挑戦でき、毎日「03：00」にリセットされます。"/>
+	<help_sub_title_content id="1120107" sub_title_id="11201"/>
+	<help_sub_title_content id="1120108" sub_title_id="11201" content="最低1人の聖騎士をチームに編成する必要があり、最高6人の聖騎士をチームに編成できます。"/>
+	<help_sub_title_content id="1120109" sub_title_id="11201" content="チームは自動で戦闘します。戦闘から撤退しても結果は判定されます。"/>
+	<help_sub_title_content id="1120110" sub_title_id="11201"/>
+	<help_sub_title_content id="1120111" sub_title_id="11201" content="1.ポイント：攻撃や防御に関わらず、戦闘したプレイヤーとのランキング差によって獲得ポイントは異なります。"/>
+	<help_sub_title_content id="1120112" sub_title_id="11201" content="2.ランキング：ポイントによって、ランキングが確定します。"/>
+	<help_sub_title_content id="1120113" sub_title_id="11201" content="3.金貨：闘技場1vs1の戦闘で獲得できる通貨。闘技場ショップでアイテムを購入できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1120201" sub_title_id="11202" content="「闘技場1vs1」は毎月1日、全てのポイントとランキングがリセットされます。"/>
+	<help_sub_title_content id="1120202" sub_title_id="11202" content="また、あらゆる方面からチームを評価するために、"/>
+	<help_sub_title_content id="1120203" sub_title_id="11202" content="攻撃チーム、防御チームの条件が変更されます。"/>
+	<help_sub_title_content id="1120204" sub_title_id="11202"/>
+	<help_sub_title_content id="1120205" sub_title_id="11202" content="「闘技場1vs1」の条件は以下の通りです。"/>
+	<help_sub_title_content id="1120206" sub_title_id="11202" content="1.無制限：全ての聖騎士が編成できます。"/>
+	<help_sub_title_content id="1120207" sub_title_id="11202" content="2.物理チーム：物理攻撃の聖騎士のみ編成できます。"/>
+	<help_sub_title_content id="1120208" sub_title_id="11202" content="3.魔法チーム：魔法攻撃の聖騎士のみ編成できます。"/>
+	<help_sub_title_content id="1120209" sub_title_id="11202"/>
+	<help_sub_title_content id="1120210" sub_title_id="11202" content="「防御チーム」はプレイヤーから挑戦された際に、戦闘するチームです。"/>
+	<help_sub_title_content id="1120211" sub_title_id="11202" content="防御チームも勝敗によって、ポイントが増減して、ランキングに影響します。"/>
+	<help_sub_title_content id="1120212" sub_title_id="11202" content="防御チームを編成すると、闘技場1vs1に挑戦できます。"/>
+	<help_sub_title_content id="1120213" sub_title_id="11202" content="編成する前はプレイヤーから挑戦されません。"/>
+	<help_sub_title_content id="1120214" sub_title_id="11202" content="チーム条件が変更されると、防御チームを再度編成させる必要があります。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1120301" sub_title_id="11203" content="●タイムボーナス"/>
+	<help_sub_title_content id="1120302" sub_title_id="11203" content="時間が経過すると、ランキングによる「闘技場コイン」を獲得できます。"/>
+	<help_sub_title_content id="1120303" sub_title_id="11203" content="闘技場1vs1のタイムボーナス『20/時』（例）は、1時間ごとに「闘技場コイン」×20を獲得できることを表示しています。"/>
+	<help_sub_title_content id="1120304" sub_title_id="11203" content="1回も戦闘していないと、ランキングは表示されず、タイムボーナスも獲得できません。"/>
+	<help_sub_title_content id="1120305" sub_title_id="11203" content="タイムボーナスは画面のボタンをクリックして受け取ります。上限に達すると、累積されません。"/>
+	<help_sub_title_content id="1120306" sub_title_id="11203"/>
+	<help_sub_title_content id="1120307" sub_title_id="11203" content="●毎月ランキング報酬"/>
+	<help_sub_title_content id="1120308" sub_title_id="11203" content="闘技場1vs1が毎月1日にリセットされる際、ランキングによる報酬が獲得できます。"/>
+	<help_sub_title_content id="1120309" sub_title_id="11203" content="※報酬はランキング集計後、順次お便りで配布されます。受け取っていない場合、しばらく時間をおいてから確認してください。"/>
+	<help_sub_title_content id="1120310" sub_title_id="11203" content="報酬は期限が過ぎると自動的に削除されますので、定期的に受け取ってください。"/>
+	<help_sub_title_content id="1120311" sub_title_id="11203"/>
+	<help_sub_title_content id="1120312" sub_title_id="11203" content="●当月最高ポイント報酬"/>
+	<help_sub_title_content id="1120313" sub_title_id="11203" content="毎月のリセットに関わらず、指定のポイントに達すると、1回のみ獲得できる報酬です。"/>
+	<help_sub_title_content id="1120314" sub_title_id="11203" content="※報酬は指定のポイントに達すると、直接お便りで配布されます。"/>
+	<help_sub_title_content id="1120315" sub_title_id="11203"/>
+	<help_sub_title_content id="1120316" sub_title_id="11203" content="●累計ポイント報酬"/>
+	<help_sub_title_content id="1120317" sub_title_id="11203" content="毎月のリセットに関わらず、指定のポイントに達すると、1回のみ獲得できる報酬です。"/>
+	<help_sub_title_content id="1120318" sub_title_id="11203" content="※報酬は指定のポイントに達すると、直接お便りで配布されます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1130101" sub_title_id="11301" content="「闘技場3vs3」はプレイヤー間で3チーム競い合います。"/>
+	<help_sub_title_content id="1130102" sub_title_id="11301" content="戦闘に勝利するとポイントが増え、敗北するとポイントが減ります。"/>
+	<help_sub_title_content id="1130103" sub_title_id="11301" content="ポイントによって、毎月ランキングが確定して、報酬を獲得できます。"/>
+	<help_sub_title_content id="1130104" sub_title_id="11301"/>
+	<help_sub_title_content id="1130105" sub_title_id="11301" content="「闘技場3vs3」は、メインストーリーの進捗によって解放されます。"/>
+	<help_sub_title_content id="1130106" sub_title_id="11301" content="1日5回挑戦でき、毎日「03：00」にリセットされます。"/>
+	<help_sub_title_content id="1130107" sub_title_id="11301"/>
+	<help_sub_title_content id="1130108" sub_title_id="11301" content="最低1人の聖騎士を3チームに編成する必要があり、最高18人の聖騎士をチームに編成できます。"/>
+	<help_sub_title_content id="1130109" sub_title_id="11301" content="どちらかのチームが2勝すると、勝利となります。"/>
+	<help_sub_title_content id="1130110" sub_title_id="11301" content="チームは自動で戦闘します。戦闘から撤退しても結果は判定されます。"/>
+	<help_sub_title_content id="1130111" sub_title_id="11301" content="1.ポイント：攻撃や防御に関わらず、戦闘したプレイヤーとのランキング差によって獲得ポイントは異なります。"/>
+	<help_sub_title_content id="1130112" sub_title_id="11301" content="2.ランキング：ポイントによって、ランキングが確定します。"/>
+	<help_sub_title_content id="1130113" sub_title_id="11301" content="3.金貨：闘技場3vs3の戦闘で獲得できる通貨。闘技場ショップでアイテムを購入できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1130201" sub_title_id="11302" content="「闘技場3vs3」は毎月1日、全てのポイントとランキングがリセットされます。"/>
+	<help_sub_title_content id="1130202" sub_title_id="11302" content="また、あらゆる方面からチームを評価するために、"/>
+	<help_sub_title_content id="1130203" sub_title_id="11302" content="攻撃チーム、防御チームの条件が変更されます。"/>
+	<help_sub_title_content id="1130204" sub_title_id="11302"/>
+	<help_sub_title_content id="1130205" sub_title_id="11302" content="「闘技場3vs3」の条件は以下の通りです。"/>
+	<help_sub_title_content id="1130206" sub_title_id="11302" content="1.無制限：全ての聖騎士が編成できます。"/>
+	<help_sub_title_content id="1130207" sub_title_id="11302" content="2.物理チーム：物理攻撃の聖騎士のみ編成できます。"/>
+	<help_sub_title_content id="1130208" sub_title_id="11302" content="3.魔法チーム：魔法攻撃の聖騎士のみ編成できます。"/>
+	<help_sub_title_content id="1130209" sub_title_id="11302"/>
+	<help_sub_title_content id="1130210" sub_title_id="11302" content="「防御チーム」はプレイヤーから挑戦された際に、戦闘するチームです。"/>
+	<help_sub_title_content id="1130211" sub_title_id="11302" content="防御チームも勝敗によって、ポイントが増減して、ランキングに影響します。"/>
+	<help_sub_title_content id="1130212" sub_title_id="11302" content="防御チームを編成すると、闘技場1vs1に挑戦できます。"/>
+	<help_sub_title_content id="1130213" sub_title_id="11302" content="編成する前はプレイヤーから挑戦されません。"/>
+	<help_sub_title_content id="1130214" sub_title_id="11302" content="チーム条件が変更されると、防御チームを再度編成させる必要があります。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1130301" sub_title_id="11303" content="●タイムボーナス"/>
+	<help_sub_title_content id="1130302" sub_title_id="11303" content="時間が経過すると、ランキングによる「金貨」を獲得できます。"/>
+	<help_sub_title_content id="1130303" sub_title_id="11303" content="闘技場3vs3のタイムボーナス『20/時』は、1時間ごとに「金貨」×20を獲得できることを表示しています。"/>
+	<help_sub_title_content id="1130304" sub_title_id="11303" content="1回も戦闘していないと、ランキングは表示されず、タイムボーナスも獲得できません。"/>
+	<help_sub_title_content id="1130305" sub_title_id="11303" content="タイムボーナスは画面のボタンをクリックして受け取ります。上限に達すると、累積されません。"/>
+	<help_sub_title_content id="1130306" sub_title_id="11303"/>
+	<help_sub_title_content id="1130307" sub_title_id="11303" content="●毎月ランキング報酬"/>
+	<help_sub_title_content id="1130308" sub_title_id="11303" content="闘技場3vs3が毎月1日にリセットされる際、ランキングによる報酬が獲得できます。"/>
+	<help_sub_title_content id="1130309" sub_title_id="11303" content="※報酬はランキング集計後、順次お便りで配布されます。受け取っていない場合、しばらく時間をおいてから確認してください。"/>
+	<help_sub_title_content id="1130310" sub_title_id="11303" content="期限が過ぎると自動的に削除されますので、定期的に受け取ってください。"/>
+	<help_sub_title_content id="1130311" sub_title_id="11303"/>
+	<help_sub_title_content id="1130312" sub_title_id="11303" content="●当月最高ポイント報酬"/>
+	<help_sub_title_content id="1130313" sub_title_id="11303" content="毎月のリセットに関わらず、指定のポイントに達すると、1回のみ獲得できる報酬です。"/>
+	<help_sub_title_content id="1130314" sub_title_id="11303" content="※報酬は指定のポイントに達すると、直接お便りで配布されます。"/>
+	<help_sub_title_content id="1130315" sub_title_id="11303"/>
+	<help_sub_title_content id="1130316" sub_title_id="11303" content="●累計ポイント報酬"/>
+	<help_sub_title_content id="1130317" sub_title_id="11303" content="毎月のリセットに関わらず、指定のポイントに達すると、1回のみ獲得できる報酬です。"/>
+	<help_sub_title_content id="1130318" sub_title_id="11303" content="※報酬は指定のポイントに達すると、直接お便りで配布されます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1140101" sub_title_id="11401" content="「戦闘」は以下の通りです。"/>
+	<help_sub_title_content id="1140102" sub_title_id="11401" content="1.戦闘する聖戦士、Pスキル、サポート聖騎士を編成。"/>
+	<help_sub_title_content id="1140103" sub_title_id="11401" content="2.&lt;color=#00A600&gt;AP&lt;/color&gt;を消費して、敵と戦闘。"/>
+	<help_sub_title_content id="1140104" sub_title_id="11401" content="3.WAVE毎の制限時間内に全ての敵を討伐すると、勝利。"/>
+	<help_sub_title_content id="1140105" sub_title_id="11401" content="4.聖騎士が全員離脱した場合、時間内に討伐できなかった場合、敗北。"/>
+	<help_sub_title_content id="1140106" sub_title_id="11401"/>
+	<help_sub_title_content id="1140107" sub_title_id="11401" content="（戦闘画面右上の【MENU】から、撤退を選択すると、敗北となり、&lt;color=#00A600&gt;AP&lt;/color&gt;を消費しません。）"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1140201" sub_title_id="11402" content="「編成」は最大8チーム編成でき、挑戦前にチームを切り替えできます。"/>
+	<help_sub_title_content id="1140202" sub_title_id="11402"/>
+	<help_sub_title_content id="1140203" sub_title_id="11402" content="「編成」は以下の通りです。"/>
+	<help_sub_title_content id="1140204" sub_title_id="11402" content="1.チームに聖騎士6人を編成。"/>
+	<help_sub_title_content id="1140205" sub_title_id="11402" content="2.Pスキル2つを選択。"/>
+	<help_sub_title_content id="1140206" sub_title_id="11402" content="3.サポート聖騎士を選択。"/>
+	<help_sub_title_content id="1140207" sub_title_id="11402"/>
+	<help_sub_title_content id="1140208" sub_title_id="11402" content="チームの「配置」は前列、中列、後列があります。"/>
+	<help_sub_title_content id="1140209" sub_title_id="11402" content="聖戦士は自身の配置があります。"/>
+	<help_sub_title_content id="1140210" sub_title_id="11402"/>
+	<help_sub_title_content id="1140211" sub_title_id="11402" content="サポート聖騎士は、能力を追加して、戦闘する聖騎士をサポートします。"/>
+	<help_sub_title_content id="1140212" sub_title_id="11402" content="サポート聖騎士の組み合わせによって、さらにセット効果があります。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1140301" sub_title_id="11403" content="クエストの内容とチームの編成によって、Pスキルを選択できます。"/>
+	<help_sub_title_content id="1140302" sub_title_id="11403" content="「Pスキル」はメインストーリーの進捗によって獲得できます。"/>
+	<help_sub_title_content id="1140303" sub_title_id="11403"/>
+	<help_sub_title_content id="1140304" sub_title_id="11403" content="発動条件：Pスキルはそれぞれクールタイムが異なります。"/>
+	<help_sub_title_content id="1140305" sub_title_id="11403" content="発動方法：Pスキルをクリックすると、Pスキルを発動できます。"/>
+	<help_sub_title_content id="1140306" sub_title_id="11403"/>
+	<help_sub_title_content id="1140307" sub_title_id="11403" content="「設定」画面からAUTO戦闘時の自動発動を設定できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1140401" sub_title_id="11404" content="聖騎士は自身の「奥義」があります。"/>
+	<help_sub_title_content id="1140402" sub_title_id="11404"/>
+	<help_sub_title_content id="1140403" sub_title_id="11404" content="発動条件：聖騎士のMPが上限に達すると、発動できます。"/>
+	<help_sub_title_content id="1140404" sub_title_id="11404" content="複数の聖騎士が奥義を発動できる状態でも、1人ずつ奥義を発動します。"/>
+	<help_sub_title_content id="1140405" sub_title_id="11404" content="奥義を発動すると、聖騎士の行動、戦闘時間は停止します。"/>
+	<help_sub_title_content id="1140406" sub_title_id="11404" content="発動方法：聖騎士のアイコンをクリックすると、奥義を発動できます。"/>
+	<help_sub_title_content id="1140407" sub_title_id="11404"/>
+	<help_sub_title_content id="1140408" sub_title_id="11404" content="「設定」画面からAUTO戦闘時の自動発動を設定できます。"/>
+	<help_sub_title_content id="1140409" sub_title_id="11404"/>
+	<help_sub_title_content id="1140410" sub_title_id="11404" content="「奥義」はウルティマを消費して、強化できます。"/>
+	<help_sub_title_content id="1140411" sub_title_id="11404" content="Lvが高いほど、効果が高くなります。"/>
+	<help_sub_title_content id="1140412" sub_title_id="11404"/>
+	<help_sub_title_content id="1140413" sub_title_id="11404"/>
+	<help_sub_title_content id="1140414" sub_title_id="11404"/>
+	<help_sub_title_content id="1140415" sub_title_id="11404" content="聖騎士は自身の「スキル」があります。"/>
+	<help_sub_title_content id="1140416" sub_title_id="11404"/>
+	<help_sub_title_content id="1140417" sub_title_id="11404" content="戦闘中、自動で発動します。"/>
+	<help_sub_title_content id="1140418" sub_title_id="11404" content="スキル解放：聖騎士のGradeを上げるとスキルを解放できます。"/>
+	<help_sub_title_content id="1140419" sub_title_id="11404" content="スキルはレゴルを消費してLvを上げることができます。【聖騎士】の【スキル】から強化できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1140501" sub_title_id="11405" content="戦闘のダメージは、「物理ダメージ」、「魔法ダメージ」があります。"/>
+	<help_sub_title_content id="1140502" sub_title_id="11405"/>
+	<help_sub_title_content id="1140503" sub_title_id="11405" content="物理ダメージ：攻撃側の物理攻撃と防御側の物理防御によって計算されるダメージ。"/>
+	<help_sub_title_content id="1140504" sub_title_id="11405" content="戦闘中、白色の数値で表示されます。"/>
+	<help_sub_title_content id="1140505" sub_title_id="11405" content="攻撃側の物理クリティカルによって、ダメージが増加します。"/>
+	<help_sub_title_content id="1140506" sub_title_id="11405"/>
+	<help_sub_title_content id="1140507" sub_title_id="11405" content="魔法ダメージ：攻撃側の魔法攻撃と防御側の魔法防御によって計算されるダメージ。"/>
+	<help_sub_title_content id="1140508" sub_title_id="11405" content="戦闘中、水色の数値で表示されます。"/>
+	<help_sub_title_content id="1140509" sub_title_id="11405" content="攻撃側の魔法クリティカルによって、ダメージが増加します。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1140601" sub_title_id="11406" content="アビリティ、奥義、スキルによって、聖騎士のHPが回復します。"/>
+	<help_sub_title_content id="1140602" sub_title_id="11406" content="戦闘中、緑色の数値で表示されます。"/>
+	<help_sub_title_content id="1140603" sub_title_id="11406" content="発動側の治癒によって回復する数値は異なります。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1140701" sub_title_id="11407" content="一部のアビリティ、奥義、スキルは状態異常や特殊効果が付与されます。"/>
+	<help_sub_title_content id="1140702" sub_title_id="11407" content="※効果の発動時間や強さはスキル、スキルLvによって異なります。"/>
+	<help_sub_title_content id="1140703" sub_title_id="11407"/>
+	<help_sub_title_content id="1140704" sub_title_id="11407" content="能力数値の増加/減少"/>
+	<help_sub_title_content id="1140705" sub_title_id="11407" content="●最大HP"/>
+	<help_sub_title_content id="1140706" sub_title_id="11407" content="●物理攻撃"/>
+	<help_sub_title_content id="1140707" sub_title_id="11407" content="●魔法攻撃"/>
+	<help_sub_title_content id="1140708" sub_title_id="11407" content="●物理防御"/>
+	<help_sub_title_content id="1140709" sub_title_id="11407" content="●魔法防御"/>
+	<help_sub_title_content id="1140710" sub_title_id="11407" content="●命中"/>
+	<help_sub_title_content id="1140711" sub_title_id="11407" content="●ブロック"/>
+	<help_sub_title_content id="1140712" sub_title_id="11407" content="●物理クリティカル"/>
+	<help_sub_title_content id="1140713" sub_title_id="11407" content="●魔法クリティカル"/>
+	<help_sub_title_content id="1140714" sub_title_id="11407" content="●行動速度"/>
+	<help_sub_title_content id="1140715" sub_title_id="11407" content="●奧義ダメージ"/>
+	<help_sub_title_content id="1140716" sub_title_id="11407" content="●スキルダメージ"/>
+	<help_sub_title_content id="1140717" sub_title_id="11407"/>
+	<help_sub_title_content id="1140718" sub_title_id="11407" content="回復"/>
+	<help_sub_title_content id="1140719" sub_title_id="11407" content="●HP回復"/>
+	<help_sub_title_content id="1140720" sub_title_id="11407" content="●MP回復"/>
+	<help_sub_title_content id="1140721" sub_title_id="11407"/>
+	<help_sub_title_content id="1140722" sub_title_id="11407" content="継続ダメージ"/>
+	<help_sub_title_content id="1140723" sub_title_id="11407" content="●中毒：一定時間、継続するHPダメージ。加算不可。"/>
+	<help_sub_title_content id="1140724" sub_title_id="11407" content="●火傷：一定時間、継続するHPダメージ。加算可能。"/>
+	<help_sub_title_content id="1140725" sub_title_id="11407" content="●凍結：一定時間、継続するHPダメージ。行動不可。"/>
+	<help_sub_title_content id="1140726" sub_title_id="11407" content="戦闘中、ピンク色の数値で表示。"/>
+	<help_sub_title_content id="1140727" sub_title_id="11407"/>
+	<help_sub_title_content id="1140728" sub_title_id="11407" content="●恐怖：一定時間、継続するMPダメージ。ブロック0。"/>
+	<help_sub_title_content id="1140729" sub_title_id="11407" content="戦闘中、紫色の数値で表示。"/>
+	<help_sub_title_content id="1140730" sub_title_id="11407"/>
+	<help_sub_title_content id="1140731" sub_title_id="11407" content="行動制限"/>
+	<help_sub_title_content id="1140732" sub_title_id="11407" content="●石化：行動不可。ブロック0。"/>
+	<help_sub_title_content id="1140733" sub_title_id="11407" content="●睡眠：行動不可。ダメージを受けると行動できるが、受けるダメージはクリティカル。"/>
+	<help_sub_title_content id="1140734" sub_title_id="11407" content="●沈黙：通常攻撃のみ。スキル、奥義の発動不可。"/>
+	<help_sub_title_content id="1140735" sub_title_id="11407" content="●眩暈：行動不可。"/>
+	<help_sub_title_content id="1140736" sub_title_id="11407" content="●解消：一定時間、バフを解消。"/>
+	<help_sub_title_content id="1140737" sub_title_id="11407" content="●麻痺：行動速度、物理攻撃、魔法攻撃-50%。"/>
+	<help_sub_title_content id="1140738" sub_title_id="11407" content="●混乱：攻撃対象が味方を含めてランダム。奥義の発動不可。"/>
+	<help_sub_title_content id="1140739" sub_title_id="11407" content="●魅了：敵を助け、味方を攻撃。奥義の発動不可。"/>
+	<help_sub_title_content id="1140740" sub_title_id="11407" content="●呪い：HP、MPの回復不可。行動速度-50%、クリティカル0。"/>
+	<help_sub_title_content id="1140741" sub_title_id="11407" content="●盲目：ブロック0、命中-50%。"/>
+	<help_sub_title_content id="1140742" sub_title_id="11407"/>
+	<help_sub_title_content id="1140743" sub_title_id="11407" content="特殊効果"/>
+	<help_sub_title_content id="1140744" sub_title_id="11407" content="●挑発：一定時間、攻撃対象を自身にする。"/>
+	<help_sub_title_content id="1140745" sub_title_id="11407" content="●回数付ダメージ+：一定回数、ダメージ増加。"/>
+	<help_sub_title_content id="1140746" sub_title_id="11407" content="●回数付物理ダメージ+：一定回数、物理ダメージ増加。"/>
+	<help_sub_title_content id="1140747" sub_title_id="11407" content="●回数付魔法ダメージ+：一定回数、魔法ダメージ増加。"/>
+	<help_sub_title_content id="1140748" sub_title_id="11407" content="●必中:ブロックの数値に影響されずにダメージを与える。"/>
+	<help_sub_title_content id="1140749" sub_title_id="11407"/>
+	<help_sub_title_content id="1140750" sub_title_id="11407" content="防御効果"/>
+	<help_sub_title_content id="1140751" sub_title_id="11407" content="防御効果は6種類あります。"/>
+	<help_sub_title_content id="1140752" sub_title_id="11407" content="それぞれ防御できるダメージは異なります。"/>
+	<help_sub_title_content id="1140753" sub_title_id="11407"/>
+	<help_sub_title_content id="1140754" sub_title_id="11407" content="1.無敵効果"/>
+	<help_sub_title_content id="1140755" sub_title_id="11407" content="●無敵：一定時間、ダメージをバリア。"/>
+	<help_sub_title_content id="1140756" sub_title_id="11407" content="●物理無敵：一定時間、物理ダメージをバリア。"/>
+	<help_sub_title_content id="1140757" sub_title_id="11407" content="●魔法無敵：一定時間、魔法ダメージをバリア。"/>
+	<help_sub_title_content id="1140758" sub_title_id="11407"/>
+	<help_sub_title_content id="1140759" sub_title_id="11407" content="2.バリア"/>
+	<help_sub_title_content id="1140760" sub_title_id="11407" content="●バリア：一定時間、一定のダメージをバリア。"/>
+	<help_sub_title_content id="1140761" sub_title_id="11407" content="上限に達すると、バリアは消失。"/>
+	<help_sub_title_content id="1140762" sub_title_id="11407" content="●物理バリア：一定時間、一定の物理ダメージをバリア。"/>
+	<help_sub_title_content id="1140763" sub_title_id="11407" content="上限に達すると、バリアは消失。"/>
+	<help_sub_title_content id="1140764" sub_title_id="11407" content="●魔法バリア：一定時間、一定の魔法ダメージをバリア。"/>
+	<help_sub_title_content id="1140765" sub_title_id="11407" content="上限に達すると、バリアは消失。"/>
+	<help_sub_title_content id="1140766" sub_title_id="11407"/>
+	<help_sub_title_content id="1140767" sub_title_id="11407" content="3.回復バリア"/>
+	<help_sub_title_content id="1140768" sub_title_id="11407" content="●回復バリア：一定時間、一定のダメージをバリア、一定のHPを回復。"/>
+	<help_sub_title_content id="1140769" sub_title_id="11407" content="上限に達すると、バリアは消失。"/>
+	<help_sub_title_content id="1140770" sub_title_id="11407" content="●物理回復バリア：一定時間、一定の物理ダメージをバリア、一定のHPを回復。"/>
+	<help_sub_title_content id="1140771" sub_title_id="11407" content="上限に達すると、バリアは消失。"/>
+	<help_sub_title_content id="1140772" sub_title_id="11407" content="●魔法回復バリア：一定時間、一定の魔法ダメージをバリア、一定のHPを回復。"/>
+	<help_sub_title_content id="1140773" sub_title_id="11407" content="上限に達すると、バリアは消失。"/>
+	<help_sub_title_content id="1140774" sub_title_id="11407"/>
+	<help_sub_title_content id="1140775" sub_title_id="11407" content="4.回数付バリア"/>
+	<help_sub_title_content id="1140776" sub_title_id="11407" content="●回数付バリア：一定時間、一定回数のダメージをバリア。"/>
+	<help_sub_title_content id="1140777" sub_title_id="11407" content="上限に達すると、バリアは消失。"/>
+	<help_sub_title_content id="1140778" sub_title_id="11407" content="●回数付物理バリア：一定時間、一定回数の物理ダメージをバリア。"/>
+	<help_sub_title_content id="1140779" sub_title_id="11407" content="上限に達すると、バリアは消失。"/>
+	<help_sub_title_content id="1140780" sub_title_id="11407" content="●回数付魔法バリア：一定時間、一定回数の魔法ダメージをバリア。"/>
+	<help_sub_title_content id="1140781" sub_title_id="11407" content="上限に達すると、バリアは消失。"/>
+	<help_sub_title_content id="1140782" sub_title_id="11407"/>
+	<help_sub_title_content id="1140783" sub_title_id="11407" content="5.回数付回復バリア"/>
+	<help_sub_title_content id="1140784" sub_title_id="11407" content="●回数付回復バリア：一定時間、一定のダメージをバリア、一定のHPを回復。"/>
+	<help_sub_title_content id="1140785" sub_title_id="11407" content="上限に達すると、バリアは消失。"/>
+	<help_sub_title_content id="1140786" sub_title_id="11407" content="●回数付物理回復バリア：一定時間、一定の物理ダメージをバリア、一定のHPを回復。"/>
+	<help_sub_title_content id="1140787" sub_title_id="11407" content="上限に達すると、バリアは消失。"/>
+	<help_sub_title_content id="1140788" sub_title_id="11407" content="●回数付魔法回復バリア：一定時間、一定の魔法ダメージをバリア、一定のHPを回復。"/>
+	<help_sub_title_content id="1140789" sub_title_id="11407" content="上限に達すると、バリアは消失。"/>
+	<help_sub_title_content id="1140790" sub_title_id="11407"/>
+	<help_sub_title_content id="1140791" sub_title_id="11407" content="6.反射バリア"/>
+	<help_sub_title_content id="1140792" sub_title_id="11407" content="●反射バリア：一定時間、一定回数のダメージを反射。"/>
+	<help_sub_title_content id="1140793" sub_title_id="11407" content="上限に達すると、バリアは消失。"/>
+	<help_sub_title_content id="1140794" sub_title_id="11407" content="●物理反射バリア：一定時間、一定回数の物理ダメージを反射。"/>
+	<help_sub_title_content id="1140795" sub_title_id="11407" content="上限に達すると、バリアは消失。"/>
+	<help_sub_title_content id="1140796" sub_title_id="11407" content="●魔法反射バリア：一定時間、一定回数の魔法ダメージを反射。"/>
+	<help_sub_title_content id="1140797" sub_title_id="11407" content="上限に達すると、バリアは消失。"/>
+	<help_sub_title_content id="1140798" sub_title_id="11407" content="戦闘中、黄色の数値で表示。"/>
+	<help_sub_title_content id="1140799" sub_title_id="11407"/>
+	<help_sub_title_content id="1140800" sub_title_id="11407" content="免疫効果"/>
+	<help_sub_title_content id="1140801" sub_title_id="11407" content="以下の状態異常や特殊効果を解消できます。"/>
+	<help_sub_title_content id="1140802" sub_title_id="11407" content="●中毒耐性"/>
+	<help_sub_title_content id="1140803" sub_title_id="11407" content="●火傷耐性"/>
+	<help_sub_title_content id="1140804" sub_title_id="11407" content="●凍結耐性"/>
+	<help_sub_title_content id="1140805" sub_title_id="11407" content="●石化耐性"/>
+	<help_sub_title_content id="1140806" sub_title_id="11407" content="●恐怖耐性"/>
+	<help_sub_title_content id="1140807" sub_title_id="11407" content="●睡眠耐性"/>
+	<help_sub_title_content id="1140808" sub_title_id="11407" content="●沈黙耐性"/>
+	<help_sub_title_content id="1140809" sub_title_id="11407" content="●眩暈耐性"/>
+	<help_sub_title_content id="1140810" sub_title_id="11407" content="●解消耐性"/>
+	<help_sub_title_content id="1140811" sub_title_id="11407" content="●麻痺耐性"/>
+	<help_sub_title_content id="1140812" sub_title_id="11407" content="●混乱耐性"/>
+	<help_sub_title_content id="1140813" sub_title_id="11407" content="●魅了耐性"/>
+	<help_sub_title_content id="1140814" sub_title_id="11407" content="●呪い耐性"/>
+	<help_sub_title_content id="1140815" sub_title_id="11407" content="●盲目耐性"/>
+	<help_sub_title_content id="1140816" sub_title_id="11407" content="●バフ耐性"/>
+	<help_sub_title_content id="1140817" sub_title_id="11407" content="●デバフ耐性"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1140901" sub_title_id="11409" content="戦闘画面右上ボタン"/>
+	<help_sub_title_content id="1140902" sub_title_id="11409" content="「AUTO」：Pスキル、奥義を自動で発動するか選択できます。"/>
+	<help_sub_title_content id="1140903" sub_title_id="11409" content="「×1」：戦闘速度を調整できます。"/>
+	<help_sub_title_content id="1140904" sub_title_id="11409" content="「MENU」：チームの能力、戦闘状況を確認できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1141001" sub_title_id="11410" content="初めてクエストをクリアすると、初回クリア報酬を獲得できます。"/>
+	<help_sub_title_content id="1141002" sub_title_id="11410" content="クエストを一定条件でクリアすると、クリア評価を獲得できます。"/>
+	<help_sub_title_content id="1141003" sub_title_id="11410" content="★を獲得すると報酬を獲得できます。"/>
+	<help_sub_title_content id="1141004" sub_title_id="11410" content="クエスト内容や難易度によって、条件は異なります。"/>
+	<help_sub_title_content id="1141005" sub_title_id="11410"/>
+	<help_sub_title_content id="1141006" sub_title_id="11410" content="クリア評価"/>
+	<help_sub_title_content id="1141007" sub_title_id="11410" content="1.クエストクリア：敵を討伐して、戦闘に勝利する。"/>
+	<help_sub_title_content id="1141008" sub_title_id="11410" content="2.離脱人数：離脱する聖騎士が一定数以内でクリア。"/>
+	<help_sub_title_content id="1141009" sub_title_id="11410" content="3.残りHP：聖騎士の残りHPが一定以上でクリア。"/>
+	<help_sub_title_content id="1141010" sub_title_id="11410" content="4.編成聖騎士：指定の聖騎士を編成してクリア。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1150101" sub_title_id="11501" content="「派遣」は聖騎士が指定の都で交流します。"/>
+	<help_sub_title_content id="1150102" sub_title_id="11501"/>
+	<help_sub_title_content id="1150103" sub_title_id="11501" content="「派遣」の都は、プレイヤーRANKによって解放されます。"/>
+	<help_sub_title_content id="1150104" sub_title_id="11501"/>
+	<help_sub_title_content id="1150105" sub_title_id="11501" content="聖騎士は1チーム5人まで編成できます。"/>
+	<help_sub_title_content id="1150106" sub_title_id="11501" content="同時に3チームまで派遣できます。"/>
+	<help_sub_title_content id="1150107" sub_title_id="11501"/>
+	<help_sub_title_content id="1150108" sub_title_id="11501" content="派遣された聖騎士はクエストに挑戦できます。"/>
+	<help_sub_title_content id="1150109" sub_title_id="11501" content="派遣時間は、3時間、6時間、12時間と選択できます。"/>
+	<help_sub_title_content id="1150110" sub_title_id="11501" content="派遣した都、時間によって、EXPとアイテムが獲得できます。"/>
+	<help_sub_title_content id="1150111" sub_title_id="11501"/>
+	<help_sub_title_content id="1150112" sub_title_id="11501" content="それぞれの都で使用できるアイテムがあります。"/>
+	<help_sub_title_content id="1150113" sub_title_id="11501" content="アイテムはそれぞれの都でドロップします。"/>
+	<help_sub_title_content id="1150115" sub_title_id="11501" content="派遣アイテムを使用すると、更に報酬を獲得できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1160101" sub_title_id="11601" content="ホーム画面右の【召喚】では、聖騎士やアイテムを召喚できます。"/>
+	<help_sub_title_content id="1160102" sub_title_id="11601"/>
+	<help_sub_title_content id="1160103" sub_title_id="11601" content="召喚の種類"/>
+	<help_sub_title_content id="1160104" sub_title_id="11601" content="異界召喚：晶石を消費して聖騎士を召喚できます。"/>
+	<help_sub_title_content id="1160105" sub_title_id="11601" content="1.無料召喚：毎日無料で召喚できます。"/>
+	<help_sub_title_content id="1160106" sub_title_id="11601" content="召喚回数は、毎日「03：00」にリセットされます。"/>
+	<help_sub_title_content id="1160107" sub_title_id="11601" content="2.有償晶石限定10連召喚：有償晶石を消費して、10連召喚できます。"/>
+	<help_sub_title_content id="1160108" sub_title_id="11601" content="毎月1回のみ召喚できます。"/>
+	<help_sub_title_content id="1160109" sub_title_id="11601" content="召喚回数は、毎月1日「03：00」にリセットされます。"/>
+	<help_sub_title_content id="1160110" sub_title_id="11601"/>
+	<help_sub_title_content id="1160111" sub_title_id="11601" content="武装召喚:聖騎士を召喚して獲得した武装コインを消費して武器を召喚できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1160201" sub_title_id="11602" content="獲得済みの聖騎士を召喚した場合"/>
+	<help_sub_title_content id="1160202" sub_title_id="11602" content="召喚では、獲得済みの聖騎士を召喚する場合があります。"/>
+	<help_sub_title_content id="1160203" sub_title_id="11602" content="その場合、「ウルティマ」に変換されます。"/>
+	<help_sub_title_content id="1160204" sub_title_id="11602" content="変換される「ウルティマ」は、召喚した聖騎士によって異なります。"/>
+	<help_sub_title_content id="1160205" sub_title_id="11602" content="最大LvまでLv突破できる聖騎士のウルティマを獲得した場合、"/>
+	<help_sub_title_content id="1160206" sub_title_id="11602" content="「聖騎士のウルティマ」は「ウルティマコイン」に変換されます。"/>
+	<help_sub_title_content id="1160207" sub_title_id="11602"/>
+	<help_sub_title_content id="1160208" sub_title_id="11602" content="「マルチ・ウルティマ」と「聖騎士のウルティマ」"/>
+	<help_sub_title_content id="1160209" sub_title_id="11602" content="「マルチ・ウルティマ」は【ウルティマショップ】で「聖騎士のウルティマ」と交換できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1160301" sub_title_id="11603" content="【召喚】画面右上の【交換】では、アイテムを消費して、聖騎士やアイテムを交換できます。"/>
+	<help_sub_title_content id="1160302" sub_title_id="11603"/>
+	<help_sub_title_content id="1160303" sub_title_id="11603" content="ポイントの獲得方法"/>
+	<help_sub_title_content id="1160304" sub_title_id="11603" content="聖騎士を召喚する度に、「1ポイント」獲得できます。"/>
+	<help_sub_title_content id="1160305" sub_title_id="11603" content="アイテムを消費して召喚しても、「1ポイント」獲得できます。"/>
+	<help_sub_title_content id="1160306" sub_title_id="11603"/>
+	<help_sub_title_content id="1160307" sub_title_id="11603" content="召喚期間内は、ポイントが累積されます。"/>
+	<help_sub_title_content id="1160308" sub_title_id="11603" content="期間が過ぎると、ポイントはリセットされます。"/>
+	<help_sub_title_content id="1160309" sub_title_id="11603"/>
+	<help_sub_title_content id="1160310" sub_title_id="11603" content="召喚保証"/>
+	<help_sub_title_content id="1160311" sub_title_id="11603" content="召喚期間内に、一定ポイントを獲得して、"/>
+	<help_sub_title_content id="1160312" sub_title_id="11603" content="【ポイント交換】でポイントを消費すると、聖騎士を交換できます。"/>
+	<help_sub_title_content id="1160313" sub_title_id="11603" content="召喚期間内であれば、何度でもポイント交換できます。"/>
+	<help_sub_title_content id="1160314" sub_title_id="11603"/>
+	<help_sub_title_content id="1160315" sub_title_id="11603" content="各召喚のポイントは、各【ポイント召喚】で使用できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1170101" sub_title_id="11701" content="ホーム画面右下の【ショップ】では、様々なアイテムを購入できます。"/>
+	<help_sub_title_content id="1170102" sub_title_id="11701"/>
+	<help_sub_title_content id="1170103" sub_title_id="11701" content="市場：DMMポイントを消費して、晶石、パス、セットなどを購入できます。"/>
+	<help_sub_title_content id="1170104" sub_title_id="11701" content="交換所：アイテムを消費して、アイテムを交換できます。"/>
+	<help_sub_title_content id="1170105" sub_title_id="11701"/>
+	<help_sub_title_content id="1170106" sub_title_id="11701" content="ショップの右上から、&lt;color=#FF9224&gt;晶石&lt;/color&gt;を消費して、更新することもできます。"/>
+	<help_sub_title_content id="1170107" sub_title_id="11701"/>
+	<help_sub_title_content id="1170108" sub_title_id="11701"/>
+	<help_sub_title_content id="1170109" sub_title_id="11701"/>
+	<help_sub_title_content id="1170110" sub_title_id="11701" content="交換所の種類"/>
+	<help_sub_title_content id="1170111" sub_title_id="11701" content="1. 通常：各コインを消費して、アイテムを交換できます。"/>
+	<help_sub_title_content id="1170112" sub_title_id="11701" content="購入回数は、毎月1日「03：00」にリセットされます。"/>
+	<help_sub_title_content id="1170113" sub_title_id="11701" content="2. 召喚：召喚に関連するアイテムを消費して、アイテムを交換できます。"/>
+	<help_sub_title_content id="1170114" sub_title_id="11701" content="3. 素材：チケットを消費して、アイテムを交換できます。"/>
+	<help_sub_title_content content="4.ウルティマ：ウルティマの結晶を消費して、聖騎士のウルティマに交換できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1180101" sub_title_id="11801" content="ホーム画面右下の【ミッション】では、一定条件をクリアすると報酬を獲得できます。"/>
+	<help_sub_title_content id="1180102" sub_title_id="11801"/>
+	<help_sub_title_content id="1180103" sub_title_id="11801" content="ミッション"/>
+	<help_sub_title_content id="1180104" sub_title_id="11801" content="1.デイリーミッション：毎日更新されるミッション。毎日「03：00」にリセットされます。"/>
+	<help_sub_title_content id="1180105" sub_title_id="11801" content="2.メインミッション：プレイヤーのクエスト進捗によって出現するミッション。リセットはされません。"/>
+	<help_sub_title_content id="1180106" sub_title_id="11801"/>
+	<help_sub_title_content id="1180107" sub_title_id="11801" content="ミッションをクリアしたら、【ミッション】に進み、「受取」をクリックすると、報酬が獲得できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1190101" sub_title_id="11901" content="ホーム画面右上の【MENU】→【倉庫】から、獲得したアイテムを獲得できます。"/>
+	<help_sub_title_content id="1190102" sub_title_id="11901" content="聖騎士画面からでも確認できます。"/>
+	<help_sub_title_content id="1190103" sub_title_id="11901"/>
+	<help_sub_title_content id="1190104" sub_title_id="11901" content="倉庫に上限はありません。"/>
+	<help_sub_title_content id="1190105" sub_title_id="11901" content="様々なアイテムを自由に保管できます。"/>
+	<help_sub_title_content id="1190106" sub_title_id="11901"/>
+	<help_sub_title_content id="1190107" sub_title_id="11901" content="獲得方法"/>
+	<help_sub_title_content id="1190108" sub_title_id="11901" content="一部のアイテムは、獲得方法が記載されています。"/>
+	<help_sub_title_content id="1190109" sub_title_id="11901" content="獲得方法からアイテムを獲得できるシステムに進めます。"/>
+	<help_sub_title_content id="1190110" sub_title_id="11901"/>
+	<help_sub_title_content id="1190111" sub_title_id="11901" content="売却"/>
+	<help_sub_title_content id="1190112" sub_title_id="11901" content="売却：売却するアイテムの数量を選択できます。"/>
+	<help_sub_title_content id="1190113" sub_title_id="11901" content="売却すると、レゴルを獲得できます。"/>
+	<help_sub_title_content id="1190114" sub_title_id="11901" content="売却したアイテムは復元できません。"/>
+	<help_sub_title_content id="1190115" sub_title_id="11901" content="一括売却：複数のアイテムを売却できます。数量は選択できません。"/>
+	<help_sub_title_content id="1190116" sub_title_id="11901"/>
+	<help_sub_title_content id="1190117" sub_title_id="11901" content="プレゼント"/>
+	<help_sub_title_content id="1190119" sub_title_id="11901" content="聖騎士に絆アイテムをプレゼントすると、絆Lvがアップします。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1200101" sub_title_id="12001" content="低レアリティの素材を消費して、より高レアリティの素材を獲得する機能です。"/>
+	<help_sub_title_content id="1200102" sub_title_id="12001" content="素材の種類や合成数に応じて、必要な素材の量が変わります。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1200201" sub_title_id="12002" content="同じレアリティかつ同じ種類の素材を消費して、別の素材に変換する機能です。"/>
+	<help_sub_title_content id="1200202" sub_title_id="12002" content="素材の種類や合成数に応じて、必要な素材の量が変わります。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1200301" sub_title_id="12003" content="欲しい素材に変換する際に、消費される素材の数を抑えるアイテムです。"/>
+	<help_sub_title_content id="1200302" sub_title_id="12003" content="属性結晶や騎士の遺物を変換する場合、同じ数の変換安定剤が必要です。"/>
+	<help_sub_title_content id="1200303" sub_title_id="12003" content="アビリティのかけらを変換する際は、3つの変換ごとに1つの変換安定剤が消費されます。"/>
+	<help_sub_title_content id="1200304" sub_title_id="12003" content="※アビリティのかけら1つを変換する場合も、1つの変換安定剤が消費されます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1210101" sub_title_id="12101" content="メニューは、画面右上に固定されています。"/>
+	<help_sub_title_content id="1210102" sub_title_id="12101" content="各システムに進むことができます。"/>
+	<help_sub_title_content id="1210103" sub_title_id="12101"/>
+	<help_sub_title_content id="1210104" sub_title_id="12101" content="設定は、システム、戦闘、ストーリーなどの項目が含まれています。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1210201" sub_title_id="12102" content="ホーム画面右上の【MENU】→【プレイヤー情報】から、プレイヤー情報、アイテム、進捗を確認できます。"/>
+	<help_sub_title_content id="1210202" sub_title_id="12102"/>
+	<help_sub_title_content id="1210203" sub_title_id="12102"/>
+	<help_sub_title_content id="1210204" sub_title_id="12102"/>
+	<help_sub_title_content id="1210205" sub_title_id="12102" content="プレイヤー名は自由に変更できます。"/>
+	<help_sub_title_content id="1210206" sub_title_id="12102" content="ストーリーは、プレイヤー名で進みます。"/>
+	<help_sub_title_content id="1210207" sub_title_id="12102"/>
+	<help_sub_title_content id="1210208" sub_title_id="12102"/>
+	<help_sub_title_content id="1210209" sub_title_id="12102"/>
+	<help_sub_title_content id="1210210" sub_title_id="12102" content="自己紹介は自由に変更できます。"/>
+	<help_sub_title_content id="1210211" sub_title_id="12102" content="フレンドやメンバーの自己紹介も確認できます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content id="1210301" sub_title_id="12103" content="ホーム画面右上の【メニュー】→【フレンド】では、フレンド一覧の確認とフレンドの管理ができます。"/>
+	<help_sub_title_content id="1210302" sub_title_id="12103"/>
+	<help_sub_title_content id="1210303" sub_title_id="12103" content="●一覧：フレンドのプレイヤーが表示されます。"/>
+	<help_sub_title_content id="1210304" sub_title_id="12103" content="●検索：おすすめのプレイヤーが表示されます。プレイヤーIDを入力してフレンド申請もできます。"/>
+	<help_sub_title_content id="1210305" sub_title_id="12103" content="●確認待ち：フレンド申請を承認/拒否できます。"/>
+	<help_sub_title_content id="1210306" sub_title_id="12103" content="●申請中：フレンド申請したプレイヤーが表示されます。"/>
+	<help_sub_title_content id="1210307" sub_title_id="12103"/>
+	<help_sub_title_content id="1210308" sub_title_id="12103" content="プレイヤーは40人までフレンドになれます。"/>
+	<help_sub_title_content id="1210309" sub_title_id="12103" content="APが上限に達していると、報酬を獲得できません。"/>
+	<help_sub_title_content id="1210310" sub_title_id="12103"/>
+	<help_sub_title_content id="1210311" sub_title_id="12103" content="協力聖騎士の設定"/>
+	<help_sub_title_content id="1210312" sub_title_id="12103" content="「メイン」「遺跡、資源」「イベント」「同盟戦」にそれぞれ聖騎士を2人設定して、フレンドの戦闘に協力できます。"/>
+	<help_sub_title_content id="1210313" sub_title_id="12103" content="協力聖騎士を設定するとレゴルを獲得できます。"/>
+	<help_sub_title_content id="1210314" sub_title_id="12103" content="協力する時間、協力する回数が増えるほど、獲得できるレゴルも増えます。"/>
+	<help_sub_title_content id="1210315" sub_title_id="12103" content="協力して獲得できるレゴルが上限に達していると、報酬を獲得できません。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content/>
+	<help_sub_title_content content="「0.5周年人気聖騎士総選挙」は以下の3つの期間に 大きく分けられます。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content content="■投票期間 "/>
+	<help_sub_title_content content="・投票期間：3月14日（木）定期メンテナンス後 ～ 3月28日（木）12:00"/>
+	<help_sub_title_content content="・中間発表：3月21日（水）定期メンテナンス後 "/>
+	<help_sub_title_content content="・結果発表：3月28日（水）定期メンテナンス後 "/>
+	<help_sub_title_content/>
+	<help_sub_title_content content="■投票方法"/>
+	<help_sub_title_content content="投票方法: 投票期間中、各カテゴリの「投票券」を使用して好きな聖騎士に投票可能。"/>
+	<help_sub_title_content content="投票対象: 「SSR聖騎士組」と「SR聖騎士組」（2024年2月29日までに登場した聖騎士）"/>
+	<help_sub_title_content content="注意事項: 一部の聖騎士は投票対象外です。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content content="APを1消費するごとに「投票券」を1枚入手できます。"/>
+	<help_sub_title_content content="投票方法: 投票券1枚につき1票投票可能。"/>
+	<help_sub_title_content content="注意事項: 投票期間終了後、未使用の「投票券」は失効します。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content content="ぜひ、お気に入りの聖騎士にたくさん投票してください！ "/>
+	<help_sub_title_content/>
+	<help_sub_title_content content="■結果発表 "/>
+	<help_sub_title_content content="発表日: 3月28日（木）定期メンテナンス後"/>
+	<help_sub_title_content content="確認方法: 「結果発表」セクションで順位確認が可能。"/>
+	<help_sub_title_content content="注意事項: 結果発表まで各聖騎士への投票数は非公開。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content content="■上位入賞聖騎士への特典"/>
+	<help_sub_title_content content="SSR聖騎士組: 第1位の聖騎士には特別コスチューム版と専用武器を実装予定。また、上位TOP10の聖騎士が後日特別召喚に登場予定。"/>
+	<help_sub_title_content content="SR聖騎士組: 1位の聖騎士は後日、SSR聖騎士に昇格して登場予定。"/>
+	<help_sub_title_content/>
+	<help_sub_title_content content="特典の実装時期や詳細は後日お知らせいたします。"/>
+	<help_sub_title_content content="実装まで時間がかかる場合がありますので、ご了承ください。"/>
+</root>
