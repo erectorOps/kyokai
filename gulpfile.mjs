@@ -1537,7 +1537,7 @@ const ejsFunc = (done) => {
           skill_set: hero['@_skill_set'],
           drawer: heroGroup['@_drawer'],
           voicer: heroGroup['@_voicer'],
-          height: heroGroup['@_height'].replace(/\(?:&#x[DA];/ig, ""),
+          height: heroGroup['@_height'].replace(/&#x[DA];/ig, ""),
           measurements: heroGroup['@_measurements'].replace(/&#x[DA];/ig, ""),
           equip_type: hero['@_equip_type'],
           gacha_type: gachaTypeEntity ? gachaTypeEntity['@_gacha_type'] : "",
