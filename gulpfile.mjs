@@ -26,6 +26,8 @@ import { deleteAsync } from 'del'; //データ削除用
 import { XMLParser } from 'fast-xml-parser';
 import Big from 'big.js';
 
+import deploy from 'gulp-gh-pages';
+
 const parser = new XMLParser({ignoreAttributes: false, numberParseOptions: { skipLike: /^[0-9]+/}});
 
 const srcBase = './src';
@@ -1738,6 +1740,11 @@ const browserSyncReload = (done) => {
   browserSync.reload();
   done();
 }
+
+const deployGhPages = () => {
+  return gulp.src("./dist/**/*")
+  .pipe(deploy());
+}
  
 /* ファイルの変更時にbrowserSyncReloadする */
 const watchFiles = () => {
@@ -1756,3 +1763,5 @@ export default gulp.series(
 export const build = gulp.series(
   gulp.parallel(cssSass, ejsFunc, listFunc ,imgFunc, jsFunc),
 );
+
+export const test = gulp.series(deployGhPages);
