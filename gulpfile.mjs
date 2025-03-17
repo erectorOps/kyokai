@@ -1651,8 +1651,8 @@ const ejsFunc = () => {
       json.atkskill = {name: "通常攻撃", time: (freezeTime + 0.125 + waitShowTime).toFixed(3)}
     }
 
-    json.skill1 = parseSkill(hero['@_skill1'], parseInt(json.lv), kf);
-    json.skill2 = parseSkill(hero['@_skill2'], parseInt(json.lv), kf);
+    json.skill1 = parseSkill(hero['@_skill1'], Math.min(parseInt(json.lv), 100), kf);
+    json.skill2 = parseSkill(hero['@_skill2'], Math.min(parseInt(json.lv), 100), kf);
 
     json.passive1 = parseSkill(hero['@_passive_skill1'], 0, kf);
     json.passive2 = parseSkill(hero['@_passive_skill2'], 0, kf);
