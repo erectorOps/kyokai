@@ -24,6 +24,7 @@ import path from 'path';
 import { deleteAsync } from 'del'; //データ削除用
 
 import { XMLParser } from 'fast-xml-parser';
+import Big from 'big.js';
 
 const parser = new XMLParser({ignoreAttributes: false, numberParseOptions: { skipLike: /^[0-9]+/}});
 
@@ -145,66 +146,66 @@ const calcBuff = (params, buff) => {
     return;
   }
   const type = buff['@_effect_type'];
-  const val1 = buff['@_effect_val1'] ? parseFloat(buff['@_effect_val1']) : 0;
-  const val1_100 = val1 * 100;
-  const val2 = buff['@_effect_val2'] ? parseFloat(buff['@_effect_val2']) : 0;
-  const val3 = buff['@_effect_val3'] ? parseFloat(buff['@_effect_val3']) : 0;
-  const val4 = buff['@_effect_val4'] ? parseFloat(buff['@_effect_val4']) : 0;
-  const val5 = buff['@_effect_val5'] ? parseFloat(buff['@_effect_val5']) : 0;
-  const cval2 = buff['_counter_effect_val2'] ? parseFloat(buff['_counter_effect_val2']) : 0;
+  const val1 = buff['@_effect_val1'] ? new Big(buff['@_effect_val1']).round(2, Big.roundHalfEven) :new Big(0);
+  const val1_100 = val1.mul(100);
+  const val2 = buff['@_effect_val2'] ? new Big(buff['@_effect_val2']).round(2, Big.roundHalfEven) :new Big(0);
+  const val3 = buff['@_effect_val3'] ? new Big(buff['@_effect_val3']).round(2, Big.roundHalfEven) :new Big(0);
+  const val4 = buff['@_effect_val4'] ? new Big(buff['@_effect_val4']).round(2, Big.roundHalfEven) :new Big(0);
+  const val5 = buff['@_effect_val5'] ? new Big(buff['@_effect_val5']).round(2, Big.roundHalfEven) :new Big(0);
+  const cval2 = buff['_counter_effect_val2'] ? new Big(buff['_counter_effect_val2']).round(2, Big.roundHalfEven) :new Big(0);
 
   switch(type)
   {
       case 'HP上限上升或下降':
-        params.hp += val2 + cval2;
+        params.hp = params.hp.plus(val2).plus(cval2);
           // text += "最大HP";
           // text += parseUpDown();
           break;
 
       case 'ATK上升或下降':
-        params.atk += val2 + cval2;
+        params.atk = params.atk.plus(val2).plus(cval2);
         // text += "物理攻撃";
         // text += parseUpDown();
           break;
 
       case 'MATK上升或下降':
-        params.matk += val2 + cval2;
+        params.matk = params.matk.plus(val2).plus(cval2);
         // text += "魔法攻撃";
         // text += parseUpDown();      
           break;
 
       case 'DEF上升或下降':
-        params.def += val2 + cval2;
+        params.def = params.def.plus(val2).plus(cval2);
       //   text += "物理防御";
       //   text += parseUpDown();
           break;
 
       case 'MDEF上升或下降':
-        params.mdef += val2 + cval2;
+        params.mdef = params.mdef.plus(val2).plus(cval2);
         // text += "魔法防御";
         // text += parseUpDown();
           break;
 
       case '命中上升或下降':
-        params.hit += val2 + cval2;
+        params.hit = params.hit.plus(val2).plus(cval2);
         // text += "命中";
         // text += parseUpDown();
           break;
 
       case '迴避上升或下降':
-        params.block += val2 + cval2;
+        params.block = params.block.plus(val2).plus(cval2);
         // text += "ブロック";
         // text += parseUpDown();
           break;
 
       case 'ATK爆擊上升或下降':
-        params.atk_crit += val2 + cval2;
+        params.atk_crit = params.atk_crit.plus(val2).plus(cval2);
         // text += "物理クリティカル";
         // text +=  parseCrit();
           break;
 
       case 'MATK爆擊上升或下降':
-        params.matk_crit += val2 + cval2;
+        params.matk_crit = params.matk_crit.plus(val2).plus(cval2);
         // text += "魔法クリティカル";
         // text += parseCrit();
           break;
@@ -212,10 +213,10 @@ const calcBuff = (params, buff) => {
       case '速度上升或下降':
 
         // text += "行動速度";
-        // if (val1 > 0) {
-        //   text += `${val1}%UP`;
-        // } else if (val1 < 0) {
-        //   text += `${Math.abs(val1)}%DOWN`;
+        // if (val1.gt(0)) {
+        //   text += `${val1.toString()}%UP`;
+        // } else if (val1.lt(0)) {
+        //   text += `${val1.abs().toString()}%DOWN`;
         // }
           break;
 
@@ -338,95 +339,95 @@ const calcBuff = (params, buff) => {
           break;
 
       case '定值傷害吸收':
-        // if (val3 > 0) { 
-        //   text += `回復バリア(${val1}%${val2 > 0 ? "+" + (val2*lv) : ""}、削れたバリアの${val3}%HP回復)`;
+        // if (val3.gt(0)) { 
+        //   text += `回復バリア(${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}、削れたバリアの${val3.toString()}%HP回復)`;
         // } else {
-        //   text += `バリア(${val1}%${val2 > 0 ? "+" + (val2*lv) : ""})`;
+        //   text += `バリア(${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""})`;
         // }
           break;
 
       case '物理定值傷害吸收':
-        // if (val3 > 0) { 
-        //   text += `物理回復バリア(${val1}%${val2 > 0 ? "+" + (val2*lv) : ""}、削れたバリアの${val3}%HP回復)`;
+        // if (val3.gt(0)) { 
+        //   text += `物理回復バリア(${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}、削れたバリアの${val3.toString()}%HP回復)`;
         // } else {
-        //   text += `物理バリア(${val1}%${val2 > 0 ? "+" + (val2*lv) : ""})`;
+        //   text += `物理バリア(${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""})`;
         // }
           break;
 
       case '魔法定值傷害吸收':
-        // if (val3 > 0) { 
-        //   text += `魔法回復バリア(${val1}%${val2 > 0 ? "+" + (val2*lv) : ""}、削れたバリアの${val3}%HP回復)`;
+        // if (val3.gt(0)) { 
+        //   text += `魔法回復バリア(${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}、削れたバリアの${val3.toString()}%HP回復)`;
         // } else {
-        //   text += `魔法バリア(${val1}%${val2 > 0 ? "+" + (val2*lv) : ""})`;
+        //   text += `魔法バリア(${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""})`;
         // }
           break;
 
       case '次數傷害吸收':
-        // text += `${val2 < 999 ? "回数付" : ""}${val3 > 0 ? "回復" : ""}バリア(${val1}%`;
-        // if ((val4+val5*lv) > 0) {
-        //   text += `+${val4+val5*lv}`;
+        // text += `${val2.lt(999) ? "回数付" : ""}${val3.gt(0) ? "回復" : ""}バリア(${val1.toString()}%`;
+        // if (val4.plus(val5.mul(lv)).gt(0)) {
+        //   text += `+${val4.plus(val5.mul(lv)).toString()}`;
         // }
-        // if (val3 > 0) {
-        //   text += `、削れたバリアの${val3}%回復`;
+        // if (val3.gt(0)) {
+        //   text += `、削れたバリアの${val3.toString()}%回復`;
         // }
 
-        // if (val2 < 999) {
-        //   text += `、${val2}回`;
+        // if (val2.lt(999)) {
+        //   text += `、${val2.toString()}回`;
         // }
         // text += ")";
         
           break;
 
       case '物理次數傷害吸收':
-        // text += `${val2 < 999 ? "回数付" : ""}${val3 > 0 ? "物理回復" : "物理"}バリア(${val1}%`;
-        // if ((val4+val5*lv) > 0) {
-        //   text += `+${val4+val5*lv}`;
+        // text += `${val2.lt(999) ? "回数付" : ""}${val3.gt(0) ? "物理回復" : "物理"}バリア(${val1.toString()}%`;
+        // if (val4.plus(val5.mul(lv)).gt(0)) {
+        //   text += `+${val4.plus(val5.mul(lv)).toString()}`;
         // }
-        // if (val3 > 0) {
-        //   text += `、削れたバリアの${val3}%回復`;
+        // if (val3.gt(0)) {
+        //   text += `、削れたバリアの${val3.toString()}%回復`;
         // }
 
-        // if (val2 < 999) {
-        //   text += `、${val2}回`;
+        // if (val2.lt(999)) {
+        //   text += `、${val2.toString()}回`;
         // }
         // text += ")";
           break;
 
       case '魔法次數傷害吸收':
-        // text += `${val2 < 999 ? "回数付" : ""}${val3 > 0 ? "魔法回復" : "魔法"}バリア(${val1}%`;
-        // if ((val4+val5*lv) > 0) {
-        //   text += `+${val4+val5*lv}`;
+        // text += `${val2.lt(999) ? "回数付" : ""}${val3.gt(0) ? "魔法回復" : "魔法"}バリア(${val1.toString()}%`;
+        // if (val4.plus(val5.mul(lv)).gt(0)) {
+        //   text += `+${val4.plus(val5.mul(lv)).toString()}`;
         // }
-        // if (val3 > 0) {
-        //   text += `、削れたバリアの${val3}%回復`;
+        // if (val3.gt(0)) {
+        //   text += `、削れたバリアの${val3.toString()}%回復`;
         // }
 
-        // if (val2 < 999) {
-        //   text += `、${val2}回`;
+        // if (val2.lt(999)) {
+        //   text += `、${val2.toString()}回`;
         // }
         // text += ")";
           break;
 
       case '次數傷害反彈':
-        // text += `反射バリア(${val1}%${(val3+val4*lv) > 0 ? "+" + (val3+val4*lv) : ""}`;
-        // if (val2 < 999) {
-        //   text += `、${val2}回`;
+        // text += `反射バリア(${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}`;
+        // if (val2.lt(999)) {
+        //   text += `、${val2.toString()}回`;
         // }
         // text += ")";
           break;
 
       case '物理次數傷害反彈':
-        // text += `物理反射バリア(${val1}%${(val3+val4*lv) > 0 ? "+" + (val3+val4*lv) : ""}`;
-        // if (val2 < 999) {
-        //   text += `、${val2}回`;
+        // text += `物理反射バリア(${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}`;
+        // if (val2.lt(999)) {
+        //   text += `、${val2.toString()}回`;
         // }
         // text += ")";
           break;
 
       case '魔法次數傷害反彈':
-        // text += `魔法反射バリア(${val1}%${(val3+val4*lv) > 0 ? "+" + (val3+val4*lv) : ""}`;
-        // if (val2 < 999) {
-        //   text += `、${val2}回`;
+        // text += `魔法反射バリア(${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}`;
+        // if (val2.lt(999)) {
+        //   text += `、${val2.toString()}回`;
         // }
         // text += ")";
           break;
@@ -444,7 +445,7 @@ const calcBuff = (params, buff) => {
           break;
 
       case '嘲諷':
-        // text += `挑発${val1 < 100 ? "(弱)" : ""}`;
+        // text += `挑発${val1.lt(100) ? "(弱)" : ""}`;
           break;
 
       case '嘲諷抗性':
@@ -452,37 +453,37 @@ const calcBuff = (params, buff) => {
           break;
 
       case '次數傷害加成':
-        // text += `回数付ダメージUP(${val1}%${(val3+val4*lv) > 0 ? "+" + (val3+val4*lv) : ""}`;
-        // if (val2 < 999) {
-        //   text += `、${val2}回`;
+        // text += `回数付ダメージUP(${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}`;
+        // if (val2.lt(999)) {
+        //   text += `、${val2.toString()}回`;
         // }
         // text += ")";
           break;
 
       case '物理次數傷害加成':
-        // text += `回数付物理ダメージUP(${val1}%${(val3+val4*lv) > 0 ? "+" + (val3+val4*lv) : ""}`;
-        // if (val2 < 999) {
-        //   text += `、${val2}回`;
+        // text += `回数付物理ダメージUP(${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}`;
+        // if (val2.lt(999)) {
+        //   text += `、${val2.toString()}回`;
         // }
         // text += ")";
           break;
 
       case '魔法次數傷害加成':
-        // text += `回数付魔法ダメージUP(${val1}%${(val3+val4*lv) > 0 ? "+" + (val3+val4*lv) : ""}`;
-        // if (val2 < 999) {
-        //   text += `、${val2}回`;
+        // text += `回数付魔法ダメージUP(${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}`;
+        // if (val2.lt(999)) {
+        //   text += `、${val2.toString()}回`;
         // }
         // text += ")";
           break;
 
       case '治療量上升或下降':
-        params.healing_power += val2 + cval2;
+        params.healing_power = params.healing_power.plus(val2).plus(cval2);
         //text += "治癒量";
         //text += parseUpDown();
           break;
 
       case '吸血量上升或下降':
-        params.dmg_suck_hp += val2 + cval2;
+        params.dmg_suck_hp = params.dmg_suck_hp.plus(val2).plus(cval2);
         //text += "HP吸収";
         //text += parseUpDown();
           break;
@@ -585,55 +586,55 @@ const calcBuff = (params, buff) => {
           break;
 
       case '受到傷害上限降低':
-    //    text += `${val2}以上のダメージ(1撃)を受けると、超過分のダメージが${100-val1}%軽減される`;
+    //    text += `${val2.toString()}以上のダメージ(1撃)を受けると、超過分のダメージが${100-val1}%軽減される`;
           break;
 
       case '風屬性角色技能強化消耗金幣減少':
-    //    text += `風属性聖騎士のスキルLv強化時の消費レゴル-${val1}%`;
+    //    text += `風属性聖騎士のスキルLv強化時の消費レゴル-${val1.toString()}%`;
           break;
 
       case '水屬性角色技能強化消耗金幣減少':
-    //    text += `水属性聖騎士のスキルLv強化時の消費レゴル-${val1}%`;
+    //    text += `水属性聖騎士のスキルLv強化時の消費レゴル-${val1.toString()}%`;
           break;
 
       case '火屬性角色技能強化消耗金幣減少':
-    //    text += `火属性聖騎士のスキルLv強化時の消費レゴル-${val1}%`;
+    //    text += `火属性聖騎士のスキルLv強化時の消費レゴル-${val1.toString()}%`;
           break;
 
       case '聖屬性角色技能強化消耗金幣減少':
-     //   text += `聖属性聖騎士のスキルLv強化時の消費レゴル-${val1}%`;
+     //   text += `聖属性聖騎士のスキルLv強化時の消費レゴル-${val1.toString()}%`;
           break;
 
       case '魔屬性角色技能強化消耗金幣減少':
-     //   text += `魔属性聖騎士のスキルLv強化時の消費レゴル-${val1}%`;
+     //   text += `魔属性聖騎士のスキルLv強化時の消費レゴル-${val1.toString()}%`;
           break;
 
       case '想屬性角色技能強化消耗金幣減少':
-      //  text += `想属性聖騎士のスキルLv強化時の消費レゴル-${val1}%`;
+      //  text += `想属性聖騎士のスキルLv強化時の消費レゴル-${val1.toString()}%`;
           break;
 
       case '受到風屬性傷害上升或下降':
-        //  text += `風属性の敵からの被ダメージ${Math.abs(val1)}${val1 > 0 ? "UP" : "DOWN"}`;
+        //  text += `風属性の敵からの被ダメージ${val1.abs().toString()}${val1.gt(0) ? "UP" : "DOWN"}`;
           break;
 
       case '受到水屬性傷害上升或下降':
-      //    text += `水属性の敵からの被ダメージ${Math.abs(val1)}${val1 > 0 ? "UP" : "DOWN"}`;
+      //    text += `水属性の敵からの被ダメージ${val1.abs().toString()}${val1.gt(0) ? "UP" : "DOWN"}`;
           break;
 
       case '受到火屬性傷害上升或下降':
-         // text += `火属性の敵からの被ダメージ${Math.abs(val1)}${val1 > 0 ? "UP" : "DOWN"}`;
+         // text += `火属性の敵からの被ダメージ${val1.abs().toString()}${val1.gt(0) ? "UP" : "DOWN"}`;
           break;
 
       case '受到聖屬性傷害上升或下降':
-          //text += `聖属性の敵からの被ダメージ${Math.abs(val1)}${val1 > 0 ? "UP" : "DOWN"}`;
+          //text += `聖属性の敵からの被ダメージ${val1.abs().toString()}${val1.gt(0) ? "UP" : "DOWN"}`;
           break;
 
       case '受到魔屬性傷害上升或下降':
-          //text += `魔属性の敵からの被ダメージ${Math.abs(val1)}${val1 > 0 ? "UP" : "DOWN"}`;
+          //text += `魔属性の敵からの被ダメージ${val1.abs().toString()}${val1.gt(0) ? "UP" : "DOWN"}`;
           break;
 
       case '受到想屬性傷害上升或下降':
-          //text += `想属性の敵からの被ダメージ${Math.abs(val1)}${val1 > 0 ? "UP" : "DOWN"}`;
+          //text += `想属性の敵からの被ダメージ${val1.abs().toString()}${val1.gt(0) ? "UP" : "DOWN"}`;
           break;
 
       case '技能傷害加成無效':
@@ -688,30 +689,30 @@ const parseBuff = (buff, lv) => {
   }
 
   const type = buff['@_effect_type'];
-  const val1 = buff['@_effect_val1'] ? parseFloat(buff['@_effect_val1']) : 0;
-  const val1_100 = val1 * 100;
-  const val2 = buff['@_effect_val2'] ? parseFloat(buff['@_effect_val2']) : 0;
-  const val3 = buff['@_effect_val3'] ? parseFloat(buff['@_effect_val3']) : 0;
-  const val4 = buff['@_effect_val4'] ? parseFloat(buff['@_effect_val4']) : 0;
-  const val5 = buff['@_effect_val5'] ? parseFloat(buff['@_effect_val5']) : 0;
+  const val1 = buff['@_effect_val1'] ? new Big(buff['@_effect_val1']).round(2, Big.roundHalfEven) : new Big(0);
+  const val1_100 = val1.mul(100);
+  const val2 = buff['@_effect_val2'] ? new Big(buff['@_effect_val2']).round(2, Big.roundHalfEven) :new Big(0);
+  const val3 = buff['@_effect_val3'] ? new Big(buff['@_effect_val3']).round(2, Big.roundHalfEven) :new Big(0);
+  const val4 = buff['@_effect_val4'] ? new Big(buff['@_effect_val4']).round(2, Big.roundHalfEven) :new Big(0);
+  const val5 = buff['@_effect_val5'] ? new Big(buff['@_effect_val5']).round(2, Big.roundHalfEven) :new Big(0);
   let text = "";
 
   const parseUpDown = (v1) => {
     let t = "";
     if (v1 === undefined) { v1 = val1; }
-    if (v1 > 0) {
-      t += `${v1}%`;
-      const v = val2 + val3 * lv;
-      if (v > 0) { t += `+${Math.abs(v)}`; } else if (v < 0) { t += `-${Math.abs(v)}`; }
+    if (v1.gt(0)) {
+      t += `${v1.toString()}%`;
+      const v = val2.plus(val3.mul(lv));
+      if (v.gt(0)) { t += `+${v.abs().toString()}`; } else if (v.lt(0)) { t += `-${v.abs().toString()}`; }
       t += "UP";
-    } else if (v1 < 0) {
-      t += `${Math.abs(v1)}%`;
-      const v = val2 + val3 * lv;
-      if (v > 0) { t += `+${Math.abs(v)}`; } else if (v < 0) { t += `-${Math.abs(v)}`; }
+    } else if (v1.lt(0)) {
+      t += `${v1.abs().toString()}%`;
+      const v = val2.plus(val3.mul(lv));
+      if (v.gt(0)) { t += `+${v.abs().toString()}`; } else if (v.lt(0)) { t += `-${v.abs().toString()}`; }
       t += "DOWN";
     } else {
-      const v = val2 + val3 * lv;
-      t += ((v > 0) ? "+" : "") + `${v}`;
+      const v = val2.plus(val3.mul(lv));
+      t += ((v > 0) ? "+" : "") + `${v.toString()}`;
       //if (v > 0) { t += "UP"; } else if (v < 0) { t += "DOWN"; }
     }
     return t;
@@ -719,38 +720,38 @@ const parseBuff = (buff, lv) => {
 
   const parseAddSub = () => {
     let t = "";
-    if (val1 > 0) {
-      t += `${val1}%`;
-      const v = val2 + val3 * lv;
-      if (v > 0) { t += `+${Math.abs(v)}`; } else if (v < 0) { t += `-${Math.abs(v)}`; }
-    } else if (val1 < 0) {
-      t += `-${Math.abs(val1)}%`;
-      const v = val2 + val3 * lv;
-      if (v > 0) { t += `+${Math.abs(v)}`; } else if (v < 0) { t += `-${Math.abs(v)}`; }
+    if (val1.gt(0)) {
+      t += `${val1.toString()}%`;
+      const v = val2.plus(val3.mul(lv));
+      if (v.gt(0)) { t += `+${v.abs().toString()}`; } else if (v.lt(0)) { t += `-${v.abs().toString()}`; }
+    } else if (val1.lt(0)) {
+      t += `-${val1.abs().toString()}%`;
+      const v = val2.plus(val3.mul(lv));
+      if (v.gt(0)) { t += `+${v.abs().toString()}`; } else if (v.lt(0)) { t += `-${v.abs().toString()}`; }
     } else {
-      const v = val2 + val3 * lv;
-      t += `${v}`;
+      const v = val2.plus(val3.mul(lv));
+      t += `${v.toString()}`;
     }
     return t;
   };
 
   const parseCrit = () => {
     let t = "";
-    if (val1 !== 0) {
-      if (val1 > 0) {
-        t += `${val1}%`;
-        const v = val2 + val3 * lv;
-        if (v > 0) { t += `+${Math.abs(v)}`; } else if (v < 0) { t += `-${Math.abs(v)}`; }
+    if (val1.cmp(0) !== 0) {
+      if (val1.gt(0)) {
+        t += `${val1.toString()}%`;
+        const v = val2.plus(val3.mul(lv));
+        if (v.gt(0)) { t += `+${v.abs().toString()}`; } else if (v.lt(0)) { t += `-${v.abs().toString()}`; }
         t += "UP";
       } else {
-        t += `${Math.abs(val1)}%`;
-        const v = val2 + val3 * lv;
-        if (v > 0) { t += `+${Math.abs(v)}`; } else if (v < 0) { t += `-${Math.abs(v)}`; }
+        t += `${val1.abs().toString()}%`;
+        const v = val2.plus(val3.mul(lv));
+        if (v.gt(0)) { t += `+${v.abs().toString()}`; } else if (v.lt(0)) { t += `-${v.abs().toString()}`; }
         t += "DOWN";
       }
     } else {
-      const v = val2 + val3 * lv;
-      t += (((v * 0.05) > 0) ? "+" : "") + `${(v * 0.05).toFixed(2)}%`;
+      const v = val2.plus(val3.mul(lv));
+      t += (v.mul("0.05").gt(0) ? "+" : "") + `${v.mul("0.05").round(2, Big.roundHalfEven).toString()}%`;
     }
     return t;
   }
@@ -804,10 +805,10 @@ const parseBuff = (buff, lv) => {
 
       case '速度上升或下降':
         text += "行動速度";
-        if (val1 > 0) {
-          text += `${val1}%UP`;
-        } else if (val1 < 0) {
-          text += `${Math.abs(val1)}%DOWN`;
+        if (val1.gt(0)) {
+          text += `${val1.toString()}%UP`;
+        } else if (val1.lt(0)) {
+          text += `${val1.abs().toString()}%DOWN`;
         }
           break;
 
@@ -930,95 +931,95 @@ const parseBuff = (buff, lv) => {
           break;
 
       case '定值傷害吸收':
-        if (val3 > 0) { 
-          text += `回復バリア(${val1}%${val2 > 0 ? "+" + (val2*lv) : ""}、削れたバリアの${val3}%HP回復)`;
+        if (val3.gt(0)) { 
+          text += `回復バリア(${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}、削れたバリアの${val3.toString()}%HP回復)`;
         } else {
-          text += `バリア(${val1}%${val2 > 0 ? "+" + (val2*lv) : ""})`;
+          text += `バリア(${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""})`;
         }
           break;
 
       case '物理定值傷害吸收':
-        if (val3 > 0) { 
-          text += `物理回復バリア(${val1}%${val2 > 0 ? "+" + (val2*lv) : ""}、削れたバリアの${val3}%HP回復)`;
+        if (val3.gt(0)) { 
+          text += `物理回復バリア(${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}、削れたバリアの${val3.toString()}%HP回復)`;
         } else {
-          text += `物理バリア(${val1}%${val2 > 0 ? "+" + (val2*lv) : ""})`;
+          text += `物理バリア(${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""})`;
         }
           break;
 
       case '魔法定值傷害吸收':
-        if (val3 > 0) { 
-          text += `魔法回復バリア(${val1}%${val2 > 0 ? "+" + (val2*lv) : ""}、削れたバリアの${val3}%HP回復)`;
+        if (val3.gt(0)) { 
+          text += `魔法回復バリア(${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}、削れたバリアの${val3.toString()}%HP回復)`;
         } else {
-          text += `魔法バリア(${val1}%${val2 > 0 ? "+" + (val2*lv) : ""})`;
+          text += `魔法バリア(${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""})`;
         }
           break;
 
       case '次數傷害吸收':
-        text += `${val2 < 999 ? "回数付" : ""}${val3 > 0 ? "回復" : ""}バリア(${val1}%`;
-        if ((val4+val5*lv) > 0) {
-          text += `+${val4+val5*lv}`;
+        text += `${val2.lt(999) ? "回数付" : ""}${val3.gt(0) ? "回復" : ""}バリア(${val1.toString()}%`;
+        if (val4.plus(val5.mul(lv)).gt(0)) {
+          text += `+${val4.plus(val5.mul(lv)).toString()}`;
         }
-        if (val3 > 0) {
-          text += `、削れたバリアの${val3}%回復`;
+        if (val3.gt(0)) {
+          text += `、削れたバリアの${val3.toString()}%回復`;
         }
 
-        if (val2 < 999) {
-          text += `、${val2}回`;
+        if (val2.lt(999)) {
+          text += `、${val2.toString()}回`;
         }
         text += ")";
         
           break;
 
       case '物理次數傷害吸收':
-        text += `${val2 < 999 ? "回数付" : ""}${val3 > 0 ? "物理回復" : "物理"}バリア(${val1}%`;
-        if ((val4+val5*lv) > 0) {
-          text += `+${val4+val5*lv}`;
+        text += `${val2.lt(999) ? "回数付" : ""}${val3.gt(0) ? "物理回復" : "物理"}バリア(${val1.toString()}%`;
+        if (val4.plus(val5.mul(lv)).gt(0)) {
+          text += `+${val4.plus(val5.mul(lv)).toString()}`;
         }
-        if (val3 > 0) {
-          text += `、削れたバリアの${val3}%回復`;
+        if (val3.gt(0)) {
+          text += `、削れたバリアの${val3.toString()}%回復`;
         }
 
-        if (val2 < 999) {
-          text += `、${val2}回`;
+        if (val2.lt(999)) {
+          text += `、${val2.toString()}回`;
         }
         text += ")";
           break;
 
       case '魔法次數傷害吸收':
-        text += `${val2 < 999 ? "回数付" : ""}${val3 > 0 ? "魔法回復" : "魔法"}バリア(${val1}%`;
-        if ((val4+val5*lv) > 0) {
-          text += `+${val4+val5*lv}`;
+        text += `${val2.lt(999) ? "回数付" : ""}${val3.gt(0) ? "魔法回復" : "魔法"}バリア(${val1.toString()}%`;
+        if (val4.plus(val5.mul(lv)).gt(0)) {
+          text += `+${val4.plus(val5.mul(lv)).toString()}`;
         }
-        if (val3 > 0) {
-          text += `、削れたバリアの${val3}%回復`;
+        if (val3.gt(0)) {
+          text += `、削れたバリアの${val3.toString()}%回復`;
         }
 
-        if (val2 < 999) {
-          text += `、${val2}回`;
+        if (val2.lt(999)) {
+          text += `、${val2.toString()}回`;
         }
         text += ")";
           break;
 
       case '次數傷害反彈':
-        text += `反射バリア(${val1}%${(val3+val4*lv) > 0 ? "+" + (val3+val4*lv) : ""}`;
-        if (val2 < 999) {
-          text += `、${val2}回`;
+        text += `反射バリア(${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}`;
+        if (val2.lt(999)) {
+          text += `、${val2.toString()}回`;
         }
         text += ")";
           break;
 
       case '物理次數傷害反彈':
-        text += `物理反射バリア(${val1}%${(val3+val4*lv) > 0 ? "+" + (val3+val4*lv) : ""}`;
-        if (val2 < 999) {
-          text += `、${val2}回`;
+        text += `物理反射バリア(${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}`;
+        if (val2.lt(999)) {
+          text += `、${val2.toString()}回`;
         }
         text += ")";
           break;
 
       case '魔法次數傷害反彈':
-        text += `魔法反射バリア(${val1}%${(val3+val4*lv) > 0 ? "+" + (val3+val4*lv) : ""}`;
-        if (val2 < 999) {
-          text += `、${val2}回`;
+        text += `魔法反射バリア(${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}`;
+        if (val2.lt(999)) {
+          text += `、${val2.toString()}回`;
         }
         text += ")";
           break;
@@ -1036,7 +1037,7 @@ const parseBuff = (buff, lv) => {
           break;
 
       case '嘲諷':
-        text += `挑発${val1 < 100 ? "(弱)" : ""}`;
+        text += `挑発${val1.lt(100) ? "(弱)" : ""}`;
           break;
 
       case '嘲諷抗性':
@@ -1044,25 +1045,25 @@ const parseBuff = (buff, lv) => {
           break;
 
       case '次數傷害加成':
-        text += `回数付ダメージUP(${val1}%${(val3+val4*lv) > 0 ? "+" + (val3+val4*lv) : ""}`;
-        if (val2 < 999) {
-          text += `、${val2}回`;
+        text += `回数付ダメージUP(${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}`;
+        if (val2.lt(999)) {
+          text += `、${val2.toString()}回`;
         }
         text += ")";
           break;
 
       case '物理次數傷害加成':
-        text += `回数付物理ダメージUP(${val1}%${(val3+val4*lv) > 0 ? "+" + (val3+val4*lv) : ""}`;
-        if (val2 < 999) {
-          text += `、${val2}回`;
+        text += `回数付物理ダメージUP(${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}`;
+        if (val2.lt(999)) {
+          text += `、${val2.toString()}回`;
         }
         text += ")";
           break;
 
       case '魔法次數傷害加成':
-        text += `回数付魔法ダメージUP(${val1}%${(val3+val4*lv) > 0 ? "+" + (val3+val4*lv) : ""}`;
-        if (val2 < 999) {
-          text += `、${val2}回`;
+        text += `回数付魔法ダメージUP(${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}`;
+        if (val2.lt(999)) {
+          text += `、${val2.toString()}回`;
         }
         text += ")";
           break;
@@ -1175,55 +1176,55 @@ const parseBuff = (buff, lv) => {
           break;
 
       case '受到傷害上限降低':
-        text += `${val2}以上のダメージ(1撃)を受けると、超過分のダメージが${100-val1}%軽減される`;
+        text += `${val2.toString()}以上のダメージ(1撃)を受けると、超過分のダメージが${(new Big("100")).minus(val1).toString()}%軽減される`;
           break;
 
       case '風屬性角色技能強化消耗金幣減少':
-        text += `風属性聖騎士のスキルLv強化時の消費レゴル-${val1}%`;
+        text += `風属性聖騎士のスキルLv強化時の消費レゴル-${val1.toString()}%`;
           break;
 
       case '水屬性角色技能強化消耗金幣減少':
-        text += `水属性聖騎士のスキルLv強化時の消費レゴル-${val1}%`;
+        text += `水属性聖騎士のスキルLv強化時の消費レゴル-${val1.toString()}%`;
           break;
 
       case '火屬性角色技能強化消耗金幣減少':
-        text += `火属性聖騎士のスキルLv強化時の消費レゴル-${val1}%`;
+        text += `火属性聖騎士のスキルLv強化時の消費レゴル-${val1.toString()}%`;
           break;
 
       case '聖屬性角色技能強化消耗金幣減少':
-        text += `聖属性聖騎士のスキルLv強化時の消費レゴル-${val1}%`;
+        text += `聖属性聖騎士のスキルLv強化時の消費レゴル-${val1.toString()}%`;
           break;
 
       case '魔屬性角色技能強化消耗金幣減少':
-        text += `魔属性聖騎士のスキルLv強化時の消費レゴル-${val1}%`;
+        text += `魔属性聖騎士のスキルLv強化時の消費レゴル-${val1.toString()}%`;
           break;
 
       case '想屬性角色技能強化消耗金幣減少':
-        text += `想属性聖騎士のスキルLv強化時の消費レゴル-${val1}%`;
+        text += `想属性聖騎士のスキルLv強化時の消費レゴル-${val1.toString()}%`;
           break;
 
       case '受到風屬性傷害上升或下降':
-          text += `風属性の敵からの被ダメージ${Math.abs(val1)}${val1 > 0 ? "UP" : "DOWN"}`;
+          text += `風属性の敵からの被ダメージ${val1.abs().toString()}${val1.gt(0) ? "UP" : "DOWN"}`;
           break;
 
       case '受到水屬性傷害上升或下降':
-          text += `水属性の敵からの被ダメージ${Math.abs(val1)}${val1 > 0 ? "UP" : "DOWN"}`;
+          text += `水属性の敵からの被ダメージ${val1.abs().toString()}${val1.gt(0) ? "UP" : "DOWN"}`;
           break;
 
       case '受到火屬性傷害上升或下降':
-          text += `火属性の敵からの被ダメージ${Math.abs(val1)}${val1 > 0 ? "UP" : "DOWN"}`;
+          text += `火属性の敵からの被ダメージ${val1.abs().toString()}${val1.gt(0) ? "UP" : "DOWN"}`;
           break;
 
       case '受到聖屬性傷害上升或下降':
-          text += `聖属性の敵からの被ダメージ${Math.abs(val1)}${val1 > 0 ? "UP" : "DOWN"}`;
+          text += `聖属性の敵からの被ダメージ${val1.abs().toString()}${val1.gt(0) ? "UP" : "DOWN"}`;
           break;
 
       case '受到魔屬性傷害上升或下降':
-          text += `魔属性の敵からの被ダメージ${Math.abs(val1)}${val1 > 0 ? "UP" : "DOWN"}`;
+          text += `魔属性の敵からの被ダメージ${val1.abs().toString()}${val1.gt(0) ? "UP" : "DOWN"}`;
           break;
 
       case '受到想屬性傷害上升或下降':
-          text += `想属性の敵からの被ダメージ${Math.abs(val1)}${val1 > 0 ? "UP" : "DOWN"}`;
+          text += `想属性の敵からの被ダメージ${val1.abs().toString()}${val1.gt(0) ? "UP" : "DOWN"}`;
           break;
 
       case '技能傷害加成無效':
@@ -1287,21 +1288,21 @@ const parseSkill = (sid, lv, kf) => {
   }
 
 
-  const hpScale = s['@_target_hp_scale'] ? parseFloat(s['@_target_hp_scale']) : 0;
-  const hpAdd = s['@_target_hp_add'] ? parseFloat(s['@_target_hp_add']) : 0;
-  const hpGrow = s['@_target_hp_add_grow'] ? parseFloat(s['@_target_hp_add_grow']) : 0;
+  const hpScale = s['@_target_hp_scale'] ? new Big(s['@_target_hp_scale']) :new Big(0);
+  const hpAdd = s['@_target_hp_add'] ? new Big(s['@_target_hp_add']) :new Big(0);
+  const hpGrow = s['@_target_hp_add_grow'] ? new Big(s['@_target_hp_add_grow']) :new Big(0);
 
   if (text.indexOf('{3:P0}') !== -1) {
-    const suck = s['@_dmg_suck_hp_scale'] ? parseFloat(s['@_dmg_suck_hp_scale']) : 0;
-    if (suck !== 0) {
-      text = text.replace('{3:P0}', Math.floor(suck*100)+ "%");
+    const suck = s['@_dmg_suck_hp_scale'] ? new Big(s['@_dmg_suck_hp_scale']) :new Big(0);
+    if (suck.cmp(0) !== 0) {
+      text = text.replace('{3:P0}', suck.mul(100).round(0, Big.roundDown).toString() + "%");
     }
   }
 
   const targetHpEffect = s['@_target_hp_effect'] ? s['@_target_hp_effect'].replace("魔法傷害", "魔法ダメージ").replace("物理傷害", "物理ダメージ") : "";
 
   if (text.indexOf('{9}') !== -1) {
-    const damage = `${Math.floor(hpScale*100)}%+${hpGrow*lv+hpAdd}`;
+    const damage = `${hpScale.mul(100).round(0, Big.roundDown).toString()}%+${hpGrow.mul(lv).plus(hpAdd).toString()}`;
     text = text.replace('{9}', damage)
   }
 
@@ -1600,7 +1601,7 @@ const ejsFunc = () => {
 
 
       json.lv = parseInt(grow['@_lv']);
-      json[paramName] = v;
+      json[paramName] = new Big(v);
     }
 
     //const awakePassiveSkill = awakeEntity ? awakeEntity['@_awake_passive_skill'] : null;
@@ -1648,6 +1649,14 @@ const ejsFunc = () => {
 
     json.ubskills = ubskills;
     json.awake_ubskills = awakeUbSkills;
+
+    for (const paramName of paramNameList) {
+      if (paramName.indexOf('atk_crit') !== -1) {
+        json[paramName] = json[paramName].mul("0.05").round(2, Big.roundHalfEven).toString();
+      } else {
+        json[paramName] = json[paramName].toString();
+      }
+    }
 
     // HTMLファイル作成
     gulp.src([srcBase + "/hero/*.ejs", srcPath._ejs])

@@ -20,9 +20,9 @@
             <tr><th width="33%">HP</th><th width="33%">治癒</th><th width="33%">HP回復</th></tr>
             <tr><td class="center"><%= page['hp'] %></td><td class="center"><%= page['healing_power'] %></td><td class="center"><%= page['end_hp_recovery'] %></td></tr>
             <tr><th>物理攻撃</th><th>物理クリ</th><th>MP回復</th></tr>
-            <tr><td class="center"><%= page['atk'] %></td><td class="center"><%= (parseInt(page['atk_crit']) * 0.05).toFixed(2) + "%" %></td><td class="center"><%= page['end_mp_recovery'] %></td></tr>
+            <tr><td class="center"><%= page['atk'] %></td><td class="center"><%= page['atk_crit'] + "%" %></td><td class="center"><%= page['end_mp_recovery'] %></td></tr>
             <tr><th>魔法攻撃</th><th>魔法クリ</th><th>HP吸収</th></tr>
-            <tr><td class="center"><%= page['matk'] %></td><td class="center"><%= (parseInt(page['matk_crit']) * 0.05).toFixed(2) + "%" %></td><td class="center"><%= page['dmg_suck_hp'] %></td></tr>
+            <tr><td class="center"><%= page['matk'] %></td><td class="center"><%= page['matk_crit'] + "%" %></td><td class="center"><%= page['dmg_suck_hp'] %></td></tr>
             <tr><th>物理防御</th><th>魔法防御</th><th>MPチャージ</th></tr>
             <tr><td class="center"><%= page['def'] %></td><td class="center"><%= page['mdef'] %></td><td class="center"><%= page['mp_recovery'] %></td></tr>
             <tr><th>命中</th><th>ブロック</th><th>MP消費減少</th></tr>
@@ -70,7 +70,7 @@
         <tbody>
           <tr><th width="100%" colspan="2"><div><%- page.awake_ubskills[0].name %></div></th></tr>
           <% for (let i = page.awake_ubskills.length - 1; i >= 0; i--) { %>
-          <tr><th width="20%">Lv:<%= i+1 %></th><td class="center"><%- page.awake_ubskills[i].text %></td></tr>
+          <tr><th width="20%">Lv.<%= i+1 %></th><td class="center"><%- page.awake_ubskills[i].text %></td></tr>
           <% } %>
         </tbody>
       </table>  
@@ -82,7 +82,7 @@
       <tbody>
         <tr><th width="100%" colspan="2"><div><%- page.ubskills[0].name %></div></th></tr>
         <% for (let i = page.ubskills.length - 1; i >= 0; i--) { %>
-        <tr><th width="20%">Lv:<%= i+1 %></th><td class="center"><%- page.ubskills[i].text %></td></tr>
+        <tr><th width="20%">Lv.<%= i+1 %></th><td class="center"><%- page.ubskills[i].text %></td></tr>
         <% } %>
       </tbody>
     </table>
