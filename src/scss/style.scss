@@ -218,6 +218,10 @@ a img {
     padding: 8px 6px 7px;
 }
 
+.s-table .r-th {
+    padding-bottom: 0;
+}
+
 .s-table td {
     word-break: keep-all;
 }
@@ -305,6 +309,20 @@ table tr td:has(.hero_container) { padding: 0; }
     vertical-align: middle;
 }
 
+.r-img {
+    display: block;
+    margin: -20px auto;
+    padding: 0;
+}
+
+.r-text  {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    padding: 5px 5px 10px 5px;
+    text-shadow: 2px 2px 1px #d1d0c6;
+}
+
 .align-right {
     text-align: right;
 }
@@ -326,8 +344,12 @@ table tr td:has(.hero_container) { padding: 0; }
     margin: 3px auto;
 }
 
+
 li img.s-img {
     margin: 0 auto;
+    border: 1px solid #b5ae84;
+    padding: 1px;
+    box-shadow: 1px 1px 1px #bdb9a7;
 }
 
 .hero_container {

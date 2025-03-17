@@ -1524,6 +1524,7 @@ const ejsFunc = () => {
         // ----
         id: id,
         name: rubyName,
+        altname: name,
         rare: hero['@_rare'],
         first_skill_order: hero['@_first_skill_order'],
         loop_skill_order: hero['@_loop_skill_order'],

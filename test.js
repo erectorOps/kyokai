@@ -1,25 +1,32 @@
-const { XMLParser } = require('fast-xml-parser');
 const fs = require('fs');
+const path = require('path');
+const { Jimp } = require('jimp');
 
-const test = require("browser-sync");
+let src = "./src/img/r";
+let test = "./test/r/";
+let files = fs.readdirSync(src);
+files.forEach(function(file) {
+    let fullPath = path.join(src, file);
+    Jimp.read(fullPath)
+    .then(image => {
+        let w = image.bitmap.width;
+        let h = image.bitmap.height;
+        let span = 0;
+        if (h < 216) {
+            span = 216 - h;
+        }
+        if (span > 0) {
+            let color = 0x00000000;
+            new Jimp({width: w, height: h+span, color: color})
+            .composite(image, 0, span)
+            .write(path.join(test, file));
+        }
+    })
+    .catch(err => { console.error(err); });
+    Jimp.read(fullPath, function(err, image) {
 
-console.log(test);
-
-const parser = new XMLParser({ignoreAttributes: false, numberParseOptions: { skipLike: /^[0-9]+/}});
 
 
-let srcBase = './src';
-let group = "2003";
-let paramName = "hp";
 
-let file = srcBase + '/xml/hero_gp';
-const heroGpList = parser.parse(fs.readFileSync(file, 'utf8'), 'text/xml');
-let arr = [];
-arr.find
-
-let a = heroGpList.root.hero_gp.filter(item => item['@_id'] === group && item['@_'+paramName]).reduce((p,c) => p + parseInt(c['@_'+paramName]), 0);
-
-    // let a = select(`/root/hero_gp[@id="${group}" and @${paramName}]`, heroGpList).map(item => select(`number(@${paramName})`, item))
-    //   .reduce((p, c) => p + c);
-
-console.log(a);
+    });
+});
