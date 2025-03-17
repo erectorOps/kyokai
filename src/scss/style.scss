@@ -185,6 +185,16 @@ a img {
 
 .value {
     font-weight: bold;
+    /** color: #BB3D00; **/
+}
+.value.up {
+    color: #d22f70;
+}
+.value.down {
+    color: #5ca8d6;
+}
+.value.heal {
+    color: #44cc80;
 }
 
 .s-table {

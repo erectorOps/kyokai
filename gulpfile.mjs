@@ -340,7 +340,7 @@ const calcBuff = (params, buff) => {
 
       case '定值傷害吸收':
         // if (val3.gt(0)) { 
-        //   text += `回復バリア(${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}、削れたバリアの${val3.toString()}%HP回復)`;
+        //   text += `回復バリア(${span}${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}${spanEnd}、削れたバリアの${span}${val3.toString()}%${spanEnd}HP回復)`;
         // } else {
         //   text += `バリア(${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""})`;
         // }
@@ -348,7 +348,7 @@ const calcBuff = (params, buff) => {
 
       case '物理定值傷害吸收':
         // if (val3.gt(0)) { 
-        //   text += `物理回復バリア(${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}、削れたバリアの${val3.toString()}%HP回復)`;
+        //   text += `物理回復バリア(${span}${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}${spanEnd}、削れたバリアの${span}${val3.toString()}%${spanEnd}HP回復)`;
         // } else {
         //   text += `物理バリア(${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""})`;
         // }
@@ -356,7 +356,7 @@ const calcBuff = (params, buff) => {
 
       case '魔法定值傷害吸收':
         // if (val3.gt(0)) { 
-        //   text += `魔法回復バリア(${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}、削れたバリアの${val3.toString()}%HP回復)`;
+        //   text += `魔法回復バリア(${span}${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}${spanEnd}、削れたバリアの${span}${val3.toString()}%${spanEnd}HP回復)`;
         // } else {
         //   text += `魔法バリア(${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""})`;
         // }
@@ -688,6 +688,12 @@ const parseBuff = (buff, lv) => {
     return "Error: get_counterのあるバフをパースしようとしてる [buff id="+buff["@_id"] + "]";
   }
 
+  const debuff = buff['@_debuff'] === "true";
+  const span = `<span class=\"value ${debuff ? "down" : "up"}\">`;
+  const spanHeal = "<span class=\"value heal\">";
+  const spanN = "<span class=\"value\">";
+  const spanEnd = "</span>";
+
   const type = buff['@_effect_type'];
   const val1 = buff['@_effect_val1'] ? new Big(buff['@_effect_val1']).round(2, Big.roundHalfEven) : new Big(0);
   const val1_100 = val1.mul(100);
@@ -701,36 +707,49 @@ const parseBuff = (buff, lv) => {
     let t = "";
     if (v1 === undefined) { v1 = val1; }
     if (v1.gt(0)) {
+      t += `<span class=\"value ${debuff ? "down" : "up"}\">`;
       t += `${v1.toString()}%`;
       const v = val2.plus(val3.mul(lv));
       if (v.gt(0)) { t += `+${v.abs().toString()}`; } else if (v.lt(0)) { t += `-${v.abs().toString()}`; }
+      t += "</span>";
       t += "UP";
     } else if (v1.lt(0)) {
+      t += `<span class=\"value ${debuff ? "down" : "up"}\">`;
       t += `${v1.abs().toString()}%`;
       const v = val2.plus(val3.mul(lv));
       if (v.gt(0)) { t += `+${v.abs().toString()}`; } else if (v.lt(0)) { t += `-${v.abs().toString()}`; }
+      t += "</span>";
       t += "DOWN";
     } else {
+      t += `<span class=\"value ${debuff ? "down" : "up"}\">`;
       const v = val2.plus(val3.mul(lv));
       t += ((v > 0) ? "+" : "") + `${v.toString()}`;
+      t += "</span>";
       //if (v > 0) { t += "UP"; } else if (v < 0) { t += "DOWN"; }
     }
     return t;
   };
 
-  const parseAddSub = () => {
+  const parseAddSub = (heal) => {
     let t = "";
     if (val1.gt(0)) {
+      t += `<span class=\"value ${debuff ? "down" : heal ? "heal" : "up"}\">`;
       t += `${val1.toString()}%`;
       const v = val2.plus(val3.mul(lv));
       if (v.gt(0)) { t += `+${v.abs().toString()}`; } else if (v.lt(0)) { t += `-${v.abs().toString()}`; }
+
+      t += "</span>";
     } else if (val1.lt(0)) {
+      t += `<span class=\"value ${debuff ? "down" : heal ? "heal" : "up"}\">`;
       t += `-${val1.abs().toString()}%`;
       const v = val2.plus(val3.mul(lv));
       if (v.gt(0)) { t += `+${v.abs().toString()}`; } else if (v.lt(0)) { t += `-${v.abs().toString()}`; }
+      t += "</span>";
     } else {
+      t += `<span class=\"value ${debuff ? "down" : heal ? "heal" : "up"}\">`;
       const v = val2.plus(val3.mul(lv));
       t += `${v.toString()}`;
+      t += "</span>";
     }
     return t;
   };
@@ -739,19 +758,25 @@ const parseBuff = (buff, lv) => {
     let t = "";
     if (val1.cmp(0) !== 0) {
       if (val1.gt(0)) {
+        t += `<span class=\"value ${debuff ? "down" : "up"}\">`;
         t += `${val1.toString()}%`;
         const v = val2.plus(val3.mul(lv));
         if (v.gt(0)) { t += `+${v.abs().toString()}`; } else if (v.lt(0)) { t += `-${v.abs().toString()}`; }
+        t += "</span>";
         t += "UP";
       } else {
+        t += `<span class=\"value ${debuff ? "down" : "up"}\">`;
         t += `${val1.abs().toString()}%`;
         const v = val2.plus(val3.mul(lv));
         if (v.gt(0)) { t += `+${v.abs().toString()}`; } else if (v.lt(0)) { t += `-${v.abs().toString()}`; }
+        t += "</span>";
         t += "DOWN";
       }
     } else {
+      t += `<span class=\"value ${debuff ? "down" : "up"}\">`;
       const v = val2.plus(val3.mul(lv));
       t += (v.mul("0.05").gt(0) ? "+" : "") + `${v.mul("0.05").round(2, Big.roundHalfEven).toString()}%`;
+      t += "</span>";
     }
     return t;
   }
@@ -806,20 +831,20 @@ const parseBuff = (buff, lv) => {
       case '速度上升或下降':
         text += "行動速度";
         if (val1.gt(0)) {
-          text += `${val1.toString()}%UP`;
+          text += `${span}${val1.toString()}%${spanEnd}UP`;
         } else if (val1.lt(0)) {
-          text += `${val1.abs().toString()}%DOWN`;
+          text += `${span}${val1.abs().toString()}%${spanEnd}DOWN`;
         }
           break;
 
       case 'HP回復':
         text += "毎秒HP";
-        text += parseAddSub();
+        text += parseAddSub(true);
           break;
 
       case 'MP回復':
         text += "毎秒MP";
-        text += parseAddSub();
+        text += parseAddSub(true);
           break;
 
       case '中毒':
@@ -932,94 +957,98 @@ const parseBuff = (buff, lv) => {
 
       case '定值傷害吸收':
         if (val3.gt(0)) { 
-          text += `回復バリア(${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}、削れたバリアの${val3.toString()}%HP回復)`;
+
+          text += `回復バリア(${span}${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}${spanEnd}、削れたバリアの${spanHeal}${val3.toString()}%${spanEnd}HP回復)`;
         } else {
-          text += `バリア(${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""})`;
+          text += `バリア(${span}${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}${spanEnd})`;
         }
           break;
 
       case '物理定值傷害吸收':
         if (val3.gt(0)) { 
-          text += `物理回復バリア(${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}、削れたバリアの${val3.toString()}%HP回復)`;
+          text += `物理回復バリア(${span}${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}${spanEnd}、削れたバリアの${spanHeal}${val3.toString()}%${spanEnd}HP回復)`;
         } else {
-          text += `物理バリア(${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""})`;
+          text += `物理バリア(${span}${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}${spanEnd})`;
         }
           break;
 
       case '魔法定值傷害吸收':
         if (val3.gt(0)) { 
-          text += `魔法回復バリア(${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}、削れたバリアの${val3.toString()}%HP回復)`;
+          text += `魔法回復バリア(${span}${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}${spanEnd}、削れたバリアの${spanHeal}${val3.toString()}%${spanEnd}HP回復)`;
         } else {
-          text += `魔法バリア(${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""})`;
+          text += `魔法バリア(${span}${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}${spanEnd})`;
         }
           break;
 
       case '次數傷害吸收':
-        text += `${val2.lt(999) ? "回数付" : ""}${val3.gt(0) ? "回復" : ""}バリア(${val1.toString()}%`;
+        text += `${val2.lt(999) ? "回数付" : ""}${val3.gt(0) ? "回復" : ""}バリア(${span}${val1.toString()}%`;
         if (val4.plus(val5.mul(lv)).gt(0)) {
-          text += `+${val4.plus(val5.mul(lv)).toString()}`;
+          text += `+${val4.plus(val5.mul(lv)).toString()}$`;
         }
+        text += `${spanEnd}`;
         if (val3.gt(0)) {
-          text += `、削れたバリアの${val3.toString()}%回復`;
+          text += `、削れたバリアの${spanHeal}${val3.toString()}%${spanEnd}回復`;
         }
 
         if (val2.lt(999)) {
-          text += `、${val2.toString()}回`;
+          text += `、${spanN}${val2.toString()}${spanEnd}回`;
         }
         text += ")";
         
           break;
 
       case '物理次數傷害吸收':
-        text += `${val2.lt(999) ? "回数付" : ""}${val3.gt(0) ? "物理回復" : "物理"}バリア(${val1.toString()}%`;
+        text += `${val2.lt(999) ? "回数付" : ""}${val3.gt(0) ? "物理回復" : "物理"}バリア(${span}${val1.toString()}%`;
         if (val4.plus(val5.mul(lv)).gt(0)) {
           text += `+${val4.plus(val5.mul(lv)).toString()}`;
         }
+        text += `${spanEnd}`;
         if (val3.gt(0)) {
-          text += `、削れたバリアの${val3.toString()}%回復`;
+          text += `、削れたバリアの${span}${val3.toString()}%${spanEnd}回復`;
         }
 
         if (val2.lt(999)) {
-          text += `、${val2.toString()}回`;
+          text += `、${spanN}${val2.toString()}${spanEnd}回`;
         }
         text += ")";
           break;
 
       case '魔法次數傷害吸收':
-        text += `${val2.lt(999) ? "回数付" : ""}${val3.gt(0) ? "魔法回復" : "魔法"}バリア(${val1.toString()}%`;
+        text += `${val2.lt(999) ? "回数付" : ""}${val3.gt(0) ? "魔法回復" : "魔法"}バリア(${span}${val1.toString()}%`;
         if (val4.plus(val5.mul(lv)).gt(0)) {
           text += `+${val4.plus(val5.mul(lv)).toString()}`;
         }
+        text += `${spanEnd}`;
         if (val3.gt(0)) {
-          text += `、削れたバリアの${val3.toString()}%回復`;
+          text += `、削れたバリアの${span}${val3.toString()}%${spanEnd}回復`;
         }
 
         if (val2.lt(999)) {
-          text += `、${val2.toString()}回`;
+          text += `、${spanN}${val2.toString()}${spanEnd}回`;
         }
         text += ")";
           break;
 
       case '次數傷害反彈':
-        text += `反射バリア(${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}`;
+        text += `反射バリア(${span}${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}${spanEnd}`;
         if (val2.lt(999)) {
-          text += `、${val2.toString()}回`;
+          text += `、${spanN}${val2.toString()}${spanEnd}回`;
         }
         text += ")";
           break;
 
       case '物理次數傷害反彈':
-        text += `物理反射バリア(${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}`;
+        text += `物理反射バリア(${span}${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}${spanEnd}`;
         if (val2.lt(999)) {
-          text += `、${val2.toString()}回`;
+          text += `、${spanN}${val2.toString()}${spanEnd}回`;
         }
         text += ")";
           break;
 
       case '魔法次數傷害反彈':
-        text += `魔法反射バリア(${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}`;
+        text += `魔法反射バリア(${span}${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}${spanEnd}`;
         if (val2.lt(999)) {
-          text += `、${val2.toString()}回`;
+          text += `、${spanN}${val2.toString()}${spanEnd}回`;
         }
         text += ")";
           break;
@@ -1045,25 +1074,25 @@ const parseBuff = (buff, lv) => {
           break;
 
       case '次數傷害加成':
-        text += `回数付ダメージUP(${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}`;
+        text += `回数付ダメージUP(${span}${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}${spanEnd}`;
         if (val2.lt(999)) {
-          text += `、${val2.toString()}回`;
+          text += `、${spanN}${val2.toString()}${spanEnd}回`;
         }
         text += ")";
           break;
 
       case '物理次數傷害加成':
-        text += `回数付物理ダメージUP(${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}`;
+        text += `回数付物理ダメージUP(${span}${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}${spanEnd}`;
         if (val2.lt(999)) {
-          text += `、${val2.toString()}回`;
+          text += `、${spanN}${val2.toString()}${spanEnd}回`;
         }
         text += ")";
           break;
 
       case '魔法次數傷害加成':
-        text += `回数付魔法ダメージUP(${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}`;
+        text += `回数付魔法ダメージUP(${span}${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}${spanEnd}`;
         if (val2.lt(999)) {
-          text += `、${val2.toString()}回`;
+          text += `、${spanN}${val2.toString()}${spanEnd}回`;
         }
         text += ")";
           break;
@@ -1176,55 +1205,55 @@ const parseBuff = (buff, lv) => {
           break;
 
       case '受到傷害上限降低':
-        text += `${val2.toString()}以上のダメージ(1撃)を受けると、超過分のダメージが${(new Big("100")).minus(val1).toString()}%軽減される`;
+        text += `${spanN}${val2.toString()}${spanEnd}以上のダメージ(1撃)を受けると、超過分のダメージが${span}${(new Big("100")).minus(val1).toString()}%${spanEnd}軽減される`;
           break;
 
       case '風屬性角色技能強化消耗金幣減少':
-        text += `風属性聖騎士のスキルLv強化時の消費レゴル-${val1.toString()}%`;
+        text += `風属性聖騎士のスキルLv強化時の消費レゴル${span}-${val1.toString()}%${spanEnd}`;
           break;
 
       case '水屬性角色技能強化消耗金幣減少':
-        text += `水属性聖騎士のスキルLv強化時の消費レゴル-${val1.toString()}%`;
+        text += `水属性聖騎士のスキルLv強化時の消費レゴル${span}-${val1.toString()}%${spanEnd}`;
           break;
 
       case '火屬性角色技能強化消耗金幣減少':
-        text += `火属性聖騎士のスキルLv強化時の消費レゴル-${val1.toString()}%`;
+        text += `火属性聖騎士のスキルLv強化時の消費レゴル${span}-${val1.toString()}%${spanEnd}`;
           break;
 
       case '聖屬性角色技能強化消耗金幣減少':
-        text += `聖属性聖騎士のスキルLv強化時の消費レゴル-${val1.toString()}%`;
+        text += `聖属性聖騎士のスキルLv強化時の消費レゴル${span}-${val1.toString()}%${spanEnd}`;
           break;
 
       case '魔屬性角色技能強化消耗金幣減少':
-        text += `魔属性聖騎士のスキルLv強化時の消費レゴル-${val1.toString()}%`;
+        text += `魔属性聖騎士のスキルLv強化時の消費レゴル${span}-${val1.toString()}%${spanEnd}`;
           break;
 
       case '想屬性角色技能強化消耗金幣減少':
-        text += `想属性聖騎士のスキルLv強化時の消費レゴル-${val1.toString()}%`;
+        text += `想属性聖騎士のスキルLv強化時の消費レゴル${span}-${val1.toString()}%${spanEnd}`;
           break;
 
       case '受到風屬性傷害上升或下降':
-          text += `風属性の敵からの被ダメージ${val1.abs().toString()}${val1.gt(0) ? "UP" : "DOWN"}`;
+          text += `風属性の敵からの被ダメージ${span}${val1.abs().toString()}${spanEnd}${val1.gt(0) ? "UP" : "DOWN"}`;
           break;
 
       case '受到水屬性傷害上升或下降':
-          text += `水属性の敵からの被ダメージ${val1.abs().toString()}${val1.gt(0) ? "UP" : "DOWN"}`;
+          text += `水属性の敵からの被ダメージ${span}${val1.abs().toString()}${spanEnd}${val1.gt(0) ? "UP" : "DOWN"}`;
           break;
 
       case '受到火屬性傷害上升或下降':
-          text += `火属性の敵からの被ダメージ${val1.abs().toString()}${val1.gt(0) ? "UP" : "DOWN"}`;
+          text += `火属性の敵からの被ダメージ${span}${val1.abs().toString()}${spanEnd}${val1.gt(0) ? "UP" : "DOWN"}`;
           break;
 
       case '受到聖屬性傷害上升或下降':
-          text += `聖属性の敵からの被ダメージ${val1.abs().toString()}${val1.gt(0) ? "UP" : "DOWN"}`;
+          text += `聖属性の敵からの被ダメージ${span}${val1.abs().toString()}${spanEnd}${val1.gt(0) ? "UP" : "DOWN"}`;
           break;
 
       case '受到魔屬性傷害上升或下降':
-          text += `魔属性の敵からの被ダメージ${val1.abs().toString()}${val1.gt(0) ? "UP" : "DOWN"}`;
+          text += `魔属性の敵からの被ダメージ${span}${val1.abs().toString()}${spanEnd}${val1.gt(0) ? "UP" : "DOWN"}`;
           break;
 
       case '受到想屬性傷害上升或下降':
-          text += `想属性の敵からの被ダメージ${val1.abs().toString()}${val1.gt(0) ? "UP" : "DOWN"}`;
+          text += `想属性の敵からの被ダメージ${span}${val1.abs().toString()}${spanEnd}${val1.gt(0) ? "UP" : "DOWN"}`;
           break;
 
       case '技能傷害加成無效':
@@ -1279,7 +1308,11 @@ const parseBuff = (buff, lv) => {
 
 const parseSkill = (sid, lv, kf) => {
   const s = kf.skill_hero_1.root.skill_hero_1.find(item => item['@_id'] === sid);
-  let text = s['@_effect_text'].replace(/<color=(#[A-F0-9]+?)>/ig, `<span class="value" style="color: $1;">`).replace(/<\/color>/ig, "</span>");
+  const is_heal = s['@_target_hp_effect'] && s['@_target_hp_effect'] === "回復";
+
+  let text = s['@_effect_text'];
+  text = text.replace(/<color=(#[A-F0-9]+?)>\{9\}/i, `<span class="value${is_heal ? " heal" : ""}">{9}`)
+    .replace(/<color=(#[A-F0-9]+?)>/ig, `<span class="value">`).replace(/<\/color>/ig, "</span>");
   const freezeTime = s['@_freeze_time'] ? parseFloat(s['@_freeze_time']) : undefined;
 
   let waitShowTime = undefined;
@@ -1519,7 +1552,7 @@ const ejsFunc = () => {
     const maxLimitEntity = kf.limit_over.root.limit_over.find(item => item['@_group_id'] === group && item['@_over_times'] === "5");
     json.support = maxLimitEntity.support_buff_id.filter(item => item !== '0').map(item => {
       const buff = kf.buff_1.root.buff_1.find(y => y['@_id'] === item);
-      return buff['@_effect_text'].replace(/\{1\}/, buff['@_effect_val2']).replace(/<color=(#[A-F0-9]+?)>/ig, `<span class="value" style="color: $1;">`).replace(/<\/color>/ig, "</span>");
+      return buff['@_effect_text'].replace(/\{1\}/, buff['@_effect_val2']).replace(/<color=(#[A-F0-9]+?)>/ig, `<span class="value up">`).replace(/<\/color>/ig, "</span>");
     }).reduce((p, c) => p.length > 0 ? p + " / " + c : c, "");
 
     console.log("id = " + json.id + " name = " + json.name);

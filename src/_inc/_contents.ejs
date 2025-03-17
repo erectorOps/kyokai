@@ -158,7 +158,11 @@
           <%  const ignore = ["周年", "Fanzine", "報酬", "同盟戦"];
              let gtype = page['gacha_type'].split(',').filter(n => n && ignore.indexOf(n) == -1).join('、');
           %>
-          <tr><th width="25%">入手方法</th><td><%= gtype %><br><%- page['obtain'].replace(/,/ig, "<br>") %></td></tr>
+          <tr><th width="25%">入手方法</th><td>
+            <% if (gtype) { %>
+            <%= gtype %><br>
+            <% } %>
+            <%- page['obtain'].replace(/,/ig, "<br>") %></td></tr>
           </tbody>
       </tbody>
   </table>
