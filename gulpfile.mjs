@@ -1460,10 +1460,8 @@ const listFunc = () => {
     .pipe(gulp.dest(distBase));
 }
 
-let testFuncs;
-
 /* EJS */
-const ejsFunc = (done) => {
+const createHeroFuncs = () => {
 
   const abiNameConvTable = {
     hp: "HP",
@@ -1506,9 +1504,13 @@ const ejsFunc = (done) => {
 
   const heroList = kf.hero_1.root.hero_1.filter(item => item['@_id'] !== undefined);
 
+  let heroFuncs = [];
+
   for(const hero of heroList) {
 
     const id = hero['@_id'];
+
+    heroFuncs.push(() => {
 
     const group = hero['@_group'];
     const name = hero['@_name'].replace(/<\/?ruby.*?>/ig, "");
@@ -1691,7 +1693,8 @@ const ejsFunc = (done) => {
         json[paramName] = json[paramName].toString();
       }
     }
-    gulp.src([srcBase + "/hero/*.ejs", srcPath._ejs])
+
+    return gulp.src([srcBase + "/hero/*.ejs", srcPath._ejs])
     .pipe(ejs({json: json}))
     .pipe(rename(
         {
@@ -1699,9 +1702,11 @@ const ejsFunc = (done) => {
             extname: '.html'
         }
     ))
-    .pipe(gulp.dest(distPath.hero));    
+    .pipe(gulp.dest(distPath.hero));
+
+  });
   }
-  done();
+  return heroFuncs;
 }
  
 /* image */
@@ -1737,21 +1742,21 @@ const deployGhPages = () => {
   return gulp.src("./dist/**/*")
   .pipe(deploy());
 }
- 
+
 /* ファイルの変更時にbrowserSyncReloadする */
 const watchFiles = () => {
   gulp.watch(srcPath.scss, gulp.series(cssSass))
   gulp.watch(srcPath.img, gulp.series(imgFunc, browserSyncReload))
-  gulp.watch(srcPath.ejs, gulp.series(ejsFunc, browserSyncReload))
+  gulp.watch(srcPath.ejs, gulp.series(gulp.parallel(createHeroFuncs()), browserSyncReload))
   gulp.watch(srcBase + "/index.ejs", gulp.series(listFunc, browserSyncReload))
   gulp.watch(srcPath.js, gulp.series(jsFunc, browserSyncReload))
 }
 
 export default gulp.series(
-  gulp.parallel(cssSass, ejsFunc, listFunc ,imgFunc, jsFunc),
+  gulp.parallel(cssSass, createHeroFuncs(), listFunc ,imgFunc, jsFunc),
   gulp.parallel(watchFiles, browserSyncFunc)
 )
  
 export const build = gulp.series(
-  gulp.parallel(cssSass, ejsFunc, listFunc ,imgFunc, jsFunc),
+  gulp.parallel(cssSass, createHeroFuncs(), listFunc ,imgFunc, jsFunc),
 );
