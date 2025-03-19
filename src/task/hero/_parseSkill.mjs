@@ -631,11 +631,10 @@ export const parseSkill = (sid, lv, kf) => {
   let text = s['@_effect_text'];
   text = text.replace(/<color=(#[A-F0-9]+?)>\{9\}/i, `<span class="value${is_heal ? " heal" : ""}">{9}`)
     .replace(/<color=(#[A-F0-9]+?)>/ig, `<span class="value">`).replace(/<\/color>/ig, "</span>");
-  const freezeTime = s['@_freeze_time'] ? parseFloat(s['@_freeze_time']) : undefined;
 
   let waitShowTime = undefined;
   if (s['@_effect_id'] && kf.skill_effect.root.skill_effect.find(item => item['@_Id'] === s['@_effect_id'])) {
-    waitShowTime = parseFloat(kf.skill_effect.root.skill_effect.find(item => item['@_Id'] === s['@_effect_id'])['@_WaitShowTime']);
+    waitShowTime = new Big(kf.skill_effect.root.skill_effect.find(item => item['@_Id'] === s['@_effect_id'])['@_WaitShowTime']);
   }
 
 
@@ -694,7 +693,7 @@ export const parseSkill = (sid, lv, kf) => {
 
   return {
     speed_buff: speed_value,
-    time: freezeTime ? (freezeTime + 0.125 + waitShowTime).toFixed(3) : 0,  // 実測値に合わせた根拠のない補正
+    time: s['@_freeze_time'] && waitShowTime ? new Big(s['@_freeze_time']).plus("0.125").plus(waitShowTime).toFixed(3, Big.roundHalfEven).toString() : "",
     text: text,
     name: s[`@_name`].replace(/<ruby=(.+?)>(.+?)<\/ruby>/ig, "<ruby>$2<rt>$1</rt></ruby>")
   };

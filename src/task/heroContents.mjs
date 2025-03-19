@@ -164,10 +164,15 @@ export class HeroContents {
             json.range = atkSkill['@_range'];
             json.position = getPosition(parseInt(json.range));
       
-            const freezeTime = parseFloat(atkSkill['@_freeze_time']);
-            const waitShowTime = parseFloat(kf.skill_effect.root.skill_effect.find(item => item['@_Id'] === atkSkill['@_effect_id'])['@_WaitShowTime']);
+            const freezeTime = new Big(atkSkill['@_freeze_time']);
+            const waitShowTime = new Big(kf.skill_effect.root.skill_effect.find(item => item['@_Id'] === atkSkill['@_effect_id'])['@_WaitShowTime']);
+            const critWaitShowTime = new Big(kf.skill_effect.root.skill_effect.find(item => item['@_Id'] === atkSkill['@_crit_effect_id'])['@_WaitShowTime']);
       
-            json.atkskill = {name: "通常攻撃", time: (freezeTime + 0.125 + waitShowTime).toFixed(3)}
+            json.atkskill = {
+              name: "通常攻撃", 
+              time: freezeTime.plus("0.125").plus(waitShowTime).toFixed(3, Big.roundHalfEven).toString(),
+              crit_time: freezeTime.plus("0.125").plus(critWaitShowTime).toFixed(3, Big.roundHalfEven).toString()
+            }
           }
       
           json.skill1 = parseSkill(hero['@_skill1'], Math.min(parseInt(json.lv), 100), kf);
