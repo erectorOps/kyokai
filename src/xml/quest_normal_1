@@ -800,7 +800,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="60101" name="デイリーミッションを3個クリアする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" all_finish="true" quest_content1="デイリーミッションを3個クリアする" quest_type_1="完成每日任務數量" finish_number_1="3" award_bonus_scale="1" award_bonus_start_time="2025/02/22 03:00:00" award_bonus_end_time="2025/02/23 03:00:00" award_type_1="商城幣" award_number_1="30">
+	<quest_normal_1 id="60101" name="デイリーミッションを3個クリアする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" all_finish="true" quest_content1="デイリーミッションを3個クリアする" quest_type_1="完成每日任務數量" finish_number_1="3" award_bonus_scale="1" award_bonus_start_time="2025/03/19 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="商城幣" award_number_1="30">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -810,7 +810,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="60102" name="デイリーミッションを6個クリアする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" all_finish="true" quest_content1="デイリーミッションを6個クリアする" quest_type_1="完成每日任務數量" finish_number_1="6" award_bonus_scale="1" award_bonus_start_time="2025/02/22 03:00:00" award_bonus_end_time="2025/02/23 03:00:00" award_type_1="商城幣" award_number_1="60">
+	<quest_normal_1 id="60102" name="デイリーミッションを6個クリアする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" all_finish="true" quest_content1="デイリーミッションを6個クリアする" quest_type_1="完成每日任務數量" finish_number_1="6" award_bonus_scale="1" award_bonus_start_time="2025/03/19 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="商城幣" award_number_1="60">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -830,7 +830,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="60201" name="召喚を1回行う" open="true" hide="false" class="固定每日" restart_cycle="每日重置" all_finish="true" quest_content1="召喚を1回行う" quest_type_1="商城幣轉蛋次數" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/02/22 03:00:00" award_bonus_end_time="2025/02/23 03:00:00" award_type_1="道具" award_target_1="3402" award_number_1="1" activity="15">
+	<quest_normal_1 id="60201" name="召喚を1回行う" open="true" hide="false" class="固定每日" restart_cycle="每日重置" all_finish="true" quest_content1="召喚を1回行う" quest_type_1="商城幣轉蛋次數" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/19 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="道具" award_target_1="3402" award_number_1="1" activity="15">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -840,7 +840,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="60202" name="装備召喚を1回行う" open="true" hide="false" class="固定每日" restart_cycle="每日重置" all_finish="true" quest_content1="装備召喚を1回行う" quest_type_1="裝備轉蛋次數" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/02/22 03:00:00" award_bonus_end_time="2025/02/23 03:00:00" award_type_1="道具" award_target_1="3602" award_number_1="1" activity="15">
+	<quest_normal_1 id="60202" name="装備召喚を1回行う" open="true" hide="false" class="固定每日" restart_cycle="每日重置" all_finish="true" quest_content1="装備召喚を1回行う" quest_type_1="裝備轉蛋次數" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/19 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="道具" award_target_1="3602" award_number_1="1" activity="15">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -850,7 +850,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="60203" name="メインクエストを1回クリアする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" all_finish="true" quest_content1="メインクエストを1回クリアする" quest_type_1="主線關卡通關次數" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/02/22 03:00:00" award_bonus_end_time="2025/02/23 03:00:00" award_type_1="道具" award_target_1="9037" award_number_1="1" activity="15">
+	<quest_normal_1 id="60203" name="メインクエストを1回クリアする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" all_finish="true" quest_content1="メインクエストを1回クリアする" quest_type_1="主線關卡通關次數" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/19 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="道具" award_target_1="9037" award_number_1="1" activity="15">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -860,7 +860,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="60204" name="聖騎士に絆アイテムを1個プレゼント" open="true" hide="false" class="固定每日" restart_cycle="每日重置" player_level_limit="19" all_finish="true" quest_content1="聖騎士に絆アイテムを1個プレゼント" quest_type_1="角色絆強化次數" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/02/22 03:00:00" award_bonus_end_time="2025/02/23 03:00:00" award_type_1="道具" award_target_1="3002" award_number_1="5" activity="15">
+	<quest_normal_1 id="60204" name="聖騎士に絆アイテムを1個プレゼント" open="true" hide="false" class="固定每日" restart_cycle="每日重置" player_level_limit="19" all_finish="true" quest_content1="聖騎士に絆アイテムを1個プレゼント" quest_type_1="角色絆強化次數" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/19 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="道具" award_target_1="3002" award_number_1="5" activity="15">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -870,7 +870,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="60205" name="資源収集の任意クエストを1回クリアする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" pre_player_level="5" all_finish="true" quest_content1="資源収集の任意クエストを1回クリアする" quest_type_1="資源關卡數量" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/02/22 03:00:00" award_bonus_end_time="2025/02/23 03:00:00" award_type_1="商城幣" award_number_1="10" activity="15">
+	<quest_normal_1 id="60205" name="資源収集の任意クエストを1回クリアする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" pre_player_level="5" all_finish="true" quest_content1="資源収集の任意クエストを1回クリアする" quest_type_1="資源關卡數量" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/19 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="商城幣" award_number_1="10" activity="15">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -880,7 +880,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="60206" name="遺跡の任意クエストを1回クリアする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" pre_player_level="10" all_finish="true" quest_content1="遺跡の任意クエストを1回クリアする" quest_type_1="遺跡週期關卡數量" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/02/22 03:00:00" award_bonus_end_time="2025/02/23 03:00:00" award_type_1="商城幣" award_number_1="10" activity="15">
+	<quest_normal_1 id="60206" name="遺跡の任意クエストを1回クリアする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" pre_player_level="10" all_finish="true" quest_content1="遺跡の任意クエストを1回クリアする" quest_type_1="遺跡週期關卡數量" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/19 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="商城幣" award_number_1="10" activity="15">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -890,7 +890,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="60207" name="迷宮を1回チャレンジする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" pre_player_level="13" all_finish="true" quest_content1="迷宮を1回チャレンジする" quest_type_1="塔通關數量" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/02/22 03:00:00" award_bonus_end_time="2025/02/23 03:00:00" award_type_1="商城幣" award_number_1="10" activity="15">
+	<quest_normal_1 id="60207" name="迷宮を1回チャレンジする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" pre_player_level="13" all_finish="true" quest_content1="迷宮を1回チャレンジする" quest_type_1="塔通關數量" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/19 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="商城幣" award_number_1="10" activity="15">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -900,7 +900,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="60208" name="任意の救援戦を1回開催する" open="true" hide="false" class="固定每日" restart_cycle="每日重置" pre_player_level="15" all_finish="true" quest_content1="任意の救援戦を1回開催する" quest_type_1="RAID戰自發次數" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/02/22 03:00:00" award_bonus_end_time="2025/02/23 03:00:00" award_type_1="商城幣" award_number_1="10" activity="15">
+	<quest_normal_1 id="60208" name="任意の救援戦を1回開催する" open="true" hide="false" class="固定每日" restart_cycle="每日重置" pre_player_level="15" all_finish="true" quest_content1="任意の救援戦を1回開催する" quest_type_1="RAID戰自發次數" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/19 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="商城幣" award_number_1="10" activity="15">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -910,7 +910,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="60209" name="BPを1点消費する" open="true" hide="false" class="固定每日" restart_cycle="每日重置" pre_player_level="15" all_finish="true" quest_content1="BPを1点消費する" quest_type_1="消耗BP累積量" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/02/22 03:00:00" award_bonus_end_time="2025/02/23 03:00:00" award_type_1="商城幣" award_number_1="10" activity="15">
+	<quest_normal_1 id="60209" name="BPを1点消費する" open="true" hide="false" class="固定每日" restart_cycle="每日重置" pre_player_level="15" all_finish="true" quest_content1="BPを1点消費する" quest_type_1="消耗BP累積量" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/19 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="商城幣" award_number_1="10" activity="15">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -920,7 +920,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="60210" name="闘技場を1回チャレンジする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" pre_player_level="20" all_finish="true" quest_content1="闘技場を1回チャレンジする" quest_type_1="進行競技場次數" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/02/22 03:00:00" award_bonus_end_time="2025/02/23 03:00:00" award_type_1="商城幣" award_number_1="10" award_type_2="道具" award_target_2="3002" award_number_2="5" activity="15">
+	<quest_normal_1 id="60210" name="闘技場を1回チャレンジする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" pre_player_level="20" all_finish="true" quest_content1="闘技場を1回チャレンジする" quest_type_1="進行競技場次數" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/19 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="商城幣" award_number_1="10" award_type_2="道具" award_target_2="3002" award_number_2="5" activity="15">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>

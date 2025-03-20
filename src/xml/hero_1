@@ -2090,4 +2090,14 @@
 		<select_grow_sp_activity_id>0</select_grow_sp_activity_id>
 		<select_grow_sp_activity_id>0</select_grow_sp_activity_id>
 	</hero_1>
+	<hero_1 id="2207" group="2207" attr="聖" rare="SSR" equip_type="斬" name="【知恵と勇気の女神】アテナ" atk_skill="220761" skill1="220762" skill2="220763" ub_skill="220764" passive_skill1="220781" passive_skill2="220782" first_skill_order="1/0/2/0" loop_skill_order="0/0/0/1/0/0/2/0/0/0/1/0/0" show_skill_order="false" hp_base="2069" atk_base="166" matk_base="100" def_base="192" mdef_base="288" hit_base="60" block_base="50" atk_crit_base="125" matk_crit_base="75" end_hp_recovery_base="103" end_mp_recovery_base="62" dmg_suck_hp_base="0" healing_power_base="100" mp_recovery_base="52" mp_cost_down_base="0" grow_id="2207" talent_id="2207" ubup_item_id="2207" universal_item_id="2207" universal_item_num="50" grow_sp_end_time="2025/04/03 11:00" grow_sp_exp_item_add_scale="0.3" grow_sp_lv_limit_discount_scale="0.3" grow_sp_skill_rein_discount_scale="0.3" role_set="タンク" skill_set="強化、弱体化、妨害">
+		<exclusive_equip>0</exclusive_equip>
+		<exclusive_equip>0</exclusive_equip>
+		<exclusive_equip>0</exclusive_equip>
+		<exclusive_equip>0</exclusive_equip>
+		<select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+		<select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+		<select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+		<select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+	</hero_1>
 </root>

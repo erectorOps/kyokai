@@ -517,9 +517,10 @@
 	<item id="1554" name="【1.5周年記念】SSR聖騎士セレクトチケットⅡ" icon="item001/10348" rare="五星" category="道具" function="指定道具寶箱" effect_val="1554" bonus_hg="1" get_shop_1="無" description="2024年12月5日までに実装された無限討伐戦、試練の塔、疾走討伐戦、FANZINE聖騎士1体を指定召喚できるチケット"/>
 	<item id="1555" name="【1.5周年記念】常設聖騎士セレクトチケット" icon="item001/10349" rare="五星" category="道具" function="指定道具寶箱" effect_val="1555" bonus_hg="1" get_shop_1="無" description="2024年12月5日までに実装された常設SSR聖騎士1体を指定召喚できるチケット"/>
 	<item id="1556" name="1.5周年記念メダル" icon="item001/10345" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2025/04/03 11:00:00" convert_item_id="5" convert_item_num="1" get_shop_1="無" description="期間限定の記念交換所でアイテムを交換することができます。"/>
-	<item bonus_hg="0"/>
-	<item bonus_hg="0"/>
-	<item bonus_hg="0"/>
+	<item id="1557" name="【我が名はアテナ】召喚チケット" icon="item001/10351" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2025/03/27 11:00:00" convert_item_id="5" convert_item_num="1" get_shop_1="無" description="【我が名はアテナ】召喚を1回引けるチケット"/>
+	<item id="1558" name="【我が名はアテナ】10連召喚チケット" icon="item001/10352" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2025/03/27 11:00:00" convert_item_id="5" convert_item_num="10" get_shop_1="無" description="【我が名はアテナ】召喚を10回引けるチケット"/>
+	<item id="1559" name="【我が名はアテナ】BOSSチケット" icon="item001/10177" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2025/03/27 11:00:00" convert_item_id="5" convert_item_num="1" get_shop_1="無" description="【我が名はアテナ】イベントBOSSに挑戦できるチケット"/>
+	<item id="1560" name="抽箱道具" icon="item001/10353" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2025/03/27 11:00:00" convert_item_id="5" convert_item_num="1" get_shop_1="無" description="道具說明"/>
 	<item bonus_hg="0"/>
 	<item bonus_hg="0"/>
 	<item bonus_hg="0"/>
@@ -575,7 +576,7 @@
 	<item id="2049" illustration_id="2048" name="黒騎士・ウルティマ" icon="item001/2049" rare="五星" category="角色碎片" function="角色碎片" effect_val="2049" bonus_hg="0" get_shop_1="召喚" description="聖騎士のウルティマ。奥義を強化したり、パッシブスキルを解放したりすることができる"/>
 	<item id="2051" illustration_id="2049" name="フレイ・ウルティマ" icon="item001/2051" rare="五星" category="角色碎片" function="角色碎片" effect_val="2051" bonus_hg="0" get_shop_1="召喚" description="聖騎士のウルティマ。奥義を強化したり、パッシブスキルを解放したりすることができる"/>
 	<item id="2052" illustration_id="2050" name="ジェミニ・ウルティマ" icon="item001/2052" rare="五星" category="角色碎片" function="角色碎片" effect_val="2052" bonus_hg="0" get_shop_1="召喚" description="聖騎士のウルティマ。奥義を強化したり、パッシブスキルを解放したりすることができる"/>
-	<item id="2053" illustration_id="2051" name="エスティリア・ウルティマ" icon="item001/2053" rare="五星" category="角色碎片" function="角色碎片" effect_val="2053" bonus_hg="0" get_shop_1="召喚" description="聖騎士のウルティマ。奥義を強化したり、パッシブスキルを解放したりすることができる"/>
+	<item id="2053" illustration_id="2051" name="エスティリエル・ウルティマ" icon="item001/2053" rare="五星" category="角色碎片" function="角色碎片" effect_val="2053" bonus_hg="0" get_shop_1="召喚" description="聖騎士のウルティマ。奥義を強化したり、パッシブスキルを解放したりすることができる"/>
 	<item id="2054" illustration_id="2052" name="ヒルディス・ウルティマ" icon="item001/2054" rare="五星" category="角色碎片" function="角色碎片" effect_val="2054" bonus_hg="0" get_shop_1="召喚" description="聖騎士のウルティマ。奥義を強化したり、パッシブスキルを解放したりすることができる"/>
 	<item id="2055" illustration_id="2053" name="リュッカ・ウルティマ" icon="item001/2055" rare="五星" category="角色碎片" function="角色碎片" effect_val="2055" bonus_hg="0" get_shop_1="召喚" description="聖騎士のウルティマ。奥義を強化したり、パッシブスキルを解放したりすることができる"/>
 	<item id="2056" illustration_id="2054" name="マリーナ・ウルティマ" icon="item001/2056" rare="五星" category="角色碎片" function="角色碎片" effect_val="2056" bonus_hg="0" get_shop_1="召喚" description="聖騎士のウルティマ。奥義を強化したり、パッシブスキルを解放したりすることができる"/>
@@ -730,7 +731,7 @@
 	<item id="2204" illustration_id="2199" name="【アメスク留学生】アーティア・ウルティマ" icon="item001/2204" rare="五星" category="角色碎片" function="角色碎片" effect_val="2204" bonus_hg="0" get_shop_1="召喚" description="聖騎士のウルティマ。奥義を強化したり、パッシブスキルを解放したりすることができる"/>
 	<item id="2183" illustration_id="2183" name="ベガリア・ウルティマ" icon="item001/2183" rare="五星" category="角色碎片" function="角色碎片" effect_val="2183" bonus_hg="0" get_shop_1="召喚" description="聖騎士のウルティマ。奥義を強化したり、パッシブスキルを解放したりすることができる"/>
 	<item id="2206" illustration_id="2206" name="【エレガントバニー】ベルナデット・ウルティマ" icon="item001/2206" rare="五星" category="角色碎片" function="角色碎片" effect_val="2206" bonus_hg="0" get_shop_1="召喚" description="聖騎士のウルティマ。奥義を強化したり、パッシブスキルを解放したりすることができる"/>
-	<item bonus_hg="0"/>
+	<item id="2207" illustration_id="2207" name="【知恵と勇気の女神】アテナ・ウルティマ" icon="item001/2207" rare="四星" category="角色碎片" function="角色碎片" effect_val="2207" bonus_hg="0" get_shop_1="召喚" description="聖騎士のウルティマ。奥義を強化したり、パッシブスキルを解放したりすることができる"/>
 	<item bonus_hg="0"/>
 	<item bonus_hg="0"/>
 	<item bonus_hg="0"/>
@@ -1466,6 +1467,7 @@
 	<item id="9517" name="初冬の運試し福袋" icon="item001/10299" rare="五星" category="道具" function="道具寶箱" effect_val="9510" bonus_hg="1" get_shop_1="無" description="ランダムに以下アイテムを獲得できます&#xA;晶石×1000（10%）&#xA;晶石×500（15%）&#xA;晶石×300（25%）&#xA;AP×900（10%）&#xA;AP×600（15%）&#xA;AP×300（25%）&#xA;"/>
 	<item id="9518" name="2025新年開運福袋" icon="item001/10316" rare="五星" category="道具" function="道具寶箱" effect_val="9512" bonus_hg="1" get_shop_1="無" description="ランダムに以下アイテムを獲得できます&#xA;SSR確定チケット×1（5%）&#xA;10連チケット×1（10%）&#xA;晶石×1000（15%）&#xA;AP×1000（15%）&#xA;晶石×500（20%）&#xA;晶石×300（35%）"/>
 	<item id="9519" name="【リリース500日記念】運試し福袋" icon="item001/10328" rare="五星" category="道具" function="道具寶箱" effect_val="9519" bonus_hg="1" get_shop_1="無" description="※ランダムに以下アイテムを獲得できます&#xA;晶石×1000 (10%)&#xA;晶石×500 (15%)&#xA;晶石×300 (25%)&#xA;AP×900 (10%)&#xA;AP×600 (15%)&#xA;AP×300 (25%)"/>
+	<item id="9520" name="【1.5周年記念】運試し福袋" icon="item001/10350" rare="五星" category="道具" function="道具寶箱" effect_val="9520" bonus_hg="1" get_shop_1="無" description="※ランダムに以下アイテムを獲得できます&#xA;晶石×1000 (10%)&#xA;晶石×500 (15%)&#xA;晶石×300 (25%)&#xA;AP×900 (10%)&#xA;AP×600 (15%)&#xA;AP×300 (25%)"/>
 	<item bonus_hg="0"/>
 	<item id="92108" name="マグダレーナ即戦力育成BOX" icon="item001/0014" rare="五星" category="道具" function="道具寶箱" effect_val="92108" bonus_hg="0" get_shop_1="無" description="以下のアイテムを獲得できる&#xA;聖騎士の秘薬(L)×110&#xA;風属性・結晶(小)×21&#xA;風属性・結晶(中)×21&#xA;古木の女神像×21&#xA;霊木の女神像×21&#xA;超越水晶x70"/>
 	<item id="92109" name="【純情ショコラティエ】フレイ即戦力育成BOX" icon="item001/0014" rare="五星" category="道具" function="道具寶箱" effect_val="92109" bonus_hg="0" get_shop_1="無" description="以下のアイテムを獲得できる&#xA;聖騎士の秘薬(L)×110&#xA;火属性・結晶(小)×21&#xA;火属性・結晶(中)×21&#xA;古木の女神像×21&#xA;霊木の女神像×21&#xA;超越水晶x70"/>
@@ -1557,6 +1559,7 @@
 	<item id="92203" name="即戦力育成セット・【氷上の芸術家】イルーギオ" icon="item001/0014" rare="五星" category="道具" function="道具寶箱" effect_val="92203" bonus_hg="0" get_shop_1="無" description="以下のアイテムを獲得できる&#xA;聖騎士の秘薬(L)×110&#xA;風属性・結晶(小)×21&#xA;風属性・結晶(中)×21&#xA;妖鳥の羽×21&#xA;霊鳥の羽×21&#xA;超越水晶x70"/>
 	<item id="92206" name="即戦力育成セット・【エレガントバニー】ベルナデット" icon="item001/0014" rare="五星" category="道具" function="道具寶箱" effect_val="92206" bonus_hg="0" get_shop_1="無" description="以下のアイテムを獲得できる&#xA;聖騎士の秘薬(L)×110&#xA;水属性・結晶(小)×21&#xA;水属性・結晶(中)×21&#xA;古木の女神像×21&#xA;霊木の女神像×21&#xA;超越水晶x70"/>
 	<item id="92183" name="即戦力育成セット・ベガリア" icon="item001/0014" rare="五星" category="道具" function="道具寶箱" effect_val="92183" bonus_hg="0" get_shop_1="無" description="以下のアイテムを獲得できる&#xA;聖騎士の秘薬(L)×110&#xA;魔属性・結晶(小)×21&#xA;魔属性・結晶(中)×21&#xA;魔獣の角×21&#xA;悪魔の角×21&#xA;超越水晶x70"/>
+	<item id="92207" name="即戦力育成セット・【知恵と勇気の女神】アテナ" icon="item001/0014" rare="五星" category="道具" function="道具寶箱" effect_val="92207" bonus_hg="0" get_shop_1="無" description="以下のアイテムを獲得できる&#xA;聖騎士の秘薬(L)×110&#xA;聖属性・結晶(小)×21&#xA;聖属性・結晶(中)×21&#xA;百年亀の甲羅×21&#xA;千年亀の甲羅×21&#xA;超越水晶x70"/>
 	<item bonus_hg="0"/>
 	<item bonus_hg="0"/>
 	<item bonus_hg="0"/>
@@ -1727,6 +1730,8 @@
 	<item id="10132" name="結束の印・風" icon="item001/10250" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2025/03/24 11:00:00" convert_item_id="5" convert_item_num="1" get_shop_1="無" description="同盟の一員であることの証。身につけるだけで人々に支えられている気分を感じられる。"/>
 	<item id="10133" name="ベガリアの杖" icon="item001/10346" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2025/04/03 11:00:00" convert_item_id="5" convert_item_num="1" get_shop_1="無" description="女神ゾミアの御意志を尊重する者でなければ手にすることはできない特別な杖。ゾミアの意志に反する者が手にすれば、電流が流れる"/>
 	<item id="10134" name="競撃の宝玉・魔" icon="item001/10158" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2025/04/03 11:00:00" convert_item_id="5" convert_item_num="1" get_shop_1="無" description="戦場における人々の意志を凝縮した宝玉。握りしめれば全身に力が溢れる。"/>
+	<item id="10135" name="保底道具" icon="item001/10354" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2025/04/03 11:00:00" convert_item_id="5" convert_item_num="1" get_shop_1="無" description="道具說明"/>
+	<item bonus_hg="0"/>
 	<item bonus_hg="0"/>
 	<item id="10988" name="カムバックメダル" icon="item001/10121" rare="五星" category="道具" function="物品" bonus_hg="0" use_day="10" convert_item_id="5" convert_item_num="1" get_shop_1="無" description="カムバック応援召喚を回す度に獲得できるアイテム"/>
 	<item id="10989" name="カムバックメダル" icon="item001/10121" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2024/04/07 11:00:00" convert_item_id="5" convert_item_num="1" get_shop_1="無" description="カムバック応援召喚を回す度に獲得できるアイテム"/>

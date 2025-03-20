@@ -170,7 +170,7 @@
 		<feature_id>311</feature_id>
 		<feature_id>0</feature_id>
 	</hero_group>
-	<hero_group ignore_grade_skill_limit="false" ignore_ub_skill_limit="false">
+	<hero_group id="2034" pic_id="2034" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" face_x="19" face_y="583">
 		<feature_id>0</feature_id>
 		<feature_id>0</feature_id>
 		<feature_id>0</feature_id>
@@ -1035,12 +1035,12 @@
 		<feature_id>309</feature_id>
 		<feature_id>0</feature_id>
 	</hero_group>
-	<hero_group ignore_grade_skill_limit="false" ignore_ub_skill_limit="false">
-		<feature_id>0</feature_id>
-		<feature_id>0</feature_id>
+	<hero_group id="2207" pic_id="2207" ex_pic_id="22207" name="【知恵と勇気の女神】アテナ" illustration_sequence_num="206" illustration_hero_id="2207" introduction="前列、物理、タンク" attr="聖" atk_attr="物理" drawer="Q-Gaku" voicer="ももぞの薫" height="170cm" measurements="B110(M)/W62/H101" role_set="防禦" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="-90" face_x="0" face_y="582" ani_scale="0.2" shadow_scale="0.2" cut_in_x="-200" cut_in_y="110" cut_in_scale="-0.18" click_chest_x="76" click_chest_y="329" click_chest_x_range="370" click_chest_y_range="238">
+		<feature_id>304</feature_id>
+		<feature_id>307</feature_id>
 		<feature_id>0</feature_id>
 	</hero_group>
-	<hero_group ignore_grade_skill_limit="false" ignore_ub_skill_limit="false">
+	<hero_group id="2208" pic_id="2208" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" face_x="1" face_y="469" ani_scale="0.2" shadow_scale="0.2" click_chest_x="-42" click_chest_y="175" click_chest_x_range="603" click_chest_y_range="162">
 		<feature_id>0</feature_id>
 		<feature_id>0</feature_id>
 		<feature_id>0</feature_id>
@@ -1666,6 +1666,11 @@
 		<feature_id>0</feature_id>
 	</hero_group>
 	<hero_group id="9206" pic_id="9206" normal_pic_id="19206" ex_pic_id="22206" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" face_x="3" face_y="609" ani_scale="0.2" shadow_scale="0.2" click_chest_x="-138" click_chest_y="187" click_chest_x_range="452" click_chest_y_range="328">
+		<feature_id>0</feature_id>
+		<feature_id>0</feature_id>
+		<feature_id>0</feature_id>
+	</hero_group>
+	<hero_group id="9207" pic_id="9207" ex_pic_id="22207" name="アテナ" illustration_sequence_num="206" illustration_hero_id="2206" drawer="Q-Gaku" voicer="ももぞの薫" height="170cm" measurements="B110(M)/W62/H101" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="-90" face_x="0" face_y="582" ani_scale="0.2" shadow_scale="0.2" click_chest_x="76" click_chest_y="329" click_chest_x_range="370" click_chest_y_range="238">
 		<feature_id>0</feature_id>
 		<feature_id>0</feature_id>
 		<feature_id>0</feature_id>
@@ -2675,6 +2680,11 @@
 		<feature_id>0</feature_id>
 		<feature_id>0</feature_id>
 	</hero_group>
+	<hero_group id="1006401" pic_id="1006401" name="女神教大神官長" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" face_x="10" face_y="596">
+		<feature_id>0</feature_id>
+		<feature_id>0</feature_id>
+		<feature_id>0</feature_id>
+	</hero_group>
 	<hero_group ignore_grade_skill_limit="false" ignore_ub_skill_limit="false">
 		<feature_id>0</feature_id>
 		<feature_id>0</feature_id>
@@ -3260,12 +3270,27 @@
 		<feature_id>0</feature_id>
 		<feature_id>0</feature_id>
 	</hero_group>
-	<hero_group ignore_grade_skill_limit="false" ignore_ub_skill_limit="false">
+	<hero_group id="3001901" pic_id="3001901" name="ユピテル神" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="-125" face_x="-4" face_y="645">
 		<feature_id>0</feature_id>
 		<feature_id>0</feature_id>
 		<feature_id>0</feature_id>
 	</hero_group>
-	<hero_group ignore_grade_skill_limit="false" ignore_ub_skill_limit="false">
+	<hero_group id="3002001" pic_id="3002001" name="アポロン神" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="-30" face_x="17" face_y="562">
+		<feature_id>0</feature_id>
+		<feature_id>0</feature_id>
+		<feature_id>0</feature_id>
+	</hero_group>
+	<hero_group id="3002101" pic_id="3002101" name="マルス神" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="-30" face_x="-1" face_y="550">
+		<feature_id>0</feature_id>
+		<feature_id>0</feature_id>
+		<feature_id>0</feature_id>
+	</hero_group>
+	<hero_group id="3002201" pic_id="3002201" name="ヘルメス神" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="-140" face_x="-66" face_y="631">
+		<feature_id>0</feature_id>
+		<feature_id>0</feature_id>
+		<feature_id>0</feature_id>
+	</hero_group>
+	<hero_group id="3002301" pic_id="3002301" name="ハデス" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="-220" face_x="1" face_y="751">
 		<feature_id>0</feature_id>
 		<feature_id>0</feature_id>
 		<feature_id>0</feature_id>

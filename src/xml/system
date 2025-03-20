@@ -89,14 +89,14 @@
 	<system/>
 	<system/>
 	<system def="AP回復商品群組" val="101"/>
-	<system def="AP回復優惠開始時間" val="2025/02/21 03:00:00"/>
-	<system def="AP回復優惠結束時間" val="2025/03/04 03:00:00"/>
+	<system def="AP回復優惠開始時間" val="2025/03/19 03:00:00"/>
+	<system def="AP回復優惠結束時間" val="2025/03/28 03:00:00"/>
 	<system def="AP回復優惠商品群組" val="102"/>
 	<system def="AP回復優惠額度" val="50"/>
 	<system/>
 	<system def="BP回復商品群組" val="201"/>
-	<system def="BP回復優惠開始時間" val="2025/02/21 03:00:00"/>
-	<system def="BP回復優惠結束時間" val="2025/03/04 03:00:00"/>
+	<system def="BP回復優惠開始時間" val="2025/03/19 03:00:00"/>
+	<system def="BP回復優惠結束時間" val="2025/03/28 03:00:00"/>
 	<system def="BP回復優惠商品群組" val="202"/>
 	<system def="BP回復優惠額度" val="50"/>
 	<system/>
@@ -153,40 +153,40 @@
 	<system def="吸血基礎參數" val="100"/>
 	<system def="吸血敵方等級參數" val="6"/>
 	<system/>
-	<system def="物理坦克_五角換算參數_HP" val="0.001339"/>
+	<system def="物理坦克_五角換算參數_HP" val="0.0015625"/>
 	<system def="物理坦克_五角換算參數_物攻" val="0.022321"/>
-	<system def="物理坦克_五角換算參數_物防" val="0.033482"/>
-	<system def="物理坦克_五角換算參數_魔防" val="0.033482"/>
+	<system def="物理坦克_五角換算參數_物防" val="0.078125"/>
+	<system def="物理坦克_五角換算參數_魔防" val="0.078125"/>
 	<system def="物理坦克_五角換算參數_格擋" val="0.15625"/>
 	<system/>
-	<system def="魔法坦克_五角換算參數_HP" val="0.001339"/>
+	<system def="魔法坦克_五角換算參數_HP" val="0.0015625"/>
 	<system def="魔法坦克_五角換算參數_魔攻" val="0.022321"/>
-	<system def="魔法坦克_五角換算參數_物防" val="0.033482"/>
-	<system def="魔法坦克_五角換算參數_魔防" val="0.033482"/>
+	<system def="魔法坦克_五角換算參數_物防" val="0.078125"/>
+	<system def="魔法坦克_五角換算參數_魔防" val="0.078125"/>
 	<system def="魔法坦克_五角換算參數_格擋" val="0.15625"/>
 	<system/>
-	<system def="物理輸出_五角換算參數_HP" val="0.002083"/>
+	<system def="物理輸出_五角換算參數_HP" val="0.0026785"/>
 	<system def="物理輸出_五角換算參數_物攻" val="0.013392"/>
 	<system def="物理輸出_五角換算參數_物爆" val="0.059593"/>
-	<system def="物理輸出_五角換算參數_MP回復" val="0.446428"/>
+	<system def="物理輸出_五角換算參數_MP回復" val="0.46875"/>
 	<system def="物理輸出_五角換算參數_格檔" val="0.15625"/>
 	<system/>
-	<system def="魔法輸出_五角換算參數_HP" val="0.002083"/>
+	<system def="魔法輸出_五角換算參數_HP" val="0.0026785"/>
 	<system def="魔法輸出_五角換算參數_魔攻" val="0.013392"/>
 	<system def="魔法輸出_五角換算參數_魔爆" val="0.059593"/>
-	<system def="魔法輸出_五角換算參數_MP回復" val="0.446428"/>
+	<system def="魔法輸出_五角換算參數_MP回復" val="0.46875"/>
 	<system def="魔法輸出_五角換算參數_格檔" val="0.15625"/>
 	<system/>
-	<system def="物理輔助_五角換算參數_HP" val="0.002083"/>
+	<system def="物理輔助_五角換算參數_HP" val="0.0026785"/>
 	<system def="物理輔助_五角換算參數_物攻" val="0.023437"/>
 	<system def="物理輔助_五角換算參數_治癒" val="0.134928"/>
-	<system def="物理輔助_五角換算參數_MP回復" val="0.446428"/>
+	<system def="物理輔助_五角換算參數_MP回復" val="0.46875"/>
 	<system def="物理輔助_五角換算參數_格檔" val="0.15625"/>
 	<system/>
-	<system def="魔法輔助_五角換算參數_HP" val="0.002083"/>
+	<system def="魔法輔助_五角換算參數_HP" val="0.0026785"/>
 	<system def="魔法輔助_五角換算參數_魔攻" val="0.023437"/>
 	<system def="魔法輔助_五角換算參數_治癒" val="0.134928"/>
-	<system def="魔法輔助_五角換算參數_MP回復" val="0.446428"/>
+	<system def="魔法輔助_五角換算參數_MP回復" val="0.46875"/>
 	<system def="魔法輔助_五角換算參數_格檔" val="0.15625"/>
 	<system/>
 	<system/>
@@ -476,7 +476,7 @@
 	<system def="飾品4格開放需求英雄等級" val="51"/>
 	<system def="飾品5格開放需求英雄等級" val="61"/>
 	<system/>
-	<system def="新角色影片名稱" val="PS8_hero_2183&amp;2206.mp4"/>
+	<system def="新角色影片名稱" val="PS8_hero_2207.mp4"/>
 	<system def="新角色影片更換時間"/>
 	<system def="新角色影片更換名稱"/>
 	<system/>

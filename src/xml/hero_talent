@@ -17311,4 +17311,88 @@
 		<talent>2206114</talent>
 		<talent>2206115</talent>
 	</hero_talent>
+	<hero_talent>
+		<talent>0</talent>
+		<talent>0</talent>
+		<talent>0</talent>
+		<talent>0</talent>
+		<talent>0</talent>
+	</hero_talent>
+	<hero_talent name="ボーナス_物理攻撃" icon="Talent001/BOUNS_Atk" describe="アビリティ5つ解放で、物理攻撃 +14" id="2207" grade="1" atk="14">
+		<talent>2207011</talent>
+		<talent>2207012</talent>
+		<talent>2207013</talent>
+		<talent>2207014</talent>
+		<talent>2207015</talent>
+	</hero_talent>
+	<hero_talent name="ボーナス_HP" icon="Talent001/BOUNS_HP" describe="アビリティ5つ解放で、HP +186" id="2207" need_lv="31" grade="2" hp="186">
+		<talent>2207021</talent>
+		<talent>2207022</talent>
+		<talent>2207023</talent>
+		<talent>2207024</talent>
+		<talent>2207025</talent>
+	</hero_talent>
+	<hero_talent name="ボーナス_物理攻撃" icon="Talent001/BOUNS_Atk" describe="アビリティ5つ解放で、物理攻撃 +19" id="2207" need_lv="31" grade="3" atk="19">
+		<talent>2207031</talent>
+		<talent>2207032</talent>
+		<talent>2207033</talent>
+		<talent>2207034</talent>
+		<talent>2207035</talent>
+	</hero_talent>
+	<hero_talent name="ボーナス_HP" icon="Talent001/BOUNS_HP" describe="アビリティ5つ解放で、HP +248" id="2207" need_lv="41" grade="4" hp="248">
+		<talent>2207041</talent>
+		<talent>2207042</talent>
+		<talent>2207043</talent>
+		<talent>2207044</talent>
+		<talent>2207045</talent>
+	</hero_talent>
+	<hero_talent name="ボーナス_物理攻撃" icon="Talent001/BOUNS_Atk" describe="アビリティ5つ解放で、物理攻撃 +25" id="2207" need_lv="41" grade="5" atk="25">
+		<talent>2207051</talent>
+		<talent>2207052</talent>
+		<talent>2207053</talent>
+		<talent>2207054</talent>
+		<talent>2207055</talent>
+	</hero_talent>
+	<hero_talent name="ボーナス_HP" icon="Talent001/BOUNS_HP" describe="アビリティ5つ解放で、HP +310" id="2207" need_lv="51" grade="6" hp="310">
+		<talent>2207061</talent>
+		<talent>2207062</talent>
+		<talent>2207063</talent>
+		<talent>2207064</talent>
+		<talent>2207065</talent>
+	</hero_talent>
+	<hero_talent name="ボーナス_物理攻撃" icon="Talent001/BOUNS_Atk" describe="アビリティ5つ解放で、物理攻撃 +31" id="2207" need_lv="61" grade="7" atk="31">
+		<talent>2207071</talent>
+		<talent>2207072</talent>
+		<talent>2207073</talent>
+		<talent>2207074</talent>
+		<talent>2207075</talent>
+	</hero_talent>
+	<hero_talent name="ボーナス_HP" icon="Talent001/BOUNS_HP" describe="アビリティ5つ解放で、HP +372" id="2207" need_lv="71" grade="8" hp="372">
+		<talent>2207081</talent>
+		<talent>2207082</talent>
+		<talent>2207083</talent>
+		<talent>2207084</talent>
+		<talent>2207085</talent>
+	</hero_talent>
+	<hero_talent name="ボーナス_物理攻撃" icon="Talent001/BOUNS_Atk" describe="アビリティ5つ解放で、物理攻撃 +36" id="2207" need_lv="81" grade="9" atk="36">
+		<talent>2207091</talent>
+		<talent>2207092</talent>
+		<talent>2207093</talent>
+		<talent>2207094</talent>
+		<talent>2207095</talent>
+	</hero_talent>
+	<hero_talent name="ボーナス_HP" icon="Talent001/BOUNS_HP" describe="アビリティ5つ解放で、HP +435" id="2207" need_lv="81" grade="10" hp="435">
+		<talent>2207101</talent>
+		<talent>2207102</talent>
+		<talent>2207103</talent>
+		<talent>2207104</talent>
+		<talent>2207105</talent>
+	</hero_talent>
+	<hero_talent name="ボーナス_物理攻撃" icon="Talent001/BOUNS_Atk" describe="アビリティ5つ解放で、物理攻撃 +40" id="2207" need_lv="91" grade="11" atk="40">
+		<talent>2207111</talent>
+		<talent>2207112</talent>
+		<talent>2207113</talent>
+		<talent>2207114</talent>
+		<talent>2207115</talent>
+	</hero_talent>
 </root>

@@ -150,7 +150,7 @@
 		<button_show>無</button_show>
 		<button_show>無</button_show>
 	</arrive>
-	<arrive id="2009" sort="4" type="競擊戰模式" name="競擊戰模式" icon="arrive-limit/2" end_time="2025/03/27 11:00:00" close_time="2025/03/27 11:00:00" show="true">
+	<arrive id="2009" sort="5" type="競擊戰模式" name="競擊戰模式" icon="arrive-limit/2" end_time="2025/03/27 11:00:00" close_time="2025/03/27 11:00:00" show="true">
 		<button_show>無</button_show>
 		<button_show>無</button_show>
 		<button_show>無</button_show>
@@ -290,7 +290,7 @@
 		<button_show>無</button_show>
 		<button_show>無</button_show>
 	</arrive>
-	<arrive id="8001" sort="5" type="公會戰" name="同盟戰" icon="arrive-guild/3" start_time="2025/03/10 03:00:00" end_time="2025/03/17 03:00:00" close_time="2025/03/17 03:00:00" show="true">
+	<arrive id="8001" type="公會戰" name="同盟戰" icon="arrive-guild/3" start_time="2025/03/10 03:00:00" end_time="2025/03/17 03:00:00" close_time="2025/03/17 03:00:00" show="true">
 		<button_show>無</button_show>
 		<button_show>無</button_show>
 		<button_show>無</button_show>
@@ -1010,7 +1010,7 @@
 		<button_show>無</button_show>
 		<button_show>無</button_show>
 	</arrive>
-	<arrive id="2876" sort="2" type="投票" activity_mode_id="206" name="第2回聖騎士覚醒投票" icon="arrive-2076/vote" end_time="2025/03/20 11:00:00" close_time="2025/03/27 11:00:00" show="true">
+	<arrive id="2876" sort="3" type="投票" activity_mode_id="206" name="第2回聖騎士覚醒投票" icon="arrive-2076/vote" end_time="2025/03/20 11:00:00" close_time="2025/03/27 11:00:00" show="true">
 		<button_show>無</button_show>
 		<button_show>無</button_show>
 		<button_show>無</button_show>
@@ -1020,8 +1020,18 @@
 		<button_show>無</button_show>
 		<button_show>無</button_show>
 	</arrive>
-	<arrive id="2077" sort="3" type="活動" activity_mode_id="900078" name="【1.5周年】特別クエスト" icon="arrive-2077/event_66" hero_group_id="2206" stage_hero_group_id="2206" stage_world_id="5077" shop_id="9008" end_time="2025/03/27 11:00:00" close_time="2025/04/03 11:00:00" show="true">
+	<arrive id="2077" sort="4" type="活動" activity_mode_id="900078" name="【1.5周年】特別クエスト" icon="arrive-2077/event_66" hero_group_id="2206" stage_hero_group_id="2206" stage_world_id="5077" shop_id="9008" end_time="2025/03/27 11:00:00" close_time="2025/04/03 11:00:00" show="true">
 		<button_show>交換所</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2078" sort="2" type="活動" activity_mode_id="900079" name="我が名はアテナ" icon="arrive-2078/event_67" hero_group_id="2207" stage_hero_group_id="2207" stage_world_id="5078" activity_lottery_id="910096" activity_draw_id="190" contribution_buff_special_id="207801" normal_boss_id="50781" hard_boss_id="50782" very_hard_boss_id="50783" boss_cost_item_id="1559" end_time="2025/03/27 11:00:00" close_time="2025/04/03 11:00:00" show="true">
+		<button_show>一番賞</button_show>
 		<button_show>無</button_show>
 		<button_show>無</button_show>
 	</arrive>

@@ -1672,6 +1672,44 @@
 		<reward_target>0</reward_target>
 		<reward_num>0</reward_num>
 	</activity>
+	<activity id="519" name="AP消費特典" show="true" menu_show="true" sort="9" icon="activity001/PS8_主介面_活動列表アテナ_累計消耗" bg="activity5/AP消費特典アテナ_804x434" end_time="2025/03/27 11:00:00" activity_type="消費" activity_val5="false">
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+	</activity>
 	<activity show="false" menu_show="false" activity_val5="false">
 		<hero_info>0</hero_info>
 		<hero_info>0</hero_info>
@@ -6308,6 +6346,44 @@
 		<reward_target>0</reward_target>
 		<reward_num>0</reward_num>
 	</activity>
+	<activity id="910096" name="BOX抽選" show="true" menu_show="false" sort="20" icon="activity001/PS8_主介面_活動列表_一番くじ" end_time="2025/04/03 11:00:00" activity_type="抽獎" activity_val1="1560" activity_val2="1" activity_val5="false">
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+	</activity>
 	<activity show="false" menu_show="false" activity_val5="false">
 		<hero_info>0</hero_info>
 		<hero_info>0</hero_info>
@@ -10222,6 +10298,82 @@
 		<reward_target>0</reward_target>
 		<reward_num>0</reward_num>
 	</activity>
+	<activity id="60104" name="【我が名はアテナ】ログインボーナス" show="true" menu_show="false" sort="10" bg="activitylogin103/登入獎勵_我が名はアテナ_1640x1000" end_time="2025/03/27 11:00:00" activity_type="活動簽到" activity_val1="60104" activity_val5="false">
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+	</activity>
+	<activity id="60105" name="【1.5周年アフター】ログインボーナス" show="true" menu_show="false" sort="10" bg="activitylogin104/登入獎勵_1.5周年アフター_1640x1000" end_time="2025/03/27 11:00:00" activity_type="活動簽到" activity_val1="60105" activity_val5="false">
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+	</activity>
 	<activity show="false" menu_show="false" activity_val5="false">
 		<hero_info>0</hero_info>
 		<hero_info>0</hero_info>
@@ -12655,6 +12807,44 @@
 		<reward_num>0</reward_num>
 	</activity>
 	<activity id="600062" name="活躍度任務" show="true" menu_show="false" sort="6" start_time="2025/03/13 11:00:00" end_time="2025/03/27 11:00:00" activity_type="活躍度" activity_val1="600062" activity_val5="false">
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+	</activity>
+	<activity id="600063" name="活躍度任務" show="true" menu_show="false" sort="6" start_time="2025/03/17 11:00:00" end_time="2025/03/27 11:00:00" activity_type="活躍度" activity_val1="600063" activity_val5="false">
 		<hero_info>0</hero_info>
 		<hero_info>0</hero_info>
 		<hero_info>0</hero_info>
@@ -16455,6 +16645,44 @@
 		<reward_num>0</reward_num>
 	</activity>
 	<activity id="900078" name="【1.5周年】特別クエスト" show="false" menu_show="false" end_time="2025/03/27 11:00:00" activity_type="活動事件" activity_val5="false">
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+	</activity>
+	<activity id="900079" name="我が名はアテナ" show="false" menu_show="false" end_time="2025/03/27 11:00:00" activity_type="活動事件" activity_val5="false">
 		<hero_info>0</hero_info>
 		<hero_info>0</hero_info>
 		<hero_info>0</hero_info>

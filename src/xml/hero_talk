@@ -10516,56 +10516,56 @@
 	<hero_talk id="2206" talk_type="角色背景3" pre_gp_lv="3" talk_text="麗しき赤いコート。&#xA;高級な宿屋の案内人のような、気品のある外套。&#xA;脱げば現れるのは、あまりにもでかすぎる超乳と、ほとんど用をなしていない小さなビキニ――。&#xA;&#xA;ベルナデットは言う。&#xA;自分は露出狂ではない。もちろん、変態でもない。&#xA;&#xA;人は言う。&#xA;変態だ。&#xA;その瞬間、うさぎが襲いかかる。&#xA;ある時は複数のうさぎが、ある時は巨大化したうさぎが――。&#xA;&#xA;人は思うのだ。&#xA;こんなところにウーピーが……。"/>
 	<hero_talk id="2206" talk_type="角色背景4" pre_gp_lv="4" talk_text="女は軽い――。&#xA;そう女は言う。&#xA;自分は重くない。&#xA;だが、奥義で見せたあの揺れは何だ。&#xA;うさぎが重いのか？&#xA;否。&#xA;ベルナデットもきっと相当に重――。&#xA;&#xA;おや、誰かが来たようだ。"/>
 	<hero_talk/>
-	<hero_talk id="2207" talk_type="召喚自我介紹" pre_gp_lv="0" talk_face="01" talk_voice="2207/K2207_0001"/>
-	<hero_talk id="2207" talk_type="登入_副官" pre_gp_lv="0" talk_face="01" talk_voice="2207/K2207_0002"/>
-	<hero_talk id="2207" talk_type="觸摸1_副官" pre_gp_lv="0" talk_face="04" talk_voice="2207/K2207_0003"/>
-	<hero_talk id="2207" talk_type="觸摸2_副官" pre_gp_lv="0" talk_face="01" talk_voice="2207/K2207_0004"/>
-	<hero_talk id="2207" talk_type="觸摸3_副官" pre_gp_lv="0" talk_face="02" talk_voice="2207/K2207_0005"/>
-	<hero_talk id="2207" talk_type="放置_副官" pre_gp_lv="0" talk_face="06" talk_voice="2207/K2207_0006"/>
-	<hero_talk id="2207" talk_type="出戰" pre_gp_lv="0" talk_face="04" talk_voice="2207/K2207_0007"/>
-	<hero_talk id="2207" talk_type="開場" pre_gp_lv="0" talk_face="04" talk_voice="2207/K2207_0008"/>
-	<hero_talk id="2207" talk_type="技能1" pre_gp_lv="0" talk_face="04" talk_voice="2207/K2207_0009"/>
-	<hero_talk id="2207" talk_type="技能2" pre_gp_lv="0" talk_face="04" talk_voice="2207/K2207_0010"/>
-	<hero_talk id="2207" talk_type="奧義1" pre_gp_lv="0" talk_face="05" talk_voice="2207/K2207_0011"/>
-	<hero_talk id="2207" talk_type="奧義2" pre_gp_lv="0" talk_face="05" talk_voice="2207/K2207_0012"/>
-	<hero_talk id="2207" talk_type="勝利" pre_gp_lv="0" talk_face="03" talk_voice="2207/K2207_0013"/>
-	<hero_talk id="2207" talk_type="戰敗" pre_gp_lv="0" talk_face="06" talk_voice="2207/K2207_0014"/>
-	<hero_talk id="2207" talk_type="一般強化1" pre_gp_lv="0" talk_face="01" talk_voice="2207/K2207_0015"/>
-	<hero_talk id="2207" talk_type="一般強化2" pre_gp_lv="0" talk_face="01" talk_voice="2207/K2207_0016"/>
-	<hero_talk id="2207" talk_type="一般強化3" pre_gp_lv="0" talk_face="02" talk_voice="2207/K2207_0017"/>
-	<hero_talk id="2207" talk_type="最高階強化" pre_gp_lv="0" talk_face="02" talk_voice="2207/K2207_0018"/>
-	<hero_talk id="2207" talk_type="好感1" pre_gp_lv="1" talk_face="01" talk_voice="2207/K2207_0019"/>
-	<hero_talk id="2207" talk_type="好感2" pre_gp_lv="2" talk_face="01" talk_voice="2207/K2207_0020"/>
-	<hero_talk id="2207" talk_type="好感3" pre_gp_lv="3" talk_face="02" talk_voice="2207/K2207_0021"/>
-	<hero_talk id="2207" talk_type="好感4" pre_gp_lv="4" talk_face="02" talk_voice="2207/K2207_0022"/>
-	<hero_talk id="2207" talk_type="好感5" pre_gp_lv="4" talk_face="03" talk_voice="2207/K2207_0023"/>
-	<hero_talk id="2207" talk_type="胸部低好感" pre_gp_lv="0" talk_face="04" talk_voice="2207/K2207_0024"/>
-	<hero_talk id="2207" talk_type="胸部中好感" pre_gp_lv="1" talk_face="01" talk_voice="2207/K2207_0025"/>
-	<hero_talk id="2207" talk_type="胸部高好感" pre_gp_lv="2" talk_face="02" talk_voice="2207/K2207_0026"/>
-	<hero_talk id="2207" talk_type="贈禮1" pre_gp_lv="0" talk_face="02" talk_voice="2207/K2207_0027"/>
-	<hero_talk id="2207" talk_type="贈禮2" pre_gp_lv="3" talk_face="02" talk_voice="2207/K2207_0028"/>
-	<hero_talk id="2207" talk_type="派駐對話1" pre_gp_lv="0" talk_face="01" talk_voice="2207/K2207_0029"/>
-	<hero_talk id="2207" talk_type="派駐對話2" pre_gp_lv="3" talk_face="01" talk_voice="2207/K2207_0030"/>
-	<hero_talk id="2207" talk_type="遊戲標題" pre_gp_lv="0" talk_face="01" talk_voice="2207/K2207_0031"/>
-	<hero_talk id="2207" talk_type="肯定" pre_gp_lv="0" talk_face="01" talk_voice="2207/K2207_0032"/>
-	<hero_talk id="2207" talk_type="否定" pre_gp_lv="0" talk_face="01" talk_voice="2207/K2207_0033"/>
-	<hero_talk id="2207" talk_type="思考" pre_gp_lv="0" talk_face="04" talk_voice="2207/K2207_0034"/>
-	<hero_talk id="2207" talk_type="疑念" pre_gp_lv="0" talk_face="01" talk_voice="2207/K2207_0035"/>
-	<hero_talk id="2207" talk_type="唸る" pre_gp_lv="0" talk_face="01" talk_voice="2207/K2207_0036"/>
-	<hero_talk id="2207" talk_type="驚愕" pre_gp_lv="0" talk_face="08" talk_voice="2207/K2207_0037"/>
-	<hero_talk id="2207" talk_type="ムカッ" pre_gp_lv="0" talk_face="04" talk_voice="2207/K2207_0038"/>
-	<hero_talk id="2207" talk_type="怒る" pre_gp_lv="0" talk_face="05" talk_voice="2207/K2207_0039"/>
-	<hero_talk id="2207" talk_type="焦り" pre_gp_lv="0" talk_face="07" talk_voice="2207/K2207_0040"/>
-	<hero_talk id="2207" talk_type="ダメージ時" pre_gp_lv="0" talk_face="06" talk_voice="2207/K2207_0041"/>
-	<hero_talk id="2207" talk_type="ため息" pre_gp_lv="0" talk_face="06" talk_voice="2207/K2207_0042"/>
-	<hero_talk id="2207" talk_type="自責" pre_gp_lv="0" talk_face="06" talk_voice="2207/K2207_0043"/>
-	<hero_talk id="2207" talk_type="喜び" pre_gp_lv="0" talk_face="02" talk_voice="2207/K2207_0044"/>
-	<hero_talk id="2207" talk_type="笑い" pre_gp_lv="0" talk_face="03" talk_voice="2207/K2207_0045"/>
-	<hero_talk id="2207" talk_type="照れ" pre_gp_lv="0" talk_face="09" talk_voice="2207/K2207_0046"/>
-	<hero_talk id="2207" talk_type="角色背景1" pre_gp_lv="1"/>
-	<hero_talk id="2207" talk_type="角色背景2" pre_gp_lv="2"/>
-	<hero_talk id="2207" talk_type="角色背景3" pre_gp_lv="3"/>
-	<hero_talk id="2207" talk_type="角色背景4" pre_gp_lv="4"/>
+	<hero_talk id="2207" talk_type="召喚自我介紹" pre_gp_lv="0" talk_face="01" talk_text="我が名はアテナ。知恵と勇気の女神。わたしを呼んだのはおまえですね。名を名乗りなさい" talk_voice="2207/K2207_0001"/>
+	<hero_talk id="2207" talk_type="登入_副官" pre_gp_lv="0" talk_face="01" talk_text="面を上げなさい" talk_voice="2207/K2207_0002"/>
+	<hero_talk id="2207" talk_type="觸摸1_副官" pre_gp_lv="0" talk_face="02" talk_text="メデューサはこちらで何をしていたのです？　話して聞かせなさい。ユリナスへの土産話にします" talk_voice="2207/K2207_0003"/>
+	<hero_talk id="2207" talk_type="觸摸2_副官" pre_gp_lv="0" talk_face="01" talk_text="おまえは知恵の男ですね。おまえとヘルメスを、おまえとアポロンを、勝負させてみたいものです" talk_voice="2207/K2207_0004"/>
+	<hero_talk id="2207" talk_type="觸摸3_副官" pre_gp_lv="0" talk_face="02" talk_text="わたしが去ったら、わたしの像をつくりなさい。メデューサよりも立派なものを。もちろん、胸は大きく。いっぱい盛りなさい" talk_voice="2207/K2207_0005"/>
+	<hero_talk id="2207" talk_type="放置_副官" pre_gp_lv="0" talk_face="06" talk_text="女神の恨み……" talk_voice="2207/K2207_0006"/>
+	<hero_talk id="2207" talk_type="出戰" pre_gp_lv="0" talk_face="04" talk_text="ついてきなさい" talk_voice="2207/K2207_0007"/>
+	<hero_talk id="2207" talk_type="開場" pre_gp_lv="0" talk_face="04" talk_text="跪きなさい" talk_voice="2207/K2207_0008"/>
+	<hero_talk id="2207" talk_type="技能1" pre_gp_lv="0" talk_face="04" talk_text="見ていなさい" talk_voice="2207/K2207_0009"/>
+	<hero_talk id="2207" talk_type="技能2" pre_gp_lv="0" talk_face="04" talk_text="お行き" talk_voice="2207/K2207_0010"/>
+	<hero_talk id="2207" talk_type="奧義1" pre_gp_lv="0" talk_face="05" talk_text="オリュンポスの力を思い知るがいい！　――愚かな者にその身を悔いる知を与えん" talk_voice="2207/K2207_0011"/>
+	<hero_talk id="2207" talk_type="奧義2" pre_gp_lv="0" talk_face="05" talk_text="愚かな者にその身を悔いる知を与えん" talk_voice="2207/K2207_0012"/>
+	<hero_talk id="2207" talk_type="勝利" pre_gp_lv="0" talk_face="03" talk_text="これがオリュンポスの力" talk_voice="2207/K2207_0013"/>
+	<hero_talk id="2207" talk_type="戰敗" pre_gp_lv="0" talk_face="06" talk_text="マルスではないでしょうね" talk_voice="2207/K2207_0014"/>
+	<hero_talk id="2207" talk_type="一般強化1" pre_gp_lv="0" talk_face="01" talk_text="どうしたの？" talk_voice="2207/K2207_0015"/>
+	<hero_talk id="2207" talk_type="一般強化2" pre_gp_lv="0" talk_face="01" talk_text="何を騒いでいるの？" talk_voice="2207/K2207_0016"/>
+	<hero_talk id="2207" talk_type="一般強化3" pre_gp_lv="0" talk_face="02" talk_text="異界の女神……？" talk_voice="2207/K2207_0017"/>
+	<hero_talk id="2207" talk_type="最高階強化" pre_gp_lv="0" talk_face="03" talk_text="これが異界の女神の力……!?" talk_voice="2207/K2207_0018"/>
+	<hero_talk id="2207" talk_type="好感1" pre_gp_lv="1" talk_face="01" talk_text="あとになさい" talk_voice="2207/K2207_0019"/>
+	<hero_talk id="2207" talk_type="好感2" pre_gp_lv="2" talk_face="01" talk_text="明日来なさい" talk_voice="2207/K2207_0020"/>
+	<hero_talk id="2207" talk_type="好感3" pre_gp_lv="3" talk_face="02" talk_text="わたしに用があるのでしょう？　言いなさい" talk_voice="2207/K2207_0021"/>
+	<hero_talk id="2207" talk_type="好感4" pre_gp_lv="4" talk_face="02" talk_text="ついてきなさい。女神を一人にするのですか？" talk_voice="2207/K2207_0022"/>
+	<hero_talk id="2207" talk_type="好感5" pre_gp_lv="4" talk_face="03" talk_text="そなたはこれからずっとわたしのお供です。行先はそなたに任せます。案内なさい" talk_voice="2207/K2207_0023"/>
+	<hero_talk id="2207" talk_type="胸部低好感" pre_gp_lv="0" talk_face="04" talk_text="あくまでも、見るだけですよ" talk_voice="2207/K2207_0024"/>
+	<hero_talk id="2207" talk_type="胸部中好感" pre_gp_lv="1" talk_face="01" talk_text="おまえ……オッパイ好きですね" talk_voice="2207/K2207_0025"/>
+	<hero_talk id="2207" talk_type="胸部高好感" pre_gp_lv="2" talk_face="02" talk_text="くす……目がユリナスそっくり……くすくす" talk_voice="2207/K2207_0026"/>
+	<hero_talk id="2207" talk_type="贈禮1" pre_gp_lv="0" talk_face="02" talk_text="おまえはよい人間です" talk_voice="2207/K2207_0027"/>
+	<hero_talk id="2207" talk_type="贈禮2" pre_gp_lv="3" talk_face="02" talk_text="おまえには幸せを" talk_voice="2207/K2207_0028"/>
+	<hero_talk id="2207" talk_type="派駐對話1" pre_gp_lv="0" talk_face="01" talk_text="きっと考えがあってのことでしょう" talk_voice="2207/K2207_0029"/>
+	<hero_talk id="2207" talk_type="派駐對話2" pre_gp_lv="3" talk_face="01" talk_text="意図を話しなさい" talk_voice="2207/K2207_0030"/>
+	<hero_talk id="2207" talk_type="遊戲標題" pre_gp_lv="0" talk_face="01" talk_text="巨乳ファンタジー・バースト" talk_voice="2207/K2207_0031"/>
+	<hero_talk id="2207" talk_type="肯定" pre_gp_lv="0" talk_face="01" talk_text="ええ" talk_voice="2207/K2207_0032"/>
+	<hero_talk id="2207" talk_type="否定" pre_gp_lv="0" talk_face="01" talk_text="違うのですよ" talk_voice="2207/K2207_0033"/>
+	<hero_talk id="2207" talk_type="思考" pre_gp_lv="0" talk_face="04" talk_text="こういうこと……" talk_voice="2207/K2207_0034"/>
+	<hero_talk id="2207" talk_type="疑念" pre_gp_lv="0" talk_face="01" talk_text="どういうこと……？" talk_voice="2207/K2207_0035"/>
+	<hero_talk id="2207" talk_type="唸る" pre_gp_lv="0" talk_face="01" talk_text="おのれ……" talk_voice="2207/K2207_0036"/>
+	<hero_talk id="2207" talk_type="驚愕" pre_gp_lv="0" talk_face="08" talk_text="えっ!?" talk_voice="2207/K2207_0037"/>
+	<hero_talk id="2207" talk_type="ムカッ" pre_gp_lv="0" talk_face="04" talk_text="愚かな……" talk_voice="2207/K2207_0038"/>
+	<hero_talk id="2207" talk_type="怒る" pre_gp_lv="0" talk_face="05" talk_text="辞世の句を読みなさい" talk_voice="2207/K2207_0039"/>
+	<hero_talk id="2207" talk_type="焦り" pre_gp_lv="0" talk_face="07" talk_text="生意気な……" talk_voice="2207/K2207_0040"/>
+	<hero_talk id="2207" talk_type="ダメージ時" pre_gp_lv="0" talk_face="06" talk_text="ぐらぁ……" talk_voice="2207/K2207_0041"/>
+	<hero_talk id="2207" talk_type="ため息" pre_gp_lv="0" talk_face="06" talk_text="女神がため息なんて……" talk_voice="2207/K2207_0042"/>
+	<hero_talk id="2207" talk_type="自責" pre_gp_lv="0" talk_face="06" talk_text="ユリナスに会いたい……" talk_voice="2207/K2207_0043"/>
+	<hero_talk id="2207" talk_type="喜び" pre_gp_lv="0" talk_face="02" talk_text="よし！　はっ、はしたない真似を" talk_voice="2207/K2207_0044"/>
+	<hero_talk id="2207" talk_type="笑い" pre_gp_lv="0" talk_face="03" talk_text="んふふふふ" talk_voice="2207/K2207_0045"/>
+	<hero_talk id="2207" talk_type="照れ" pre_gp_lv="0" talk_face="09" talk_text="女神をからかうものではありません" talk_voice="2207/K2207_0046"/>
+	<hero_talk id="2207" talk_type="角色背景1" pre_gp_lv="1" talk_text="天空の蛇の牙を求める女神。&#xA;&#xA;遠い昔、女神ゾミアが飼っていた半神半獣の蛇、ヌル――。&#xA;巨大化すると同時に専横になり、女神ムンナの手によって葬られた。&#xA;だが、蛇神教団の残党は、ヌルが葬られた不毛の地に集まり、禁断の儀式を――。&#xA;"/>
+	<hero_talk id="2207" talk_type="角色背景2" pre_gp_lv="2" talk_text="遠い昔、まだ人が生まれる前の話。&#xA;&#xA;ムンナ以外友達がいなくてひとりぼっちの女神ゾミアは、寂しさを紛らわせるために半神半獣の蛇、ヌルを飼いだす。&#xA;&#xA;ちっちゃい頃は、ヌルはかわいかった。&#xA;だが、成長して巨大化するにつれてどんどん専横になり、ゾミアの手に負えなくなる。&#xA;&#xA;ゾミアは月と冥界の女神ムンナに泣きつき、ヌルは地面に叩きつけられて、冥界へと葬られた。&#xA;以来、ヌルが叩きつけられた地は生き物のいない不毛の大地となり、ヌルと呼ばれるようになった。&#xA;&#xA;そのヌルを蛇神様として信仰するのが、邪教集団の蛇神（だしん）教団だった。&#xA;かつてカグヤが囚われていた組織である。&#xA;&#xA;カグヤにより蛇神教団は崩壊したが、残党はヌルの地に集まり、蛇神復活の儀式を行う。&#xA;&#xA;本来なら、蛇神は復活できないはずだった。&#xA;だが、因果律の狂いからか、ヌルが復活してしまう。&#xA;&#xA;ヌルの地の西隣、山の向こうにはヴェルン王国が広がる。&#xA;復活したヌルは西を睨み――。"/>
+	<hero_talk id="2207" talk_type="角色背景3" pre_gp_lv="3" talk_text="アテナはオリュンポスでも、１、２位を誇る超乳の女神。&#xA;そして知恵と勇気の女神。&#xA;ヘーパイストスが鍛えた剣を振るえば、戦の神マルスとも互角に戦う。&#xA;さらに剣だけでなく、遠隔武器も操る。&#xA;人は言う。&#xA;それ、「ファ●ネルじゃ……」&#xA;&#xA;指摘した者はアテナの剣に斬られたという。&#xA;恐ろしや、アテナ。"/>
+	<hero_talk id="2207" talk_type="角色背景4" pre_gp_lv="4" talk_text="アテナが扱う遠隔武器は、上下非対称の菱形の形状をしている。&#xA;漏斗（じょうご）の形ではない。&#xA;ぱっと見は盾に見えるが、盾ではない。&#xA;そして何かと違ってビームは出ない。&#xA;敵に体当たりして攻撃を浴びせる。&#xA;アテナは智略の女神としても知られているが、遠隔武器の攻撃の仕方は素朴である。"/>
 	<hero_talk/>
 	<hero_talk id="2208" talk_type="召喚自我介紹" pre_gp_lv="0" talk_face="01" talk_voice="2208/K2208_0001"/>
 	<hero_talk id="2208" talk_type="登入_副官" pre_gp_lv="0" talk_face="01" talk_voice="2208/K2208_0002"/>

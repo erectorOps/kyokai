@@ -245,4 +245,27 @@
 	<stage_site_buff_1 group_id="40065" buff_id="4006501" dur="0" buff_obj="我方" info_text="聖騎士全員火傷(毎秒HP-1500、消去不可)"/>
 	<stage_site_buff_1/>
 	<stage_site_buff_1 group_id="40066" buff_id="4006601" dur="0" buff_obj="我方" info_text="聖騎士全員火傷(毎秒HP-750、消去不可)"/>
+	<stage_site_buff_1/>
+	<stage_site_buff_1 group_id="600900" buff_id="60090001" dur="9999" buff_obj="我方" info_text="聖騎士の行動速度+&lt;color=#BB3D00&gt;50%&lt;/color&gt;&#xD;&#xA;敵のHP+&lt;color=#BB3D00&gt;50%&lt;/color&gt;、攻撃受けた時出血(行動後にHP-1%+2000)を付与。"/>
+	<stage_site_buff_1 group_id="600900" buff_id="60090002" dur="0" buff_obj="敵方"/>
+	<stage_site_buff_1/>
+	<stage_site_buff_1 group_id="60090101" buff_id="60090101" dur="0" buff_obj="我方" buff_obj_attr="魔" info_text="魔属性聖騎士の魔属性攻撃+30%。"/>
+	<stage_site_buff_1 group_id="60090102" buff_id="60090102" dur="0" buff_obj="我方" buff_obj_attr="風" info_text="風属性聖騎士の風属性攻撃+30%。"/>
+	<stage_site_buff_1 group_id="60090103" buff_id="60090103" dur="0" buff_obj="我方" buff_obj_attr="火" info_text="火属性聖騎士の火属性攻撃+30%。"/>
+	<stage_site_buff_1/>
+	<stage_site_buff_1 group_id="60090201" buff_id="60090201" dur="0" buff_obj="我方" buff_obj_attr="聖" info_text="聖属性聖騎士の聖属性攻撃+30%。"/>
+	<stage_site_buff_1 group_id="60090202" buff_id="60090202" dur="0" buff_obj="我方" buff_obj_attr="魔" info_text="魔属性聖騎士の魔属性攻撃+30%。"/>
+	<stage_site_buff_1 group_id="60090203" buff_id="60090203" dur="0" buff_obj="我方" buff_obj_attr="水" info_text="水属性聖騎士の水属性攻撃+30%。"/>
+	<stage_site_buff_1/>
+	<stage_site_buff_1 group_id="60090301" buff_id="60090301" dur="0" buff_obj="我方" buff_obj_attr="水" info_text="水属性聖騎士の水属性攻撃+30%。"/>
+	<stage_site_buff_1 group_id="60090302" buff_id="60090302" dur="0" buff_obj="我方" buff_obj_attr="風" info_text="風属性聖騎士の風属性攻撃+30%。"/>
+	<stage_site_buff_1 group_id="60090303" buff_id="60090303" dur="0" buff_obj="我方" buff_obj_attr="想" info_text="想属性聖騎士の想属性攻撃+30%。"/>
+	<stage_site_buff_1/>
+	<stage_site_buff_1 group_id="60090401" buff_id="60090401" dur="0" buff_obj="我方" buff_obj_attr="魔" info_text="魔属性聖騎士の魔属性攻撃+30%。"/>
+	<stage_site_buff_1 group_id="60090402" buff_id="60090402" dur="0" buff_obj="我方" buff_obj_attr="想" info_text="想属性聖騎士の想属性攻撃+30%。"/>
+	<stage_site_buff_1 group_id="60090403" buff_id="60090403" dur="0" buff_obj="我方" buff_obj_attr="聖" info_text="聖属性聖騎士の聖属性攻撃+30%。"/>
+	<stage_site_buff_1/>
+	<stage_site_buff_1 group_id="60090501" buff_id="60090501" dur="0" buff_obj="我方" buff_obj_attr="風" info_text="風属性聖騎士の風属性攻撃+30%。"/>
+	<stage_site_buff_1 group_id="60090502" buff_id="60090502" dur="0" buff_obj="我方" buff_obj_attr="火" info_text="火属性聖騎士の火属性攻撃+30%。"/>
+	<stage_site_buff_1 group_id="60090503" buff_id="60090503" dur="0" buff_obj="我方" buff_obj_attr="魔" info_text="魔属性聖騎士の魔属性攻撃+30%。"/>
 </root>

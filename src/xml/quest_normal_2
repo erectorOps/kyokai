@@ -18810,6 +18810,266 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_2>
+	<quest_normal_2 id="507635" name="APを100消費する" open="true" hide="false" class="活動" end_time="2025/03/27 11:00:00" restart_cycle="不重置" all_finish="false" quest_content1="APを100消費する" quest_type_1="消耗AP累積量" finish_number_1="100" award_type_1="商城幣" award_number_1="100">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="507636" name="APを200消費する" open="true" hide="false" class="活動" end_time="2025/03/27 11:00:00" restart_cycle="不重置" all_finish="false" quest_content1="APを200消費する" quest_type_1="消耗AP累積量" finish_number_1="200" award_type_1="商城幣" award_number_1="100">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="507637" name="APを300消費する" open="true" hide="false" class="活動" end_time="2025/03/27 11:00:00" restart_cycle="不重置" all_finish="false" quest_content1="APを300消費する" quest_type_1="消耗AP累積量" finish_number_1="300" award_type_1="商城幣" award_number_1="100">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 open="false" hide="false" all_finish="false">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="507801" name="【我が名はアテナ】全クエストをクリア" open="true" hide="false" class="活動" end_time="2025/03/27 11:00:00" restart_cycle="不重置" all_finish="true" quest_content1="【我が名はアテナ】全クエストをクリア" quest_type_1="完成關卡進度" quest_target_1_1="50780145" finish_number_1="1" award_type_1="商城幣" award_number_1="100" award_type_2="遊戲幣" award_number_2="500000">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="507802" name="【我が名はアテナ】BOSS・EASYをクリア" open="true" hide="false" class="活動" end_time="2025/03/27 11:00:00" restart_cycle="不重置" all_finish="true" quest_content1="【我が名はアテナ】BOSS・EASYをクリア" quest_type_1="指定怪物擊殺數" quest_target_1_1="50781" finish_number_1="1" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="10" award_number_2="300" award_type_3="遊戲幣" award_number_3="200000">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="507803" name="【我が名はアテナ】BOSS・NORMALをクリア" open="true" hide="false" class="活動" end_time="2025/03/27 11:00:00" restart_cycle="不重置" all_finish="true" quest_content1="【我が名はアテナ】BOSS・NORMALをクリア" quest_type_1="指定怪物擊殺數" quest_target_1_1="50782" finish_number_1="1" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="10" award_number_2="300" award_type_3="遊戲幣" award_number_3="200000">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="507804" name="【我が名はアテナ】BOSS・HARDをクリア" open="true" hide="false" class="活動" end_time="2025/03/27 11:00:00" restart_cycle="不重置" all_finish="true" quest_content1="【我が名はアテナ】BOSS・HARDをクリア" quest_type_1="指定怪物擊殺數" quest_target_1_1="50783" finish_number_1="1" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="10" award_number_2="300" award_type_3="遊戲幣" award_number_3="200000">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="507805" name="【我が名はアテナ】を1回クリア" open="true" hide="false" class="活動" end_time="2025/03/27 11:00:00" restart_cycle="不重置" all_finish="true" quest_content1="【我が名はアテナ】を1回クリア" quest_type_1="關卡數量" quest_target_1_1="50780147" finish_number_1="1" award_type_1="道具" award_target_1="1557" award_number_1="1" award_type_2="道具" award_target_2="2207" award_number_2="5" award_type_3="遊戲幣" award_number_3="100000">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="507806" name="【我が名はアテナ】を3回クリア" open="true" hide="false" class="活動" end_time="2025/03/27 11:00:00" restart_cycle="不重置" all_finish="true" quest_content1="【我が名はアテナ】を3回クリア" quest_type_1="關卡數量" quest_target_1_1="50780147" finish_number_1="3" award_type_1="道具" award_target_1="1557" award_number_1="1" award_type_2="道具" award_target_2="2207" award_number_2="5" award_type_3="遊戲幣" award_number_3="100000">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="507807" name="【我が名はアテナ】を5回クリア" open="true" hide="false" class="活動" end_time="2025/03/27 11:00:00" restart_cycle="不重置" all_finish="true" quest_content1="【我が名はアテナ】を5回クリア" quest_type_1="關卡數量" quest_target_1_1="50780147" finish_number_1="5" award_type_1="道具" award_target_1="1557" award_number_1="1" award_type_2="道具" award_target_2="2207" award_number_2="5" award_type_3="遊戲幣" award_number_3="100000">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="507808" name="【我が名はアテナ】を10回クリア" open="true" hide="false" class="活動" end_time="2025/03/27 11:00:00" restart_cycle="不重置" all_finish="true" quest_content1="【我が名はアテナ】を10回クリア" quest_type_1="關卡數量" quest_target_1_1="50780147" finish_number_1="10" award_type_1="道具" award_target_1="1557" award_number_1="1" award_type_2="道具" award_target_2="2207" award_number_2="5" award_type_3="遊戲幣" award_number_3="100000">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="507809" name="【我が名はアテナ】を20回クリア" open="true" hide="false" class="活動" end_time="2025/03/27 11:00:00" restart_cycle="不重置" all_finish="true" quest_content1="【我が名はアテナ】を20回クリア" quest_type_1="關卡數量" quest_target_1_1="50780147" finish_number_1="20" award_type_1="道具" award_target_1="1557" award_number_1="1" award_type_2="道具" award_target_2="2207" award_number_2="5" award_type_3="遊戲幣" award_number_3="100000">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="507810" name="【我が名はアテナ】を30回クリア" open="true" hide="false" class="活動" end_time="2025/03/27 11:00:00" restart_cycle="不重置" all_finish="true" quest_content1="【我が名はアテナ】を30回クリア" quest_type_1="關卡數量" quest_target_1_1="50780147" finish_number_1="30" award_type_1="道具" award_target_1="1557" award_number_1="1" award_type_2="道具" award_target_2="2207" award_number_2="5" award_type_3="遊戲幣" award_number_3="100000">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="507811" name="【我が名はアテナ】を40回クリア" open="true" hide="false" class="活動" end_time="2025/03/27 11:00:00" restart_cycle="不重置" all_finish="true" quest_content1="【我が名はアテナ】を40回クリア" quest_type_1="關卡數量" quest_target_1_1="50780147" finish_number_1="40" award_type_1="道具" award_target_1="1557" award_number_1="1" award_type_2="道具" award_target_2="2207" award_number_2="5" award_type_3="遊戲幣" award_number_3="100000">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="507812" name="【我が名はアテナ】を50回クリア" open="true" hide="false" class="活動" end_time="2025/03/27 11:00:00" restart_cycle="不重置" all_finish="true" quest_content1="【我が名はアテナ】を50回クリア" quest_type_1="關卡數量" quest_target_1_1="50780147" finish_number_1="50" award_type_1="道具" award_target_1="1557" award_number_1="1" award_type_2="道具" award_target_2="2207" award_number_2="5" award_type_3="遊戲幣" award_number_3="100000">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="507813" name="【我が名はアテナ】を60回クリア" open="true" hide="false" class="活動" end_time="2025/03/27 11:00:00" restart_cycle="不重置" all_finish="true" quest_content1="【我が名はアテナ】を60回クリア" quest_type_1="關卡數量" quest_target_1_1="50780147" finish_number_1="60" award_type_1="道具" award_target_1="1557" award_number_1="1" award_type_2="道具" award_target_2="2207" award_number_2="5" award_type_3="遊戲幣" award_number_3="100000">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="507814" name="【我が名はアテナ】を70回クリア" open="true" hide="false" class="活動" end_time="2025/03/27 11:00:00" restart_cycle="不重置" all_finish="true" quest_content1="【我が名はアテナ】を70回クリア" quest_type_1="關卡數量" quest_target_1_1="50780147" finish_number_1="70" award_type_1="道具" award_target_1="1557" award_number_1="2" award_type_2="道具" award_target_2="2207" award_number_2="5" award_type_3="遊戲幣" award_number_3="100000">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="507815" name="【我が名はアテナ】を80回クリア" open="true" hide="false" class="活動" end_time="2025/03/27 11:00:00" restart_cycle="不重置" all_finish="true" quest_content1="【我が名はアテナ】を80回クリア" quest_type_1="關卡數量" quest_target_1_1="50780147" finish_number_1="80" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3003" award_number_2="3" award_type_3="遊戲幣" award_number_3="100000">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="507816" name="【我が名はアテナ】を90回クリア" open="true" hide="false" class="活動" end_time="2025/03/27 11:00:00" restart_cycle="不重置" all_finish="true" quest_content1="【我が名はアテナ】を90回クリア" quest_type_1="關卡數量" quest_target_1_1="50780147" finish_number_1="90" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3003" award_number_2="3" award_type_3="遊戲幣" award_number_3="100000">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="507817" name="【我が名はアテナ】を100回クリア" open="true" hide="false" class="活動" end_time="2025/03/27 11:00:00" restart_cycle="不重置" all_finish="true" quest_content1="【我が名はアテナ】を100回クリア" quest_type_1="關卡數量" quest_target_1_1="50780147" finish_number_1="100" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3003" award_number_2="3" award_type_3="遊戲幣" award_number_3="100000">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="507818" name="【我が名はアテナ】を120回クリア" open="true" hide="false" class="活動" end_time="2025/03/27 11:00:00" restart_cycle="不重置" all_finish="true" quest_content1="【我が名はアテナ】を120回クリア" quest_type_1="關卡數量" quest_target_1_1="50780147" finish_number_1="120" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3003" award_number_2="3" award_type_3="遊戲幣" award_number_3="100000">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="507819" name="【我が名はアテナ】を140回クリア" open="true" hide="false" class="活動" end_time="2025/03/27 11:00:00" restart_cycle="不重置" all_finish="true" quest_content1="【我が名はアテナ】を140回クリア" quest_type_1="關卡數量" quest_target_1_1="50780147" finish_number_1="140" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3003" award_number_2="3" award_type_3="遊戲幣" award_number_3="100000">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="507820" name="【我が名はアテナ】を160回クリア" open="true" hide="false" class="活動" end_time="2025/03/27 11:00:00" restart_cycle="不重置" all_finish="true" quest_content1="【我が名はアテナ】を160回クリア" quest_type_1="關卡數量" quest_target_1_1="50780147" finish_number_1="160" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3003" award_number_2="3" award_type_3="遊戲幣" award_number_3="100000">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="507821" name="【我が名はアテナ】を180回クリア" open="true" hide="false" class="活動" end_time="2025/03/27 11:00:00" restart_cycle="不重置" all_finish="true" quest_content1="【我が名はアテナ】を180回クリア" quest_type_1="關卡數量" quest_target_1_1="50780147" finish_number_1="180" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3003" award_number_2="3" award_type_3="遊戲幣" award_number_3="100000">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="507822" name="【我が名はアテナ】を200回クリア" open="true" hide="false" class="活動" end_time="2025/03/27 11:00:00" restart_cycle="不重置" all_finish="true" quest_content1="【我が名はアテナ】を200回クリア" quest_type_1="關卡數量" quest_target_1_1="50780147" finish_number_1="200" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3003" award_number_2="4" award_type_3="遊戲幣" award_number_3="100000">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
 	<quest_normal_2 open="false" hide="false" all_finish="false">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
@@ -18830,7 +19090,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_2>
-	<quest_normal_2 id="600001" name="ゲームにログイン" open="false" hide="false" class="隨機每日活躍任務" restart_cycle="每日重置" all_finish="true" quest_content1="ゲームにログイン" quest_type_1="角色絆強化次數" finish_number_1="1" activity="25">
+	<quest_normal_2 id="600001" name="ゲームにログイン" open="false" hide="false" restart_cycle="每日重置" all_finish="true" quest_content1="ゲームにログイン" quest_type_1="角色絆強化次數" finish_number_1="1" activity="25">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -18840,7 +19100,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_2>
-	<quest_normal_2 id="600002" name="イベントクエスト「【建国祭】BOSSチケット周回」を1回クリア" open="false" hide="false" class="隨機每日活躍任務" restart_cycle="每日重置" all_finish="true" quest_content1="イベントクエスト「【建国祭】BOSSチケット周回」を1回クリア" quest_type_1="關卡數量" quest_target_1_1="50020151" finish_number_1="1" activity="25">
+	<quest_normal_2 id="600002" name="イベントクエスト「【建国祭】BOSSチケット周回」を1回クリア" open="false" hide="false" restart_cycle="每日重置" all_finish="true" quest_content1="イベントクエスト「【建国祭】BOSSチケット周回」を1回クリア" quest_type_1="關卡數量" quest_target_1_1="50020151" finish_number_1="1" activity="25">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -22780,6 +23040,66 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_2>
+	<quest_normal_2 id="600322" group="600063" name="BOSSチケット周回を1回クリア" open="true" hide="false" class="隨機每日活躍任務" restart_cycle="每日重置" all_finish="true" quest_content1="BOSSチケット周回を1回クリア" quest_type_1="關卡數量" quest_target_1_1="50780147" finish_number_1="1" activity="60">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="600323" group="600063" name="BOSS任意難易度を1回クリア" open="true" hide="false" class="隨機每日活躍任務" restart_cycle="每日重置" all_finish="false" quest_content1="BOSS任意難易度を1回クリア" quest_type_1="指定怪物擊殺數" quest_target_1_1="50781" finish_number_1="1" quest_content2="BOSS任意難易度を1回クリア" quest_type_2="指定怪物擊殺數" quest_target_2_1="50782" finish_number_2="1" quest_content3="BOSS任意難易度を1回クリア" quest_type_3="指定怪物擊殺數" quest_target_3_1="50783" finish_number_3="1" activity="60">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="600324" group="600063" name="救援戦を1回クリアする" open="true" hide="false" class="隨機每日活躍任務" restart_cycle="每日重置" all_finish="true" quest_content1="救援戦を1回クリアする" quest_type_1="RAID戰通關次數" finish_number_1="1" activity="60">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="600325" group="600063" name="派遣を1回行う" open="true" hide="false" class="隨機每日活躍任務" restart_cycle="每日重置" all_finish="true" quest_content1="派遣を1回行う" quest_type_1="完成的探索次數" finish_number_1="1" activity="60">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="600326" group="600063" name="召喚を1回行う" open="true" hide="false" class="隨機每日活躍任務" restart_cycle="每日重置" all_finish="true" quest_content1="召喚を1回行う" quest_type_1="商城幣轉蛋次數" finish_number_1="1" activity="60">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 open="false" hide="false" all_finish="false">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
 	<quest_normal_2 open="false" hide="false" all_finish="false">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
@@ -24111,6 +24431,86 @@
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_2>
 	<quest_normal_2 id="900113" name="「【リリース500日記念】ログインミッション」累計14日ログインする" achievement_id="90010001" open="true" hide="false" class="成長基金任務" pre_iap="kyoweb_500days_3" all_finish="true" quest_content1="累計14日ログインする" quest_type_1="登入遊戲" finish_number_1="14" award_type_1="商城幣" award_number_1="600">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 open="false" hide="false" all_finish="false">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="900114" name="「【1.5周年記念】ログインミッション」累計1日ログインする" achievement_id="90011401" open="true" hide="false" class="成長基金任務" pre_iap="kyoweb_1.5stanniversary_9" all_finish="true" quest_content1="累計1日ログインする" quest_type_1="登入遊戲" finish_number_1="1" award_type_1="商城幣" award_number_1="900">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="900115" name="「【1.5周年記念】ログインミッション」累計2日ログインする" achievement_id="90011401" open="true" hide="false" class="成長基金任務" pre_iap="kyoweb_1.5stanniversary_9" all_finish="true" quest_content1="累計2日ログインする" quest_type_1="登入遊戲" finish_number_1="2" award_type_1="商城幣" award_number_1="600">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="900116" name="「【1.5周年記念】ログインミッション」累計3日ログインする" achievement_id="90011401" open="true" hide="false" class="成長基金任務" pre_iap="kyoweb_1.5stanniversary_9" all_finish="true" quest_content1="累計3日ログインする" quest_type_1="登入遊戲" finish_number_1="3" award_type_1="商城幣" award_number_1="600">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="900117" name="「【1.5周年記念】ログインミッション」累計4日ログインする" achievement_id="90011401" open="true" hide="false" class="成長基金任務" pre_iap="kyoweb_1.5stanniversary_9" all_finish="true" quest_content1="累計4日ログインする" quest_type_1="登入遊戲" finish_number_1="4" award_type_1="商城幣" award_number_1="600">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="900118" name="「【1.5周年記念】ログインミッション」累計5日ログインする" achievement_id="90011401" open="true" hide="false" class="成長基金任務" pre_iap="kyoweb_1.5stanniversary_9" all_finish="true" quest_content1="累計5日ログインする" quest_type_1="登入遊戲" finish_number_1="5" award_type_1="商城幣" award_number_1="600">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="900119" name="「【1.5周年記念】ログインミッション」累計6日ログインする" achievement_id="90011401" open="true" hide="false" class="成長基金任務" pre_iap="kyoweb_1.5stanniversary_9" all_finish="true" quest_content1="累計6日ログインする" quest_type_1="登入遊戲" finish_number_1="6" award_type_1="商城幣" award_number_1="600">
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+		<pre_hero_group_id>0</pre_hero_group_id>
+		<pre_hero_gp_lv>0</pre_hero_gp_lv>
+	</quest_normal_2>
+	<quest_normal_2 id="900120" name="「【1.5周年記念】ログインミッション」累計7日ログインする" achievement_id="90011401" open="true" hide="false" class="成長基金任務" pre_iap="kyoweb_1.5stanniversary_9" all_finish="true" quest_content1="累計7日ログインする" quest_type_1="登入遊戲" finish_number_1="7" award_type_1="商城幣" award_number_1="600">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>

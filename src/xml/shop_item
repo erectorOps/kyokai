@@ -3056,6 +3056,30 @@
 		<func_val>0</func_val>
 		<func_val>0</func_val>
 	</shop_item>
+	<shop_item id="120711" name="【我が名はアテナ】復刻イベント召喚有償1抽" discount="false" recommend="false" show_sold_out="false" repeat_draw="false">
+		<func_val>0</func_val>
+		<func_val>0</func_val>
+	</shop_item>
+	<shop_item id="120712" name="【我が名はアテナ】復刻イベント召喚有償10抽" discount="false" recommend="false" show_sold_out="false" repeat_draw="false">
+		<func_val>0</func_val>
+		<func_val>0</func_val>
+	</shop_item>
+	<shop_item id="120713" name="【我が名はアテナ】復刻イベント召喚1抽" discount="false" recommend="false" show_sold_out="false" repeat_draw="false">
+		<func_val>0</func_val>
+		<func_val>0</func_val>
+	</shop_item>
+	<shop_item id="120714" name="【我が名はアテナ】復刻イベント召喚10抽" discount="false" recommend="false" show_sold_out="false" repeat_draw="false">
+		<func_val>0</func_val>
+		<func_val>0</func_val>
+	</shop_item>
+	<shop_item id="120811" name="有償【1.5周年記念】おまけ付き召喚" discount="false" recommend="false" show_sold_out="false" repeat_draw="false">
+		<func_val>0</func_val>
+		<func_val>0</func_val>
+	</shop_item>
+	<shop_item id="120812" name="【1.5周年記念】おまけ付き召喚" discount="false" recommend="false" show_sold_out="false" repeat_draw="false">
+		<func_val>0</func_val>
+		<func_val>0</func_val>
+	</shop_item>
 	<shop_item discount="false" recommend="false" show_sold_out="false" repeat_draw="false">
 		<func_val>0</func_val>
 		<func_val>0</func_val>
@@ -5208,549 +5232,549 @@
 		<func_val>0</func_val>
 		<func_val>0</func_val>
 	</shop_item>
-	<shop_item id="800301" shop_id="8001" sort_order="107" name="シャティ・ウルティマ" discount="false" recommend="false" icon="item001/2072" show_sold_out="true" pre_hero_group_id="2072" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800301" shop_id="8001" sort_order="108" name="シャティ・ウルティマ" discount="false" recommend="false" icon="item001/2072" show_sold_out="true" pre_hero_group_id="2072" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2072</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800302" shop_id="8001" sort_order="108" name="【祝祭の皇妃】シャムシェル・ウルティマ" discount="false" recommend="false" icon="item001/2068" show_sold_out="true" pre_hero_group_id="2068" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800302" shop_id="8001" sort_order="109" name="【祝祭の皇妃】シャムシェル・ウルティマ" discount="false" recommend="false" icon="item001/2068" show_sold_out="true" pre_hero_group_id="2068" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2068</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800303" shop_id="8001" sort_order="109" name="【祝祭の装い】エスティリエル・ウルティマ" discount="false" recommend="false" icon="item001/2069" show_sold_out="true" pre_hero_group_id="2069" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800303" shop_id="8001" sort_order="110" name="【祝祭の装い】エスティリエル・ウルティマ" discount="false" recommend="false" icon="item001/2069" show_sold_out="true" pre_hero_group_id="2069" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2069</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800304" shop_id="8001" sort_order="110" name="【皇妃】シャムシェル・ウルティマ" discount="false" recommend="false" icon="item001/2040" show_sold_out="true" pre_hero_group_id="2040" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800304" shop_id="8001" sort_order="111" name="【皇妃】シャムシェル・ウルティマ" discount="false" recommend="false" icon="item001/2040" show_sold_out="true" pre_hero_group_id="2040" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2040</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800305" shop_id="8001" sort_order="111" name="【プリンセス】ルセリア・ウルティマ" discount="false" recommend="false" icon="item001/2041" show_sold_out="true" pre_hero_group_id="2041" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800305" shop_id="8001" sort_order="112" name="【プリンセス】ルセリア・ウルティマ" discount="false" recommend="false" icon="item001/2041" show_sold_out="true" pre_hero_group_id="2041" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2041</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800306" shop_id="8001" sort_order="112" name="【巨岩兵の使い手】ネリス・ウルティマ" discount="false" recommend="false" icon="item001/2042" show_sold_out="true" pre_hero_group_id="2042" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800306" shop_id="8001" sort_order="113" name="【巨岩兵の使い手】ネリス・ウルティマ" discount="false" recommend="false" icon="item001/2042" show_sold_out="true" pre_hero_group_id="2042" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2042</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800307" shop_id="8001" sort_order="113" name="【バスティントンの魔術師】ソブリナ・ウルティマ" discount="false" recommend="false" icon="item001/2043" show_sold_out="true" pre_hero_group_id="2043" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800307" shop_id="8001" sort_order="114" name="【バスティントンの魔術師】ソブリナ・ウルティマ" discount="false" recommend="false" icon="item001/2043" show_sold_out="true" pre_hero_group_id="2043" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2043</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800308" shop_id="8001" sort_order="114" name="【幻想の踊り子】メッセリア・ウルティマ" discount="false" recommend="false" icon="item001/2044" show_sold_out="true" pre_hero_group_id="2044" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800308" shop_id="8001" sort_order="115" name="【幻想の踊り子】メッセリア・ウルティマ" discount="false" recommend="false" icon="item001/2044" show_sold_out="true" pre_hero_group_id="2044" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2044</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800309" shop_id="8001" sort_order="115" name="【リガの癒やし手】イシュトヴィア・ウルティマ" discount="false" recommend="false" icon="item001/2045" show_sold_out="true" pre_hero_group_id="2045" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800309" shop_id="8001" sort_order="116" name="【リガの癒やし手】イシュトヴィア・ウルティマ" discount="false" recommend="false" icon="item001/2045" show_sold_out="true" pre_hero_group_id="2045" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2045</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800310" shop_id="8001" sort_order="116" name="テレシア・ウルティマ" discount="false" recommend="false" icon="item001/2046" show_sold_out="true" pre_hero_group_id="2046" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800310" shop_id="8001" sort_order="117" name="テレシア・ウルティマ" discount="false" recommend="false" icon="item001/2046" show_sold_out="true" pre_hero_group_id="2046" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2046</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800311" shop_id="8001" sort_order="117" name="ソルティナ・ウルティマ" discount="false" recommend="false" icon="item001/2047" show_sold_out="true" pre_hero_group_id="2047" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800311" shop_id="8001" sort_order="118" name="ソルティナ・ウルティマ" discount="false" recommend="false" icon="item001/2047" show_sold_out="true" pre_hero_group_id="2047" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2047</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800312" shop_id="8001" sort_order="118" name="アーティア・ウルティマ" discount="false" recommend="false" icon="item001/2048" show_sold_out="true" pre_hero_group_id="2048" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800312" shop_id="8001" sort_order="119" name="アーティア・ウルティマ" discount="false" recommend="false" icon="item001/2048" show_sold_out="true" pre_hero_group_id="2048" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2048</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800313" shop_id="8001" sort_order="119" name="黒騎士・ウルティマ" discount="false" recommend="false" icon="item001/2049" show_sold_out="true" pre_hero_group_id="2049" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800313" shop_id="8001" sort_order="120" name="黒騎士・ウルティマ" discount="false" recommend="false" icon="item001/2049" show_sold_out="true" pre_hero_group_id="2049" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2049</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800314" shop_id="8001" sort_order="120" name="フレイ・ウルティマ" discount="false" recommend="false" icon="item001/2051" show_sold_out="true" pre_hero_group_id="2051" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800314" shop_id="8001" sort_order="121" name="フレイ・ウルティマ" discount="false" recommend="false" icon="item001/2051" show_sold_out="true" pre_hero_group_id="2051" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2051</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800315" shop_id="8001" sort_order="121" name="ジェミニ・ウルティマ" discount="false" recommend="false" icon="item001/2052" show_sold_out="true" pre_hero_group_id="2052" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800315" shop_id="8001" sort_order="122" name="ジェミニ・ウルティマ" discount="false" recommend="false" icon="item001/2052" show_sold_out="true" pre_hero_group_id="2052" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2052</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800316" shop_id="8001" sort_order="122" name="エスティリア・ウルティマ" discount="false" recommend="false" icon="item001/2053" show_sold_out="true" pre_hero_group_id="2053" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800316" shop_id="8001" sort_order="123" name="エスティリエル・ウルティマ" discount="false" recommend="false" icon="item001/2053" show_sold_out="true" pre_hero_group_id="2053" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2053</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800317" shop_id="8001" sort_order="123" name="ヒルディス・ウルティマ" discount="false" recommend="false" icon="item001/2054" show_sold_out="true" pre_hero_group_id="2054" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800317" shop_id="8001" sort_order="124" name="ヒルディス・ウルティマ" discount="false" recommend="false" icon="item001/2054" show_sold_out="true" pre_hero_group_id="2054" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2054</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800318" shop_id="8001" sort_order="124" name="リュッカ・ウルティマ" discount="false" recommend="false" icon="item001/2055" show_sold_out="true" pre_hero_group_id="2055" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800318" shop_id="8001" sort_order="125" name="リュッカ・ウルティマ" discount="false" recommend="false" icon="item001/2055" show_sold_out="true" pre_hero_group_id="2055" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2055</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800319" shop_id="8001" sort_order="125" name="マリーナ・ウルティマ" discount="false" recommend="false" icon="item001/2056" show_sold_out="true" pre_hero_group_id="2056" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800319" shop_id="8001" sort_order="126" name="マリーナ・ウルティマ" discount="false" recommend="false" icon="item001/2056" show_sold_out="true" pre_hero_group_id="2056" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2056</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800320" shop_id="8001" sort_order="126" name="ノーラ・ウルティマ" discount="false" recommend="false" icon="item001/2057" show_sold_out="true" pre_hero_group_id="2057" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800320" shop_id="8001" sort_order="127" name="ノーラ・ウルティマ" discount="false" recommend="false" icon="item001/2057" show_sold_out="true" pre_hero_group_id="2057" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2057</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800321" shop_id="8001" sort_order="127" name="メイニアス・ウルティマ" discount="false" recommend="false" icon="item001/2058" show_sold_out="true" pre_hero_group_id="2058" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800321" shop_id="8001" sort_order="128" name="メイニアス・ウルティマ" discount="false" recommend="false" icon="item001/2058" show_sold_out="true" pre_hero_group_id="2058" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2058</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800322" shop_id="8001" sort_order="128" name="ユ・リマ・エルカ・ウルティマ" discount="false" recommend="false" icon="item001/2060" show_sold_out="true" pre_hero_group_id="2060" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800322" shop_id="8001" sort_order="129" name="ユ・リマ・エルカ・ウルティマ" discount="false" recommend="false" icon="item001/2060" show_sold_out="true" pre_hero_group_id="2060" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2060</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800323" shop_id="8001" sort_order="129" name="ステンリナ・ウルティマ" discount="false" recommend="false" icon="item001/2061" show_sold_out="true" pre_hero_group_id="2061" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800323" shop_id="8001" sort_order="130" name="ステンリナ・ウルティマ" discount="false" recommend="false" icon="item001/2061" show_sold_out="true" pre_hero_group_id="2061" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2061</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800324" shop_id="8001" sort_order="130" name="ヒサラ・ウルティマ" discount="false" recommend="false" icon="item001/2062" show_sold_out="true" pre_hero_group_id="2062" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800324" shop_id="8001" sort_order="131" name="ヒサラ・ウルティマ" discount="false" recommend="false" icon="item001/2062" show_sold_out="true" pre_hero_group_id="2062" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2062</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800325" shop_id="8001" sort_order="131" name="ビアンカ・ウルティマ" discount="false" recommend="false" icon="item001/2063" show_sold_out="true" pre_hero_group_id="2063" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800325" shop_id="8001" sort_order="132" name="ビアンカ・ウルティマ" discount="false" recommend="false" icon="item001/2063" show_sold_out="true" pre_hero_group_id="2063" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2063</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800326" shop_id="8001" sort_order="132" name="ナターシャ・ウルティマ" discount="false" recommend="false" icon="item001/2064" show_sold_out="true" pre_hero_group_id="2064" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800326" shop_id="8001" sort_order="133" name="ナターシャ・ウルティマ" discount="false" recommend="false" icon="item001/2064" show_sold_out="true" pre_hero_group_id="2064" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2064</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800327" shop_id="8001" sort_order="133" name="【優美なる肖像】シャムシェル・ウルティマ" discount="false" recommend="false" icon="item001/2065" show_sold_out="true" pre_hero_group_id="2065" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800327" shop_id="8001" sort_order="134" name="【優美なる肖像】シャムシェル・ウルティマ" discount="false" recommend="false" icon="item001/2065" show_sold_out="true" pre_hero_group_id="2065" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2065</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800328" shop_id="8001" sort_order="134" name="【優美なる肖像】アイシス・ウルティマ" discount="false" recommend="false" icon="item001/2066" show_sold_out="true" pre_hero_group_id="2066" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800328" shop_id="8001" sort_order="135" name="【優美なる肖像】アイシス・ウルティマ" discount="false" recommend="false" icon="item001/2066" show_sold_out="true" pre_hero_group_id="2066" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2066</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800329" shop_id="8001" sort_order="135" name="【おてんば人魚姫】ローレリア・ウルティマ" discount="false" recommend="false" icon="item001/2067" show_sold_out="true" pre_hero_group_id="2067" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800329" shop_id="8001" sort_order="136" name="【おてんば人魚姫】ローレリア・ウルティマ" discount="false" recommend="false" icon="item001/2067" show_sold_out="true" pre_hero_group_id="2067" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2067</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800330" shop_id="8001" sort_order="105" name="【魅惑のハイレグ】ネリス・ウルティマ" discount="false" recommend="false" icon="item001/2077" show_sold_out="true" pre_hero_group_id="2077" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800330" shop_id="8001" sort_order="106" name="【魅惑のハイレグ】ネリス・ウルティマ" discount="false" recommend="false" icon="item001/2077" show_sold_out="true" pre_hero_group_id="2077" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2077</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800331" shop_id="8001" sort_order="106" name="【悩殺☆ビキニ】テレシア・ウルティマ" discount="false" recommend="false" icon="item001/2078" show_sold_out="true" pre_hero_group_id="2078" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800331" shop_id="8001" sort_order="107" name="【悩殺☆ビキニ】テレシア・ウルティマ" discount="false" recommend="false" icon="item001/2078" show_sold_out="true" pre_hero_group_id="2078" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2078</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800332" shop_id="8001" sort_order="104" name="カグヤ・ウルティマ" discount="false" recommend="false" icon="item001/2071" show_sold_out="true" pre_hero_group_id="2071" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800332" shop_id="8001" sort_order="105" name="カグヤ・ウルティマ" discount="false" recommend="false" icon="item001/2071" show_sold_out="true" pre_hero_group_id="2071" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2071</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800333" shop_id="8001" sort_order="103" name="ルシエ・ウルティマ" discount="false" recommend="false" icon="item001/2073" show_sold_out="true" pre_hero_group_id="2073" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800333" shop_id="8001" sort_order="104" name="ルシエ・ウルティマ" discount="false" recommend="false" icon="item001/2073" show_sold_out="true" pre_hero_group_id="2073" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2073</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800334" shop_id="8001" sort_order="102" name="オフィーリオ・ウルティマ" discount="false" recommend="false" icon="item001/2076" show_sold_out="true" pre_hero_group_id="2076" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800334" shop_id="8001" sort_order="103" name="オフィーリオ・ウルティマ" discount="false" recommend="false" icon="item001/2076" show_sold_out="true" pre_hero_group_id="2076" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2076</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800335" shop_id="8001" sort_order="100" name="【最強魔女】シャハル・ウルティマ" discount="false" recommend="false" icon="item001/2081" show_sold_out="true" pre_hero_group_id="2081" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800335" shop_id="8001" sort_order="101" name="【最強魔女】シャハル・ウルティマ" discount="false" recommend="false" icon="item001/2081" show_sold_out="true" pre_hero_group_id="2081" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2081</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800336" shop_id="8001" sort_order="101" name="【誘惑の吸血鬼】ソルティナ・ウルティマ" discount="false" recommend="false" icon="item001/2082" show_sold_out="true" pre_hero_group_id="2082" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800336" shop_id="8001" sort_order="102" name="【誘惑の吸血鬼】ソルティナ・ウルティマ" discount="false" recommend="false" icon="item001/2082" show_sold_out="true" pre_hero_group_id="2082" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2082</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800337" shop_id="8001" sort_order="99" name="パステル・ウルティマ" discount="false" recommend="false" icon="item001/2080" show_sold_out="true" pre_hero_group_id="2080" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800337" shop_id="8001" sort_order="100" name="パステル・ウルティマ" discount="false" recommend="false" icon="item001/2080" show_sold_out="true" pre_hero_group_id="2080" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2080</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800338" shop_id="8001" sort_order="98" name="殺華・ウルティマ" discount="false" recommend="false" icon="item001/2059" show_sold_out="true" pre_hero_group_id="2059" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800338" shop_id="8001" sort_order="99" name="殺華・ウルティマ" discount="false" recommend="false" icon="item001/2059" show_sold_out="true" pre_hero_group_id="2059" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2059</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800339" shop_id="8001" sort_order="96" name="ラピス・ウルティマ" discount="false" recommend="false" icon="item001/2084" show_sold_out="true" pre_hero_group_id="2084" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800339" shop_id="8001" sort_order="97" name="ラピス・ウルティマ" discount="false" recommend="false" icon="item001/2084" show_sold_out="true" pre_hero_group_id="2084" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2084</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800340" shop_id="8001" sort_order="95" name="ルスト・ウルティマ" discount="false" recommend="false" icon="item001/2092" show_sold_out="true" pre_hero_group_id="2092" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800340" shop_id="8001" sort_order="96" name="ルスト・ウルティマ" discount="false" recommend="false" icon="item001/2092" show_sold_out="true" pre_hero_group_id="2092" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2092</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800341" shop_id="8001" sort_order="96" name="ラーグエン・ウルティマ" discount="false" recommend="false" icon="item001/2093" show_sold_out="true" pre_hero_group_id="2093" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800341" shop_id="8001" sort_order="97" name="ラーグエン・ウルティマ" discount="false" recommend="false" icon="item001/2093" show_sold_out="true" pre_hero_group_id="2093" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2093</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800342" shop_id="8001" sort_order="93" name="【トップダンサー】メッセリア・ウルティマ" discount="false" recommend="false" icon="item001/2089" show_sold_out="true" pre_hero_group_id="2089" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800342" shop_id="8001" sort_order="94" name="【トップダンサー】メッセリア・ウルティマ" discount="false" recommend="false" icon="item001/2089" show_sold_out="true" pre_hero_group_id="2089" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2089</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800343" shop_id="8001" sort_order="94" name="【フルーツバスケット】ビアンカ・ウルティマ" discount="false" recommend="false" icon="item001/2090" show_sold_out="true" pre_hero_group_id="2090" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800343" shop_id="8001" sort_order="95" name="【フルーツバスケット】ビアンカ・ウルティマ" discount="false" recommend="false" icon="item001/2090" show_sold_out="true" pre_hero_group_id="2090" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2090</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800344" shop_id="8001" sort_order="91" name="ローサ・ウルティマ" discount="false" recommend="false" icon="item001/2085" show_sold_out="true" pre_hero_group_id="2085" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800344" shop_id="8001" sort_order="92" name="ローサ・ウルティマ" discount="false" recommend="false" icon="item001/2085" show_sold_out="true" pre_hero_group_id="2085" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2085</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800345" shop_id="8001" sort_order="92" name="【サムライカウガール】刹華・ウルティマ" discount="false" recommend="false" icon="item001/2094" show_sold_out="true" pre_hero_group_id="2094" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800345" shop_id="8001" sort_order="93" name="【サムライカウガール】刹華・ウルティマ" discount="false" recommend="false" icon="item001/2094" show_sold_out="true" pre_hero_group_id="2094" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2094</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800346" shop_id="8001" sort_order="89" name="【パイとクッキーの女王】アフロディア・ウルティマ" discount="false" recommend="false" icon="item001/2095" show_sold_out="true" pre_hero_group_id="2095" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800346" shop_id="8001" sort_order="90" name="【パイとクッキーの女王】アフロディア・ウルティマ" discount="false" recommend="false" icon="item001/2095" show_sold_out="true" pre_hero_group_id="2095" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2095</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800347" shop_id="8001" sort_order="90" name="【夢見し聖夜祭】カグヤ・ウルティマ" discount="false" recommend="false" icon="item001/2096" show_sold_out="true" pre_hero_group_id="2096" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800347" shop_id="8001" sort_order="91" name="【夢見し聖夜祭】カグヤ・ウルティマ" discount="false" recommend="false" icon="item001/2096" show_sold_out="true" pre_hero_group_id="2096" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2096</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800348" shop_id="8001" sort_order="88" name="ルールー・ウルティマ" discount="false" recommend="false" icon="item001/2098" show_sold_out="true" pre_hero_group_id="2098" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800348" shop_id="8001" sort_order="89" name="ルールー・ウルティマ" discount="false" recommend="false" icon="item001/2098" show_sold_out="true" pre_hero_group_id="2098" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2098</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800349" shop_id="8001" sort_order="86" name="【ドラゴン粉砕】メデューサ・ウルティマ" discount="false" recommend="false" icon="item001/2099" show_sold_out="true" pre_hero_group_id="2099" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800349" shop_id="8001" sort_order="87" name="【ドラゴン粉砕】メデューサ・ウルティマ" discount="false" recommend="false" icon="item001/2099" show_sold_out="true" pre_hero_group_id="2099" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2099</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800350" shop_id="8001" sort_order="87" name="【新年筆下ろし】パステル・ウルティマ" discount="false" recommend="false" icon="item001/2100" show_sold_out="true" pre_hero_group_id="2100" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800350" shop_id="8001" sort_order="88" name="【新年筆下ろし】パステル・ウルティマ" discount="false" recommend="false" icon="item001/2100" show_sold_out="true" pre_hero_group_id="2100" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2100</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800351" shop_id="8001" sort_order="85" name="ジゼル・ウルティマ" discount="false" recommend="false" icon="item001/2088" show_sold_out="true" pre_hero_group_id="2088" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800351" shop_id="8001" sort_order="86" name="ジゼル・ウルティマ" discount="false" recommend="false" icon="item001/2088" show_sold_out="true" pre_hero_group_id="2088" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2088</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800352" shop_id="8001" sort_order="84" name="インリーン・ウルティマ" discount="false" recommend="false" icon="item001/2050" show_sold_out="true" pre_hero_group_id="2050" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800352" shop_id="8001" sort_order="85" name="インリーン・ウルティマ" discount="false" recommend="false" icon="item001/2050" show_sold_out="true" pre_hero_group_id="2050" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2050</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800353" shop_id="8001" sort_order="83" name="ヴィアトリーチェ・ウルティマ" discount="false" recommend="false" icon="item001/2104" show_sold_out="true" pre_hero_group_id="2104" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800353" shop_id="8001" sort_order="84" name="ヴィアトリーチェ・ウルティマ" discount="false" recommend="false" icon="item001/2104" show_sold_out="true" pre_hero_group_id="2104" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2104</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800354" shop_id="8001" sort_order="81" name="トリシュ・ウルティマ" discount="false" recommend="false" icon="item001/2105" show_sold_out="true" pre_hero_group_id="2105" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800354" shop_id="8001" sort_order="82" name="トリシュ・ウルティマ" discount="false" recommend="false" icon="item001/2105" show_sold_out="true" pre_hero_group_id="2105" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2105</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800355" shop_id="8001" sort_order="82" name="リコリス・ウルティマ" discount="false" recommend="false" icon="item001/2106" show_sold_out="true" pre_hero_group_id="2106" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800355" shop_id="8001" sort_order="83" name="リコリス・ウルティマ" discount="false" recommend="false" icon="item001/2106" show_sold_out="true" pre_hero_group_id="2106" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2106</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800356" shop_id="8001" sort_order="80" name="マグダレーナ・ウルティマ" discount="false" recommend="false" icon="item001/2108" show_sold_out="true" pre_hero_group_id="2108" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800356" shop_id="8001" sort_order="81" name="マグダレーナ・ウルティマ" discount="false" recommend="false" icon="item001/2108" show_sold_out="true" pre_hero_group_id="2108" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2108</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800357" shop_id="8001" sort_order="78" name="【純情ショコラティエ】フレイ・ウルティマ" discount="false" recommend="false" icon="item001/2109" show_sold_out="true" pre_hero_group_id="2109" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800357" shop_id="8001" sort_order="79" name="【純情ショコラティエ】フレイ・ウルティマ" discount="false" recommend="false" icon="item001/2109" show_sold_out="true" pre_hero_group_id="2109" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2109</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800358" shop_id="8001" sort_order="79" name="【チョコまみれの竜戦士】ヒルディス・ウルティマ" discount="false" recommend="false" icon="item001/2110" show_sold_out="true" pre_hero_group_id="2110" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800358" shop_id="8001" sort_order="80" name="【チョコまみれの竜戦士】ヒルディス・ウルティマ" discount="false" recommend="false" icon="item001/2110" show_sold_out="true" pre_hero_group_id="2110" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2110</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800359" shop_id="8001" sort_order="77" name="プリシラ・ウルティマ" discount="false" recommend="false" icon="item001/2112" show_sold_out="true" pre_hero_group_id="2112" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800359" shop_id="8001" sort_order="78" name="プリシラ・ウルティマ" discount="false" recommend="false" icon="item001/2112" show_sold_out="true" pre_hero_group_id="2112" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2112</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800360" shop_id="8001" sort_order="76" name="リリス・ウルティマ" discount="false" recommend="false" icon="item001/2113" show_sold_out="true" pre_hero_group_id="2113" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800360" shop_id="8001" sort_order="77" name="リリス・ウルティマ" discount="false" recommend="false" icon="item001/2113" show_sold_out="true" pre_hero_group_id="2113" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2113</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800361" shop_id="8001" sort_order="74" name="ディアナ・ウルティマ" discount="false" recommend="false" icon="item001/2114" show_sold_out="true" pre_hero_group_id="2114" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800361" shop_id="8001" sort_order="75" name="ディアナ・ウルティマ" discount="false" recommend="false" icon="item001/2114" show_sold_out="true" pre_hero_group_id="2114" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2114</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800362" shop_id="8001" sort_order="75" name="ジールカ・ウルティマ" discount="false" recommend="false" icon="item001/2115" show_sold_out="true" pre_hero_group_id="2115" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800362" shop_id="8001" sort_order="76" name="ジールカ・ウルティマ" discount="false" recommend="false" icon="item001/2115" show_sold_out="true" pre_hero_group_id="2115" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2115</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800363" shop_id="8001" sort_order="72" name="【アメリカンポリス】ラピス・ウルティマ" discount="false" recommend="false" icon="item001/2117" show_sold_out="true" pre_hero_group_id="2117" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800363" shop_id="8001" sort_order="73" name="【アメリカンポリス】ラピス・ウルティマ" discount="false" recommend="false" icon="item001/2117" show_sold_out="true" pre_hero_group_id="2117" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2117</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800364" shop_id="8001" sort_order="73" name="リリララ・ウルティマ" discount="false" recommend="false" icon="item001/2118" show_sold_out="true" pre_hero_group_id="2118" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800364" shop_id="8001" sort_order="74" name="リリララ・ウルティマ" discount="false" recommend="false" icon="item001/2118" show_sold_out="true" pre_hero_group_id="2118" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2118</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800365" shop_id="8001" sort_order="71" name="【スウィートバニー】アーティア・ウルティマ" discount="false" recommend="false" icon="item001/2119" show_sold_out="true" pre_hero_group_id="2119" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800365" shop_id="8001" sort_order="72" name="【スウィートバニー】アーティア・ウルティマ" discount="false" recommend="false" icon="item001/2119" show_sold_out="true" pre_hero_group_id="2119" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2119</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800366" shop_id="8001" sort_order="69" name="ラウール・ウルティマ" discount="false" recommend="false" icon="item001/2120" show_sold_out="true" pre_hero_group_id="2120" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800366" shop_id="8001" sort_order="70" name="ラウール・ウルティマ" discount="false" recommend="false" icon="item001/2120" show_sold_out="true" pre_hero_group_id="2120" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2120</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800367" shop_id="8001" sort_order="70" name="クルール・ウルティマ" discount="false" recommend="false" icon="item001/2121" show_sold_out="true" pre_hero_group_id="2121" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800367" shop_id="8001" sort_order="71" name="クルール・ウルティマ" discount="false" recommend="false" icon="item001/2121" show_sold_out="true" pre_hero_group_id="2121" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2121</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800368" shop_id="8001" sort_order="68" name="フィオノーレ・ウルティマ" discount="false" recommend="false" icon="item001/2123" show_sold_out="true" pre_hero_group_id="2123" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800368" shop_id="8001" sort_order="69" name="フィオノーレ・ウルティマ" discount="false" recommend="false" icon="item001/2123" show_sold_out="true" pre_hero_group_id="2123" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2123</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800369" shop_id="8001" sort_order="67" name="厄叉・ウルティマ" discount="false" recommend="false" icon="item001/2124" show_sold_out="true" pre_hero_group_id="2124" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800369" shop_id="8001" sort_order="68" name="厄叉・ウルティマ" discount="false" recommend="false" icon="item001/2124" show_sold_out="true" pre_hero_group_id="2124" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2124</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800370" shop_id="8001" sort_order="66" name="ニーナ・ウルティマ" discount="false" recommend="false" icon="item001/2125" show_sold_out="true" pre_hero_group_id="2125" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800370" shop_id="8001" sort_order="67" name="ニーナ・ウルティマ" discount="false" recommend="false" icon="item001/2125" show_sold_out="true" pre_hero_group_id="2125" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2125</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800371" shop_id="8001" sort_order="65" name="アビゲイル・ウルティマ" discount="false" recommend="false" icon="item001/2126" show_sold_out="true" pre_hero_group_id="2126" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800371" shop_id="8001" sort_order="66" name="アビゲイル・ウルティマ" discount="false" recommend="false" icon="item001/2126" show_sold_out="true" pre_hero_group_id="2126" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2126</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800372" shop_id="8001" sort_order="63" name="【下乳チアガール】ジェミニ・ウルティマ" discount="false" recommend="false" icon="item001/2127" show_sold_out="true" pre_hero_group_id="2127" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800372" shop_id="8001" sort_order="64" name="【下乳チアガール】ジェミニ・ウルティマ" discount="false" recommend="false" icon="item001/2127" show_sold_out="true" pre_hero_group_id="2127" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2127</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800373" shop_id="8001" sort_order="64" name="【下乳チアガール】ヴァネッサ・ウルティマ" discount="false" recommend="false" icon="item001/2128" show_sold_out="true" pre_hero_group_id="2128" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800373" shop_id="8001" sort_order="65" name="【下乳チアガール】ヴァネッサ・ウルティマ" discount="false" recommend="false" icon="item001/2128" show_sold_out="true" pre_hero_group_id="2128" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2128</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800374" shop_id="8001" sort_order="62" name="【プールあがり】アーティア・ウルティマ" discount="false" recommend="false" icon="item001/2130" show_sold_out="true" pre_hero_group_id="2130" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800374" shop_id="8001" sort_order="63" name="【プールあがり】アーティア・ウルティマ" discount="false" recommend="false" icon="item001/2130" show_sold_out="true" pre_hero_group_id="2130" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2130</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800375" shop_id="8001" sort_order="60" name="エヴァ・ウルティマ" discount="false" recommend="false" icon="item001/2131" show_sold_out="true" pre_hero_group_id="2131" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800375" shop_id="8001" sort_order="61" name="エヴァ・ウルティマ" discount="false" recommend="false" icon="item001/2131" show_sold_out="true" pre_hero_group_id="2131" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2131</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800376" shop_id="8001" sort_order="61" name="イネス・ウルティマ" discount="false" recommend="false" icon="item001/2132" show_sold_out="true" pre_hero_group_id="2132" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800376" shop_id="8001" sort_order="62" name="イネス・ウルティマ" discount="false" recommend="false" icon="item001/2132" show_sold_out="true" pre_hero_group_id="2132" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2132</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800377" shop_id="8001" sort_order="59" name="【誘惑の裸エプロン】ディアナ・ウルティマ" discount="false" recommend="false" icon="item001/2134" show_sold_out="true" pre_hero_group_id="2134" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800377" shop_id="8001" sort_order="60" name="【誘惑の裸エプロン】ディアナ・ウルティマ" discount="false" recommend="false" icon="item001/2134" show_sold_out="true" pre_hero_group_id="2134" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2134</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800378" shop_id="8001" sort_order="58" name="ギル・ウルティマ" discount="false" recommend="false" icon="item001/2135" show_sold_out="true" pre_hero_group_id="2135" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800378" shop_id="8001" sort_order="59" name="ギル・ウルティマ" discount="false" recommend="false" icon="item001/2135" show_sold_out="true" pre_hero_group_id="2135" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2135</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800379" shop_id="8001" sort_order="57" name="ボニータ・ウルティマ" discount="false" recommend="false" icon="item001/2136" show_sold_out="true" pre_hero_group_id="2136" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800379" shop_id="8001" sort_order="58" name="ボニータ・ウルティマ" discount="false" recommend="false" icon="item001/2136" show_sold_out="true" pre_hero_group_id="2136" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2136</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800380" shop_id="8001" sort_order="56" name="【学園ブルマー】黒騎士・ウルティマ" discount="false" recommend="false" icon="item001/2138" show_sold_out="true" pre_hero_group_id="2138" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800380" shop_id="8001" sort_order="57" name="【学園ブルマー】黒騎士・ウルティマ" discount="false" recommend="false" icon="item001/2138" show_sold_out="true" pre_hero_group_id="2138" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2138</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800381" shop_id="8001" sort_order="55" name="シリウス・ウルティマ" discount="false" recommend="false" icon="item001/2139" show_sold_out="true" pre_hero_group_id="2139" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800381" shop_id="8001" sort_order="56" name="シリウス・ウルティマ" discount="false" recommend="false" icon="item001/2139" show_sold_out="true" pre_hero_group_id="2139" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2139</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800382" shop_id="8001" sort_order="53" name="【幸運の花嫁】テレシア・ウルティマ" discount="false" recommend="false" icon="item001/2140" show_sold_out="true" pre_hero_group_id="2140" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800382" shop_id="8001" sort_order="54" name="【幸運の花嫁】テレシア・ウルティマ" discount="false" recommend="false" icon="item001/2140" show_sold_out="true" pre_hero_group_id="2140" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2140</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800383" shop_id="8001" sort_order="54" name="【純真の花嫁】ジゼル・ウルティマ" discount="false" recommend="false" icon="item001/2141" show_sold_out="true" pre_hero_group_id="2141" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800383" shop_id="8001" sort_order="55" name="【純真の花嫁】ジゼル・ウルティマ" discount="false" recommend="false" icon="item001/2141" show_sold_out="true" pre_hero_group_id="2141" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2141</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800384" shop_id="8001" sort_order="52" name="【魅惑の裸エプロン】ジールカ・ウルティマ" discount="false" recommend="false" icon="item001/2143" show_sold_out="true" pre_hero_group_id="2143" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800384" shop_id="8001" sort_order="53" name="【魅惑の裸エプロン】ジールカ・ウルティマ" discount="false" recommend="false" icon="item001/2143" show_sold_out="true" pre_hero_group_id="2143" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2143</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800385" shop_id="8001" sort_order="50" name="イルーギオ・ウルティマ" discount="false" recommend="false" icon="item001/2144" show_sold_out="true" pre_hero_group_id="2144" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800385" shop_id="8001" sort_order="51" name="イルーギオ・ウルティマ" discount="false" recommend="false" icon="item001/2144" show_sold_out="true" pre_hero_group_id="2144" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2144</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800386" shop_id="8001" sort_order="51" name="アンジェ・ウルティマ" discount="false" recommend="false" icon="item001/2145" show_sold_out="true" pre_hero_group_id="2145" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800386" shop_id="8001" sort_order="52" name="アンジェ・ウルティマ" discount="false" recommend="false" icon="item001/2145" show_sold_out="true" pre_hero_group_id="2145" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2145</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800387" shop_id="8001" sort_order="49" name="ラフィーネ・ウルティマ" discount="false" recommend="false" icon="item001/2147" show_sold_out="true" pre_hero_group_id="2147" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800387" shop_id="8001" sort_order="50" name="ラフィーネ・ウルティマ" discount="false" recommend="false" icon="item001/2147" show_sold_out="true" pre_hero_group_id="2147" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2147</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800388" shop_id="8001" sort_order="48" name="エレイン・ウルティマ" discount="false" recommend="false" icon="item001/2148" show_sold_out="true" pre_hero_group_id="2148" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800388" shop_id="8001" sort_order="49" name="エレイン・ウルティマ" discount="false" recommend="false" icon="item001/2148" show_sold_out="true" pre_hero_group_id="2148" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2148</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800389" shop_id="8001" sort_order="47" name="【キミのハートを狙い撃ち♪】シャティ・ウルティマ" discount="false" recommend="false" icon="item001/2149" show_sold_out="true" pre_hero_group_id="2149" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800389" shop_id="8001" sort_order="48" name="【キミのハートを狙い撃ち♪】シャティ・ウルティマ" discount="false" recommend="false" icon="item001/2149" show_sold_out="true" pre_hero_group_id="2149" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2149</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800390" shop_id="8001" sort_order="46" name="【恋のビッグウェーブライド】プリシラ・ウルティマ" discount="false" recommend="false" icon="item001/2150" show_sold_out="true" pre_hero_group_id="2150" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800390" shop_id="8001" sort_order="47" name="【恋のビッグウェーブライド】プリシラ・ウルティマ" discount="false" recommend="false" icon="item001/2150" show_sold_out="true" pre_hero_group_id="2150" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2150</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800391" shop_id="8001" sort_order="45" name="【スケートボーダー】鵺・ウルティマ" discount="false" recommend="false" icon="item001/2152" show_sold_out="true" pre_hero_group_id="2152" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800391" shop_id="8001" sort_order="46" name="【スケートボーダー】鵺・ウルティマ" discount="false" recommend="false" icon="item001/2152" show_sold_out="true" pre_hero_group_id="2152" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2152</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800392" shop_id="8001" sort_order="43" name="ベルナデット・ウルティマ" discount="false" recommend="false" icon="item001/2153" show_sold_out="true" pre_hero_group_id="2153" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800392" shop_id="8001" sort_order="44" name="ベルナデット・ウルティマ" discount="false" recommend="false" icon="item001/2153" show_sold_out="true" pre_hero_group_id="2153" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2153</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800393" shop_id="8001" sort_order="44" name="アドリエンヌ・ウルティマ" discount="false" recommend="false" icon="item001/2154" show_sold_out="true" pre_hero_group_id="2154" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800393" shop_id="8001" sort_order="45" name="アドリエンヌ・ウルティマ" discount="false" recommend="false" icon="item001/2154" show_sold_out="true" pre_hero_group_id="2154" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2154</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800394" shop_id="8001" sort_order="42" name="リン・ウルティマ" discount="false" recommend="false" icon="item001/2156" show_sold_out="true" pre_hero_group_id="2156" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800394" shop_id="8001" sort_order="43" name="リン・ウルティマ" discount="false" recommend="false" icon="item001/2156" show_sold_out="true" pre_hero_group_id="2156" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2156</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800395" shop_id="8001" sort_order="40" name="【大空祭の花火師】ヴィアトリーチェ・ウルティマ" discount="false" recommend="false" icon="item001/2157" show_sold_out="true" pre_hero_group_id="2157" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800395" shop_id="8001" sort_order="41" name="【大空祭の花火師】ヴィアトリーチェ・ウルティマ" discount="false" recommend="false" icon="item001/2157" show_sold_out="true" pre_hero_group_id="2157" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2157</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800396" shop_id="8001" sort_order="41" name="【大空祭の剣士】ラーグエン・ウルティマ" discount="false" recommend="false" icon="item001/2158" show_sold_out="true" pre_hero_group_id="2158" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800396" shop_id="8001" sort_order="42" name="【大空祭の剣士】ラーグエン・ウルティマ" discount="false" recommend="false" icon="item001/2158" show_sold_out="true" pre_hero_group_id="2158" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2158</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800397" shop_id="8001" sort_order="39" name="【ホカホカ点心】リリララ・ウルティマ" discount="false" recommend="false" icon="item001/2160" show_sold_out="true" pre_hero_group_id="2160" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800397" shop_id="8001" sort_order="40" name="【ホカホカ点心】リリララ・ウルティマ" discount="false" recommend="false" icon="item001/2160" show_sold_out="true" pre_hero_group_id="2160" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2160</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800398" shop_id="8001" sort_order="38" name="【メイドエロチャンター】イルーギオ・ウルティマ" discount="false" recommend="false" icon="item001/2161" show_sold_out="true" pre_hero_group_id="2161" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800398" shop_id="8001" sort_order="39" name="【メイドエロチャンター】イルーギオ・ウルティマ" discount="false" recommend="false" icon="item001/2161" show_sold_out="true" pre_hero_group_id="2161" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2161</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800399" shop_id="8001" sort_order="36" name="【無敵の皇妃】グラディス・ウルティマ" discount="false" recommend="false" icon="item001/2163" show_sold_out="true" pre_hero_group_id="2163" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800399" shop_id="8001" sort_order="37" name="【無敵の皇妃】グラディス・ウルティマ" discount="false" recommend="false" icon="item001/2163" show_sold_out="true" pre_hero_group_id="2163" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2163</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800400" shop_id="8001" sort_order="37" name="【ヴェルン神聖騎士団団長】フリギス・ウルティマ" discount="false" recommend="false" icon="item001/2164" show_sold_out="true" pre_hero_group_id="2164" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800400" shop_id="8001" sort_order="38" name="【ヴェルン神聖騎士団団長】フリギス・ウルティマ" discount="false" recommend="false" icon="item001/2164" show_sold_out="true" pre_hero_group_id="2164" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2164</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800401" shop_id="8001" sort_order="35" name="【ハイレグの力に取り込まれし者】黒騎士・ウルティマ" discount="false" recommend="false" icon="item001/2162" show_sold_out="true" pre_hero_group_id="2162" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800401" shop_id="8001" sort_order="36" name="【ハイレグの力に取り込まれし者】黒騎士・ウルティマ" discount="false" recommend="false" icon="item001/2162" show_sold_out="true" pre_hero_group_id="2162" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2162</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800402" shop_id="8001" sort_order="34" name="シュシュ・ウルティマ" discount="false" recommend="false" icon="item001/2166" show_sold_out="true" pre_hero_group_id="2166" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800402" shop_id="8001" sort_order="35" name="シュシュ・ウルティマ" discount="false" recommend="false" icon="item001/2166" show_sold_out="true" pre_hero_group_id="2166" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2166</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800403" shop_id="8001" sort_order="33" name="【にゃんこ】ルールー・ウルティマ" discount="false" recommend="false" icon="item001/2167" show_sold_out="true" pre_hero_group_id="2167" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800403" shop_id="8001" sort_order="34" name="【にゃんこ】ルールー・ウルティマ" discount="false" recommend="false" icon="item001/2167" show_sold_out="true" pre_hero_group_id="2167" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2167</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800404" shop_id="8001" sort_order="31" name="東雲アイル・ウルティマ" discount="false" recommend="false" icon="item001/2168" show_sold_out="true" pre_hero_group_id="2168" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800404" shop_id="8001" sort_order="32" name="東雲アイル・ウルティマ" discount="false" recommend="false" icon="item001/2168" show_sold_out="true" pre_hero_group_id="2168" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2168</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800405" shop_id="8001" sort_order="32" name="碧井エリカ・ウルティマ" discount="false" recommend="false" icon="item001/2169" show_sold_out="true" pre_hero_group_id="2169" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800405" shop_id="8001" sort_order="33" name="碧井エリカ・ウルティマ" discount="false" recommend="false" icon="item001/2169" show_sold_out="true" pre_hero_group_id="2169" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2169</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800406" shop_id="8001" sort_order="30" name="【ベビードール】エスティリエル・ウルティマ" discount="false" recommend="false" icon="item001/2171" show_sold_out="true" pre_hero_group_id="2171" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800406" shop_id="8001" sort_order="31" name="【ベビードール】エスティリエル・ウルティマ" discount="false" recommend="false" icon="item001/2171" show_sold_out="true" pre_hero_group_id="2171" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2171</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800407" shop_id="8001" sort_order="28" name="【むちむちサキュバス】カティーシャ・ウルティマ" discount="false" recommend="false" icon="item001/2172" show_sold_out="true" pre_hero_group_id="2172" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800407" shop_id="8001" sort_order="29" name="【むちむちサキュバス】カティーシャ・ウルティマ" discount="false" recommend="false" icon="item001/2172" show_sold_out="true" pre_hero_group_id="2172" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2172</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800408" shop_id="8001" sort_order="29" name="【闇夜の吸血鬼】鵺・ウルティマ" discount="false" recommend="false" icon="item001/2173" show_sold_out="true" pre_hero_group_id="2173" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800408" shop_id="8001" sort_order="30" name="【闇夜の吸血鬼】鵺・ウルティマ" discount="false" recommend="false" icon="item001/2173" show_sold_out="true" pre_hero_group_id="2173" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2173</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800409" shop_id="8001" sort_order="27" name="【俺の妹は水兵さん】ボニータ・ウルティマ" discount="false" recommend="false" icon="item001/2175" show_sold_out="true" pre_hero_group_id="2175" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800409" shop_id="8001" sort_order="28" name="【俺の妹は水兵さん】ボニータ・ウルティマ" discount="false" recommend="false" icon="item001/2175" show_sold_out="true" pre_hero_group_id="2175" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2175</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800410" shop_id="8001" sort_order="26" name="【うし乳娘】エレイン・ウルティマ" discount="false" recommend="false" icon="item001/2176" show_sold_out="true" pre_hero_group_id="2176" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800410" shop_id="8001" sort_order="27" name="【うし乳娘】エレイン・ウルティマ" discount="false" recommend="false" icon="item001/2176" show_sold_out="true" pre_hero_group_id="2176" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2176</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800411" shop_id="8001" sort_order="24" name="【恵みのビアガール】デストラ＆エスケルダ・ウルティマ" discount="false" recommend="false" icon="item001/2177" show_sold_out="true" pre_hero_group_id="2177" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800411" shop_id="8001" sort_order="25" name="【恵みのビアガール】デストラ＆エスケルダ・ウルティマ" discount="false" recommend="false" icon="item001/2177" show_sold_out="true" pre_hero_group_id="2177" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2177</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800412" shop_id="8001" sort_order="25" name="【暗殺ビアガール】累・ウルティマ" discount="false" recommend="false" icon="item001/2178" show_sold_out="true" pre_hero_group_id="2178" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800412" shop_id="8001" sort_order="26" name="【暗殺ビアガール】累・ウルティマ" discount="false" recommend="false" icon="item001/2178" show_sold_out="true" pre_hero_group_id="2178" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2178</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800413" shop_id="8001" sort_order="23" name="【孤高のバイカー】インリーン・ウルティマ" discount="false" recommend="false" icon="item001/2181" show_sold_out="true" pre_hero_group_id="2181" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800413" shop_id="8001" sort_order="24" name="【孤高のバイカー】インリーン・ウルティマ" discount="false" recommend="false" icon="item001/2181" show_sold_out="true" pre_hero_group_id="2181" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2181</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800414" shop_id="8001" sort_order="21" name="【エルロンの聖騎士】リュッカ・ウルティマ" discount="false" recommend="false" icon="item001/2180" show_sold_out="true" pre_hero_group_id="2180" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800414" shop_id="8001" sort_order="22" name="【エルロンの聖騎士】リュッカ・ウルティマ" discount="false" recommend="false" icon="item001/2180" show_sold_out="true" pre_hero_group_id="2180" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2180</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800415" shop_id="8001" sort_order="22" name="【悩殺セーター】ヒルディス・ウルティマ" discount="false" recommend="false" icon="item001/2182" show_sold_out="true" pre_hero_group_id="2182" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800415" shop_id="8001" sort_order="23" name="【悩殺セーター】ヒルディス・ウルティマ" discount="false" recommend="false" icon="item001/2182" show_sold_out="true" pre_hero_group_id="2182" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2182</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800416" shop_id="8001" sort_order="19" name="【聖夜の乳魔】ルスト・ウルティマ" discount="false" recommend="false" icon="item001/2184" show_sold_out="true" pre_hero_group_id="2184" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800416" shop_id="8001" sort_order="20" name="【聖夜の乳魔】ルスト・ウルティマ" discount="false" recommend="false" icon="item001/2184" show_sold_out="true" pre_hero_group_id="2184" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2184</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800417" shop_id="8001" sort_order="20" name="【乳魔な恵み手】シュシュ・ウルティマ" discount="false" recommend="false" icon="item001/2185" show_sold_out="true" pre_hero_group_id="2185" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800417" shop_id="8001" sort_order="21" name="【乳魔な恵み手】シュシュ・ウルティマ" discount="false" recommend="false" icon="item001/2185" show_sold_out="true" pre_hero_group_id="2185" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2185</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800418" shop_id="8001" sort_order="18" name="【むっつり女学生】ラフィーネ・ウルティマ" discount="false" recommend="false" icon="item001/2187" show_sold_out="true" pre_hero_group_id="2187" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800418" shop_id="8001" sort_order="19" name="【むっつり女学生】ラフィーネ・ウルティマ" discount="false" recommend="false" icon="item001/2187" show_sold_out="true" pre_hero_group_id="2187" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2187</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800419" shop_id="8001" sort_order="16" name="【羽子板の着物娘】リリス・ウルティマ" discount="false" recommend="false" icon="item001/2188" show_sold_out="true" pre_hero_group_id="2188" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800419" shop_id="8001" sort_order="17" name="【羽子板の着物娘】リリス・ウルティマ" discount="false" recommend="false" icon="item001/2188" show_sold_out="true" pre_hero_group_id="2188" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2188</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800420" shop_id="8001" sort_order="17" name="【脂肪燃焼の着物娘】ビューティア・ウルティマ" discount="false" recommend="false" icon="item001/2189" show_sold_out="true" pre_hero_group_id="2189" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800420" shop_id="8001" sort_order="18" name="【脂肪燃焼の着物娘】ビューティア・ウルティマ" discount="false" recommend="false" icon="item001/2189" show_sold_out="true" pre_hero_group_id="2189" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2189</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800421" shop_id="8001" sort_order="15" name="【双子巫女】ラウール・ウルティマ" discount="false" recommend="false" icon="item001/2191" show_sold_out="true" pre_hero_group_id="2191" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800421" shop_id="8001" sort_order="16" name="【双子巫女】ラウール・ウルティマ" discount="false" recommend="false" icon="item001/2191" show_sold_out="true" pre_hero_group_id="2191" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2191</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800422" shop_id="8001" sort_order="14" name="【双子巫女】クルール・ウルティマ" discount="false" recommend="false" icon="item001/2192" show_sold_out="true" pre_hero_group_id="2192" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800422" shop_id="8001" sort_order="15" name="【双子巫女】クルール・ウルティマ" discount="false" recommend="false" icon="item001/2192" show_sold_out="true" pre_hero_group_id="2192" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2192</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800423" shop_id="8001" sort_order="12" name="ノワ・ウルティマ" discount="false" recommend="false" icon="item001/2193" show_sold_out="true" pre_hero_group_id="2193" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800423" shop_id="8001" sort_order="13" name="ノワ・ウルティマ" discount="false" recommend="false" icon="item001/2193" show_sold_out="true" pre_hero_group_id="2193" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2193</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800424" shop_id="8001" sort_order="13" name="ルイーズ・ウルティマ" discount="false" recommend="false" icon="item001/2194" show_sold_out="true" pre_hero_group_id="2194" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800424" shop_id="8001" sort_order="14" name="ルイーズ・ウルティマ" discount="false" recommend="false" icon="item001/2194" show_sold_out="true" pre_hero_group_id="2194" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2194</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800425" shop_id="8001" sort_order="11" name="【エロ修道女】ソルティナ・ウルティマ" discount="false" recommend="false" icon="item001/2196" show_sold_out="true" pre_hero_group_id="2196" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800425" shop_id="8001" sort_order="12" name="【エロ修道女】ソルティナ・ウルティマ" discount="false" recommend="false" icon="item001/2196" show_sold_out="true" pre_hero_group_id="2196" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2196</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800426" shop_id="8001" sort_order="10" name="【冒険家】ヘンリエッティ・ウルティマ" discount="false" recommend="false" icon="item001/2197" show_sold_out="true" pre_hero_group_id="2197" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800426" shop_id="8001" sort_order="11" name="【冒険家】ヘンリエッティ・ウルティマ" discount="false" recommend="false" icon="item001/2197" show_sold_out="true" pre_hero_group_id="2197" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2197</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800427" shop_id="8001" sort_order="8" name="【初めてのチョコづくり】カグヤ・ウルティマ" discount="false" recommend="false" icon="item001/2198" show_sold_out="true" pre_hero_group_id="2198" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800427" shop_id="8001" sort_order="9" name="【初めてのチョコづくり】カグヤ・ウルティマ" discount="false" recommend="false" icon="item001/2198" show_sold_out="true" pre_hero_group_id="2198" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2198</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800428" shop_id="8001" sort_order="9" name="【チョコレートはわたし♪】アンジェ・ウルティマ" discount="false" recommend="false" icon="item001/2199" show_sold_out="true" pre_hero_group_id="2199" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800428" shop_id="8001" sort_order="10" name="【チョコレートはわたし♪】アンジェ・ウルティマ" discount="false" recommend="false" icon="item001/2199" show_sold_out="true" pre_hero_group_id="2199" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2199</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800429" shop_id="8001" sort_order="7" name="【生真面目ナース】ラピス・ウルティマ" discount="false" recommend="false" icon="item001/2205" show_sold_out="true" pre_hero_group_id="2205" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800429" shop_id="8001" sort_order="8" name="【生真面目ナース】ラピス・ウルティマ" discount="false" recommend="false" icon="item001/2205" show_sold_out="true" pre_hero_group_id="2205" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2205</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800430" shop_id="8001" sort_order="6" name="麗鬼・ウルティマ" discount="false" recommend="false" icon="item001/2202" show_sold_out="true" pre_hero_group_id="2202" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800430" shop_id="8001" sort_order="7" name="麗鬼・ウルティマ" discount="false" recommend="false" icon="item001/2202" show_sold_out="true" pre_hero_group_id="2202" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2202</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800431" shop_id="8001" sort_order="5" name="【小悪魔アイドル】ニーナ・ウルティマ" discount="false" recommend="false" icon="item001/2201" show_sold_out="true" pre_hero_group_id="2201" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800431" shop_id="8001" sort_order="6" name="【小悪魔アイドル】ニーナ・ウルティマ" discount="false" recommend="false" icon="item001/2201" show_sold_out="true" pre_hero_group_id="2201" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2201</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800432" shop_id="8001" sort_order="3" name="【氷上の芸術家】イルーギオ・ウルティマ" discount="false" recommend="false" icon="item001/2203" show_sold_out="true" pre_hero_group_id="2203" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800432" shop_id="8001" sort_order="4" name="【氷上の芸術家】イルーギオ・ウルティマ" discount="false" recommend="false" icon="item001/2203" show_sold_out="true" pre_hero_group_id="2203" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2203</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800433" shop_id="8001" sort_order="4" name="【アメスク留学生】アーティア・ウルティマ" discount="false" recommend="false" icon="item001/2204" show_sold_out="true" pre_hero_group_id="2204" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800433" shop_id="8001" sort_order="5" name="【アメスク留学生】アーティア・ウルティマ" discount="false" recommend="false" icon="item001/2204" show_sold_out="true" pre_hero_group_id="2204" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2204</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800434" shop_id="8001" sort_order="1" name="ベガリア・ウルティマ" discount="false" recommend="false" icon="item001/2183" show_sold_out="true" pre_hero_group_id="2183" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800434" shop_id="8001" sort_order="2" name="ベガリア・ウルティマ" discount="false" recommend="false" icon="item001/2183" show_sold_out="true" pre_hero_group_id="2183" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2183</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item id="800435" shop_id="8001" sort_order="2" name="【エレガントバニー】ベルナデット・ウルティマ" discount="false" recommend="false" icon="item001/2206" show_sold_out="true" pre_hero_group_id="2206" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+	<shop_item id="800435" shop_id="8001" sort_order="3" name="【エレガントバニー】ベルナデット・ウルティマ" discount="false" recommend="false" icon="item001/2206" show_sold_out="true" pre_hero_group_id="2206" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
 		<func_val>2206</func_val>
 		<func_val>1</func_val>
 	</shop_item>
-	<shop_item discount="false" recommend="false" show_sold_out="false" repeat_draw="false">
-		<func_val>0</func_val>
-		<func_val>0</func_val>
+	<shop_item id="800436" shop_id="8001" sort_order="1" name="【知恵と勇気の女神】アテナ・ウルティマ" discount="false" recommend="false" icon="item001/2207" show_sold_out="true" pre_hero_group_id="2207" limit_type="永久限制編號" limit_num="700" func_type="給道具" cost_type="道具" cost_target="12" cost_num="10" sell_cycle="每天" repeat_draw="false">
+		<func_val>2207</func_val>
+		<func_val>1</func_val>
 	</shop_item>
 	<shop_item discount="false" recommend="false" show_sold_out="false" repeat_draw="false">
 		<func_val>0</func_val>
@@ -15883,6 +15907,50 @@
 	<shop_item id="613514" shop_id="6135" name="スキップチケット" discount="false" recommend="false" icon="item001/0005" show_sold_out="false" limit_type="無限制" func_type="給道具" cost_type="道具" cost_target="10134" cost_num="1" sell_cycle="每天" repeat_draw="false">
 		<func_val>5</func_val>
 		<func_val>1</func_val>
+	</shop_item>
+	<shop_item discount="false" recommend="false" show_sold_out="false" repeat_draw="false">
+		<func_val>0</func_val>
+		<func_val>0</func_val>
+	</shop_item>
+	<shop_item discount="false" recommend="false" show_sold_out="false" repeat_draw="false">
+		<func_val>0</func_val>
+		<func_val>0</func_val>
+	</shop_item>
+	<shop_item id="613601" shop_id="6136" name="【知恵と勇気の女神】アテナ" discount="false" recommend="false" show_sold_out="false" limit_type="無限制" func_type="給英雄" cost_type="道具" cost_target="10135" cost_num="200" sell_cycle="每天" repeat_draw="false">
+		<func_val>2207</func_val>
+		<func_val>0</func_val>
+	</shop_item>
+	<shop_item id="613602" shop_id="6136" name="【我が名はアテナ】10連召喚チケット" discount="false" recommend="false" icon="item001/10352" show_sold_out="true" limit_type="永久限制編號" limit_num="1" func_type="給道具" cost_type="道具" cost_target="10135" cost_num="50" sell_cycle="每天" off_sale_time="2025-03-27 11:00:00" repeat_draw="false">
+		<func_val>1558</func_val>
+		<func_val>1</func_val>
+	</shop_item>
+	<shop_item id="613603" shop_id="6136" name="召喚チケット×1" discount="false" recommend="false" icon="item001/0051" show_sold_out="true" limit_type="永久限制編號" limit_num="5" func_type="給道具" cost_type="道具" cost_target="10135" cost_num="10" sell_cycle="每天" repeat_draw="false">
+		<func_val>51</func_val>
+		<func_val>1</func_val>
+	</shop_item>
+	<shop_item id="613604" shop_id="6136" name="AP×100" discount="false" recommend="false" icon="item001/0074" show_sold_out="true" limit_type="永久限制編號" limit_num="5" func_type="AP回復" cost_type="道具" cost_target="10135" cost_num="10" sell_cycle="每天" repeat_draw="false">
+		<func_val>100</func_val>
+		<func_val>0</func_val>
+	</shop_item>
+	<shop_item id="613605" shop_id="6136" name="チョコレート×1" discount="false" recommend="false" icon="item001/3005" show_sold_out="true" limit_type="永久限制編號" limit_num="10" func_type="給道具" cost_type="道具" cost_target="10135" cost_num="5" sell_cycle="每天" repeat_draw="false">
+		<func_val>3005</func_val>
+		<func_val>1</func_val>
+	</shop_item>
+	<shop_item id="613606" shop_id="6136" name="スキップチケット" discount="false" recommend="false" icon="item001/0005" show_sold_out="false" limit_type="無限制" func_type="給道具" cost_type="道具" cost_target="10135" cost_num="1" sell_cycle="每天" repeat_draw="false">
+		<func_val>5</func_val>
+		<func_val>1</func_val>
+	</shop_item>
+	<shop_item discount="false" recommend="false" show_sold_out="false" repeat_draw="false">
+		<func_val>0</func_val>
+		<func_val>0</func_val>
+	</shop_item>
+	<shop_item discount="false" recommend="false" show_sold_out="false" repeat_draw="false">
+		<func_val>0</func_val>
+		<func_val>0</func_val>
+	</shop_item>
+	<shop_item discount="false" recommend="false" show_sold_out="false" repeat_draw="false">
+		<func_val>0</func_val>
+		<func_val>0</func_val>
 	</shop_item>
 	<shop_item discount="false" recommend="false" show_sold_out="false" repeat_draw="false">
 		<func_val>0</func_val>

@@ -2814,4 +2814,18 @@
 		<bonus_cycle>無</bonus_cycle>
 		<bonus_cycle>無</bonus_cycle>
 	</stage_area>
+	<stage_area open="false">
+		<open_cycle>每日</open_cycle>
+		<open_cycle>每日</open_cycle>
+		<bonus_cycle>無</bonus_cycle>
+		<bonus_cycle>無</bonus_cycle>
+		<bonus_cycle>無</bonus_cycle>
+	</stage_area>
+	<stage_area id="507801" open="true" name="我が名はアテナ" bg="eventbg/eventbg22/event_67-bg">
+		<open_cycle>每日</open_cycle>
+		<open_cycle>每日</open_cycle>
+		<bonus_cycle>無</bonus_cycle>
+		<bonus_cycle>無</bonus_cycle>
+		<bonus_cycle>無</bonus_cycle>
+	</stage_area>
 </root>
