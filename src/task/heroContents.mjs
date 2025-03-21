@@ -25,7 +25,7 @@ export class HeroContents {
         for(const hero of heroList) {
       
           const id = hero['@_id'];
-      
+
           heroFuncs.push(() => {
       
           const group = hero['@_group'];
@@ -159,6 +159,9 @@ export class HeroContents {
           //const awakePassiveSkill = awakeEntity ? awakeEntity['@_awake_passive_skill'] : null;
       
           const atkSkill = kf.skill_hero_1.root.skill_hero_1.find(item => item['@_id'] === hero['@_atk_skill']);
+          json.skill1 = parseSkill(hero['@_skill1'], Math.min(parseInt(json.lv), 100), kf);
+          json.skill2 = parseSkill(hero['@_skill2'], Math.min(parseInt(json.lv), 100), kf);
+
           if (atkSkill) {
             json.atk_speed = getAtkSpeed(parseFloat(atkSkill['@_freeze_time']));
             json.range = atkSkill['@_range'];
@@ -187,11 +190,41 @@ export class HeroContents {
               json.atkskill.crit_time = crit_time.toFixed(3, Big.roundHalfEven);
               json.atkskill.crit_time2 = crit_time.round(2, Big.roundDown).toFixed(1, Big.roundUp);
             }
+            let scalechecklist = [];
+            const scales = 
+            ["0", "0.1", "0.15", "0.2", "0.25", "0.30", "0.35", "0.40", "0.45", "0.50", 
+              "0.55", "0.60", "0.65", "0.70", "0.75", "0.80", "0.85", "0.90", "0.95", "1", 
+              "1.05", "1.10" ,"1.15", "1.2", "1.25"]
+            .reverse();
+            for (const scale of scales) {
+              const scalecheck = { attack: new Big(0), crit: new Big(0), skill1: new Big(0), skill2: new Big(0) };
+
+                scalecheck.name = new Big(scale).mul(100).toFixed(0) + "%";
+
+                scalecheck.attack = 
+                scalecheck.attack.plus((new Big(freezeTime).plus(new Big("0.125")).div(new Big(scale).plus(new Big(1)))).round(2, Big.roundDown).round(1, Big.roundUp))
+                .plus(new Big(waitShowTime).div(new Big(scale).plus(1))).round(2, Big.roundDown).round(1, Big.roundUp);
+
+                scalecheck.crit = 
+                scalecheck.crit.plus((new Big(freezeTime).plus(new Big("0.125")).div(new Big(scale).plus(new Big(1)))).round(2, Big.roundDown).round(1, Big.roundUp))
+                .plus(new Big(critWaitShowTime).div(new Big(scale).plus(1))).round(2, Big.roundDown).round(1, Big.roundUp);
+
+                scalecheck.skill1 = 
+                scalecheck.skill1.plus((json.skill1.freezeTime.plus(new Big("0.125")).div(new Big(scale).plus(new Big(1)))).round(2, Big.roundDown).round(1, Big.roundUp))
+                .plus(json.skill1.waitShowTime.div(new Big(scale).plus(1))).round(2, Big.roundDown).round(1, Big.roundUp);
+
+                scalecheck.skill2 = 
+                scalecheck.skill2.plus((json.skill2.freezeTime.plus(new Big("0.125")).div(new Big(scale).plus(new Big(1)))).round(2, Big.roundDown).round(1, Big.roundUp))
+                .plus(json.skill2.waitShowTime.div(new Big(scale).plus(1))).round(2, Big.roundDown).round(1, Big.roundUp);
+                scalechecklist.push(scalecheck);
+            }
+            json.scalecheck = scalechecklist;
+        
           }
       
-          json.skill1 = parseSkill(hero['@_skill1'], Math.min(parseInt(json.lv), 100), kf);
-          json.skill2 = parseSkill(hero['@_skill2'], Math.min(parseInt(json.lv), 100), kf);
-      
+
+
+
           json.passive1 = parseSkill(hero['@_passive_skill1'], 0, kf);
           json.passive2 = parseSkill(hero['@_passive_skill2'], 0, kf);
       

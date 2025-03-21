@@ -636,11 +636,10 @@ export const parseSkill = (sid, lv, kf) => {
   text = text.replace(/<color=(#[A-F0-9]+?)>\{9\}/i, `<span class="value${is_heal ? " heal" : ""}">{9}`)
     .replace(/<color=(#[A-F0-9]+?)>/ig, `<span class="value">`).replace(/<\/color>/ig, "</span>");
 
-  let waitShowTime = undefined;
+  let waitShowTime = new Big(0);
   if (s['@_effect_id'] && kf.skill_effect.root.skill_effect.find(item => item['@_Id'] === s['@_effect_id'])) {
     waitShowTime = new Big(kf.skill_effect.root.skill_effect.find(item => item['@_Id'] === s['@_effect_id'])['@_WaitShowTime']);
   }
-
 
   const hpScale = s['@_target_hp_scale'] ? new Big(s['@_target_hp_scale']) :new Big(0);
   const hpAdd = s['@_target_hp_add'] ? new Big(s['@_target_hp_add']) :new Big(0);
@@ -708,6 +707,8 @@ export const parseSkill = (sid, lv, kf) => {
     const time = new Big(s['@_freeze_time']).plus("0.125").plus(waitShowTime);
     result.time = time.toFixed(3, Big.roundHalfEven);
     result.time2 = time.round(2, Big.roundDown).toFixed(1, Big.roundUp);
+    result.freezeTime = new Big(s['@_freeze_time']);
+    result.waitShowTime = waitShowTime;
   }
 
   return result;
