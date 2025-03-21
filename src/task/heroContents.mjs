@@ -163,15 +163,28 @@ export class HeroContents {
             json.atk_speed = getAtkSpeed(parseFloat(atkSkill['@_freeze_time']));
             json.range = atkSkill['@_range'];
             json.position = getPosition(parseInt(json.range));
-      
-            const freezeTime = new Big(atkSkill['@_freeze_time']);
-            const waitShowTime = new Big(kf.skill_effect.root.skill_effect.find(item => item['@_Id'] === atkSkill['@_effect_id'])['@_WaitShowTime']);
-            const critWaitShowTime = new Big(kf.skill_effect.root.skill_effect.find(item => item['@_Id'] === atkSkill['@_crit_effect_id'])['@_WaitShowTime']);
-      
+
+            const freezeTime = atkSkill['@_freeze_time'];;
+            const waitShowTime = kf.skill_effect.root.skill_effect.find(item => item['@_Id'] === atkSkill['@_effect_id'])?.['@_WaitShowTime'];
+            const critWaitShowTime = kf.skill_effect.root.skill_effect.find(item => item['@_Id'] === atkSkill['@_crit_effect_id'])?.['@_WaitShowTime'];
+
             json.atkskill = {
               name: "通常攻撃", 
-              time: freezeTime.plus("0.125").plus(waitShowTime).toFixed(3, Big.roundHalfEven).toString(),
-              crit_time: freezeTime.plus("0.125").plus(critWaitShowTime).toFixed(3, Big.roundHalfEven).toString()
+              time: "",
+              time2: "",
+              crit_time: "",
+              crit_time2: ""
+            };
+
+            if (freezeTime && waitShowTime) {
+              const time = new Big(freezeTime).plus("0.125").plus(new Big(waitShowTime));
+              json.atkskill.time = time.toFixed(3, Big.roundHalfEven);
+              json.atkskill.time2 = time.round(2, Big.roundDown).toFixed(1, Big.roundUp);
+            }
+            if (freezeTime && critWaitShowTime) {
+              const crit_time = new Big(freezeTime).plus("0.125").plus(new Big(critWaitShowTime));
+              json.atkskill.crit_time = crit_time.toFixed(3, Big.roundHalfEven);
+              json.atkskill.crit_time2 = crit_time.round(2, Big.roundDown).toFixed(1, Big.roundUp);
             }
           }
       
