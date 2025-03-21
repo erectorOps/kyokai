@@ -699,6 +699,7 @@ export const parseSkill = (sid, lv, kf) => {
     speed_buff: speed_value,
     time: "",
     time2: "",
+    icon: s['@_icon'],
     text: text,
     name: s[`@_name`].replace(/<ruby=(.+?)>(.+?)<\/ruby>/ig, "<ruby>$2<rt>$1</rt></ruby>")
   };

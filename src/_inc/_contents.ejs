@@ -68,7 +68,7 @@
     <% if (page.passive3) { %>
       <table class="s-table">
         <tbody>
-          <tr><th width="100%" colspan="2"><div><%- page.awake_ubskills[0].name %></div></th></tr>
+          <tr><th width="100%" colspan="2"><div class="s-name"><img class="s-icon" src="../img/<%= page.awake_ubskills[page.awake_ubskills.length-1].icon %>.png"><%- page.awake_ubskills[0].name %></div></th></tr>
           <% for (let i = page.awake_ubskills.length - 1; i >= 0; i--) { %>
           <tr><th width="20%">Lv.<%= i+1 %></th><td class="center"><%- page.awake_ubskills[i].text %></td></tr>
           <% } %>
@@ -80,7 +80,7 @@
     <% } %>
     <table class="s-table">
       <tbody>
-        <tr><th width="100%" colspan="2"><div><%- page.ubskills[0].name %></div></th></tr>
+        <tr><th width="100%" colspan="2"><div class="s-name"><img class="s-icon" src="../img/<%= page.ubskills[page.ubskills.length-1].icon %>.png"><%- page.ubskills[0].name %></div></th></tr>
         <% for (let i = page.ubskills.length - 1; i >= 0; i--) { %>
         <tr><th width="20%">Lv.<%= i+1 %></th><td class="center"><%- page.ubskills[i].text %></td></tr>
         <% } %>
@@ -94,11 +94,11 @@
     <% if (page.passive3) { %>
       <table class="s-table">
         <tbody>
-          <tr><th width="100%"><div><%= page.atkskill.name %></div></th></tr>
+          <tr><th width="100%"><div class="s-name"><img class="s-icon" src="../img/<%= page.atkskill.icon %>.png"><%= page.atkskill.name %></div></th></tr>
           <tr><td class="center">【硬直時間】<%= page.atkskill.time2 %>s<br>【硬直時間(クリティカル)】<%= page.atkskill.crit_time2 %>s</td></tr>
-          <tr><th><div><%- page.awake_skill1.name %></div></th></tr>
-          <tr><td class="center"><div>【硬直時間】<%=page.awake_skill1.time2 %>s</div><%- page.awake_skill1.text %></td></tr>
-          <tr><th><div><%- page.skill2.name %></div></th></tr>
+          <tr><th><div class="s-name"><img class="s-icon" src="../img/<%= page.awake_skill1.icon %>.png"><%- page.awake_skill1.name %></div></th></tr>
+          <tr><td class="center"><div class="s-name">【硬直時間】<%=page.awake_skill1.time2 %>s</div><%- page.awake_skill1.text %></td></tr>
+          <tr><th><div class="s-name"><img class="s-icon" src="../img/<%= page.awake_skill2.icon %>.png"><%- page.skill2.name %></div></th></tr>
           <tr><td class="center"><div>【硬直時間】<%=page.awake_skill2.time2 %>s</div><%- page.awake_skill2.text %></td></tr>
         </tbody>
       </table>
@@ -108,11 +108,11 @@
     <% } %>
       <table class="s-table">
         <tbody>
-          <tr><th width="100%"><div><%= page.atkskill.name %></div></th></tr>
+          <tr><th width="100%"><div class="s-name"><img class="s-icon" src="../img/<%= page.atkskill.icon %>.png"><%= page.atkskill.name %></div></th></tr>
           <tr><td class="center">【硬直時間】<%= page.atkskill.time2 %>s<br>【硬直時間(クリティカル)】<%= page.atkskill.crit_time2 %>s</td></tr>
-          <tr><th><div><%- page.skill1.name %></div></th></tr>
+          <tr><th><div class="s-name"><img class="s-icon" src="../img/<%= page.skill1.icon %>.png"><%- page.skill1.name %></div></th></tr>
           <tr><td class="center"><div>【硬直時間】<%=page.skill1.time2 %>s</div><%- page.skill1.text %></td></tr>
-          <tr><th><div><%- page.skill2.name %></div></th></tr>
+          <tr><th><div class="s-name"><img class="s-icon" src="../img/<%= page.skill2.icon %>.png"><%- page.skill2.name %></div></th></tr>
           <tr><td class="center"><div>【硬直時間】<%=page.skill2.time2 %>s</div><%- page.skill2.text %></td></tr>
         </tbody>
       </table>
@@ -125,14 +125,14 @@
     <h4 class="s-header--4">奥義レベル3で開放</h4>
     <table class="s-table">
       <tbody>
-        <tr><th width="100%"><div><%- page.passive1.name %></div></th></tr>
+        <tr><th width="100%"><div class="s-name"><img class="s-icon" src="../img/<%= page.passive1.icon %>.png"><%- page.passive1.name %></div></th></tr>
         <tr><td class="center"><%- page.passive1.text %></td></tr>
       </tbody>
     </table>
     <h4 class="s-header--4">奥義レベル5で開放</h4>
     <table class="s-table">
       <tbody>
-        <tr><th width="100%"><div><%- page.passive2.name %></div></th></tr>
+        <tr><th width="100%"><div class="s-name"><img class="s-icon" src="../img/<%= page.passive2.icon %>.png"><%- page.passive2.name %></div></th></tr>
         <tr><td class="center"><%- page.passive2.text %></td></tr>
       </tbody>
     </table>
@@ -140,7 +140,7 @@
     <h4 class="s-header--4">覚醒で開放</h4>
     <table class="s-table">
       <tbody>
-          <tr><th width="100%"><div><%- page.passive3.name %></div></th></tr>
+          <tr><th width="100%"><div class="s-name"><img class="s-icon" src="../img/<%= page.passive3.icon %>.png"><%- page.passive3.name %></div></th></tr>
           <tr><td class="center"><%- page.passive3.text %></td></tr>
       </tbody>
     </table>    

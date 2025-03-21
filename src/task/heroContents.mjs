@@ -169,7 +169,8 @@ export class HeroContents {
             const critWaitShowTime = kf.skill_effect.root.skill_effect.find(item => item['@_Id'] === atkSkill['@_crit_effect_id'])?.['@_WaitShowTime'];
 
             json.atkskill = {
-              name: "通常攻撃", 
+              name: "通常攻撃",
+              icon: atkSkill['@_icon'] ?? (atkSkill['@_target_hp_effect'] === "魔法傷害" ? "skill001/skill0004" : "skill001/skill0001"),
               time: "",
               time2: "",
               crit_time: "",

@@ -223,7 +223,7 @@ a img {
 }
 
 .s-table td {
-    word-break: keep-all;
+    word-break: auto-phrase;
 }
 
 .hero_tr td {
@@ -342,6 +342,18 @@ table tr td:has(.hero_container) { padding: 0; }
 .s-table th.center .s-img,
 .s-table td.center .s-img {
     margin: 3px auto;
+}
+
+.s-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-icon {
+    height: 30px;
+    margin: -5px 5px -5px 0;
+    vertical-align: bottom;
 }
 
 
