@@ -276,25 +276,25 @@ const parseBuff = (buff, lv) => {
       case '定值傷害吸收':
         if (val3.gt(0)) { 
 
-          text += `回復バリア(${span}${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}${spanEnd}、削れたバリアの${spanHeal}${val3.toString()}%${spanEnd}HP回復)`;
+          text += `回復バリア(${span}${val1.add(val2.mul(lv)).toString()}${spanEnd}、削れたバリアの${spanHeal}${val3.toString()}%${spanEnd}HP回復)`;
         } else {
-          text += `バリア(${span}${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}${spanEnd})`;
+          text += `バリア(${span}${val1.add(val2.mul(lv)).toString()}${spanEnd})`;
         }
           break;
 
       case '物理定值傷害吸收':
         if (val3.gt(0)) { 
-          text += `物理回復バリア(${span}${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}${spanEnd}、削れたバリアの${spanHeal}${val3.toString()}%${spanEnd}HP回復)`;
+          text += `物理回復バリア(${span}${val1.add(val2.mul(lv)).toString()}${spanEnd}、削れたバリアの${spanHeal}${val3.toString()}%${spanEnd}HP回復)`;
         } else {
-          text += `物理バリア(${span}${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}${spanEnd})`;
+          text += `物理バリア(${span}${val1.add(val2.mul(lv)).toString()}${spanEnd})`;
         }
           break;
 
       case '魔法定值傷害吸收':
         if (val3.gt(0)) { 
-          text += `魔法回復バリア(${span}${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}${spanEnd}、削れたバリアの${spanHeal}${val3.toString()}%${spanEnd}HP回復)`;
+          text += `魔法回復バリア(${span}${val1.add(val2.mul(lv)).toString()}${spanEnd}、削れたバリアの${spanHeal}${val3.toString()}%${spanEnd}HP回復)`;
         } else {
-          text += `魔法バリア(${span}${val1.toString()}%${val3.gt(0) ? "+" + (val2.mul(lv).toString()) : ""}${spanEnd})`;
+          text += `魔法バリア(${span}${val1.add(val2.mul(lv)).toString()}${spanEnd})`;
         }
           break;
 
@@ -691,10 +691,19 @@ export const parseSkill = (sid, lv, kf) => {
     }
   }
 
-  return {
+  const result = {
     speed_buff: speed_value,
-    time: s['@_freeze_time'] && waitShowTime ? new Big(s['@_freeze_time']).plus("0.125").plus(waitShowTime).toFixed(3, Big.roundHalfEven).toString() : "",
+    time: "",
+    time2: "",
     text: text,
     name: s[`@_name`].replace(/<ruby=(.+?)>(.+?)<\/ruby>/ig, "<ruby>$2<rt>$1</rt></ruby>")
   };
+
+  if (s['@_freeze_time'] && waitShowTime) {
+    const time = new Big(s['@_freeze_time']).plus("0.125").plus(waitShowTime);
+    result.time = time.toFixed(3, Big.roundHalfEven);
+    result.time2 = time.round(2, Big.roundDown).toFixed(1, Big.roundUp);
+  }
+
+  return result;
 }
