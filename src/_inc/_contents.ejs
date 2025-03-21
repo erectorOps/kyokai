@@ -155,23 +155,7 @@
           <tr><th width="25%">身長</th><td><%= page['height'] %></td></tr>
           <tr><th width="25%">体型</th><td><%= page['measurements'] %></td></tr>
           <tr><th width="25%">実装日</th><td><%= page['added_date'] %></td></tr>
-          <%  const ignore = ["周年", "Fanzine", "報酬", "同盟戦"];
-             let gtype = page['gacha_type'].split(',').filter(n => n && ignore.indexOf(n) == -1).join('、');
-             let obtain = page['obtain'].split(',');
-          %>
-          <tr><th width="25%">入手方法</th><td>
-            <% if (gtype === "イベント、コラボ") { %>
-            コラボイベント
-            <% } else if (gtype === "イベント") { %>
-            イベント
-            <% } else if (gtype) { %>
-            <%= gtype %><%- page['obtain'].indexOf('先行召喚') !== -1 ? "<br>" : "" %>
-            <% } %>
-            <% for (let i = 0; i < obtain.length; i++) { %>
-            <% if (obtain[i]) { %>
-            <%= `${i==0 ? "「" : ""}${obtain[i]}${i==0 ? "」" : ""}` %>
-            <% } %>
-            <% } %></td></tr>
+          <tr><th width="25%">入手方法</th><td><%- page['obtain'].replace(/,/ig, "<br>") %></td></tr>
           </tbody>
       </tbody>
   </table>
