@@ -64,7 +64,8 @@ export class HeroList {
                     equip_type: hero['@_equip_type'],
                     gacha_type: gachaTypeEntity ? gachaTypeEntity['@_gacha_type'] : "",
                     added_date: gachaTypeEntity ? gachaTypeEntity['@_added_date'] : "",
-                    obtain: gachaTypeEntity && gachaTypeEntity['@_obtain'] ? gachaTypeEntity['@_obtain'] : ""
+                    obtain: gachaTypeEntity && gachaTypeEntity['@_obtain'] ? gachaTypeEntity['@_obtain'] : "",
+                    ub_type: gachaTypeEntity?.['@_ub_type'] ?? ""
                 };
             
                 if (atkSkill) {

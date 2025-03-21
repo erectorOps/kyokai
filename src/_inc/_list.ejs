@@ -35,7 +35,22 @@
                     <li data-val="物理" data-check="0"><div>物理攻撃</div></li>
                     <li data-val="魔法" data-check="0"><div>魔法攻撃</div></li>
                 </ul>
-            </td></tr>    
+            </td></tr>
+            <tr><th>奥義</th>
+            <td>
+                <ul class="filter_container" data-filter="ub_type" data-count="9">
+                    <li data-val="1人攻撃" data-check="0"><div>単体攻撃</div></li>
+                    <li data-val="2人攻撃,3人攻撃,4人攻撃,5人攻撃" data-check="0"><div>複数攻撃</div></li>
+                    <li data-val="6人攻撃,全体攻撃" data-check="0"><div>全体攻撃</div></li>
+                    <li data-val="3人HP回復,全体HP回復,全体HP継続回復,HP回復,HP継続回復" data-check="0"><div>HP回復</div></li>
+                    <li data-val="全体MP回復,全体MP継続回復,MP回復,MP継続回復" data-check="0"><div>MP回復</div></li>
+                    <li data-val="支援バフ" data-check="0"><div>全体バフ</div></li>
+                    <li data-val="防御DOWN,火被ダメージUP,水被ダメージUP,風被ダメージUP,聖被ダメージUP,魔被ダメージUP,想被ダメージUP" data-check="0"><div>防御ダウン系</div></li>
+                    <li data-val="攻撃UP,火攻撃UP,水攻撃UP,風攻撃UP,聖攻撃UP,魔攻撃UP,想攻撃UP" data-check="0"><div>攻撃アップ系</div></li>
+                    <li data-val="中毒,猛毒,火傷,凍結,出血,沈黙,解消,麻痺,睡眠,石化,眩暈,混乱,魅了,呪い,盲目,恐怖,解消" data-check="0"><div>状態異常</div></li>
+                </ul>
+            </td>
+            </tr>
             <tr><th>武器</th>
             <td>
                 <ul class="filter_container" data-filter="equip_type" data-count="5">
@@ -131,7 +146,7 @@ include('./_order_by_range.ejs', {
                         if (conditions[current_key] == undefined) {
                             conditions[current_key] = [];
                         }
-                        conditions[current_key].push(String($(this).data("val")));
+                        Array.prototype.push.apply(conditions[current_key], String($(this).data("val")).split(","));
                     })
                 });
 
@@ -145,7 +160,7 @@ include('./_order_by_range.ejs', {
                         var disp_bool = true;
                         for (const type in conditions) {
                             let current_data = String($(this).data(type));
-                            if (type == "gacha_type") {
+                            if (type == "gacha_type" || type == "ub_type") {
                                 current_data = current_data.split(',');
                                 var attr_count = 0;
                                 for (const i in current_data) {
