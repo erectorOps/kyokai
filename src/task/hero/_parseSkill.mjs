@@ -1,6 +1,6 @@
 import Big from 'big.js';
 
-const parseBuff = (buff, lv) => {
+const parseBuff = (buff, lv, info) => {
   if (buff["@_get_counter"]) {
     console.log("Error: get_counterのあるバフをパースしようとしてる [buff id="+buff["@_id"] + "]");
     return "Error: get_counterのあるバフをパースしようとしてる [buff id="+buff["@_id"] + "]";
@@ -161,7 +161,11 @@ const parseBuff = (buff, lv) => {
           break;
 
       case 'MP回復':
-        text += "毎秒MP";
+        if (info.duration) {
+          text += "毎秒MP";
+        } else {
+          text += "MP";
+        }
         text += parseAddSub(true);
           break;
 
@@ -664,13 +668,13 @@ export const parseSkill = (sid, lv, kf) => {
     ['C', "{12}", "{13}"]]) {
     const buffId = s['@_buff_id'+postFix[0]];
     const buffDur = s['@_buff_dur'+postFix[0]];
-    //const buffIf = s['@_buff_if'+postFix[0]];
-    //const buffTarget = s['@_buff_target'+postFix[0]]
+    const buffIf = s['@_buff_if'+postFix[0]];
+    const buffTarget = s['@_buff_target'+postFix[0]]
     if (buffId) {
       text = text.replace(postFix[2], buffDur);
       const buff = kf.buff_1.root.buff_1.find(item => item['@_id'] === buffId);
       if (buff !== undefined) {
-        text = text.replace(postFix[1], parseBuff(buff, lv));
+        text = text.replace(postFix[1], parseBuff(buff, lv, {id: buffId, duration: buffDur, if: buffIf, target: buffTarget}));
         if (buff['@_effect_type'] === '速度上升或下降') {
           speed_value += (buff["@_effect_val1"] !== undefined ? parseFloat(buff["@_effect_val1"]) : 0) 
             + (buff["@_counter_effect_val1"] !== undefined ? parseFloat(buff["@_counter_effect_val1"]) : 0);
