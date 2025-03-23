@@ -36,6 +36,7 @@ export class HeroContents {
           const gachaTypeEntity = kf.hero_add.root.hero_add.find(item => item['@_id'] === id);
       
           const json = {
+              parent_title: "聖騎士一覧",
               title: name,
               description: name,
               keywords: name,
@@ -56,10 +57,25 @@ export class HeroContents {
               height: heroGroup['@_height'].replace(/&#x[DA];/ig, ""),
               measurements: heroGroup['@_measurements'].replace(/&#x[DA];/ig, ""),
               equip_type: hero['@_equip_type'],
-              gacha_type: gachaTypeEntity ? gachaTypeEntity['@_gacha_type'] : "",
-              added_date: gachaTypeEntity ? gachaTypeEntity['@_added_date'] : "",
-              obtain: gachaTypeEntity && gachaTypeEntity['@_obtain'] ? gachaTypeEntity['@_obtain'] : ""
+              gacha_type: "",
+              added_date: "",
+              obtain: ""
           };
+
+          if (gachaTypeEntity) {
+            json.gacha_type = gachaTypeEntity['@_gacha_type'] ?? "";
+            json.added_date = gachaTypeEntity['@_added_date'] ?? "";
+            json.obtain = gachaTypeEntity['@_obtain'] ?? "";
+
+            if (gachaTypeEntity.review) {
+              json.rank_text = gachaTypeEntity.review['@_rank'];
+              json.rank_class = "rank-" + json.rank_text[0].toLowerCase();
+              json.merit = gachaTypeEntity.review.merit ?? [];
+              if (!Array.isArray(json.merit)) { json.merit = [json.merit]; }
+              json.demerit = gachaTypeEntity.review.demerit ?? [];
+              if (!Array.isArray(json.demerit)) { json.demerit = [json.demerit]; }
+            }
+          }
       
       
           json.feature = heroGroup.feature_id.filter(item => item !== '0').map(item => {
