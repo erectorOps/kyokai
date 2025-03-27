@@ -997,4 +997,20 @@
 	<monster_action id="40068" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4006802"/>
 	<monster_action id="40068" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4006803"/>
 	<monster_action id="40068" info="自身が「呪い」状態の場合" type="自身有指定狀態" value="詛咒" skill_id="4006804"/>
+	<monster_action/>
+	<monster_action/>
+	<monster_action id="40069" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4006901"/>
+	<monster_action id="40069" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4006902"/>
+	<monster_action id="40069" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4006903"/>
+	<monster_action id="40069" info="自身が「解消」状態の場合" type="自身有指定狀態" value="驅散" skill_id="4006904"/>
+	<monster_action/>
+	<monster_action id="40070" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4007001"/>
+	<monster_action id="40070" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4007002"/>
+	<monster_action id="40070" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4007003"/>
+	<monster_action id="40070" info="自身が「解消」状態の場合" type="自身有指定狀態" value="驅散" skill_id="4007004"/>
+	<monster_action/>
+	<monster_action/>
+	<monster_action/>
+	<monster_action id="597907" info="????????" type="自身血量高於" value="0.01" skill_id="5079611"/>
+	<monster_action id="597907" info="????????" type="自身血量低於" value="86" skill_id="5079612"/>
 </root>

@@ -5206,7 +5206,45 @@
 		<reward_target>0</reward_target>
 		<reward_num>0</reward_num>
 	</activity>
-	<activity id="40034" name="第34回競撃戦" show="false" menu_show="false" icon="arrive-limit/2-banner" bg="eventbg/limitbg11/limitmain-34-bg" start_time="2025/03/13 11:00:00" end_time="2025/03/27 11:00:00" activity_type="限界" activity_val1="3" activity_val5="false">
+	<activity id="40034" name="第34回競撃戦" show="false" menu_show="false" icon="arrive-limit/2-banner" bg="eventbg/limitbg11/limitmain-34-bg" start_time="2025/03/13 11:00:00" end_time="2025/03/24 11:00:00" activity_type="限界" activity_val1="3" activity_val5="false">
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+	</activity>
+	<activity id="40035" name="第35回競撃戦" show="false" menu_show="false" icon="arrive-limit/3-banner" bg="eventbg/limitbg12/limitmain-35-bg" start_time="2025/03/24 11:00:00" end_time="2025/04/10 11:00:00" activity_type="限界" activity_val1="3" activity_val5="false">
 		<hero_info>0</hero_info>
 		<hero_info>0</hero_info>
 		<hero_info>0</hero_info>
@@ -5815,6 +5853,44 @@
 		<reward_num>0</reward_num>
 	</activity>
 	<activity id="4015" name="ブースト指名" show="false" menu_show="false" start_time="2025/03/01 03:00:00" end_time="2025/04/01 02:59:59" activity_type="自選養成優待" activity_val1="0.3" activity_val2="0.3" activity_val3="0.3" activity_val4="1" activity_val5="false">
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+	</activity>
+	<activity id="4016" name="ブースト指名" show="false" menu_show="false" start_time="2025/04/01 03:00:00" end_time="2025/05/01 02:59:59" activity_type="自選養成優待" activity_val1="0.3" activity_val2="0.3" activity_val3="0.3" activity_val4="1" activity_val5="false">
 		<hero_info>0</hero_info>
 		<hero_info>0</hero_info>
 		<hero_info>0</hero_info>
@@ -10374,6 +10450,44 @@
 		<reward_target>0</reward_target>
 		<reward_num>0</reward_num>
 	</activity>
+	<activity id="60106" name="【Fanzine】ログインボーナス" show="true" menu_show="false" sort="10" bg="activitylogin105/登入獎勵_Fanzine_1640x1000" end_time="2025/04/03 11:00:00" activity_type="活動簽到" activity_val1="60106" activity_val5="false">
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+	</activity>
 	<activity show="false" menu_show="false" activity_val5="false">
 		<hero_info>0</hero_info>
 		<hero_info>0</hero_info>
@@ -12844,7 +12958,45 @@
 		<reward_target>0</reward_target>
 		<reward_num>0</reward_num>
 	</activity>
-	<activity id="600063" name="活躍度任務" show="true" menu_show="false" sort="6" start_time="2025/03/17 11:00:00" end_time="2025/03/27 11:00:00" activity_type="活躍度" activity_val1="600063" activity_val5="false">
+	<activity id="600063" name="活躍度任務" show="true" menu_show="false" sort="6" start_time="2025/03/20 11:00:00" end_time="2025/03/27 11:00:00" activity_type="活躍度" activity_val1="600063" activity_val5="false">
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+	</activity>
+	<activity id="600064" name="活躍度任務" show="true" menu_show="false" sort="6" start_time="2025/03/24 11:00:00" end_time="2025/04/03 11:00:00" activity_type="活躍度" activity_val1="600064" activity_val5="false">
 		<hero_info>0</hero_info>
 		<hero_info>0</hero_info>
 		<hero_info>0</hero_info>
@@ -16683,6 +16835,82 @@
 		<reward_num>0</reward_num>
 	</activity>
 	<activity id="900079" name="我が名はアテナ" show="false" menu_show="false" end_time="2025/03/27 11:00:00" activity_type="活動事件" activity_val5="false">
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+	</activity>
+	<activity id="900080" name="Fanzine" show="false" menu_show="false" end_time="2025/04/03 11:00:00" activity_type="活動事件" activity_val5="false">
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<hero_info>0</hero_info>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+		<need_target>0</need_target>
+		<reward_type>無</reward_type>
+		<reward_target>0</reward_target>
+		<reward_num>0</reward_num>
+	</activity>
+	<activity id="900081" name="【エイプリルフール】クエスト" show="false" menu_show="false" start_time="2025/03/24 00:00:00" end_time="2025/04/02 00:00:00" activity_type="活動事件" activity_val5="false">
 		<hero_info>0</hero_info>
 		<hero_info>0</hero_info>
 		<hero_info>0</hero_info>

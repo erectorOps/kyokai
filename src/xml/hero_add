@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!-- レビュー規則
 競撃戦、同盟戦での性能に加えて競技場・討伐戦・救援・地下神殿のいずれかで活躍できるキャラはプラス評価
+ランク決めに関してはサポート性能は考慮に入れない
 S: 属性を問わず全コンテンツで必須となる性能を有する出たら必ず引いておかないと損をするキャラ。長期間不動の地位を得たキャラはプラス評価
 A: 特定のコンテンツ、属性で一線級の活躍を出来るキャラ
 B: キャラ性能的、実装キャラ不足状況的に特定のコンテンツでの活躍を期待できるキャラ, 同じ役目を担うキャラが居るので出番は無いが持っていなければ入れたいキャラ
@@ -72,8 +73,19 @@ E: すべてのコンテンツ、属性、戦術において候補に上がる�
 	<hero_add id="2062" rare="SSR" name="ヒサラ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="3人攻撃,行動速度UP"></hero_add>
 	<hero_add id="2063" rare="SSR" name="ビアンカ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="全体攻撃,沈黙,解消"></hero_add>
 	<hero_add id="2064" rare="SSR" name="ナターシャ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="自身バフのみ,バリア"></hero_add>
-	<hero_add id="2065" rare="SSR" name="【優美なる肖像】シャムシェル" gacha_type="報酬" added_date="2023/09/11" obtain="DMMポイント累計チャージ特典" ub_type="3人攻撃,HP吸収"></hero_add>
-	<hero_add id="2066" rare="SSR" name="【優美なる肖像】アイシス" gacha_type="報酬" added_date="2023/09/11" obtain="初心者応援ログインボーナス" ub_type="1人攻撃,攻撃DOWN"></hero_add>
+	<hero_add id="2065" rare="SSR" name="【優美なる肖像】シャムシェル" gacha_type="報酬" added_date="2023/09/11" obtain="DMMポイント累計チャージ特典" ub_type="3人攻撃,HP吸収">
+		<review rank="E">
+			<merit>サポートが優秀な攻撃＆クリなので聖騎士レベルだけ凸るのがオススメ</merit>
+			<demerit>育成しても他のSSRより性能が劣る</demerit>
+		</review>
+	</hero_add>
+	<hero_add id="2066" rare="SSR" name="【優美なる肖像】アイシス" gacha_type="報酬" added_date="2023/09/11" obtain="初心者応援ログインボーナス" ub_type="1人攻撃,攻撃DOWN">
+		<review rank="E">
+			<merit>ログボだけで奥義5にできる為、手持ちが少ない時期に頼りになる</merit>
+			<demerit>育成しても他のSSRより性能が劣る</demerit>
+			<demerit>挑発がなく、耐久力も低め</demerit>
+		</review>
+	</hero_add>
 	<hero_add id="2067" rare="SSR" name="【おてんば人魚姫】ローレリア" gacha_type="シーズンパス" added_date="2023/09/11" obtain="シーズンパスLv50報酬" ub_type="3人攻撃,眩暈,行動速度DOWN"></hero_add>
 	<hero_add id="2068" rare="SSR" name="【祝祭の皇妃】シャムシェル" gacha_type="イベント" added_date="2023/09/14" obtain="イベント「ヴェルン建国祭」期間限定召喚" ub_type="3人攻撃,魅了,防御DOWN"></hero_add>
 	<hero_add id="2069" rare="SSR" name="【祝祭の装い】エスティリエル" gacha_type="イベント" added_date="2023/09/14" obtain="イベント「ヴェルン建国祭」期間限定召喚" ub_type="全体HP回復,デバフ耐性UP,ブロックUP,支援バフ"></hero_add>
@@ -134,13 +146,33 @@ E: すべてのコンテンツ、属性、戦術において候補に上がる�
 			<demerit>召喚できる機会が少ない</demerit>
 		</review>
 	</hero_add>
-	<hero_add id="2120" rare="SSR" name="ラウール" gacha_type="イベント" added_date="2024/03/21" obtain="イベント「脂肪は正義、否、悪魔」期間限定召喚" ub_type="1人攻撃,行動速度UP"></hero_add>
-	<hero_add id="2121" rare="SSR" name="クルール" gacha_type="イベント" added_date="2024/03/21" obtain="イベント「脂肪は正義、否、悪魔」期間限定召喚" ub_type="1人攻撃,防御DOWN,想攻撃UP"></hero_add>
+	<hero_add id="2120" rare="SSR" name="ラウール" gacha_type="イベント" added_date="2024/03/21" obtain="イベント「脂肪は正義、否、悪魔」期間限定召喚" ub_type="1人攻撃,行動速度UP">
+		<review rank="A">
+			<merit>想魔法アタッカーとしてトップクラスの火力</merit>
+			<merit>クルールとセット運用すると魔防ダウンを隙無く付与できる</merit>
+			<merit>クルールより奥義倍率やスキル性能が上</merit>
+			<demerit>奥義ダメージUPが無い</demerit>
+		</review>
+	</hero_add>
+	<hero_add id="2121" rare="SSR" name="クルール" gacha_type="イベント" added_date="2024/03/21" obtain="イベント「脂肪は正義、否、悪魔」期間限定召喚" ub_type="1人攻撃,防御DOWN,想攻撃UP">
+		<review rank="A">
+			<merit>想魔法アタッカーとしてトップクラスの火力</merit>
+			<merit>ラウールとセット運用すると魔防ダウンを隙無く付与できる</merit>
+			<merit>奥義回転率があり奥義ダメージUPがあるのでラウールより救援向き</merit>
+			<demerit>魔クリアップバフが上限に行って腐りがち</demerit>
+		</review>
+	</hero_add>
 	<hero_add id="2122" rare="SR" name="ビューティア" gacha_type="報酬,イベント" added_date="2024/03/21" obtain="イベント「脂肪は正義、否、悪魔」ミッション報酬" ub_type="1人攻撃,行動速度UP"></hero_add>
 	<hero_add id="2123" rare="SSR" name="フィオノーレ" gacha_type="試練の塔" added_date="2024/03/28" obtain="イベント「復活の母乳」期間限定召喚" ub_type="1人攻撃,聖被ダメージUP,聖攻撃UP"></hero_add>
 	<hero_add id="2124" rare="SSR" name="厄叉" gacha_type="恒常" added_date="2024/04/04" obtain="恒常,「DMM PLAYER版リリース記念」先行召喚" ub_type="1人攻撃,防御DOWN,ブロックDOWN,HP吸収"></hero_add>
 	<hero_add id="2125" rare="SSR" name="ニーナ" gacha_type="恒常" added_date="2024/04/11" obtain="恒常,「DMM PLAYER版リリース記念」先行召喚" ub_type="3人攻撃,ブロックDOWN,行動速度DOWN,水被ダメージUP"></hero_add>
-	<hero_add id="2126" rare="SSR" name="アビゲイル" gacha_type="バーストフェス" added_date="2024/04/18" obtain="バーストフェス期間限定召喚" ub_type="1人攻撃,沈黙,盲目"></hero_add>
+	<hero_add id="2126" rare="SSR" name="アビゲイル" gacha_type="バーストフェス" added_date="2024/04/18" obtain="バーストフェス期間限定召喚" ub_type="1人攻撃,沈黙,盲目">
+		<review rank="D">
+			<merit>闘技場で最初に奥義を撃つ聖騎士に先制攻撃とデバフを入れれる</merit>
+			<merit>パッシブ12が闘技場向き</merit>
+			<demerit>闘技場メタ運用が前提なので扱いが難しい,└全体奥義でなく全体バフも無い為普通に使うと弱い</demerit>
+		</review>
+	</hero_add>
 	<hero_add id="2127" rare="SSR" name="【下乳チアガール】ジェミニ" gacha_type="イベント" added_date="2024/04/25" obtain="イベント「GO! FIGHT! WIN!!」期間限定召喚" ub_type="全体バフのみ,行動速度UP,命中UP,支援バフ"></hero_add>
 	<hero_add id="2128" rare="SSR" name="【下乳チアガール】ヴァネッサ" gacha_type="イベント" added_date="2024/04/25" obtain="イベント「GO! FIGHT! WIN!!」期間限定召喚" ub_type="全体バフのみ,行動速度UP,命中UP,支援バフ"></hero_add>
 	<hero_add id="2129" rare="SR" name="【下乳チアガール】ヘンリエッティ" gacha_type="報酬,イベント" added_date="2024/04/25" obtain="イベント「GO! FIGHT! WIN!!」ミッション報酬" ub_type="全体バフのみ,全体HP継続回復,ダメージUP,支援バフ"></hero_add>
@@ -180,7 +212,14 @@ E: すべてのコンテンツ、属性、戦術において候補に上がる�
 	<hero_add id="2163" rare="SSR" name="【無敵の皇妃】グラディス" gacha_type="イベント" added_date="2024/09/12" obtain="イベント「巨大魔獣、襲来」期間限定召喚" ub_type="1人攻撃,クリティカルUP,バリア"></hero_add>
 	<hero_add id="2164" rare="SSR" name="【ヴェルン神聖騎士団団長】フリギス" gacha_type="イベント" added_date="2024/09/12" obtain="イベント「巨大魔獣、襲来」期間限定召喚" ub_type="1人攻撃,沈黙,行動速度UP,ダメージUP"></hero_add>
 	<hero_add id="2165" rare="SR" name="【祝祭のチャイナドレス】ディアナ" gacha_type="報酬,イベント" added_date="2024/09/12" obtain="イベント「巨大魔獣、襲来」ミッション報酬" ub_type="1人攻撃,ブロックDOWN"></hero_add>
-	<hero_add id="2166" rare="SSR" name="シュシュ" gacha_type="バーストフェス" added_date="2024/09/26" obtain="バーストフェス期間限定召喚" ub_type="1人攻撃,防御DOWN,MP回復"></hero_add>
+	<hero_add id="2166" rare="SSR" name="シュシュ" gacha_type="バーストフェス" added_date="2024/09/26" obtain="バーストフェス期間限定召喚" ub_type="1人攻撃,防御DOWN,MP回復">
+		<review rank="A">
+			<merit>精気が3つ溜まった時の奥義2連射が強力</merit>
+			<merit>奥義回転率が異常に高く魔属性アタッカーとしてトップレベル</merit>
+			<merit>自前で微回復できるのでヒーラー無しでも少しは耐える</merit>
+			<demerit>隊列がかなり前列寄りなので集中砲火を食らう</demerit>
+		</review>
+	</hero_add>
 	<hero_add id="2167" rare="SSR" name="【にゃんこ】ルールー" gacha_type="Fanzine" added_date="2024/10/03" obtain="イベント「Fanzine」期間限定召喚" ub_type="1人攻撃,盲目,攻撃UP"></hero_add>
 	<hero_add id="2168" rare="SSR" name="東雲アイル" gacha_type="イベント,コラボ" added_date="2024/10/10" obtain="イベント「にじげんカノジョコラボ　～ようこそ、異世界へ～」期間限定召喚" ub_type="6人攻撃,麻痺,行動速度DOWN"></hero_add>
 	<hero_add id="2169" rare="SSR" name="碧井エリカ" gacha_type="イベント,コラボ" added_date="2024/10/10" obtain="イベント「にじげんカノジョコラボ　～ようこそ、異世界へ～」期間限定召喚" ub_type="3人攻撃,解消,ブロックDOWN"></hero_add>
@@ -208,6 +247,7 @@ E: すべてのコンテンツ、属性、戦術において候補に上がる�
 	<hero_add id="2192" rare="SSR" name="【双子巫女】クルール" gacha_type="Fanzine" added_date="2025/01/09" obtain="イベント「Fanzine」期間限定召喚" ub_type="1人攻撃,解消,防御DOWN">
 		<review rank="A">
 			<merit>現状最強の魔防デバフで汎用パーティで活躍できる</merit>
+			<merit>火属性有利ならアタッカーとしてトップレベル</merit>
 			<demerit>開幕性能は並なので地下神殿や闘技場、討伐戦では出番がない</demerit>
 		</review>
 	</hero_add>
@@ -225,7 +265,12 @@ E: すべてのコンテンツ、属性、戦術において候補に上がる�
 	<hero_add id="2198" rare="SSR" name="【初めてのチョコづくり】カグヤ" gacha_type="イベント" added_date="2025/02/06" obtain="イベント「聖菓のために、我ゆかん」期間限定召喚" ub_type="1人攻撃,盲目,呪い"></hero_add>
 	<hero_add id="2199" rare="SSR" name="【チョコレートはわたし♪】アンジェ" gacha_type="イベント" added_date="2025/02/06" obtain="イベント「聖菓のために、我ゆかん」期間限定召喚" ub_type="3人攻撃,火傷,眩暈,防御DOWN"></hero_add>
 	<hero_add id="2200" rare="SR" name="【チョコづくりメイド】サーカ" gacha_type="報酬,イベント" added_date="2025/02/06" obtain="イベント「聖菓のために、我ゆかん」ミッション報酬" ub_type="1人攻撃,魔被ダメージUP"></hero_add>
-	<hero_add id="2202" rare="SSR" name="麗鬼" gacha_type="バーストフェス" added_date="2025/02/20" obtain="バーストフェス期間限定召喚" ub_type="1人攻撃,火被ダメージUP,火傷,呪い,行動速度UP"></hero_add>
+	<hero_add id="2202" rare="SSR" name="麗鬼" gacha_type="バーストフェス" added_date="2025/02/20" obtain="バーストフェス期間限定召喚" ub_type="1人攻撃,火被ダメージUP,火傷,呪い,行動速度UP">
+		<review rank="A">
+			<merit>全体反射スキルが闘技場でとても強力</merit>
+			<demerit>行動速度+20%が優秀だが大抵ノワ等に上書きされてしまう</demerit>
+		</review>
+	</hero_add>
 	<hero_add id="2205" rare="SSR" name="【生真面目ナース】ラピス" gacha_type="疾走討伐戦" added_date="2025/02/13" obtain="イベント「オッパイ大好きな俺と、生真面目ナース」期間限定召喚" ub_type="全体HP回復,ダメージUP,ブロックUP,バリア,支援バフ"></hero_add>
 	<hero_add id="2201" rare="SSR" name="【小悪魔アイドル】ニーナ" gacha_type="Fanzine" added_date="2025/02/27" obtain="イベント「Fanzine」期間限定召喚" ub_type="全体攻撃,盲目,全体MP継続回復,ダメージUP,支援バフ"></hero_add>
 	<hero_add id="2203" rare="SSR" name="【氷上の芸術家】イルーギオ" gacha_type="同盟戦" added_date="2025/03/06" obtain="「同盟戦・水攻略応援」期間限定召喚" ub_type="3人攻撃,凍結,防御DOWN,行動速度UP,支援バフ"></hero_add>
@@ -244,6 +289,13 @@ E: すべてのコンテンツ、属性、戦術において候補に上がる�
 			<merit>全タンクの中で一番火力が高い</merit>
 			<demerit>挑発がない</demerit>
 			<demerit>聖物理アタッカーは充実しているので競撃戦で出番があるか微妙</demerit>
+		</review>
+	</hero_add>
+	<hero_add id="2208" rare="SSR" name="【ゴスロリ乳魔】シュシュ" gacha_type="Fanzine" added_date="2025/03/27" obtain="イベント「Fanzine」期間限定召喚" ub_type="全体攻撃,水被ダメージUP,命中UP,ダメージUP">
+		<review rank="C">
+			<merit>物理水属性の全体奥義、威力の倍率も高め</merit>
+			<demerit>地下神殿や疾走向きだが開幕奥義が遅くバフを配れない</demerit>
+			<demerit>超高倍率のクリティカルUPバフも元のステータスが激低いので微妙</demerit>
 		</review>
 	</hero_add>
 </root>

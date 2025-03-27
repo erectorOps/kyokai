@@ -2828,4 +2828,32 @@
 		<bonus_cycle>無</bonus_cycle>
 		<bonus_cycle>無</bonus_cycle>
 	</stage_area>
+	<stage_area open="false">
+		<open_cycle>每日</open_cycle>
+		<open_cycle>每日</open_cycle>
+		<bonus_cycle>無</bonus_cycle>
+		<bonus_cycle>無</bonus_cycle>
+		<bonus_cycle>無</bonus_cycle>
+	</stage_area>
+	<stage_area id="507901" open="true" name="【Fanzine】クエスト" bg="eventbg/eventbg22/event_68-bg">
+		<open_cycle>每日</open_cycle>
+		<open_cycle>每日</open_cycle>
+		<bonus_cycle>無</bonus_cycle>
+		<bonus_cycle>無</bonus_cycle>
+		<bonus_cycle>無</bonus_cycle>
+	</stage_area>
+	<stage_area open="false">
+		<open_cycle>每日</open_cycle>
+		<open_cycle>每日</open_cycle>
+		<bonus_cycle>無</bonus_cycle>
+		<bonus_cycle>無</bonus_cycle>
+		<bonus_cycle>無</bonus_cycle>
+	</stage_area>
+	<stage_area id="597901" open="true" name="【エイプリルフール】クエスト" bg="eventbg/eventbg22/event_69-bg">
+		<open_cycle>每日</open_cycle>
+		<open_cycle>每日</open_cycle>
+		<bonus_cycle>無</bonus_cycle>
+		<bonus_cycle>無</bonus_cycle>
+		<bonus_cycle>無</bonus_cycle>
+	</stage_area>
 </root>

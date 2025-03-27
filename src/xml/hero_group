@@ -1040,9 +1040,9 @@
 		<feature_id>307</feature_id>
 		<feature_id>0</feature_id>
 	</hero_group>
-	<hero_group id="2208" pic_id="2208" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" face_x="1" face_y="469" ani_scale="0.2" shadow_scale="0.2" click_chest_x="-42" click_chest_y="175" click_chest_x_range="603" click_chest_y_range="162">
-		<feature_id>0</feature_id>
-		<feature_id>0</feature_id>
+	<hero_group id="2208" pic_id="2208" ex_pic_id="22208" name="【ゴスロリ乳魔】シュシュ" illustration_sequence_num="207" illustration_hero_id="2208" introduction="中列、物理、アタック" attr="水" atk_attr="物理" drawer="カゲシオ" voicer="結城ほのか" height="159cm" measurements="B95(H)/W58/H76" role_set="火力" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="10" face_x="1" face_y="469" ani_scale="0.2" shadow_scale="0.2" cut_in_x="40" cut_in_y="90" cut_in_scale="-0.2" click_chest_x="-42" click_chest_y="175" click_chest_x_range="603" click_chest_y_range="162">
+		<feature_id>302</feature_id>
+		<feature_id>308</feature_id>
 		<feature_id>0</feature_id>
 	</hero_group>
 	<hero_group ignore_grade_skill_limit="false" ignore_ub_skill_limit="false">
@@ -1365,7 +1365,7 @@
 		<feature_id>0</feature_id>
 		<feature_id>0</feature_id>
 	</hero_group>
-	<hero_group id="9047" pic_id="9047" normal_pic_id="19047" name="ソルティナ" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="-30" face_x="-11" face_y="540" ani_scale="0" shadow_scale="0" click_chest_x="-56" click_chest_y="282" click_chest_x_range="300" click_chest_y_range="188">
+	<hero_group id="9047" pic_id="9047" normal_pic_id="19047" name="ソルティナ" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="-30" face_x="-11" face_y="540" ani_scale="0.2" shadow_scale="0.2" click_chest_x="-56" click_chest_y="282" click_chest_x_range="300" click_chest_y_range="188">
 		<feature_id>0</feature_id>
 		<feature_id>0</feature_id>
 		<feature_id>0</feature_id>
@@ -1670,7 +1670,7 @@
 		<feature_id>0</feature_id>
 		<feature_id>0</feature_id>
 	</hero_group>
-	<hero_group id="9207" pic_id="9207" ex_pic_id="22207" name="アテナ" illustration_sequence_num="206" illustration_hero_id="2206" drawer="Q-Gaku" voicer="ももぞの薫" height="170cm" measurements="B110(M)/W62/H101" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="-90" face_x="0" face_y="582" ani_scale="0.2" shadow_scale="0.2" click_chest_x="76" click_chest_y="329" click_chest_x_range="370" click_chest_y_range="238">
+	<hero_group id="9207" pic_id="9207" ex_pic_id="22207" name="アテナ" drawer="Q-Gaku" voicer="ももぞの薫" height="170cm" measurements="B110(M)/W62/H101" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="-90" face_x="0" face_y="582" ani_scale="0.2" shadow_scale="0.2" click_chest_x="76" click_chest_y="329" click_chest_x_range="370" click_chest_y_range="238">
 		<feature_id>0</feature_id>
 		<feature_id>0</feature_id>
 		<feature_id>0</feature_id>
@@ -2680,7 +2680,7 @@
 		<feature_id>0</feature_id>
 		<feature_id>0</feature_id>
 	</hero_group>
-	<hero_group id="1006401" pic_id="1006401" name="女神教大神官長" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" face_x="10" face_y="596">
+	<hero_group id="1006401" pic_id="1006401" normal_pic_id="1106401" name="女神教大神官長" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_y="-120" face_x="10" face_y="596">
 		<feature_id>0</feature_id>
 		<feature_id>0</feature_id>
 		<feature_id>0</feature_id>

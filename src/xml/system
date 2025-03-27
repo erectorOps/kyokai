@@ -89,13 +89,13 @@
 	<system/>
 	<system/>
 	<system def="AP回復商品群組" val="101"/>
-	<system def="AP回復優惠開始時間" val="2025/03/19 03:00:00"/>
+	<system def="AP回復優惠開始時間" val="2025/03/21 03:00:00"/>
 	<system def="AP回復優惠結束時間" val="2025/03/28 03:00:00"/>
 	<system def="AP回復優惠商品群組" val="102"/>
 	<system def="AP回復優惠額度" val="50"/>
 	<system/>
 	<system def="BP回復商品群組" val="201"/>
-	<system def="BP回復優惠開始時間" val="2025/03/19 03:00:00"/>
+	<system def="BP回復優惠開始時間" val="2025/03/21 03:00:00"/>
 	<system def="BP回復優惠結束時間" val="2025/03/28 03:00:00"/>
 	<system def="BP回復優惠商品群組" val="202"/>
 	<system def="BP回復優惠額度" val="50"/>
@@ -476,7 +476,7 @@
 	<system def="飾品4格開放需求英雄等級" val="51"/>
 	<system def="飾品5格開放需求英雄等級" val="61"/>
 	<system/>
-	<system def="新角色影片名稱" val="PS8_hero_2207.mp4"/>
+	<system def="新角色影片名稱" val="PS8_hero_2208.mp4"/>
 	<system def="新角色影片更換時間"/>
 	<system def="新角色影片更換名稱"/>
 	<system/>
@@ -552,7 +552,7 @@
 	<system def="巨乳日開放活動編號" val="2000"/>
 	<system def="巨乳日開放卡池編號" val="80/81/82"/>
 	<system def="巨乳日開放禮包編號" val="kyoweb_oppai_gacha1/kyoweb_oppai_gacha2/kyoweb_oppai_gacha3"/>
-	<system def="巨乳日開放BANNER編號" val="2/3/4/5/6/7/8"/>
+	<system def="巨乳日開放BANNER編號" val="1/2/3/4/5/6/7"/>
 	<system/>
 	<system def="巨乳日資源收集重置優惠商品群組" val="502"/>
 	<system def="巨乳日資源收集重置優惠額度" val="50"/>
@@ -615,4 +615,6 @@
 	<system def="RAID救援額外增加箱數" val="1"/>
 	<system def="RAID救援額外增加箱數開始時間" val="2025-02-22 00:00:00"/>
 	<system def="RAID救援額外增加箱數結束時間" val="2025-02-22 23:59:59"/>
+	<system/>
+	<system def="愚人節招募ID" val="9999999"/>
 </root>

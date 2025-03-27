@@ -800,7 +800,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="60101" name="デイリーミッションを3個クリアする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" all_finish="true" quest_content1="デイリーミッションを3個クリアする" quest_type_1="完成每日任務數量" finish_number_1="3" award_bonus_scale="1" award_bonus_start_time="2025/03/19 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="商城幣" award_number_1="30">
+	<quest_normal_1 id="60101" name="デイリーミッションを3個クリアする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" all_finish="true" quest_content1="デイリーミッションを3個クリアする" quest_type_1="完成每日任務數量" finish_number_1="3" award_bonus_scale="1" award_bonus_start_time="2025/03/21 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="商城幣" award_number_1="30">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -810,7 +810,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="60102" name="デイリーミッションを6個クリアする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" all_finish="true" quest_content1="デイリーミッションを6個クリアする" quest_type_1="完成每日任務數量" finish_number_1="6" award_bonus_scale="1" award_bonus_start_time="2025/03/19 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="商城幣" award_number_1="60">
+	<quest_normal_1 id="60102" name="デイリーミッションを6個クリアする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" all_finish="true" quest_content1="デイリーミッションを6個クリアする" quest_type_1="完成每日任務數量" finish_number_1="6" award_bonus_scale="1" award_bonus_start_time="2025/03/21 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="商城幣" award_number_1="60">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -830,7 +830,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="60201" name="召喚を1回行う" open="true" hide="false" class="固定每日" restart_cycle="每日重置" all_finish="true" quest_content1="召喚を1回行う" quest_type_1="商城幣轉蛋次數" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/19 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="道具" award_target_1="3402" award_number_1="1" activity="15">
+	<quest_normal_1 id="60201" name="召喚を1回行う" open="true" hide="false" class="固定每日" restart_cycle="每日重置" all_finish="true" quest_content1="召喚を1回行う" quest_type_1="商城幣轉蛋次數" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/21 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="道具" award_target_1="3402" award_number_1="1" activity="15">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -840,7 +840,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="60202" name="装備召喚を1回行う" open="true" hide="false" class="固定每日" restart_cycle="每日重置" all_finish="true" quest_content1="装備召喚を1回行う" quest_type_1="裝備轉蛋次數" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/19 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="道具" award_target_1="3602" award_number_1="1" activity="15">
+	<quest_normal_1 id="60202" name="装備召喚を1回行う" open="true" hide="false" class="固定每日" restart_cycle="每日重置" all_finish="true" quest_content1="装備召喚を1回行う" quest_type_1="裝備轉蛋次數" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/21 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="道具" award_target_1="3602" award_number_1="1" activity="15">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -850,7 +850,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="60203" name="メインクエストを1回クリアする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" all_finish="true" quest_content1="メインクエストを1回クリアする" quest_type_1="主線關卡通關次數" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/19 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="道具" award_target_1="9037" award_number_1="1" activity="15">
+	<quest_normal_1 id="60203" name="メインクエストを1回クリアする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" all_finish="true" quest_content1="メインクエストを1回クリアする" quest_type_1="主線關卡通關次數" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/21 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="道具" award_target_1="9037" award_number_1="1" activity="15">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -860,7 +860,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="60204" name="聖騎士に絆アイテムを1個プレゼント" open="true" hide="false" class="固定每日" restart_cycle="每日重置" player_level_limit="19" all_finish="true" quest_content1="聖騎士に絆アイテムを1個プレゼント" quest_type_1="角色絆強化次數" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/19 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="道具" award_target_1="3002" award_number_1="5" activity="15">
+	<quest_normal_1 id="60204" name="聖騎士に絆アイテムを1個プレゼント" open="true" hide="false" class="固定每日" restart_cycle="每日重置" player_level_limit="19" all_finish="true" quest_content1="聖騎士に絆アイテムを1個プレゼント" quest_type_1="角色絆強化次數" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/21 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="道具" award_target_1="3002" award_number_1="5" activity="15">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -870,7 +870,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="60205" name="資源収集の任意クエストを1回クリアする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" pre_player_level="5" all_finish="true" quest_content1="資源収集の任意クエストを1回クリアする" quest_type_1="資源關卡數量" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/19 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="商城幣" award_number_1="10" activity="15">
+	<quest_normal_1 id="60205" name="資源収集の任意クエストを1回クリアする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" pre_player_level="5" all_finish="true" quest_content1="資源収集の任意クエストを1回クリアする" quest_type_1="資源關卡數量" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/21 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="商城幣" award_number_1="10" activity="15">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -880,7 +880,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="60206" name="遺跡の任意クエストを1回クリアする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" pre_player_level="10" all_finish="true" quest_content1="遺跡の任意クエストを1回クリアする" quest_type_1="遺跡週期關卡數量" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/19 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="商城幣" award_number_1="10" activity="15">
+	<quest_normal_1 id="60206" name="遺跡の任意クエストを1回クリアする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" pre_player_level="10" all_finish="true" quest_content1="遺跡の任意クエストを1回クリアする" quest_type_1="遺跡週期關卡數量" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/21 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="商城幣" award_number_1="10" activity="15">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -890,7 +890,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="60207" name="迷宮を1回チャレンジする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" pre_player_level="13" all_finish="true" quest_content1="迷宮を1回チャレンジする" quest_type_1="塔通關數量" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/19 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="商城幣" award_number_1="10" activity="15">
+	<quest_normal_1 id="60207" name="迷宮を1回チャレンジする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" pre_player_level="13" all_finish="true" quest_content1="迷宮を1回チャレンジする" quest_type_1="塔通關數量" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/21 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="商城幣" award_number_1="10" activity="15">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -900,7 +900,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="60208" name="任意の救援戦を1回開催する" open="true" hide="false" class="固定每日" restart_cycle="每日重置" pre_player_level="15" all_finish="true" quest_content1="任意の救援戦を1回開催する" quest_type_1="RAID戰自發次數" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/19 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="商城幣" award_number_1="10" activity="15">
+	<quest_normal_1 id="60208" name="任意の救援戦を1回開催する" open="true" hide="false" class="固定每日" restart_cycle="每日重置" pre_player_level="15" all_finish="true" quest_content1="任意の救援戦を1回開催する" quest_type_1="RAID戰自發次數" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/21 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="商城幣" award_number_1="10" activity="15">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -910,7 +910,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="60209" name="BPを1点消費する" open="true" hide="false" class="固定每日" restart_cycle="每日重置" pre_player_level="15" all_finish="true" quest_content1="BPを1点消費する" quest_type_1="消耗BP累積量" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/19 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="商城幣" award_number_1="10" activity="15">
+	<quest_normal_1 id="60209" name="BPを1点消費する" open="true" hide="false" class="固定每日" restart_cycle="每日重置" pre_player_level="15" all_finish="true" quest_content1="BPを1点消費する" quest_type_1="消耗BP累積量" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/21 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="商城幣" award_number_1="10" activity="15">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -920,7 +920,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="60210" name="闘技場を1回チャレンジする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" pre_player_level="20" all_finish="true" quest_content1="闘技場を1回チャレンジする" quest_type_1="進行競技場次數" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/19 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="商城幣" award_number_1="10" award_type_2="道具" award_target_2="3002" award_number_2="5" activity="15">
+	<quest_normal_1 id="60210" name="闘技場を1回チャレンジする" open="true" hide="false" class="固定每日" restart_cycle="每日重置" pre_player_level="20" all_finish="true" quest_content1="闘技場を1回チャレンジする" quest_type_1="進行競技場次數" finish_number_1="1" award_bonus_scale="1" award_bonus_start_time="2025/03/21 03:00:00" award_bonus_end_time="2025/03/28 03:00:00" award_type_1="商城幣" award_number_1="10" award_type_2="道具" award_target_2="3002" award_number_2="5" activity="15">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -14890,7 +14890,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="101202" name="メインストーリーNormal第12章第3節を全クリア" open="true" hide="false" class="一般任務" restart_cycle="不重置" pre_quest="101201" all_finish="true" quest_content1="メインストーリーNormal第12章第3節を全クリア" quest_type_1="完成關卡進度" quest_target_1_1="10120105" finish_number_1="1" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3404" award_number_2="10" award_type_3="道具" award_target_3="3003" award_number_3="20">
+	<quest_normal_1 id="101202" name="メインストーリーNormal第12章第3節を全クリア" open="true" hide="false" class="一般任務" restart_cycle="不重置" pre_quest="101201" all_finish="true" quest_content1="メインストーリーNormal第12章第3節を全クリア" quest_type_1="完成關卡進度" quest_target_1_1="10120205" finish_number_1="1" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3404" award_number_2="10" award_type_3="道具" award_target_3="3003" award_number_3="20">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -14900,7 +14900,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="101203" name="メインストーリーNormal第12章第5節を全クリア" open="true" hide="false" class="一般任務" restart_cycle="不重置" pre_quest="101202" all_finish="true" quest_content1="メインストーリーNormal第12章第5節を全クリア" quest_type_1="完成關卡進度" quest_target_1_1="10120306" finish_number_1="1" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3404" award_number_2="10" award_type_3="道具" award_target_3="3003" award_number_3="20">
+	<quest_normal_1 id="101203" name="メインストーリーNormal第12章第5節を全クリア" open="true" hide="false" class="一般任務" restart_cycle="不重置" pre_quest="101202" all_finish="true" quest_content1="メインストーリーNormal第12章第5節を全クリア" quest_type_1="完成關卡進度" quest_target_1_1="10120305" finish_number_1="1" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3404" award_number_2="10" award_type_3="道具" award_target_3="3003" award_number_3="20">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -14910,7 +14910,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="101204" name="メインストーリーNormal第12章第7節を全クリア" open="true" hide="false" class="一般任務" restart_cycle="不重置" pre_quest="101203" all_finish="true" quest_content1="メインストーリーNormal第12章第7節を全クリア" quest_type_1="完成關卡進度" quest_target_1_1="10120306" finish_number_1="1" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3404" award_number_2="10" award_type_3="道具" award_target_3="3003" award_number_3="20">
+	<quest_normal_1 id="101204" name="メインストーリーNormal第12章第7節を全クリア" open="true" hide="false" class="一般任務" restart_cycle="不重置" pre_quest="101203" all_finish="true" quest_content1="メインストーリーNormal第12章第7節を全クリア" quest_type_1="完成關卡進度" quest_target_1_1="10120406" finish_number_1="1" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3404" award_number_2="10" award_type_3="道具" award_target_3="3003" award_number_3="20">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -14920,7 +14920,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="101205" name="メインストーリーNormal第12章第9節を全クリア" open="true" hide="false" class="一般任務" restart_cycle="不重置" pre_quest="101204" all_finish="true" quest_content1="メインストーリーNormal第12章第9節を全クリア" quest_type_1="完成關卡進度" quest_target_1_1="10120306" finish_number_1="1" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3404" award_number_2="10" award_type_3="道具" award_target_3="3003" award_number_3="20">
+	<quest_normal_1 id="101205" name="メインストーリーNormal第12章第9節を全クリア" open="true" hide="false" class="一般任務" restart_cycle="不重置" pre_quest="101204" all_finish="true" quest_content1="メインストーリーNormal第12章第9節を全クリア" quest_type_1="完成關卡進度" quest_target_1_1="10120505" finish_number_1="1" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3404" award_number_2="10" award_type_3="道具" award_target_3="3003" award_number_3="20">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -14930,7 +14930,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="101206" name="メインストーリーNormal第12章第11節を全クリア" open="true" hide="false" class="一般任務" restart_cycle="不重置" pre_quest="101205" all_finish="true" quest_content1="メインストーリーNormal第12章第11節を全クリア" quest_type_1="完成關卡進度" quest_target_1_1="10120606" finish_number_1="1" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3404" award_number_2="10" award_type_3="道具" award_target_3="3003" award_number_3="20">
+	<quest_normal_1 id="101206" name="メインストーリーNormal第12章第11節を全クリア" open="true" hide="false" class="一般任務" restart_cycle="不重置" pre_quest="101205" all_finish="true" quest_content1="メインストーリーNormal第12章第11節を全クリア" quest_type_1="完成關卡進度" quest_target_1_1="10120605" finish_number_1="1" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3404" award_number_2="10" award_type_3="道具" award_target_3="3003" award_number_3="20">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -14940,7 +14940,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="101207" name="メインストーリーNormal第12章第13節を全クリア" open="true" hide="false" class="一般任務" restart_cycle="不重置" pre_quest="101206" all_finish="true" quest_content1="メインストーリーNormal第12章第13節を全クリア" quest_type_1="完成關卡進度" quest_target_1_1="10120706" finish_number_1="1" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3404" award_number_2="10" award_type_3="道具" award_target_3="3003" award_number_3="20">
+	<quest_normal_1 id="101207" name="メインストーリーNormal第12章第13節を全クリア" open="true" hide="false" class="一般任務" restart_cycle="不重置" pre_quest="101206" all_finish="true" quest_content1="メインストーリーNormal第12章第13節を全クリア" quest_type_1="完成關卡進度" quest_target_1_1="10120705" finish_number_1="1" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3404" award_number_2="10" award_type_3="道具" award_target_3="3003" award_number_3="20">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -14950,7 +14950,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="101208" name="メインストーリーNormal第12章第15節を全クリア" open="true" hide="false" class="一般任務" restart_cycle="不重置" pre_quest="101207" all_finish="true" quest_content1="メインストーリーNormal第12章第15節を全クリア" quest_type_1="完成關卡進度" quest_target_1_1="10120806" finish_number_1="1" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3404" award_number_2="10" award_type_3="道具" award_target_3="3003" award_number_3="20">
+	<quest_normal_1 id="101208" name="メインストーリーNormal第12章第15節を全クリア" open="true" hide="false" class="一般任務" restart_cycle="不重置" pre_quest="101207" all_finish="true" quest_content1="メインストーリーNormal第12章第15節を全クリア" quest_type_1="完成關卡進度" quest_target_1_1="10120805" finish_number_1="1" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3404" award_number_2="10" award_type_3="道具" award_target_3="3003" award_number_3="20">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -14960,7 +14960,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="101209" name="メインストーリーNormal第12章第16節を全クリア" open="true" hide="false" class="一般任務" restart_cycle="不重置" pre_quest="101208" all_finish="true" quest_content1="メインストーリーNormal第12章第16節を全クリア" quest_type_1="完成關卡進度" quest_target_1_1="10120806" finish_number_1="1" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3404" award_number_2="10" award_type_3="道具" award_target_3="3003" award_number_3="20">
+	<quest_normal_1 id="101209" name="メインストーリーNormal第12章第16節を全クリア" open="true" hide="false" class="一般任務" restart_cycle="不重置" pre_quest="101208" all_finish="true" quest_content1="メインストーリーNormal第12章第16節を全クリア" quest_type_1="完成關卡進度" quest_target_1_1="10120904" finish_number_1="1" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3404" award_number_2="10" award_type_3="道具" award_target_3="3003" award_number_3="20">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -14970,7 +14970,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="101210" name="メインストーリーNormal第12章第19節を全クリア" open="true" hide="false" class="一般任務" restart_cycle="不重置" pre_quest="101209" all_finish="true" quest_content1="メインストーリーNormal第12章第19節を全クリア" quest_type_1="完成關卡進度" quest_target_1_1="10121007" finish_number_1="1" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3404" award_number_2="10" award_type_3="道具" award_target_3="3003" award_number_3="20">
+	<quest_normal_1 id="101210" name="メインストーリーNormal第12章第19節を全クリア" open="true" hide="false" class="一般任務" restart_cycle="不重置" pre_quest="101209" all_finish="true" quest_content1="メインストーリーNormal第12章第19節を全クリア" quest_type_1="完成關卡進度" quest_target_1_1="10121005" finish_number_1="1" award_type_1="商城幣" award_number_1="100" award_type_2="道具" award_target_2="3404" award_number_2="10" award_type_3="道具" award_target_3="3003" award_number_3="20">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>
@@ -14980,7 +14980,7 @@
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 	</quest_normal_1>
-	<quest_normal_1 id="101211" name="メインストーリーNormal第12章を全クリア" open="true" hide="false" class="一般任務" restart_cycle="不重置" pre_quest="101210" all_finish="true" quest_content1="メインストーリーNormal第12章を全クリア" quest_type_1="完成關卡進度" quest_target_1_1="10121007" finish_number_1="1" award_type_1="商城幣" award_number_1="200" award_type_2="道具" award_target_2="3404" award_number_2="20" award_type_3="道具" award_target_3="3003" award_number_3="20">
+	<quest_normal_1 id="101211" name="メインストーリーNormal第12章を全クリア" open="true" hide="false" class="一般任務" restart_cycle="不重置" pre_quest="101210" all_finish="true" quest_content1="メインストーリーNormal第12章を全クリア" quest_type_1="完成關卡進度" quest_target_1_1="10121005" finish_number_1="1" award_type_1="商城幣" award_number_1="200" award_type_2="道具" award_target_2="3404" award_number_2="20" award_type_3="道具" award_target_3="3003" award_number_3="20">
 		<pre_hero_group_id>0</pre_hero_group_id>
 		<pre_hero_gp_lv>0</pre_hero_gp_lv>
 		<pre_hero_group_id>0</pre_hero_group_id>

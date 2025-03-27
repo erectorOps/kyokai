@@ -150,7 +150,7 @@
 		<button_show>無</button_show>
 		<button_show>無</button_show>
 	</arrive>
-	<arrive id="2009" sort="5" type="競擊戰模式" name="競擊戰模式" icon="arrive-limit/2" end_time="2025/03/27 11:00:00" close_time="2025/03/27 11:00:00" show="true">
+	<arrive id="2009" sort="3" type="競擊戰模式" name="競擊戰模式" icon="arrive-limit/3" end_time="2025/04/10 11:00:00" close_time="2025/04/10 11:00:00" show="true">
 		<button_show>無</button_show>
 		<button_show>無</button_show>
 		<button_show>無</button_show>
@@ -980,7 +980,7 @@
 		<button_show>無</button_show>
 		<button_show>無</button_show>
 	</arrive>
-	<arrive id="2075" sort="8" type="活動" activity_mode_id="900075" name="【Fanzine】クエスト" icon="arrive-2075/event_63" hero_group_id="2201" stage_hero_group_id="2201" stage_world_id="5075" activity_draw_id="179" ap_bonus_hero_special_id="207501" ap_bonus_stage_site_id="50750116" mini_game_id="8" end_time="2025/03/06 11:00:00" close_time="2025/03/13 11:00:00" show="true">
+	<arrive id="2075" type="活動" activity_mode_id="900075" name="【Fanzine】クエスト" icon="arrive-2075/event_63" hero_group_id="2201" stage_hero_group_id="2201" stage_world_id="5075" activity_draw_id="179" ap_bonus_hero_special_id="207501" ap_bonus_stage_site_id="50750116" mini_game_id="8" end_time="2025/03/06 11:00:00" close_time="2025/03/13 11:00:00" show="true">
 		<button_show>無</button_show>
 		<button_show>無</button_show>
 		<button_show>無</button_show>
@@ -990,7 +990,7 @@
 		<button_show>無</button_show>
 		<button_show>無</button_show>
 	</arrive>
-	<arrive id="2076" sort="6" type="活動" activity_mode_id="900076" name="物資調達" icon="arrive-2076/event_64" hero_group_id="2119" stage_hero_group_id="2119" stage_world_id="5076" shop_id="2010" end_time="2025/03/13 11:00:00" close_time="2025/03/20 11:00:00" show="true">
+	<arrive id="2076" type="活動" activity_mode_id="900076" name="物資調達" icon="arrive-2076/event_64" hero_group_id="2119" stage_hero_group_id="2119" stage_world_id="5076" shop_id="2010" end_time="2025/03/13 11:00:00" close_time="2025/03/20 11:00:00" show="true">
 		<button_show>交換所</button_show>
 		<button_show>無</button_show>
 		<button_show>無</button_show>
@@ -1010,7 +1010,7 @@
 		<button_show>無</button_show>
 		<button_show>無</button_show>
 	</arrive>
-	<arrive id="2876" sort="3" type="投票" activity_mode_id="206" name="第2回聖騎士覚醒投票" icon="arrive-2076/vote" end_time="2025/03/20 11:00:00" close_time="2025/03/27 11:00:00" show="true">
+	<arrive id="2876" sort="5" type="投票" activity_mode_id="206" name="第2回聖騎士覚醒投票" icon="arrive-2076/vote" end_time="2025/03/20 11:00:00" close_time="2025/03/27 11:00:00" show="true">
 		<button_show>無</button_show>
 		<button_show>無</button_show>
 		<button_show>無</button_show>
@@ -1020,7 +1020,7 @@
 		<button_show>無</button_show>
 		<button_show>無</button_show>
 	</arrive>
-	<arrive id="2077" sort="4" type="活動" activity_mode_id="900078" name="【1.5周年】特別クエスト" icon="arrive-2077/event_66" hero_group_id="2206" stage_hero_group_id="2206" stage_world_id="5077" shop_id="9008" end_time="2025/03/27 11:00:00" close_time="2025/04/03 11:00:00" show="true">
+	<arrive id="2077" sort="6" type="活動" activity_mode_id="900078" name="【1.5周年】特別クエスト" icon="arrive-2077/event_66" hero_group_id="2206" stage_hero_group_id="2206" stage_world_id="5077" shop_id="9008" end_time="2025/03/27 11:00:00" close_time="2025/04/03 11:00:00" show="true">
 		<button_show>交換所</button_show>
 		<button_show>無</button_show>
 		<button_show>無</button_show>
@@ -1030,8 +1030,28 @@
 		<button_show>無</button_show>
 		<button_show>無</button_show>
 	</arrive>
-	<arrive id="2078" sort="2" type="活動" activity_mode_id="900079" name="我が名はアテナ" icon="arrive-2078/event_67" hero_group_id="2207" stage_hero_group_id="2207" stage_world_id="5078" activity_lottery_id="910096" activity_draw_id="190" contribution_buff_special_id="207801" normal_boss_id="50781" hard_boss_id="50782" very_hard_boss_id="50783" boss_cost_item_id="1559" end_time="2025/03/27 11:00:00" close_time="2025/04/03 11:00:00" show="true">
+	<arrive id="2078" sort="4" type="活動" activity_mode_id="900079" name="我が名はアテナ" icon="arrive-2078/event_67" hero_group_id="2207" stage_hero_group_id="2207" stage_world_id="5078" activity_lottery_id="910096" activity_draw_id="190" contribution_buff_special_id="207801" normal_boss_id="50781" hard_boss_id="50782" very_hard_boss_id="50783" boss_cost_item_id="1559" end_time="2025/03/27 11:00:00" close_time="2025/04/03 11:00:00" show="true">
 		<button_show>一番賞</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2079" sort="2" type="活動" activity_mode_id="900080" name="【Fanzine】クエスト" icon="arrive-2079/event_68" hero_group_id="2208" stage_hero_group_id="2208" stage_world_id="5079" activity_draw_id="192" ap_bonus_hero_special_id="207901" mini_game_id="9" end_time="2025/04/03 11:00:00" close_time="2025/04/10 11:00:00" show="true">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive show="false">
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+		<button_show>無</button_show>
+	</arrive>
+	<arrive id="2979" type="活動" activity_mode_id="900081" name="【エープリルフール】クエスト" icon="arrive-2079/event_69" hero_group_id="1001501" stage_hero_group_id="1001501" stage_world_id="5979" start_time="2025/03/24 00:00:00" end_time="2025/04/02 00:00:00" close_time="2025/04/02 00:00:00" show="true">
+		<button_show>無</button_show>
 		<button_show>無</button_show>
 		<button_show>無</button_show>
 	</arrive>

@@ -10567,56 +10567,61 @@
 	<hero_talk id="2207" talk_type="角色背景3" pre_gp_lv="3" talk_text="アテナはオリュンポスでも、１、２位を誇る超乳の女神。&#xA;そして知恵と勇気の女神。&#xA;ヘーパイストスが鍛えた剣を振るえば、戦の神マルスとも互角に戦う。&#xA;さらに剣だけでなく、遠隔武器も操る。&#xA;人は言う。&#xA;それ、「ファ●ネルじゃ……」&#xA;&#xA;指摘した者はアテナの剣に斬られたという。&#xA;恐ろしや、アテナ。"/>
 	<hero_talk id="2207" talk_type="角色背景4" pre_gp_lv="4" talk_text="アテナが扱う遠隔武器は、上下非対称の菱形の形状をしている。&#xA;漏斗（じょうご）の形ではない。&#xA;ぱっと見は盾に見えるが、盾ではない。&#xA;そして何かと違ってビームは出ない。&#xA;敵に体当たりして攻撃を浴びせる。&#xA;アテナは智略の女神としても知られているが、遠隔武器の攻撃の仕方は素朴である。"/>
 	<hero_talk/>
-	<hero_talk id="2208" talk_type="召喚自我介紹" pre_gp_lv="0" talk_face="01" talk_voice="2208/K2208_0001"/>
-	<hero_talk id="2208" talk_type="登入_副官" pre_gp_lv="0" talk_face="01" talk_voice="2208/K2208_0002"/>
-	<hero_talk id="2208" talk_type="觸摸1_副官" pre_gp_lv="0" talk_face="04" talk_voice="2208/K2208_0003"/>
-	<hero_talk id="2208" talk_type="觸摸2_副官" pre_gp_lv="0" talk_face="01" talk_voice="2208/K2208_0004"/>
-	<hero_talk id="2208" talk_type="觸摸3_副官" pre_gp_lv="0" talk_face="02" talk_voice="2208/K2208_0005"/>
-	<hero_talk id="2208" talk_type="放置_副官" pre_gp_lv="0" talk_face="06" talk_voice="2208/K2208_0006"/>
-	<hero_talk id="2208" talk_type="出戰" pre_gp_lv="0" talk_face="04" talk_voice="2208/K2208_0007"/>
-	<hero_talk id="2208" talk_type="開場" pre_gp_lv="0" talk_face="04" talk_voice="2208/K2208_0008"/>
-	<hero_talk id="2208" talk_type="技能1" pre_gp_lv="0" talk_face="04" talk_voice="2208/K2208_0009"/>
-	<hero_talk id="2208" talk_type="技能2" pre_gp_lv="0" talk_face="04" talk_voice="2208/K2208_0010"/>
-	<hero_talk id="2208" talk_type="奧義1" pre_gp_lv="0" talk_face="05" talk_voice="2208/K2208_0011"/>
-	<hero_talk id="2208" talk_type="奧義2" pre_gp_lv="0" talk_face="05" talk_voice="2208/K2208_0012"/>
-	<hero_talk id="2208" talk_type="勝利" pre_gp_lv="0" talk_face="03" talk_voice="2208/K2208_0013"/>
-	<hero_talk id="2208" talk_type="戰敗" pre_gp_lv="0" talk_face="06" talk_voice="2208/K2208_0014"/>
-	<hero_talk id="2208" talk_type="一般強化1" pre_gp_lv="0" talk_face="01" talk_voice="2208/K2208_0015"/>
-	<hero_talk id="2208" talk_type="一般強化2" pre_gp_lv="0" talk_face="01" talk_voice="2208/K2208_0016"/>
-	<hero_talk id="2208" talk_type="一般強化3" pre_gp_lv="0" talk_face="02" talk_voice="2208/K2208_0017"/>
-	<hero_talk id="2208" talk_type="最高階強化" pre_gp_lv="0" talk_face="02" talk_voice="2208/K2208_0018"/>
-	<hero_talk id="2208" talk_type="好感1" pre_gp_lv="1" talk_face="01" talk_voice="2208/K2208_0019"/>
-	<hero_talk id="2208" talk_type="好感2" pre_gp_lv="2" talk_face="01" talk_voice="2208/K2208_0020"/>
-	<hero_talk id="2208" talk_type="好感3" pre_gp_lv="3" talk_face="02" talk_voice="2208/K2208_0021"/>
-	<hero_talk id="2208" talk_type="好感4" pre_gp_lv="4" talk_face="02" talk_voice="2208/K2208_0022"/>
-	<hero_talk id="2208" talk_type="好感5" pre_gp_lv="4" talk_face="03" talk_voice="2208/K2208_0023"/>
-	<hero_talk id="2208" talk_type="胸部低好感" pre_gp_lv="0" talk_face="04" talk_voice="2208/K2208_0024"/>
-	<hero_talk id="2208" talk_type="胸部中好感" pre_gp_lv="1" talk_face="01" talk_voice="2208/K2208_0025"/>
-	<hero_talk id="2208" talk_type="胸部高好感" pre_gp_lv="2" talk_face="02" talk_voice="2208/K2208_0026"/>
-	<hero_talk id="2208" talk_type="贈禮1" pre_gp_lv="0" talk_face="02" talk_voice="2208/K2208_0027"/>
-	<hero_talk id="2208" talk_type="贈禮2" pre_gp_lv="3" talk_face="02" talk_voice="2208/K2208_0028"/>
-	<hero_talk id="2208" talk_type="派駐對話1" pre_gp_lv="0" talk_face="01" talk_voice="2208/K2208_0029"/>
-	<hero_talk id="2208" talk_type="派駐對話2" pre_gp_lv="3" talk_face="01" talk_voice="2208/K2208_0030"/>
-	<hero_talk id="2208" talk_type="遊戲標題" pre_gp_lv="0" talk_face="01" talk_voice="2208/K2208_0031"/>
-	<hero_talk id="2208" talk_type="肯定" pre_gp_lv="0" talk_face="01" talk_voice="2208/K2208_0032"/>
-	<hero_talk id="2208" talk_type="否定" pre_gp_lv="0" talk_face="01" talk_voice="2208/K2208_0033"/>
-	<hero_talk id="2208" talk_type="思考" pre_gp_lv="0" talk_face="04" talk_voice="2208/K2208_0034"/>
-	<hero_talk id="2208" talk_type="疑念" pre_gp_lv="0" talk_face="01" talk_voice="2208/K2208_0035"/>
-	<hero_talk id="2208" talk_type="唸る" pre_gp_lv="0" talk_face="01" talk_voice="2208/K2208_0036"/>
-	<hero_talk id="2208" talk_type="驚愕" pre_gp_lv="0" talk_face="08" talk_voice="2208/K2208_0037"/>
-	<hero_talk id="2208" talk_type="ムカッ" pre_gp_lv="0" talk_face="04" talk_voice="2208/K2208_0038"/>
-	<hero_talk id="2208" talk_type="怒る" pre_gp_lv="0" talk_face="05" talk_voice="2208/K2208_0039"/>
-	<hero_talk id="2208" talk_type="焦り" pre_gp_lv="0" talk_face="07" talk_voice="2208/K2208_0040"/>
-	<hero_talk id="2208" talk_type="ダメージ時" pre_gp_lv="0" talk_face="06" talk_voice="2208/K2208_0041"/>
-	<hero_talk id="2208" talk_type="ため息" pre_gp_lv="0" talk_face="06" talk_voice="2208/K2208_0042"/>
-	<hero_talk id="2208" talk_type="自責" pre_gp_lv="0" talk_face="06" talk_voice="2208/K2208_0043"/>
-	<hero_talk id="2208" talk_type="喜び" pre_gp_lv="0" talk_face="02" talk_voice="2208/K2208_0044"/>
-	<hero_talk id="2208" talk_type="笑い" pre_gp_lv="0" talk_face="03" talk_voice="2208/K2208_0045"/>
-	<hero_talk id="2208" talk_type="照れ" pre_gp_lv="0" talk_face="09" talk_voice="2208/K2208_0046"/>
-	<hero_talk id="2208" talk_type="角色背景1" pre_gp_lv="1"/>
-	<hero_talk id="2208" talk_type="角色背景2" pre_gp_lv="2"/>
-	<hero_talk id="2208" talk_type="角色背景3" pre_gp_lv="3"/>
-	<hero_talk id="2208" talk_type="角色背景4" pre_gp_lv="4"/>
+	<hero_talk id="2208" talk_type="召喚自我介紹" pre_gp_lv="0" talk_face="01" talk_text="たまにはこうしておしとやかに……。えっ？　何？　誘惑してほしいならすぐするけど？" talk_voice="2208/K2208_0001"/>
+	<hero_talk id="2208" talk_type="登入_副官" pre_gp_lv="0" talk_face="01" talk_text="おかえりなさいませ、旦那様♪　なんて言ったらドキドキする～？" talk_voice="2208/K2208_0002"/>
+	<hero_talk id="2208" talk_type="觸摸1_副官" pre_gp_lv="0" talk_face="08" talk_text="きゃ、お乳はもっと上……。んっ？　オッパイに触りたいのかと思った" talk_voice="2208/K2208_0003"/>
+	<hero_talk id="2208" talk_type="觸摸2_副官" pre_gp_lv="0" talk_face="03" talk_text="あはっ、あははっ♪　そんなにくすぐられたら笑っちゃう！" talk_voice="2208/K2208_0004"/>
+	<hero_talk id="2208" talk_type="觸摸3_副官" pre_gp_lv="0" talk_face="02" talk_text="え～？　もしかして誘ってる？　いいけど、返り討ちにしちゃうかもよ～？" talk_voice="2208/K2208_0005"/>
+	<hero_talk id="2208" talk_type="放置_副官" pre_gp_lv="0" talk_face="03" talk_text="日傘をくるくる～♪　ん、可愛い♪　テンション上がっちゃう♪" talk_voice="2208/K2208_0006"/>
+	<hero_talk id="2208" talk_type="出戰" pre_gp_lv="0" talk_face="04" talk_text="泣かせてほしいのはだ～れ？" talk_voice="2208/K2208_0007"/>
+	<hero_talk id="2208" talk_type="開場" pre_gp_lv="0" talk_face="02" talk_text="レディらしく、可憐にやっつけちゃう！" talk_voice="2208/K2208_0008"/>
+	<hero_talk id="2208" talk_type="技能1" pre_gp_lv="0" talk_face="04" talk_text="あらあら、ごめんあそばせ～♪" talk_voice="2208/K2208_0009"/>
+	<hero_talk id="2208" talk_type="技能2" pre_gp_lv="0" talk_face="05" talk_text="やだ、この服汚したくないんだってばっ" talk_voice="2208/K2208_0010"/>
+	<hero_talk id="2208" talk_type="奧義1" pre_gp_lv="0" talk_face="05" talk_text="エレガントな死をプレゼントしてあげる！　好きであふれたきらめく世界" talk_voice="2208/K2208_0011"/>
+	<hero_talk id="2208" talk_type="奧義2" pre_gp_lv="0" talk_face="05" talk_text="好きであふれたきらめく世界" talk_voice="2208/K2208_0012"/>
+	<hero_talk id="2208" talk_type="勝利" pre_gp_lv="0" talk_face="03" talk_text="ふっふふふ♪　当然の勝利ですわ♪" talk_voice="2208/K2208_0013"/>
+	<hero_talk id="2208" talk_type="戰敗" pre_gp_lv="0" talk_face="06" talk_text="んぁあああっ、ル、ルスト様ぁ～っ！" talk_voice="2208/K2208_0014"/>
+	<hero_talk id="2208" talk_type="一般強化1" pre_gp_lv="0" talk_face="01" talk_text="お嬢様っぽくなった？" talk_voice="2208/K2208_0015"/>
+	<hero_talk id="2208" talk_type="一般強化2" pre_gp_lv="0" talk_face="01" talk_text="可愛くなったかな？" talk_voice="2208/K2208_0016"/>
+	<hero_talk id="2208" talk_type="一般強化3" pre_gp_lv="0" talk_face="03" talk_text="キレイ？　ホント～！？" talk_voice="2208/K2208_0017"/>
+	<hero_talk id="2208" talk_type="最高階強化" pre_gp_lv="0" talk_face="03" talk_text="最上級サキュバスになっちゃったかも♪" talk_voice="2208/K2208_0018"/>
+	<hero_talk id="2208" talk_type="好感1" pre_gp_lv="1" talk_face="01" talk_text="ん？　この傘？　貸してあげよっか" talk_voice="2208/K2208_0019"/>
+	<hero_talk id="2208" talk_type="好感2" pre_gp_lv="2" talk_face="01" talk_text="この服、オシャレだけと胸がキツいの……。触って確かめてみる？" talk_voice="2208/K2208_0020"/>
+	<hero_talk id="2208" talk_type="好感3" pre_gp_lv="3" talk_face="02" talk_text="ずーっとわたしのこと、見てるね。わたしも見ちゃお。じー……♪" talk_voice="2208/K2208_0021"/>
+	<hero_talk id="2208" talk_type="好感4" pre_gp_lv="4" talk_face="02" talk_text="お日様の下でデートもいいけど、暗くなったら……もっと楽しいこと、する？" talk_voice="2208/K2208_0022"/>
+	<hero_talk id="2208" talk_type="好感5" pre_gp_lv="4" talk_face="03" talk_text="このまま、あなたの精だけ吸って……暮らしていくのもいいかなぁ。フフフ、毎日がんばれそ？" talk_voice="2208/K2208_0023"/>
+	<hero_talk id="2208" talk_type="胸部低好感" pre_gp_lv="0" talk_face="04" talk_text="わっ、こんなところで盛ってるっ" talk_voice="2208/K2208_0024"/>
+	<hero_talk id="2208" talk_type="胸部中好感" pre_gp_lv="1" talk_face="01" talk_text="もぉ……明るい時にするのが好きなの？　誰かに見つかっちゃうってば♪" talk_voice="2208/K2208_0025"/>
+	<hero_talk id="2208" talk_type="胸部高好感" pre_gp_lv="2" talk_face="09" talk_text="あんっ。そっちから誘惑してくれるなんて、手間が省けてうれしー……いっぱいしよ♪" talk_voice="2208/K2208_0026"/>
+	<hero_talk id="2208" talk_type="贈禮1" pre_gp_lv="0" talk_face="02" talk_text="わっ！　ルスト様にもあげてもいい？　ダメか" talk_voice="2208/K2208_0027"/>
+	<hero_talk id="2208" talk_type="贈禮2" pre_gp_lv="3" talk_face="03" talk_text="プレゼントぉ！？　お返しに、エッチなプレイを要求していいよ♪" talk_voice="2208/K2208_0028"/>
+	<hero_talk id="2208" talk_type="派駐對話1" pre_gp_lv="0" talk_face="01" talk_text="お出かけ……。立派なお乳を持て余しながら……" talk_voice="2208/K2208_0029"/>
+	<hero_talk id="2208" talk_type="派駐對話2" pre_gp_lv="3" talk_face="01" talk_text="あなたが欲しいなら、ぱぱっと取ってきてあげる！" talk_voice="2208/K2208_0030"/>
+	<hero_talk id="2208" talk_type="遊戲標題" pre_gp_lv="0" talk_face="01" talk_text="巨乳ファンタジー・バースト" talk_voice="2208/K2208_0031"/>
+	<hero_talk id="2208" talk_type="肯定" pre_gp_lv="0" talk_face="01" talk_text="うん" talk_voice="2208/K2208_0032"/>
+	<hero_talk id="2208" talk_type="否定" pre_gp_lv="0" talk_face="04" talk_text="えぇ？" talk_voice="2208/K2208_0033"/>
+	<hero_talk id="2208" talk_type="思考" pre_gp_lv="0" talk_face="04" talk_text="ふーむ？" talk_voice="2208/K2208_0034"/>
+	<hero_talk id="2208" talk_type="疑念" pre_gp_lv="0" talk_face="01" talk_text="そっかなぁ" talk_voice="2208/K2208_0035"/>
+	<hero_talk id="2208" talk_type="唸る" pre_gp_lv="0" talk_face="07" talk_text="うぐぐ……っ" talk_voice="2208/K2208_0036"/>
+	<hero_talk id="2208" talk_type="驚愕" pre_gp_lv="0" talk_face="08" talk_text="はぁっ！？" talk_voice="2208/K2208_0037"/>
+	<hero_talk id="2208" talk_type="ムカッ" pre_gp_lv="0" talk_face="04" talk_text="あっそ……" talk_voice="2208/K2208_0038"/>
+	<hero_talk id="2208" talk_type="怒る" pre_gp_lv="0" talk_face="05" talk_text="ありえない！" talk_voice="2208/K2208_0039"/>
+	<hero_talk id="2208" talk_type="焦り" pre_gp_lv="0" talk_face="07" talk_text="ひぁっ！？" talk_voice="2208/K2208_0040"/>
+	<hero_talk id="2208" talk_type="ダメージ時" pre_gp_lv="0" talk_face="06" talk_text="うぐぅううっ！？" talk_voice="2208/K2208_0041"/>
+	<hero_talk id="2208" talk_type="ため息" pre_gp_lv="0" talk_face="06" talk_text="はーぁ……" talk_voice="2208/K2208_0042"/>
+	<hero_talk id="2208" talk_type="自責" pre_gp_lv="0" talk_face="06" talk_text="ごめん……" talk_voice="2208/K2208_0043"/>
+	<hero_talk id="2208" talk_type="喜び" pre_gp_lv="0" talk_face="02" talk_text="あはっ♪" talk_voice="2208/K2208_0044"/>
+	<hero_talk id="2208" talk_type="笑い" pre_gp_lv="0" talk_face="03" talk_text="んふふふっ" talk_voice="2208/K2208_0045"/>
+	<hero_talk id="2208" talk_type="照れ" pre_gp_lv="0" talk_face="09" talk_text="あっ、ぁ……うぅ……" talk_voice="2208/K2208_0046"/>
+	<hero_talk id="2208" talk_type="角色背景1" pre_gp_lv="1" talk_text="もし、シュシュが、貴族の令嬢だったら――。&#xA;&#xA;主人公の屋敷に、ゴスロリの少女が訪れてきた。&#xA;彼女の名前はシュシュ。&#xA;幼い頃、主人公と結婚の誓いをした……らしい……。&#xA;しかし、彼女にはなにか別の企みがあるらしく……。"/>
+	<hero_talk id="2208" talk_type="角色背景2" pre_gp_lv="2" talk_text="突然、少女が主人公の屋敷に訪れてきた。&#xA;彼女の名前はシュシュ。&#xA;幼い頃、主人公と結婚の誓いをしたらしい。&#xA;主人公に、覚えはないのだが……。&#xA;&#xA;主人公は、シュシュと一緒に暮らすことにした。&#xA;楽しい暮らしだった。&#xA;しかし、半年が経った頃――。&#xA;&#xA;突如、シュシュは体調を崩す。&#xA;シュシュを気遣う主人公だったが、なぜかシュシュは主人公を遠ざけようとする。&#xA;&#xA;戸惑う主人公は、影からシュシュの様子を伺うことにした。&#xA;「……せっかくここまで仲良くなって、これなら精が好きなだけ吸えるって思ったのに……」&#xA;気の緩んだシュシュは呟く。&#xA;「会いたいけど、今のわたしのこと……知られるわけにはいかない。だから会えない……」&#xA;シュシュの『会いたい』という言葉に、主人公は思わず飛び出した。&#xA;そして、シュシュに悩みを聞き出そうとするのだが……。"/>
+	<hero_talk id="2208" talk_type="角色背景3" pre_gp_lv="3" talk_text="ティータイムは、貴族の嗜みだ。&#xA;貴族の令嬢であるシュシュも当然ティータイムを欠かさない。&#xA;たとえそこが、戦場であろうとも。&#xA;どこであろうと、気分になればお茶会を始めてしまうのだ。"/>
+	<hero_talk id="2208" talk_type="角色背景4" pre_gp_lv="4" talk_text="シュシュの傘は、きめ細やかな装飾が施された一級品だ。&#xA;シュシュのお気に入りで、彼女も大切に扱っている。&#xA;しかし、実際には大切に扱う必要がないほど頑丈で、なにかにぶつけても傷一つつかない。&#xA;いったいなにでできているんだろうか？"/>
+	<hero_talk id="2208" talk_type="追加語音1" pre_item_id="172" talk_face="03" talk_text="暇してる？　だったらわたしと、アフタヌーンティーパーティーはいかが？　すっごくいい茶葉が手に入ったの♪" talk_voice="2208/K2208_0047"/>
+	<hero_talk id="2208" talk_type="追加語音2" pre_item_id="173" talk_face="09" talk_text="この服、とっても可愛いんだけど……１人で脱ぐのが大変で大変で。手伝ってくれるなら、オッパイ触ってもいいよ。お礼ってことで……どう？" talk_voice="2208/K2208_0048"/>
+	<hero_talk id="2208" talk_type="追加語音3" pre_item_id="174" talk_face="09" talk_text="ねえねえ？　おチンポがかた～くなってるのは、わたしがぴったりくっついてるから？　ここからどーんな誘惑してほしい？　お口？　手？　そ・れ・と・も……♪" talk_voice="2208/K2208_0049"/>
+	<hero_talk id="2208" talk_type="追加語音4" pre_item_id="175" talk_face="09" talk_text="はぁ、はぁ……我慢できないっ♪　あなたを見てると、オッパイが張っちゃう。わたしのミルクがぴゅっぴゅって溢れて……。早く舐めて？　吸って、搾って飲んでぇ……っ" talk_voice="2208/K2208_0050"/>
+	<hero_talk id="2208" talk_type="追加語音5" pre_item_id="176" talk_face="09" talk_text="お乳まみれになりながらするエッチ……好きでしょ？　あったかくて、あま～い匂いのオッパイ♪　トロトロのミルクを塗りたくりながら、オマンコとおチンポで何度も混じり合うの♪　あぁ……もっと、もっとちょうだい……♪" talk_voice="2208/K2208_0051"/>
 	<hero_talk/>
 	<hero_talk id="2209" talk_type="召喚自我介紹" pre_gp_lv="0" talk_face="01" talk_voice="2209/K2209_0001"/>
 	<hero_talk id="2209" talk_type="登入_副官" pre_gp_lv="0" talk_face="01" talk_voice="2209/K2209_0002"/>

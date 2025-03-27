@@ -24,7 +24,7 @@
 	<item id="20" name="変換安定剤" icon="item001/10218" rare="五星" category="道具" function="物品" bonus_hg="0" description="素材の安定化と無駄を抑えるためのアイテム"/>
 	<item id="21" name="おπ金メダル" icon="item001/10230" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2024/09/08 00:00:00" convert_item_id="5" convert_item_num="1" description="「おπの月」でAP、BPを消費した際に獲得できるアイテム。専用交換所でアイテムと交換できます。"/>
 	<item id="23" name="解放のダイヤモンド" icon="item001/0054" rare="五星" category="道具" function="物品" bonus_hg="0" description="秘められた力を解放させるためのアイテム。Lv上限を解放するために必要な素材"/>
-	<item bonus_hg="0"/>
+	<item id="24" name="PASS" icon="item001/0018" rare="五星" category="道具" function="物品" bonus_hg="0" description="PASS ICON"/>
 	<item bonus_hg="0"/>
 	<item bonus_hg="0"/>
 	<item name="ボックスLv1" icon="item001/0011" rare="三星" category="道具" function="物品" bonus_hg="0"/>
@@ -124,6 +124,11 @@
 	<item id="169" name="【氷上の芸術家】イルーギオ・蓄音水晶3" icon="item001/10234" rare="五星" category="其他" function="追加語音" bonus_hg="0" description="特別ボイスが収められた水晶。特定の方法でボイスを再生できる"/>
 	<item id="170" name="【氷上の芸術家】イルーギオ・蓄音水晶4" icon="item001/10234" rare="五星" category="其他" function="追加語音" bonus_hg="0" description="特別ボイスが収められた水晶。特定の方法でボイスを再生できる"/>
 	<item id="171" name="【氷上の芸術家】イルーギオ・蓄音水晶5" icon="item001/10234" rare="五星" category="其他" function="追加語音" bonus_hg="0" description="特別ボイスが収められた水晶。特定の方法でボイスを再生できる"/>
+	<item id="172" name="【ゴスロリ乳魔】シュシュ・蓄音水晶1" icon="item001/10234" rare="五星" category="其他" function="追加語音" bonus_hg="0" description="特別ボイスが収められた水晶。特定の方法でボイスを再生できる"/>
+	<item id="173" name="【ゴスロリ乳魔】シュシュ・蓄音水晶2" icon="item001/10234" rare="五星" category="其他" function="追加語音" bonus_hg="0" description="特別ボイスが収められた水晶。特定の方法でボイスを再生できる"/>
+	<item id="174" name="【ゴスロリ乳魔】シュシュ・蓄音水晶3" icon="item001/10234" rare="五星" category="其他" function="追加語音" bonus_hg="0" description="特別ボイスが収められた水晶。特定の方法でボイスを再生できる"/>
+	<item id="175" name="【ゴスロリ乳魔】シュシュ・蓄音水晶4" icon="item001/10234" rare="五星" category="其他" function="追加語音" bonus_hg="0" description="特別ボイスが収められた水晶。特定の方法でボイスを再生できる"/>
+	<item id="176" name="【ゴスロリ乳魔】シュシュ・蓄音水晶5" icon="item001/10234" rare="五星" category="其他" function="追加語音" bonus_hg="0" description="特別ボイスが収められた水晶。特定の方法でボイスを再生できる"/>
 	<item bonus_hg="0"/>
 	<item bonus_hg="0"/>
 	<item name="黑騎士投票選項1" icon="item001/10180" rare="三星" category="道具" function="物品" bonus_hg="0" get_shop_1="無"/>
@@ -520,7 +525,12 @@
 	<item id="1557" name="【我が名はアテナ】召喚チケット" icon="item001/10351" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2025/03/27 11:00:00" convert_item_id="5" convert_item_num="1" get_shop_1="無" description="【我が名はアテナ】召喚を1回引けるチケット"/>
 	<item id="1558" name="【我が名はアテナ】10連召喚チケット" icon="item001/10352" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2025/03/27 11:00:00" convert_item_id="5" convert_item_num="10" get_shop_1="無" description="【我が名はアテナ】召喚を10回引けるチケット"/>
 	<item id="1559" name="【我が名はアテナ】BOSSチケット" icon="item001/10177" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2025/03/27 11:00:00" convert_item_id="5" convert_item_num="1" get_shop_1="無" description="【我が名はアテナ】イベントBOSSに挑戦できるチケット"/>
-	<item id="1560" name="抽箱道具" icon="item001/10353" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2025/03/27 11:00:00" convert_item_id="5" convert_item_num="1" get_shop_1="無" description="道具說明"/>
+	<item id="1560" name="女神アテナの祝福" icon="item001/10353" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2025/04/03 11:00:00" convert_item_id="5" convert_item_num="1" get_shop_1="無" description="知恵と勇気の女神・アテナから贈られる、聖なる祝福の力"/>
+	<item id="1561" name="【Fanzine】召喚チケット" icon="item001/10171" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2025/04/03 11:00:00" convert_item_id="5" convert_item_num="1" get_shop_1="無" description="【Fanzine】召喚を1回引けるチケット"/>
+	<item id="1562" name="【Fanzine】10連召喚チケット" icon="item001/10172" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2025/04/03 11:00:00" convert_item_id="5" convert_item_num="10" get_shop_1="無" description="【Fanzine】召喚を10回引けるチケット"/>
+	<item id="1563" name="【競撃戦・火】攻略応援ピックアップ10連召喚チケット" icon="item001/10137" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2025/04/10 11:00:00" convert_item_id="5" convert_item_num="10" get_shop_1="無" description="【競撃戦・水】攻略応援ピックアップ召喚を10回引けるチケット"/>
+	<item id="1564" name="ダイス" icon="item001/10189" rare="三星" category="道具" function="物品" bonus_hg="0" end_date="2025/04/10 11:00:00" convert_item_id="5" convert_item_num="1" get_shop_1="無" description="ミニゲームを参加するためのアイテム"/>
+	<item id="1565" name="仕掛ダイス" icon="item001/10281" rare="四星" category="道具" function="物品" bonus_hg="0" end_date="2025/04/10 11:00:00" convert_item_id="5" convert_item_num="1" get_shop_1="無" description="出す数字を決められる特別なダイス。断じていかさまではありません"/>
 	<item bonus_hg="0"/>
 	<item bonus_hg="0"/>
 	<item bonus_hg="0"/>
@@ -731,7 +741,8 @@
 	<item id="2204" illustration_id="2199" name="【アメスク留学生】アーティア・ウルティマ" icon="item001/2204" rare="五星" category="角色碎片" function="角色碎片" effect_val="2204" bonus_hg="0" get_shop_1="召喚" description="聖騎士のウルティマ。奥義を強化したり、パッシブスキルを解放したりすることができる"/>
 	<item id="2183" illustration_id="2183" name="ベガリア・ウルティマ" icon="item001/2183" rare="五星" category="角色碎片" function="角色碎片" effect_val="2183" bonus_hg="0" get_shop_1="召喚" description="聖騎士のウルティマ。奥義を強化したり、パッシブスキルを解放したりすることができる"/>
 	<item id="2206" illustration_id="2206" name="【エレガントバニー】ベルナデット・ウルティマ" icon="item001/2206" rare="五星" category="角色碎片" function="角色碎片" effect_val="2206" bonus_hg="0" get_shop_1="召喚" description="聖騎士のウルティマ。奥義を強化したり、パッシブスキルを解放したりすることができる"/>
-	<item id="2207" illustration_id="2207" name="【知恵と勇気の女神】アテナ・ウルティマ" icon="item001/2207" rare="四星" category="角色碎片" function="角色碎片" effect_val="2207" bonus_hg="0" get_shop_1="召喚" description="聖騎士のウルティマ。奥義を強化したり、パッシブスキルを解放したりすることができる"/>
+	<item id="2207" illustration_id="2207" name="【知恵と勇気の女神】アテナ・ウルティマ" icon="item001/2207" rare="五星" category="角色碎片" function="角色碎片" effect_val="2207" bonus_hg="0" get_shop_1="召喚" description="聖騎士のウルティマ。奥義を強化したり、パッシブスキルを解放したりすることができる"/>
+	<item id="2208" illustration_id="2208" name="【ゴスロリ乳魔】シュシュ・ウルティマ" icon="item001/2208" rare="五星" category="角色碎片" function="角色碎片" effect_val="2208" bonus_hg="0" get_shop_1="召喚" description="聖騎士のウルティマ。奥義を強化したり、パッシブスキルを解放したりすることができる"/>
 	<item bonus_hg="0"/>
 	<item bonus_hg="0"/>
 	<item bonus_hg="0"/>
@@ -1560,6 +1571,7 @@
 	<item id="92206" name="即戦力育成セット・【エレガントバニー】ベルナデット" icon="item001/0014" rare="五星" category="道具" function="道具寶箱" effect_val="92206" bonus_hg="0" get_shop_1="無" description="以下のアイテムを獲得できる&#xA;聖騎士の秘薬(L)×110&#xA;水属性・結晶(小)×21&#xA;水属性・結晶(中)×21&#xA;古木の女神像×21&#xA;霊木の女神像×21&#xA;超越水晶x70"/>
 	<item id="92183" name="即戦力育成セット・ベガリア" icon="item001/0014" rare="五星" category="道具" function="道具寶箱" effect_val="92183" bonus_hg="0" get_shop_1="無" description="以下のアイテムを獲得できる&#xA;聖騎士の秘薬(L)×110&#xA;魔属性・結晶(小)×21&#xA;魔属性・結晶(中)×21&#xA;魔獣の角×21&#xA;悪魔の角×21&#xA;超越水晶x70"/>
 	<item id="92207" name="即戦力育成セット・【知恵と勇気の女神】アテナ" icon="item001/0014" rare="五星" category="道具" function="道具寶箱" effect_val="92207" bonus_hg="0" get_shop_1="無" description="以下のアイテムを獲得できる&#xA;聖騎士の秘薬(L)×110&#xA;聖属性・結晶(小)×21&#xA;聖属性・結晶(中)×21&#xA;百年亀の甲羅×21&#xA;千年亀の甲羅×21&#xA;超越水晶x70"/>
+	<item id="92208" name="即戦力育成セット・【ゴスロリ乳魔】シュシュ" icon="item001/0014" rare="五星" category="道具" function="道具寶箱" effect_val="92208" bonus_hg="0" get_shop_1="無" description="以下のアイテムを獲得できる&#xA;聖騎士の秘薬(L)×110&#xA;水属性・結晶(小)×21&#xA;水属性・結晶(中)×21&#xA;霊木の小枝×21&#xA;精霊樹の小枝×21&#xA;超越水晶x70"/>
 	<item bonus_hg="0"/>
 	<item bonus_hg="0"/>
 	<item bonus_hg="0"/>
@@ -1730,7 +1742,9 @@
 	<item id="10132" name="結束の印・風" icon="item001/10250" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2025/03/24 11:00:00" convert_item_id="5" convert_item_num="1" get_shop_1="無" description="同盟の一員であることの証。身につけるだけで人々に支えられている気分を感じられる。"/>
 	<item id="10133" name="ベガリアの杖" icon="item001/10346" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2025/04/03 11:00:00" convert_item_id="5" convert_item_num="1" get_shop_1="無" description="女神ゾミアの御意志を尊重する者でなければ手にすることはできない特別な杖。ゾミアの意志に反する者が手にすれば、電流が流れる"/>
 	<item id="10134" name="競撃の宝玉・魔" icon="item001/10158" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2025/04/03 11:00:00" convert_item_id="5" convert_item_num="1" get_shop_1="無" description="戦場における人々の意志を凝縮した宝玉。握りしめれば全身に力が溢れる。"/>
-	<item id="10135" name="保底道具" icon="item001/10354" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2025/04/03 11:00:00" convert_item_id="5" convert_item_num="1" get_shop_1="無" description="道具說明"/>
+	<item id="10135" name="アテナの遠隔武器" icon="item001/10354" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2025/04/03 11:00:00" convert_item_id="5" convert_item_num="1" get_shop_1="無" description="アテナが扱う、上下非対称の菱形の形状をした遠隔武器。何かと違ってビームは出ないが、敵に体当たりして攻撃を浴びせる"/>
+	<item id="10136" name="シュシュの傘" icon="item001/10355" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2025/04/10 11:00:00" convert_item_id="5" convert_item_num="1" get_shop_1="無" description="きめ細やかな装飾が施された一級品。シュシュのお気に入りで、彼女も大切に扱っている。"/>
+	<item id="10137" name="競撃の宝玉・水" icon="item001/10089" rare="五星" category="道具" function="物品" bonus_hg="0" end_date="2025/04/17 11:00:00" convert_item_id="5" convert_item_num="1" get_shop_1="無" description="戦場における人々の意志を凝縮した宝玉。握りしめれば全身に力が溢れる。"/>
 	<item bonus_hg="0"/>
 	<item bonus_hg="0"/>
 	<item id="10988" name="カムバックメダル" icon="item001/10121" rare="五星" category="道具" function="物品" bonus_hg="0" use_day="10" convert_item_id="5" convert_item_num="1" get_shop_1="無" description="カムバック応援召喚を回す度に獲得できるアイテム"/>

@@ -17395,4 +17395,88 @@
 		<talent>2207114</talent>
 		<talent>2207115</talent>
 	</hero_talent>
+	<hero_talent>
+		<talent>0</talent>
+		<talent>0</talent>
+		<talent>0</talent>
+		<talent>0</talent>
+		<talent>0</talent>
+	</hero_talent>
+	<hero_talent name="ボーナス_MP消費減少" icon="Talent001/BOUNS_MpCostDown" describe="アビリティ5つ解放で、MP消費減少 +1" id="2208" grade="1" mp_cost_down="1">
+		<talent>2208011</talent>
+		<talent>2208012</talent>
+		<talent>2208013</talent>
+		<talent>2208014</talent>
+		<talent>2208015</talent>
+	</hero_talent>
+	<hero_talent name="ボーナス_命中" icon="Talent001/BOUNS_Hit" describe="アビリティ5つ解放で、命中 +3" id="2208" need_lv="31" grade="2" hit="3">
+		<talent>2208021</talent>
+		<talent>2208022</talent>
+		<talent>2208023</talent>
+		<talent>2208024</talent>
+		<talent>2208025</talent>
+	</hero_talent>
+	<hero_talent name="ボーナス_MP消費減少" icon="Talent001/BOUNS_MpCostDown" describe="アビリティ5つ解放で、MP消費減少 +1" id="2208" need_lv="31" grade="3" mp_cost_down="1">
+		<talent>2208031</talent>
+		<talent>2208032</talent>
+		<talent>2208033</talent>
+		<talent>2208034</talent>
+		<talent>2208035</talent>
+	</hero_talent>
+	<hero_talent name="ボーナス_命中" icon="Talent001/BOUNS_Hit" describe="アビリティ5つ解放で、命中 +4" id="2208" need_lv="41" grade="4" hit="4">
+		<talent>2208041</talent>
+		<talent>2208042</talent>
+		<talent>2208043</talent>
+		<talent>2208044</talent>
+		<talent>2208045</talent>
+	</hero_talent>
+	<hero_talent name="ボーナス_MP消費減少" icon="Talent001/BOUNS_MpCostDown" describe="アビリティ5つ解放で、MP消費減少 +1" id="2208" need_lv="41" grade="5" mp_cost_down="1">
+		<talent>2208051</talent>
+		<talent>2208052</talent>
+		<talent>2208053</talent>
+		<talent>2208054</talent>
+		<talent>2208055</talent>
+	</hero_talent>
+	<hero_talent name="ボーナス_命中" icon="Talent001/BOUNS_Hit" describe="アビリティ5つ解放で、命中 +5" id="2208" need_lv="51" grade="6" hit="5">
+		<talent>2208061</talent>
+		<talent>2208062</talent>
+		<talent>2208063</talent>
+		<talent>2208064</talent>
+		<talent>2208065</talent>
+	</hero_talent>
+	<hero_talent name="ボーナス_MP消費減少" icon="Talent001/BOUNS_MpCostDown" describe="アビリティ5つ解放で、MP消費減少 +1" id="2208" need_lv="61" grade="7" mp_cost_down="1">
+		<talent>2208071</talent>
+		<talent>2208072</talent>
+		<talent>2208073</talent>
+		<talent>2208074</talent>
+		<talent>2208075</talent>
+	</hero_talent>
+	<hero_talent name="ボーナス_命中" icon="Talent001/BOUNS_Hit" describe="アビリティ5つ解放で、命中 +5" id="2208" need_lv="71" grade="8" hit="5">
+		<talent>2208081</talent>
+		<talent>2208082</talent>
+		<talent>2208083</talent>
+		<talent>2208084</talent>
+		<talent>2208085</talent>
+	</hero_talent>
+	<hero_talent name="ボーナス_MP消費減少" icon="Talent001/BOUNS_MpCostDown" describe="アビリティ5つ解放で、MP消費減少 +1" id="2208" need_lv="81" grade="9" mp_cost_down="1">
+		<talent>2208091</talent>
+		<talent>2208092</talent>
+		<talent>2208093</talent>
+		<talent>2208094</talent>
+		<talent>2208095</talent>
+	</hero_talent>
+	<hero_talent name="ボーナス_命中" icon="Talent001/BOUNS_Hit" describe="アビリティ5つ解放で、命中 +6" id="2208" need_lv="81" grade="10" hit="6">
+		<talent>2208101</talent>
+		<talent>2208102</talent>
+		<talent>2208103</talent>
+		<talent>2208104</talent>
+		<talent>2208105</talent>
+	</hero_talent>
+	<hero_talent name="ボーナス_MP消費減少" icon="Talent001/BOUNS_MpCostDown" describe="アビリティ5つ解放で、MP消費減少 +1" id="2208" need_lv="91" grade="11" mp_cost_down="1">
+		<talent>2208111</talent>
+		<talent>2208112</talent>
+		<talent>2208113</talent>
+		<talent>2208114</talent>
+		<talent>2208115</talent>
+	</hero_talent>
 </root>

@@ -1684,4 +1684,11 @@
 	<story_hero id="2207" serial_no="6" title="絆Lv5達成報酬" pre_gp_lv="5" have_hcg="false" item_id="12" item_num="100"/>
 	<story_hero id="2207" serial_no="7" title="絆Lv9達成報酬" pre_gp_lv="9" have_hcg="false" item_id="12" item_num="200"/>
 	<story_hero id="2207" serial_no="8" title="絆Lv10達成報酬" pre_gp_lv="10" have_hcg="false" item_id="12" item_num="200"/>
+	<story_hero/>
+	<story_hero id="2208" serial_no="1" title="絆ストーリー1" pre_gp_lv="0" have_hcg="false" dialog_id="2208010" item_id="72" item_num="100"/>
+	<story_hero id="2208" serial_no="2" title="Hなストーリー1" pre_gp_lv="2" have_hcg="true" dialog_id="2208060" item_id="72" item_num="100"/>
+	<story_hero id="2208" serial_no="3" title="Hなストーリー2" pre_gp_lv="4" have_hcg="true" dialog_id="2208070" item_id="72" item_num="100"/>
+	<story_hero id="2208" serial_no="4" title="絆Lv5達成報酬" pre_gp_lv="5" have_hcg="false" item_id="12" item_num="100"/>
+	<story_hero id="2208" serial_no="5" title="絆Lv9達成報酬" pre_gp_lv="9" have_hcg="false" item_id="12" item_num="200"/>
+	<story_hero id="2208" serial_no="6" title="絆Lv10達成報酬" pre_gp_lv="10" have_hcg="false" item_id="12" item_num="200"/>
 </root>

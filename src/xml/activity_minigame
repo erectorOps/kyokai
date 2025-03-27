@@ -8,4 +8,5 @@
 	<activity_minigame id="6" name="賓果" type="賓果" mini_game_val1="900066"/>
 	<activity_minigame id="7" name="走格子" cost_item_id="1520" cost_item_num="1" hero_group="2197" type="走格子" mini_game_val1="6" mini_game_val2="1521" mini_game_val3="1" reward_val1="90041" reward_val2="90042" reward_val3="90043" reward_val4="90044" reward_val5="90045" reward_val6="90046" reward_val7="1000003"/>
 	<activity_minigame id="8" name="走格子" cost_item_id="1538" cost_item_num="1" hero_group="2201" type="走格子" mini_game_val1="7" mini_game_val2="1539" mini_game_val3="1" reward_val1="90047" reward_val2="90048" reward_val3="90049" reward_val4="90050" reward_val5="90051" reward_val6="90052" reward_val7="1000006"/>
+	<activity_minigame id="9" name="走格子" cost_item_id="1564" cost_item_num="1" hero_group="2208" type="走格子" mini_game_val1="8" mini_game_val2="1565" mini_game_val3="1" reward_val1="90053" reward_val2="90054" reward_val3="90055" reward_val4="90056" reward_val5="90057" reward_val6="90058" reward_val7="1000008"/>
 </root>

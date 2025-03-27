@@ -1457,6 +1457,8 @@
 	<string id="15222" text="ガチャの結果に問題がある"/>
 	<string id="15223" text="ショップコインの消費に問題がある。"/>
 	<string id="15224" text="ウルティマ×{0}付き"/>
+	<string id="15225" text="欲望を描いてください"/>
+	<string/>
 	<string/>
 	<string id="16001" text="編&lt;size=24&gt;成&lt;/size&gt;"/>
 	<string/>
@@ -3711,6 +3713,7 @@
 	<string id="59087" text="競撃戦チーム（SR以下）"/>
 	<string id="59088" text="毎日1回クリアするとスキップできます&#xA;スキップは当日の最大ダメージで計算されます"/>
 	<string id="59089" text="※毎時0分に更新されます"/>
+	<string id="59090" text="ダメージを与えなかったため、挑戦回数は消費されません"/>
 	<string/>
 	<string id="60000" text="要請"/>
 	<string id="60001" text="報酬"/>

@@ -24850,4 +24850,124 @@
 		<limit_over_item_id>0</limit_over_item_id>
 		<limit_over_item_num>0</limit_over_item_num>
 	</hero_gp>
+	<hero_gp gp_token_id="0">
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+	</hero_gp>
+	<hero_gp id="2208" gp_lv="0" gp_token_id="0">
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+	</hero_gp>
+	<hero_gp id="2208" gp_lv="1" atk_crit="10" gp_token_id="0">
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+	</hero_gp>
+	<hero_gp id="2208" gp_lv="2" atk="40" atk_crit="10" gp_token_id="0">
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+	</hero_gp>
+	<hero_gp id="2208" gp_lv="3" atk="40" atk_crit="30" gp_token_id="0">
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+	</hero_gp>
+	<hero_gp id="2208" gp_lv="4" atk="120" atk_crit="30" gp_token_id="0">
+		<limit_over_item_id>3390</limit_over_item_id>
+		<limit_over_item_num>1</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+	</hero_gp>
+	<hero_gp id="2208" gp_lv="5" atk="120" atk_crit="50" gp_token_id="0">
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+	</hero_gp>
+	<hero_gp id="2208" gp_lv="6" atk="200" atk_crit="50" gp_token_id="0">
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+	</hero_gp>
+	<hero_gp id="2208" gp_lv="7" atk="200" atk_crit="70" gp_token_id="0">
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+	</hero_gp>
+	<hero_gp id="2208" gp_lv="8" atk="280" atk_crit="70" gp_token_id="0">
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+	</hero_gp>
+	<hero_gp id="2208" gp_lv="9" atk="280" atk_crit="90" gp_token_id="0">
+		<limit_over_item_id>3390</limit_over_item_id>
+		<limit_over_item_num>1</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+	</hero_gp>
+	<hero_gp id="2208" gp_lv="10" atk="360" atk_crit="90" gp_token_id="3392">
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+		<limit_over_item_id>0</limit_over_item_id>
+		<limit_over_item_num>0</limit_over_item_num>
+	</hero_gp>
 </root>
