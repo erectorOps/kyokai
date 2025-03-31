@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <hero_awake_1 id="2049" open="true" awake_hp="1546" awake_atk="0" awake_matk="397" awake_def="33" awake_mdef="41" awake_hit="10" awake_block="10" awake_atk_crit="0" awake_matk_crit="0" awake_end_hp_recovery="32" awake_end_mp_recovery="24" awake_dmg_suck_hp="0" awake_healing_power="0" awake_mp_recovery="14" awake_mp_cost_down="5" awake_normal_skill1="0" awake_normal_skill2="0" money_cost="1000000">
+    <key_item_id>7056</key_item_id>
+    <key_item_id>7059</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>7029</key_item_id>
+    <key_item_num>150</key_item_num>
+    <key_item_num>120</key_item_num>
+    <key_item_num>1200</key_item_num>
+    <key_item_num>150</key_item_num>
+  </hero_awake_1>
+  <hero_awake_1 id="2048" open="true" awake_hp="2221" awake_atk="99" awake_matk="0" awake_def="32" awake_mdef="243" awake_hit="10" awake_block="10" awake_atk_crit="0" awake_matk_crit="0" awake_end_hp_recovery="42" awake_end_mp_recovery="23" awake_dmg_suck_hp="0" awake_healing_power="0" awake_mp_recovery="7" awake_mp_cost_down="5" awake_normal_skill1="0" awake_normal_skill2="0" money_cost="1000000">
+    <key_item_id>7053</key_item_id>
+    <key_item_id>7059</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>7027</key_item_id>
+    <key_item_num>150</key_item_num>
+    <key_item_num>120</key_item_num>
+    <key_item_num>1200</key_item_num>
+    <key_item_num>150</key_item_num>
+  </hero_awake_1>
+  <hero_awake_1 id="2051" open="true" awake_hp="2395" awake_atk="0" awake_matk="0" awake_def="23" awake_mdef="18" awake_hit="5" awake_block="15" awake_atk_crit="0" awake_matk_crit="0" awake_end_hp_recovery="45" awake_end_mp_recovery="25" awake_dmg_suck_hp="0" awake_healing_power="40" awake_mp_recovery="5" awake_mp_cost_down="5" awake_normal_skill1="0" awake_normal_skill2="0" money_cost="1000000">
+    <key_item_id>7057</key_item_id>
+    <key_item_id>7059</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>7031</key_item_id>
+    <key_item_num>150</key_item_num>
+    <key_item_num>120</key_item_num>
+    <key_item_num>1200</key_item_num>
+    <key_item_num>150</key_item_num>
+  </hero_awake_1>
+</root>

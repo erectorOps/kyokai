@@ -14,7 +14,7 @@ export class HeroList {
     createFunc() {
         const kf = this.kf;
         return () => {
-            const heroList = kf.hero_1.root.hero_1.filter(item => item['@_id'] !== undefined);
+            const heroList = kf.hero_1.root.hero_1.filter(item => item['@_id'] !== undefined && parseInt(item['@_id']) < 10000);
             let jsonRoot = {
                 title: "聖騎士一覧",
                 description: "聖騎士一覧",

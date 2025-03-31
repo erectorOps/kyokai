@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <hero_feature id="301" name="風属性の加護" category="屬性" icon="hero-feature001/301">
+    <trigger_cnt>2</trigger_cnt>
+    <trigger_cnt>4</trigger_cnt>
+    <trigger_cnt>6</trigger_cnt>
+    <trigger_cnt>0</trigger_cnt>
+    <skill>1011</skill>
+    <skill>1012</skill>
+    <skill>1013</skill>
+    <skill>0</skill>
+  </hero_feature>
+  <hero_feature id="302" name="水属性の加護" category="屬性" icon="hero-feature001/302">
+    <trigger_cnt>2</trigger_cnt>
+    <trigger_cnt>4</trigger_cnt>
+    <trigger_cnt>6</trigger_cnt>
+    <trigger_cnt>0</trigger_cnt>
+    <skill>1021</skill>
+    <skill>1022</skill>
+    <skill>1023</skill>
+    <skill>0</skill>
+  </hero_feature>
+  <hero_feature id="303" name="火属性の加護" category="屬性" icon="hero-feature001/303">
+    <trigger_cnt>2</trigger_cnt>
+    <trigger_cnt>4</trigger_cnt>
+    <trigger_cnt>6</trigger_cnt>
+    <trigger_cnt>0</trigger_cnt>
+    <skill>1031</skill>
+    <skill>1032</skill>
+    <skill>1033</skill>
+    <skill>0</skill>
+  </hero_feature>
+  <hero_feature id="304" name="聖属性の加護" category="屬性" icon="hero-feature001/304">
+    <trigger_cnt>2</trigger_cnt>
+    <trigger_cnt>4</trigger_cnt>
+    <trigger_cnt>6</trigger_cnt>
+    <trigger_cnt>0</trigger_cnt>
+    <skill>1041</skill>
+    <skill>1042</skill>
+    <skill>1043</skill>
+    <skill>0</skill>
+  </hero_feature>
+  <hero_feature id="305" name="魔属性の加護" category="屬性" icon="hero-feature001/305">
+    <trigger_cnt>2</trigger_cnt>
+    <trigger_cnt>4</trigger_cnt>
+    <trigger_cnt>6</trigger_cnt>
+    <trigger_cnt>0</trigger_cnt>
+    <skill>1051</skill>
+    <skill>1052</skill>
+    <skill>1053</skill>
+    <skill>0</skill>
+  </hero_feature>
+  <hero_feature id="306" name="想属性の加護" category="屬性" icon="hero-feature001/306">
+    <trigger_cnt>2</trigger_cnt>
+    <trigger_cnt>4</trigger_cnt>
+    <trigger_cnt>6</trigger_cnt>
+    <trigger_cnt>0</trigger_cnt>
+    <skill>1061</skill>
+    <skill>1062</skill>
+    <skill>1063</skill>
+    <skill>0</skill>
+  </hero_feature>
+  <hero_feature id="307" name="斬の鼓舞" category="武器" icon="hero-feature001/307">
+    <trigger_cnt>2</trigger_cnt>
+    <trigger_cnt>4</trigger_cnt>
+    <trigger_cnt>6</trigger_cnt>
+    <trigger_cnt>0</trigger_cnt>
+    <skill>1111</skill>
+    <skill>1112</skill>
+    <skill>1113</skill>
+    <skill>0</skill>
+  </hero_feature>
+  <hero_feature id="308" name="突の鼓舞" category="武器" icon="hero-feature001/308">
+    <trigger_cnt>2</trigger_cnt>
+    <trigger_cnt>4</trigger_cnt>
+    <trigger_cnt>6</trigger_cnt>
+    <trigger_cnt>0</trigger_cnt>
+    <skill>1121</skill>
+    <skill>1122</skill>
+    <skill>1123</skill>
+    <skill>0</skill>
+  </hero_feature>
+  <hero_feature id="309" name="打の鼓舞" category="武器" icon="hero-feature001/309">
+    <trigger_cnt>2</trigger_cnt>
+    <trigger_cnt>4</trigger_cnt>
+    <trigger_cnt>6</trigger_cnt>
+    <trigger_cnt>0</trigger_cnt>
+    <skill>1131</skill>
+    <skill>1132</skill>
+    <skill>1133</skill>
+    <skill>0</skill>
+  </hero_feature>
+  <hero_feature id="310" name="射の鼓舞" category="武器" icon="hero-feature001/310">
+    <trigger_cnt>2</trigger_cnt>
+    <trigger_cnt>4</trigger_cnt>
+    <trigger_cnt>6</trigger_cnt>
+    <trigger_cnt>0</trigger_cnt>
+    <skill>1141</skill>
+    <skill>1142</skill>
+    <skill>1143</skill>
+    <skill>0</skill>
+  </hero_feature>
+  <hero_feature id="311" name="投の鼓舞" category="武器" icon="hero-feature001/311">
+    <trigger_cnt>2</trigger_cnt>
+    <trigger_cnt>4</trigger_cnt>
+    <trigger_cnt>6</trigger_cnt>
+    <trigger_cnt>0</trigger_cnt>
+    <skill>1151</skill>
+    <skill>1152</skill>
+    <skill>1153</skill>
+    <skill>0</skill>
+  </hero_feature>
+</root>

@@ -1,7 +1,7 @@
 import Big from 'big.js';
 
 const parseBuff = (buff, lv, info) => {
-  if (buff["@_get_counter"]) {
+  if (buff["@_get_counter"] && buff["@_get_counter"] != "0") {
     console.log("Error: get_counterのあるバフをパースしようとしてる [buff id="+buff["@_id"] + "]");
     return "Error: get_counterのあるバフをパースしようとしてる [buff id="+buff["@_id"] + "]";
   }

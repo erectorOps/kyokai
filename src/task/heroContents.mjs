@@ -18,7 +18,7 @@ export class HeroContents {
 
     createFuncs() {
         const kf = this.kf;
-        const heroList = kf.hero_1.root.hero_1.filter(item => item['@_id'] !== undefined);
+        const heroList = kf.hero_1.root.hero_1.filter(item => item['@_id'] !== undefined && parseInt(item['@_id']) < 10000);
 
         let heroFuncs = [];
       
@@ -255,7 +255,7 @@ export class HeroContents {
             ubskills.push(parseSkill((ub1+i)+"", 0, kf));
           }
       
-          if (hero['@_passive_skill3']) {
+          if (hero['@_passive_skill3'] && hero['@_passive_skill3'] != "0") {
             json.passive3 = parseSkill(hero['@_passive_skill3'], 0, kf);
             calcPassive(hero['@_passive_skill3'], json, kf);
       

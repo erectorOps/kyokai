@@ -292,9 +292,10 @@ E: すべてのコンテンツ、属性、戦術において候補に上がる�
 		</review>
 	</hero_add>
 	<hero_add id="2208" rare="SSR" name="【ゴスロリ乳魔】シュシュ" gacha_type="Fanzine" added_date="2025/03/27" obtain="イベント「Fanzine」期間限定召喚" ub_type="全体攻撃,水被ダメージUP,命中UP,ダメージUP">
-		<review rank="C">
+		<review rank="B">
 			<merit>物理水属性の全体奥義、威力の倍率も高め</merit>
-			<demerit>地下神殿や疾走向きだが開幕奥義が遅くバフを配れない</demerit>
+			<merit>バフを配れるので競撃戦や地下神殿で活躍できる</merit>
+			<demerit>開幕奥義が遅くバフを配れないので疾走や闘技場は厳しそう</demerit>
 			<demerit>超高倍率のクリティカルUPバフも元のステータスが激低いので微妙</demerit>
 		</review>
 	</hero_add>
