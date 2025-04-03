@@ -185,7 +185,7 @@ export class HeroContents {
 
             const freezeTime = atkSkill['@_freeze_time'];;
             const waitShowTime = kf.skill_effect.root.skill_effect.find(item => item['@_Id'] === atkSkill['@_effect_id'])?.['@_WaitShowTime'] ?? 0;
-            const critWaitShowTime = kf.skill_effect.root.skill_effect.find(item => item['@_Id'] === atkSkill['@_crit_effect_id'])?.['@_WaitShowTime'] ?? 0;
+            const critWaitShowTime = kf.skill_effect.root.skill_effect.find(item => item['@_Id'] === atkSkill['@_crit_effect_id'])?.['@_WaitShowTime'] ?? waitShowTime;
 
             json.atkskill = {
               name: "通常攻撃",
