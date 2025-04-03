@@ -1,1850 +1,1714 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <root>
-	<monster_buff/>
-	<monster_buff group_id="11" buff_id="1141"/>
-	<monster_buff group_id="11" buff_id="1153"/>
-	<monster_buff group_id="11" buff_id="1163"/>
-	<monster_buff group_id="11" buff_id="1176"/>
-	<monster_buff group_id="11" buff_id="1182"/>
-	<monster_buff group_id="11" buff_id="1213"/>
-	<monster_buff group_id="11" buff_id="1223"/>
-	<monster_buff group_id="11" buff_id="1241"/>
-	<monster_buff/>
-	<monster_buff group_id="12" buff_id="1142"/>
-	<monster_buff group_id="12" buff_id="1154"/>
-	<monster_buff group_id="12" buff_id="1164"/>
-	<monster_buff group_id="12" buff_id="1176"/>
-	<monster_buff group_id="12" buff_id="1183"/>
-	<monster_buff group_id="12" buff_id="1191"/>
-	<monster_buff group_id="12" buff_id="1201"/>
-	<monster_buff group_id="12" buff_id="1214"/>
-	<monster_buff group_id="12" buff_id="1224"/>
-	<monster_buff group_id="12" buff_id="1242"/>
-	<monster_buff/>
-	<monster_buff group_id="13" buff_id="1143"/>
-	<monster_buff group_id="13" buff_id="1155"/>
-	<monster_buff group_id="13" buff_id="1165"/>
-	<monster_buff group_id="13" buff_id="1176"/>
-	<monster_buff group_id="13" buff_id="1184"/>
-	<monster_buff group_id="13" buff_id="1192"/>
-	<monster_buff group_id="13" buff_id="1202"/>
-	<monster_buff group_id="13" buff_id="1215"/>
-	<monster_buff group_id="13" buff_id="1225"/>
-	<monster_buff group_id="13" buff_id="1243"/>
-	<monster_buff/>
-	<monster_buff/>
-	<monster_buff group_id="14" buff_id="1143"/>
-	<monster_buff group_id="14" buff_id="1155"/>
-	<monster_buff group_id="14" buff_id="1165"/>
-	<monster_buff group_id="14" buff_id="1176"/>
-	<monster_buff group_id="14" buff_id="1184"/>
-	<monster_buff group_id="14" buff_id="1192"/>
-	<monster_buff group_id="14" buff_id="1202"/>
-	<monster_buff group_id="14" buff_id="1215"/>
-	<monster_buff group_id="14" buff_id="1225"/>
-	<monster_buff group_id="14" buff_id="1243"/>
-	<monster_buff group_id="14" buff_id="10001481"/>
-	<monster_buff group_id="14" buff_id="10001482"/>
-	<monster_buff group_id="14" buff_id="10001483"/>
-	<monster_buff group_id="14" buff_id="10001484"/>
-	<monster_buff group_id="14" buff_id="10001485"/>
-	<monster_buff group_id="14" buff_id="10001486"/>
-	<monster_buff/>
-	<monster_buff/>
-	<monster_buff group_id="21" buff_id="1141"/>
-	<monster_buff group_id="21" buff_id="1153"/>
-	<monster_buff group_id="21" buff_id="1163"/>
-	<monster_buff group_id="21" buff_id="1173"/>
-	<monster_buff group_id="21" buff_id="1182"/>
-	<monster_buff group_id="21" buff_id="1213"/>
-	<monster_buff group_id="21" buff_id="1223"/>
-	<monster_buff group_id="21" buff_id="1241"/>
-	<monster_buff/>
-	<monster_buff group_id="22" buff_id="1142"/>
-	<monster_buff group_id="22" buff_id="1154"/>
-	<monster_buff group_id="22" buff_id="1164"/>
-	<monster_buff group_id="22" buff_id="1174"/>
-	<monster_buff group_id="22" buff_id="1183"/>
-	<monster_buff group_id="22" buff_id="1191"/>
-	<monster_buff group_id="22" buff_id="1201"/>
-	<monster_buff group_id="22" buff_id="1214"/>
-	<monster_buff group_id="22" buff_id="1224"/>
-	<monster_buff group_id="22" buff_id="1242"/>
-	<monster_buff/>
-	<monster_buff group_id="23" buff_id="1143"/>
-	<monster_buff group_id="23" buff_id="1155"/>
-	<monster_buff group_id="23" buff_id="1165"/>
-	<monster_buff group_id="23" buff_id="1175"/>
-	<monster_buff group_id="23" buff_id="1184"/>
-	<monster_buff group_id="23" buff_id="1192"/>
-	<monster_buff group_id="23" buff_id="1202"/>
-	<monster_buff group_id="23" buff_id="1215"/>
-	<monster_buff group_id="23" buff_id="1225"/>
-	<monster_buff group_id="23" buff_id="1243"/>
-	<monster_buff/>
-	<monster_buff group_id="24" buff_id="1143"/>
-	<monster_buff group_id="24" buff_id="1155"/>
-	<monster_buff group_id="24" buff_id="1165"/>
-	<monster_buff group_id="24" buff_id="1175"/>
-	<monster_buff group_id="24" buff_id="1184"/>
-	<monster_buff group_id="24" buff_id="1192"/>
-	<monster_buff group_id="24" buff_id="1202"/>
-	<monster_buff group_id="24" buff_id="1215"/>
-	<monster_buff group_id="24" buff_id="1225"/>
-	<monster_buff group_id="24" buff_id="1243"/>
-	<monster_buff group_id="24" buff_id="10002481"/>
-	<monster_buff group_id="24" buff_id="10002482"/>
-	<monster_buff group_id="24" buff_id="10002483"/>
-	<monster_buff group_id="24" buff_id="10002484"/>
-	<monster_buff group_id="24" buff_id="10002485"/>
-	<monster_buff group_id="24" buff_id="10002486"/>
-	<monster_buff/>
-	<monster_buff group_id="31" buff_id="1141"/>
-	<monster_buff group_id="31" buff_id="1153"/>
-	<monster_buff group_id="31" buff_id="1163"/>
-	<monster_buff group_id="31" buff_id="1173"/>
-	<monster_buff group_id="31" buff_id="1182"/>
-	<monster_buff group_id="31" buff_id="1196"/>
-	<monster_buff group_id="31" buff_id="1213"/>
-	<monster_buff group_id="31" buff_id="1223"/>
-	<monster_buff group_id="31" buff_id="1241"/>
-	<monster_buff/>
-	<monster_buff group_id="32" buff_id="1142"/>
-	<monster_buff group_id="32" buff_id="1154"/>
-	<monster_buff group_id="32" buff_id="1164"/>
-	<monster_buff group_id="32" buff_id="1174"/>
-	<monster_buff group_id="32" buff_id="1183"/>
-	<monster_buff group_id="32" buff_id="1196"/>
-	<monster_buff group_id="32" buff_id="1201"/>
-	<monster_buff group_id="32" buff_id="1214"/>
-	<monster_buff group_id="32" buff_id="1224"/>
-	<monster_buff group_id="32" buff_id="1242"/>
-	<monster_buff/>
-	<monster_buff group_id="33" buff_id="1143"/>
-	<monster_buff group_id="33" buff_id="1155"/>
-	<monster_buff group_id="33" buff_id="1165"/>
-	<monster_buff group_id="33" buff_id="1175"/>
-	<monster_buff group_id="33" buff_id="1184"/>
-	<monster_buff group_id="33" buff_id="1196"/>
-	<monster_buff group_id="33" buff_id="1202"/>
-	<monster_buff group_id="33" buff_id="1215"/>
-	<monster_buff group_id="33" buff_id="1225"/>
-	<monster_buff group_id="33" buff_id="1243"/>
-	<monster_buff/>
-	<monster_buff group_id="34" buff_id="1143"/>
-	<monster_buff group_id="34" buff_id="1155"/>
-	<monster_buff group_id="34" buff_id="1165"/>
-	<monster_buff group_id="34" buff_id="1175"/>
-	<monster_buff group_id="34" buff_id="1184"/>
-	<monster_buff group_id="34" buff_id="1196"/>
-	<monster_buff group_id="34" buff_id="1202"/>
-	<monster_buff group_id="34" buff_id="1215"/>
-	<monster_buff group_id="34" buff_id="1225"/>
-	<monster_buff group_id="34" buff_id="1243"/>
-	<monster_buff group_id="34" buff_id="10003481"/>
-	<monster_buff group_id="34" buff_id="10003482"/>
-	<monster_buff group_id="34" buff_id="10003483"/>
-	<monster_buff group_id="34" buff_id="10003484"/>
-	<monster_buff group_id="34" buff_id="10003485"/>
-	<monster_buff group_id="34" buff_id="10003486"/>
-	<monster_buff/>
-	<monster_buff group_id="41" buff_id="1121"/>
-	<monster_buff group_id="41" buff_id="1131"/>
-	<monster_buff group_id="41" buff_id="1141"/>
-	<monster_buff group_id="41" buff_id="1153"/>
-	<monster_buff group_id="41" buff_id="1163"/>
-	<monster_buff group_id="41" buff_id="1173"/>
-	<monster_buff group_id="41" buff_id="1181"/>
-	<monster_buff group_id="41" buff_id="1193"/>
-	<monster_buff group_id="41" buff_id="1206"/>
-	<monster_buff group_id="41" buff_id="1213"/>
-	<monster_buff group_id="41" buff_id="1236"/>
-	<monster_buff group_id="41" buff_id="1241"/>
-	<monster_buff group_id="41" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="42" buff_id="1122"/>
-	<monster_buff group_id="42" buff_id="1132"/>
-	<monster_buff group_id="42" buff_id="1142"/>
-	<monster_buff group_id="42" buff_id="1154"/>
-	<monster_buff group_id="42" buff_id="1164"/>
-	<monster_buff group_id="42" buff_id="1174"/>
-	<monster_buff group_id="42" buff_id="1182"/>
-	<monster_buff group_id="42" buff_id="1194"/>
-	<monster_buff group_id="42" buff_id="1206"/>
-	<monster_buff group_id="42" buff_id="1214"/>
-	<monster_buff group_id="42" buff_id="1221"/>
-	<monster_buff group_id="42" buff_id="1236"/>
-	<monster_buff group_id="42" buff_id="1242"/>
-	<monster_buff group_id="42" buff_id="1264"/>
-	<monster_buff/>
-	<monster_buff group_id="43" buff_id="1123"/>
-	<monster_buff group_id="43" buff_id="1133"/>
-	<monster_buff group_id="43" buff_id="1143"/>
-	<monster_buff group_id="43" buff_id="1155"/>
-	<monster_buff group_id="43" buff_id="1165"/>
-	<monster_buff group_id="43" buff_id="1175"/>
-	<monster_buff group_id="43" buff_id="1183"/>
-	<monster_buff group_id="43" buff_id="1195"/>
-	<monster_buff group_id="43" buff_id="1206"/>
-	<monster_buff group_id="43" buff_id="1215"/>
-	<monster_buff group_id="43" buff_id="1222"/>
-	<monster_buff group_id="43" buff_id="1236"/>
-	<monster_buff group_id="43" buff_id="1243"/>
-	<monster_buff group_id="43" buff_id="1265"/>
-	<monster_buff/>
-	<monster_buff group_id="44" buff_id="1123"/>
-	<monster_buff group_id="44" buff_id="1133"/>
-	<monster_buff group_id="44" buff_id="1143"/>
-	<monster_buff group_id="44" buff_id="1155"/>
-	<monster_buff group_id="44" buff_id="1165"/>
-	<monster_buff group_id="44" buff_id="1175"/>
-	<monster_buff group_id="44" buff_id="1183"/>
-	<monster_buff group_id="44" buff_id="1195"/>
-	<monster_buff group_id="44" buff_id="1206"/>
-	<monster_buff group_id="44" buff_id="1215"/>
-	<monster_buff group_id="44" buff_id="1222"/>
-	<monster_buff group_id="44" buff_id="1236"/>
-	<monster_buff group_id="44" buff_id="1243"/>
-	<monster_buff group_id="44" buff_id="1265"/>
-	<monster_buff group_id="44" buff_id="10004481"/>
-	<monster_buff group_id="44" buff_id="10004482"/>
-	<monster_buff group_id="44" buff_id="10004483"/>
-	<monster_buff group_id="44" buff_id="10004484"/>
-	<monster_buff group_id="44" buff_id="10004485"/>
-	<monster_buff group_id="44" buff_id="10004486"/>
-	<monster_buff/>
-	<monster_buff group_id="51" buff_id="1121"/>
-	<monster_buff group_id="51" buff_id="1131"/>
-	<monster_buff group_id="51" buff_id="1146"/>
-	<monster_buff group_id="51" buff_id="1153"/>
-	<monster_buff group_id="51" buff_id="1163"/>
-	<monster_buff group_id="51" buff_id="1173"/>
-	<monster_buff group_id="51" buff_id="1181"/>
-	<monster_buff group_id="51" buff_id="1193"/>
-	<monster_buff group_id="51" buff_id="1213"/>
-	<monster_buff group_id="51" buff_id="1226"/>
-	<monster_buff group_id="51" buff_id="1241"/>
-	<monster_buff group_id="51" buff_id="1256"/>
-	<monster_buff group_id="51" buff_id="1261"/>
-	<monster_buff/>
-	<monster_buff group_id="52" buff_id="1121"/>
-	<monster_buff group_id="52" buff_id="1131"/>
-	<monster_buff group_id="52" buff_id="1146"/>
-	<monster_buff group_id="52" buff_id="1154"/>
-	<monster_buff group_id="52" buff_id="1164"/>
-	<monster_buff group_id="52" buff_id="1174"/>
-	<monster_buff group_id="52" buff_id="1182"/>
-	<monster_buff group_id="52" buff_id="1194"/>
-	<monster_buff group_id="52" buff_id="1214"/>
-	<monster_buff group_id="52" buff_id="1226"/>
-	<monster_buff group_id="52" buff_id="1242"/>
-	<monster_buff group_id="52" buff_id="1256"/>
-	<monster_buff group_id="52" buff_id="1262"/>
-	<monster_buff/>
-	<monster_buff group_id="53" buff_id="1122"/>
-	<monster_buff group_id="53" buff_id="1132"/>
-	<monster_buff group_id="53" buff_id="1146"/>
-	<monster_buff group_id="53" buff_id="1155"/>
-	<monster_buff group_id="53" buff_id="1165"/>
-	<monster_buff group_id="53" buff_id="1175"/>
-	<monster_buff group_id="53" buff_id="1183"/>
-	<monster_buff group_id="53" buff_id="1195"/>
-	<monster_buff group_id="53" buff_id="1215"/>
-	<monster_buff group_id="53" buff_id="1226"/>
-	<monster_buff group_id="53" buff_id="1243"/>
-	<monster_buff group_id="53" buff_id="1256"/>
-	<monster_buff group_id="53" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="54" buff_id="1122"/>
-	<monster_buff group_id="54" buff_id="1132"/>
-	<monster_buff group_id="54" buff_id="1146"/>
-	<monster_buff group_id="54" buff_id="1155"/>
-	<monster_buff group_id="54" buff_id="1165"/>
-	<monster_buff group_id="54" buff_id="1175"/>
-	<monster_buff group_id="54" buff_id="1183"/>
-	<monster_buff group_id="54" buff_id="1195"/>
-	<monster_buff group_id="54" buff_id="1215"/>
-	<monster_buff group_id="54" buff_id="1226"/>
-	<monster_buff group_id="54" buff_id="1243"/>
-	<monster_buff group_id="54" buff_id="1256"/>
-	<monster_buff group_id="54" buff_id="1263"/>
-	<monster_buff group_id="54" buff_id="10005481"/>
-	<monster_buff group_id="54" buff_id="10005482"/>
-	<monster_buff group_id="54" buff_id="10005483"/>
-	<monster_buff group_id="54" buff_id="10005484"/>
-	<monster_buff group_id="54" buff_id="10005485"/>
-	<monster_buff group_id="54" buff_id="10005486"/>
-	<monster_buff/>
-	<monster_buff group_id="61" buff_id="1123"/>
-	<monster_buff group_id="61" buff_id="1133"/>
-	<monster_buff group_id="61" buff_id="1153"/>
-	<monster_buff group_id="61" buff_id="1163"/>
-	<monster_buff group_id="61" buff_id="1173"/>
-	<monster_buff group_id="61" buff_id="1183"/>
-	<monster_buff group_id="61" buff_id="1193"/>
-	<monster_buff group_id="61" buff_id="1203"/>
-	<monster_buff group_id="61" buff_id="1213"/>
-	<monster_buff group_id="61" buff_id="1236"/>
-	<monster_buff group_id="61" buff_id="1243"/>
-	<monster_buff group_id="61" buff_id="1251"/>
-	<monster_buff group_id="61" buff_id="1261"/>
-	<monster_buff/>
-	<monster_buff group_id="62" buff_id="1124"/>
-	<monster_buff group_id="62" buff_id="1134"/>
-	<monster_buff group_id="62" buff_id="1154"/>
-	<monster_buff group_id="62" buff_id="1164"/>
-	<monster_buff group_id="62" buff_id="1174"/>
-	<monster_buff group_id="62" buff_id="1184"/>
-	<monster_buff group_id="62" buff_id="1194"/>
-	<monster_buff group_id="62" buff_id="1204"/>
-	<monster_buff group_id="62" buff_id="1214"/>
-	<monster_buff group_id="62" buff_id="1221"/>
-	<monster_buff group_id="62" buff_id="1236"/>
-	<monster_buff group_id="62" buff_id="1244"/>
-	<monster_buff group_id="62" buff_id="1252"/>
-	<monster_buff group_id="62" buff_id="1262"/>
-	<monster_buff/>
-	<monster_buff group_id="63" buff_id="1125"/>
-	<monster_buff group_id="63" buff_id="1135"/>
-	<monster_buff group_id="63" buff_id="1155"/>
-	<monster_buff group_id="63" buff_id="1165"/>
-	<monster_buff group_id="63" buff_id="1175"/>
-	<monster_buff group_id="63" buff_id="1185"/>
-	<monster_buff group_id="63" buff_id="1195"/>
-	<monster_buff group_id="63" buff_id="1205"/>
-	<monster_buff group_id="63" buff_id="1215"/>
-	<monster_buff group_id="63" buff_id="1222"/>
-	<monster_buff group_id="63" buff_id="1236"/>
-	<monster_buff group_id="63" buff_id="1245"/>
-	<monster_buff group_id="63" buff_id="1253"/>
-	<monster_buff group_id="63" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="64" buff_id="1125"/>
-	<monster_buff group_id="64" buff_id="1135"/>
-	<monster_buff group_id="64" buff_id="1155"/>
-	<monster_buff group_id="64" buff_id="1165"/>
-	<monster_buff group_id="64" buff_id="1175"/>
-	<monster_buff group_id="64" buff_id="1185"/>
-	<monster_buff group_id="64" buff_id="1195"/>
-	<monster_buff group_id="64" buff_id="1205"/>
-	<monster_buff group_id="64" buff_id="1215"/>
-	<monster_buff group_id="64" buff_id="1222"/>
-	<monster_buff group_id="64" buff_id="1236"/>
-	<monster_buff group_id="64" buff_id="1245"/>
-	<monster_buff group_id="64" buff_id="1253"/>
-	<monster_buff group_id="64" buff_id="1263"/>
-	<monster_buff group_id="64" buff_id="10006481"/>
-	<monster_buff group_id="64" buff_id="10006482"/>
-	<monster_buff group_id="64" buff_id="10006483"/>
-	<monster_buff group_id="64" buff_id="10006484"/>
-	<monster_buff group_id="64" buff_id="10006485"/>
-	<monster_buff group_id="64" buff_id="10006486"/>
-	<monster_buff/>
-	<monster_buff/>
-	<monster_buff group_id="50061" buff_id="1173"/>
-	<monster_buff group_id="50061" buff_id="1181"/>
-	<monster_buff group_id="50061" buff_id="1191"/>
-	<monster_buff group_id="50061" buff_id="1211"/>
-	<monster_buff group_id="50061" buff_id="1251"/>
-	<monster_buff group_id="50061" buff_id="1261"/>
-	<monster_buff/>
-	<monster_buff group_id="50062" buff_id="1174"/>
-	<monster_buff group_id="50062" buff_id="1182"/>
-	<monster_buff group_id="50062" buff_id="1192"/>
-	<monster_buff group_id="50062" buff_id="1212"/>
-	<monster_buff group_id="50062" buff_id="1252"/>
-	<monster_buff group_id="50062" buff_id="1262"/>
-	<monster_buff/>
-	<monster_buff group_id="50063" buff_id="1175"/>
-	<monster_buff group_id="50063" buff_id="1183"/>
-	<monster_buff group_id="50063" buff_id="1193"/>
-	<monster_buff group_id="50063" buff_id="1213"/>
-	<monster_buff group_id="50063" buff_id="1253"/>
-	<monster_buff group_id="50063" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="40002" buff_id="1143"/>
-	<monster_buff group_id="40002" buff_id="1155"/>
-	<monster_buff group_id="40002" buff_id="1165"/>
-	<monster_buff group_id="40002" buff_id="1175"/>
-	<monster_buff group_id="40002" buff_id="1184"/>
-	<monster_buff group_id="40002" buff_id="1192"/>
-	<monster_buff group_id="40002" buff_id="1202"/>
-	<monster_buff group_id="40002" buff_id="1215"/>
-	<monster_buff group_id="40002" buff_id="1225"/>
-	<monster_buff group_id="40002" buff_id="1243"/>
-	<monster_buff group_id="40002" buff_id="6"/>
-	<monster_buff/>
-	<monster_buff group_id="40003" buff_id="1176"/>
-	<monster_buff group_id="40003" buff_id="1185"/>
-	<monster_buff group_id="40003" buff_id="1165"/>
-	<monster_buff group_id="40003" buff_id="1153"/>
-	<monster_buff group_id="40003" buff_id="1145"/>
-	<monster_buff group_id="40003" buff_id="1215"/>
-	<monster_buff group_id="40003" buff_id="1223"/>
-	<monster_buff group_id="40003" buff_id="1243"/>
-	<monster_buff/>
-	<monster_buff group_id="5010" buff_id="1146"/>
-	<monster_buff group_id="5010" buff_id="1163"/>
-	<monster_buff group_id="5010" buff_id="1173"/>
-	<monster_buff group_id="5010" buff_id="1183"/>
-	<monster_buff group_id="5010" buff_id="1193"/>
-	<monster_buff group_id="5010" buff_id="1226"/>
-	<monster_buff group_id="5010" buff_id="1256"/>
-	<monster_buff/>
-	<monster_buff group_id="10021" buff_id="1173"/>
-	<monster_buff group_id="10021" buff_id="1211"/>
-	<monster_buff/>
-	<monster_buff group_id="10022" buff_id="1123"/>
-	<monster_buff group_id="10022" buff_id="1133"/>
-	<monster_buff group_id="10022" buff_id="1143"/>
-	<monster_buff group_id="10022" buff_id="1153"/>
-	<monster_buff group_id="10022" buff_id="1183"/>
-	<monster_buff/>
-	<monster_buff group_id="10023" buff_id="1143"/>
-	<monster_buff group_id="10023" buff_id="1163"/>
-	<monster_buff group_id="10023" buff_id="1203"/>
-	<monster_buff group_id="10023" buff_id="1253"/>
-	<monster_buff group_id="10023" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="10024" buff_id="1122"/>
-	<monster_buff group_id="10024" buff_id="1132"/>
-	<monster_buff group_id="10024" buff_id="1152"/>
-	<monster_buff group_id="10024" buff_id="1162"/>
-	<monster_buff group_id="10024" buff_id="1174"/>
-	<monster_buff group_id="10024" buff_id="1206"/>
-	<monster_buff group_id="10024" buff_id="1256"/>
-	<monster_buff/>
-	<monster_buff group_id="10025" buff_id="1144"/>
-	<monster_buff group_id="10025" buff_id="1174"/>
-	<monster_buff group_id="10025" buff_id="1193"/>
-	<monster_buff group_id="10025" buff_id="1243"/>
-	<monster_buff/>
-	<monster_buff group_id="10026" buff_id="1122"/>
-	<monster_buff group_id="10026" buff_id="1132"/>
-	<monster_buff group_id="10026" buff_id="1145"/>
-	<monster_buff group_id="10026" buff_id="1152"/>
-	<monster_buff group_id="10026" buff_id="1164"/>
-	<monster_buff group_id="10026" buff_id="1175"/>
-	<monster_buff group_id="10026" buff_id="1242"/>
-	<monster_buff/>
-	<monster_buff group_id="10027" buff_id="1123"/>
-	<monster_buff group_id="10027" buff_id="1133"/>
-	<monster_buff group_id="10027" buff_id="1145"/>
-	<monster_buff group_id="10027" buff_id="1153"/>
-	<monster_buff group_id="10027" buff_id="1173"/>
-	<monster_buff group_id="10027" buff_id="1195"/>
-	<monster_buff group_id="10027" buff_id="1202"/>
-	<monster_buff group_id="10027" buff_id="1212"/>
-	<monster_buff group_id="10027" buff_id="1252"/>
-	<monster_buff group_id="10027" buff_id="1262"/>
-	<monster_buff/>
-	<monster_buff/>
-	<monster_buff group_id="101" buff_id="10001481"/>
-	<monster_buff group_id="101" buff_id="10001482"/>
-	<monster_buff group_id="101" buff_id="10001483"/>
-	<monster_buff group_id="101" buff_id="10001484"/>
-	<monster_buff group_id="101" buff_id="10001485"/>
-	<monster_buff group_id="101" buff_id="10001486"/>
-	<monster_buff/>
-	<monster_buff group_id="102" buff_id="10002481"/>
-	<monster_buff group_id="102" buff_id="10002482"/>
-	<monster_buff group_id="102" buff_id="10002483"/>
-	<monster_buff group_id="102" buff_id="10002484"/>
-	<monster_buff group_id="102" buff_id="10002485"/>
-	<monster_buff group_id="102" buff_id="10002486"/>
-	<monster_buff/>
-	<monster_buff group_id="103" buff_id="10003481"/>
-	<monster_buff group_id="103" buff_id="10003482"/>
-	<monster_buff group_id="103" buff_id="10003483"/>
-	<monster_buff group_id="103" buff_id="10003484"/>
-	<monster_buff group_id="103" buff_id="10003485"/>
-	<monster_buff group_id="103" buff_id="10003486"/>
-	<monster_buff/>
-	<monster_buff group_id="104" buff_id="10004481"/>
-	<monster_buff group_id="104" buff_id="10004482"/>
-	<monster_buff group_id="104" buff_id="10004483"/>
-	<monster_buff group_id="104" buff_id="10004484"/>
-	<monster_buff group_id="104" buff_id="10004485"/>
-	<monster_buff group_id="104" buff_id="10004486"/>
-	<monster_buff/>
-	<monster_buff group_id="105" buff_id="10005481"/>
-	<monster_buff group_id="105" buff_id="10005482"/>
-	<monster_buff group_id="105" buff_id="10005483"/>
-	<monster_buff group_id="105" buff_id="10005484"/>
-	<monster_buff group_id="105" buff_id="10005485"/>
-	<monster_buff group_id="105" buff_id="10005486"/>
-	<monster_buff/>
-	<monster_buff group_id="106" buff_id="10006481"/>
-	<monster_buff group_id="106" buff_id="10006482"/>
-	<monster_buff group_id="106" buff_id="10006483"/>
-	<monster_buff group_id="106" buff_id="10006484"/>
-	<monster_buff group_id="106" buff_id="10006485"/>
-	<monster_buff group_id="106" buff_id="10006486"/>
-	<monster_buff/>
-	<monster_buff group_id="201" buff_id="10001581"/>
-	<monster_buff group_id="201" buff_id="10001582"/>
-	<monster_buff group_id="201" buff_id="10001583"/>
-	<monster_buff group_id="201" buff_id="10001584"/>
-	<monster_buff group_id="201" buff_id="10001585"/>
-	<monster_buff group_id="201" buff_id="10001586"/>
-	<monster_buff/>
-	<monster_buff group_id="202" buff_id="10002581"/>
-	<monster_buff group_id="202" buff_id="10002582"/>
-	<monster_buff group_id="202" buff_id="10002583"/>
-	<monster_buff group_id="202" buff_id="10002584"/>
-	<monster_buff group_id="202" buff_id="10002585"/>
-	<monster_buff group_id="202" buff_id="10002586"/>
-	<monster_buff/>
-	<monster_buff group_id="203" buff_id="10003581"/>
-	<monster_buff group_id="203" buff_id="10003582"/>
-	<monster_buff group_id="203" buff_id="10003583"/>
-	<monster_buff group_id="203" buff_id="10003584"/>
-	<monster_buff group_id="203" buff_id="10003585"/>
-	<monster_buff group_id="203" buff_id="10003586"/>
-	<monster_buff/>
-	<monster_buff group_id="204" buff_id="10004581"/>
-	<monster_buff group_id="204" buff_id="10004582"/>
-	<monster_buff group_id="204" buff_id="10004583"/>
-	<monster_buff group_id="204" buff_id="10004584"/>
-	<monster_buff group_id="204" buff_id="10004585"/>
-	<monster_buff group_id="204" buff_id="10004586"/>
-	<monster_buff/>
-	<monster_buff group_id="205" buff_id="10005581"/>
-	<monster_buff group_id="205" buff_id="10005582"/>
-	<monster_buff group_id="205" buff_id="10005583"/>
-	<monster_buff group_id="205" buff_id="10005584"/>
-	<monster_buff group_id="205" buff_id="10005585"/>
-	<monster_buff group_id="205" buff_id="10005586"/>
-	<monster_buff/>
-	<monster_buff group_id="206" buff_id="10006581"/>
-	<monster_buff group_id="206" buff_id="10006582"/>
-	<monster_buff group_id="206" buff_id="10006583"/>
-	<monster_buff group_id="206" buff_id="10006584"/>
-	<monster_buff group_id="206" buff_id="10006585"/>
-	<monster_buff group_id="206" buff_id="10006586"/>
-	<monster_buff/>
-	<monster_buff group_id="301" buff_id="10001581"/>
-	<monster_buff group_id="301" buff_id="10001682"/>
-	<monster_buff group_id="301" buff_id="10001683"/>
-	<monster_buff group_id="301" buff_id="10001684"/>
-	<monster_buff group_id="301" buff_id="10001685"/>
-	<monster_buff group_id="301" buff_id="10001686"/>
-	<monster_buff/>
-	<monster_buff group_id="302" buff_id="10002581"/>
-	<monster_buff group_id="302" buff_id="10002682"/>
-	<monster_buff group_id="302" buff_id="10002683"/>
-	<monster_buff group_id="302" buff_id="10002684"/>
-	<monster_buff group_id="302" buff_id="10002685"/>
-	<monster_buff group_id="302" buff_id="10002686"/>
-	<monster_buff/>
-	<monster_buff group_id="303" buff_id="10003581"/>
-	<monster_buff group_id="303" buff_id="10003682"/>
-	<monster_buff group_id="303" buff_id="10003683"/>
-	<monster_buff group_id="303" buff_id="10003684"/>
-	<monster_buff group_id="303" buff_id="10003685"/>
-	<monster_buff group_id="303" buff_id="10003686"/>
-	<monster_buff/>
-	<monster_buff group_id="304" buff_id="10004581"/>
-	<monster_buff group_id="304" buff_id="10004682"/>
-	<monster_buff group_id="304" buff_id="10004683"/>
-	<monster_buff group_id="304" buff_id="10004684"/>
-	<monster_buff group_id="304" buff_id="10004685"/>
-	<monster_buff group_id="304" buff_id="10004686"/>
-	<monster_buff/>
-	<monster_buff group_id="305" buff_id="10005581"/>
-	<monster_buff group_id="305" buff_id="10005682"/>
-	<monster_buff group_id="305" buff_id="10005683"/>
-	<monster_buff group_id="305" buff_id="10005684"/>
-	<monster_buff group_id="305" buff_id="10005685"/>
-	<monster_buff group_id="305" buff_id="10005686"/>
-	<monster_buff/>
-	<monster_buff group_id="306" buff_id="10006581"/>
-	<monster_buff group_id="306" buff_id="10006682"/>
-	<monster_buff group_id="306" buff_id="10006683"/>
-	<monster_buff group_id="306" buff_id="10006684"/>
-	<monster_buff group_id="306" buff_id="10006685"/>
-	<monster_buff group_id="306" buff_id="10006686"/>
-	<monster_buff/>
-	<monster_buff group_id="50151" buff_id="10006481"/>
-	<monster_buff group_id="50151" buff_id="10006482"/>
-	<monster_buff group_id="50151" buff_id="10006483"/>
-	<monster_buff group_id="50151" buff_id="10006484"/>
-	<monster_buff group_id="50151" buff_id="10006485"/>
-	<monster_buff group_id="50151" buff_id="10006486"/>
-	<monster_buff group_id="50151" buff_id="1145"/>
-	<monster_buff group_id="50151" buff_id="1153"/>
-	<monster_buff group_id="50151" buff_id="1175"/>
-	<monster_buff group_id="50151" buff_id="1185"/>
-	<monster_buff group_id="50151" buff_id="1215"/>
-	<monster_buff group_id="50151" buff_id="1225"/>
-	<monster_buff group_id="50151" buff_id="1254"/>
-	<monster_buff group_id="50151" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="50152" buff_id="10006481"/>
-	<monster_buff group_id="50152" buff_id="10006482"/>
-	<monster_buff group_id="50152" buff_id="10006483"/>
-	<monster_buff group_id="50152" buff_id="10006484"/>
-	<monster_buff group_id="50152" buff_id="10006485"/>
-	<monster_buff group_id="50152" buff_id="10006486"/>
-	<monster_buff group_id="50152" buff_id="1145"/>
-	<monster_buff group_id="50152" buff_id="1153"/>
-	<monster_buff group_id="50152" buff_id="1161"/>
-	<monster_buff group_id="50152" buff_id="1175"/>
-	<monster_buff group_id="50152" buff_id="1185"/>
-	<monster_buff group_id="50152" buff_id="1191"/>
-	<monster_buff group_id="50152" buff_id="1215"/>
-	<monster_buff group_id="50152" buff_id="1225"/>
-	<monster_buff group_id="50152" buff_id="1241"/>
-	<monster_buff group_id="50152" buff_id="1254"/>
-	<monster_buff group_id="50152" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="50153" buff_id="10006481"/>
-	<monster_buff group_id="50153" buff_id="10006482"/>
-	<monster_buff group_id="50153" buff_id="10006483"/>
-	<monster_buff group_id="50153" buff_id="10006484"/>
-	<monster_buff group_id="50153" buff_id="10006485"/>
-	<monster_buff group_id="50153" buff_id="10006486"/>
-	<monster_buff group_id="50153" buff_id="1145"/>
-	<monster_buff group_id="50153" buff_id="1153"/>
-	<monster_buff group_id="50153" buff_id="1162"/>
-	<monster_buff group_id="50153" buff_id="1175"/>
-	<monster_buff group_id="50153" buff_id="1185"/>
-	<monster_buff group_id="50153" buff_id="1192"/>
-	<monster_buff group_id="50153" buff_id="1215"/>
-	<monster_buff group_id="50153" buff_id="1225"/>
-	<monster_buff group_id="50153" buff_id="1242"/>
-	<monster_buff group_id="50153" buff_id="1254"/>
-	<monster_buff group_id="50153" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff/>
-	<monster_buff group_id="40005" buff_id="1145"/>
-	<monster_buff group_id="40005" buff_id="1154"/>
-	<monster_buff group_id="40005" buff_id="1163"/>
-	<monster_buff group_id="40005" buff_id="1176"/>
-	<monster_buff group_id="40005" buff_id="1186"/>
-	<monster_buff group_id="40005" buff_id="1195"/>
-	<monster_buff group_id="40005" buff_id="1206"/>
-	<monster_buff group_id="40005" buff_id="1214"/>
-	<monster_buff group_id="40005" buff_id="1225"/>
-	<monster_buff group_id="40005" buff_id="1243"/>
-	<monster_buff group_id="40005" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="40007" buff_id="1145"/>
-	<monster_buff group_id="40007" buff_id="1154"/>
-	<monster_buff group_id="40007" buff_id="1165"/>
-	<monster_buff group_id="40007" buff_id="1175"/>
-	<monster_buff group_id="40007" buff_id="1186"/>
-	<monster_buff group_id="40007" buff_id="1196"/>
-	<monster_buff group_id="40007" buff_id="1206"/>
-	<monster_buff group_id="40007" buff_id="1216"/>
-	<monster_buff group_id="40007" buff_id="1225"/>
-	<monster_buff group_id="40007" buff_id="1243"/>
-	<monster_buff group_id="40007" buff_id="1253"/>
-	<monster_buff group_id="40007" buff_id="1263"/>
-	<monster_buff group_id="40007" buff_id="10001481"/>
-	<monster_buff group_id="40007" buff_id="10001482"/>
-	<monster_buff group_id="40007" buff_id="10001483"/>
-	<monster_buff group_id="40007" buff_id="10001484"/>
-	<monster_buff group_id="40007" buff_id="10001485"/>
-	<monster_buff group_id="40007" buff_id="10001486"/>
-	<monster_buff/>
-	<monster_buff/>
-	<monster_buff group_id="80101" buff_id="1144"/>
-	<monster_buff group_id="80101" buff_id="1165"/>
-	<monster_buff group_id="80101" buff_id="1176"/>
-	<monster_buff group_id="80101" buff_id="1183"/>
-	<monster_buff group_id="80101" buff_id="1193"/>
-	<monster_buff group_id="80101" buff_id="1202"/>
-	<monster_buff group_id="80101" buff_id="1213"/>
-	<monster_buff group_id="80101" buff_id="1224"/>
-	<monster_buff group_id="80101" buff_id="1243"/>
-	<monster_buff group_id="80101" buff_id="1253"/>
-	<monster_buff group_id="80101" buff_id="10006481"/>
-	<monster_buff group_id="80101" buff_id="10006482"/>
-	<monster_buff group_id="80101" buff_id="10006483"/>
-	<monster_buff group_id="80101" buff_id="10006484"/>
-	<monster_buff group_id="80101" buff_id="10006485"/>
-	<monster_buff group_id="80101" buff_id="10006486"/>
-	<monster_buff/>
-	<monster_buff group_id="40009" buff_id="1145"/>
-	<monster_buff group_id="40009" buff_id="1153"/>
-	<monster_buff group_id="40009" buff_id="1165"/>
-	<monster_buff group_id="40009" buff_id="1173"/>
-	<monster_buff group_id="40009" buff_id="1185"/>
-	<monster_buff group_id="40009" buff_id="1196"/>
-	<monster_buff group_id="40009" buff_id="1215"/>
-	<monster_buff group_id="40009" buff_id="1225"/>
-	<monster_buff group_id="40009" buff_id="1244"/>
-	<monster_buff group_id="40009" buff_id="1254"/>
-	<monster_buff group_id="40009" buff_id="1264"/>
-	<monster_buff group_id="40009" buff_id="10002581"/>
-	<monster_buff group_id="40009" buff_id="10002582"/>
-	<monster_buff group_id="40009" buff_id="10002583"/>
-	<monster_buff group_id="40009" buff_id="10002584"/>
-	<monster_buff group_id="40009" buff_id="10002585"/>
-	<monster_buff group_id="40009" buff_id="10002586"/>
-	<monster_buff/>
-	<monster_buff group_id="50211" buff_id="10001581"/>
-	<monster_buff group_id="50211" buff_id="10001582"/>
-	<monster_buff group_id="50211" buff_id="10001583"/>
-	<monster_buff group_id="50211" buff_id="10001584"/>
-	<monster_buff group_id="50211" buff_id="10001585"/>
-	<monster_buff group_id="50211" buff_id="10001586"/>
-	<monster_buff group_id="50211" buff_id="1145"/>
-	<monster_buff group_id="50211" buff_id="1153"/>
-	<monster_buff group_id="50211" buff_id="1175"/>
-	<monster_buff group_id="50211" buff_id="1185"/>
-	<monster_buff group_id="50211" buff_id="1215"/>
-	<monster_buff group_id="50211" buff_id="1225"/>
-	<monster_buff group_id="50211" buff_id="1254"/>
-	<monster_buff group_id="50211" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="50212" buff_id="10001581"/>
-	<monster_buff group_id="50212" buff_id="10001582"/>
-	<monster_buff group_id="50212" buff_id="10001583"/>
-	<monster_buff group_id="50212" buff_id="10001584"/>
-	<monster_buff group_id="50212" buff_id="10001585"/>
-	<monster_buff group_id="50212" buff_id="10001586"/>
-	<monster_buff group_id="50212" buff_id="1145"/>
-	<monster_buff group_id="50212" buff_id="1153"/>
-	<monster_buff group_id="50212" buff_id="1161"/>
-	<monster_buff group_id="50212" buff_id="1175"/>
-	<monster_buff group_id="50212" buff_id="1185"/>
-	<monster_buff group_id="50212" buff_id="1191"/>
-	<monster_buff group_id="50212" buff_id="1215"/>
-	<monster_buff group_id="50212" buff_id="1225"/>
-	<monster_buff group_id="50212" buff_id="1241"/>
-	<monster_buff group_id="50212" buff_id="1254"/>
-	<monster_buff group_id="50212" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="50213" buff_id="10001581"/>
-	<monster_buff group_id="50213" buff_id="10001582"/>
-	<monster_buff group_id="50213" buff_id="10001583"/>
-	<monster_buff group_id="50213" buff_id="10001584"/>
-	<monster_buff group_id="50213" buff_id="10001585"/>
-	<monster_buff group_id="50213" buff_id="10001586"/>
-	<monster_buff group_id="50213" buff_id="1145"/>
-	<monster_buff group_id="50213" buff_id="1153"/>
-	<monster_buff group_id="50213" buff_id="1162"/>
-	<monster_buff group_id="50213" buff_id="1175"/>
-	<monster_buff group_id="50213" buff_id="1185"/>
-	<monster_buff group_id="50213" buff_id="1192"/>
-	<monster_buff group_id="50213" buff_id="1215"/>
-	<monster_buff group_id="50213" buff_id="1225"/>
-	<monster_buff group_id="50213" buff_id="1242"/>
-	<monster_buff group_id="50213" buff_id="1254"/>
-	<monster_buff group_id="50213" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="40011" buff_id="10004581"/>
-	<monster_buff group_id="40011" buff_id="10004582"/>
-	<monster_buff group_id="40011" buff_id="10004583"/>
-	<monster_buff group_id="40011" buff_id="10004584"/>
-	<monster_buff group_id="40011" buff_id="10004585"/>
-	<monster_buff group_id="40011" buff_id="10004586"/>
-	<monster_buff group_id="40011" buff_id="1154"/>
-	<monster_buff group_id="40011" buff_id="1164"/>
-	<monster_buff group_id="40011" buff_id="1175"/>
-	<monster_buff group_id="40011" buff_id="1183"/>
-	<monster_buff group_id="40011" buff_id="1194"/>
-	<monster_buff group_id="40011" buff_id="1213"/>
-	<monster_buff group_id="40011" buff_id="1222"/>
-	<monster_buff group_id="40011" buff_id="1243"/>
-	<monster_buff group_id="40011" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="40013" buff_id="10001581"/>
-	<monster_buff group_id="40013" buff_id="10001582"/>
-	<monster_buff group_id="40013" buff_id="10001583"/>
-	<monster_buff group_id="40013" buff_id="10001584"/>
-	<monster_buff group_id="40013" buff_id="10001585"/>
-	<monster_buff group_id="40013" buff_id="10001586"/>
-	<monster_buff group_id="40013" buff_id="1145"/>
-	<monster_buff group_id="40013" buff_id="1155"/>
-	<monster_buff group_id="40013" buff_id="1164"/>
-	<monster_buff group_id="40013" buff_id="1175"/>
-	<monster_buff group_id="40013" buff_id="1183"/>
-	<monster_buff group_id="40013" buff_id="1196"/>
-	<monster_buff group_id="40013" buff_id="1214"/>
-	<monster_buff group_id="40013" buff_id="1223"/>
-	<monster_buff group_id="40013" buff_id="1244"/>
-	<monster_buff group_id="40013" buff_id="1254"/>
-	<monster_buff group_id="40013" buff_id="1264"/>
-	<monster_buff/>
-	<monster_buff group_id="40015" buff_id="10002581"/>
-	<monster_buff group_id="40015" buff_id="10002582"/>
-	<monster_buff group_id="40015" buff_id="10002583"/>
-	<monster_buff group_id="40015" buff_id="10002584"/>
-	<monster_buff group_id="40015" buff_id="10002585"/>
-	<monster_buff group_id="40015" buff_id="10002586"/>
-	<monster_buff group_id="40015" buff_id="1145"/>
-	<monster_buff group_id="40015" buff_id="1154"/>
-	<monster_buff group_id="40015" buff_id="1165"/>
-	<monster_buff group_id="40015" buff_id="1174"/>
-	<monster_buff group_id="40015" buff_id="1184"/>
-	<monster_buff group_id="40015" buff_id="1194"/>
-	<monster_buff group_id="40015" buff_id="1204"/>
-	<monster_buff group_id="40015" buff_id="1214"/>
-	<monster_buff group_id="40015" buff_id="1244"/>
-	<monster_buff group_id="40015" buff_id="1256"/>
-	<monster_buff group_id="40015" buff_id="1264"/>
-	<monster_buff/>
-	<monster_buff group_id="80201" buff_id="10001581"/>
-	<monster_buff group_id="80201" buff_id="10001582"/>
-	<monster_buff group_id="80201" buff_id="10001583"/>
-	<monster_buff group_id="80201" buff_id="10001584"/>
-	<monster_buff group_id="80201" buff_id="10001585"/>
-	<monster_buff group_id="80201" buff_id="10001586"/>
-	<monster_buff group_id="80201" buff_id="1145"/>
-	<monster_buff group_id="80201" buff_id="1154"/>
-	<monster_buff group_id="80201" buff_id="1165"/>
-	<monster_buff group_id="80201" buff_id="1173"/>
-	<monster_buff group_id="80201" buff_id="1185"/>
-	<monster_buff group_id="80201" buff_id="1195"/>
-	<monster_buff group_id="80201" buff_id="1203"/>
-	<monster_buff group_id="80201" buff_id="1215"/>
-	<monster_buff group_id="80201" buff_id="1223"/>
-	<monster_buff group_id="80201" buff_id="1244"/>
-	<monster_buff group_id="80201" buff_id="1253"/>
-	<monster_buff group_id="80201" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="50261" buff_id="10006581"/>
-	<monster_buff group_id="50261" buff_id="10006582"/>
-	<monster_buff group_id="50261" buff_id="10006583"/>
-	<monster_buff group_id="50261" buff_id="10006584"/>
-	<monster_buff group_id="50261" buff_id="10006585"/>
-	<monster_buff group_id="50261" buff_id="10006586"/>
-	<monster_buff group_id="50261" buff_id="1121"/>
-	<monster_buff group_id="50261" buff_id="1131"/>
-	<monster_buff group_id="50261" buff_id="1141"/>
-	<monster_buff group_id="50261" buff_id="1151"/>
-	<monster_buff group_id="50261" buff_id="1163"/>
-	<monster_buff group_id="50261" buff_id="1186"/>
-	<monster_buff group_id="50261" buff_id="1193"/>
-	<monster_buff group_id="50261" buff_id="1202"/>
-	<monster_buff group_id="50261" buff_id="1213"/>
-	<monster_buff group_id="50261" buff_id="1226"/>
-	<monster_buff group_id="50261" buff_id="1243"/>
-	<monster_buff group_id="50261" buff_id="1252"/>
-	<monster_buff group_id="50261" buff_id="1261"/>
-	<monster_buff/>
-	<monster_buff group_id="50262" buff_id="10006581"/>
-	<monster_buff group_id="50262" buff_id="10006582"/>
-	<monster_buff group_id="50262" buff_id="10006583"/>
-	<monster_buff group_id="50262" buff_id="10006584"/>
-	<monster_buff group_id="50262" buff_id="10006585"/>
-	<monster_buff group_id="50262" buff_id="10006586"/>
-	<monster_buff group_id="50262" buff_id="1122"/>
-	<monster_buff group_id="50262" buff_id="1132"/>
-	<monster_buff group_id="50262" buff_id="1142"/>
-	<monster_buff group_id="50262" buff_id="1152"/>
-	<monster_buff group_id="50262" buff_id="1164"/>
-	<monster_buff group_id="50262" buff_id="1186"/>
-	<monster_buff group_id="50262" buff_id="1194"/>
-	<monster_buff group_id="50262" buff_id="1203"/>
-	<monster_buff group_id="50262" buff_id="1214"/>
-	<monster_buff group_id="50262" buff_id="1226"/>
-	<monster_buff group_id="50262" buff_id="1244"/>
-	<monster_buff group_id="50262" buff_id="1253"/>
-	<monster_buff group_id="50262" buff_id="1262"/>
-	<monster_buff/>
-	<monster_buff group_id="50263" buff_id="10006581"/>
-	<monster_buff group_id="50263" buff_id="10006582"/>
-	<monster_buff group_id="50263" buff_id="10006583"/>
-	<monster_buff group_id="50263" buff_id="10006584"/>
-	<monster_buff group_id="50263" buff_id="10006585"/>
-	<monster_buff group_id="50263" buff_id="10006586"/>
-	<monster_buff group_id="50263" buff_id="1123"/>
-	<monster_buff group_id="50263" buff_id="1133"/>
-	<monster_buff group_id="50263" buff_id="1143"/>
-	<monster_buff group_id="50263" buff_id="1153"/>
-	<monster_buff group_id="50263" buff_id="1165"/>
-	<monster_buff group_id="50263" buff_id="1186"/>
-	<monster_buff group_id="50263" buff_id="1195"/>
-	<monster_buff group_id="50263" buff_id="1204"/>
-	<monster_buff group_id="50263" buff_id="1215"/>
-	<monster_buff group_id="50263" buff_id="1226"/>
-	<monster_buff group_id="50263" buff_id="1245"/>
-	<monster_buff group_id="50263" buff_id="1254"/>
-	<monster_buff group_id="50263" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="40017" buff_id="10004581"/>
-	<monster_buff group_id="40017" buff_id="10004582"/>
-	<monster_buff group_id="40017" buff_id="10004583"/>
-	<monster_buff group_id="40017" buff_id="10004584"/>
-	<monster_buff group_id="40017" buff_id="10004585"/>
-	<monster_buff group_id="40017" buff_id="10004586"/>
-	<monster_buff group_id="40017" buff_id="1122"/>
-	<monster_buff group_id="40017" buff_id="1132"/>
-	<monster_buff group_id="40017" buff_id="1145"/>
-	<monster_buff group_id="40017" buff_id="1155"/>
-	<monster_buff group_id="40017" buff_id="1165"/>
-	<monster_buff group_id="40017" buff_id="1175"/>
-	<monster_buff group_id="40017" buff_id="1184"/>
-	<monster_buff group_id="40017" buff_id="1194"/>
-	<monster_buff group_id="40017" buff_id="1204"/>
-	<monster_buff group_id="40017" buff_id="1214"/>
-	<monster_buff group_id="40017" buff_id="1224"/>
-	<monster_buff group_id="40017" buff_id="1245"/>
-	<monster_buff group_id="40017" buff_id="1253"/>
-	<monster_buff group_id="40017" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="40019" buff_id="10006581"/>
-	<monster_buff group_id="40019" buff_id="10006582"/>
-	<monster_buff group_id="40019" buff_id="10006583"/>
-	<monster_buff group_id="40019" buff_id="10006584"/>
-	<monster_buff group_id="40019" buff_id="10006585"/>
-	<monster_buff group_id="40019" buff_id="10006586"/>
-	<monster_buff group_id="40019" buff_id="1143"/>
-	<monster_buff group_id="40019" buff_id="1155"/>
-	<monster_buff group_id="40019" buff_id="1164"/>
-	<monster_buff group_id="40019" buff_id="1175"/>
-	<monster_buff group_id="40019" buff_id="1194"/>
-	<monster_buff group_id="40019" buff_id="1185"/>
-	<monster_buff group_id="40019" buff_id="1215"/>
-	<monster_buff group_id="40019" buff_id="1224"/>
-	<monster_buff group_id="40019" buff_id="1245"/>
-	<monster_buff group_id="40019" buff_id="1264"/>
-	<monster_buff/>
-	<monster_buff group_id="40021" buff_id="10003581"/>
-	<monster_buff group_id="40021" buff_id="10003582"/>
-	<monster_buff group_id="40021" buff_id="10003583"/>
-	<monster_buff group_id="40021" buff_id="10003584"/>
-	<monster_buff group_id="40021" buff_id="10003585"/>
-	<monster_buff group_id="40021" buff_id="10003586"/>
-	<monster_buff group_id="40021" buff_id="1145"/>
-	<monster_buff group_id="40021" buff_id="1155"/>
-	<monster_buff group_id="40021" buff_id="1165"/>
-	<monster_buff group_id="40021" buff_id="1183"/>
-	<monster_buff group_id="40021" buff_id="1194"/>
-	<monster_buff group_id="40021" buff_id="1216"/>
-	<monster_buff group_id="40021" buff_id="1223"/>
-	<monster_buff group_id="40021" buff_id="1243"/>
-	<monster_buff group_id="40021" buff_id="1253"/>
-	<monster_buff group_id="40021" buff_id="1264"/>
-	<monster_buff/>
-	<monster_buff group_id="40023" buff_id="10005581"/>
-	<monster_buff group_id="40023" buff_id="10005582"/>
-	<monster_buff group_id="40023" buff_id="10005583"/>
-	<monster_buff group_id="40023" buff_id="10005584"/>
-	<monster_buff group_id="40023" buff_id="10005585"/>
-	<monster_buff group_id="40023" buff_id="10005586"/>
-	<monster_buff/>
-	<monster_buff group_id="50331" buff_id="10006581"/>
-	<monster_buff group_id="50331" buff_id="10006582"/>
-	<monster_buff group_id="50331" buff_id="10006583"/>
-	<monster_buff group_id="50331" buff_id="10006584"/>
-	<monster_buff group_id="50331" buff_id="10006585"/>
-	<monster_buff group_id="50331" buff_id="10006586"/>
-	<monster_buff group_id="50331" buff_id="1144"/>
-	<monster_buff group_id="50331" buff_id="5154"/>
-	<monster_buff group_id="50331" buff_id="1164"/>
-	<monster_buff group_id="50331" buff_id="1175"/>
-	<monster_buff group_id="50331" buff_id="1184"/>
-	<monster_buff group_id="50331" buff_id="1194"/>
-	<monster_buff group_id="50331" buff_id="1215"/>
-	<monster_buff group_id="50331" buff_id="1222"/>
-	<monster_buff group_id="50331" buff_id="1244"/>
-	<monster_buff group_id="50331" buff_id="1253"/>
-	<monster_buff group_id="50331" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="40025" buff_id="10006581"/>
-	<monster_buff group_id="40025" buff_id="10006582"/>
-	<monster_buff group_id="40025" buff_id="10006583"/>
-	<monster_buff group_id="40025" buff_id="10006584"/>
-	<monster_buff group_id="40025" buff_id="10006585"/>
-	<monster_buff group_id="40025" buff_id="10006586"/>
-	<monster_buff group_id="40025" buff_id="1122"/>
-	<monster_buff group_id="40025" buff_id="1132"/>
-	<monster_buff group_id="40025" buff_id="1144"/>
-	<monster_buff group_id="40025" buff_id="1153"/>
-	<monster_buff group_id="40025" buff_id="1163"/>
-	<monster_buff group_id="40025" buff_id="1173"/>
-	<monster_buff group_id="40025" buff_id="1186"/>
-	<monster_buff group_id="40025" buff_id="1195"/>
-	<monster_buff group_id="40025" buff_id="1214"/>
-	<monster_buff group_id="40025" buff_id="1244"/>
-	<monster_buff group_id="40025" buff_id="1251"/>
-	<monster_buff group_id="40025" buff_id="1265"/>
-	<monster_buff/>
-	<monster_buff group_id="80301" buff_id="10003581"/>
-	<monster_buff group_id="80301" buff_id="10003582"/>
-	<monster_buff group_id="80301" buff_id="10003583"/>
-	<monster_buff group_id="80301" buff_id="10003584"/>
-	<monster_buff group_id="80301" buff_id="10003585"/>
-	<monster_buff group_id="80301" buff_id="10003586"/>
-	<monster_buff group_id="80301" buff_id="1126"/>
-	<monster_buff group_id="80301" buff_id="1133"/>
-	<monster_buff group_id="80301" buff_id="1144"/>
-	<monster_buff group_id="80301" buff_id="1154"/>
-	<monster_buff group_id="80301" buff_id="1166"/>
-	<monster_buff group_id="80301" buff_id="1175"/>
-	<monster_buff group_id="80301" buff_id="1186"/>
-	<monster_buff group_id="80301" buff_id="1193"/>
-	<monster_buff group_id="80301" buff_id="1214"/>
-	<monster_buff group_id="80301" buff_id="1223"/>
-	<monster_buff group_id="80301" buff_id="1245"/>
-	<monster_buff group_id="80301" buff_id="1262"/>
-	<monster_buff/>
-	<monster_buff group_id="40027" buff_id="10002581"/>
-	<monster_buff group_id="40027" buff_id="10002582"/>
-	<monster_buff group_id="40027" buff_id="10002583"/>
-	<monster_buff group_id="40027" buff_id="10002584"/>
-	<monster_buff group_id="40027" buff_id="10002585"/>
-	<monster_buff group_id="40027" buff_id="10002586"/>
-	<monster_buff group_id="40027" buff_id="1123"/>
-	<monster_buff group_id="40027" buff_id="1131"/>
-	<monster_buff group_id="40027" buff_id="1144"/>
-	<monster_buff group_id="40027" buff_id="1153"/>
-	<monster_buff group_id="40027" buff_id="1155"/>
-	<monster_buff group_id="40027" buff_id="1165"/>
-	<monster_buff group_id="40027" buff_id="1172"/>
-	<monster_buff group_id="40027" buff_id="1182"/>
-	<monster_buff group_id="40027" buff_id="1193"/>
-	<monster_buff group_id="40027" buff_id="1213"/>
-	<monster_buff group_id="40027" buff_id="1222"/>
-	<monster_buff group_id="40027" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="40029" buff_id="10003581"/>
-	<monster_buff group_id="40029" buff_id="10003582"/>
-	<monster_buff group_id="40029" buff_id="10003583"/>
-	<monster_buff group_id="40029" buff_id="10003584"/>
-	<monster_buff group_id="40029" buff_id="10003585"/>
-	<monster_buff group_id="40029" buff_id="10003586"/>
-	<monster_buff group_id="40029" buff_id="1123"/>
-	<monster_buff group_id="40029" buff_id="1146"/>
-	<monster_buff group_id="40029" buff_id="1153"/>
-	<monster_buff group_id="40029" buff_id="1165"/>
-	<monster_buff group_id="40029" buff_id="1174"/>
-	<monster_buff group_id="40029" buff_id="1175"/>
-	<monster_buff group_id="40029" buff_id="1195"/>
-	<monster_buff group_id="40029" buff_id="1214"/>
-	<monster_buff group_id="40029" buff_id="1243"/>
-	<monster_buff group_id="40029" buff_id="1256"/>
-	<monster_buff group_id="40029" buff_id="1264"/>
-	<monster_buff/>
-	<monster_buff group_id="50381" buff_id="10003581"/>
-	<monster_buff group_id="50381" buff_id="10003582"/>
-	<monster_buff group_id="50381" buff_id="10003583"/>
-	<monster_buff group_id="50381" buff_id="10003584"/>
-	<monster_buff group_id="50381" buff_id="10003585"/>
-	<monster_buff group_id="50381" buff_id="10003586"/>
-	<monster_buff group_id="50381" buff_id="1125"/>
-	<monster_buff group_id="50381" buff_id="1144"/>
-	<monster_buff group_id="50381" buff_id="1155"/>
-	<monster_buff group_id="50381" buff_id="1165"/>
-	<monster_buff group_id="50381" buff_id="1173"/>
-	<monster_buff group_id="50381" buff_id="1185"/>
-	<monster_buff group_id="50381" buff_id="1195"/>
-	<monster_buff group_id="50381" buff_id="1203"/>
-	<monster_buff group_id="50381" buff_id="1215"/>
-	<monster_buff group_id="50381" buff_id="1221"/>
-	<monster_buff group_id="50381" buff_id="1236"/>
-	<monster_buff group_id="50381" buff_id="1245"/>
-	<monster_buff group_id="50381" buff_id="1251"/>
-	<monster_buff group_id="50381" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="40031" buff_id="10001581"/>
-	<monster_buff group_id="40031" buff_id="10001582"/>
-	<monster_buff group_id="40031" buff_id="10001583"/>
-	<monster_buff group_id="40031" buff_id="10001584"/>
-	<monster_buff group_id="40031" buff_id="10001585"/>
-	<monster_buff group_id="40031" buff_id="10001586"/>
-	<monster_buff group_id="40031" buff_id="1145"/>
-	<monster_buff group_id="40031" buff_id="1153"/>
-	<monster_buff group_id="40031" buff_id="1164"/>
-	<monster_buff group_id="40031" buff_id="1174"/>
-	<monster_buff group_id="40031" buff_id="1183"/>
-	<monster_buff group_id="40031" buff_id="1195"/>
-	<monster_buff group_id="40031" buff_id="1214"/>
-	<monster_buff group_id="40031" buff_id="1223"/>
-	<monster_buff group_id="40031" buff_id="1244"/>
-	<monster_buff group_id="40031" buff_id="1254"/>
-	<monster_buff group_id="40031" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="40033" buff_id="10004581"/>
-	<monster_buff group_id="40033" buff_id="10004582"/>
-	<monster_buff group_id="40033" buff_id="10004583"/>
-	<monster_buff group_id="40033" buff_id="10004584"/>
-	<monster_buff group_id="40033" buff_id="10004585"/>
-	<monster_buff group_id="40033" buff_id="10004586"/>
-	<monster_buff group_id="40033" buff_id="1145"/>
-	<monster_buff group_id="40033" buff_id="1154"/>
-	<monster_buff group_id="40033" buff_id="1166"/>
-	<monster_buff group_id="40033" buff_id="1175"/>
-	<monster_buff group_id="40033" buff_id="1186"/>
-	<monster_buff group_id="40033" buff_id="1194"/>
-	<monster_buff group_id="40033" buff_id="1206"/>
-	<monster_buff group_id="40033" buff_id="1214"/>
-	<monster_buff group_id="40033" buff_id="1224"/>
-	<monster_buff group_id="40033" buff_id="1244"/>
-	<monster_buff group_id="40033" buff_id="1252"/>
-	<monster_buff group_id="40033" buff_id="1262"/>
-	<monster_buff/>
-	<monster_buff group_id="50431" buff_id="10002581"/>
-	<monster_buff group_id="50431" buff_id="10002582"/>
-	<monster_buff group_id="50431" buff_id="10002583"/>
-	<monster_buff group_id="50431" buff_id="10002584"/>
-	<monster_buff group_id="50431" buff_id="10002585"/>
-	<monster_buff group_id="50431" buff_id="10002586"/>
-	<monster_buff group_id="50431" buff_id="1144"/>
-	<monster_buff group_id="50431" buff_id="1164"/>
-	<monster_buff group_id="50431" buff_id="1184"/>
-	<monster_buff group_id="50431" buff_id="1193"/>
-	<monster_buff group_id="50431" buff_id="1214"/>
-	<monster_buff group_id="50431" buff_id="1243"/>
-	<monster_buff group_id="50431" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff/>
-	<monster_buff group_id="40035" buff_id="10005581"/>
-	<monster_buff group_id="40035" buff_id="10005582"/>
-	<monster_buff group_id="40035" buff_id="10005583"/>
-	<monster_buff group_id="40035" buff_id="10005584"/>
-	<monster_buff group_id="40035" buff_id="10005585"/>
-	<monster_buff group_id="40035" buff_id="10005586"/>
-	<monster_buff group_id="40035" buff_id="1143"/>
-	<monster_buff group_id="40035" buff_id="1153"/>
-	<monster_buff group_id="40035" buff_id="1163"/>
-	<monster_buff group_id="40035" buff_id="1172"/>
-	<monster_buff group_id="40035" buff_id="1183"/>
-	<monster_buff group_id="40035" buff_id="1215"/>
-	<monster_buff group_id="40035" buff_id="1225"/>
-	<monster_buff group_id="40035" buff_id="1243"/>
-	<monster_buff group_id="40035" buff_id="1253"/>
-	<monster_buff group_id="40035" buff_id="1264"/>
-	<monster_buff/>
-	<monster_buff group_id="10031" buff_id="1163"/>
-	<monster_buff group_id="10031" buff_id="1176"/>
-	<monster_buff group_id="10031" buff_id="1183"/>
-	<monster_buff group_id="10031" buff_id="1203"/>
-	<monster_buff group_id="10031" buff_id="1242"/>
-	<monster_buff group_id="10031" buff_id="1262"/>
-	<monster_buff/>
-	<monster_buff group_id="10032" buff_id="1124"/>
-	<monster_buff group_id="10032" buff_id="1132"/>
-	<monster_buff group_id="10032" buff_id="1143"/>
-	<monster_buff group_id="10032" buff_id="1154"/>
-	<monster_buff group_id="10032" buff_id="1163"/>
-	<monster_buff group_id="10032" buff_id="1173"/>
-	<monster_buff group_id="10032" buff_id="1183"/>
-	<monster_buff group_id="10032" buff_id="1194"/>
-	<monster_buff group_id="10032" buff_id="1203"/>
-	<monster_buff group_id="10032" buff_id="1213"/>
-	<monster_buff group_id="10032" buff_id="1236"/>
-	<monster_buff group_id="10032" buff_id="1243"/>
-	<monster_buff group_id="10032" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="10033" buff_id="1134"/>
-	<monster_buff group_id="10033" buff_id="1143"/>
-	<monster_buff group_id="10033" buff_id="1154"/>
-	<monster_buff group_id="10033" buff_id="1162"/>
-	<monster_buff group_id="10033" buff_id="1182"/>
-	<monster_buff group_id="10033" buff_id="1193"/>
-	<monster_buff group_id="10033" buff_id="1224"/>
-	<monster_buff group_id="10033" buff_id="1244"/>
-	<monster_buff group_id="10033" buff_id="1252"/>
-	<monster_buff/>
-	<monster_buff group_id="10034" buff_id="1124"/>
-	<monster_buff group_id="10034" buff_id="1132"/>
-	<monster_buff group_id="10034" buff_id="1144"/>
-	<monster_buff group_id="10034" buff_id="1152"/>
-	<monster_buff group_id="10034" buff_id="1164"/>
-	<monster_buff group_id="10034" buff_id="1184"/>
-	<monster_buff group_id="10034" buff_id="1194"/>
-	<monster_buff group_id="10034" buff_id="1224"/>
-	<monster_buff group_id="10034" buff_id="1242"/>
-	<monster_buff group_id="10034" buff_id="1254"/>
-	<monster_buff/>
-	<monster_buff group_id="10035" buff_id="1123"/>
-	<monster_buff group_id="10035" buff_id="1134"/>
-	<monster_buff group_id="10035" buff_id="1143"/>
-	<monster_buff group_id="10035" buff_id="1154"/>
-	<monster_buff group_id="10035" buff_id="1175"/>
-	<monster_buff group_id="10035" buff_id="1183"/>
-	<monster_buff group_id="10035" buff_id="1192"/>
-	<monster_buff group_id="10035" buff_id="1212"/>
-	<monster_buff group_id="10035" buff_id="1242"/>
-	<monster_buff group_id="10035" buff_id="1243"/>
-	<monster_buff/>
-	<monster_buff group_id="10036" buff_id="1154"/>
-	<monster_buff group_id="10036" buff_id="1163"/>
-	<monster_buff group_id="10036" buff_id="1194"/>
-	<monster_buff group_id="10036" buff_id="1213"/>
-	<monster_buff group_id="10036" buff_id="1224"/>
-	<monster_buff group_id="10036" buff_id="1243"/>
-	<monster_buff group_id="10036" buff_id="1252"/>
-	<monster_buff group_id="10036" buff_id="1264"/>
-	<monster_buff/>
-	<monster_buff group_id="10037" buff_id="1123"/>
-	<monster_buff group_id="10037" buff_id="1133"/>
-	<monster_buff group_id="10037" buff_id="1145"/>
-	<monster_buff group_id="10037" buff_id="1155"/>
-	<monster_buff group_id="10037" buff_id="1164"/>
-	<monster_buff group_id="10037" buff_id="1172"/>
-	<monster_buff group_id="10037" buff_id="1182"/>
-	<monster_buff group_id="10037" buff_id="1193"/>
-	<monster_buff group_id="10037" buff_id="1205"/>
-	<monster_buff group_id="10037" buff_id="1213"/>
-	<monster_buff group_id="10037" buff_id="1224"/>
-	<monster_buff group_id="10037" buff_id="1233"/>
-	<monster_buff group_id="10037" buff_id="1244"/>
-	<monster_buff group_id="10037" buff_id="1254"/>
-	<monster_buff group_id="10037" buff_id="1262"/>
-	<monster_buff/>
-	<monster_buff group_id="40037" buff_id="10006581"/>
-	<monster_buff group_id="40037" buff_id="10002581"/>
-	<monster_buff group_id="40037" buff_id="10006583"/>
-	<monster_buff group_id="40037" buff_id="10006584"/>
-	<monster_buff group_id="40037" buff_id="10006585"/>
-	<monster_buff group_id="40037" buff_id="10006586"/>
-	<monster_buff group_id="40037" buff_id="1143"/>
-	<monster_buff group_id="40037" buff_id="1155"/>
-	<monster_buff group_id="40037" buff_id="1164"/>
-	<monster_buff group_id="40037" buff_id="1175"/>
-	<monster_buff group_id="40037" buff_id="1194"/>
-	<monster_buff group_id="40037" buff_id="1185"/>
-	<monster_buff group_id="40037" buff_id="1215"/>
-	<monster_buff group_id="40037" buff_id="1224"/>
-	<monster_buff group_id="40037" buff_id="1245"/>
-	<monster_buff group_id="40037" buff_id="1264"/>
-	<monster_buff/>
-	<monster_buff group_id="50471" buff_id="10005581"/>
-	<monster_buff group_id="50471" buff_id="10005582"/>
-	<monster_buff group_id="50471" buff_id="10005583"/>
-	<monster_buff group_id="50471" buff_id="10005584"/>
-	<monster_buff group_id="50471" buff_id="10005585"/>
-	<monster_buff group_id="50471" buff_id="10005586"/>
-	<monster_buff group_id="50471" buff_id="1145"/>
-	<monster_buff group_id="50471" buff_id="1153"/>
-	<monster_buff group_id="50471" buff_id="1175"/>
-	<monster_buff group_id="50471" buff_id="1186"/>
-	<monster_buff group_id="50471" buff_id="1215"/>
-	<monster_buff group_id="50471" buff_id="1222"/>
-	<monster_buff group_id="50471" buff_id="1245"/>
-	<monster_buff group_id="50471" buff_id="1256"/>
-	<monster_buff/>
-	<monster_buff group_id="40039" buff_id="10003581"/>
-	<monster_buff group_id="40039" buff_id="10003582"/>
-	<monster_buff group_id="40039" buff_id="10003583"/>
-	<monster_buff group_id="40039" buff_id="10003584"/>
-	<monster_buff group_id="40039" buff_id="10003585"/>
-	<monster_buff group_id="40039" buff_id="10003586"/>
-	<monster_buff group_id="40039" buff_id="1144"/>
-	<monster_buff group_id="40039" buff_id="1154"/>
-	<monster_buff group_id="40039" buff_id="1164"/>
-	<monster_buff group_id="40039" buff_id="1174"/>
-	<monster_buff group_id="40039" buff_id="1185"/>
-	<monster_buff group_id="40039" buff_id="1193"/>
-	<monster_buff group_id="40039" buff_id="1203"/>
-	<monster_buff group_id="40039" buff_id="1215"/>
-	<monster_buff group_id="40039" buff_id="1222"/>
-	<monster_buff group_id="40039" buff_id="1242"/>
-	<monster_buff group_id="40039" buff_id="1252"/>
-	<monster_buff group_id="40039" buff_id="1262"/>
-	<monster_buff/>
-	<monster_buff group_id="80401" buff_id="10002581"/>
-	<monster_buff group_id="80401" buff_id="10002582"/>
-	<monster_buff group_id="80401" buff_id="10002583"/>
-	<monster_buff group_id="80401" buff_id="10002584"/>
-	<monster_buff group_id="80401" buff_id="10002585"/>
-	<monster_buff group_id="80401" buff_id="10002586"/>
-	<monster_buff group_id="80401" buff_id="1143"/>
-	<monster_buff group_id="80401" buff_id="1153"/>
-	<monster_buff group_id="80401" buff_id="1164"/>
-	<monster_buff group_id="80401" buff_id="1174"/>
-	<monster_buff group_id="80401" buff_id="1184"/>
-	<monster_buff group_id="80401" buff_id="1194"/>
-	<monster_buff group_id="80401" buff_id="1212"/>
-	<monster_buff group_id="80401" buff_id="1222"/>
-	<monster_buff group_id="80401" buff_id="1242"/>
-	<monster_buff group_id="80401" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="15" buff_id="10001581"/>
-	<monster_buff group_id="15" buff_id="10001682"/>
-	<monster_buff group_id="15" buff_id="10001683"/>
-	<monster_buff group_id="15" buff_id="10001684"/>
-	<monster_buff group_id="15" buff_id="10001685"/>
-	<monster_buff group_id="15" buff_id="10001686"/>
-	<monster_buff group_id="15" buff_id="1144"/>
-	<monster_buff group_id="15" buff_id="1154"/>
-	<monster_buff group_id="15" buff_id="1165"/>
-	<monster_buff group_id="15" buff_id="1176"/>
-	<monster_buff group_id="15" buff_id="1184"/>
-	<monster_buff group_id="15" buff_id="1192"/>
-	<monster_buff group_id="15" buff_id="1202"/>
-	<monster_buff group_id="15" buff_id="1215"/>
-	<monster_buff group_id="15" buff_id="1225"/>
-	<monster_buff group_id="15" buff_id="1243"/>
-	<monster_buff/>
-	<monster_buff group_id="25" buff_id="10002581"/>
-	<monster_buff group_id="25" buff_id="10002682"/>
-	<monster_buff group_id="25" buff_id="10002683"/>
-	<monster_buff group_id="25" buff_id="10002684"/>
-	<monster_buff group_id="25" buff_id="10002685"/>
-	<monster_buff group_id="25" buff_id="10002686"/>
-	<monster_buff group_id="25" buff_id="1143"/>
-	<monster_buff group_id="25" buff_id="1154"/>
-	<monster_buff group_id="25" buff_id="1164"/>
-	<monster_buff group_id="25" buff_id="1174"/>
-	<monster_buff group_id="25" buff_id="1184"/>
-	<monster_buff group_id="25" buff_id="1195"/>
-	<monster_buff group_id="25" buff_id="1205"/>
-	<monster_buff group_id="25" buff_id="1215"/>
-	<monster_buff group_id="25" buff_id="1225"/>
-	<monster_buff group_id="25" buff_id="1244"/>
-	<monster_buff group_id="25" buff_id="1255"/>
-	<monster_buff group_id="25" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="35" buff_id="10003581"/>
-	<monster_buff group_id="35" buff_id="10003682"/>
-	<monster_buff group_id="35" buff_id="10003683"/>
-	<monster_buff group_id="35" buff_id="10003684"/>
-	<monster_buff group_id="35" buff_id="10003685"/>
-	<monster_buff group_id="35" buff_id="10003686"/>
-	<monster_buff group_id="35" buff_id="1145"/>
-	<monster_buff group_id="35" buff_id="1155"/>
-	<monster_buff group_id="35" buff_id="1165"/>
-	<monster_buff group_id="35" buff_id="1175"/>
-	<monster_buff group_id="35" buff_id="1184"/>
-	<monster_buff group_id="35" buff_id="1196"/>
-	<monster_buff group_id="35" buff_id="1206"/>
-	<monster_buff group_id="35" buff_id="1215"/>
-	<monster_buff group_id="35" buff_id="1225"/>
-	<monster_buff group_id="35" buff_id="1243"/>
-	<monster_buff/>
-	<monster_buff group_id="45" buff_id="10004581"/>
-	<monster_buff group_id="45" buff_id="10004682"/>
-	<monster_buff group_id="45" buff_id="10004683"/>
-	<monster_buff group_id="45" buff_id="10004684"/>
-	<monster_buff group_id="45" buff_id="10004685"/>
-	<monster_buff group_id="45" buff_id="10004686"/>
-	<monster_buff group_id="45" buff_id="1123"/>
-	<monster_buff group_id="45" buff_id="1133"/>
-	<monster_buff group_id="45" buff_id="1143"/>
-	<monster_buff group_id="45" buff_id="1155"/>
-	<monster_buff group_id="45" buff_id="1165"/>
-	<monster_buff group_id="45" buff_id="1175"/>
-	<monster_buff group_id="45" buff_id="1183"/>
-	<monster_buff group_id="45" buff_id="1195"/>
-	<monster_buff group_id="45" buff_id="1205"/>
-	<monster_buff group_id="45" buff_id="1215"/>
-	<monster_buff group_id="45" buff_id="1222"/>
-	<monster_buff group_id="45" buff_id="1236"/>
-	<monster_buff group_id="45" buff_id="1243"/>
-	<monster_buff group_id="45" buff_id="1252"/>
-	<monster_buff group_id="45" buff_id="1265"/>
-	<monster_buff/>
-	<monster_buff group_id="55" buff_id="10005581"/>
-	<monster_buff group_id="55" buff_id="10005682"/>
-	<monster_buff group_id="55" buff_id="10005683"/>
-	<monster_buff group_id="55" buff_id="10005684"/>
-	<monster_buff group_id="55" buff_id="10005685"/>
-	<monster_buff group_id="55" buff_id="10005686"/>
-	<monster_buff group_id="55" buff_id="1122"/>
-	<monster_buff group_id="55" buff_id="1132"/>
-	<monster_buff group_id="55" buff_id="1146"/>
-	<monster_buff group_id="55" buff_id="1153"/>
-	<monster_buff group_id="55" buff_id="1165"/>
-	<monster_buff group_id="55" buff_id="1175"/>
-	<monster_buff group_id="55" buff_id="1184"/>
-	<monster_buff group_id="55" buff_id="1194"/>
-	<monster_buff group_id="55" buff_id="1204"/>
-	<monster_buff group_id="55" buff_id="1215"/>
-	<monster_buff group_id="55" buff_id="1224"/>
-	<monster_buff group_id="55" buff_id="1243"/>
-	<monster_buff group_id="55" buff_id="1256"/>
-	<monster_buff group_id="55" buff_id="1264"/>
-	<monster_buff/>
-	<monster_buff group_id="65" buff_id="10006581"/>
-	<monster_buff group_id="65" buff_id="10006682"/>
-	<monster_buff group_id="65" buff_id="10006683"/>
-	<monster_buff group_id="65" buff_id="10006684"/>
-	<monster_buff group_id="65" buff_id="10006685"/>
-	<monster_buff group_id="65" buff_id="10006686"/>
-	<monster_buff group_id="65" buff_id="1123"/>
-	<monster_buff group_id="65" buff_id="1133"/>
-	<monster_buff group_id="65" buff_id="1144"/>
-	<monster_buff group_id="65" buff_id="1153"/>
-	<monster_buff group_id="65" buff_id="1164"/>
-	<monster_buff group_id="65" buff_id="1175"/>
-	<monster_buff group_id="65" buff_id="1185"/>
-	<monster_buff group_id="65" buff_id="1195"/>
-	<monster_buff group_id="65" buff_id="1205"/>
-	<monster_buff group_id="65" buff_id="1215"/>
-	<monster_buff group_id="65" buff_id="1222"/>
-	<monster_buff group_id="65" buff_id="1235"/>
-	<monster_buff group_id="65" buff_id="1245"/>
-	<monster_buff group_id="65" buff_id="1253"/>
-	<monster_buff group_id="65" buff_id="1264"/>
-	<monster_buff/>
-	<monster_buff group_id="40041" buff_id="10005581"/>
-	<monster_buff group_id="40041" buff_id="10005582"/>
-	<monster_buff group_id="40041" buff_id="10005583"/>
-	<monster_buff group_id="40041" buff_id="10005584"/>
-	<monster_buff group_id="40041" buff_id="10005585"/>
-	<monster_buff group_id="40041" buff_id="10005586"/>
-	<monster_buff group_id="40041" buff_id="1144"/>
-	<monster_buff group_id="40041" buff_id="1154"/>
-	<monster_buff group_id="40041" buff_id="1165"/>
-	<monster_buff group_id="40041" buff_id="1176"/>
-	<monster_buff group_id="40041" buff_id="1183"/>
-	<monster_buff group_id="40041" buff_id="1192"/>
-	<monster_buff group_id="40041" buff_id="1202"/>
-	<monster_buff group_id="40041" buff_id="1214"/>
-	<monster_buff group_id="40041" buff_id="1225"/>
-	<monster_buff group_id="40041" buff_id="1244"/>
-	<monster_buff group_id="40041" buff_id="1254"/>
-	<monster_buff/>
-	<monster_buff group_id="50501" buff_id="10005581"/>
-	<monster_buff group_id="50501" buff_id="10005582"/>
-	<monster_buff group_id="50501" buff_id="10005583"/>
-	<monster_buff group_id="50501" buff_id="10005584"/>
-	<monster_buff group_id="50501" buff_id="10005585"/>
-	<monster_buff group_id="50501" buff_id="10005586"/>
-	<monster_buff group_id="50501" buff_id="1144"/>
-	<monster_buff group_id="50501" buff_id="1154"/>
-	<monster_buff group_id="50501" buff_id="1165"/>
-	<monster_buff group_id="50501" buff_id="1174"/>
-	<monster_buff group_id="50501" buff_id="1185"/>
-	<monster_buff group_id="50501" buff_id="1196"/>
-	<monster_buff group_id="50501" buff_id="1202"/>
-	<monster_buff group_id="50501" buff_id="1215"/>
-	<monster_buff group_id="50501" buff_id="1225"/>
-	<monster_buff group_id="50501" buff_id="1244"/>
-	<monster_buff group_id="50501" buff_id="1253"/>
-	<monster_buff/>
-	<monster_buff group_id="40043" buff_id="10006581"/>
-	<monster_buff group_id="40043" buff_id="10006582"/>
-	<monster_buff group_id="40043" buff_id="10006583"/>
-	<monster_buff group_id="40043" buff_id="10006584"/>
-	<monster_buff group_id="40043" buff_id="10006585"/>
-	<monster_buff group_id="40043" buff_id="10006586"/>
-	<monster_buff group_id="40043" buff_id="1143"/>
-	<monster_buff group_id="40043" buff_id="1154"/>
-	<monster_buff group_id="40043" buff_id="1164"/>
-	<monster_buff group_id="40043" buff_id="1175"/>
-	<monster_buff group_id="40043" buff_id="1183"/>
-	<monster_buff group_id="40043" buff_id="1194"/>
-	<monster_buff group_id="40043" buff_id="1213"/>
-	<monster_buff group_id="40043" buff_id="1223"/>
-	<monster_buff group_id="40043" buff_id="1244"/>
-	<monster_buff group_id="40043" buff_id="1252"/>
-	<monster_buff group_id="40043" buff_id="1262"/>
-	<monster_buff/>
-	<monster_buff group_id="40045" buff_id="10001581"/>
-	<monster_buff group_id="40045" buff_id="10001582"/>
-	<monster_buff group_id="40045" buff_id="10001583"/>
-	<monster_buff group_id="40045" buff_id="10001584"/>
-	<monster_buff group_id="40045" buff_id="10001585"/>
-	<monster_buff group_id="40045" buff_id="10001586"/>
-	<monster_buff group_id="40045" buff_id="1144"/>
-	<monster_buff group_id="40045" buff_id="1153"/>
-	<monster_buff group_id="40045" buff_id="1164"/>
-	<monster_buff group_id="40045" buff_id="1174"/>
-	<monster_buff group_id="40045" buff_id="1184"/>
-	<monster_buff group_id="40045" buff_id="1195"/>
-	<monster_buff group_id="40045" buff_id="1202"/>
-	<monster_buff group_id="40045" buff_id="1213"/>
-	<monster_buff group_id="40045" buff_id="1224"/>
-	<monster_buff group_id="40045" buff_id="1244"/>
-	<monster_buff group_id="40045" buff_id="1256"/>
-	<monster_buff group_id="40045" buff_id="1264"/>
-	<monster_buff/>
-	<monster_buff group_id="50541" buff_id="10004581"/>
-	<monster_buff group_id="50541" buff_id="10004582"/>
-	<monster_buff group_id="50541" buff_id="10004583"/>
-	<monster_buff group_id="50541" buff_id="10004584"/>
-	<monster_buff group_id="50541" buff_id="10004585"/>
-	<monster_buff group_id="50541" buff_id="10004586"/>
-	<monster_buff group_id="50541" buff_id="1145"/>
-	<monster_buff group_id="50541" buff_id="1153"/>
-	<monster_buff group_id="50541" buff_id="1166"/>
-	<monster_buff group_id="50541" buff_id="1174"/>
-	<monster_buff group_id="50541" buff_id="1186"/>
-	<monster_buff group_id="50541" buff_id="1195"/>
-	<monster_buff group_id="50541" buff_id="1215"/>
-	<monster_buff group_id="50541" buff_id="1223"/>
-	<monster_buff group_id="50541" buff_id="1244"/>
-	<monster_buff group_id="50541" buff_id="1254"/>
-	<monster_buff group_id="50541" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="40047" buff_id="10004581"/>
-	<monster_buff group_id="40047" buff_id="10004582"/>
-	<monster_buff group_id="40047" buff_id="10004583"/>
-	<monster_buff group_id="40047" buff_id="10004584"/>
-	<monster_buff group_id="40047" buff_id="10004585"/>
-	<monster_buff group_id="40047" buff_id="10004586"/>
-	<monster_buff group_id="40047" buff_id="1144"/>
-	<monster_buff group_id="40047" buff_id="1154"/>
-	<monster_buff group_id="40047" buff_id="1164"/>
-	<monster_buff group_id="40047" buff_id="1175"/>
-	<monster_buff group_id="40047" buff_id="1193"/>
-	<monster_buff group_id="40047" buff_id="1205"/>
-	<monster_buff group_id="40047" buff_id="1212"/>
-	<monster_buff group_id="40047" buff_id="1222"/>
-	<monster_buff group_id="40047" buff_id="1243"/>
-	<monster_buff group_id="40047" buff_id="1264"/>
-	<monster_buff/>
-	<monster_buff group_id="40049" buff_id="10001681"/>
-	<monster_buff group_id="40049" buff_id="10001682"/>
-	<monster_buff group_id="40049" buff_id="10001683"/>
-	<monster_buff group_id="40049" buff_id="10001684"/>
-	<monster_buff group_id="40049" buff_id="10001685"/>
-	<monster_buff group_id="40049" buff_id="10001686"/>
-	<monster_buff group_id="40049" buff_id="1145"/>
-	<monster_buff group_id="40049" buff_id="1153"/>
-	<monster_buff group_id="40049" buff_id="1165"/>
-	<monster_buff group_id="40049" buff_id="1175"/>
-	<monster_buff group_id="40049" buff_id="1184"/>
-	<monster_buff group_id="40049" buff_id="1195"/>
-	<monster_buff group_id="40049" buff_id="1215"/>
-	<monster_buff group_id="40049" buff_id="1224"/>
-	<monster_buff group_id="40049" buff_id="1244"/>
-	<monster_buff group_id="40049" buff_id="1254"/>
-	<monster_buff group_id="40049" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff/>
-	<monster_buff group_id="50591" buff_id="10002681"/>
-	<monster_buff group_id="50591" buff_id="10002682"/>
-	<monster_buff group_id="50591" buff_id="10002683"/>
-	<monster_buff group_id="50591" buff_id="10002684"/>
-	<monster_buff group_id="50591" buff_id="10002685"/>
-	<monster_buff group_id="50591" buff_id="10002686"/>
-	<monster_buff group_id="50591" buff_id="1125"/>
-	<monster_buff group_id="50591" buff_id="1144"/>
-	<monster_buff group_id="50591" buff_id="1155"/>
-	<monster_buff group_id="50591" buff_id="1165"/>
-	<monster_buff group_id="50591" buff_id="1173"/>
-	<monster_buff group_id="50591" buff_id="1185"/>
-	<monster_buff group_id="50591" buff_id="1195"/>
-	<monster_buff group_id="50591" buff_id="1203"/>
-	<monster_buff group_id="50591" buff_id="1215"/>
-	<monster_buff group_id="50591" buff_id="1221"/>
-	<monster_buff group_id="50591" buff_id="1236"/>
-	<monster_buff group_id="50591" buff_id="1245"/>
-	<monster_buff group_id="50591" buff_id="1251"/>
-	<monster_buff group_id="50591" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="40051" buff_id="10005581"/>
-	<monster_buff group_id="40051" buff_id="10005682"/>
-	<monster_buff group_id="40051" buff_id="10005683"/>
-	<monster_buff group_id="40051" buff_id="10005684"/>
-	<monster_buff group_id="40051" buff_id="10005685"/>
-	<monster_buff group_id="40051" buff_id="10005686"/>
-	<monster_buff group_id="40051" buff_id="1126"/>
-	<monster_buff group_id="40051" buff_id="1133"/>
-	<monster_buff group_id="40051" buff_id="1144"/>
-	<monster_buff group_id="40051" buff_id="1154"/>
-	<monster_buff group_id="40051" buff_id="1165"/>
-	<monster_buff group_id="40051" buff_id="1173"/>
-	<monster_buff group_id="40051" buff_id="1185"/>
-	<monster_buff group_id="40051" buff_id="1194"/>
-	<monster_buff group_id="40051" buff_id="1214"/>
-	<monster_buff group_id="40051" buff_id="1225"/>
-	<monster_buff group_id="40051" buff_id="1245"/>
-	<monster_buff group_id="40051" buff_id="1252"/>
-	<monster_buff group_id="40051" buff_id="1262"/>
-	<monster_buff/>
-	<monster_buff group_id="80501" buff_id="10005581"/>
-	<monster_buff group_id="80501" buff_id="10005682"/>
-	<monster_buff group_id="80501" buff_id="10005683"/>
-	<monster_buff group_id="80501" buff_id="10005684"/>
-	<monster_buff group_id="80501" buff_id="10005685"/>
-	<monster_buff group_id="80501" buff_id="10005686"/>
-	<monster_buff group_id="80501" buff_id="1123"/>
-	<monster_buff group_id="80501" buff_id="1136"/>
-	<monster_buff group_id="80501" buff_id="1144"/>
-	<monster_buff group_id="80501" buff_id="1151"/>
-	<monster_buff group_id="80501" buff_id="1166"/>
-	<monster_buff group_id="80501" buff_id="1172"/>
-	<monster_buff group_id="80501" buff_id="1185"/>
-	<monster_buff group_id="80501" buff_id="1195"/>
-	<monster_buff group_id="80501" buff_id="1214"/>
-	<monster_buff group_id="80501" buff_id="1224"/>
-	<monster_buff group_id="80501" buff_id="1233"/>
-	<monster_buff group_id="80501" buff_id="1244"/>
-	<monster_buff group_id="80501" buff_id="1255"/>
-	<monster_buff group_id="80501" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="40053" buff_id="10002581"/>
-	<monster_buff group_id="40053" buff_id="10002582"/>
-	<monster_buff group_id="40053" buff_id="10002583"/>
-	<monster_buff group_id="40053" buff_id="10002584"/>
-	<monster_buff group_id="40053" buff_id="10002585"/>
-	<monster_buff group_id="40053" buff_id="10002586"/>
-	<monster_buff group_id="40053" buff_id="1123"/>
-	<monster_buff group_id="40053" buff_id="1136"/>
-	<monster_buff group_id="40053" buff_id="1143"/>
-	<monster_buff group_id="40053" buff_id="1156"/>
-	<monster_buff group_id="40053" buff_id="1166"/>
-	<monster_buff group_id="40053" buff_id="1173"/>
-	<monster_buff group_id="40053" buff_id="1185"/>
-	<monster_buff group_id="40053" buff_id="1193"/>
-	<monster_buff group_id="40053" buff_id="1213"/>
-	<monster_buff group_id="40053" buff_id="1225"/>
-	<monster_buff group_id="40053" buff_id="1243"/>
-	<monster_buff group_id="40053" buff_id="1253"/>
-	<monster_buff group_id="40053" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="40055" buff_id="10004581"/>
-	<monster_buff group_id="40055" buff_id="10004682"/>
-	<monster_buff group_id="40055" buff_id="10004683"/>
-	<monster_buff group_id="40055" buff_id="10004684"/>
-	<monster_buff group_id="40055" buff_id="10004685"/>
-	<monster_buff group_id="40055" buff_id="10004686"/>
-	<monster_buff group_id="40055" buff_id="1123"/>
-	<monster_buff group_id="40055" buff_id="1133"/>
-	<monster_buff group_id="40055" buff_id="1145"/>
-	<monster_buff group_id="40055" buff_id="1154"/>
-	<monster_buff group_id="40055" buff_id="1165"/>
-	<monster_buff group_id="40055" buff_id="1175"/>
-	<monster_buff group_id="40055" buff_id="1185"/>
-	<monster_buff group_id="40055" buff_id="1194"/>
-	<monster_buff group_id="40055" buff_id="1204"/>
-	<monster_buff group_id="40055" buff_id="1215"/>
-	<monster_buff group_id="40055" buff_id="1225"/>
-	<monster_buff group_id="40055" buff_id="1244"/>
-	<monster_buff group_id="40055" buff_id="1253"/>
-	<monster_buff group_id="40055" buff_id="1264"/>
-	<monster_buff/>
-	<monster_buff group_id="50651" buff_id="10004581"/>
-	<monster_buff group_id="50651" buff_id="10004682"/>
-	<monster_buff group_id="50651" buff_id="10004683"/>
-	<monster_buff group_id="50651" buff_id="10004684"/>
-	<monster_buff group_id="50651" buff_id="10004685"/>
-	<monster_buff group_id="50651" buff_id="10004686"/>
-	<monster_buff group_id="50651" buff_id="1123"/>
-	<monster_buff group_id="50651" buff_id="1135"/>
-	<monster_buff group_id="50651" buff_id="1144"/>
-	<monster_buff group_id="50651" buff_id="1154"/>
-	<monster_buff group_id="50651" buff_id="1165"/>
-	<monster_buff group_id="50651" buff_id="1174"/>
-	<monster_buff group_id="50651" buff_id="1185"/>
-	<monster_buff group_id="50651" buff_id="1194"/>
-	<monster_buff group_id="50651" buff_id="1214"/>
-	<monster_buff group_id="50651" buff_id="1225"/>
-	<monster_buff group_id="50651" buff_id="1244"/>
-	<monster_buff group_id="50651" buff_id="1253"/>
-	<monster_buff group_id="50651" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="40057" buff_id="10003581"/>
-	<monster_buff group_id="40057" buff_id="10003682"/>
-	<monster_buff group_id="40057" buff_id="10003683"/>
-	<monster_buff group_id="40057" buff_id="10003684"/>
-	<monster_buff group_id="40057" buff_id="10003685"/>
-	<monster_buff group_id="40057" buff_id="10003686"/>
-	<monster_buff group_id="40057" buff_id="1122"/>
-	<monster_buff group_id="40057" buff_id="1132"/>
-	<monster_buff group_id="40057" buff_id="1145"/>
-	<monster_buff group_id="40057" buff_id="1154"/>
-	<monster_buff group_id="40057" buff_id="1164"/>
-	<monster_buff group_id="40057" buff_id="1174"/>
-	<monster_buff group_id="40057" buff_id="1185"/>
-	<monster_buff group_id="40057" buff_id="1184"/>
-	<monster_buff group_id="40057" buff_id="1192"/>
-	<monster_buff group_id="40057" buff_id="1214"/>
-	<monster_buff group_id="40057" buff_id="1225"/>
-	<monster_buff group_id="40057" buff_id="1244"/>
-	<monster_buff group_id="40057" buff_id="1254"/>
-	<monster_buff/>
-	<monster_buff group_id="40059" buff_id="10006581"/>
-	<monster_buff group_id="40059" buff_id="10006682"/>
-	<monster_buff group_id="40059" buff_id="10006683"/>
-	<monster_buff group_id="40059" buff_id="10006684"/>
-	<monster_buff group_id="40059" buff_id="10006685"/>
-	<monster_buff group_id="40059" buff_id="10006686"/>
-	<monster_buff group_id="40059" buff_id="1122"/>
-	<monster_buff group_id="40059" buff_id="1132"/>
-	<monster_buff group_id="40059" buff_id="1145"/>
-	<monster_buff group_id="40059" buff_id="1154"/>
-	<monster_buff group_id="40059" buff_id="1163"/>
-	<monster_buff group_id="40059" buff_id="1175"/>
-	<monster_buff group_id="40059" buff_id="1185"/>
-	<monster_buff group_id="40059" buff_id="1196"/>
-	<monster_buff group_id="40059" buff_id="1204"/>
-	<monster_buff group_id="40059" buff_id="1214"/>
-	<monster_buff group_id="40059" buff_id="1225"/>
-	<monster_buff group_id="40059" buff_id="1244"/>
-	<monster_buff group_id="40059" buff_id="1253"/>
-	<monster_buff group_id="40059" buff_id="1264"/>
-	<monster_buff/>
-	<monster_buff group_id="80601" buff_id="10004581"/>
-	<monster_buff group_id="80601" buff_id="10004682"/>
-	<monster_buff group_id="80601" buff_id="10004683"/>
-	<monster_buff group_id="80601" buff_id="10004684"/>
-	<monster_buff group_id="80601" buff_id="10004685"/>
-	<monster_buff group_id="80601" buff_id="10004686"/>
-	<monster_buff group_id="80601" buff_id="1122"/>
-	<monster_buff group_id="80601" buff_id="1132"/>
-	<monster_buff group_id="80601" buff_id="1144"/>
-	<monster_buff group_id="80601" buff_id="1155"/>
-	<monster_buff group_id="80601" buff_id="1165"/>
-	<monster_buff group_id="80601" buff_id="1174"/>
-	<monster_buff group_id="80601" buff_id="1184"/>
-	<monster_buff group_id="80601" buff_id="1194"/>
-	<monster_buff group_id="80601" buff_id="1202"/>
-	<monster_buff group_id="80601" buff_id="1215"/>
-	<monster_buff group_id="80601" buff_id="1225"/>
-	<monster_buff group_id="80601" buff_id="1243"/>
-	<monster_buff group_id="80601" buff_id="1255"/>
-	<monster_buff group_id="80601" buff_id="1262"/>
-	<monster_buff/>
-	<monster_buff group_id="40061" buff_id="10003581"/>
-	<monster_buff group_id="40061" buff_id="10003682"/>
-	<monster_buff group_id="40061" buff_id="10003683"/>
-	<monster_buff group_id="40061" buff_id="10003684"/>
-	<monster_buff group_id="40061" buff_id="10003685"/>
-	<monster_buff group_id="40061" buff_id="10003686"/>
-	<monster_buff group_id="40061" buff_id="1122"/>
-	<monster_buff group_id="40061" buff_id="1131"/>
-	<monster_buff group_id="40061" buff_id="1145"/>
-	<monster_buff group_id="40061" buff_id="1153"/>
-	<monster_buff group_id="40061" buff_id="1165"/>
-	<monster_buff group_id="40061" buff_id="1173"/>
-	<monster_buff group_id="40061" buff_id="1185"/>
-	<monster_buff group_id="40061" buff_id="1194"/>
-	<monster_buff group_id="40061" buff_id="1204"/>
-	<monster_buff group_id="40061" buff_id="1214"/>
-	<monster_buff group_id="40061" buff_id="1225"/>
-	<monster_buff group_id="40061" buff_id="1244"/>
-	<monster_buff group_id="40061" buff_id="1253"/>
-	<monster_buff group_id="40061" buff_id="1265"/>
-	<monster_buff/>
-	<monster_buff group_id="50721" buff_id="10003581"/>
-	<monster_buff group_id="50721" buff_id="10003682"/>
-	<monster_buff group_id="50721" buff_id="10003683"/>
-	<monster_buff group_id="50721" buff_id="10003684"/>
-	<monster_buff group_id="50721" buff_id="10003685"/>
-	<monster_buff group_id="50721" buff_id="10003686"/>
-	<monster_buff group_id="50721" buff_id="1123"/>
-	<monster_buff group_id="50721" buff_id="1144"/>
-	<monster_buff group_id="50721" buff_id="1154"/>
-	<monster_buff group_id="50721" buff_id="1165"/>
-	<monster_buff group_id="50721" buff_id="1176"/>
-	<monster_buff group_id="50721" buff_id="1182"/>
-	<monster_buff group_id="50721" buff_id="1193"/>
-	<monster_buff group_id="50721" buff_id="1212"/>
-	<monster_buff group_id="50721" buff_id="1223"/>
-	<monster_buff group_id="50721" buff_id="1243"/>
-	<monster_buff group_id="50721" buff_id="1252"/>
-	<monster_buff group_id="50721" buff_id="1262"/>
-	<monster_buff/>
-	<monster_buff group_id="40063" buff_id="10002581"/>
-	<monster_buff group_id="40063" buff_id="10002682"/>
-	<monster_buff group_id="40063" buff_id="10002683"/>
-	<monster_buff group_id="40063" buff_id="10002684"/>
-	<monster_buff group_id="40063" buff_id="10002685"/>
-	<monster_buff group_id="40063" buff_id="10002686"/>
-	<monster_buff group_id="40063" buff_id="1121"/>
-	<monster_buff group_id="40063" buff_id="1131"/>
-	<monster_buff group_id="40063" buff_id="1144"/>
-	<monster_buff group_id="40063" buff_id="1153"/>
-	<monster_buff group_id="40063" buff_id="1166"/>
-	<monster_buff group_id="40063" buff_id="1175"/>
-	<monster_buff group_id="40063" buff_id="1195"/>
-	<monster_buff group_id="40063" buff_id="1202"/>
-	<monster_buff group_id="40063" buff_id="1211"/>
-	<monster_buff group_id="40063" buff_id="1223"/>
-	<monster_buff group_id="40063" buff_id="1243"/>
-	<monster_buff group_id="40063" buff_id="1253"/>
-	<monster_buff group_id="40063" buff_id="1264"/>
-	<monster_buff/>
-	<monster_buff group_id="114514" buff_id="1166"/>
-	<monster_buff group_id="114514" buff_id="1176"/>
-	<monster_buff group_id="114514" buff_id="1186"/>
-	<monster_buff group_id="114514" buff_id="1216"/>
-	<monster_buff group_id="114514" buff_id="1226"/>
-	<monster_buff group_id="114514" buff_id="1246"/>
-	<monster_buff group_id="114514" buff_id="1256"/>
-	<monster_buff/>
-	<monster_buff group_id="40065" buff_id="10004581"/>
-	<monster_buff group_id="40065" buff_id="10004682"/>
-	<monster_buff group_id="40065" buff_id="10004683"/>
-	<monster_buff group_id="40065" buff_id="10004684"/>
-	<monster_buff group_id="40065" buff_id="10004685"/>
-	<monster_buff group_id="40065" buff_id="10004686"/>
-	<monster_buff group_id="40065" buff_id="1122"/>
-	<monster_buff group_id="40065" buff_id="1132"/>
-	<monster_buff group_id="40065" buff_id="1145"/>
-	<monster_buff group_id="40065" buff_id="1153"/>
-	<monster_buff group_id="40065" buff_id="1164"/>
-	<monster_buff group_id="40065" buff_id="1175"/>
-	<monster_buff group_id="40065" buff_id="1183"/>
-	<monster_buff group_id="40065" buff_id="1194"/>
-	<monster_buff group_id="40065" buff_id="1203"/>
-	<monster_buff group_id="40065" buff_id="1213"/>
-	<monster_buff group_id="40065" buff_id="1225"/>
-	<monster_buff group_id="40065" buff_id="1244"/>
-	<monster_buff group_id="40065" buff_id="1254"/>
-	<monster_buff/>
-	<monster_buff group_id="80701" buff_id="10002581"/>
-	<monster_buff group_id="80701" buff_id="10002682"/>
-	<monster_buff group_id="80701" buff_id="10002683"/>
-	<monster_buff group_id="80701" buff_id="10002684"/>
-	<monster_buff group_id="80701" buff_id="10002685"/>
-	<monster_buff group_id="80701" buff_id="10002686"/>
-	<monster_buff group_id="80701" buff_id="1122"/>
-	<monster_buff group_id="80701" buff_id="1132"/>
-	<monster_buff group_id="80701" buff_id="1145"/>
-	<monster_buff group_id="80701" buff_id="1154"/>
-	<monster_buff group_id="80701" buff_id="1164"/>
-	<monster_buff group_id="80701" buff_id="1175"/>
-	<monster_buff group_id="80701" buff_id="1182"/>
-	<monster_buff group_id="80701" buff_id="1195"/>
-	<monster_buff group_id="80701" buff_id="1202"/>
-	<monster_buff group_id="80701" buff_id="1214"/>
-	<monster_buff group_id="80701" buff_id="1225"/>
-	<monster_buff group_id="80701" buff_id="1244"/>
-	<monster_buff group_id="80701" buff_id="1253"/>
-	<monster_buff group_id="80701" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="40067" buff_id="10006581"/>
-	<monster_buff group_id="40067" buff_id="10006682"/>
-	<monster_buff group_id="40067" buff_id="10006683"/>
-	<monster_buff group_id="40067" buff_id="10006684"/>
-	<monster_buff group_id="40067" buff_id="10006685"/>
-	<monster_buff group_id="40067" buff_id="10006686"/>
-	<monster_buff group_id="40067" buff_id="1122"/>
-	<monster_buff group_id="40067" buff_id="1132"/>
-	<monster_buff group_id="40067" buff_id="1145"/>
-	<monster_buff group_id="40067" buff_id="1154"/>
-	<monster_buff group_id="40067" buff_id="1161"/>
-	<monster_buff group_id="40067" buff_id="1175"/>
-	<monster_buff group_id="40067" buff_id="1183"/>
-	<monster_buff group_id="40067" buff_id="1196"/>
-	<monster_buff group_id="40067" buff_id="1205"/>
-	<monster_buff group_id="40067" buff_id="1214"/>
-	<monster_buff group_id="40067" buff_id="1243"/>
-	<monster_buff group_id="40067" buff_id="1254"/>
-	<monster_buff group_id="40067" buff_id="1265"/>
-	<monster_buff/>
-	<monster_buff group_id="40069" buff_id="10001581"/>
-	<monster_buff group_id="40069" buff_id="10001682"/>
-	<monster_buff group_id="40069" buff_id="10001683"/>
-	<monster_buff group_id="40069" buff_id="10001684"/>
-	<monster_buff group_id="40069" buff_id="10001685"/>
-	<monster_buff group_id="40069" buff_id="10001686"/>
-	<monster_buff group_id="40069" buff_id="1122"/>
-	<monster_buff group_id="40069" buff_id="1132"/>
-	<monster_buff group_id="40069" buff_id="1145"/>
-	<monster_buff group_id="40069" buff_id="1153"/>
-	<monster_buff group_id="40069" buff_id="1163"/>
-	<monster_buff group_id="40069" buff_id="1175"/>
-	<monster_buff group_id="40069" buff_id="1184"/>
-	<monster_buff group_id="40069" buff_id="1195"/>
-	<monster_buff group_id="40069" buff_id="1204"/>
-	<monster_buff group_id="40069" buff_id="1213"/>
-	<monster_buff group_id="40069" buff_id="1225"/>
-	<monster_buff group_id="40069" buff_id="1243"/>
-	<monster_buff group_id="40069" buff_id="1254"/>
-	<monster_buff group_id="40069" buff_id="1263"/>
-	<monster_buff/>
-	<monster_buff group_id="597901" buff_id="1126"/>
-	<monster_buff group_id="597901" buff_id="1136"/>
-	<monster_buff group_id="597901" buff_id="1146"/>
-	<monster_buff group_id="597901" buff_id="1156"/>
-	<monster_buff group_id="597901" buff_id="1166"/>
-	<monster_buff group_id="597901" buff_id="1176"/>
-	<monster_buff group_id="597901" buff_id="1196"/>
-	<monster_buff group_id="597901" buff_id="1216"/>
-	<monster_buff group_id="597901" buff_id="1226"/>
-	<monster_buff group_id="597901" buff_id="1256"/>
+  <monster_buff group_id="11" buff_id="1141" dur="0" />
+  <monster_buff group_id="11" buff_id="1153" dur="0" />
+  <monster_buff group_id="11" buff_id="1163" dur="0" />
+  <monster_buff group_id="11" buff_id="1176" dur="0" />
+  <monster_buff group_id="11" buff_id="1182" dur="0" />
+  <monster_buff group_id="11" buff_id="1213" dur="0" />
+  <monster_buff group_id="11" buff_id="1223" dur="0" />
+  <monster_buff group_id="11" buff_id="1241" dur="0" />
+  <monster_buff group_id="12" buff_id="1142" dur="0" />
+  <monster_buff group_id="12" buff_id="1154" dur="0" />
+  <monster_buff group_id="12" buff_id="1164" dur="0" />
+  <monster_buff group_id="12" buff_id="1176" dur="0" />
+  <monster_buff group_id="12" buff_id="1183" dur="0" />
+  <monster_buff group_id="12" buff_id="1191" dur="0" />
+  <monster_buff group_id="12" buff_id="1201" dur="0" />
+  <monster_buff group_id="12" buff_id="1214" dur="0" />
+  <monster_buff group_id="12" buff_id="1224" dur="0" />
+  <monster_buff group_id="12" buff_id="1242" dur="0" />
+  <monster_buff group_id="13" buff_id="1143" dur="0" />
+  <monster_buff group_id="13" buff_id="1155" dur="0" />
+  <monster_buff group_id="13" buff_id="1165" dur="0" />
+  <monster_buff group_id="13" buff_id="1176" dur="0" />
+  <monster_buff group_id="13" buff_id="1184" dur="0" />
+  <monster_buff group_id="13" buff_id="1192" dur="0" />
+  <monster_buff group_id="13" buff_id="1202" dur="0" />
+  <monster_buff group_id="13" buff_id="1215" dur="0" />
+  <monster_buff group_id="13" buff_id="1225" dur="0" />
+  <monster_buff group_id="13" buff_id="1243" dur="0" />
+  <monster_buff group_id="14" buff_id="1143" dur="0" />
+  <monster_buff group_id="14" buff_id="1155" dur="0" />
+  <monster_buff group_id="14" buff_id="1165" dur="0" />
+  <monster_buff group_id="14" buff_id="1176" dur="0" />
+  <monster_buff group_id="14" buff_id="1184" dur="0" />
+  <monster_buff group_id="14" buff_id="1192" dur="0" />
+  <monster_buff group_id="14" buff_id="1202" dur="0" />
+  <monster_buff group_id="14" buff_id="1215" dur="0" />
+  <monster_buff group_id="14" buff_id="1225" dur="0" />
+  <monster_buff group_id="14" buff_id="1243" dur="0" />
+  <monster_buff group_id="14" buff_id="10001481" dur="0" />
+  <monster_buff group_id="14" buff_id="10001482" dur="0" />
+  <monster_buff group_id="14" buff_id="10001483" dur="0" />
+  <monster_buff group_id="14" buff_id="10001484" dur="0" />
+  <monster_buff group_id="14" buff_id="10001485" dur="0" />
+  <monster_buff group_id="14" buff_id="10001486" dur="0" />
+  <monster_buff group_id="21" buff_id="1141" dur="0" />
+  <monster_buff group_id="21" buff_id="1153" dur="0" />
+  <monster_buff group_id="21" buff_id="1163" dur="0" />
+  <monster_buff group_id="21" buff_id="1173" dur="0" />
+  <monster_buff group_id="21" buff_id="1182" dur="0" />
+  <monster_buff group_id="21" buff_id="1213" dur="0" />
+  <monster_buff group_id="21" buff_id="1223" dur="0" />
+  <monster_buff group_id="21" buff_id="1241" dur="0" />
+  <monster_buff group_id="22" buff_id="1142" dur="0" />
+  <monster_buff group_id="22" buff_id="1154" dur="0" />
+  <monster_buff group_id="22" buff_id="1164" dur="0" />
+  <monster_buff group_id="22" buff_id="1174" dur="0" />
+  <monster_buff group_id="22" buff_id="1183" dur="0" />
+  <monster_buff group_id="22" buff_id="1191" dur="0" />
+  <monster_buff group_id="22" buff_id="1201" dur="0" />
+  <monster_buff group_id="22" buff_id="1214" dur="0" />
+  <monster_buff group_id="22" buff_id="1224" dur="0" />
+  <monster_buff group_id="22" buff_id="1242" dur="0" />
+  <monster_buff group_id="23" buff_id="1143" dur="0" />
+  <monster_buff group_id="23" buff_id="1155" dur="0" />
+  <monster_buff group_id="23" buff_id="1165" dur="0" />
+  <monster_buff group_id="23" buff_id="1175" dur="0" />
+  <monster_buff group_id="23" buff_id="1184" dur="0" />
+  <monster_buff group_id="23" buff_id="1192" dur="0" />
+  <monster_buff group_id="23" buff_id="1202" dur="0" />
+  <monster_buff group_id="23" buff_id="1215" dur="0" />
+  <monster_buff group_id="23" buff_id="1225" dur="0" />
+  <monster_buff group_id="23" buff_id="1243" dur="0" />
+  <monster_buff group_id="24" buff_id="1143" dur="0" />
+  <monster_buff group_id="24" buff_id="1155" dur="0" />
+  <monster_buff group_id="24" buff_id="1165" dur="0" />
+  <monster_buff group_id="24" buff_id="1175" dur="0" />
+  <monster_buff group_id="24" buff_id="1184" dur="0" />
+  <monster_buff group_id="24" buff_id="1192" dur="0" />
+  <monster_buff group_id="24" buff_id="1202" dur="0" />
+  <monster_buff group_id="24" buff_id="1215" dur="0" />
+  <monster_buff group_id="24" buff_id="1225" dur="0" />
+  <monster_buff group_id="24" buff_id="1243" dur="0" />
+  <monster_buff group_id="24" buff_id="10002481" dur="0" />
+  <monster_buff group_id="24" buff_id="10002482" dur="0" />
+  <monster_buff group_id="24" buff_id="10002483" dur="0" />
+  <monster_buff group_id="24" buff_id="10002484" dur="0" />
+  <monster_buff group_id="24" buff_id="10002485" dur="0" />
+  <monster_buff group_id="24" buff_id="10002486" dur="0" />
+  <monster_buff group_id="31" buff_id="1141" dur="0" />
+  <monster_buff group_id="31" buff_id="1153" dur="0" />
+  <monster_buff group_id="31" buff_id="1163" dur="0" />
+  <monster_buff group_id="31" buff_id="1173" dur="0" />
+  <monster_buff group_id="31" buff_id="1182" dur="0" />
+  <monster_buff group_id="31" buff_id="1196" dur="0" />
+  <monster_buff group_id="31" buff_id="1213" dur="0" />
+  <monster_buff group_id="31" buff_id="1223" dur="0" />
+  <monster_buff group_id="31" buff_id="1241" dur="0" />
+  <monster_buff group_id="32" buff_id="1142" dur="0" />
+  <monster_buff group_id="32" buff_id="1154" dur="0" />
+  <monster_buff group_id="32" buff_id="1164" dur="0" />
+  <monster_buff group_id="32" buff_id="1174" dur="0" />
+  <monster_buff group_id="32" buff_id="1183" dur="0" />
+  <monster_buff group_id="32" buff_id="1196" dur="0" />
+  <monster_buff group_id="32" buff_id="1201" dur="0" />
+  <monster_buff group_id="32" buff_id="1214" dur="0" />
+  <monster_buff group_id="32" buff_id="1224" dur="0" />
+  <monster_buff group_id="32" buff_id="1242" dur="0" />
+  <monster_buff group_id="33" buff_id="1143" dur="0" />
+  <monster_buff group_id="33" buff_id="1155" dur="0" />
+  <monster_buff group_id="33" buff_id="1165" dur="0" />
+  <monster_buff group_id="33" buff_id="1175" dur="0" />
+  <monster_buff group_id="33" buff_id="1184" dur="0" />
+  <monster_buff group_id="33" buff_id="1196" dur="0" />
+  <monster_buff group_id="33" buff_id="1202" dur="0" />
+  <monster_buff group_id="33" buff_id="1215" dur="0" />
+  <monster_buff group_id="33" buff_id="1225" dur="0" />
+  <monster_buff group_id="33" buff_id="1243" dur="0" />
+  <monster_buff group_id="34" buff_id="1143" dur="0" />
+  <monster_buff group_id="34" buff_id="1155" dur="0" />
+  <monster_buff group_id="34" buff_id="1165" dur="0" />
+  <monster_buff group_id="34" buff_id="1175" dur="0" />
+  <monster_buff group_id="34" buff_id="1184" dur="0" />
+  <monster_buff group_id="34" buff_id="1196" dur="0" />
+  <monster_buff group_id="34" buff_id="1202" dur="0" />
+  <monster_buff group_id="34" buff_id="1215" dur="0" />
+  <monster_buff group_id="34" buff_id="1225" dur="0" />
+  <monster_buff group_id="34" buff_id="1243" dur="0" />
+  <monster_buff group_id="34" buff_id="10003481" dur="0" />
+  <monster_buff group_id="34" buff_id="10003482" dur="0" />
+  <monster_buff group_id="34" buff_id="10003483" dur="0" />
+  <monster_buff group_id="34" buff_id="10003484" dur="0" />
+  <monster_buff group_id="34" buff_id="10003485" dur="0" />
+  <monster_buff group_id="34" buff_id="10003486" dur="0" />
+  <monster_buff group_id="41" buff_id="1121" dur="0" />
+  <monster_buff group_id="41" buff_id="1131" dur="0" />
+  <monster_buff group_id="41" buff_id="1141" dur="0" />
+  <monster_buff group_id="41" buff_id="1153" dur="0" />
+  <monster_buff group_id="41" buff_id="1163" dur="0" />
+  <monster_buff group_id="41" buff_id="1173" dur="0" />
+  <monster_buff group_id="41" buff_id="1181" dur="0" />
+  <monster_buff group_id="41" buff_id="1193" dur="0" />
+  <monster_buff group_id="41" buff_id="1206" dur="0" />
+  <monster_buff group_id="41" buff_id="1213" dur="0" />
+  <monster_buff group_id="41" buff_id="1236" dur="0" />
+  <monster_buff group_id="41" buff_id="1241" dur="0" />
+  <monster_buff group_id="41" buff_id="1263" dur="0" />
+  <monster_buff group_id="42" buff_id="1122" dur="0" />
+  <monster_buff group_id="42" buff_id="1132" dur="0" />
+  <monster_buff group_id="42" buff_id="1142" dur="0" />
+  <monster_buff group_id="42" buff_id="1154" dur="0" />
+  <monster_buff group_id="42" buff_id="1164" dur="0" />
+  <monster_buff group_id="42" buff_id="1174" dur="0" />
+  <monster_buff group_id="42" buff_id="1182" dur="0" />
+  <monster_buff group_id="42" buff_id="1194" dur="0" />
+  <monster_buff group_id="42" buff_id="1206" dur="0" />
+  <monster_buff group_id="42" buff_id="1214" dur="0" />
+  <monster_buff group_id="42" buff_id="1221" dur="0" />
+  <monster_buff group_id="42" buff_id="1236" dur="0" />
+  <monster_buff group_id="42" buff_id="1242" dur="0" />
+  <monster_buff group_id="42" buff_id="1264" dur="0" />
+  <monster_buff group_id="43" buff_id="1123" dur="0" />
+  <monster_buff group_id="43" buff_id="1133" dur="0" />
+  <monster_buff group_id="43" buff_id="1143" dur="0" />
+  <monster_buff group_id="43" buff_id="1155" dur="0" />
+  <monster_buff group_id="43" buff_id="1165" dur="0" />
+  <monster_buff group_id="43" buff_id="1175" dur="0" />
+  <monster_buff group_id="43" buff_id="1183" dur="0" />
+  <monster_buff group_id="43" buff_id="1195" dur="0" />
+  <monster_buff group_id="43" buff_id="1206" dur="0" />
+  <monster_buff group_id="43" buff_id="1215" dur="0" />
+  <monster_buff group_id="43" buff_id="1222" dur="0" />
+  <monster_buff group_id="43" buff_id="1236" dur="0" />
+  <monster_buff group_id="43" buff_id="1243" dur="0" />
+  <monster_buff group_id="43" buff_id="1265" dur="0" />
+  <monster_buff group_id="44" buff_id="1123" dur="0" />
+  <monster_buff group_id="44" buff_id="1133" dur="0" />
+  <monster_buff group_id="44" buff_id="1143" dur="0" />
+  <monster_buff group_id="44" buff_id="1155" dur="0" />
+  <monster_buff group_id="44" buff_id="1165" dur="0" />
+  <monster_buff group_id="44" buff_id="1175" dur="0" />
+  <monster_buff group_id="44" buff_id="1183" dur="0" />
+  <monster_buff group_id="44" buff_id="1195" dur="0" />
+  <monster_buff group_id="44" buff_id="1206" dur="0" />
+  <monster_buff group_id="44" buff_id="1215" dur="0" />
+  <monster_buff group_id="44" buff_id="1222" dur="0" />
+  <monster_buff group_id="44" buff_id="1236" dur="0" />
+  <monster_buff group_id="44" buff_id="1243" dur="0" />
+  <monster_buff group_id="44" buff_id="1265" dur="0" />
+  <monster_buff group_id="44" buff_id="10004481" dur="0" />
+  <monster_buff group_id="44" buff_id="10004482" dur="0" />
+  <monster_buff group_id="44" buff_id="10004483" dur="0" />
+  <monster_buff group_id="44" buff_id="10004484" dur="0" />
+  <monster_buff group_id="44" buff_id="10004485" dur="0" />
+  <monster_buff group_id="44" buff_id="10004486" dur="0" />
+  <monster_buff group_id="51" buff_id="1121" dur="0" />
+  <monster_buff group_id="51" buff_id="1131" dur="0" />
+  <monster_buff group_id="51" buff_id="1146" dur="0" />
+  <monster_buff group_id="51" buff_id="1153" dur="0" />
+  <monster_buff group_id="51" buff_id="1163" dur="0" />
+  <monster_buff group_id="51" buff_id="1173" dur="0" />
+  <monster_buff group_id="51" buff_id="1181" dur="0" />
+  <monster_buff group_id="51" buff_id="1193" dur="0" />
+  <monster_buff group_id="51" buff_id="1213" dur="0" />
+  <monster_buff group_id="51" buff_id="1226" dur="0" />
+  <monster_buff group_id="51" buff_id="1241" dur="0" />
+  <monster_buff group_id="51" buff_id="1256" dur="0" />
+  <monster_buff group_id="51" buff_id="1261" dur="0" />
+  <monster_buff group_id="52" buff_id="1121" dur="0" />
+  <monster_buff group_id="52" buff_id="1131" dur="0" />
+  <monster_buff group_id="52" buff_id="1146" dur="0" />
+  <monster_buff group_id="52" buff_id="1154" dur="0" />
+  <monster_buff group_id="52" buff_id="1164" dur="0" />
+  <monster_buff group_id="52" buff_id="1174" dur="0" />
+  <monster_buff group_id="52" buff_id="1182" dur="0" />
+  <monster_buff group_id="52" buff_id="1194" dur="0" />
+  <monster_buff group_id="52" buff_id="1214" dur="0" />
+  <monster_buff group_id="52" buff_id="1226" dur="0" />
+  <monster_buff group_id="52" buff_id="1242" dur="0" />
+  <monster_buff group_id="52" buff_id="1256" dur="0" />
+  <monster_buff group_id="52" buff_id="1262" dur="0" />
+  <monster_buff group_id="53" buff_id="1122" dur="0" />
+  <monster_buff group_id="53" buff_id="1132" dur="0" />
+  <monster_buff group_id="53" buff_id="1146" dur="0" />
+  <monster_buff group_id="53" buff_id="1155" dur="0" />
+  <monster_buff group_id="53" buff_id="1165" dur="0" />
+  <monster_buff group_id="53" buff_id="1175" dur="0" />
+  <monster_buff group_id="53" buff_id="1183" dur="0" />
+  <monster_buff group_id="53" buff_id="1195" dur="0" />
+  <monster_buff group_id="53" buff_id="1215" dur="0" />
+  <monster_buff group_id="53" buff_id="1226" dur="0" />
+  <monster_buff group_id="53" buff_id="1243" dur="0" />
+  <monster_buff group_id="53" buff_id="1256" dur="0" />
+  <monster_buff group_id="53" buff_id="1263" dur="0" />
+  <monster_buff group_id="54" buff_id="1122" dur="0" />
+  <monster_buff group_id="54" buff_id="1132" dur="0" />
+  <monster_buff group_id="54" buff_id="1146" dur="0" />
+  <monster_buff group_id="54" buff_id="1155" dur="0" />
+  <monster_buff group_id="54" buff_id="1165" dur="0" />
+  <monster_buff group_id="54" buff_id="1175" dur="0" />
+  <monster_buff group_id="54" buff_id="1183" dur="0" />
+  <monster_buff group_id="54" buff_id="1195" dur="0" />
+  <monster_buff group_id="54" buff_id="1215" dur="0" />
+  <monster_buff group_id="54" buff_id="1226" dur="0" />
+  <monster_buff group_id="54" buff_id="1243" dur="0" />
+  <monster_buff group_id="54" buff_id="1256" dur="0" />
+  <monster_buff group_id="54" buff_id="1263" dur="0" />
+  <monster_buff group_id="54" buff_id="10005481" dur="0" />
+  <monster_buff group_id="54" buff_id="10005482" dur="0" />
+  <monster_buff group_id="54" buff_id="10005483" dur="0" />
+  <monster_buff group_id="54" buff_id="10005484" dur="0" />
+  <monster_buff group_id="54" buff_id="10005485" dur="0" />
+  <monster_buff group_id="54" buff_id="10005486" dur="0" />
+  <monster_buff group_id="61" buff_id="1123" dur="0" />
+  <monster_buff group_id="61" buff_id="1133" dur="0" />
+  <monster_buff group_id="61" buff_id="1153" dur="0" />
+  <monster_buff group_id="61" buff_id="1163" dur="0" />
+  <monster_buff group_id="61" buff_id="1173" dur="0" />
+  <monster_buff group_id="61" buff_id="1183" dur="0" />
+  <monster_buff group_id="61" buff_id="1193" dur="0" />
+  <monster_buff group_id="61" buff_id="1203" dur="0" />
+  <monster_buff group_id="61" buff_id="1213" dur="0" />
+  <monster_buff group_id="61" buff_id="1236" dur="0" />
+  <monster_buff group_id="61" buff_id="1243" dur="0" />
+  <monster_buff group_id="61" buff_id="1251" dur="0" />
+  <monster_buff group_id="61" buff_id="1261" dur="0" />
+  <monster_buff group_id="62" buff_id="1124" dur="0" />
+  <monster_buff group_id="62" buff_id="1134" dur="0" />
+  <monster_buff group_id="62" buff_id="1154" dur="0" />
+  <monster_buff group_id="62" buff_id="1164" dur="0" />
+  <monster_buff group_id="62" buff_id="1174" dur="0" />
+  <monster_buff group_id="62" buff_id="1184" dur="0" />
+  <monster_buff group_id="62" buff_id="1194" dur="0" />
+  <monster_buff group_id="62" buff_id="1204" dur="0" />
+  <monster_buff group_id="62" buff_id="1214" dur="0" />
+  <monster_buff group_id="62" buff_id="1221" dur="0" />
+  <monster_buff group_id="62" buff_id="1236" dur="0" />
+  <monster_buff group_id="62" buff_id="1244" dur="0" />
+  <monster_buff group_id="62" buff_id="1252" dur="0" />
+  <monster_buff group_id="62" buff_id="1262" dur="0" />
+  <monster_buff group_id="63" buff_id="1125" dur="0" />
+  <monster_buff group_id="63" buff_id="1135" dur="0" />
+  <monster_buff group_id="63" buff_id="1155" dur="0" />
+  <monster_buff group_id="63" buff_id="1165" dur="0" />
+  <monster_buff group_id="63" buff_id="1175" dur="0" />
+  <monster_buff group_id="63" buff_id="1185" dur="0" />
+  <monster_buff group_id="63" buff_id="1195" dur="0" />
+  <monster_buff group_id="63" buff_id="1205" dur="0" />
+  <monster_buff group_id="63" buff_id="1215" dur="0" />
+  <monster_buff group_id="63" buff_id="1222" dur="0" />
+  <monster_buff group_id="63" buff_id="1236" dur="0" />
+  <monster_buff group_id="63" buff_id="1245" dur="0" />
+  <monster_buff group_id="63" buff_id="1253" dur="0" />
+  <monster_buff group_id="63" buff_id="1263" dur="0" />
+  <monster_buff group_id="64" buff_id="1125" dur="0" />
+  <monster_buff group_id="64" buff_id="1135" dur="0" />
+  <monster_buff group_id="64" buff_id="1155" dur="0" />
+  <monster_buff group_id="64" buff_id="1165" dur="0" />
+  <monster_buff group_id="64" buff_id="1175" dur="0" />
+  <monster_buff group_id="64" buff_id="1185" dur="0" />
+  <monster_buff group_id="64" buff_id="1195" dur="0" />
+  <monster_buff group_id="64" buff_id="1205" dur="0" />
+  <monster_buff group_id="64" buff_id="1215" dur="0" />
+  <monster_buff group_id="64" buff_id="1222" dur="0" />
+  <monster_buff group_id="64" buff_id="1236" dur="0" />
+  <monster_buff group_id="64" buff_id="1245" dur="0" />
+  <monster_buff group_id="64" buff_id="1253" dur="0" />
+  <monster_buff group_id="64" buff_id="1263" dur="0" />
+  <monster_buff group_id="64" buff_id="10006481" dur="0" />
+  <monster_buff group_id="64" buff_id="10006482" dur="0" />
+  <monster_buff group_id="64" buff_id="10006483" dur="0" />
+  <monster_buff group_id="64" buff_id="10006484" dur="0" />
+  <monster_buff group_id="64" buff_id="10006485" dur="0" />
+  <monster_buff group_id="64" buff_id="10006486" dur="0" />
+  <monster_buff group_id="50061" buff_id="1173" dur="0" />
+  <monster_buff group_id="50061" buff_id="1181" dur="0" />
+  <monster_buff group_id="50061" buff_id="1191" dur="0" />
+  <monster_buff group_id="50061" buff_id="1211" dur="0" />
+  <monster_buff group_id="50061" buff_id="1251" dur="0" />
+  <monster_buff group_id="50061" buff_id="1261" dur="0" />
+  <monster_buff group_id="50062" buff_id="1174" dur="0" />
+  <monster_buff group_id="50062" buff_id="1182" dur="0" />
+  <monster_buff group_id="50062" buff_id="1192" dur="0" />
+  <monster_buff group_id="50062" buff_id="1212" dur="0" />
+  <monster_buff group_id="50062" buff_id="1252" dur="0" />
+  <monster_buff group_id="50062" buff_id="1262" dur="0" />
+  <monster_buff group_id="50063" buff_id="1175" dur="0" />
+  <monster_buff group_id="50063" buff_id="1183" dur="0" />
+  <monster_buff group_id="50063" buff_id="1193" dur="0" />
+  <monster_buff group_id="50063" buff_id="1213" dur="0" />
+  <monster_buff group_id="50063" buff_id="1253" dur="0" />
+  <monster_buff group_id="50063" buff_id="1263" dur="0" />
+  <monster_buff group_id="40002" buff_id="1143" dur="0" />
+  <monster_buff group_id="40002" buff_id="1155" dur="0" />
+  <monster_buff group_id="40002" buff_id="1165" dur="0" />
+  <monster_buff group_id="40002" buff_id="1175" dur="0" />
+  <monster_buff group_id="40002" buff_id="1184" dur="0" />
+  <monster_buff group_id="40002" buff_id="1192" dur="0" />
+  <monster_buff group_id="40002" buff_id="1202" dur="0" />
+  <monster_buff group_id="40002" buff_id="1215" dur="0" />
+  <monster_buff group_id="40002" buff_id="1225" dur="0" />
+  <monster_buff group_id="40002" buff_id="1243" dur="0" />
+  <monster_buff group_id="40002" buff_id="6" dur="0" />
+  <monster_buff group_id="40003" buff_id="1176" dur="0" />
+  <monster_buff group_id="40003" buff_id="1185" dur="0" />
+  <monster_buff group_id="40003" buff_id="1165" dur="0" />
+  <monster_buff group_id="40003" buff_id="1153" dur="0" />
+  <monster_buff group_id="40003" buff_id="1145" dur="0" />
+  <monster_buff group_id="40003" buff_id="1215" dur="0" />
+  <monster_buff group_id="40003" buff_id="1223" dur="0" />
+  <monster_buff group_id="40003" buff_id="1243" dur="0" />
+  <monster_buff group_id="5010" buff_id="1146" dur="0" />
+  <monster_buff group_id="5010" buff_id="1163" dur="0" />
+  <monster_buff group_id="5010" buff_id="1173" dur="0" />
+  <monster_buff group_id="5010" buff_id="1183" dur="0" />
+  <monster_buff group_id="5010" buff_id="1193" dur="0" />
+  <monster_buff group_id="5010" buff_id="1226" dur="0" />
+  <monster_buff group_id="5010" buff_id="1256" dur="0" />
+  <monster_buff group_id="10021" buff_id="1173" dur="0" />
+  <monster_buff group_id="10021" buff_id="1211" dur="0" />
+  <monster_buff group_id="10022" buff_id="1123" dur="0" />
+  <monster_buff group_id="10022" buff_id="1133" dur="0" />
+  <monster_buff group_id="10022" buff_id="1143" dur="0" />
+  <monster_buff group_id="10022" buff_id="1153" dur="0" />
+  <monster_buff group_id="10022" buff_id="1183" dur="0" />
+  <monster_buff group_id="10023" buff_id="1143" dur="0" />
+  <monster_buff group_id="10023" buff_id="1163" dur="0" />
+  <monster_buff group_id="10023" buff_id="1203" dur="0" />
+  <monster_buff group_id="10023" buff_id="1253" dur="0" />
+  <monster_buff group_id="10023" buff_id="1263" dur="0" />
+  <monster_buff group_id="10024" buff_id="1122" dur="0" />
+  <monster_buff group_id="10024" buff_id="1132" dur="0" />
+  <monster_buff group_id="10024" buff_id="1152" dur="0" />
+  <monster_buff group_id="10024" buff_id="1162" dur="0" />
+  <monster_buff group_id="10024" buff_id="1174" dur="0" />
+  <monster_buff group_id="10024" buff_id="1206" dur="0" />
+  <monster_buff group_id="10024" buff_id="1256" dur="0" />
+  <monster_buff group_id="10025" buff_id="1144" dur="0" />
+  <monster_buff group_id="10025" buff_id="1174" dur="0" />
+  <monster_buff group_id="10025" buff_id="1193" dur="0" />
+  <monster_buff group_id="10025" buff_id="1243" dur="0" />
+  <monster_buff group_id="10026" buff_id="1122" dur="0" />
+  <monster_buff group_id="10026" buff_id="1132" dur="0" />
+  <monster_buff group_id="10026" buff_id="1145" dur="0" />
+  <monster_buff group_id="10026" buff_id="1152" dur="0" />
+  <monster_buff group_id="10026" buff_id="1164" dur="0" />
+  <monster_buff group_id="10026" buff_id="1175" dur="0" />
+  <monster_buff group_id="10026" buff_id="1242" dur="0" />
+  <monster_buff group_id="10027" buff_id="1123" dur="0" />
+  <monster_buff group_id="10027" buff_id="1133" dur="0" />
+  <monster_buff group_id="10027" buff_id="1145" dur="0" />
+  <monster_buff group_id="10027" buff_id="1153" dur="0" />
+  <monster_buff group_id="10027" buff_id="1173" dur="0" />
+  <monster_buff group_id="10027" buff_id="1195" dur="0" />
+  <monster_buff group_id="10027" buff_id="1202" dur="0" />
+  <monster_buff group_id="10027" buff_id="1212" dur="0" />
+  <monster_buff group_id="10027" buff_id="1252" dur="0" />
+  <monster_buff group_id="10027" buff_id="1262" dur="0" />
+  <monster_buff group_id="101" buff_id="10001481" dur="0" />
+  <monster_buff group_id="101" buff_id="10001482" dur="0" />
+  <monster_buff group_id="101" buff_id="10001483" dur="0" />
+  <monster_buff group_id="101" buff_id="10001484" dur="0" />
+  <monster_buff group_id="101" buff_id="10001485" dur="0" />
+  <monster_buff group_id="101" buff_id="10001486" dur="0" />
+  <monster_buff group_id="102" buff_id="10002481" dur="0" />
+  <monster_buff group_id="102" buff_id="10002482" dur="0" />
+  <monster_buff group_id="102" buff_id="10002483" dur="0" />
+  <monster_buff group_id="102" buff_id="10002484" dur="0" />
+  <monster_buff group_id="102" buff_id="10002485" dur="0" />
+  <monster_buff group_id="102" buff_id="10002486" dur="0" />
+  <monster_buff group_id="103" buff_id="10003481" dur="0" />
+  <monster_buff group_id="103" buff_id="10003482" dur="0" />
+  <monster_buff group_id="103" buff_id="10003483" dur="0" />
+  <monster_buff group_id="103" buff_id="10003484" dur="0" />
+  <monster_buff group_id="103" buff_id="10003485" dur="0" />
+  <monster_buff group_id="103" buff_id="10003486" dur="0" />
+  <monster_buff group_id="104" buff_id="10004481" dur="0" />
+  <monster_buff group_id="104" buff_id="10004482" dur="0" />
+  <monster_buff group_id="104" buff_id="10004483" dur="0" />
+  <monster_buff group_id="104" buff_id="10004484" dur="0" />
+  <monster_buff group_id="104" buff_id="10004485" dur="0" />
+  <monster_buff group_id="104" buff_id="10004486" dur="0" />
+  <monster_buff group_id="105" buff_id="10005481" dur="0" />
+  <monster_buff group_id="105" buff_id="10005482" dur="0" />
+  <monster_buff group_id="105" buff_id="10005483" dur="0" />
+  <monster_buff group_id="105" buff_id="10005484" dur="0" />
+  <monster_buff group_id="105" buff_id="10005485" dur="0" />
+  <monster_buff group_id="105" buff_id="10005486" dur="0" />
+  <monster_buff group_id="106" buff_id="10006481" dur="0" />
+  <monster_buff group_id="106" buff_id="10006482" dur="0" />
+  <monster_buff group_id="106" buff_id="10006483" dur="0" />
+  <monster_buff group_id="106" buff_id="10006484" dur="0" />
+  <monster_buff group_id="106" buff_id="10006485" dur="0" />
+  <monster_buff group_id="106" buff_id="10006486" dur="0" />
+  <monster_buff group_id="201" buff_id="10001581" dur="0" />
+  <monster_buff group_id="201" buff_id="10001582" dur="0" />
+  <monster_buff group_id="201" buff_id="10001583" dur="0" />
+  <monster_buff group_id="201" buff_id="10001584" dur="0" />
+  <monster_buff group_id="201" buff_id="10001585" dur="0" />
+  <monster_buff group_id="201" buff_id="10001586" dur="0" />
+  <monster_buff group_id="202" buff_id="10002581" dur="0" />
+  <monster_buff group_id="202" buff_id="10002582" dur="0" />
+  <monster_buff group_id="202" buff_id="10002583" dur="0" />
+  <monster_buff group_id="202" buff_id="10002584" dur="0" />
+  <monster_buff group_id="202" buff_id="10002585" dur="0" />
+  <monster_buff group_id="202" buff_id="10002586" dur="0" />
+  <monster_buff group_id="203" buff_id="10003581" dur="0" />
+  <monster_buff group_id="203" buff_id="10003582" dur="0" />
+  <monster_buff group_id="203" buff_id="10003583" dur="0" />
+  <monster_buff group_id="203" buff_id="10003584" dur="0" />
+  <monster_buff group_id="203" buff_id="10003585" dur="0" />
+  <monster_buff group_id="203" buff_id="10003586" dur="0" />
+  <monster_buff group_id="204" buff_id="10004581" dur="0" />
+  <monster_buff group_id="204" buff_id="10004582" dur="0" />
+  <monster_buff group_id="204" buff_id="10004583" dur="0" />
+  <monster_buff group_id="204" buff_id="10004584" dur="0" />
+  <monster_buff group_id="204" buff_id="10004585" dur="0" />
+  <monster_buff group_id="204" buff_id="10004586" dur="0" />
+  <monster_buff group_id="205" buff_id="10005581" dur="0" />
+  <monster_buff group_id="205" buff_id="10005582" dur="0" />
+  <monster_buff group_id="205" buff_id="10005583" dur="0" />
+  <monster_buff group_id="205" buff_id="10005584" dur="0" />
+  <monster_buff group_id="205" buff_id="10005585" dur="0" />
+  <monster_buff group_id="205" buff_id="10005586" dur="0" />
+  <monster_buff group_id="206" buff_id="10006581" dur="0" />
+  <monster_buff group_id="206" buff_id="10006582" dur="0" />
+  <monster_buff group_id="206" buff_id="10006583" dur="0" />
+  <monster_buff group_id="206" buff_id="10006584" dur="0" />
+  <monster_buff group_id="206" buff_id="10006585" dur="0" />
+  <monster_buff group_id="206" buff_id="10006586" dur="0" />
+  <monster_buff group_id="301" buff_id="10001581" dur="0" />
+  <monster_buff group_id="301" buff_id="10001682" dur="0" />
+  <monster_buff group_id="301" buff_id="10001683" dur="0" />
+  <monster_buff group_id="301" buff_id="10001684" dur="0" />
+  <monster_buff group_id="301" buff_id="10001685" dur="0" />
+  <monster_buff group_id="301" buff_id="10001686" dur="0" />
+  <monster_buff group_id="302" buff_id="10002581" dur="0" />
+  <monster_buff group_id="302" buff_id="10002682" dur="0" />
+  <monster_buff group_id="302" buff_id="10002683" dur="0" />
+  <monster_buff group_id="302" buff_id="10002684" dur="0" />
+  <monster_buff group_id="302" buff_id="10002685" dur="0" />
+  <monster_buff group_id="302" buff_id="10002686" dur="0" />
+  <monster_buff group_id="303" buff_id="10003581" dur="0" />
+  <monster_buff group_id="303" buff_id="10003682" dur="0" />
+  <monster_buff group_id="303" buff_id="10003683" dur="0" />
+  <monster_buff group_id="303" buff_id="10003684" dur="0" />
+  <monster_buff group_id="303" buff_id="10003685" dur="0" />
+  <monster_buff group_id="303" buff_id="10003686" dur="0" />
+  <monster_buff group_id="304" buff_id="10004581" dur="0" />
+  <monster_buff group_id="304" buff_id="10004682" dur="0" />
+  <monster_buff group_id="304" buff_id="10004683" dur="0" />
+  <monster_buff group_id="304" buff_id="10004684" dur="0" />
+  <monster_buff group_id="304" buff_id="10004685" dur="0" />
+  <monster_buff group_id="304" buff_id="10004686" dur="0" />
+  <monster_buff group_id="305" buff_id="10005581" dur="0" />
+  <monster_buff group_id="305" buff_id="10005682" dur="0" />
+  <monster_buff group_id="305" buff_id="10005683" dur="0" />
+  <monster_buff group_id="305" buff_id="10005684" dur="0" />
+  <monster_buff group_id="305" buff_id="10005685" dur="0" />
+  <monster_buff group_id="305" buff_id="10005686" dur="0" />
+  <monster_buff group_id="306" buff_id="10006581" dur="0" />
+  <monster_buff group_id="306" buff_id="10006682" dur="0" />
+  <monster_buff group_id="306" buff_id="10006683" dur="0" />
+  <monster_buff group_id="306" buff_id="10006684" dur="0" />
+  <monster_buff group_id="306" buff_id="10006685" dur="0" />
+  <monster_buff group_id="306" buff_id="10006686" dur="0" />
+  <monster_buff group_id="50151" buff_id="10006481" dur="0" />
+  <monster_buff group_id="50151" buff_id="10006482" dur="0" />
+  <monster_buff group_id="50151" buff_id="10006483" dur="0" />
+  <monster_buff group_id="50151" buff_id="10006484" dur="0" />
+  <monster_buff group_id="50151" buff_id="10006485" dur="0" />
+  <monster_buff group_id="50151" buff_id="10006486" dur="0" />
+  <monster_buff group_id="50151" buff_id="1145" dur="0" />
+  <monster_buff group_id="50151" buff_id="1153" dur="0" />
+  <monster_buff group_id="50151" buff_id="1175" dur="0" />
+  <monster_buff group_id="50151" buff_id="1185" dur="0" />
+  <monster_buff group_id="50151" buff_id="1215" dur="0" />
+  <monster_buff group_id="50151" buff_id="1225" dur="0" />
+  <monster_buff group_id="50151" buff_id="1254" dur="0" />
+  <monster_buff group_id="50151" buff_id="1263" dur="0" />
+  <monster_buff group_id="50152" buff_id="10006481" dur="0" />
+  <monster_buff group_id="50152" buff_id="10006482" dur="0" />
+  <monster_buff group_id="50152" buff_id="10006483" dur="0" />
+  <monster_buff group_id="50152" buff_id="10006484" dur="0" />
+  <monster_buff group_id="50152" buff_id="10006485" dur="0" />
+  <monster_buff group_id="50152" buff_id="10006486" dur="0" />
+  <monster_buff group_id="50152" buff_id="1145" dur="0" />
+  <monster_buff group_id="50152" buff_id="1153" dur="0" />
+  <monster_buff group_id="50152" buff_id="1161" dur="0" />
+  <monster_buff group_id="50152" buff_id="1175" dur="0" />
+  <monster_buff group_id="50152" buff_id="1185" dur="0" />
+  <monster_buff group_id="50152" buff_id="1191" dur="0" />
+  <monster_buff group_id="50152" buff_id="1215" dur="0" />
+  <monster_buff group_id="50152" buff_id="1225" dur="0" />
+  <monster_buff group_id="50152" buff_id="1241" dur="0" />
+  <monster_buff group_id="50152" buff_id="1254" dur="0" />
+  <monster_buff group_id="50152" buff_id="1263" dur="0" />
+  <monster_buff group_id="50153" buff_id="10006481" dur="0" />
+  <monster_buff group_id="50153" buff_id="10006482" dur="0" />
+  <monster_buff group_id="50153" buff_id="10006483" dur="0" />
+  <monster_buff group_id="50153" buff_id="10006484" dur="0" />
+  <monster_buff group_id="50153" buff_id="10006485" dur="0" />
+  <monster_buff group_id="50153" buff_id="10006486" dur="0" />
+  <monster_buff group_id="50153" buff_id="1145" dur="0" />
+  <monster_buff group_id="50153" buff_id="1153" dur="0" />
+  <monster_buff group_id="50153" buff_id="1162" dur="0" />
+  <monster_buff group_id="50153" buff_id="1175" dur="0" />
+  <monster_buff group_id="50153" buff_id="1185" dur="0" />
+  <monster_buff group_id="50153" buff_id="1192" dur="0" />
+  <monster_buff group_id="50153" buff_id="1215" dur="0" />
+  <monster_buff group_id="50153" buff_id="1225" dur="0" />
+  <monster_buff group_id="50153" buff_id="1242" dur="0" />
+  <monster_buff group_id="50153" buff_id="1254" dur="0" />
+  <monster_buff group_id="50153" buff_id="1263" dur="0" />
+  <monster_buff group_id="40005" buff_id="1145" dur="0" />
+  <monster_buff group_id="40005" buff_id="1154" dur="0" />
+  <monster_buff group_id="40005" buff_id="1163" dur="0" />
+  <monster_buff group_id="40005" buff_id="1176" dur="0" />
+  <monster_buff group_id="40005" buff_id="1186" dur="0" />
+  <monster_buff group_id="40005" buff_id="1195" dur="0" />
+  <monster_buff group_id="40005" buff_id="1206" dur="0" />
+  <monster_buff group_id="40005" buff_id="1214" dur="0" />
+  <monster_buff group_id="40005" buff_id="1225" dur="0" />
+  <monster_buff group_id="40005" buff_id="1243" dur="0" />
+  <monster_buff group_id="40005" buff_id="1263" dur="0" />
+  <monster_buff group_id="40007" buff_id="1145" dur="0" />
+  <monster_buff group_id="40007" buff_id="1154" dur="0" />
+  <monster_buff group_id="40007" buff_id="1165" dur="0" />
+  <monster_buff group_id="40007" buff_id="1175" dur="0" />
+  <monster_buff group_id="40007" buff_id="1186" dur="0" />
+  <monster_buff group_id="40007" buff_id="1196" dur="0" />
+  <monster_buff group_id="40007" buff_id="1206" dur="0" />
+  <monster_buff group_id="40007" buff_id="1216" dur="0" />
+  <monster_buff group_id="40007" buff_id="1225" dur="0" />
+  <monster_buff group_id="40007" buff_id="1243" dur="0" />
+  <monster_buff group_id="40007" buff_id="1253" dur="0" />
+  <monster_buff group_id="40007" buff_id="1263" dur="0" />
+  <monster_buff group_id="40007" buff_id="10001481" dur="0" />
+  <monster_buff group_id="40007" buff_id="10001482" dur="0" />
+  <monster_buff group_id="40007" buff_id="10001483" dur="0" />
+  <monster_buff group_id="40007" buff_id="10001484" dur="0" />
+  <monster_buff group_id="40007" buff_id="10001485" dur="0" />
+  <monster_buff group_id="40007" buff_id="10001486" dur="0" />
+  <monster_buff group_id="80101" buff_id="1144" dur="0" />
+  <monster_buff group_id="80101" buff_id="1165" dur="0" />
+  <monster_buff group_id="80101" buff_id="1176" dur="0" />
+  <monster_buff group_id="80101" buff_id="1183" dur="0" />
+  <monster_buff group_id="80101" buff_id="1193" dur="0" />
+  <monster_buff group_id="80101" buff_id="1202" dur="0" />
+  <monster_buff group_id="80101" buff_id="1213" dur="0" />
+  <monster_buff group_id="80101" buff_id="1224" dur="0" />
+  <monster_buff group_id="80101" buff_id="1243" dur="0" />
+  <monster_buff group_id="80101" buff_id="1253" dur="0" />
+  <monster_buff group_id="80101" buff_id="10006481" dur="0" />
+  <monster_buff group_id="80101" buff_id="10006482" dur="0" />
+  <monster_buff group_id="80101" buff_id="10006483" dur="0" />
+  <monster_buff group_id="80101" buff_id="10006484" dur="0" />
+  <monster_buff group_id="80101" buff_id="10006485" dur="0" />
+  <monster_buff group_id="80101" buff_id="10006486" dur="0" />
+  <monster_buff group_id="40009" buff_id="1145" dur="0" />
+  <monster_buff group_id="40009" buff_id="1153" dur="0" />
+  <monster_buff group_id="40009" buff_id="1165" dur="0" />
+  <monster_buff group_id="40009" buff_id="1173" dur="0" />
+  <monster_buff group_id="40009" buff_id="1185" dur="0" />
+  <monster_buff group_id="40009" buff_id="1196" dur="0" />
+  <monster_buff group_id="40009" buff_id="1215" dur="0" />
+  <monster_buff group_id="40009" buff_id="1225" dur="0" />
+  <monster_buff group_id="40009" buff_id="1244" dur="0" />
+  <monster_buff group_id="40009" buff_id="1254" dur="0" />
+  <monster_buff group_id="40009" buff_id="1264" dur="0" />
+  <monster_buff group_id="40009" buff_id="10002581" dur="0" />
+  <monster_buff group_id="40009" buff_id="10002582" dur="0" />
+  <monster_buff group_id="40009" buff_id="10002583" dur="0" />
+  <monster_buff group_id="40009" buff_id="10002584" dur="0" />
+  <monster_buff group_id="40009" buff_id="10002585" dur="0" />
+  <monster_buff group_id="40009" buff_id="10002586" dur="0" />
+  <monster_buff group_id="50211" buff_id="10001581" dur="0" />
+  <monster_buff group_id="50211" buff_id="10001582" dur="0" />
+  <monster_buff group_id="50211" buff_id="10001583" dur="0" />
+  <monster_buff group_id="50211" buff_id="10001584" dur="0" />
+  <monster_buff group_id="50211" buff_id="10001585" dur="0" />
+  <monster_buff group_id="50211" buff_id="10001586" dur="0" />
+  <monster_buff group_id="50211" buff_id="1145" dur="0" />
+  <monster_buff group_id="50211" buff_id="1153" dur="0" />
+  <monster_buff group_id="50211" buff_id="1175" dur="0" />
+  <monster_buff group_id="50211" buff_id="1185" dur="0" />
+  <monster_buff group_id="50211" buff_id="1215" dur="0" />
+  <monster_buff group_id="50211" buff_id="1225" dur="0" />
+  <monster_buff group_id="50211" buff_id="1254" dur="0" />
+  <monster_buff group_id="50211" buff_id="1263" dur="0" />
+  <monster_buff group_id="50212" buff_id="10001581" dur="0" />
+  <monster_buff group_id="50212" buff_id="10001582" dur="0" />
+  <monster_buff group_id="50212" buff_id="10001583" dur="0" />
+  <monster_buff group_id="50212" buff_id="10001584" dur="0" />
+  <monster_buff group_id="50212" buff_id="10001585" dur="0" />
+  <monster_buff group_id="50212" buff_id="10001586" dur="0" />
+  <monster_buff group_id="50212" buff_id="1145" dur="0" />
+  <monster_buff group_id="50212" buff_id="1153" dur="0" />
+  <monster_buff group_id="50212" buff_id="1161" dur="0" />
+  <monster_buff group_id="50212" buff_id="1175" dur="0" />
+  <monster_buff group_id="50212" buff_id="1185" dur="0" />
+  <monster_buff group_id="50212" buff_id="1191" dur="0" />
+  <monster_buff group_id="50212" buff_id="1215" dur="0" />
+  <monster_buff group_id="50212" buff_id="1225" dur="0" />
+  <monster_buff group_id="50212" buff_id="1241" dur="0" />
+  <monster_buff group_id="50212" buff_id="1254" dur="0" />
+  <monster_buff group_id="50212" buff_id="1263" dur="0" />
+  <monster_buff group_id="50213" buff_id="10001581" dur="0" />
+  <monster_buff group_id="50213" buff_id="10001582" dur="0" />
+  <monster_buff group_id="50213" buff_id="10001583" dur="0" />
+  <monster_buff group_id="50213" buff_id="10001584" dur="0" />
+  <monster_buff group_id="50213" buff_id="10001585" dur="0" />
+  <monster_buff group_id="50213" buff_id="10001586" dur="0" />
+  <monster_buff group_id="50213" buff_id="1145" dur="0" />
+  <monster_buff group_id="50213" buff_id="1153" dur="0" />
+  <monster_buff group_id="50213" buff_id="1162" dur="0" />
+  <monster_buff group_id="50213" buff_id="1175" dur="0" />
+  <monster_buff group_id="50213" buff_id="1185" dur="0" />
+  <monster_buff group_id="50213" buff_id="1192" dur="0" />
+  <monster_buff group_id="50213" buff_id="1215" dur="0" />
+  <monster_buff group_id="50213" buff_id="1225" dur="0" />
+  <monster_buff group_id="50213" buff_id="1242" dur="0" />
+  <monster_buff group_id="50213" buff_id="1254" dur="0" />
+  <monster_buff group_id="50213" buff_id="1263" dur="0" />
+  <monster_buff group_id="40011" buff_id="10004581" dur="0" />
+  <monster_buff group_id="40011" buff_id="10004582" dur="0" />
+  <monster_buff group_id="40011" buff_id="10004583" dur="0" />
+  <monster_buff group_id="40011" buff_id="10004584" dur="0" />
+  <monster_buff group_id="40011" buff_id="10004585" dur="0" />
+  <monster_buff group_id="40011" buff_id="10004586" dur="0" />
+  <monster_buff group_id="40011" buff_id="1154" dur="0" />
+  <monster_buff group_id="40011" buff_id="1164" dur="0" />
+  <monster_buff group_id="40011" buff_id="1175" dur="0" />
+  <monster_buff group_id="40011" buff_id="1183" dur="0" />
+  <monster_buff group_id="40011" buff_id="1194" dur="0" />
+  <monster_buff group_id="40011" buff_id="1213" dur="0" />
+  <monster_buff group_id="40011" buff_id="1222" dur="0" />
+  <monster_buff group_id="40011" buff_id="1243" dur="0" />
+  <monster_buff group_id="40011" buff_id="1263" dur="0" />
+  <monster_buff group_id="40013" buff_id="10001581" dur="0" />
+  <monster_buff group_id="40013" buff_id="10001582" dur="0" />
+  <monster_buff group_id="40013" buff_id="10001583" dur="0" />
+  <monster_buff group_id="40013" buff_id="10001584" dur="0" />
+  <monster_buff group_id="40013" buff_id="10001585" dur="0" />
+  <monster_buff group_id="40013" buff_id="10001586" dur="0" />
+  <monster_buff group_id="40013" buff_id="1145" dur="0" />
+  <monster_buff group_id="40013" buff_id="1155" dur="0" />
+  <monster_buff group_id="40013" buff_id="1164" dur="0" />
+  <monster_buff group_id="40013" buff_id="1175" dur="0" />
+  <monster_buff group_id="40013" buff_id="1183" dur="0" />
+  <monster_buff group_id="40013" buff_id="1196" dur="0" />
+  <monster_buff group_id="40013" buff_id="1214" dur="0" />
+  <monster_buff group_id="40013" buff_id="1223" dur="0" />
+  <monster_buff group_id="40013" buff_id="1244" dur="0" />
+  <monster_buff group_id="40013" buff_id="1254" dur="0" />
+  <monster_buff group_id="40013" buff_id="1264" dur="0" />
+  <monster_buff group_id="40015" buff_id="10002581" dur="0" />
+  <monster_buff group_id="40015" buff_id="10002582" dur="0" />
+  <monster_buff group_id="40015" buff_id="10002583" dur="0" />
+  <monster_buff group_id="40015" buff_id="10002584" dur="0" />
+  <monster_buff group_id="40015" buff_id="10002585" dur="0" />
+  <monster_buff group_id="40015" buff_id="10002586" dur="0" />
+  <monster_buff group_id="40015" buff_id="1145" dur="0" />
+  <monster_buff group_id="40015" buff_id="1154" dur="0" />
+  <monster_buff group_id="40015" buff_id="1165" dur="0" />
+  <monster_buff group_id="40015" buff_id="1174" dur="0" />
+  <monster_buff group_id="40015" buff_id="1184" dur="0" />
+  <monster_buff group_id="40015" buff_id="1194" dur="0" />
+  <monster_buff group_id="40015" buff_id="1204" dur="0" />
+  <monster_buff group_id="40015" buff_id="1214" dur="0" />
+  <monster_buff group_id="40015" buff_id="1244" dur="0" />
+  <monster_buff group_id="40015" buff_id="1256" dur="0" />
+  <monster_buff group_id="40015" buff_id="1264" dur="0" />
+  <monster_buff group_id="80201" buff_id="10001581" dur="0" />
+  <monster_buff group_id="80201" buff_id="10001582" dur="0" />
+  <monster_buff group_id="80201" buff_id="10001583" dur="0" />
+  <monster_buff group_id="80201" buff_id="10001584" dur="0" />
+  <monster_buff group_id="80201" buff_id="10001585" dur="0" />
+  <monster_buff group_id="80201" buff_id="10001586" dur="0" />
+  <monster_buff group_id="80201" buff_id="1145" dur="0" />
+  <monster_buff group_id="80201" buff_id="1154" dur="0" />
+  <monster_buff group_id="80201" buff_id="1165" dur="0" />
+  <monster_buff group_id="80201" buff_id="1173" dur="0" />
+  <monster_buff group_id="80201" buff_id="1185" dur="0" />
+  <monster_buff group_id="80201" buff_id="1195" dur="0" />
+  <monster_buff group_id="80201" buff_id="1203" dur="0" />
+  <monster_buff group_id="80201" buff_id="1215" dur="0" />
+  <monster_buff group_id="80201" buff_id="1223" dur="0" />
+  <monster_buff group_id="80201" buff_id="1244" dur="0" />
+  <monster_buff group_id="80201" buff_id="1253" dur="0" />
+  <monster_buff group_id="80201" buff_id="1263" dur="0" />
+  <monster_buff group_id="50261" buff_id="10006581" dur="0" />
+  <monster_buff group_id="50261" buff_id="10006582" dur="0" />
+  <monster_buff group_id="50261" buff_id="10006583" dur="0" />
+  <monster_buff group_id="50261" buff_id="10006584" dur="0" />
+  <monster_buff group_id="50261" buff_id="10006585" dur="0" />
+  <monster_buff group_id="50261" buff_id="10006586" dur="0" />
+  <monster_buff group_id="50261" buff_id="1121" dur="0" />
+  <monster_buff group_id="50261" buff_id="1131" dur="0" />
+  <monster_buff group_id="50261" buff_id="1141" dur="0" />
+  <monster_buff group_id="50261" buff_id="1151" dur="0" />
+  <monster_buff group_id="50261" buff_id="1163" dur="0" />
+  <monster_buff group_id="50261" buff_id="1186" dur="0" />
+  <monster_buff group_id="50261" buff_id="1193" dur="0" />
+  <monster_buff group_id="50261" buff_id="1202" dur="0" />
+  <monster_buff group_id="50261" buff_id="1213" dur="0" />
+  <monster_buff group_id="50261" buff_id="1226" dur="0" />
+  <monster_buff group_id="50261" buff_id="1243" dur="0" />
+  <monster_buff group_id="50261" buff_id="1252" dur="0" />
+  <monster_buff group_id="50261" buff_id="1261" dur="0" />
+  <monster_buff group_id="50262" buff_id="10006581" dur="0" />
+  <monster_buff group_id="50262" buff_id="10006582" dur="0" />
+  <monster_buff group_id="50262" buff_id="10006583" dur="0" />
+  <monster_buff group_id="50262" buff_id="10006584" dur="0" />
+  <monster_buff group_id="50262" buff_id="10006585" dur="0" />
+  <monster_buff group_id="50262" buff_id="10006586" dur="0" />
+  <monster_buff group_id="50262" buff_id="1122" dur="0" />
+  <monster_buff group_id="50262" buff_id="1132" dur="0" />
+  <monster_buff group_id="50262" buff_id="1142" dur="0" />
+  <monster_buff group_id="50262" buff_id="1152" dur="0" />
+  <monster_buff group_id="50262" buff_id="1164" dur="0" />
+  <monster_buff group_id="50262" buff_id="1186" dur="0" />
+  <monster_buff group_id="50262" buff_id="1194" dur="0" />
+  <monster_buff group_id="50262" buff_id="1203" dur="0" />
+  <monster_buff group_id="50262" buff_id="1214" dur="0" />
+  <monster_buff group_id="50262" buff_id="1226" dur="0" />
+  <monster_buff group_id="50262" buff_id="1244" dur="0" />
+  <monster_buff group_id="50262" buff_id="1253" dur="0" />
+  <monster_buff group_id="50262" buff_id="1262" dur="0" />
+  <monster_buff group_id="50263" buff_id="10006581" dur="0" />
+  <monster_buff group_id="50263" buff_id="10006582" dur="0" />
+  <monster_buff group_id="50263" buff_id="10006583" dur="0" />
+  <monster_buff group_id="50263" buff_id="10006584" dur="0" />
+  <monster_buff group_id="50263" buff_id="10006585" dur="0" />
+  <monster_buff group_id="50263" buff_id="10006586" dur="0" />
+  <monster_buff group_id="50263" buff_id="1123" dur="0" />
+  <monster_buff group_id="50263" buff_id="1133" dur="0" />
+  <monster_buff group_id="50263" buff_id="1143" dur="0" />
+  <monster_buff group_id="50263" buff_id="1153" dur="0" />
+  <monster_buff group_id="50263" buff_id="1165" dur="0" />
+  <monster_buff group_id="50263" buff_id="1186" dur="0" />
+  <monster_buff group_id="50263" buff_id="1195" dur="0" />
+  <monster_buff group_id="50263" buff_id="1204" dur="0" />
+  <monster_buff group_id="50263" buff_id="1215" dur="0" />
+  <monster_buff group_id="50263" buff_id="1226" dur="0" />
+  <monster_buff group_id="50263" buff_id="1245" dur="0" />
+  <monster_buff group_id="50263" buff_id="1254" dur="0" />
+  <monster_buff group_id="50263" buff_id="1263" dur="0" />
+  <monster_buff group_id="40017" buff_id="10004581" dur="0" />
+  <monster_buff group_id="40017" buff_id="10004582" dur="0" />
+  <monster_buff group_id="40017" buff_id="10004583" dur="0" />
+  <monster_buff group_id="40017" buff_id="10004584" dur="0" />
+  <monster_buff group_id="40017" buff_id="10004585" dur="0" />
+  <monster_buff group_id="40017" buff_id="10004586" dur="0" />
+  <monster_buff group_id="40017" buff_id="1122" dur="0" />
+  <monster_buff group_id="40017" buff_id="1132" dur="0" />
+  <monster_buff group_id="40017" buff_id="1145" dur="0" />
+  <monster_buff group_id="40017" buff_id="1155" dur="0" />
+  <monster_buff group_id="40017" buff_id="1165" dur="0" />
+  <monster_buff group_id="40017" buff_id="1175" dur="0" />
+  <monster_buff group_id="40017" buff_id="1184" dur="0" />
+  <monster_buff group_id="40017" buff_id="1194" dur="0" />
+  <monster_buff group_id="40017" buff_id="1204" dur="0" />
+  <monster_buff group_id="40017" buff_id="1214" dur="0" />
+  <monster_buff group_id="40017" buff_id="1224" dur="0" />
+  <monster_buff group_id="40017" buff_id="1245" dur="0" />
+  <monster_buff group_id="40017" buff_id="1253" dur="0" />
+  <monster_buff group_id="40017" buff_id="1263" dur="0" />
+  <monster_buff group_id="40019" buff_id="10006581" dur="0" />
+  <monster_buff group_id="40019" buff_id="10006582" dur="0" />
+  <monster_buff group_id="40019" buff_id="10006583" dur="0" />
+  <monster_buff group_id="40019" buff_id="10006584" dur="0" />
+  <monster_buff group_id="40019" buff_id="10006585" dur="0" />
+  <monster_buff group_id="40019" buff_id="10006586" dur="0" />
+  <monster_buff group_id="40019" buff_id="1143" dur="0" />
+  <monster_buff group_id="40019" buff_id="1155" dur="0" />
+  <monster_buff group_id="40019" buff_id="1164" dur="0" />
+  <monster_buff group_id="40019" buff_id="1175" dur="0" />
+  <monster_buff group_id="40019" buff_id="1194" dur="0" />
+  <monster_buff group_id="40019" buff_id="1185" dur="0" />
+  <monster_buff group_id="40019" buff_id="1215" dur="0" />
+  <monster_buff group_id="40019" buff_id="1224" dur="0" />
+  <monster_buff group_id="40019" buff_id="1245" dur="0" />
+  <monster_buff group_id="40019" buff_id="1264" dur="0" />
+  <monster_buff group_id="40021" buff_id="10003581" dur="0" />
+  <monster_buff group_id="40021" buff_id="10003582" dur="0" />
+  <monster_buff group_id="40021" buff_id="10003583" dur="0" />
+  <monster_buff group_id="40021" buff_id="10003584" dur="0" />
+  <monster_buff group_id="40021" buff_id="10003585" dur="0" />
+  <monster_buff group_id="40021" buff_id="10003586" dur="0" />
+  <monster_buff group_id="40021" buff_id="1145" dur="0" />
+  <monster_buff group_id="40021" buff_id="1155" dur="0" />
+  <monster_buff group_id="40021" buff_id="1165" dur="0" />
+  <monster_buff group_id="40021" buff_id="1183" dur="0" />
+  <monster_buff group_id="40021" buff_id="1194" dur="0" />
+  <monster_buff group_id="40021" buff_id="1216" dur="0" />
+  <monster_buff group_id="40021" buff_id="1223" dur="0" />
+  <monster_buff group_id="40021" buff_id="1243" dur="0" />
+  <monster_buff group_id="40021" buff_id="1253" dur="0" />
+  <monster_buff group_id="40021" buff_id="1264" dur="0" />
+  <monster_buff group_id="40023" buff_id="10005581" dur="0" />
+  <monster_buff group_id="40023" buff_id="10005582" dur="0" />
+  <monster_buff group_id="40023" buff_id="10005583" dur="0" />
+  <monster_buff group_id="40023" buff_id="10005584" dur="0" />
+  <monster_buff group_id="40023" buff_id="10005585" dur="0" />
+  <monster_buff group_id="40023" buff_id="10005586" dur="0" />
+  <monster_buff group_id="50331" buff_id="10006581" dur="0" />
+  <monster_buff group_id="50331" buff_id="10006582" dur="0" />
+  <monster_buff group_id="50331" buff_id="10006583" dur="0" />
+  <monster_buff group_id="50331" buff_id="10006584" dur="0" />
+  <monster_buff group_id="50331" buff_id="10006585" dur="0" />
+  <monster_buff group_id="50331" buff_id="10006586" dur="0" />
+  <monster_buff group_id="50331" buff_id="1144" dur="0" />
+  <monster_buff group_id="50331" buff_id="5154" dur="0" />
+  <monster_buff group_id="50331" buff_id="1164" dur="0" />
+  <monster_buff group_id="50331" buff_id="1175" dur="0" />
+  <monster_buff group_id="50331" buff_id="1184" dur="0" />
+  <monster_buff group_id="50331" buff_id="1194" dur="0" />
+  <monster_buff group_id="50331" buff_id="1215" dur="0" />
+  <monster_buff group_id="50331" buff_id="1222" dur="0" />
+  <monster_buff group_id="50331" buff_id="1244" dur="0" />
+  <monster_buff group_id="50331" buff_id="1253" dur="0" />
+  <monster_buff group_id="50331" buff_id="1263" dur="0" />
+  <monster_buff group_id="40025" buff_id="10006581" dur="0" />
+  <monster_buff group_id="40025" buff_id="10006582" dur="0" />
+  <monster_buff group_id="40025" buff_id="10006583" dur="0" />
+  <monster_buff group_id="40025" buff_id="10006584" dur="0" />
+  <monster_buff group_id="40025" buff_id="10006585" dur="0" />
+  <monster_buff group_id="40025" buff_id="10006586" dur="0" />
+  <monster_buff group_id="40025" buff_id="1122" dur="0" />
+  <monster_buff group_id="40025" buff_id="1132" dur="0" />
+  <monster_buff group_id="40025" buff_id="1144" dur="0" />
+  <monster_buff group_id="40025" buff_id="1153" dur="0" />
+  <monster_buff group_id="40025" buff_id="1163" dur="0" />
+  <monster_buff group_id="40025" buff_id="1173" dur="0" />
+  <monster_buff group_id="40025" buff_id="1186" dur="0" />
+  <monster_buff group_id="40025" buff_id="1195" dur="0" />
+  <monster_buff group_id="40025" buff_id="1214" dur="0" />
+  <monster_buff group_id="40025" buff_id="1244" dur="0" />
+  <monster_buff group_id="40025" buff_id="1251" dur="0" />
+  <monster_buff group_id="40025" buff_id="1265" dur="0" />
+  <monster_buff group_id="80301" buff_id="10003581" dur="0" />
+  <monster_buff group_id="80301" buff_id="10003582" dur="0" />
+  <monster_buff group_id="80301" buff_id="10003583" dur="0" />
+  <monster_buff group_id="80301" buff_id="10003584" dur="0" />
+  <monster_buff group_id="80301" buff_id="10003585" dur="0" />
+  <monster_buff group_id="80301" buff_id="10003586" dur="0" />
+  <monster_buff group_id="80301" buff_id="1126" dur="0" />
+  <monster_buff group_id="80301" buff_id="1133" dur="0" />
+  <monster_buff group_id="80301" buff_id="1144" dur="0" />
+  <monster_buff group_id="80301" buff_id="1154" dur="0" />
+  <monster_buff group_id="80301" buff_id="1166" dur="0" />
+  <monster_buff group_id="80301" buff_id="1175" dur="0" />
+  <monster_buff group_id="80301" buff_id="1186" dur="0" />
+  <monster_buff group_id="80301" buff_id="1193" dur="0" />
+  <monster_buff group_id="80301" buff_id="1214" dur="0" />
+  <monster_buff group_id="80301" buff_id="1223" dur="0" />
+  <monster_buff group_id="80301" buff_id="1245" dur="0" />
+  <monster_buff group_id="80301" buff_id="1262" dur="0" />
+  <monster_buff group_id="40027" buff_id="10002581" dur="0" />
+  <monster_buff group_id="40027" buff_id="10002582" dur="0" />
+  <monster_buff group_id="40027" buff_id="10002583" dur="0" />
+  <monster_buff group_id="40027" buff_id="10002584" dur="0" />
+  <monster_buff group_id="40027" buff_id="10002585" dur="0" />
+  <monster_buff group_id="40027" buff_id="10002586" dur="0" />
+  <monster_buff group_id="40027" buff_id="1123" dur="0" />
+  <monster_buff group_id="40027" buff_id="1131" dur="0" />
+  <monster_buff group_id="40027" buff_id="1144" dur="0" />
+  <monster_buff group_id="40027" buff_id="1153" dur="0" />
+  <monster_buff group_id="40027" buff_id="1155" dur="0" />
+  <monster_buff group_id="40027" buff_id="1165" dur="0" />
+  <monster_buff group_id="40027" buff_id="1172" dur="0" />
+  <monster_buff group_id="40027" buff_id="1182" dur="0" />
+  <monster_buff group_id="40027" buff_id="1193" dur="0" />
+  <monster_buff group_id="40027" buff_id="1213" dur="0" />
+  <monster_buff group_id="40027" buff_id="1222" dur="0" />
+  <monster_buff group_id="40027" buff_id="1263" dur="0" />
+  <monster_buff group_id="40029" buff_id="10003581" dur="0" />
+  <monster_buff group_id="40029" buff_id="10003582" dur="0" />
+  <monster_buff group_id="40029" buff_id="10003583" dur="0" />
+  <monster_buff group_id="40029" buff_id="10003584" dur="0" />
+  <monster_buff group_id="40029" buff_id="10003585" dur="0" />
+  <monster_buff group_id="40029" buff_id="10003586" dur="0" />
+  <monster_buff group_id="40029" buff_id="1123" dur="0" />
+  <monster_buff group_id="40029" buff_id="1146" dur="0" />
+  <monster_buff group_id="40029" buff_id="1153" dur="0" />
+  <monster_buff group_id="40029" buff_id="1165" dur="0" />
+  <monster_buff group_id="40029" buff_id="1174" dur="0" />
+  <monster_buff group_id="40029" buff_id="1175" dur="0" />
+  <monster_buff group_id="40029" buff_id="1195" dur="0" />
+  <monster_buff group_id="40029" buff_id="1214" dur="0" />
+  <monster_buff group_id="40029" buff_id="1243" dur="0" />
+  <monster_buff group_id="40029" buff_id="1256" dur="0" />
+  <monster_buff group_id="40029" buff_id="1264" dur="0" />
+  <monster_buff group_id="50381" buff_id="10003581" dur="0" />
+  <monster_buff group_id="50381" buff_id="10003582" dur="0" />
+  <monster_buff group_id="50381" buff_id="10003583" dur="0" />
+  <monster_buff group_id="50381" buff_id="10003584" dur="0" />
+  <monster_buff group_id="50381" buff_id="10003585" dur="0" />
+  <monster_buff group_id="50381" buff_id="10003586" dur="0" />
+  <monster_buff group_id="50381" buff_id="1125" dur="0" />
+  <monster_buff group_id="50381" buff_id="1144" dur="0" />
+  <monster_buff group_id="50381" buff_id="1155" dur="0" />
+  <monster_buff group_id="50381" buff_id="1165" dur="0" />
+  <monster_buff group_id="50381" buff_id="1173" dur="0" />
+  <monster_buff group_id="50381" buff_id="1185" dur="0" />
+  <monster_buff group_id="50381" buff_id="1195" dur="0" />
+  <monster_buff group_id="50381" buff_id="1203" dur="0" />
+  <monster_buff group_id="50381" buff_id="1215" dur="0" />
+  <monster_buff group_id="50381" buff_id="1221" dur="0" />
+  <monster_buff group_id="50381" buff_id="1236" dur="0" />
+  <monster_buff group_id="50381" buff_id="1245" dur="0" />
+  <monster_buff group_id="50381" buff_id="1251" dur="0" />
+  <monster_buff group_id="50381" buff_id="1263" dur="0" />
+  <monster_buff group_id="40031" buff_id="10001581" dur="0" />
+  <monster_buff group_id="40031" buff_id="10001582" dur="0" />
+  <monster_buff group_id="40031" buff_id="10001583" dur="0" />
+  <monster_buff group_id="40031" buff_id="10001584" dur="0" />
+  <monster_buff group_id="40031" buff_id="10001585" dur="0" />
+  <monster_buff group_id="40031" buff_id="10001586" dur="0" />
+  <monster_buff group_id="40031" buff_id="1145" dur="0" />
+  <monster_buff group_id="40031" buff_id="1153" dur="0" />
+  <monster_buff group_id="40031" buff_id="1164" dur="0" />
+  <monster_buff group_id="40031" buff_id="1174" dur="0" />
+  <monster_buff group_id="40031" buff_id="1183" dur="0" />
+  <monster_buff group_id="40031" buff_id="1195" dur="0" />
+  <monster_buff group_id="40031" buff_id="1214" dur="0" />
+  <monster_buff group_id="40031" buff_id="1223" dur="0" />
+  <monster_buff group_id="40031" buff_id="1244" dur="0" />
+  <monster_buff group_id="40031" buff_id="1254" dur="0" />
+  <monster_buff group_id="40031" buff_id="1263" dur="0" />
+  <monster_buff group_id="40033" buff_id="10004581" dur="0" />
+  <monster_buff group_id="40033" buff_id="10004582" dur="0" />
+  <monster_buff group_id="40033" buff_id="10004583" dur="0" />
+  <monster_buff group_id="40033" buff_id="10004584" dur="0" />
+  <monster_buff group_id="40033" buff_id="10004585" dur="0" />
+  <monster_buff group_id="40033" buff_id="10004586" dur="0" />
+  <monster_buff group_id="40033" buff_id="1145" dur="0" />
+  <monster_buff group_id="40033" buff_id="1154" dur="0" />
+  <monster_buff group_id="40033" buff_id="1166" dur="0" />
+  <monster_buff group_id="40033" buff_id="1175" dur="0" />
+  <monster_buff group_id="40033" buff_id="1186" dur="0" />
+  <monster_buff group_id="40033" buff_id="1194" dur="0" />
+  <monster_buff group_id="40033" buff_id="1206" dur="0" />
+  <monster_buff group_id="40033" buff_id="1214" dur="0" />
+  <monster_buff group_id="40033" buff_id="1224" dur="0" />
+  <monster_buff group_id="40033" buff_id="1244" dur="0" />
+  <monster_buff group_id="40033" buff_id="1252" dur="0" />
+  <monster_buff group_id="40033" buff_id="1262" dur="0" />
+  <monster_buff group_id="50431" buff_id="10002581" dur="0" />
+  <monster_buff group_id="50431" buff_id="10002582" dur="0" />
+  <monster_buff group_id="50431" buff_id="10002583" dur="0" />
+  <monster_buff group_id="50431" buff_id="10002584" dur="0" />
+  <monster_buff group_id="50431" buff_id="10002585" dur="0" />
+  <monster_buff group_id="50431" buff_id="10002586" dur="0" />
+  <monster_buff group_id="50431" buff_id="1144" dur="0" />
+  <monster_buff group_id="50431" buff_id="1164" dur="0" />
+  <monster_buff group_id="50431" buff_id="1184" dur="0" />
+  <monster_buff group_id="50431" buff_id="1193" dur="0" />
+  <monster_buff group_id="50431" buff_id="1214" dur="0" />
+  <monster_buff group_id="50431" buff_id="1243" dur="0" />
+  <monster_buff group_id="50431" buff_id="1263" dur="0" />
+  <monster_buff group_id="40035" buff_id="10005581" dur="0" />
+  <monster_buff group_id="40035" buff_id="10005582" dur="0" />
+  <monster_buff group_id="40035" buff_id="10005583" dur="0" />
+  <monster_buff group_id="40035" buff_id="10005584" dur="0" />
+  <monster_buff group_id="40035" buff_id="10005585" dur="0" />
+  <monster_buff group_id="40035" buff_id="10005586" dur="0" />
+  <monster_buff group_id="40035" buff_id="1143" dur="0" />
+  <monster_buff group_id="40035" buff_id="1153" dur="0" />
+  <monster_buff group_id="40035" buff_id="1163" dur="0" />
+  <monster_buff group_id="40035" buff_id="1172" dur="0" />
+  <monster_buff group_id="40035" buff_id="1183" dur="0" />
+  <monster_buff group_id="40035" buff_id="1215" dur="0" />
+  <monster_buff group_id="40035" buff_id="1225" dur="0" />
+  <monster_buff group_id="40035" buff_id="1243" dur="0" />
+  <monster_buff group_id="40035" buff_id="1253" dur="0" />
+  <monster_buff group_id="40035" buff_id="1264" dur="0" />
+  <monster_buff group_id="10031" buff_id="1163" dur="0" />
+  <monster_buff group_id="10031" buff_id="1176" dur="0" />
+  <monster_buff group_id="10031" buff_id="1183" dur="0" />
+  <monster_buff group_id="10031" buff_id="1203" dur="0" />
+  <monster_buff group_id="10031" buff_id="1242" dur="0" />
+  <monster_buff group_id="10031" buff_id="1262" dur="0" />
+  <monster_buff group_id="10032" buff_id="1124" dur="0" />
+  <monster_buff group_id="10032" buff_id="1132" dur="0" />
+  <monster_buff group_id="10032" buff_id="1143" dur="0" />
+  <monster_buff group_id="10032" buff_id="1154" dur="0" />
+  <monster_buff group_id="10032" buff_id="1163" dur="0" />
+  <monster_buff group_id="10032" buff_id="1173" dur="0" />
+  <monster_buff group_id="10032" buff_id="1183" dur="0" />
+  <monster_buff group_id="10032" buff_id="1194" dur="0" />
+  <monster_buff group_id="10032" buff_id="1203" dur="0" />
+  <monster_buff group_id="10032" buff_id="1213" dur="0" />
+  <monster_buff group_id="10032" buff_id="1236" dur="0" />
+  <monster_buff group_id="10032" buff_id="1243" dur="0" />
+  <monster_buff group_id="10032" buff_id="1263" dur="0" />
+  <monster_buff group_id="10033" buff_id="1134" dur="0" />
+  <monster_buff group_id="10033" buff_id="1143" dur="0" />
+  <monster_buff group_id="10033" buff_id="1154" dur="0" />
+  <monster_buff group_id="10033" buff_id="1162" dur="0" />
+  <monster_buff group_id="10033" buff_id="1182" dur="0" />
+  <monster_buff group_id="10033" buff_id="1193" dur="0" />
+  <monster_buff group_id="10033" buff_id="1224" dur="0" />
+  <monster_buff group_id="10033" buff_id="1244" dur="0" />
+  <monster_buff group_id="10033" buff_id="1252" dur="0" />
+  <monster_buff group_id="10034" buff_id="1124" dur="0" />
+  <monster_buff group_id="10034" buff_id="1132" dur="0" />
+  <monster_buff group_id="10034" buff_id="1144" dur="0" />
+  <monster_buff group_id="10034" buff_id="1152" dur="0" />
+  <monster_buff group_id="10034" buff_id="1164" dur="0" />
+  <monster_buff group_id="10034" buff_id="1184" dur="0" />
+  <monster_buff group_id="10034" buff_id="1194" dur="0" />
+  <monster_buff group_id="10034" buff_id="1224" dur="0" />
+  <monster_buff group_id="10034" buff_id="1242" dur="0" />
+  <monster_buff group_id="10034" buff_id="1254" dur="0" />
+  <monster_buff group_id="10035" buff_id="1123" dur="0" />
+  <monster_buff group_id="10035" buff_id="1134" dur="0" />
+  <monster_buff group_id="10035" buff_id="1143" dur="0" />
+  <monster_buff group_id="10035" buff_id="1154" dur="0" />
+  <monster_buff group_id="10035" buff_id="1175" dur="0" />
+  <monster_buff group_id="10035" buff_id="1183" dur="0" />
+  <monster_buff group_id="10035" buff_id="1192" dur="0" />
+  <monster_buff group_id="10035" buff_id="1212" dur="0" />
+  <monster_buff group_id="10035" buff_id="1242" dur="0" />
+  <monster_buff group_id="10035" buff_id="1243" dur="0" />
+  <monster_buff group_id="10036" buff_id="1154" dur="0" />
+  <monster_buff group_id="10036" buff_id="1163" dur="0" />
+  <monster_buff group_id="10036" buff_id="1194" dur="0" />
+  <monster_buff group_id="10036" buff_id="1213" dur="0" />
+  <monster_buff group_id="10036" buff_id="1224" dur="0" />
+  <monster_buff group_id="10036" buff_id="1243" dur="0" />
+  <monster_buff group_id="10036" buff_id="1252" dur="0" />
+  <monster_buff group_id="10036" buff_id="1264" dur="0" />
+  <monster_buff group_id="10037" buff_id="1123" dur="0" />
+  <monster_buff group_id="10037" buff_id="1133" dur="0" />
+  <monster_buff group_id="10037" buff_id="1145" dur="0" />
+  <monster_buff group_id="10037" buff_id="1155" dur="0" />
+  <monster_buff group_id="10037" buff_id="1164" dur="0" />
+  <monster_buff group_id="10037" buff_id="1172" dur="0" />
+  <monster_buff group_id="10037" buff_id="1182" dur="0" />
+  <monster_buff group_id="10037" buff_id="1193" dur="0" />
+  <monster_buff group_id="10037" buff_id="1205" dur="0" />
+  <monster_buff group_id="10037" buff_id="1213" dur="0" />
+  <monster_buff group_id="10037" buff_id="1224" dur="0" />
+  <monster_buff group_id="10037" buff_id="1233" dur="0" />
+  <monster_buff group_id="10037" buff_id="1244" dur="0" />
+  <monster_buff group_id="10037" buff_id="1254" dur="0" />
+  <monster_buff group_id="10037" buff_id="1262" dur="0" />
+  <monster_buff group_id="40037" buff_id="10006581" dur="0" />
+  <monster_buff group_id="40037" buff_id="10002581" dur="0" />
+  <monster_buff group_id="40037" buff_id="10006583" dur="0" />
+  <monster_buff group_id="40037" buff_id="10006584" dur="0" />
+  <monster_buff group_id="40037" buff_id="10006585" dur="0" />
+  <monster_buff group_id="40037" buff_id="10006586" dur="0" />
+  <monster_buff group_id="40037" buff_id="1143" dur="0" />
+  <monster_buff group_id="40037" buff_id="1155" dur="0" />
+  <monster_buff group_id="40037" buff_id="1164" dur="0" />
+  <monster_buff group_id="40037" buff_id="1175" dur="0" />
+  <monster_buff group_id="40037" buff_id="1194" dur="0" />
+  <monster_buff group_id="40037" buff_id="1185" dur="0" />
+  <monster_buff group_id="40037" buff_id="1215" dur="0" />
+  <monster_buff group_id="40037" buff_id="1224" dur="0" />
+  <monster_buff group_id="40037" buff_id="1245" dur="0" />
+  <monster_buff group_id="40037" buff_id="1264" dur="0" />
+  <monster_buff group_id="50471" buff_id="10005581" dur="0" />
+  <monster_buff group_id="50471" buff_id="10005582" dur="0" />
+  <monster_buff group_id="50471" buff_id="10005583" dur="0" />
+  <monster_buff group_id="50471" buff_id="10005584" dur="0" />
+  <monster_buff group_id="50471" buff_id="10005585" dur="0" />
+  <monster_buff group_id="50471" buff_id="10005586" dur="0" />
+  <monster_buff group_id="50471" buff_id="1145" dur="0" />
+  <monster_buff group_id="50471" buff_id="1153" dur="0" />
+  <monster_buff group_id="50471" buff_id="1175" dur="0" />
+  <monster_buff group_id="50471" buff_id="1186" dur="0" />
+  <monster_buff group_id="50471" buff_id="1215" dur="0" />
+  <monster_buff group_id="50471" buff_id="1222" dur="0" />
+  <monster_buff group_id="50471" buff_id="1245" dur="0" />
+  <monster_buff group_id="50471" buff_id="1256" dur="0" />
+  <monster_buff group_id="40039" buff_id="10003581" dur="0" />
+  <monster_buff group_id="40039" buff_id="10003582" dur="0" />
+  <monster_buff group_id="40039" buff_id="10003583" dur="0" />
+  <monster_buff group_id="40039" buff_id="10003584" dur="0" />
+  <monster_buff group_id="40039" buff_id="10003585" dur="0" />
+  <monster_buff group_id="40039" buff_id="10003586" dur="0" />
+  <monster_buff group_id="40039" buff_id="1144" dur="0" />
+  <monster_buff group_id="40039" buff_id="1154" dur="0" />
+  <monster_buff group_id="40039" buff_id="1164" dur="0" />
+  <monster_buff group_id="40039" buff_id="1174" dur="0" />
+  <monster_buff group_id="40039" buff_id="1185" dur="0" />
+  <monster_buff group_id="40039" buff_id="1193" dur="0" />
+  <monster_buff group_id="40039" buff_id="1203" dur="0" />
+  <monster_buff group_id="40039" buff_id="1215" dur="0" />
+  <monster_buff group_id="40039" buff_id="1222" dur="0" />
+  <monster_buff group_id="40039" buff_id="1242" dur="0" />
+  <monster_buff group_id="40039" buff_id="1252" dur="0" />
+  <monster_buff group_id="40039" buff_id="1262" dur="0" />
+  <monster_buff group_id="80401" buff_id="10002581" dur="0" />
+  <monster_buff group_id="80401" buff_id="10002582" dur="0" />
+  <monster_buff group_id="80401" buff_id="10002583" dur="0" />
+  <monster_buff group_id="80401" buff_id="10002584" dur="0" />
+  <monster_buff group_id="80401" buff_id="10002585" dur="0" />
+  <monster_buff group_id="80401" buff_id="10002586" dur="0" />
+  <monster_buff group_id="80401" buff_id="1143" dur="0" />
+  <monster_buff group_id="80401" buff_id="1153" dur="0" />
+  <monster_buff group_id="80401" buff_id="1164" dur="0" />
+  <monster_buff group_id="80401" buff_id="1174" dur="0" />
+  <monster_buff group_id="80401" buff_id="1184" dur="0" />
+  <monster_buff group_id="80401" buff_id="1194" dur="0" />
+  <monster_buff group_id="80401" buff_id="1212" dur="0" />
+  <monster_buff group_id="80401" buff_id="1222" dur="0" />
+  <monster_buff group_id="80401" buff_id="1242" dur="0" />
+  <monster_buff group_id="80401" buff_id="1263" dur="0" />
+  <monster_buff group_id="15" buff_id="10001581" dur="0" />
+  <monster_buff group_id="15" buff_id="10001682" dur="0" />
+  <monster_buff group_id="15" buff_id="10001683" dur="0" />
+  <monster_buff group_id="15" buff_id="10001684" dur="0" />
+  <monster_buff group_id="15" buff_id="10001685" dur="0" />
+  <monster_buff group_id="15" buff_id="10001686" dur="0" />
+  <monster_buff group_id="15" buff_id="1144" dur="0" />
+  <monster_buff group_id="15" buff_id="1154" dur="0" />
+  <monster_buff group_id="15" buff_id="1165" dur="0" />
+  <monster_buff group_id="15" buff_id="1176" dur="0" />
+  <monster_buff group_id="15" buff_id="1184" dur="0" />
+  <monster_buff group_id="15" buff_id="1192" dur="0" />
+  <monster_buff group_id="15" buff_id="1202" dur="0" />
+  <monster_buff group_id="15" buff_id="1215" dur="0" />
+  <monster_buff group_id="15" buff_id="1225" dur="0" />
+  <monster_buff group_id="15" buff_id="1243" dur="0" />
+  <monster_buff group_id="25" buff_id="10002581" dur="0" />
+  <monster_buff group_id="25" buff_id="10002682" dur="0" />
+  <monster_buff group_id="25" buff_id="10002683" dur="0" />
+  <monster_buff group_id="25" buff_id="10002684" dur="0" />
+  <monster_buff group_id="25" buff_id="10002685" dur="0" />
+  <monster_buff group_id="25" buff_id="10002686" dur="0" />
+  <monster_buff group_id="25" buff_id="1143" dur="0" />
+  <monster_buff group_id="25" buff_id="1154" dur="0" />
+  <monster_buff group_id="25" buff_id="1164" dur="0" />
+  <monster_buff group_id="25" buff_id="1174" dur="0" />
+  <monster_buff group_id="25" buff_id="1184" dur="0" />
+  <monster_buff group_id="25" buff_id="1195" dur="0" />
+  <monster_buff group_id="25" buff_id="1205" dur="0" />
+  <monster_buff group_id="25" buff_id="1215" dur="0" />
+  <monster_buff group_id="25" buff_id="1225" dur="0" />
+  <monster_buff group_id="25" buff_id="1244" dur="0" />
+  <monster_buff group_id="25" buff_id="1255" dur="0" />
+  <monster_buff group_id="25" buff_id="1263" dur="0" />
+  <monster_buff group_id="35" buff_id="10003581" dur="0" />
+  <monster_buff group_id="35" buff_id="10003682" dur="0" />
+  <monster_buff group_id="35" buff_id="10003683" dur="0" />
+  <monster_buff group_id="35" buff_id="10003684" dur="0" />
+  <monster_buff group_id="35" buff_id="10003685" dur="0" />
+  <monster_buff group_id="35" buff_id="10003686" dur="0" />
+  <monster_buff group_id="35" buff_id="1145" dur="0" />
+  <monster_buff group_id="35" buff_id="1155" dur="0" />
+  <monster_buff group_id="35" buff_id="1165" dur="0" />
+  <monster_buff group_id="35" buff_id="1175" dur="0" />
+  <monster_buff group_id="35" buff_id="1184" dur="0" />
+  <monster_buff group_id="35" buff_id="1196" dur="0" />
+  <monster_buff group_id="35" buff_id="1206" dur="0" />
+  <monster_buff group_id="35" buff_id="1215" dur="0" />
+  <monster_buff group_id="35" buff_id="1225" dur="0" />
+  <monster_buff group_id="35" buff_id="1243" dur="0" />
+  <monster_buff group_id="45" buff_id="10004581" dur="0" />
+  <monster_buff group_id="45" buff_id="10004682" dur="0" />
+  <monster_buff group_id="45" buff_id="10004683" dur="0" />
+  <monster_buff group_id="45" buff_id="10004684" dur="0" />
+  <monster_buff group_id="45" buff_id="10004685" dur="0" />
+  <monster_buff group_id="45" buff_id="10004686" dur="0" />
+  <monster_buff group_id="45" buff_id="1123" dur="0" />
+  <monster_buff group_id="45" buff_id="1133" dur="0" />
+  <monster_buff group_id="45" buff_id="1143" dur="0" />
+  <monster_buff group_id="45" buff_id="1155" dur="0" />
+  <monster_buff group_id="45" buff_id="1165" dur="0" />
+  <monster_buff group_id="45" buff_id="1175" dur="0" />
+  <monster_buff group_id="45" buff_id="1183" dur="0" />
+  <monster_buff group_id="45" buff_id="1195" dur="0" />
+  <monster_buff group_id="45" buff_id="1205" dur="0" />
+  <monster_buff group_id="45" buff_id="1215" dur="0" />
+  <monster_buff group_id="45" buff_id="1222" dur="0" />
+  <monster_buff group_id="45" buff_id="1236" dur="0" />
+  <monster_buff group_id="45" buff_id="1243" dur="0" />
+  <monster_buff group_id="45" buff_id="1252" dur="0" />
+  <monster_buff group_id="45" buff_id="1265" dur="0" />
+  <monster_buff group_id="55" buff_id="10005581" dur="0" />
+  <monster_buff group_id="55" buff_id="10005682" dur="0" />
+  <monster_buff group_id="55" buff_id="10005683" dur="0" />
+  <monster_buff group_id="55" buff_id="10005684" dur="0" />
+  <monster_buff group_id="55" buff_id="10005685" dur="0" />
+  <monster_buff group_id="55" buff_id="10005686" dur="0" />
+  <monster_buff group_id="55" buff_id="1122" dur="0" />
+  <monster_buff group_id="55" buff_id="1132" dur="0" />
+  <monster_buff group_id="55" buff_id="1146" dur="0" />
+  <monster_buff group_id="55" buff_id="1153" dur="0" />
+  <monster_buff group_id="55" buff_id="1165" dur="0" />
+  <monster_buff group_id="55" buff_id="1175" dur="0" />
+  <monster_buff group_id="55" buff_id="1184" dur="0" />
+  <monster_buff group_id="55" buff_id="1194" dur="0" />
+  <monster_buff group_id="55" buff_id="1204" dur="0" />
+  <monster_buff group_id="55" buff_id="1215" dur="0" />
+  <monster_buff group_id="55" buff_id="1224" dur="0" />
+  <monster_buff group_id="55" buff_id="1243" dur="0" />
+  <monster_buff group_id="55" buff_id="1256" dur="0" />
+  <monster_buff group_id="55" buff_id="1264" dur="0" />
+  <monster_buff group_id="65" buff_id="10006581" dur="0" />
+  <monster_buff group_id="65" buff_id="10006682" dur="0" />
+  <monster_buff group_id="65" buff_id="10006683" dur="0" />
+  <monster_buff group_id="65" buff_id="10006684" dur="0" />
+  <monster_buff group_id="65" buff_id="10006685" dur="0" />
+  <monster_buff group_id="65" buff_id="10006686" dur="0" />
+  <monster_buff group_id="65" buff_id="1123" dur="0" />
+  <monster_buff group_id="65" buff_id="1133" dur="0" />
+  <monster_buff group_id="65" buff_id="1144" dur="0" />
+  <monster_buff group_id="65" buff_id="1153" dur="0" />
+  <monster_buff group_id="65" buff_id="1164" dur="0" />
+  <monster_buff group_id="65" buff_id="1175" dur="0" />
+  <monster_buff group_id="65" buff_id="1185" dur="0" />
+  <monster_buff group_id="65" buff_id="1195" dur="0" />
+  <monster_buff group_id="65" buff_id="1205" dur="0" />
+  <monster_buff group_id="65" buff_id="1215" dur="0" />
+  <monster_buff group_id="65" buff_id="1222" dur="0" />
+  <monster_buff group_id="65" buff_id="1235" dur="0" />
+  <monster_buff group_id="65" buff_id="1245" dur="0" />
+  <monster_buff group_id="65" buff_id="1253" dur="0" />
+  <monster_buff group_id="65" buff_id="1264" dur="0" />
+  <monster_buff group_id="40041" buff_id="10005581" dur="0" />
+  <monster_buff group_id="40041" buff_id="10005582" dur="0" />
+  <monster_buff group_id="40041" buff_id="10005583" dur="0" />
+  <monster_buff group_id="40041" buff_id="10005584" dur="0" />
+  <monster_buff group_id="40041" buff_id="10005585" dur="0" />
+  <monster_buff group_id="40041" buff_id="10005586" dur="0" />
+  <monster_buff group_id="40041" buff_id="1144" dur="0" />
+  <monster_buff group_id="40041" buff_id="1154" dur="0" />
+  <monster_buff group_id="40041" buff_id="1165" dur="0" />
+  <monster_buff group_id="40041" buff_id="1176" dur="0" />
+  <monster_buff group_id="40041" buff_id="1183" dur="0" />
+  <monster_buff group_id="40041" buff_id="1192" dur="0" />
+  <monster_buff group_id="40041" buff_id="1202" dur="0" />
+  <monster_buff group_id="40041" buff_id="1214" dur="0" />
+  <monster_buff group_id="40041" buff_id="1225" dur="0" />
+  <monster_buff group_id="40041" buff_id="1244" dur="0" />
+  <monster_buff group_id="40041" buff_id="1254" dur="0" />
+  <monster_buff group_id="50501" buff_id="10005581" dur="0" />
+  <monster_buff group_id="50501" buff_id="10005582" dur="0" />
+  <monster_buff group_id="50501" buff_id="10005583" dur="0" />
+  <monster_buff group_id="50501" buff_id="10005584" dur="0" />
+  <monster_buff group_id="50501" buff_id="10005585" dur="0" />
+  <monster_buff group_id="50501" buff_id="10005586" dur="0" />
+  <monster_buff group_id="50501" buff_id="1144" dur="0" />
+  <monster_buff group_id="50501" buff_id="1154" dur="0" />
+  <monster_buff group_id="50501" buff_id="1165" dur="0" />
+  <monster_buff group_id="50501" buff_id="1174" dur="0" />
+  <monster_buff group_id="50501" buff_id="1185" dur="0" />
+  <monster_buff group_id="50501" buff_id="1196" dur="0" />
+  <monster_buff group_id="50501" buff_id="1202" dur="0" />
+  <monster_buff group_id="50501" buff_id="1215" dur="0" />
+  <monster_buff group_id="50501" buff_id="1225" dur="0" />
+  <monster_buff group_id="50501" buff_id="1244" dur="0" />
+  <monster_buff group_id="50501" buff_id="1253" dur="0" />
+  <monster_buff group_id="40043" buff_id="10006581" dur="0" />
+  <monster_buff group_id="40043" buff_id="10006582" dur="0" />
+  <monster_buff group_id="40043" buff_id="10006583" dur="0" />
+  <monster_buff group_id="40043" buff_id="10006584" dur="0" />
+  <monster_buff group_id="40043" buff_id="10006585" dur="0" />
+  <monster_buff group_id="40043" buff_id="10006586" dur="0" />
+  <monster_buff group_id="40043" buff_id="1143" dur="0" />
+  <monster_buff group_id="40043" buff_id="1154" dur="0" />
+  <monster_buff group_id="40043" buff_id="1164" dur="0" />
+  <monster_buff group_id="40043" buff_id="1175" dur="0" />
+  <monster_buff group_id="40043" buff_id="1183" dur="0" />
+  <monster_buff group_id="40043" buff_id="1194" dur="0" />
+  <monster_buff group_id="40043" buff_id="1213" dur="0" />
+  <monster_buff group_id="40043" buff_id="1223" dur="0" />
+  <monster_buff group_id="40043" buff_id="1244" dur="0" />
+  <monster_buff group_id="40043" buff_id="1252" dur="0" />
+  <monster_buff group_id="40043" buff_id="1262" dur="0" />
+  <monster_buff group_id="40045" buff_id="10001581" dur="0" />
+  <monster_buff group_id="40045" buff_id="10001582" dur="0" />
+  <monster_buff group_id="40045" buff_id="10001583" dur="0" />
+  <monster_buff group_id="40045" buff_id="10001584" dur="0" />
+  <monster_buff group_id="40045" buff_id="10001585" dur="0" />
+  <monster_buff group_id="40045" buff_id="10001586" dur="0" />
+  <monster_buff group_id="40045" buff_id="1144" dur="0" />
+  <monster_buff group_id="40045" buff_id="1153" dur="0" />
+  <monster_buff group_id="40045" buff_id="1164" dur="0" />
+  <monster_buff group_id="40045" buff_id="1174" dur="0" />
+  <monster_buff group_id="40045" buff_id="1184" dur="0" />
+  <monster_buff group_id="40045" buff_id="1195" dur="0" />
+  <monster_buff group_id="40045" buff_id="1202" dur="0" />
+  <monster_buff group_id="40045" buff_id="1213" dur="0" />
+  <monster_buff group_id="40045" buff_id="1224" dur="0" />
+  <monster_buff group_id="40045" buff_id="1244" dur="0" />
+  <monster_buff group_id="40045" buff_id="1256" dur="0" />
+  <monster_buff group_id="40045" buff_id="1264" dur="0" />
+  <monster_buff group_id="50541" buff_id="10004581" dur="0" />
+  <monster_buff group_id="50541" buff_id="10004582" dur="0" />
+  <monster_buff group_id="50541" buff_id="10004583" dur="0" />
+  <monster_buff group_id="50541" buff_id="10004584" dur="0" />
+  <monster_buff group_id="50541" buff_id="10004585" dur="0" />
+  <monster_buff group_id="50541" buff_id="10004586" dur="0" />
+  <monster_buff group_id="50541" buff_id="1145" dur="0" />
+  <monster_buff group_id="50541" buff_id="1153" dur="0" />
+  <monster_buff group_id="50541" buff_id="1166" dur="0" />
+  <monster_buff group_id="50541" buff_id="1174" dur="0" />
+  <monster_buff group_id="50541" buff_id="1186" dur="0" />
+  <monster_buff group_id="50541" buff_id="1195" dur="0" />
+  <monster_buff group_id="50541" buff_id="1215" dur="0" />
+  <monster_buff group_id="50541" buff_id="1223" dur="0" />
+  <monster_buff group_id="50541" buff_id="1244" dur="0" />
+  <monster_buff group_id="50541" buff_id="1254" dur="0" />
+  <monster_buff group_id="50541" buff_id="1263" dur="0" />
+  <monster_buff group_id="40047" buff_id="10004581" dur="0" />
+  <monster_buff group_id="40047" buff_id="10004582" dur="0" />
+  <monster_buff group_id="40047" buff_id="10004583" dur="0" />
+  <monster_buff group_id="40047" buff_id="10004584" dur="0" />
+  <monster_buff group_id="40047" buff_id="10004585" dur="0" />
+  <monster_buff group_id="40047" buff_id="10004586" dur="0" />
+  <monster_buff group_id="40047" buff_id="1144" dur="0" />
+  <monster_buff group_id="40047" buff_id="1154" dur="0" />
+  <monster_buff group_id="40047" buff_id="1164" dur="0" />
+  <monster_buff group_id="40047" buff_id="1175" dur="0" />
+  <monster_buff group_id="40047" buff_id="1193" dur="0" />
+  <monster_buff group_id="40047" buff_id="1205" dur="0" />
+  <monster_buff group_id="40047" buff_id="1212" dur="0" />
+  <monster_buff group_id="40047" buff_id="1222" dur="0" />
+  <monster_buff group_id="40047" buff_id="1243" dur="0" />
+  <monster_buff group_id="40047" buff_id="1264" dur="0" />
+  <monster_buff group_id="40049" buff_id="10001681" dur="0" />
+  <monster_buff group_id="40049" buff_id="10001682" dur="0" />
+  <monster_buff group_id="40049" buff_id="10001683" dur="0" />
+  <monster_buff group_id="40049" buff_id="10001684" dur="0" />
+  <monster_buff group_id="40049" buff_id="10001685" dur="0" />
+  <monster_buff group_id="40049" buff_id="10001686" dur="0" />
+  <monster_buff group_id="40049" buff_id="1145" dur="0" />
+  <monster_buff group_id="40049" buff_id="1153" dur="0" />
+  <monster_buff group_id="40049" buff_id="1165" dur="0" />
+  <monster_buff group_id="40049" buff_id="1175" dur="0" />
+  <monster_buff group_id="40049" buff_id="1184" dur="0" />
+  <monster_buff group_id="40049" buff_id="1195" dur="0" />
+  <monster_buff group_id="40049" buff_id="1215" dur="0" />
+  <monster_buff group_id="40049" buff_id="1224" dur="0" />
+  <monster_buff group_id="40049" buff_id="1244" dur="0" />
+  <monster_buff group_id="40049" buff_id="1254" dur="0" />
+  <monster_buff group_id="40049" buff_id="1263" dur="0" />
+  <monster_buff group_id="50591" buff_id="10002681" dur="0" />
+  <monster_buff group_id="50591" buff_id="10002682" dur="0" />
+  <monster_buff group_id="50591" buff_id="10002683" dur="0" />
+  <monster_buff group_id="50591" buff_id="10002684" dur="0" />
+  <monster_buff group_id="50591" buff_id="10002685" dur="0" />
+  <monster_buff group_id="50591" buff_id="10002686" dur="0" />
+  <monster_buff group_id="50591" buff_id="1125" dur="0" />
+  <monster_buff group_id="50591" buff_id="1144" dur="0" />
+  <monster_buff group_id="50591" buff_id="1155" dur="0" />
+  <monster_buff group_id="50591" buff_id="1165" dur="0" />
+  <monster_buff group_id="50591" buff_id="1173" dur="0" />
+  <monster_buff group_id="50591" buff_id="1185" dur="0" />
+  <monster_buff group_id="50591" buff_id="1195" dur="0" />
+  <monster_buff group_id="50591" buff_id="1203" dur="0" />
+  <monster_buff group_id="50591" buff_id="1215" dur="0" />
+  <monster_buff group_id="50591" buff_id="1221" dur="0" />
+  <monster_buff group_id="50591" buff_id="1236" dur="0" />
+  <monster_buff group_id="50591" buff_id="1245" dur="0" />
+  <monster_buff group_id="50591" buff_id="1251" dur="0" />
+  <monster_buff group_id="50591" buff_id="1263" dur="0" />
+  <monster_buff group_id="40051" buff_id="10005581" dur="0" />
+  <monster_buff group_id="40051" buff_id="10005682" dur="0" />
+  <monster_buff group_id="40051" buff_id="10005683" dur="0" />
+  <monster_buff group_id="40051" buff_id="10005684" dur="0" />
+  <monster_buff group_id="40051" buff_id="10005685" dur="0" />
+  <monster_buff group_id="40051" buff_id="10005686" dur="0" />
+  <monster_buff group_id="40051" buff_id="1126" dur="0" />
+  <monster_buff group_id="40051" buff_id="1133" dur="0" />
+  <monster_buff group_id="40051" buff_id="1144" dur="0" />
+  <monster_buff group_id="40051" buff_id="1154" dur="0" />
+  <monster_buff group_id="40051" buff_id="1165" dur="0" />
+  <monster_buff group_id="40051" buff_id="1173" dur="0" />
+  <monster_buff group_id="40051" buff_id="1185" dur="0" />
+  <monster_buff group_id="40051" buff_id="1194" dur="0" />
+  <monster_buff group_id="40051" buff_id="1214" dur="0" />
+  <monster_buff group_id="40051" buff_id="1225" dur="0" />
+  <monster_buff group_id="40051" buff_id="1245" dur="0" />
+  <monster_buff group_id="40051" buff_id="1252" dur="0" />
+  <monster_buff group_id="40051" buff_id="1262" dur="0" />
+  <monster_buff group_id="80501" buff_id="10005581" dur="0" />
+  <monster_buff group_id="80501" buff_id="10005682" dur="0" />
+  <monster_buff group_id="80501" buff_id="10005683" dur="0" />
+  <monster_buff group_id="80501" buff_id="10005684" dur="0" />
+  <monster_buff group_id="80501" buff_id="10005685" dur="0" />
+  <monster_buff group_id="80501" buff_id="10005686" dur="0" />
+  <monster_buff group_id="80501" buff_id="1123" dur="0" />
+  <monster_buff group_id="80501" buff_id="1136" dur="0" />
+  <monster_buff group_id="80501" buff_id="1144" dur="0" />
+  <monster_buff group_id="80501" buff_id="1151" dur="0" />
+  <monster_buff group_id="80501" buff_id="1166" dur="0" />
+  <monster_buff group_id="80501" buff_id="1172" dur="0" />
+  <monster_buff group_id="80501" buff_id="1185" dur="0" />
+  <monster_buff group_id="80501" buff_id="1195" dur="0" />
+  <monster_buff group_id="80501" buff_id="1214" dur="0" />
+  <monster_buff group_id="80501" buff_id="1224" dur="0" />
+  <monster_buff group_id="80501" buff_id="1233" dur="0" />
+  <monster_buff group_id="80501" buff_id="1244" dur="0" />
+  <monster_buff group_id="80501" buff_id="1255" dur="0" />
+  <monster_buff group_id="80501" buff_id="1263" dur="0" />
+  <monster_buff group_id="40053" buff_id="10002581" dur="0" />
+  <monster_buff group_id="40053" buff_id="10002582" dur="0" />
+  <monster_buff group_id="40053" buff_id="10002583" dur="0" />
+  <monster_buff group_id="40053" buff_id="10002584" dur="0" />
+  <monster_buff group_id="40053" buff_id="10002585" dur="0" />
+  <monster_buff group_id="40053" buff_id="10002586" dur="0" />
+  <monster_buff group_id="40053" buff_id="1123" dur="0" />
+  <monster_buff group_id="40053" buff_id="1136" dur="0" />
+  <monster_buff group_id="40053" buff_id="1143" dur="0" />
+  <monster_buff group_id="40053" buff_id="1156" dur="0" />
+  <monster_buff group_id="40053" buff_id="1166" dur="0" />
+  <monster_buff group_id="40053" buff_id="1173" dur="0" />
+  <monster_buff group_id="40053" buff_id="1185" dur="0" />
+  <monster_buff group_id="40053" buff_id="1193" dur="0" />
+  <monster_buff group_id="40053" buff_id="1213" dur="0" />
+  <monster_buff group_id="40053" buff_id="1225" dur="0" />
+  <monster_buff group_id="40053" buff_id="1243" dur="0" />
+  <monster_buff group_id="40053" buff_id="1253" dur="0" />
+  <monster_buff group_id="40053" buff_id="1263" dur="0" />
+  <monster_buff group_id="40055" buff_id="10004581" dur="0" />
+  <monster_buff group_id="40055" buff_id="10004682" dur="0" />
+  <monster_buff group_id="40055" buff_id="10004683" dur="0" />
+  <monster_buff group_id="40055" buff_id="10004684" dur="0" />
+  <monster_buff group_id="40055" buff_id="10004685" dur="0" />
+  <monster_buff group_id="40055" buff_id="10004686" dur="0" />
+  <monster_buff group_id="40055" buff_id="1123" dur="0" />
+  <monster_buff group_id="40055" buff_id="1133" dur="0" />
+  <monster_buff group_id="40055" buff_id="1145" dur="0" />
+  <monster_buff group_id="40055" buff_id="1154" dur="0" />
+  <monster_buff group_id="40055" buff_id="1165" dur="0" />
+  <monster_buff group_id="40055" buff_id="1175" dur="0" />
+  <monster_buff group_id="40055" buff_id="1185" dur="0" />
+  <monster_buff group_id="40055" buff_id="1194" dur="0" />
+  <monster_buff group_id="40055" buff_id="1204" dur="0" />
+  <monster_buff group_id="40055" buff_id="1215" dur="0" />
+  <monster_buff group_id="40055" buff_id="1225" dur="0" />
+  <monster_buff group_id="40055" buff_id="1244" dur="0" />
+  <monster_buff group_id="40055" buff_id="1253" dur="0" />
+  <monster_buff group_id="40055" buff_id="1264" dur="0" />
+  <monster_buff group_id="50651" buff_id="10004581" dur="0" />
+  <monster_buff group_id="50651" buff_id="10004682" dur="0" />
+  <monster_buff group_id="50651" buff_id="10004683" dur="0" />
+  <monster_buff group_id="50651" buff_id="10004684" dur="0" />
+  <monster_buff group_id="50651" buff_id="10004685" dur="0" />
+  <monster_buff group_id="50651" buff_id="10004686" dur="0" />
+  <monster_buff group_id="50651" buff_id="1123" dur="0" />
+  <monster_buff group_id="50651" buff_id="1135" dur="0" />
+  <monster_buff group_id="50651" buff_id="1144" dur="0" />
+  <monster_buff group_id="50651" buff_id="1154" dur="0" />
+  <monster_buff group_id="50651" buff_id="1165" dur="0" />
+  <monster_buff group_id="50651" buff_id="1174" dur="0" />
+  <monster_buff group_id="50651" buff_id="1185" dur="0" />
+  <monster_buff group_id="50651" buff_id="1194" dur="0" />
+  <monster_buff group_id="50651" buff_id="1214" dur="0" />
+  <monster_buff group_id="50651" buff_id="1225" dur="0" />
+  <monster_buff group_id="50651" buff_id="1244" dur="0" />
+  <monster_buff group_id="50651" buff_id="1253" dur="0" />
+  <monster_buff group_id="50651" buff_id="1263" dur="0" />
+  <monster_buff group_id="40057" buff_id="10003581" dur="0" />
+  <monster_buff group_id="40057" buff_id="10003682" dur="0" />
+  <monster_buff group_id="40057" buff_id="10003683" dur="0" />
+  <monster_buff group_id="40057" buff_id="10003684" dur="0" />
+  <monster_buff group_id="40057" buff_id="10003685" dur="0" />
+  <monster_buff group_id="40057" buff_id="10003686" dur="0" />
+  <monster_buff group_id="40057" buff_id="1122" dur="0" />
+  <monster_buff group_id="40057" buff_id="1132" dur="0" />
+  <monster_buff group_id="40057" buff_id="1145" dur="0" />
+  <monster_buff group_id="40057" buff_id="1154" dur="0" />
+  <monster_buff group_id="40057" buff_id="1164" dur="0" />
+  <monster_buff group_id="40057" buff_id="1174" dur="0" />
+  <monster_buff group_id="40057" buff_id="1185" dur="0" />
+  <monster_buff group_id="40057" buff_id="1184" dur="0" />
+  <monster_buff group_id="40057" buff_id="1192" dur="0" />
+  <monster_buff group_id="40057" buff_id="1214" dur="0" />
+  <monster_buff group_id="40057" buff_id="1225" dur="0" />
+  <monster_buff group_id="40057" buff_id="1244" dur="0" />
+  <monster_buff group_id="40057" buff_id="1254" dur="0" />
+  <monster_buff group_id="40059" buff_id="10006581" dur="0" />
+  <monster_buff group_id="40059" buff_id="10006682" dur="0" />
+  <monster_buff group_id="40059" buff_id="10006683" dur="0" />
+  <monster_buff group_id="40059" buff_id="10006684" dur="0" />
+  <monster_buff group_id="40059" buff_id="10006685" dur="0" />
+  <monster_buff group_id="40059" buff_id="10006686" dur="0" />
+  <monster_buff group_id="40059" buff_id="1122" dur="0" />
+  <monster_buff group_id="40059" buff_id="1132" dur="0" />
+  <monster_buff group_id="40059" buff_id="1145" dur="0" />
+  <monster_buff group_id="40059" buff_id="1154" dur="0" />
+  <monster_buff group_id="40059" buff_id="1163" dur="0" />
+  <monster_buff group_id="40059" buff_id="1175" dur="0" />
+  <monster_buff group_id="40059" buff_id="1185" dur="0" />
+  <monster_buff group_id="40059" buff_id="1196" dur="0" />
+  <monster_buff group_id="40059" buff_id="1204" dur="0" />
+  <monster_buff group_id="40059" buff_id="1214" dur="0" />
+  <monster_buff group_id="40059" buff_id="1225" dur="0" />
+  <monster_buff group_id="40059" buff_id="1244" dur="0" />
+  <monster_buff group_id="40059" buff_id="1253" dur="0" />
+  <monster_buff group_id="40059" buff_id="1264" dur="0" />
+  <monster_buff group_id="80601" buff_id="10004581" dur="0" />
+  <monster_buff group_id="80601" buff_id="10004682" dur="0" />
+  <monster_buff group_id="80601" buff_id="10004683" dur="0" />
+  <monster_buff group_id="80601" buff_id="10004684" dur="0" />
+  <monster_buff group_id="80601" buff_id="10004685" dur="0" />
+  <monster_buff group_id="80601" buff_id="10004686" dur="0" />
+  <monster_buff group_id="80601" buff_id="1122" dur="0" />
+  <monster_buff group_id="80601" buff_id="1132" dur="0" />
+  <monster_buff group_id="80601" buff_id="1144" dur="0" />
+  <monster_buff group_id="80601" buff_id="1155" dur="0" />
+  <monster_buff group_id="80601" buff_id="1165" dur="0" />
+  <monster_buff group_id="80601" buff_id="1174" dur="0" />
+  <monster_buff group_id="80601" buff_id="1184" dur="0" />
+  <monster_buff group_id="80601" buff_id="1194" dur="0" />
+  <monster_buff group_id="80601" buff_id="1202" dur="0" />
+  <monster_buff group_id="80601" buff_id="1215" dur="0" />
+  <monster_buff group_id="80601" buff_id="1225" dur="0" />
+  <monster_buff group_id="80601" buff_id="1243" dur="0" />
+  <monster_buff group_id="80601" buff_id="1255" dur="0" />
+  <monster_buff group_id="80601" buff_id="1262" dur="0" />
+  <monster_buff group_id="40061" buff_id="10003581" dur="0" />
+  <monster_buff group_id="40061" buff_id="10003682" dur="0" />
+  <monster_buff group_id="40061" buff_id="10003683" dur="0" />
+  <monster_buff group_id="40061" buff_id="10003684" dur="0" />
+  <monster_buff group_id="40061" buff_id="10003685" dur="0" />
+  <monster_buff group_id="40061" buff_id="10003686" dur="0" />
+  <monster_buff group_id="40061" buff_id="1122" dur="0" />
+  <monster_buff group_id="40061" buff_id="1131" dur="0" />
+  <monster_buff group_id="40061" buff_id="1145" dur="0" />
+  <monster_buff group_id="40061" buff_id="1153" dur="0" />
+  <monster_buff group_id="40061" buff_id="1165" dur="0" />
+  <monster_buff group_id="40061" buff_id="1173" dur="0" />
+  <monster_buff group_id="40061" buff_id="1185" dur="0" />
+  <monster_buff group_id="40061" buff_id="1194" dur="0" />
+  <monster_buff group_id="40061" buff_id="1204" dur="0" />
+  <monster_buff group_id="40061" buff_id="1214" dur="0" />
+  <monster_buff group_id="40061" buff_id="1225" dur="0" />
+  <monster_buff group_id="40061" buff_id="1244" dur="0" />
+  <monster_buff group_id="40061" buff_id="1253" dur="0" />
+  <monster_buff group_id="40061" buff_id="1265" dur="0" />
+  <monster_buff group_id="50721" buff_id="10003581" dur="0" />
+  <monster_buff group_id="50721" buff_id="10003682" dur="0" />
+  <monster_buff group_id="50721" buff_id="10003683" dur="0" />
+  <monster_buff group_id="50721" buff_id="10003684" dur="0" />
+  <monster_buff group_id="50721" buff_id="10003685" dur="0" />
+  <monster_buff group_id="50721" buff_id="10003686" dur="0" />
+  <monster_buff group_id="50721" buff_id="1123" dur="0" />
+  <monster_buff group_id="50721" buff_id="1144" dur="0" />
+  <monster_buff group_id="50721" buff_id="1154" dur="0" />
+  <monster_buff group_id="50721" buff_id="1165" dur="0" />
+  <monster_buff group_id="50721" buff_id="1176" dur="0" />
+  <monster_buff group_id="50721" buff_id="1182" dur="0" />
+  <monster_buff group_id="50721" buff_id="1193" dur="0" />
+  <monster_buff group_id="50721" buff_id="1212" dur="0" />
+  <monster_buff group_id="50721" buff_id="1223" dur="0" />
+  <monster_buff group_id="50721" buff_id="1243" dur="0" />
+  <monster_buff group_id="50721" buff_id="1252" dur="0" />
+  <monster_buff group_id="50721" buff_id="1262" dur="0" />
+  <monster_buff group_id="40063" buff_id="10002581" dur="0" />
+  <monster_buff group_id="40063" buff_id="10002682" dur="0" />
+  <monster_buff group_id="40063" buff_id="10002683" dur="0" />
+  <monster_buff group_id="40063" buff_id="10002684" dur="0" />
+  <monster_buff group_id="40063" buff_id="10002685" dur="0" />
+  <monster_buff group_id="40063" buff_id="10002686" dur="0" />
+  <monster_buff group_id="40063" buff_id="1121" dur="0" />
+  <monster_buff group_id="40063" buff_id="1131" dur="0" />
+  <monster_buff group_id="40063" buff_id="1144" dur="0" />
+  <monster_buff group_id="40063" buff_id="1153" dur="0" />
+  <monster_buff group_id="40063" buff_id="1166" dur="0" />
+  <monster_buff group_id="40063" buff_id="1175" dur="0" />
+  <monster_buff group_id="40063" buff_id="1195" dur="0" />
+  <monster_buff group_id="40063" buff_id="1202" dur="0" />
+  <monster_buff group_id="40063" buff_id="1211" dur="0" />
+  <monster_buff group_id="40063" buff_id="1223" dur="0" />
+  <monster_buff group_id="40063" buff_id="1243" dur="0" />
+  <monster_buff group_id="40063" buff_id="1253" dur="0" />
+  <monster_buff group_id="40063" buff_id="1264" dur="0" />
+  <monster_buff group_id="114514" buff_id="1166" dur="0" />
+  <monster_buff group_id="114514" buff_id="1176" dur="0" />
+  <monster_buff group_id="114514" buff_id="1186" dur="0" />
+  <monster_buff group_id="114514" buff_id="1216" dur="0" />
+  <monster_buff group_id="114514" buff_id="1226" dur="0" />
+  <monster_buff group_id="114514" buff_id="1246" dur="0" />
+  <monster_buff group_id="114514" buff_id="1256" dur="0" />
+  <monster_buff group_id="40065" buff_id="10004581" dur="0" />
+  <monster_buff group_id="40065" buff_id="10004682" dur="0" />
+  <monster_buff group_id="40065" buff_id="10004683" dur="0" />
+  <monster_buff group_id="40065" buff_id="10004684" dur="0" />
+  <monster_buff group_id="40065" buff_id="10004685" dur="0" />
+  <monster_buff group_id="40065" buff_id="10004686" dur="0" />
+  <monster_buff group_id="40065" buff_id="1122" dur="0" />
+  <monster_buff group_id="40065" buff_id="1132" dur="0" />
+  <monster_buff group_id="40065" buff_id="1145" dur="0" />
+  <monster_buff group_id="40065" buff_id="1153" dur="0" />
+  <monster_buff group_id="40065" buff_id="1164" dur="0" />
+  <monster_buff group_id="40065" buff_id="1175" dur="0" />
+  <monster_buff group_id="40065" buff_id="1183" dur="0" />
+  <monster_buff group_id="40065" buff_id="1194" dur="0" />
+  <monster_buff group_id="40065" buff_id="1203" dur="0" />
+  <monster_buff group_id="40065" buff_id="1213" dur="0" />
+  <monster_buff group_id="40065" buff_id="1225" dur="0" />
+  <monster_buff group_id="40065" buff_id="1244" dur="0" />
+  <monster_buff group_id="40065" buff_id="1254" dur="0" />
+  <monster_buff group_id="80701" buff_id="10002581" dur="0" />
+  <monster_buff group_id="80701" buff_id="10002682" dur="0" />
+  <monster_buff group_id="80701" buff_id="10002683" dur="0" />
+  <monster_buff group_id="80701" buff_id="10002684" dur="0" />
+  <monster_buff group_id="80701" buff_id="10002685" dur="0" />
+  <monster_buff group_id="80701" buff_id="10002686" dur="0" />
+  <monster_buff group_id="80701" buff_id="1122" dur="0" />
+  <monster_buff group_id="80701" buff_id="1132" dur="0" />
+  <monster_buff group_id="80701" buff_id="1145" dur="0" />
+  <monster_buff group_id="80701" buff_id="1154" dur="0" />
+  <monster_buff group_id="80701" buff_id="1164" dur="0" />
+  <monster_buff group_id="80701" buff_id="1175" dur="0" />
+  <monster_buff group_id="80701" buff_id="1182" dur="0" />
+  <monster_buff group_id="80701" buff_id="1195" dur="0" />
+  <monster_buff group_id="80701" buff_id="1202" dur="0" />
+  <monster_buff group_id="80701" buff_id="1214" dur="0" />
+  <monster_buff group_id="80701" buff_id="1225" dur="0" />
+  <monster_buff group_id="80701" buff_id="1244" dur="0" />
+  <monster_buff group_id="80701" buff_id="1253" dur="0" />
+  <monster_buff group_id="80701" buff_id="1263" dur="0" />
+  <monster_buff group_id="40067" buff_id="10006581" dur="0" />
+  <monster_buff group_id="40067" buff_id="10006682" dur="0" />
+  <monster_buff group_id="40067" buff_id="10006683" dur="0" />
+  <monster_buff group_id="40067" buff_id="10006684" dur="0" />
+  <monster_buff group_id="40067" buff_id="10006685" dur="0" />
+  <monster_buff group_id="40067" buff_id="10006686" dur="0" />
+  <monster_buff group_id="40067" buff_id="1122" dur="0" />
+  <monster_buff group_id="40067" buff_id="1132" dur="0" />
+  <monster_buff group_id="40067" buff_id="1145" dur="0" />
+  <monster_buff group_id="40067" buff_id="1154" dur="0" />
+  <monster_buff group_id="40067" buff_id="1161" dur="0" />
+  <monster_buff group_id="40067" buff_id="1175" dur="0" />
+  <monster_buff group_id="40067" buff_id="1183" dur="0" />
+  <monster_buff group_id="40067" buff_id="1196" dur="0" />
+  <monster_buff group_id="40067" buff_id="1205" dur="0" />
+  <monster_buff group_id="40067" buff_id="1214" dur="0" />
+  <monster_buff group_id="40067" buff_id="1243" dur="0" />
+  <monster_buff group_id="40067" buff_id="1254" dur="0" />
+  <monster_buff group_id="40067" buff_id="1265" dur="0" />
+  <monster_buff group_id="40069" buff_id="10001581" dur="0" />
+  <monster_buff group_id="40069" buff_id="10001682" dur="0" />
+  <monster_buff group_id="40069" buff_id="10001683" dur="0" />
+  <monster_buff group_id="40069" buff_id="10001684" dur="0" />
+  <monster_buff group_id="40069" buff_id="10001685" dur="0" />
+  <monster_buff group_id="40069" buff_id="10001686" dur="0" />
+  <monster_buff group_id="40069" buff_id="1122" dur="0" />
+  <monster_buff group_id="40069" buff_id="1132" dur="0" />
+  <monster_buff group_id="40069" buff_id="1145" dur="0" />
+  <monster_buff group_id="40069" buff_id="1153" dur="0" />
+  <monster_buff group_id="40069" buff_id="1163" dur="0" />
+  <monster_buff group_id="40069" buff_id="1175" dur="0" />
+  <monster_buff group_id="40069" buff_id="1184" dur="0" />
+  <monster_buff group_id="40069" buff_id="1195" dur="0" />
+  <monster_buff group_id="40069" buff_id="1204" dur="0" />
+  <monster_buff group_id="40069" buff_id="1213" dur="0" />
+  <monster_buff group_id="40069" buff_id="1225" dur="0" />
+  <monster_buff group_id="40069" buff_id="1243" dur="0" />
+  <monster_buff group_id="40069" buff_id="1254" dur="0" />
+  <monster_buff group_id="40069" buff_id="1263" dur="0" />
+  <monster_buff group_id="597901" buff_id="1126" dur="0" />
+  <monster_buff group_id="597901" buff_id="1136" dur="0" />
+  <monster_buff group_id="597901" buff_id="1146" dur="0" />
+  <monster_buff group_id="597901" buff_id="1156" dur="0" />
+  <monster_buff group_id="597901" buff_id="1166" dur="0" />
+  <monster_buff group_id="597901" buff_id="1176" dur="0" />
+  <monster_buff group_id="597901" buff_id="1196" dur="0" />
+  <monster_buff group_id="597901" buff_id="1216" dur="0" />
+  <monster_buff group_id="597901" buff_id="1226" dur="0" />
+  <monster_buff group_id="597901" buff_id="1256" dur="0" />
 </root>

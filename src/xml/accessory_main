@@ -1,471 +1,445 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <root>
-	<accessory_main id="500101" group="5001" main_statistic="HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="0" init_secondary_num="0"/>
-	<accessory_main id="500201" group="5002" main_statistic="物理爆擊" main_statistic_value="20" main_statistic_grow="2" init_secondary_group="0" init_secondary_num="0"/>
-	<accessory_main id="500202" group="5002" main_statistic="魔法爆擊" main_statistic_value="20" main_statistic_grow="2" init_secondary_group="0" init_secondary_num="0"/>
-	<accessory_main id="500203" group="5002" main_statistic="結束回復MP" main_statistic_value="6" main_statistic_grow="1" init_secondary_group="0" init_secondary_num="0"/>
-	<accessory_main id="500204" group="5002" main_statistic="結束回復HP" main_statistic_value="60" main_statistic_grow="12" init_secondary_group="0" init_secondary_num="0"/>
-	<accessory_main id="500301" group="5003" main_statistic="物理防禦" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="0" init_secondary_num="0"/>
-	<accessory_main id="500302" group="5003" main_statistic="魔法防禦" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="0" init_secondary_num="0"/>
-	<accessory_main id="500303" group="5003" main_statistic="格檔" main_statistic_value="1" main_statistic_grow="0.1" init_secondary_group="0" init_secondary_num="0"/>
-	<accessory_main id="500304" group="5003" main_statistic="HP" main_statistic_value="120" main_statistic_grow="20" init_secondary_group="0" init_secondary_num="0"/>
-	<accessory_main id="500305" group="5003" main_statistic="奧義傷害百分比" main_statistic_value="1" main_statistic_grow="0.1" init_secondary_group="0" init_secondary_num="0"/>
-	<accessory_main id="500401" group="5004" main_statistic="物理傷害" main_statistic_value="55" main_statistic_grow="5" init_secondary_group="0" init_secondary_num="0"/>
-	<accessory_main id="500402" group="5004" main_statistic="魔法傷害" main_statistic_value="55" main_statistic_grow="5" init_secondary_group="0" init_secondary_num="0"/>
-	<accessory_main id="500501" group="5005" main_statistic="結束回復MP" main_statistic_value="6" main_statistic_grow="1" init_secondary_group="0" init_secondary_num="0"/>
-	<accessory_main id="500502" group="5005" main_statistic="結束回復HP" main_statistic_value="60" main_statistic_grow="12" init_secondary_group="0" init_secondary_num="0"/>
-	<accessory_main id="500503" group="5005" main_statistic="治癒力" main_statistic_value="2" main_statistic_grow="1" init_secondary_group="0" init_secondary_num="0"/>
-	<accessory_main id="500504" group="5005" main_statistic="格檔" main_statistic_value="1" main_statistic_grow="0.4" init_secondary_group="0" init_secondary_num="0"/>
-	<accessory_main id="500505" group="5005" main_statistic="技能傷害百分比" main_statistic_value="1" main_statistic_grow="0.2" init_secondary_group="0" init_secondary_num="0"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main id="510101" group="5101" main_statistic="HP" main_statistic_value="220" main_statistic_grow="40" init_secondary_group="51011" init_secondary_num="1"/>
-	<accessory_main id="510201" group="5102" main_statistic="物理爆擊" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="51021" init_secondary_num="1"/>
-	<accessory_main id="510202" group="5102" main_statistic="魔法爆擊" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="51022" init_secondary_num="1"/>
-	<accessory_main id="510203" group="5102" main_statistic="結束回復MP" main_statistic_value="10" main_statistic_grow="1" init_secondary_group="51023" init_secondary_num="1"/>
-	<accessory_main id="510204" group="5102" main_statistic="結束回復HP" main_statistic_value="80" main_statistic_grow="14" init_secondary_group="51024" init_secondary_num="1"/>
-	<accessory_main id="510301" group="5103" main_statistic="物理防禦" main_statistic_value="30" main_statistic_grow="4" init_secondary_group="51031" init_secondary_num="1"/>
-	<accessory_main id="510302" group="5103" main_statistic="魔法防禦" main_statistic_value="30" main_statistic_grow="4" init_secondary_group="51032" init_secondary_num="1"/>
-	<accessory_main id="510303" group="5103" main_statistic="格檔" main_statistic_value="2" main_statistic_grow="0.2" init_secondary_group="51033" init_secondary_num="1"/>
-	<accessory_main id="510304" group="5103" main_statistic="HP" main_statistic_value="220" main_statistic_grow="40" init_secondary_group="51034" init_secondary_num="1"/>
-	<accessory_main id="510305" group="5103" main_statistic="奧義傷害百分比" main_statistic_value="1" main_statistic_grow="0.2" init_secondary_group="51035" init_secondary_num="1"/>
-	<accessory_main id="510401" group="5104" main_statistic="物理傷害" main_statistic_value="60" main_statistic_grow="6" init_secondary_group="51041" init_secondary_num="1"/>
-	<accessory_main id="510402" group="5104" main_statistic="魔法傷害" main_statistic_value="60" main_statistic_grow="6" init_secondary_group="51042" init_secondary_num="1"/>
-	<accessory_main id="510501" group="5105" main_statistic="結束回復MP" main_statistic_value="10" main_statistic_grow="1" init_secondary_group="51051" init_secondary_num="1"/>
-	<accessory_main id="510502" group="5105" main_statistic="結束回復HP" main_statistic_value="80" main_statistic_grow="14" init_secondary_group="51052" init_secondary_num="1"/>
-	<accessory_main id="510503" group="5105" main_statistic="治癒力" main_statistic_value="10" main_statistic_grow="1.5" init_secondary_group="51053" init_secondary_num="1"/>
-	<accessory_main id="510504" group="5105" main_statistic="格檔" main_statistic_value="2" main_statistic_grow="0.4" init_secondary_group="51054" init_secondary_num="1"/>
-	<accessory_main id="510505" group="5105" main_statistic="技能傷害百分比" main_statistic_value="1" main_statistic_grow="0.3" init_secondary_group="51055" init_secondary_num="1"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main id="510601" group="5106" main_statistic="HP" main_statistic_value="220" main_statistic_grow="40" init_secondary_group="51061" init_secondary_num="1"/>
-	<accessory_main id="510701" group="5107" main_statistic="物理爆擊" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="51071" init_secondary_num="1"/>
-	<accessory_main id="510702" group="5107" main_statistic="魔法爆擊" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="51072" init_secondary_num="1"/>
-	<accessory_main id="510703" group="5107" main_statistic="結束回復MP" main_statistic_value="10" main_statistic_grow="1" init_secondary_group="51073" init_secondary_num="1"/>
-	<accessory_main id="510704" group="5107" main_statistic="結束回復HP" main_statistic_value="80" main_statistic_grow="14" init_secondary_group="51074" init_secondary_num="1"/>
-	<accessory_main id="510801" group="5108" main_statistic="物理防禦" main_statistic_value="30" main_statistic_grow="4" init_secondary_group="51081" init_secondary_num="1"/>
-	<accessory_main id="510802" group="5108" main_statistic="魔法防禦" main_statistic_value="30" main_statistic_grow="4" init_secondary_group="51082" init_secondary_num="1"/>
-	<accessory_main id="510803" group="5108" main_statistic="格檔" main_statistic_value="2" main_statistic_grow="0.42" init_secondary_group="51083" init_secondary_num="1"/>
-	<accessory_main id="510804" group="5108" main_statistic="HP" main_statistic_value="220" main_statistic_grow="40" init_secondary_group="51084" init_secondary_num="1"/>
-	<accessory_main id="510805" group="5108" main_statistic="奧義傷害百分比" main_statistic_value="1" main_statistic_grow="0.2" init_secondary_group="51085" init_secondary_num="1"/>
-	<accessory_main id="510901" group="5109" main_statistic="物理傷害" main_statistic_value="60" main_statistic_grow="6" init_secondary_group="51091" init_secondary_num="1"/>
-	<accessory_main id="510902" group="5109" main_statistic="魔法傷害" main_statistic_value="60" main_statistic_grow="6" init_secondary_group="51092" init_secondary_num="1"/>
-	<accessory_main id="511001" group="5110" main_statistic="結束回復MP" main_statistic_value="20" main_statistic_grow="1" init_secondary_group="51101" init_secondary_num="1"/>
-	<accessory_main id="511002" group="5110" main_statistic="結束回復HP" main_statistic_value="80" main_statistic_grow="14" init_secondary_group="51102" init_secondary_num="1"/>
-	<accessory_main id="511003" group="5110" main_statistic="治癒力" main_statistic_value="10" main_statistic_grow="1.5" init_secondary_group="51103" init_secondary_num="1"/>
-	<accessory_main id="511004" group="5110" main_statistic="格檔" main_statistic_value="2" main_statistic_grow="0.4" init_secondary_group="51104" init_secondary_num="1"/>
-	<accessory_main id="511005" group="5110" main_statistic="技能傷害百分比" main_statistic_value="1" main_statistic_grow="0.3" init_secondary_group="51105" init_secondary_num="1"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main id="520101" group="5201" main_statistic="HP" main_statistic_value="250" main_statistic_grow="50" init_secondary_group="52011" init_secondary_num="2"/>
-	<accessory_main id="520201" group="5202" main_statistic="物理爆擊" main_statistic_value="30" main_statistic_grow="3" init_secondary_group="52021" init_secondary_num="2"/>
-	<accessory_main id="520202" group="5202" main_statistic="魔法爆擊" main_statistic_value="30" main_statistic_grow="3" init_secondary_group="52022" init_secondary_num="2"/>
-	<accessory_main id="520203" group="5202" main_statistic="結束回復MP" main_statistic_value="14" main_statistic_grow="1" init_secondary_group="52023" init_secondary_num="2"/>
-	<accessory_main id="520204" group="5202" main_statistic="結束回復HP" main_statistic_value="100" main_statistic_grow="16" init_secondary_group="52024" init_secondary_num="2"/>
-	<accessory_main id="520301" group="5203" main_statistic="物理防禦" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="52031" init_secondary_num="2"/>
-	<accessory_main id="520302" group="5203" main_statistic="魔法防禦" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="52032" init_secondary_num="2"/>
-	<accessory_main id="520303" group="5203" main_statistic="格檔" main_statistic_value="3" main_statistic_grow="0.3" init_secondary_group="52033" init_secondary_num="2"/>
-	<accessory_main id="520304" group="5203" main_statistic="HP" main_statistic_value="250" main_statistic_grow="50" init_secondary_group="52034" init_secondary_num="2"/>
-	<accessory_main id="520305" group="5203" main_statistic="奧義傷害百分比" main_statistic_value="1" main_statistic_grow="0.2" init_secondary_group="52035" init_secondary_num="2"/>
-	<accessory_main id="520401" group="5204" main_statistic="物理傷害" main_statistic_value="65" main_statistic_grow="7" init_secondary_group="52041" init_secondary_num="2"/>
-	<accessory_main id="520402" group="5204" main_statistic="魔法傷害" main_statistic_value="65" main_statistic_grow="7" init_secondary_group="52042" init_secondary_num="2"/>
-	<accessory_main id="520501" group="5205" main_statistic="結束回復MP" main_statistic_value="14" main_statistic_grow="1" init_secondary_group="52051" init_secondary_num="2"/>
-	<accessory_main id="520502" group="5205" main_statistic="結束回復HP" main_statistic_value="100" main_statistic_grow="16" init_secondary_group="52052" init_secondary_num="2"/>
-	<accessory_main id="520503" group="5205" main_statistic="治癒力" main_statistic_value="15" main_statistic_grow="2" init_secondary_group="52053" init_secondary_num="2"/>
-	<accessory_main id="520504" group="5205" main_statistic="格檔" main_statistic_value="3" main_statistic_grow="0.4" init_secondary_group="52054" init_secondary_num="2"/>
-	<accessory_main id="520505" group="5205" main_statistic="技能傷害百分比" main_statistic_value="1" main_statistic_grow="0.4" init_secondary_group="52055" init_secondary_num="2"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main id="520601" group="5206" main_statistic="HP" main_statistic_value="250" main_statistic_grow="50" init_secondary_group="52061" init_secondary_num="2"/>
-	<accessory_main id="520701" group="5207" main_statistic="物理爆擊" main_statistic_value="30" main_statistic_grow="3" init_secondary_group="52071" init_secondary_num="2"/>
-	<accessory_main id="520702" group="5207" main_statistic="魔法爆擊" main_statistic_value="30" main_statistic_grow="3" init_secondary_group="52072" init_secondary_num="2"/>
-	<accessory_main id="520703" group="5207" main_statistic="結束回復MP" main_statistic_value="14" main_statistic_grow="1" init_secondary_group="52073" init_secondary_num="2"/>
-	<accessory_main id="520704" group="5207" main_statistic="結束回復HP" main_statistic_value="100" main_statistic_grow="16" init_secondary_group="52074" init_secondary_num="2"/>
-	<accessory_main id="520801" group="5208" main_statistic="物理防禦" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="52081" init_secondary_num="2"/>
-	<accessory_main id="520802" group="5208" main_statistic="魔法防禦" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="52082" init_secondary_num="2"/>
-	<accessory_main id="520803" group="5208" main_statistic="格檔" main_statistic_value="3" main_statistic_grow="0.3" init_secondary_group="52083" init_secondary_num="2"/>
-	<accessory_main id="520804" group="5208" main_statistic="HP" main_statistic_value="250" main_statistic_grow="50" init_secondary_group="52084" init_secondary_num="2"/>
-	<accessory_main id="520805" group="5208" main_statistic="奧義傷害百分比" main_statistic_value="1" main_statistic_grow="0.3" init_secondary_group="52085" init_secondary_num="2"/>
-	<accessory_main id="520901" group="5209" main_statistic="物理傷害" main_statistic_value="65" main_statistic_grow="7" init_secondary_group="52091" init_secondary_num="2"/>
-	<accessory_main id="520902" group="5209" main_statistic="魔法傷害" main_statistic_value="65" main_statistic_grow="7" init_secondary_group="52092" init_secondary_num="2"/>
-	<accessory_main id="521001" group="5210" main_statistic="結束回復MP" main_statistic_value="14" main_statistic_grow="1" init_secondary_group="52101" init_secondary_num="2"/>
-	<accessory_main id="521002" group="5210" main_statistic="結束回復HP" main_statistic_value="100" main_statistic_grow="16" init_secondary_group="52102" init_secondary_num="2"/>
-	<accessory_main id="521003" group="5210" main_statistic="治癒力" main_statistic_value="15" main_statistic_grow="2" init_secondary_group="52103" init_secondary_num="2"/>
-	<accessory_main id="521004" group="5210" main_statistic="格檔" main_statistic_value="3" main_statistic_grow="0.4" init_secondary_group="52104" init_secondary_num="2"/>
-	<accessory_main id="521005" group="5210" main_statistic="技能傷害百分比" main_statistic_value="2" main_statistic_grow="0.4" init_secondary_group="52105" init_secondary_num="2"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main id="521101" group="5211" main_statistic="HP" main_statistic_value="250" main_statistic_grow="50" init_secondary_group="52111" init_secondary_num="2"/>
-	<accessory_main id="521201" group="5212" main_statistic="物理爆擊" main_statistic_value="30" main_statistic_grow="3" init_secondary_group="52121" init_secondary_num="2"/>
-	<accessory_main id="521202" group="5212" main_statistic="魔法爆擊" main_statistic_value="30" main_statistic_grow="3" init_secondary_group="52122" init_secondary_num="2"/>
-	<accessory_main id="521203" group="5212" main_statistic="結束回復MP" main_statistic_value="14" main_statistic_grow="1" init_secondary_group="52123" init_secondary_num="2"/>
-	<accessory_main id="521204" group="5212" main_statistic="結束回復HP" main_statistic_value="100" main_statistic_grow="16" init_secondary_group="52124" init_secondary_num="2"/>
-	<accessory_main id="521301" group="5213" main_statistic="物理防禦" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="52131" init_secondary_num="2"/>
-	<accessory_main id="521302" group="5213" main_statistic="魔法防禦" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="52132" init_secondary_num="2"/>
-	<accessory_main id="521303" group="5213" main_statistic="格檔" main_statistic_value="3" main_statistic_grow="0.3" init_secondary_group="52133" init_secondary_num="2"/>
-	<accessory_main id="521304" group="5213" main_statistic="HP" main_statistic_value="250" main_statistic_grow="50" init_secondary_group="52134" init_secondary_num="2"/>
-	<accessory_main id="521305" group="5213" main_statistic="奧義傷害百分比" main_statistic_value="1" main_statistic_grow="0.3" init_secondary_group="52135" init_secondary_num="2"/>
-	<accessory_main id="521401" group="5214" main_statistic="物理傷害" main_statistic_value="65" main_statistic_grow="7" init_secondary_group="52141" init_secondary_num="2"/>
-	<accessory_main id="521402" group="5214" main_statistic="魔法傷害" main_statistic_value="65" main_statistic_grow="7" init_secondary_group="52142" init_secondary_num="2"/>
-	<accessory_main id="521501" group="5215" main_statistic="結束回復MP" main_statistic_value="14" main_statistic_grow="1" init_secondary_group="52151" init_secondary_num="2"/>
-	<accessory_main id="521502" group="5215" main_statistic="結束回復HP" main_statistic_value="100" main_statistic_grow="16" init_secondary_group="52152" init_secondary_num="2"/>
-	<accessory_main id="521503" group="5215" main_statistic="治癒力" main_statistic_value="15" main_statistic_grow="2" init_secondary_group="52153" init_secondary_num="2"/>
-	<accessory_main id="521504" group="5215" main_statistic="格檔" main_statistic_value="3" main_statistic_grow="0.4" init_secondary_group="52154" init_secondary_num="2"/>
-	<accessory_main id="521505" group="5215" main_statistic="技能傷害百分比" main_statistic_value="2" main_statistic_grow="0.4" init_secondary_group="52155" init_secondary_num="2"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main id="530101" group="5301" main_statistic="HP" main_statistic_value="300" main_statistic_grow="60" init_secondary_group="53011" init_secondary_num="2"/>
-	<accessory_main id="530201" group="5302" main_statistic="物理爆擊" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="53021" init_secondary_num="2"/>
-	<accessory_main id="530202" group="5302" main_statistic="魔法爆擊" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="53022" init_secondary_num="2"/>
-	<accessory_main id="530203" group="5302" main_statistic="結束回復MP" main_statistic_value="18" main_statistic_grow="1" init_secondary_group="53023" init_secondary_num="2"/>
-	<accessory_main id="530204" group="5302" main_statistic="結束回復HP" main_statistic_value="120" main_statistic_grow="18" init_secondary_group="53024" init_secondary_num="2"/>
-	<accessory_main id="530301" group="5303" main_statistic="物理防禦" main_statistic_value="40" main_statistic_grow="5" init_secondary_group="53031" init_secondary_num="2"/>
-	<accessory_main id="530302" group="5303" main_statistic="魔法防禦" main_statistic_value="40" main_statistic_grow="5" init_secondary_group="53032" init_secondary_num="2"/>
-	<accessory_main id="530303" group="5303" main_statistic="格檔" main_statistic_value="4" main_statistic_grow="0.4" init_secondary_group="53033" init_secondary_num="2"/>
-	<accessory_main id="530304" group="5303" main_statistic="HP" main_statistic_value="300" main_statistic_grow="60" init_secondary_group="53034" init_secondary_num="2"/>
-	<accessory_main id="530305" group="5303" main_statistic="奧義傷害百分比" main_statistic_value="1" main_statistic_grow="0.4" init_secondary_group="53035" init_secondary_num="2"/>
-	<accessory_main id="530401" group="5304" main_statistic="物理傷害" main_statistic_value="70" main_statistic_grow="8" init_secondary_group="53041" init_secondary_num="2"/>
-	<accessory_main id="530402" group="5304" main_statistic="魔法傷害" main_statistic_value="70" main_statistic_grow="8" init_secondary_group="53042" init_secondary_num="2"/>
-	<accessory_main id="530501" group="5305" main_statistic="結束回復MP" main_statistic_value="18" main_statistic_grow="1" init_secondary_group="53051" init_secondary_num="2"/>
-	<accessory_main id="530502" group="5305" main_statistic="結束回復HP" main_statistic_value="120" main_statistic_grow="18" init_secondary_group="53052" init_secondary_num="2"/>
-	<accessory_main id="530503" group="5305" main_statistic="治癒力" main_statistic_value="20" main_statistic_grow="2.5" init_secondary_group="53053" init_secondary_num="2"/>
-	<accessory_main id="530504" group="5305" main_statistic="格檔" main_statistic_value="4" main_statistic_grow="0.4" init_secondary_group="53054" init_secondary_num="2"/>
-	<accessory_main id="530505" group="5305" main_statistic="技能傷害百分比" main_statistic_value="2" main_statistic_grow="0.4" init_secondary_group="53055" init_secondary_num="2"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main id="530601" group="5306" main_statistic="HP" main_statistic_value="300" main_statistic_grow="60" init_secondary_group="53061" init_secondary_num="2"/>
-	<accessory_main id="530701" group="5307" main_statistic="物理爆擊" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="53071" init_secondary_num="2"/>
-	<accessory_main id="530702" group="5307" main_statistic="魔法爆擊" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="53072" init_secondary_num="2"/>
-	<accessory_main id="530703" group="5307" main_statistic="結束回復MP" main_statistic_value="18" main_statistic_grow="1" init_secondary_group="53073" init_secondary_num="2"/>
-	<accessory_main id="530704" group="5307" main_statistic="結束回復HP" main_statistic_value="120" main_statistic_grow="18" init_secondary_group="53074" init_secondary_num="2"/>
-	<accessory_main id="530801" group="5308" main_statistic="物理防禦" main_statistic_value="40" main_statistic_grow="5" init_secondary_group="53081" init_secondary_num="2"/>
-	<accessory_main id="530802" group="5308" main_statistic="魔法防禦" main_statistic_value="40" main_statistic_grow="5" init_secondary_group="53082" init_secondary_num="2"/>
-	<accessory_main id="530803" group="5308" main_statistic="格檔" main_statistic_value="4" main_statistic_grow="0.4" init_secondary_group="53083" init_secondary_num="2"/>
-	<accessory_main id="530804" group="5308" main_statistic="HP" main_statistic_value="300" main_statistic_grow="60" init_secondary_group="53084" init_secondary_num="2"/>
-	<accessory_main id="530805" group="5308" main_statistic="奧義傷害百分比" main_statistic_value="1" main_statistic_grow="0.4" init_secondary_group="53085" init_secondary_num="2"/>
-	<accessory_main id="530901" group="5309" main_statistic="物理傷害" main_statistic_value="70" main_statistic_grow="8" init_secondary_group="53091" init_secondary_num="2"/>
-	<accessory_main id="530902" group="5309" main_statistic="魔法傷害" main_statistic_value="70" main_statistic_grow="8" init_secondary_group="53092" init_secondary_num="2"/>
-	<accessory_main id="531001" group="5310" main_statistic="結束回復MP" main_statistic_value="18" main_statistic_grow="1" init_secondary_group="53101" init_secondary_num="2"/>
-	<accessory_main id="531002" group="5310" main_statistic="結束回復HP" main_statistic_value="120" main_statistic_grow="18" init_secondary_group="53102" init_secondary_num="2"/>
-	<accessory_main id="531003" group="5310" main_statistic="治癒力" main_statistic_value="20" main_statistic_grow="2.5" init_secondary_group="53103" init_secondary_num="2"/>
-	<accessory_main id="531004" group="5310" main_statistic="格檔" main_statistic_value="4" main_statistic_grow="0.4" init_secondary_group="53104" init_secondary_num="2"/>
-	<accessory_main id="531005" group="5310" main_statistic="技能傷害百分比" main_statistic_value="2" main_statistic_grow="0.4" init_secondary_group="53105" init_secondary_num="2"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main id="531101" group="5311" main_statistic="HP" main_statistic_value="300" main_statistic_grow="60" init_secondary_group="53111" init_secondary_num="2"/>
-	<accessory_main id="531201" group="5312" main_statistic="物理爆擊" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="53121" init_secondary_num="2"/>
-	<accessory_main id="531202" group="5312" main_statistic="魔法爆擊" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="53122" init_secondary_num="2"/>
-	<accessory_main id="531203" group="5312" main_statistic="結束回復MP" main_statistic_value="18" main_statistic_grow="1" init_secondary_group="53123" init_secondary_num="2"/>
-	<accessory_main id="531204" group="5312" main_statistic="結束回復HP" main_statistic_value="120" main_statistic_grow="18" init_secondary_group="53124" init_secondary_num="2"/>
-	<accessory_main id="531301" group="5313" main_statistic="物理防禦" main_statistic_value="40" main_statistic_grow="5" init_secondary_group="53131" init_secondary_num="2"/>
-	<accessory_main id="531302" group="5313" main_statistic="魔法防禦" main_statistic_value="40" main_statistic_grow="5" init_secondary_group="53132" init_secondary_num="2"/>
-	<accessory_main id="531303" group="5313" main_statistic="格檔" main_statistic_value="4" main_statistic_grow="0.4" init_secondary_group="53133" init_secondary_num="2"/>
-	<accessory_main id="531304" group="5313" main_statistic="HP" main_statistic_value="300" main_statistic_grow="60" init_secondary_group="53134" init_secondary_num="2"/>
-	<accessory_main id="531305" group="5313" main_statistic="奧義傷害百分比" main_statistic_value="1" main_statistic_grow="0.4" init_secondary_group="53135" init_secondary_num="2"/>
-	<accessory_main id="531401" group="5314" main_statistic="物理傷害" main_statistic_value="70" main_statistic_grow="8" init_secondary_group="53141" init_secondary_num="2"/>
-	<accessory_main id="531402" group="5314" main_statistic="魔法傷害" main_statistic_value="70" main_statistic_grow="8" init_secondary_group="53142" init_secondary_num="2"/>
-	<accessory_main id="531501" group="5315" main_statistic="結束回復MP" main_statistic_value="18" main_statistic_grow="1" init_secondary_group="53151" init_secondary_num="2"/>
-	<accessory_main id="531502" group="5315" main_statistic="結束回復HP" main_statistic_value="120" main_statistic_grow="18" init_secondary_group="53152" init_secondary_num="2"/>
-	<accessory_main id="531503" group="5315" main_statistic="治癒力" main_statistic_value="20" main_statistic_grow="2.5" init_secondary_group="53153" init_secondary_num="2"/>
-	<accessory_main id="531504" group="5315" main_statistic="格檔" main_statistic_value="4" main_statistic_grow="0.4" init_secondary_group="53154" init_secondary_num="2"/>
-	<accessory_main id="531505" group="5315" main_statistic="技能傷害百分比" main_statistic_value="2" main_statistic_grow="0.4" init_secondary_group="53155" init_secondary_num="2"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main id="531601" group="5316" main_statistic="HP" main_statistic_value="300" main_statistic_grow="60" init_secondary_group="53161" init_secondary_num="2"/>
-	<accessory_main id="531701" group="5317" main_statistic="物理爆擊" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="53171" init_secondary_num="2"/>
-	<accessory_main id="531702" group="5317" main_statistic="魔法爆擊" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="53172" init_secondary_num="2"/>
-	<accessory_main id="531703" group="5317" main_statistic="結束回復MP" main_statistic_value="18" main_statistic_grow="1" init_secondary_group="53173" init_secondary_num="2"/>
-	<accessory_main id="531704" group="5317" main_statistic="結束回復HP" main_statistic_value="120" main_statistic_grow="18" init_secondary_group="53174" init_secondary_num="2"/>
-	<accessory_main id="531801" group="5318" main_statistic="物理防禦" main_statistic_value="40" main_statistic_grow="5" init_secondary_group="53181" init_secondary_num="2"/>
-	<accessory_main id="531802" group="5318" main_statistic="魔法防禦" main_statistic_value="40" main_statistic_grow="5" init_secondary_group="53182" init_secondary_num="2"/>
-	<accessory_main id="531803" group="5318" main_statistic="格檔" main_statistic_value="4" main_statistic_grow="0.4" init_secondary_group="53183" init_secondary_num="2"/>
-	<accessory_main id="531804" group="5318" main_statistic="HP" main_statistic_value="300" main_statistic_grow="60" init_secondary_group="53184" init_secondary_num="2"/>
-	<accessory_main id="531805" group="5318" main_statistic="奧義傷害百分比" main_statistic_value="1" main_statistic_grow="0.4" init_secondary_group="53185" init_secondary_num="2"/>
-	<accessory_main id="531901" group="5319" main_statistic="物理傷害" main_statistic_value="70" main_statistic_grow="8" init_secondary_group="53191" init_secondary_num="2"/>
-	<accessory_main id="531902" group="5319" main_statistic="魔法傷害" main_statistic_value="70" main_statistic_grow="8" init_secondary_group="53192" init_secondary_num="2"/>
-	<accessory_main id="532001" group="5320" main_statistic="結束回復MP" main_statistic_value="18" main_statistic_grow="1" init_secondary_group="53201" init_secondary_num="2"/>
-	<accessory_main id="532002" group="5320" main_statistic="結束回復HP" main_statistic_value="120" main_statistic_grow="18" init_secondary_group="53202" init_secondary_num="2"/>
-	<accessory_main id="532003" group="5320" main_statistic="治癒力" main_statistic_value="20" main_statistic_grow="2.5" init_secondary_group="53203" init_secondary_num="2"/>
-	<accessory_main id="532004" group="5320" main_statistic="格檔" main_statistic_value="4" main_statistic_grow="0.4" init_secondary_group="53204" init_secondary_num="2"/>
-	<accessory_main id="532005" group="5320" main_statistic="技能傷害百分比" main_statistic_value="2" main_statistic_grow="0.4" init_secondary_group="53205" init_secondary_num="2"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main id="560101" group="5601" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56011" init_secondary_num="3"/>
-	<accessory_main id="560201" group="5602" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56021" init_secondary_num="3"/>
-	<accessory_main id="560202" group="5602" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56022" init_secondary_num="3"/>
-	<accessory_main id="560203" group="5602" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56023" init_secondary_num="3"/>
-	<accessory_main id="560204" group="5602" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56024" init_secondary_num="3"/>
-	<accessory_main id="560301" group="5603" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56031" init_secondary_num="3"/>
-	<accessory_main id="560302" group="5603" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56032" init_secondary_num="3"/>
-	<accessory_main id="560303" group="5603" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56033" init_secondary_num="3"/>
-	<accessory_main id="560304" group="5603" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56034" init_secondary_num="3"/>
-	<accessory_main id="560305" group="5603" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56035" init_secondary_num="3"/>
-	<accessory_main id="560401" group="5604" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56041" init_secondary_num="3"/>
-	<accessory_main id="560402" group="5604" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56042" init_secondary_num="3"/>
-	<accessory_main id="560501" group="5605" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56051" init_secondary_num="3"/>
-	<accessory_main id="560502" group="5605" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56052" init_secondary_num="3"/>
-	<accessory_main id="560503" group="5605" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56053" init_secondary_num="3"/>
-	<accessory_main id="560504" group="5605" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56054" init_secondary_num="3"/>
-	<accessory_main id="560505" group="5605" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56055" init_secondary_num="3"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main id="560601" group="5606" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56061" init_secondary_num="3"/>
-	<accessory_main id="560701" group="5607" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56071" init_secondary_num="3"/>
-	<accessory_main id="560702" group="5607" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56072" init_secondary_num="3"/>
-	<accessory_main id="560703" group="5607" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56073" init_secondary_num="3"/>
-	<accessory_main id="560704" group="5607" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56074" init_secondary_num="3"/>
-	<accessory_main id="560801" group="5608" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56081" init_secondary_num="3"/>
-	<accessory_main id="560802" group="5608" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56082" init_secondary_num="3"/>
-	<accessory_main id="560803" group="5608" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56083" init_secondary_num="3"/>
-	<accessory_main id="560804" group="5608" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56084" init_secondary_num="3"/>
-	<accessory_main id="560805" group="5608" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56085" init_secondary_num="3"/>
-	<accessory_main id="560901" group="5609" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56091" init_secondary_num="3"/>
-	<accessory_main id="560902" group="5609" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56092" init_secondary_num="3"/>
-	<accessory_main id="561001" group="5610" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56101" init_secondary_num="3"/>
-	<accessory_main id="561002" group="5610" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56102" init_secondary_num="3"/>
-	<accessory_main id="561003" group="5610" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56103" init_secondary_num="3"/>
-	<accessory_main id="561004" group="5610" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56104" init_secondary_num="3"/>
-	<accessory_main id="561005" group="5610" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56105" init_secondary_num="3"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main id="561101" group="5611" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56111" init_secondary_num="3"/>
-	<accessory_main id="561201" group="5612" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56121" init_secondary_num="3"/>
-	<accessory_main id="561202" group="5612" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56122" init_secondary_num="3"/>
-	<accessory_main id="561203" group="5612" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56123" init_secondary_num="3"/>
-	<accessory_main id="561204" group="5612" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56124" init_secondary_num="3"/>
-	<accessory_main id="561301" group="5613" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56131" init_secondary_num="3"/>
-	<accessory_main id="561302" group="5613" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56132" init_secondary_num="3"/>
-	<accessory_main id="561303" group="5613" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56133" init_secondary_num="3"/>
-	<accessory_main id="561304" group="5613" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56134" init_secondary_num="3"/>
-	<accessory_main id="561305" group="5613" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56135" init_secondary_num="3"/>
-	<accessory_main id="561401" group="5614" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56141" init_secondary_num="3"/>
-	<accessory_main id="561402" group="5614" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56142" init_secondary_num="3"/>
-	<accessory_main id="561501" group="5615" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56151" init_secondary_num="3"/>
-	<accessory_main id="561502" group="5615" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56152" init_secondary_num="3"/>
-	<accessory_main id="561503" group="5615" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56153" init_secondary_num="3"/>
-	<accessory_main id="561504" group="5615" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56154" init_secondary_num="3"/>
-	<accessory_main id="561505" group="5615" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56155" init_secondary_num="3"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main id="561601" group="5616" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56161" init_secondary_num="3"/>
-	<accessory_main id="561701" group="5617" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56171" init_secondary_num="3"/>
-	<accessory_main id="561702" group="5617" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56172" init_secondary_num="3"/>
-	<accessory_main id="561703" group="5617" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56173" init_secondary_num="3"/>
-	<accessory_main id="561704" group="5617" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56174" init_secondary_num="3"/>
-	<accessory_main id="561801" group="5618" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56181" init_secondary_num="3"/>
-	<accessory_main id="561802" group="5618" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56182" init_secondary_num="3"/>
-	<accessory_main id="561803" group="5618" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56183" init_secondary_num="3"/>
-	<accessory_main id="561804" group="5618" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56184" init_secondary_num="3"/>
-	<accessory_main id="561805" group="5618" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56185" init_secondary_num="3"/>
-	<accessory_main id="561901" group="5619" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56191" init_secondary_num="3"/>
-	<accessory_main id="561902" group="5619" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56192" init_secondary_num="3"/>
-	<accessory_main id="562001" group="5620" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56201" init_secondary_num="3"/>
-	<accessory_main id="562002" group="5620" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56202" init_secondary_num="3"/>
-	<accessory_main id="562003" group="5620" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56203" init_secondary_num="3"/>
-	<accessory_main id="562004" group="5620" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56204" init_secondary_num="3"/>
-	<accessory_main id="562005" group="5620" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56205" init_secondary_num="3"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main id="562101" group="5621" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56211" init_secondary_num="3"/>
-	<accessory_main id="562201" group="5622" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56221" init_secondary_num="3"/>
-	<accessory_main id="562202" group="5622" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56222" init_secondary_num="3"/>
-	<accessory_main id="562203" group="5622" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56223" init_secondary_num="3"/>
-	<accessory_main id="562204" group="5622" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56224" init_secondary_num="3"/>
-	<accessory_main id="562301" group="5623" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56231" init_secondary_num="3"/>
-	<accessory_main id="562302" group="5623" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56232" init_secondary_num="3"/>
-	<accessory_main id="562303" group="5623" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56233" init_secondary_num="3"/>
-	<accessory_main id="562304" group="5623" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56234" init_secondary_num="3"/>
-	<accessory_main id="562305" group="5623" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56235" init_secondary_num="3"/>
-	<accessory_main id="562401" group="5624" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56241" init_secondary_num="3"/>
-	<accessory_main id="562402" group="5624" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56242" init_secondary_num="3"/>
-	<accessory_main id="562501" group="5625" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56251" init_secondary_num="3"/>
-	<accessory_main id="562502" group="5625" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56252" init_secondary_num="3"/>
-	<accessory_main id="562503" group="5625" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56253" init_secondary_num="3"/>
-	<accessory_main id="562504" group="5625" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56254" init_secondary_num="3"/>
-	<accessory_main id="562505" group="5625" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56255" init_secondary_num="3"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main id="562601" group="5626" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56261" init_secondary_num="3"/>
-	<accessory_main id="562701" group="5627" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56271" init_secondary_num="3"/>
-	<accessory_main id="562702" group="5627" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56272" init_secondary_num="3"/>
-	<accessory_main id="562703" group="5627" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56273" init_secondary_num="3"/>
-	<accessory_main id="562704" group="5627" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56274" init_secondary_num="3"/>
-	<accessory_main id="562801" group="5628" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56281" init_secondary_num="3"/>
-	<accessory_main id="562802" group="5628" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56282" init_secondary_num="3"/>
-	<accessory_main id="562803" group="5628" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56283" init_secondary_num="3"/>
-	<accessory_main id="562804" group="5628" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56284" init_secondary_num="3"/>
-	<accessory_main id="562805" group="5628" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56285" init_secondary_num="3"/>
-	<accessory_main id="562901" group="5629" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56291" init_secondary_num="3"/>
-	<accessory_main id="562902" group="5629" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56292" init_secondary_num="3"/>
-	<accessory_main id="563001" group="5630" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56301" init_secondary_num="3"/>
-	<accessory_main id="563002" group="5630" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56302" init_secondary_num="3"/>
-	<accessory_main id="563003" group="5630" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56303" init_secondary_num="3"/>
-	<accessory_main id="563004" group="5630" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56304" init_secondary_num="3"/>
-	<accessory_main id="563005" group="5630" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56305" init_secondary_num="3"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main id="563101" group="5631" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56311" init_secondary_num="3"/>
-	<accessory_main id="563201" group="5632" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56321" init_secondary_num="3"/>
-	<accessory_main id="563202" group="5632" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56322" init_secondary_num="3"/>
-	<accessory_main id="563203" group="5632" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56323" init_secondary_num="3"/>
-	<accessory_main id="563204" group="5632" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56324" init_secondary_num="3"/>
-	<accessory_main id="563301" group="5633" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56331" init_secondary_num="3"/>
-	<accessory_main id="563302" group="5633" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56332" init_secondary_num="3"/>
-	<accessory_main id="563303" group="5633" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56333" init_secondary_num="3"/>
-	<accessory_main id="563304" group="5633" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56334" init_secondary_num="3"/>
-	<accessory_main id="563305" group="5633" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56335" init_secondary_num="3"/>
-	<accessory_main id="563401" group="5634" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56341" init_secondary_num="3"/>
-	<accessory_main id="563402" group="5634" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56342" init_secondary_num="3"/>
-	<accessory_main id="563501" group="5635" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56351" init_secondary_num="3"/>
-	<accessory_main id="563502" group="5635" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56352" init_secondary_num="3"/>
-	<accessory_main id="563503" group="5635" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56353" init_secondary_num="3"/>
-	<accessory_main id="563504" group="5635" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56354" init_secondary_num="3"/>
-	<accessory_main id="563505" group="5635" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56355" init_secondary_num="3"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main id="563601" group="5636" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56361" init_secondary_num="3"/>
-	<accessory_main id="563701" group="5637" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56371" init_secondary_num="3"/>
-	<accessory_main id="563702" group="5637" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56372" init_secondary_num="3"/>
-	<accessory_main id="563703" group="5637" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56373" init_secondary_num="3"/>
-	<accessory_main id="563704" group="5637" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56374" init_secondary_num="3"/>
-	<accessory_main id="563801" group="5638" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56381" init_secondary_num="3"/>
-	<accessory_main id="563802" group="5638" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56382" init_secondary_num="3"/>
-	<accessory_main id="563803" group="5638" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56383" init_secondary_num="3"/>
-	<accessory_main id="563804" group="5638" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56384" init_secondary_num="3"/>
-	<accessory_main id="563805" group="5638" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56385" init_secondary_num="3"/>
-	<accessory_main id="563901" group="5639" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56391" init_secondary_num="3"/>
-	<accessory_main id="563902" group="5639" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56392" init_secondary_num="3"/>
-	<accessory_main id="564001" group="5640" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56401" init_secondary_num="3"/>
-	<accessory_main id="564002" group="5640" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56402" init_secondary_num="3"/>
-	<accessory_main id="564003" group="5640" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56403" init_secondary_num="3"/>
-	<accessory_main id="564004" group="5640" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56404" init_secondary_num="3"/>
-	<accessory_main id="564005" group="5640" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56405" init_secondary_num="3"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main id="564101" group="5641" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56411" init_secondary_num="3"/>
-	<accessory_main id="564201" group="5642" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56421" init_secondary_num="3"/>
-	<accessory_main id="564202" group="5642" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56422" init_secondary_num="3"/>
-	<accessory_main id="564203" group="5642" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56423" init_secondary_num="3"/>
-	<accessory_main id="564204" group="5642" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56424" init_secondary_num="3"/>
-	<accessory_main id="564301" group="5643" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56431" init_secondary_num="3"/>
-	<accessory_main id="564302" group="5643" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56432" init_secondary_num="3"/>
-	<accessory_main id="564303" group="5643" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56433" init_secondary_num="3"/>
-	<accessory_main id="564304" group="5643" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56434" init_secondary_num="3"/>
-	<accessory_main id="564305" group="5643" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56435" init_secondary_num="3"/>
-	<accessory_main id="564401" group="5644" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56441" init_secondary_num="3"/>
-	<accessory_main id="564402" group="5644" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56442" init_secondary_num="3"/>
-	<accessory_main id="564501" group="5645" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56451" init_secondary_num="3"/>
-	<accessory_main id="564502" group="5645" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56452" init_secondary_num="3"/>
-	<accessory_main id="564503" group="5645" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56453" init_secondary_num="3"/>
-	<accessory_main id="564504" group="5645" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56454" init_secondary_num="3"/>
-	<accessory_main id="564505" group="5645" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56455" init_secondary_num="3"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main id="564601" group="5646" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56461" init_secondary_num="3"/>
-	<accessory_main id="564701" group="5647" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56471" init_secondary_num="3"/>
-	<accessory_main id="564702" group="5647" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56472" init_secondary_num="3"/>
-	<accessory_main id="564703" group="5647" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56473" init_secondary_num="3"/>
-	<accessory_main id="564704" group="5647" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56474" init_secondary_num="3"/>
-	<accessory_main id="564801" group="5648" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56481" init_secondary_num="3"/>
-	<accessory_main id="564802" group="5648" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56482" init_secondary_num="3"/>
-	<accessory_main id="564803" group="5648" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56483" init_secondary_num="3"/>
-	<accessory_main id="564804" group="5648" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56484" init_secondary_num="3"/>
-	<accessory_main id="564805" group="5648" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56485" init_secondary_num="3"/>
-	<accessory_main id="564901" group="5649" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56491" init_secondary_num="3"/>
-	<accessory_main id="564902" group="5649" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56492" init_secondary_num="3"/>
-	<accessory_main id="565001" group="5650" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56501" init_secondary_num="3"/>
-	<accessory_main id="565002" group="5650" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56502" init_secondary_num="3"/>
-	<accessory_main id="565003" group="5650" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56503" init_secondary_num="3"/>
-	<accessory_main id="565004" group="5650" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56504" init_secondary_num="3"/>
-	<accessory_main id="565005" group="5650" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56505" init_secondary_num="3"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main id="565101" group="5651" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56511" init_secondary_num="3"/>
-	<accessory_main id="565201" group="5652" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56521" init_secondary_num="3"/>
-	<accessory_main id="565202" group="5652" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56522" init_secondary_num="3"/>
-	<accessory_main id="565203" group="5652" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56523" init_secondary_num="3"/>
-	<accessory_main id="565204" group="5652" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56524" init_secondary_num="3"/>
-	<accessory_main id="565301" group="5653" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56531" init_secondary_num="3"/>
-	<accessory_main id="565302" group="5653" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56532" init_secondary_num="3"/>
-	<accessory_main id="565303" group="5653" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56533" init_secondary_num="3"/>
-	<accessory_main id="565304" group="5653" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56534" init_secondary_num="3"/>
-	<accessory_main id="565305" group="5653" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56535" init_secondary_num="3"/>
-	<accessory_main id="565401" group="5654" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56541" init_secondary_num="3"/>
-	<accessory_main id="565402" group="5654" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56542" init_secondary_num="3"/>
-	<accessory_main id="565501" group="5655" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56551" init_secondary_num="3"/>
-	<accessory_main id="565502" group="5655" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56552" init_secondary_num="3"/>
-	<accessory_main id="565503" group="5655" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56553" init_secondary_num="3"/>
-	<accessory_main id="565504" group="5655" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56554" init_secondary_num="3"/>
-	<accessory_main id="565505" group="5655" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56555" init_secondary_num="3"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main id="565601" group="5656" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56561" init_secondary_num="3"/>
-	<accessory_main id="565701" group="5657" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56571" init_secondary_num="3"/>
-	<accessory_main id="565702" group="5657" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56572" init_secondary_num="3"/>
-	<accessory_main id="565703" group="5657" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56573" init_secondary_num="3"/>
-	<accessory_main id="565704" group="5657" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56574" init_secondary_num="3"/>
-	<accessory_main id="565801" group="5658" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56581" init_secondary_num="3"/>
-	<accessory_main id="565802" group="5658" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56582" init_secondary_num="3"/>
-	<accessory_main id="565803" group="5658" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56583" init_secondary_num="3"/>
-	<accessory_main id="565804" group="5658" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56584" init_secondary_num="3"/>
-	<accessory_main id="565805" group="5658" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56585" init_secondary_num="3"/>
-	<accessory_main id="565901" group="5659" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56591" init_secondary_num="3"/>
-	<accessory_main id="565902" group="5659" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56592" init_secondary_num="3"/>
-	<accessory_main id="566001" group="5660" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56601" init_secondary_num="3"/>
-	<accessory_main id="566002" group="5660" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56602" init_secondary_num="3"/>
-	<accessory_main id="566003" group="5660" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56603" init_secondary_num="3"/>
-	<accessory_main id="566004" group="5660" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56604" init_secondary_num="3"/>
-	<accessory_main id="566005" group="5660" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56605" init_secondary_num="3"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main id="566101" group="5661" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56611" init_secondary_num="3"/>
-	<accessory_main id="566201" group="5662" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56621" init_secondary_num="3"/>
-	<accessory_main id="566202" group="5662" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56622" init_secondary_num="3"/>
-	<accessory_main id="566203" group="5662" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56623" init_secondary_num="3"/>
-	<accessory_main id="566204" group="5662" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56624" init_secondary_num="3"/>
-	<accessory_main id="566301" group="5663" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56631" init_secondary_num="3"/>
-	<accessory_main id="566302" group="5663" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56632" init_secondary_num="3"/>
-	<accessory_main id="566303" group="5663" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56633" init_secondary_num="3"/>
-	<accessory_main id="566304" group="5663" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56634" init_secondary_num="3"/>
-	<accessory_main id="566305" group="5663" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56635" init_secondary_num="3"/>
-	<accessory_main id="566401" group="5664" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56641" init_secondary_num="3"/>
-	<accessory_main id="566402" group="5664" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56642" init_secondary_num="3"/>
-	<accessory_main id="566501" group="5665" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56651" init_secondary_num="3"/>
-	<accessory_main id="566502" group="5665" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56652" init_secondary_num="3"/>
-	<accessory_main id="566503" group="5665" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56653" init_secondary_num="3"/>
-	<accessory_main id="566504" group="5665" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56654" init_secondary_num="3"/>
-	<accessory_main id="566505" group="5665" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56655" init_secondary_num="3"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main id="566601" group="5666" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56661" init_secondary_num="3"/>
-	<accessory_main id="566701" group="5667" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56671" init_secondary_num="3"/>
-	<accessory_main id="566702" group="5667" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56672" init_secondary_num="3"/>
-	<accessory_main id="566703" group="5667" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56673" init_secondary_num="3"/>
-	<accessory_main id="566704" group="5667" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56674" init_secondary_num="3"/>
-	<accessory_main id="566801" group="5668" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56681" init_secondary_num="3"/>
-	<accessory_main id="566802" group="5668" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56682" init_secondary_num="3"/>
-	<accessory_main id="566803" group="5668" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56683" init_secondary_num="3"/>
-	<accessory_main id="566804" group="5668" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56684" init_secondary_num="3"/>
-	<accessory_main id="566805" group="5668" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56685" init_secondary_num="3"/>
-	<accessory_main id="566901" group="5669" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56691" init_secondary_num="3"/>
-	<accessory_main id="566902" group="5669" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56692" init_secondary_num="3"/>
-	<accessory_main id="567001" group="5670" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56701" init_secondary_num="3"/>
-	<accessory_main id="567002" group="5670" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56702" init_secondary_num="3"/>
-	<accessory_main id="567003" group="5670" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56703" init_secondary_num="3"/>
-	<accessory_main id="567004" group="5670" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56704" init_secondary_num="3"/>
-	<accessory_main id="567005" group="5670" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56705" init_secondary_num="3"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main id="567101" group="5671" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56711" init_secondary_num="3"/>
-	<accessory_main id="567201" group="5672" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56721" init_secondary_num="3"/>
-	<accessory_main id="567202" group="5672" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56722" init_secondary_num="3"/>
-	<accessory_main id="567203" group="5672" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56723" init_secondary_num="3"/>
-	<accessory_main id="567204" group="5672" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56724" init_secondary_num="3"/>
-	<accessory_main id="567301" group="5673" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56731" init_secondary_num="3"/>
-	<accessory_main id="567302" group="5673" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56732" init_secondary_num="3"/>
-	<accessory_main id="567303" group="5673" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56733" init_secondary_num="3"/>
-	<accessory_main id="567304" group="5673" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56734" init_secondary_num="3"/>
-	<accessory_main id="567305" group="5673" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56735" init_secondary_num="3"/>
-	<accessory_main id="567401" group="5674" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56741" init_secondary_num="3"/>
-	<accessory_main id="567402" group="5674" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56742" init_secondary_num="3"/>
-	<accessory_main id="567501" group="5675" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56751" init_secondary_num="3"/>
-	<accessory_main id="567502" group="5675" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56752" init_secondary_num="3"/>
-	<accessory_main id="567503" group="5675" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56753" init_secondary_num="3"/>
-	<accessory_main id="567504" group="5675" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56754" init_secondary_num="3"/>
-	<accessory_main id="567505" group="5675" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56755" init_secondary_num="3"/>
-	<accessory_main main_statistic="無"/>
-	<accessory_main id="567601" group="5676" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56761" init_secondary_num="3"/>
-	<accessory_main id="567701" group="5677" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56771" init_secondary_num="3"/>
-	<accessory_main id="567702" group="5677" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56772" init_secondary_num="3"/>
-	<accessory_main id="567703" group="5677" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56773" init_secondary_num="3"/>
-	<accessory_main id="567704" group="5677" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56774" init_secondary_num="3"/>
-	<accessory_main id="567801" group="5678" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56781" init_secondary_num="3"/>
-	<accessory_main id="567802" group="5678" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56782" init_secondary_num="3"/>
-	<accessory_main id="567803" group="5678" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56783" init_secondary_num="3"/>
-	<accessory_main id="567804" group="5678" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56784" init_secondary_num="3"/>
-	<accessory_main id="567805" group="5678" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56785" init_secondary_num="3"/>
-	<accessory_main id="567901" group="5679" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56791" init_secondary_num="3"/>
-	<accessory_main id="567902" group="5679" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56792" init_secondary_num="3"/>
-	<accessory_main id="568001" group="5680" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56801" init_secondary_num="3"/>
-	<accessory_main id="568002" group="5680" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56802" init_secondary_num="3"/>
-	<accessory_main id="568003" group="5680" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56803" init_secondary_num="3"/>
-	<accessory_main id="568004" group="5680" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56804" init_secondary_num="3"/>
-	<accessory_main id="568005" group="5680" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56805" init_secondary_num="3"/>
+  <accessory_main id="500101" group="5001" main_statistic="HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="0" init_secondary_num="0" />
+  <accessory_main id="500201" group="5002" main_statistic="物理爆擊" main_statistic_value="20" main_statistic_grow="2" init_secondary_group="0" init_secondary_num="0" />
+  <accessory_main id="500202" group="5002" main_statistic="魔法爆擊" main_statistic_value="20" main_statistic_grow="2" init_secondary_group="0" init_secondary_num="0" />
+  <accessory_main id="500203" group="5002" main_statistic="結束回復MP" main_statistic_value="6" main_statistic_grow="1" init_secondary_group="0" init_secondary_num="0" />
+  <accessory_main id="500204" group="5002" main_statistic="結束回復HP" main_statistic_value="60" main_statistic_grow="12" init_secondary_group="0" init_secondary_num="0" />
+  <accessory_main id="500301" group="5003" main_statistic="物理防禦" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="0" init_secondary_num="0" />
+  <accessory_main id="500302" group="5003" main_statistic="魔法防禦" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="0" init_secondary_num="0" />
+  <accessory_main id="500303" group="5003" main_statistic="格檔" main_statistic_value="1" main_statistic_grow="0.1" init_secondary_group="0" init_secondary_num="0" />
+  <accessory_main id="500304" group="5003" main_statistic="HP" main_statistic_value="120" main_statistic_grow="20" init_secondary_group="0" init_secondary_num="0" />
+  <accessory_main id="500305" group="5003" main_statistic="奧義傷害百分比" main_statistic_value="1" main_statistic_grow="0.1" init_secondary_group="0" init_secondary_num="0" />
+  <accessory_main id="500401" group="5004" main_statistic="物理傷害" main_statistic_value="55" main_statistic_grow="5" init_secondary_group="0" init_secondary_num="0" />
+  <accessory_main id="500402" group="5004" main_statistic="魔法傷害" main_statistic_value="55" main_statistic_grow="5" init_secondary_group="0" init_secondary_num="0" />
+  <accessory_main id="500501" group="5005" main_statistic="結束回復MP" main_statistic_value="6" main_statistic_grow="1" init_secondary_group="0" init_secondary_num="0" />
+  <accessory_main id="500502" group="5005" main_statistic="結束回復HP" main_statistic_value="60" main_statistic_grow="12" init_secondary_group="0" init_secondary_num="0" />
+  <accessory_main id="500503" group="5005" main_statistic="治癒力" main_statistic_value="2" main_statistic_grow="1" init_secondary_group="0" init_secondary_num="0" />
+  <accessory_main id="500504" group="5005" main_statistic="格檔" main_statistic_value="1" main_statistic_grow="0.4" init_secondary_group="0" init_secondary_num="0" />
+  <accessory_main id="500505" group="5005" main_statistic="技能傷害百分比" main_statistic_value="1" main_statistic_grow="0.2" init_secondary_group="0" init_secondary_num="0" />
+  <accessory_main id="510101" group="5101" main_statistic="HP" main_statistic_value="220" main_statistic_grow="40" init_secondary_group="51011" init_secondary_num="1" />
+  <accessory_main id="510201" group="5102" main_statistic="物理爆擊" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="51021" init_secondary_num="1" />
+  <accessory_main id="510202" group="5102" main_statistic="魔法爆擊" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="51022" init_secondary_num="1" />
+  <accessory_main id="510203" group="5102" main_statistic="結束回復MP" main_statistic_value="10" main_statistic_grow="1" init_secondary_group="51023" init_secondary_num="1" />
+  <accessory_main id="510204" group="5102" main_statistic="結束回復HP" main_statistic_value="80" main_statistic_grow="14" init_secondary_group="51024" init_secondary_num="1" />
+  <accessory_main id="510301" group="5103" main_statistic="物理防禦" main_statistic_value="30" main_statistic_grow="4" init_secondary_group="51031" init_secondary_num="1" />
+  <accessory_main id="510302" group="5103" main_statistic="魔法防禦" main_statistic_value="30" main_statistic_grow="4" init_secondary_group="51032" init_secondary_num="1" />
+  <accessory_main id="510303" group="5103" main_statistic="格檔" main_statistic_value="2" main_statistic_grow="0.2" init_secondary_group="51033" init_secondary_num="1" />
+  <accessory_main id="510304" group="5103" main_statistic="HP" main_statistic_value="220" main_statistic_grow="40" init_secondary_group="51034" init_secondary_num="1" />
+  <accessory_main id="510305" group="5103" main_statistic="奧義傷害百分比" main_statistic_value="1" main_statistic_grow="0.2" init_secondary_group="51035" init_secondary_num="1" />
+  <accessory_main id="510401" group="5104" main_statistic="物理傷害" main_statistic_value="60" main_statistic_grow="6" init_secondary_group="51041" init_secondary_num="1" />
+  <accessory_main id="510402" group="5104" main_statistic="魔法傷害" main_statistic_value="60" main_statistic_grow="6" init_secondary_group="51042" init_secondary_num="1" />
+  <accessory_main id="510501" group="5105" main_statistic="結束回復MP" main_statistic_value="10" main_statistic_grow="1" init_secondary_group="51051" init_secondary_num="1" />
+  <accessory_main id="510502" group="5105" main_statistic="結束回復HP" main_statistic_value="80" main_statistic_grow="14" init_secondary_group="51052" init_secondary_num="1" />
+  <accessory_main id="510503" group="5105" main_statistic="治癒力" main_statistic_value="10" main_statistic_grow="1.5" init_secondary_group="51053" init_secondary_num="1" />
+  <accessory_main id="510504" group="5105" main_statistic="格檔" main_statistic_value="2" main_statistic_grow="0.4" init_secondary_group="51054" init_secondary_num="1" />
+  <accessory_main id="510505" group="5105" main_statistic="技能傷害百分比" main_statistic_value="1" main_statistic_grow="0.3" init_secondary_group="51055" init_secondary_num="1" />
+  <accessory_main id="510601" group="5106" main_statistic="HP" main_statistic_value="220" main_statistic_grow="40" init_secondary_group="51061" init_secondary_num="1" />
+  <accessory_main id="510701" group="5107" main_statistic="物理爆擊" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="51071" init_secondary_num="1" />
+  <accessory_main id="510702" group="5107" main_statistic="魔法爆擊" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="51072" init_secondary_num="1" />
+  <accessory_main id="510703" group="5107" main_statistic="結束回復MP" main_statistic_value="10" main_statistic_grow="1" init_secondary_group="51073" init_secondary_num="1" />
+  <accessory_main id="510704" group="5107" main_statistic="結束回復HP" main_statistic_value="80" main_statistic_grow="14" init_secondary_group="51074" init_secondary_num="1" />
+  <accessory_main id="510801" group="5108" main_statistic="物理防禦" main_statistic_value="30" main_statistic_grow="4" init_secondary_group="51081" init_secondary_num="1" />
+  <accessory_main id="510802" group="5108" main_statistic="魔法防禦" main_statistic_value="30" main_statistic_grow="4" init_secondary_group="51082" init_secondary_num="1" />
+  <accessory_main id="510803" group="5108" main_statistic="格檔" main_statistic_value="2" main_statistic_grow="0.42" init_secondary_group="51083" init_secondary_num="1" />
+  <accessory_main id="510804" group="5108" main_statistic="HP" main_statistic_value="220" main_statistic_grow="40" init_secondary_group="51084" init_secondary_num="1" />
+  <accessory_main id="510805" group="5108" main_statistic="奧義傷害百分比" main_statistic_value="1" main_statistic_grow="0.2" init_secondary_group="51085" init_secondary_num="1" />
+  <accessory_main id="510901" group="5109" main_statistic="物理傷害" main_statistic_value="60" main_statistic_grow="6" init_secondary_group="51091" init_secondary_num="1" />
+  <accessory_main id="510902" group="5109" main_statistic="魔法傷害" main_statistic_value="60" main_statistic_grow="6" init_secondary_group="51092" init_secondary_num="1" />
+  <accessory_main id="511001" group="5110" main_statistic="結束回復MP" main_statistic_value="20" main_statistic_grow="1" init_secondary_group="51101" init_secondary_num="1" />
+  <accessory_main id="511002" group="5110" main_statistic="結束回復HP" main_statistic_value="80" main_statistic_grow="14" init_secondary_group="51102" init_secondary_num="1" />
+  <accessory_main id="511003" group="5110" main_statistic="治癒力" main_statistic_value="10" main_statistic_grow="1.5" init_secondary_group="51103" init_secondary_num="1" />
+  <accessory_main id="511004" group="5110" main_statistic="格檔" main_statistic_value="2" main_statistic_grow="0.4" init_secondary_group="51104" init_secondary_num="1" />
+  <accessory_main id="511005" group="5110" main_statistic="技能傷害百分比" main_statistic_value="1" main_statistic_grow="0.3" init_secondary_group="51105" init_secondary_num="1" />
+  <accessory_main id="520101" group="5201" main_statistic="HP" main_statistic_value="250" main_statistic_grow="50" init_secondary_group="52011" init_secondary_num="2" />
+  <accessory_main id="520201" group="5202" main_statistic="物理爆擊" main_statistic_value="30" main_statistic_grow="3" init_secondary_group="52021" init_secondary_num="2" />
+  <accessory_main id="520202" group="5202" main_statistic="魔法爆擊" main_statistic_value="30" main_statistic_grow="3" init_secondary_group="52022" init_secondary_num="2" />
+  <accessory_main id="520203" group="5202" main_statistic="結束回復MP" main_statistic_value="14" main_statistic_grow="1" init_secondary_group="52023" init_secondary_num="2" />
+  <accessory_main id="520204" group="5202" main_statistic="結束回復HP" main_statistic_value="100" main_statistic_grow="16" init_secondary_group="52024" init_secondary_num="2" />
+  <accessory_main id="520301" group="5203" main_statistic="物理防禦" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="52031" init_secondary_num="2" />
+  <accessory_main id="520302" group="5203" main_statistic="魔法防禦" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="52032" init_secondary_num="2" />
+  <accessory_main id="520303" group="5203" main_statistic="格檔" main_statistic_value="3" main_statistic_grow="0.3" init_secondary_group="52033" init_secondary_num="2" />
+  <accessory_main id="520304" group="5203" main_statistic="HP" main_statistic_value="250" main_statistic_grow="50" init_secondary_group="52034" init_secondary_num="2" />
+  <accessory_main id="520305" group="5203" main_statistic="奧義傷害百分比" main_statistic_value="1" main_statistic_grow="0.2" init_secondary_group="52035" init_secondary_num="2" />
+  <accessory_main id="520401" group="5204" main_statistic="物理傷害" main_statistic_value="65" main_statistic_grow="7" init_secondary_group="52041" init_secondary_num="2" />
+  <accessory_main id="520402" group="5204" main_statistic="魔法傷害" main_statistic_value="65" main_statistic_grow="7" init_secondary_group="52042" init_secondary_num="2" />
+  <accessory_main id="520501" group="5205" main_statistic="結束回復MP" main_statistic_value="14" main_statistic_grow="1" init_secondary_group="52051" init_secondary_num="2" />
+  <accessory_main id="520502" group="5205" main_statistic="結束回復HP" main_statistic_value="100" main_statistic_grow="16" init_secondary_group="52052" init_secondary_num="2" />
+  <accessory_main id="520503" group="5205" main_statistic="治癒力" main_statistic_value="15" main_statistic_grow="2" init_secondary_group="52053" init_secondary_num="2" />
+  <accessory_main id="520504" group="5205" main_statistic="格檔" main_statistic_value="3" main_statistic_grow="0.4" init_secondary_group="52054" init_secondary_num="2" />
+  <accessory_main id="520505" group="5205" main_statistic="技能傷害百分比" main_statistic_value="1" main_statistic_grow="0.4" init_secondary_group="52055" init_secondary_num="2" />
+  <accessory_main id="520601" group="5206" main_statistic="HP" main_statistic_value="250" main_statistic_grow="50" init_secondary_group="52061" init_secondary_num="2" />
+  <accessory_main id="520701" group="5207" main_statistic="物理爆擊" main_statistic_value="30" main_statistic_grow="3" init_secondary_group="52071" init_secondary_num="2" />
+  <accessory_main id="520702" group="5207" main_statistic="魔法爆擊" main_statistic_value="30" main_statistic_grow="3" init_secondary_group="52072" init_secondary_num="2" />
+  <accessory_main id="520703" group="5207" main_statistic="結束回復MP" main_statistic_value="14" main_statistic_grow="1" init_secondary_group="52073" init_secondary_num="2" />
+  <accessory_main id="520704" group="5207" main_statistic="結束回復HP" main_statistic_value="100" main_statistic_grow="16" init_secondary_group="52074" init_secondary_num="2" />
+  <accessory_main id="520801" group="5208" main_statistic="物理防禦" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="52081" init_secondary_num="2" />
+  <accessory_main id="520802" group="5208" main_statistic="魔法防禦" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="52082" init_secondary_num="2" />
+  <accessory_main id="520803" group="5208" main_statistic="格檔" main_statistic_value="3" main_statistic_grow="0.3" init_secondary_group="52083" init_secondary_num="2" />
+  <accessory_main id="520804" group="5208" main_statistic="HP" main_statistic_value="250" main_statistic_grow="50" init_secondary_group="52084" init_secondary_num="2" />
+  <accessory_main id="520805" group="5208" main_statistic="奧義傷害百分比" main_statistic_value="1" main_statistic_grow="0.3" init_secondary_group="52085" init_secondary_num="2" />
+  <accessory_main id="520901" group="5209" main_statistic="物理傷害" main_statistic_value="65" main_statistic_grow="7" init_secondary_group="52091" init_secondary_num="2" />
+  <accessory_main id="520902" group="5209" main_statistic="魔法傷害" main_statistic_value="65" main_statistic_grow="7" init_secondary_group="52092" init_secondary_num="2" />
+  <accessory_main id="521001" group="5210" main_statistic="結束回復MP" main_statistic_value="14" main_statistic_grow="1" init_secondary_group="52101" init_secondary_num="2" />
+  <accessory_main id="521002" group="5210" main_statistic="結束回復HP" main_statistic_value="100" main_statistic_grow="16" init_secondary_group="52102" init_secondary_num="2" />
+  <accessory_main id="521003" group="5210" main_statistic="治癒力" main_statistic_value="15" main_statistic_grow="2" init_secondary_group="52103" init_secondary_num="2" />
+  <accessory_main id="521004" group="5210" main_statistic="格檔" main_statistic_value="3" main_statistic_grow="0.4" init_secondary_group="52104" init_secondary_num="2" />
+  <accessory_main id="521005" group="5210" main_statistic="技能傷害百分比" main_statistic_value="2" main_statistic_grow="0.4" init_secondary_group="52105" init_secondary_num="2" />
+  <accessory_main id="521101" group="5211" main_statistic="HP" main_statistic_value="250" main_statistic_grow="50" init_secondary_group="52111" init_secondary_num="2" />
+  <accessory_main id="521201" group="5212" main_statistic="物理爆擊" main_statistic_value="30" main_statistic_grow="3" init_secondary_group="52121" init_secondary_num="2" />
+  <accessory_main id="521202" group="5212" main_statistic="魔法爆擊" main_statistic_value="30" main_statistic_grow="3" init_secondary_group="52122" init_secondary_num="2" />
+  <accessory_main id="521203" group="5212" main_statistic="結束回復MP" main_statistic_value="14" main_statistic_grow="1" init_secondary_group="52123" init_secondary_num="2" />
+  <accessory_main id="521204" group="5212" main_statistic="結束回復HP" main_statistic_value="100" main_statistic_grow="16" init_secondary_group="52124" init_secondary_num="2" />
+  <accessory_main id="521301" group="5213" main_statistic="物理防禦" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="52131" init_secondary_num="2" />
+  <accessory_main id="521302" group="5213" main_statistic="魔法防禦" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="52132" init_secondary_num="2" />
+  <accessory_main id="521303" group="5213" main_statistic="格檔" main_statistic_value="3" main_statistic_grow="0.3" init_secondary_group="52133" init_secondary_num="2" />
+  <accessory_main id="521304" group="5213" main_statistic="HP" main_statistic_value="250" main_statistic_grow="50" init_secondary_group="52134" init_secondary_num="2" />
+  <accessory_main id="521305" group="5213" main_statistic="奧義傷害百分比" main_statistic_value="1" main_statistic_grow="0.3" init_secondary_group="52135" init_secondary_num="2" />
+  <accessory_main id="521401" group="5214" main_statistic="物理傷害" main_statistic_value="65" main_statistic_grow="7" init_secondary_group="52141" init_secondary_num="2" />
+  <accessory_main id="521402" group="5214" main_statistic="魔法傷害" main_statistic_value="65" main_statistic_grow="7" init_secondary_group="52142" init_secondary_num="2" />
+  <accessory_main id="521501" group="5215" main_statistic="結束回復MP" main_statistic_value="14" main_statistic_grow="1" init_secondary_group="52151" init_secondary_num="2" />
+  <accessory_main id="521502" group="5215" main_statistic="結束回復HP" main_statistic_value="100" main_statistic_grow="16" init_secondary_group="52152" init_secondary_num="2" />
+  <accessory_main id="521503" group="5215" main_statistic="治癒力" main_statistic_value="15" main_statistic_grow="2" init_secondary_group="52153" init_secondary_num="2" />
+  <accessory_main id="521504" group="5215" main_statistic="格檔" main_statistic_value="3" main_statistic_grow="0.4" init_secondary_group="52154" init_secondary_num="2" />
+  <accessory_main id="521505" group="5215" main_statistic="技能傷害百分比" main_statistic_value="2" main_statistic_grow="0.4" init_secondary_group="52155" init_secondary_num="2" />
+  <accessory_main id="530101" group="5301" main_statistic="HP" main_statistic_value="300" main_statistic_grow="60" init_secondary_group="53011" init_secondary_num="2" />
+  <accessory_main id="530201" group="5302" main_statistic="物理爆擊" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="53021" init_secondary_num="2" />
+  <accessory_main id="530202" group="5302" main_statistic="魔法爆擊" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="53022" init_secondary_num="2" />
+  <accessory_main id="530203" group="5302" main_statistic="結束回復MP" main_statistic_value="18" main_statistic_grow="1" init_secondary_group="53023" init_secondary_num="2" />
+  <accessory_main id="530204" group="5302" main_statistic="結束回復HP" main_statistic_value="120" main_statistic_grow="18" init_secondary_group="53024" init_secondary_num="2" />
+  <accessory_main id="530301" group="5303" main_statistic="物理防禦" main_statistic_value="40" main_statistic_grow="5" init_secondary_group="53031" init_secondary_num="2" />
+  <accessory_main id="530302" group="5303" main_statistic="魔法防禦" main_statistic_value="40" main_statistic_grow="5" init_secondary_group="53032" init_secondary_num="2" />
+  <accessory_main id="530303" group="5303" main_statistic="格檔" main_statistic_value="4" main_statistic_grow="0.4" init_secondary_group="53033" init_secondary_num="2" />
+  <accessory_main id="530304" group="5303" main_statistic="HP" main_statistic_value="300" main_statistic_grow="60" init_secondary_group="53034" init_secondary_num="2" />
+  <accessory_main id="530305" group="5303" main_statistic="奧義傷害百分比" main_statistic_value="1" main_statistic_grow="0.4" init_secondary_group="53035" init_secondary_num="2" />
+  <accessory_main id="530401" group="5304" main_statistic="物理傷害" main_statistic_value="70" main_statistic_grow="8" init_secondary_group="53041" init_secondary_num="2" />
+  <accessory_main id="530402" group="5304" main_statistic="魔法傷害" main_statistic_value="70" main_statistic_grow="8" init_secondary_group="53042" init_secondary_num="2" />
+  <accessory_main id="530501" group="5305" main_statistic="結束回復MP" main_statistic_value="18" main_statistic_grow="1" init_secondary_group="53051" init_secondary_num="2" />
+  <accessory_main id="530502" group="5305" main_statistic="結束回復HP" main_statistic_value="120" main_statistic_grow="18" init_secondary_group="53052" init_secondary_num="2" />
+  <accessory_main id="530503" group="5305" main_statistic="治癒力" main_statistic_value="20" main_statistic_grow="2.5" init_secondary_group="53053" init_secondary_num="2" />
+  <accessory_main id="530504" group="5305" main_statistic="格檔" main_statistic_value="4" main_statistic_grow="0.4" init_secondary_group="53054" init_secondary_num="2" />
+  <accessory_main id="530505" group="5305" main_statistic="技能傷害百分比" main_statistic_value="2" main_statistic_grow="0.4" init_secondary_group="53055" init_secondary_num="2" />
+  <accessory_main id="530601" group="5306" main_statistic="HP" main_statistic_value="300" main_statistic_grow="60" init_secondary_group="53061" init_secondary_num="2" />
+  <accessory_main id="530701" group="5307" main_statistic="物理爆擊" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="53071" init_secondary_num="2" />
+  <accessory_main id="530702" group="5307" main_statistic="魔法爆擊" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="53072" init_secondary_num="2" />
+  <accessory_main id="530703" group="5307" main_statistic="結束回復MP" main_statistic_value="18" main_statistic_grow="1" init_secondary_group="53073" init_secondary_num="2" />
+  <accessory_main id="530704" group="5307" main_statistic="結束回復HP" main_statistic_value="120" main_statistic_grow="18" init_secondary_group="53074" init_secondary_num="2" />
+  <accessory_main id="530801" group="5308" main_statistic="物理防禦" main_statistic_value="40" main_statistic_grow="5" init_secondary_group="53081" init_secondary_num="2" />
+  <accessory_main id="530802" group="5308" main_statistic="魔法防禦" main_statistic_value="40" main_statistic_grow="5" init_secondary_group="53082" init_secondary_num="2" />
+  <accessory_main id="530803" group="5308" main_statistic="格檔" main_statistic_value="4" main_statistic_grow="0.4" init_secondary_group="53083" init_secondary_num="2" />
+  <accessory_main id="530804" group="5308" main_statistic="HP" main_statistic_value="300" main_statistic_grow="60" init_secondary_group="53084" init_secondary_num="2" />
+  <accessory_main id="530805" group="5308" main_statistic="奧義傷害百分比" main_statistic_value="1" main_statistic_grow="0.4" init_secondary_group="53085" init_secondary_num="2" />
+  <accessory_main id="530901" group="5309" main_statistic="物理傷害" main_statistic_value="70" main_statistic_grow="8" init_secondary_group="53091" init_secondary_num="2" />
+  <accessory_main id="530902" group="5309" main_statistic="魔法傷害" main_statistic_value="70" main_statistic_grow="8" init_secondary_group="53092" init_secondary_num="2" />
+  <accessory_main id="531001" group="5310" main_statistic="結束回復MP" main_statistic_value="18" main_statistic_grow="1" init_secondary_group="53101" init_secondary_num="2" />
+  <accessory_main id="531002" group="5310" main_statistic="結束回復HP" main_statistic_value="120" main_statistic_grow="18" init_secondary_group="53102" init_secondary_num="2" />
+  <accessory_main id="531003" group="5310" main_statistic="治癒力" main_statistic_value="20" main_statistic_grow="2.5" init_secondary_group="53103" init_secondary_num="2" />
+  <accessory_main id="531004" group="5310" main_statistic="格檔" main_statistic_value="4" main_statistic_grow="0.4" init_secondary_group="53104" init_secondary_num="2" />
+  <accessory_main id="531005" group="5310" main_statistic="技能傷害百分比" main_statistic_value="2" main_statistic_grow="0.4" init_secondary_group="53105" init_secondary_num="2" />
+  <accessory_main id="531101" group="5311" main_statistic="HP" main_statistic_value="300" main_statistic_grow="60" init_secondary_group="53111" init_secondary_num="2" />
+  <accessory_main id="531201" group="5312" main_statistic="物理爆擊" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="53121" init_secondary_num="2" />
+  <accessory_main id="531202" group="5312" main_statistic="魔法爆擊" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="53122" init_secondary_num="2" />
+  <accessory_main id="531203" group="5312" main_statistic="結束回復MP" main_statistic_value="18" main_statistic_grow="1" init_secondary_group="53123" init_secondary_num="2" />
+  <accessory_main id="531204" group="5312" main_statistic="結束回復HP" main_statistic_value="120" main_statistic_grow="18" init_secondary_group="53124" init_secondary_num="2" />
+  <accessory_main id="531301" group="5313" main_statistic="物理防禦" main_statistic_value="40" main_statistic_grow="5" init_secondary_group="53131" init_secondary_num="2" />
+  <accessory_main id="531302" group="5313" main_statistic="魔法防禦" main_statistic_value="40" main_statistic_grow="5" init_secondary_group="53132" init_secondary_num="2" />
+  <accessory_main id="531303" group="5313" main_statistic="格檔" main_statistic_value="4" main_statistic_grow="0.4" init_secondary_group="53133" init_secondary_num="2" />
+  <accessory_main id="531304" group="5313" main_statistic="HP" main_statistic_value="300" main_statistic_grow="60" init_secondary_group="53134" init_secondary_num="2" />
+  <accessory_main id="531305" group="5313" main_statistic="奧義傷害百分比" main_statistic_value="1" main_statistic_grow="0.4" init_secondary_group="53135" init_secondary_num="2" />
+  <accessory_main id="531401" group="5314" main_statistic="物理傷害" main_statistic_value="70" main_statistic_grow="8" init_secondary_group="53141" init_secondary_num="2" />
+  <accessory_main id="531402" group="5314" main_statistic="魔法傷害" main_statistic_value="70" main_statistic_grow="8" init_secondary_group="53142" init_secondary_num="2" />
+  <accessory_main id="531501" group="5315" main_statistic="結束回復MP" main_statistic_value="18" main_statistic_grow="1" init_secondary_group="53151" init_secondary_num="2" />
+  <accessory_main id="531502" group="5315" main_statistic="結束回復HP" main_statistic_value="120" main_statistic_grow="18" init_secondary_group="53152" init_secondary_num="2" />
+  <accessory_main id="531503" group="5315" main_statistic="治癒力" main_statistic_value="20" main_statistic_grow="2.5" init_secondary_group="53153" init_secondary_num="2" />
+  <accessory_main id="531504" group="5315" main_statistic="格檔" main_statistic_value="4" main_statistic_grow="0.4" init_secondary_group="53154" init_secondary_num="2" />
+  <accessory_main id="531505" group="5315" main_statistic="技能傷害百分比" main_statistic_value="2" main_statistic_grow="0.4" init_secondary_group="53155" init_secondary_num="2" />
+  <accessory_main id="531601" group="5316" main_statistic="HP" main_statistic_value="300" main_statistic_grow="60" init_secondary_group="53161" init_secondary_num="2" />
+  <accessory_main id="531701" group="5317" main_statistic="物理爆擊" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="53171" init_secondary_num="2" />
+  <accessory_main id="531702" group="5317" main_statistic="魔法爆擊" main_statistic_value="35" main_statistic_grow="4" init_secondary_group="53172" init_secondary_num="2" />
+  <accessory_main id="531703" group="5317" main_statistic="結束回復MP" main_statistic_value="18" main_statistic_grow="1" init_secondary_group="53173" init_secondary_num="2" />
+  <accessory_main id="531704" group="5317" main_statistic="結束回復HP" main_statistic_value="120" main_statistic_grow="18" init_secondary_group="53174" init_secondary_num="2" />
+  <accessory_main id="531801" group="5318" main_statistic="物理防禦" main_statistic_value="40" main_statistic_grow="5" init_secondary_group="53181" init_secondary_num="2" />
+  <accessory_main id="531802" group="5318" main_statistic="魔法防禦" main_statistic_value="40" main_statistic_grow="5" init_secondary_group="53182" init_secondary_num="2" />
+  <accessory_main id="531803" group="5318" main_statistic="格檔" main_statistic_value="4" main_statistic_grow="0.4" init_secondary_group="53183" init_secondary_num="2" />
+  <accessory_main id="531804" group="5318" main_statistic="HP" main_statistic_value="300" main_statistic_grow="60" init_secondary_group="53184" init_secondary_num="2" />
+  <accessory_main id="531805" group="5318" main_statistic="奧義傷害百分比" main_statistic_value="1" main_statistic_grow="0.4" init_secondary_group="53185" init_secondary_num="2" />
+  <accessory_main id="531901" group="5319" main_statistic="物理傷害" main_statistic_value="70" main_statistic_grow="8" init_secondary_group="53191" init_secondary_num="2" />
+  <accessory_main id="531902" group="5319" main_statistic="魔法傷害" main_statistic_value="70" main_statistic_grow="8" init_secondary_group="53192" init_secondary_num="2" />
+  <accessory_main id="532001" group="5320" main_statistic="結束回復MP" main_statistic_value="18" main_statistic_grow="1" init_secondary_group="53201" init_secondary_num="2" />
+  <accessory_main id="532002" group="5320" main_statistic="結束回復HP" main_statistic_value="120" main_statistic_grow="18" init_secondary_group="53202" init_secondary_num="2" />
+  <accessory_main id="532003" group="5320" main_statistic="治癒力" main_statistic_value="20" main_statistic_grow="2.5" init_secondary_group="53203" init_secondary_num="2" />
+  <accessory_main id="532004" group="5320" main_statistic="格檔" main_statistic_value="4" main_statistic_grow="0.4" init_secondary_group="53204" init_secondary_num="2" />
+  <accessory_main id="532005" group="5320" main_statistic="技能傷害百分比" main_statistic_value="2" main_statistic_grow="0.4" init_secondary_group="53205" init_secondary_num="2" />
+  <accessory_main id="560101" group="5601" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56011" init_secondary_num="3" />
+  <accessory_main id="560201" group="5602" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56021" init_secondary_num="3" />
+  <accessory_main id="560202" group="5602" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56022" init_secondary_num="3" />
+  <accessory_main id="560203" group="5602" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56023" init_secondary_num="3" />
+  <accessory_main id="560204" group="5602" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56024" init_secondary_num="3" />
+  <accessory_main id="560301" group="5603" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56031" init_secondary_num="3" />
+  <accessory_main id="560302" group="5603" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56032" init_secondary_num="3" />
+  <accessory_main id="560303" group="5603" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56033" init_secondary_num="3" />
+  <accessory_main id="560304" group="5603" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56034" init_secondary_num="3" />
+  <accessory_main id="560305" group="5603" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56035" init_secondary_num="3" />
+  <accessory_main id="560401" group="5604" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56041" init_secondary_num="3" />
+  <accessory_main id="560402" group="5604" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56042" init_secondary_num="3" />
+  <accessory_main id="560501" group="5605" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56051" init_secondary_num="3" />
+  <accessory_main id="560502" group="5605" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56052" init_secondary_num="3" />
+  <accessory_main id="560503" group="5605" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56053" init_secondary_num="3" />
+  <accessory_main id="560504" group="5605" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56054" init_secondary_num="3" />
+  <accessory_main id="560505" group="5605" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56055" init_secondary_num="3" />
+  <accessory_main id="560601" group="5606" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56061" init_secondary_num="3" />
+  <accessory_main id="560701" group="5607" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56071" init_secondary_num="3" />
+  <accessory_main id="560702" group="5607" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56072" init_secondary_num="3" />
+  <accessory_main id="560703" group="5607" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56073" init_secondary_num="3" />
+  <accessory_main id="560704" group="5607" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56074" init_secondary_num="3" />
+  <accessory_main id="560801" group="5608" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56081" init_secondary_num="3" />
+  <accessory_main id="560802" group="5608" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56082" init_secondary_num="3" />
+  <accessory_main id="560803" group="5608" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56083" init_secondary_num="3" />
+  <accessory_main id="560804" group="5608" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56084" init_secondary_num="3" />
+  <accessory_main id="560805" group="5608" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56085" init_secondary_num="3" />
+  <accessory_main id="560901" group="5609" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56091" init_secondary_num="3" />
+  <accessory_main id="560902" group="5609" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56092" init_secondary_num="3" />
+  <accessory_main id="561001" group="5610" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56101" init_secondary_num="3" />
+  <accessory_main id="561002" group="5610" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56102" init_secondary_num="3" />
+  <accessory_main id="561003" group="5610" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56103" init_secondary_num="3" />
+  <accessory_main id="561004" group="5610" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56104" init_secondary_num="3" />
+  <accessory_main id="561005" group="5610" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56105" init_secondary_num="3" />
+  <accessory_main id="561101" group="5611" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56111" init_secondary_num="3" />
+  <accessory_main id="561201" group="5612" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56121" init_secondary_num="3" />
+  <accessory_main id="561202" group="5612" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56122" init_secondary_num="3" />
+  <accessory_main id="561203" group="5612" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56123" init_secondary_num="3" />
+  <accessory_main id="561204" group="5612" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56124" init_secondary_num="3" />
+  <accessory_main id="561301" group="5613" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56131" init_secondary_num="3" />
+  <accessory_main id="561302" group="5613" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56132" init_secondary_num="3" />
+  <accessory_main id="561303" group="5613" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56133" init_secondary_num="3" />
+  <accessory_main id="561304" group="5613" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56134" init_secondary_num="3" />
+  <accessory_main id="561305" group="5613" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56135" init_secondary_num="3" />
+  <accessory_main id="561401" group="5614" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56141" init_secondary_num="3" />
+  <accessory_main id="561402" group="5614" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56142" init_secondary_num="3" />
+  <accessory_main id="561501" group="5615" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56151" init_secondary_num="3" />
+  <accessory_main id="561502" group="5615" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56152" init_secondary_num="3" />
+  <accessory_main id="561503" group="5615" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56153" init_secondary_num="3" />
+  <accessory_main id="561504" group="5615" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56154" init_secondary_num="3" />
+  <accessory_main id="561505" group="5615" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56155" init_secondary_num="3" />
+  <accessory_main id="561601" group="5616" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56161" init_secondary_num="3" />
+  <accessory_main id="561701" group="5617" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56171" init_secondary_num="3" />
+  <accessory_main id="561702" group="5617" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56172" init_secondary_num="3" />
+  <accessory_main id="561703" group="5617" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56173" init_secondary_num="3" />
+  <accessory_main id="561704" group="5617" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56174" init_secondary_num="3" />
+  <accessory_main id="561801" group="5618" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56181" init_secondary_num="3" />
+  <accessory_main id="561802" group="5618" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56182" init_secondary_num="3" />
+  <accessory_main id="561803" group="5618" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56183" init_secondary_num="3" />
+  <accessory_main id="561804" group="5618" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56184" init_secondary_num="3" />
+  <accessory_main id="561805" group="5618" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56185" init_secondary_num="3" />
+  <accessory_main id="561901" group="5619" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56191" init_secondary_num="3" />
+  <accessory_main id="561902" group="5619" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56192" init_secondary_num="3" />
+  <accessory_main id="562001" group="5620" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56201" init_secondary_num="3" />
+  <accessory_main id="562002" group="5620" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56202" init_secondary_num="3" />
+  <accessory_main id="562003" group="5620" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56203" init_secondary_num="3" />
+  <accessory_main id="562004" group="5620" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56204" init_secondary_num="3" />
+  <accessory_main id="562005" group="5620" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56205" init_secondary_num="3" />
+  <accessory_main id="562101" group="5621" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56211" init_secondary_num="3" />
+  <accessory_main id="562201" group="5622" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56221" init_secondary_num="3" />
+  <accessory_main id="562202" group="5622" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56222" init_secondary_num="3" />
+  <accessory_main id="562203" group="5622" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56223" init_secondary_num="3" />
+  <accessory_main id="562204" group="5622" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56224" init_secondary_num="3" />
+  <accessory_main id="562301" group="5623" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56231" init_secondary_num="3" />
+  <accessory_main id="562302" group="5623" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56232" init_secondary_num="3" />
+  <accessory_main id="562303" group="5623" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56233" init_secondary_num="3" />
+  <accessory_main id="562304" group="5623" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56234" init_secondary_num="3" />
+  <accessory_main id="562305" group="5623" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56235" init_secondary_num="3" />
+  <accessory_main id="562401" group="5624" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56241" init_secondary_num="3" />
+  <accessory_main id="562402" group="5624" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56242" init_secondary_num="3" />
+  <accessory_main id="562501" group="5625" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56251" init_secondary_num="3" />
+  <accessory_main id="562502" group="5625" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56252" init_secondary_num="3" />
+  <accessory_main id="562503" group="5625" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56253" init_secondary_num="3" />
+  <accessory_main id="562504" group="5625" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56254" init_secondary_num="3" />
+  <accessory_main id="562505" group="5625" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56255" init_secondary_num="3" />
+  <accessory_main id="562601" group="5626" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56261" init_secondary_num="3" />
+  <accessory_main id="562701" group="5627" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56271" init_secondary_num="3" />
+  <accessory_main id="562702" group="5627" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56272" init_secondary_num="3" />
+  <accessory_main id="562703" group="5627" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56273" init_secondary_num="3" />
+  <accessory_main id="562704" group="5627" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56274" init_secondary_num="3" />
+  <accessory_main id="562801" group="5628" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56281" init_secondary_num="3" />
+  <accessory_main id="562802" group="5628" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56282" init_secondary_num="3" />
+  <accessory_main id="562803" group="5628" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56283" init_secondary_num="3" />
+  <accessory_main id="562804" group="5628" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56284" init_secondary_num="3" />
+  <accessory_main id="562805" group="5628" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56285" init_secondary_num="3" />
+  <accessory_main id="562901" group="5629" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56291" init_secondary_num="3" />
+  <accessory_main id="562902" group="5629" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56292" init_secondary_num="3" />
+  <accessory_main id="563001" group="5630" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56301" init_secondary_num="3" />
+  <accessory_main id="563002" group="5630" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56302" init_secondary_num="3" />
+  <accessory_main id="563003" group="5630" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56303" init_secondary_num="3" />
+  <accessory_main id="563004" group="5630" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56304" init_secondary_num="3" />
+  <accessory_main id="563005" group="5630" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56305" init_secondary_num="3" />
+  <accessory_main id="563101" group="5631" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56311" init_secondary_num="3" />
+  <accessory_main id="563201" group="5632" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56321" init_secondary_num="3" />
+  <accessory_main id="563202" group="5632" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56322" init_secondary_num="3" />
+  <accessory_main id="563203" group="5632" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56323" init_secondary_num="3" />
+  <accessory_main id="563204" group="5632" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56324" init_secondary_num="3" />
+  <accessory_main id="563301" group="5633" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56331" init_secondary_num="3" />
+  <accessory_main id="563302" group="5633" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56332" init_secondary_num="3" />
+  <accessory_main id="563303" group="5633" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56333" init_secondary_num="3" />
+  <accessory_main id="563304" group="5633" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56334" init_secondary_num="3" />
+  <accessory_main id="563305" group="5633" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56335" init_secondary_num="3" />
+  <accessory_main id="563401" group="5634" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56341" init_secondary_num="3" />
+  <accessory_main id="563402" group="5634" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56342" init_secondary_num="3" />
+  <accessory_main id="563501" group="5635" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56351" init_secondary_num="3" />
+  <accessory_main id="563502" group="5635" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56352" init_secondary_num="3" />
+  <accessory_main id="563503" group="5635" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56353" init_secondary_num="3" />
+  <accessory_main id="563504" group="5635" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56354" init_secondary_num="3" />
+  <accessory_main id="563505" group="5635" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56355" init_secondary_num="3" />
+  <accessory_main id="563601" group="5636" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56361" init_secondary_num="3" />
+  <accessory_main id="563701" group="5637" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56371" init_secondary_num="3" />
+  <accessory_main id="563702" group="5637" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56372" init_secondary_num="3" />
+  <accessory_main id="563703" group="5637" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56373" init_secondary_num="3" />
+  <accessory_main id="563704" group="5637" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56374" init_secondary_num="3" />
+  <accessory_main id="563801" group="5638" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56381" init_secondary_num="3" />
+  <accessory_main id="563802" group="5638" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56382" init_secondary_num="3" />
+  <accessory_main id="563803" group="5638" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56383" init_secondary_num="3" />
+  <accessory_main id="563804" group="5638" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56384" init_secondary_num="3" />
+  <accessory_main id="563805" group="5638" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56385" init_secondary_num="3" />
+  <accessory_main id="563901" group="5639" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56391" init_secondary_num="3" />
+  <accessory_main id="563902" group="5639" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56392" init_secondary_num="3" />
+  <accessory_main id="564001" group="5640" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56401" init_secondary_num="3" />
+  <accessory_main id="564002" group="5640" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56402" init_secondary_num="3" />
+  <accessory_main id="564003" group="5640" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56403" init_secondary_num="3" />
+  <accessory_main id="564004" group="5640" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56404" init_secondary_num="3" />
+  <accessory_main id="564005" group="5640" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56405" init_secondary_num="3" />
+  <accessory_main id="564101" group="5641" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56411" init_secondary_num="3" />
+  <accessory_main id="564201" group="5642" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56421" init_secondary_num="3" />
+  <accessory_main id="564202" group="5642" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56422" init_secondary_num="3" />
+  <accessory_main id="564203" group="5642" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56423" init_secondary_num="3" />
+  <accessory_main id="564204" group="5642" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56424" init_secondary_num="3" />
+  <accessory_main id="564301" group="5643" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56431" init_secondary_num="3" />
+  <accessory_main id="564302" group="5643" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56432" init_secondary_num="3" />
+  <accessory_main id="564303" group="5643" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56433" init_secondary_num="3" />
+  <accessory_main id="564304" group="5643" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56434" init_secondary_num="3" />
+  <accessory_main id="564305" group="5643" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56435" init_secondary_num="3" />
+  <accessory_main id="564401" group="5644" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56441" init_secondary_num="3" />
+  <accessory_main id="564402" group="5644" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56442" init_secondary_num="3" />
+  <accessory_main id="564501" group="5645" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56451" init_secondary_num="3" />
+  <accessory_main id="564502" group="5645" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56452" init_secondary_num="3" />
+  <accessory_main id="564503" group="5645" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56453" init_secondary_num="3" />
+  <accessory_main id="564504" group="5645" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56454" init_secondary_num="3" />
+  <accessory_main id="564505" group="5645" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56455" init_secondary_num="3" />
+  <accessory_main id="564601" group="5646" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56461" init_secondary_num="3" />
+  <accessory_main id="564701" group="5647" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56471" init_secondary_num="3" />
+  <accessory_main id="564702" group="5647" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56472" init_secondary_num="3" />
+  <accessory_main id="564703" group="5647" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56473" init_secondary_num="3" />
+  <accessory_main id="564704" group="5647" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56474" init_secondary_num="3" />
+  <accessory_main id="564801" group="5648" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56481" init_secondary_num="3" />
+  <accessory_main id="564802" group="5648" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56482" init_secondary_num="3" />
+  <accessory_main id="564803" group="5648" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56483" init_secondary_num="3" />
+  <accessory_main id="564804" group="5648" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56484" init_secondary_num="3" />
+  <accessory_main id="564805" group="5648" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56485" init_secondary_num="3" />
+  <accessory_main id="564901" group="5649" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56491" init_secondary_num="3" />
+  <accessory_main id="564902" group="5649" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56492" init_secondary_num="3" />
+  <accessory_main id="565001" group="5650" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56501" init_secondary_num="3" />
+  <accessory_main id="565002" group="5650" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56502" init_secondary_num="3" />
+  <accessory_main id="565003" group="5650" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56503" init_secondary_num="3" />
+  <accessory_main id="565004" group="5650" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56504" init_secondary_num="3" />
+  <accessory_main id="565005" group="5650" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56505" init_secondary_num="3" />
+  <accessory_main id="565101" group="5651" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56511" init_secondary_num="3" />
+  <accessory_main id="565201" group="5652" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56521" init_secondary_num="3" />
+  <accessory_main id="565202" group="5652" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56522" init_secondary_num="3" />
+  <accessory_main id="565203" group="5652" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56523" init_secondary_num="3" />
+  <accessory_main id="565204" group="5652" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56524" init_secondary_num="3" />
+  <accessory_main id="565301" group="5653" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56531" init_secondary_num="3" />
+  <accessory_main id="565302" group="5653" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56532" init_secondary_num="3" />
+  <accessory_main id="565303" group="5653" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56533" init_secondary_num="3" />
+  <accessory_main id="565304" group="5653" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56534" init_secondary_num="3" />
+  <accessory_main id="565305" group="5653" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56535" init_secondary_num="3" />
+  <accessory_main id="565401" group="5654" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56541" init_secondary_num="3" />
+  <accessory_main id="565402" group="5654" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56542" init_secondary_num="3" />
+  <accessory_main id="565501" group="5655" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56551" init_secondary_num="3" />
+  <accessory_main id="565502" group="5655" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56552" init_secondary_num="3" />
+  <accessory_main id="565503" group="5655" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56553" init_secondary_num="3" />
+  <accessory_main id="565504" group="5655" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56554" init_secondary_num="3" />
+  <accessory_main id="565505" group="5655" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56555" init_secondary_num="3" />
+  <accessory_main id="565601" group="5656" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56561" init_secondary_num="3" />
+  <accessory_main id="565701" group="5657" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56571" init_secondary_num="3" />
+  <accessory_main id="565702" group="5657" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56572" init_secondary_num="3" />
+  <accessory_main id="565703" group="5657" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56573" init_secondary_num="3" />
+  <accessory_main id="565704" group="5657" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56574" init_secondary_num="3" />
+  <accessory_main id="565801" group="5658" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56581" init_secondary_num="3" />
+  <accessory_main id="565802" group="5658" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56582" init_secondary_num="3" />
+  <accessory_main id="565803" group="5658" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56583" init_secondary_num="3" />
+  <accessory_main id="565804" group="5658" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56584" init_secondary_num="3" />
+  <accessory_main id="565805" group="5658" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56585" init_secondary_num="3" />
+  <accessory_main id="565901" group="5659" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56591" init_secondary_num="3" />
+  <accessory_main id="565902" group="5659" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56592" init_secondary_num="3" />
+  <accessory_main id="566001" group="5660" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56601" init_secondary_num="3" />
+  <accessory_main id="566002" group="5660" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56602" init_secondary_num="3" />
+  <accessory_main id="566003" group="5660" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56603" init_secondary_num="3" />
+  <accessory_main id="566004" group="5660" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56604" init_secondary_num="3" />
+  <accessory_main id="566005" group="5660" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56605" init_secondary_num="3" />
+  <accessory_main id="566101" group="5661" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56611" init_secondary_num="3" />
+  <accessory_main id="566201" group="5662" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56621" init_secondary_num="3" />
+  <accessory_main id="566202" group="5662" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56622" init_secondary_num="3" />
+  <accessory_main id="566203" group="5662" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56623" init_secondary_num="3" />
+  <accessory_main id="566204" group="5662" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56624" init_secondary_num="3" />
+  <accessory_main id="566301" group="5663" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56631" init_secondary_num="3" />
+  <accessory_main id="566302" group="5663" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56632" init_secondary_num="3" />
+  <accessory_main id="566303" group="5663" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56633" init_secondary_num="3" />
+  <accessory_main id="566304" group="5663" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56634" init_secondary_num="3" />
+  <accessory_main id="566305" group="5663" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56635" init_secondary_num="3" />
+  <accessory_main id="566401" group="5664" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56641" init_secondary_num="3" />
+  <accessory_main id="566402" group="5664" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56642" init_secondary_num="3" />
+  <accessory_main id="566501" group="5665" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56651" init_secondary_num="3" />
+  <accessory_main id="566502" group="5665" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56652" init_secondary_num="3" />
+  <accessory_main id="566503" group="5665" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56653" init_secondary_num="3" />
+  <accessory_main id="566504" group="5665" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56654" init_secondary_num="3" />
+  <accessory_main id="566505" group="5665" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56655" init_secondary_num="3" />
+  <accessory_main id="566601" group="5666" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56661" init_secondary_num="3" />
+  <accessory_main id="566701" group="5667" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56671" init_secondary_num="3" />
+  <accessory_main id="566702" group="5667" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56672" init_secondary_num="3" />
+  <accessory_main id="566703" group="5667" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56673" init_secondary_num="3" />
+  <accessory_main id="566704" group="5667" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56674" init_secondary_num="3" />
+  <accessory_main id="566801" group="5668" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56681" init_secondary_num="3" />
+  <accessory_main id="566802" group="5668" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56682" init_secondary_num="3" />
+  <accessory_main id="566803" group="5668" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56683" init_secondary_num="3" />
+  <accessory_main id="566804" group="5668" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56684" init_secondary_num="3" />
+  <accessory_main id="566805" group="5668" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56685" init_secondary_num="3" />
+  <accessory_main id="566901" group="5669" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56691" init_secondary_num="3" />
+  <accessory_main id="566902" group="5669" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56692" init_secondary_num="3" />
+  <accessory_main id="567001" group="5670" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56701" init_secondary_num="3" />
+  <accessory_main id="567002" group="5670" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56702" init_secondary_num="3" />
+  <accessory_main id="567003" group="5670" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56703" init_secondary_num="3" />
+  <accessory_main id="567004" group="5670" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56704" init_secondary_num="3" />
+  <accessory_main id="567005" group="5670" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56705" init_secondary_num="3" />
+  <accessory_main id="567101" group="5671" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56711" init_secondary_num="3" />
+  <accessory_main id="567201" group="5672" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56721" init_secondary_num="3" />
+  <accessory_main id="567202" group="5672" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56722" init_secondary_num="3" />
+  <accessory_main id="567203" group="5672" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56723" init_secondary_num="3" />
+  <accessory_main id="567204" group="5672" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56724" init_secondary_num="3" />
+  <accessory_main id="567301" group="5673" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56731" init_secondary_num="3" />
+  <accessory_main id="567302" group="5673" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56732" init_secondary_num="3" />
+  <accessory_main id="567303" group="5673" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56733" init_secondary_num="3" />
+  <accessory_main id="567304" group="5673" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56734" init_secondary_num="3" />
+  <accessory_main id="567305" group="5673" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56735" init_secondary_num="3" />
+  <accessory_main id="567401" group="5674" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56741" init_secondary_num="3" />
+  <accessory_main id="567402" group="5674" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56742" init_secondary_num="3" />
+  <accessory_main id="567501" group="5675" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56751" init_secondary_num="3" />
+  <accessory_main id="567502" group="5675" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56752" init_secondary_num="3" />
+  <accessory_main id="567503" group="5675" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56753" init_secondary_num="3" />
+  <accessory_main id="567504" group="5675" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56754" init_secondary_num="3" />
+  <accessory_main id="567505" group="5675" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56755" init_secondary_num="3" />
+  <accessory_main id="567601" group="5676" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56761" init_secondary_num="3" />
+  <accessory_main id="567701" group="5677" main_statistic="物理爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56771" init_secondary_num="3" />
+  <accessory_main id="567702" group="5677" main_statistic="魔法爆擊" main_statistic_value="40" main_statistic_grow="4" init_secondary_group="56772" init_secondary_num="3" />
+  <accessory_main id="567703" group="5677" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56773" init_secondary_num="3" />
+  <accessory_main id="567704" group="5677" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56774" init_secondary_num="3" />
+  <accessory_main id="567801" group="5678" main_statistic="物理防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56781" init_secondary_num="3" />
+  <accessory_main id="567802" group="5678" main_statistic="魔法防禦" main_statistic_value="45" main_statistic_grow="5" init_secondary_group="56782" init_secondary_num="3" />
+  <accessory_main id="567803" group="5678" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56783" init_secondary_num="3" />
+  <accessory_main id="567804" group="5678" main_statistic="HP" main_statistic_value="370" main_statistic_grow="70" init_secondary_group="56784" init_secondary_num="3" />
+  <accessory_main id="567805" group="5678" main_statistic="奧義傷害百分比" main_statistic_value="2" main_statistic_grow="0.5" init_secondary_group="56785" init_secondary_num="3" />
+  <accessory_main id="567901" group="5679" main_statistic="物理傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56791" init_secondary_num="3" />
+  <accessory_main id="567902" group="5679" main_statistic="魔法傷害" main_statistic_value="80" main_statistic_grow="9" init_secondary_group="56792" init_secondary_num="3" />
+  <accessory_main id="568001" group="5680" main_statistic="結束回復MP" main_statistic_value="22" main_statistic_grow="1" init_secondary_group="56801" init_secondary_num="3" />
+  <accessory_main id="568002" group="5680" main_statistic="結束回復HP" main_statistic_value="140" main_statistic_grow="20" init_secondary_group="56802" init_secondary_num="3" />
+  <accessory_main id="568003" group="5680" main_statistic="治癒力" main_statistic_value="25" main_statistic_grow="3" init_secondary_group="56803" init_secondary_num="3" />
+  <accessory_main id="568004" group="5680" main_statistic="格檔" main_statistic_value="5" main_statistic_grow="0.5" init_secondary_group="56804" init_secondary_num="3" />
+  <accessory_main id="568005" group="5680" main_statistic="技能傷害百分比" main_statistic_value="3" main_statistic_grow="0.5" init_secondary_group="56805" init_secondary_num="3" />
 </root>

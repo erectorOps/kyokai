@@ -1,323 +1,158 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <root>
-	<banner>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="活動" banner_type="活動" small_banner_img="banner001/220706_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>101</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="活動" banner_type="活動" small_banner_img="banner001/220706_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>501</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="活動" banner_type="活動" small_banner_img="banner001/220706_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>502</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="活動" banner_type="活動" small_banner_img="banner001/220706_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>901</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="活動" banner_type="活動" small_banner_img="banner001/220706_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>902</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="活動" banner_type="活動" small_banner_img="banner001/220706_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>1001</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="活動" banner_type="活動" small_banner_img="banner001/220706_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>2105</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="活動" banner_type="活動" small_banner_img="banner001/220706_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>3105</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="活動" banner_type="活動" small_banner_img="banner001/220706_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>40001</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="活動" banner_type="活動" small_banner_img="banner001/220706_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>50000</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="活動" banner_type="活動" small_banner_img="banner001/220706_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>50011</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="活動" banner_type="活動" small_banner_img="banner001/220706_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>60001</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="活動" banner_type="活動" small_banner_img="banner001/220706_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>600001</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="活動" banner_type="活動" small_banner_img="banner001/220706_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>114</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="活動" banner_type="活動" small_banner_img="banner001/220706_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>610001</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="活動" banner_type="冒險" small_banner_img="banner001/220915_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="活動" banner_type="遺跡" small_banner_img="banner001/220915_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="活動" banner_type="素材回收" small_banner_img="banner001/220915_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="活動" banner_type="RAID" small_banner_img="banner001/220915_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="活動" banner_type="限界戰" small_banner_img="banner001/220915_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="活動" banner_type="公會戰" small_banner_img="banner001/220915_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="活動" banner_type="競技場" small_banner_img="banner001/220915_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="活動" banner_type="外部連結" small_banner_img="banner001/220915_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>https://www.google.com/</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="商品" banner_type="戰鬥通行證" small_banner_img="banner001/220915_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="商品" banner_type="成長基金" small_banner_img="banner001/220706_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="商品" banner_type="商品" small_banner_img="banner001/220915_02_320x88" big_banner_img="activity-banner/公告大banner03_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>kyoWEB_sv_120</function_val>
-		<function_val>kyoWEB_new</function_val>
-		<function_val>kyoWEB_time_1</function_val>
-	</banner>
-	<banner>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="募集" banner_type="募集" small_banner_img="banner001/SSR確定召喚_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>3</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner page="主線" banner_type="主線最新進度" small_banner_img="banner001/220915_02_320x88" big_banner_img="activity-banner/公告大banner01_804x434" start_time="2021/8/25 00:00:00" end_time="2024/8/25 00:00:00">
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="1" page="お得" banner_type="冒險" small_banner_img="activity-banner-2033/おπの日_320x88" big_banner_img="activity-banner-2033/おπの日_804x434">
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="2" page="召喚" banner_type="募集" small_banner_img="activity-banner-2033/Step召喚_おπの日_320x88" big_banner_img="activity-banner-2033/Step召喚_おπの日_804x434">
-		<function_val>87</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="3" page="召喚" banner_type="募集" small_banner_img="activity-banner-2033/Step召喚_おπの日_有償限定_320x88" big_banner_img="activity-banner-2033/Step召喚_おπの日_有償限定_804x434">
-		<function_val>88</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="4" page="召喚" banner_type="募集" small_banner_img="activity-banner-2033/召喚_おπの日_SSR確定おまけ付き召喚_320x88" big_banner_img="activity-banner-2033/召喚_おπの日_SSR確定おまけ付き召喚_804x434">
-		<function_val>82</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="5" page="お得" banner_type="商品" small_banner_img="activity-banner-2033/活動SET4_運試しセットA_320x88" big_banner_img="activity-banner-2033/活動SET4_運試しセットA_804x434">
-		<function_val>kyoweb_oppai_gacha1</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="6" page="お得" banner_type="商品" small_banner_img="activity-banner-2033/活動SET5_運試しセットB_320x88" big_banner_img="activity-banner-2033/活動SET5_運試しセットB_804x434">
-		<function_val>kyoweb_oppai_gacha2</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="7" page="お得" banner_type="商品" small_banner_img="activity-banner-2033/活動SET8_晶石セット_320x88" big_banner_img="activity-banner-2033/活動SET8_晶石セット_804x434">
-		<function_val>kyoweb_oppai_gacha3</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="8" page="お得" banner_type="活動" small_banner_img="activity-banner-2079/活動_Fanzine_320x88" big_banner_img="activity-banner-2079/活動_Fanzine_804x434">
-		<function_val>900080</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="9" page="お得" banner_type="限界戰" small_banner_img="activity-banner-2079/活動_競撃戦・火_320x88" big_banner_img="activity-banner-2079/活動_競撃戦・火_804x434">
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="10" page="召喚" banner_type="募集" small_banner_img="activity-banner-2079/召喚_Fanzine_320x88" big_banner_img="activity-banner-2079/召喚_Fanzine_804x434">
-		<function_val>192</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="11" page="召喚" banner_type="募集" small_banner_img="activity-banner-2079/屬性pickup召喚_競撃戦応援_320x88" big_banner_img="activity-banner-2079/屬性pickup召喚_競撃戦応援_804x434">
-		<function_val>193</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="12" page="お得" banner_type="商品" small_banner_img="activity-banner-2079/活動SET_Fanzine_召喚チケットセット_320x88" big_banner_img="activity-banner-2079/活動SET_Fanzine_召喚チケットセット_804x434">
-		<function_val>kyoweb_event57_1</function_val>
-		<function_val>kyoweb_event57_2</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="13" page="お得" banner_type="商品" small_banner_img="activity-banner-2079/活動SET_Fanzine_APセット_320x88" big_banner_img="activity-banner-2079/活動SET_Fanzine_APセット_804x434">
-		<function_val>kyoweb_event57_3</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="14" page="お得" banner_type="商品" small_banner_img="activity-banner-2079/活動SET_Fanzine_育成セット_320x88" big_banner_img="activity-banner-2079/活動SET_Fanzine_育成セット_804x434">
-		<function_val>kyoweb_event57_4</function_val>
-		<function_val>kyoweb_event57_5</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="15" page="お得" banner_type="商品" small_banner_img="activity-banner-2079/活動SET_Fanzine_ミニゲームセット_320x88" big_banner_img="activity-banner-2079/活動SET_Fanzine_ミニゲームセット_804x434">
-		<function_val>kyoweb_event57_6</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="16" page="お得" banner_type="商品" small_banner_img="activity-banner-2079/活動SET_競撃戦・火_攻略応援セット_320x88" big_banner_img="activity-banner-2079/活動SET_競撃戦・火_攻略応援セット_804x434">
-		<function_val>kyoweb_keigeki_water6_1</function_val>
-		<function_val>kyoweb_keigeki_water6_2</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="17" page="お得" banner_type="主線最新進度" small_banner_img="activity-banner-2077/活動_14章解放_320x88" big_banner_img="activity-banner-2077/活動_14章解放_804x434">
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="18" page="お得" banner_type="活動" small_banner_img="activity-banner-2079/活動PASS_Fanzine_320x88" big_banner_img="activity-banner-2079/活動PASS_Fanzine_804x434">
-		<function_val>600064</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="19" page="お得" banner_type="戰鬥通行證" small_banner_img="activity-banner-2076/季PASS_シーズンパス_320x88" big_banner_img="activity-banner-2076/季PASS_シーズンパス_804x434">
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="20" page="お得" banner_type="VIP月卡" small_banner_img="activity-banner-2025/ぶるんぶるんパス_320x88" big_banner_img="activity-banner-2025/ぶるんぶるんパス_804x434">
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="21" page="お得" banner_type="成長基金" small_banner_img="activity-banner-2057/公告_ランクアップ応援プラン1_320x88" big_banner_img="activity-banner-2057/公告_ランクアップ応援プラン1_804x434">
-		<function_val>level_quest1</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="22" page="お得" banner_type="成長基金" small_banner_img="activity-banner-2057/公告_ランクアップ応援プラン2_320x88" big_banner_img="activity-banner-2057/公告_ランクアップ応援プラン2_804x434">
-		<function_val>level_quest2</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="23" page="お得" banner_type="商品" small_banner_img="banner001/公告_7日パス_320x88" big_banner_img="banner-pass/公告_7日パス_804x434">
-		<function_val>kyoWEB_week_pass</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="24" page="お得" banner_type="商品" small_banner_img="banner001/公告_30日パス_320x88" big_banner_img="banner-pass/公告_30日パス_804x434">
-		<function_val>kyoWEB_monthly_pass</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="25" page="お得" banner_type="商品" small_banner_img="banner001/公告_30日ゴールドパス_320x88" big_banner_img="banner-pass/公告_30日ゴールドパス_804x434">
-		<function_val>kyoWEB_gold_monthly_pass</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
-	<banner id="26" page="召喚" banner_type="募集" small_banner_img="banner001/初心者応援召喚_320x88" big_banner_img="activity-banner/初心者半額ガチャ_804x434">
-		<function_val>5</function_val>
-		<function_val>0</function_val>
-		<function_val>0</function_val>
-	</banner>
+  <banner id="1" page="お得" banner_type="冒險" small_banner_img="activity-banner-2033/おπの日_320x88" big_banner_img="activity-banner-2033/おπの日_804x434">
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="2" page="召喚" banner_type="募集" small_banner_img="activity-banner-2033/Step召喚_おπの日_320x88" big_banner_img="activity-banner-2033/Step召喚_おπの日_804x434">
+    <function_val>87</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="3" page="召喚" banner_type="募集" small_banner_img="activity-banner-2033/Step召喚_おπの日_有償限定_320x88" big_banner_img="activity-banner-2033/Step召喚_おπの日_有償限定_804x434">
+    <function_val>88</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="4" page="召喚" banner_type="募集" small_banner_img="activity-banner-2033/召喚_おπの日_SSR確定おまけ付き召喚_320x88" big_banner_img="activity-banner-2033/召喚_おπの日_SSR確定おまけ付き召喚_804x434">
+    <function_val>82</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="5" page="お得" banner_type="商品" small_banner_img="activity-banner-2033/活動SET4_運試しセットA_320x88" big_banner_img="activity-banner-2033/活動SET4_運試しセットA_804x434">
+    <function_val>kyoweb_oppai_gacha1</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="6" page="お得" banner_type="商品" small_banner_img="activity-banner-2033/活動SET5_運試しセットB_320x88" big_banner_img="activity-banner-2033/活動SET5_運試しセットB_804x434">
+    <function_val>kyoweb_oppai_gacha2</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="7" page="お得" banner_type="商品" small_banner_img="activity-banner-2033/活動SET8_晶石セット_320x88" big_banner_img="activity-banner-2033/活動SET8_晶石セット_804x434">
+    <function_val>kyoweb_oppai_gacha3</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="8" page="お得" banner_type="冒險" small_banner_img="activity-banner-2080/活動_PLAYER版リリース1周年記念_320x88" big_banner_img="activity-banner-2080/活動_PLAYER版リリース1周年記念_804x434">
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="9" page="お得" banner_type="活動" small_banner_img="activity-banner-2080/活動_プエリアに、微笑みを_320x88" big_banner_img="activity-banner-2080/活動_プエリアに、微笑みを_804x434">
+    <function_val>900082</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="10" page="お得" banner_type="冒險" small_banner_img="activity-banner-2080/活動_覚醒解放_320x88" big_banner_img="activity-banner-2080/活動_覚醒解放_804x434">
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="11" page="お得" banner_type="限界戰" small_banner_img="activity-banner-2079/活動_競撃戦・火_320x88" big_banner_img="activity-banner-2079/活動_競撃戦・火_804x434">
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="12" page="召喚" banner_type="募集" small_banner_img="activity-banner-2080/Step召喚_PLAY版リリース1周年記念_320x88" big_banner_img="activity-banner-2080/Step召喚_PLAY版リリース1周年記念_804x434">
+    <function_val>196</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="13" page="召喚" banner_type="募集" small_banner_img="activity-banner-2080/Step召喚_覚醒解放記念テレシア_320x88" big_banner_img="activity-banner-2080/Step召喚_覚醒解放記念テレシア_804x434">
+    <function_val>195</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="14" page="召喚" banner_type="募集" small_banner_img="activity-banner-2080/召喚_プエリアに、微笑みを_320x88" big_banner_img="activity-banner-2080/召喚_プエリアに、微笑みを_804x434">
+    <function_val>194</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="15" page="召喚" banner_type="募集" small_banner_img="activity-banner-2079/屬性pickup召喚_競撃戦応援_320x88" big_banner_img="activity-banner-2079/屬性pickup召喚_競撃戦応援_804x434">
+    <function_val>193</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="16" page="お得" banner_type="商品" small_banner_img="activity-banner-2080/活動SET_プエリアに、微笑みを_召喚チケットセット_320x88" big_banner_img="activity-banner-2080/活動SET_プエリアに、微笑みを_召喚チケットセット_804x434">
+    <function_val>kyoweb_event58_1</function_val>
+    <function_val>kyoweb_event58_2</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="17" page="お得" banner_type="商品" small_banner_img="activity-banner-2080/活動SET_プエリアに、微笑みを_イベントセット_320x88" big_banner_img="activity-banner-2080/活動SET_プエリアに、微笑みを_イベントセット_804x434">
+    <function_val>kyoweb_event58_3</function_val>
+    <function_val>kyoweb_event58_4</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="18" page="お得" banner_type="商品" small_banner_img="activity-banner-2080/活動SET_PLAYER版リリース1周年記念_ウルティマセット_320x88" big_banner_img="activity-banner-2080/活動SET_PLAYER版リリース1周年記念_ウルティマセット_804x434">
+    <function_val>kyoweb_dgp1year1</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="19" page="お得" banner_type="商品" small_banner_img="activity-banner-2080/活動SET_PLAYER版リリース1周年記念_特別パス_320x88" big_banner_img="activity-banner-2080/活動SET_PLAYER版リリース1周年記念_特別パス_804x434">
+    <function_val>kyoweb_dgp1year2</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="20" page="お得" banner_type="商品" small_banner_img="activity-banner-2080/活動SET_覚醒実装記念_お得セット_320x88" big_banner_img="activity-banner-2080/活動SET_覚醒実装記念_お得セット_804x434">
+    <function_val>kyoweb_awakening4</function_val>
+    <function_val>kyoweb_awakening5</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="21" page="お得" banner_type="商品" small_banner_img="activity-banner-2079/活動SET_競撃戦・火_攻略応援セット_320x88" big_banner_img="activity-banner-2079/活動SET_競撃戦・火_攻略応援セット_804x434">
+    <function_val>kyoweb_keigeki_water6_1</function_val>
+    <function_val>kyoweb_keigeki_water6_2</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="22" page="お得" banner_type="主線最新進度" small_banner_img="activity-banner-2077/活動_14章解放_320x88" big_banner_img="activity-banner-2077/活動_14章解放_804x434">
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="23" page="お得" banner_type="活動" small_banner_img="activity-banner-2080/活動PASS_プエリアに、微笑みを_320x88" big_banner_img="activity-banner-2080/活動PASS_プエリアに、微笑みを_804x434">
+    <function_val>600065</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="24" page="お得" banner_type="戰鬥通行證" small_banner_img="activity-banner-2076/季PASS_シーズンパス_320x88" big_banner_img="activity-banner-2076/季PASS_シーズンパス_804x434">
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="25" page="お得" banner_type="VIP月卡" small_banner_img="activity-banner-2025/ぶるんぶるんパス_320x88" big_banner_img="activity-banner-2025/ぶるんぶるんパス_804x434">
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="26" page="お得" banner_type="成長基金" small_banner_img="activity-banner-2057/公告_ランクアップ応援プラン1_320x88" big_banner_img="activity-banner-2057/公告_ランクアップ応援プラン1_804x434">
+    <function_val>level_quest1</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="27" page="お得" banner_type="成長基金" small_banner_img="activity-banner-2057/公告_ランクアップ応援プラン2_320x88" big_banner_img="activity-banner-2057/公告_ランクアップ応援プラン2_804x434">
+    <function_val>level_quest2</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="28" page="お得" banner_type="商品" small_banner_img="banner001/公告_7日パス_320x88" big_banner_img="banner-pass/公告_7日パス_804x434">
+    <function_val>kyoWEB_week_pass</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="29" page="お得" banner_type="商品" small_banner_img="banner001/公告_30日パス_320x88" big_banner_img="banner-pass/公告_30日パス_804x434">
+    <function_val>kyoWEB_monthly_pass</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="30" page="お得" banner_type="商品" small_banner_img="banner001/公告_30日ゴールドパス_320x88" big_banner_img="banner-pass/公告_30日ゴールドパス_804x434">
+    <function_val>kyoWEB_gold_monthly_pass</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
+  <banner id="31" page="召喚" banner_type="募集" small_banner_img="banner001/初心者応援召喚_320x88" big_banner_img="activity-banner/初心者半額ガチャ_804x434">
+    <function_val>5</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </banner>
 </root>

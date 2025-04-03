@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <root>
-	<system_lock id="101" system_type="素材回收" unlock_player_level="5" hint="素材回收開放"/>
-	<system_lock id="102" system_type="遺跡關卡" unlock_player_level="10" hint="遺跡關卡開放"/>
-	<system_lock id="103" system_type="玩家技能等級強化" unlock_player_level="11" hint="玩家技能等級強化"/>
-	<system_lock id="104" system_type="迷宮塔" unlock_player_level="13" hint="迷宮塔開放"/>
-	<system_lock id="105" system_type="RAID戰" unlock_player_level="15" hint="RAID戰開放"/>
-	<system_lock id="106" system_type="公會" unlock_player_level="18" hint="公會開放"/>
-	<system_lock id="107" system_type="競技場" unlock_player_level="20" hint="競技場開放"/>
-	<system_lock id="108" system_type="大型競技場" unlock_player_level="40" hint="大型競技場開放"/>
-	<system_lock id="109" system_type="競擊戰" unlock_player_level="35" hint="競擊戰開放"/>
+  <system_lock id="101" system_type="素材回收" unlock_stage="0" unlock_player_level="5" hint="素材回收開放" />
+  <system_lock id="102" system_type="遺跡關卡" unlock_stage="0" unlock_player_level="10" hint="遺跡關卡開放" />
+  <system_lock id="103" system_type="玩家技能等級強化" unlock_stage="0" unlock_player_level="11" hint="玩家技能等級強化" />
+  <system_lock id="104" system_type="迷宮塔" unlock_stage="0" unlock_player_level="13" hint="迷宮塔開放" />
+  <system_lock id="105" system_type="RAID戰" unlock_stage="0" unlock_player_level="15" hint="RAID戰開放" />
+  <system_lock id="106" system_type="公會" unlock_stage="0" unlock_player_level="18" hint="公會開放" />
+  <system_lock id="107" system_type="競技場" unlock_stage="0" unlock_player_level="20" hint="競技場開放" />
+  <system_lock id="108" system_type="大型競技場" unlock_stage="0" unlock_player_level="40" hint="大型競技場開放" />
+  <system_lock id="109" system_type="競擊戰" unlock_stage="0" unlock_player_level="35" hint="競擊戰開放" />
 </root>

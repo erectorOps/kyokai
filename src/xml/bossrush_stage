@@ -1,63 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <root>
-	<bossrush_stage id="9000541" name="Normal" bg="area1007/100701" battle_map="100701/100701" first_pass_item_id="72" first_pass_item_num="100" limit_sec="120" monster_group_id="1" b_need_sec="90" a_need_sec="70" s_need_sec="50" ss_need_sec="30" c_get_point="300" b_get_point="400" a_get_point="500" s_get_point="600" ss_get_point="900">
-		<stage_buff_group>205801</stage_buff_group>
-		<stage_buff_second>0</stage_buff_second>
-		<stage_buff_group>0</stage_buff_group>
-		<stage_buff_second>0</stage_buff_second>
-		<stage_buff_group>0</stage_buff_group>
-		<stage_buff_second>0</stage_buff_second>
-		<stage_buff_group>0</stage_buff_group>
-		<stage_buff_second>0</stage_buff_second>
-	</bossrush_stage>
-	<bossrush_stage id="9000542" name="Hard" bg="area1007/100701" battle_map="100701/100701" first_pass_item_id="72" first_pass_item_num="100" limit_sec="120" monster_group_id="2" b_need_sec="90" a_need_sec="70" s_need_sec="50" ss_need_sec="30" c_get_point="400" b_get_point="600" a_get_point="700" s_get_point="900" ss_get_point="1200">
-		<stage_buff_group>205801</stage_buff_group>
-		<stage_buff_second>0</stage_buff_second>
-		<stage_buff_group>0</stage_buff_group>
-		<stage_buff_second>0</stage_buff_second>
-		<stage_buff_group>0</stage_buff_group>
-		<stage_buff_second>0</stage_buff_second>
-		<stage_buff_group>0</stage_buff_group>
-		<stage_buff_second>0</stage_buff_second>
-	</bossrush_stage>
-	<bossrush_stage id="9000543" name="Extra" bg="area1007/100701" battle_map="100701/100701" first_pass_item_id="72" first_pass_item_num="100" limit_sec="120" monster_group_id="3" b_need_sec="90" a_need_sec="70" s_need_sec="50" ss_need_sec="30" c_get_point="600" b_get_point="800" a_get_point="1000" s_get_point="1200" ss_get_point="1500">
-		<stage_buff_group>205801</stage_buff_group>
-		<stage_buff_second>0</stage_buff_second>
-		<stage_buff_group>0</stage_buff_group>
-		<stage_buff_second>0</stage_buff_second>
-		<stage_buff_group>0</stage_buff_group>
-		<stage_buff_second>0</stage_buff_second>
-		<stage_buff_group>0</stage_buff_group>
-		<stage_buff_second>0</stage_buff_second>
-	</bossrush_stage>
-	<bossrush_stage id="9000721" name="Normal" bg="area1005/100503" battle_map="101303/101303" first_pass_item_id="72" first_pass_item_num="100" limit_sec="120" monster_group_id="1" b_need_sec="90" a_need_sec="70" s_need_sec="50" ss_need_sec="30" c_get_point="300" b_get_point="400" a_get_point="500" s_get_point="600" ss_get_point="900">
-		<stage_buff_group>207301</stage_buff_group>
-		<stage_buff_second>0</stage_buff_second>
-		<stage_buff_group>0</stage_buff_group>
-		<stage_buff_second>0</stage_buff_second>
-		<stage_buff_group>0</stage_buff_group>
-		<stage_buff_second>0</stage_buff_second>
-		<stage_buff_group>0</stage_buff_group>
-		<stage_buff_second>0</stage_buff_second>
-	</bossrush_stage>
-	<bossrush_stage id="9000722" name="Hard" bg="area1005/100503" battle_map="101303/101303" first_pass_item_id="72" first_pass_item_num="100" limit_sec="120" monster_group_id="2" b_need_sec="90" a_need_sec="70" s_need_sec="50" ss_need_sec="30" c_get_point="400" b_get_point="600" a_get_point="700" s_get_point="900" ss_get_point="1200">
-		<stage_buff_group>207302</stage_buff_group>
-		<stage_buff_second>0</stage_buff_second>
-		<stage_buff_group>0</stage_buff_group>
-		<stage_buff_second>0</stage_buff_second>
-		<stage_buff_group>0</stage_buff_group>
-		<stage_buff_second>0</stage_buff_second>
-		<stage_buff_group>0</stage_buff_group>
-		<stage_buff_second>0</stage_buff_second>
-	</bossrush_stage>
-	<bossrush_stage id="9000723" name="Extra" bg="area1005/100503" battle_map="101303/101303" first_pass_item_id="72" first_pass_item_num="100" limit_sec="120" monster_group_id="3" b_need_sec="90" a_need_sec="70" s_need_sec="50" ss_need_sec="30" c_get_point="600" b_get_point="800" a_get_point="1000" s_get_point="1200" ss_get_point="1500">
-		<stage_buff_group>207303</stage_buff_group>
-		<stage_buff_second>0</stage_buff_second>
-		<stage_buff_group>0</stage_buff_group>
-		<stage_buff_second>0</stage_buff_second>
-		<stage_buff_group>0</stage_buff_group>
-		<stage_buff_second>0</stage_buff_second>
-		<stage_buff_group>0</stage_buff_group>
-		<stage_buff_second>0</stage_buff_second>
-	</bossrush_stage>
+  <bossrush_stage id="9000541" name="Normal" bg="area1007/100701" battle_map="100701/100701" monster_group_id="1" first_pass_item_id="72" first_pass_item_num="100" limit_sec="120" b_need_sec="90" a_need_sec="70" s_need_sec="50" ss_need_sec="30" c_get_point="300" b_get_point="400" a_get_point="500" s_get_point="600" ss_get_point="900">
+    <stage_buff_group>205801</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+  </bossrush_stage>
+  <bossrush_stage id="9000542" name="Hard" bg="area1007/100701" battle_map="100701/100701" monster_group_id="2" first_pass_item_id="72" first_pass_item_num="100" limit_sec="120" b_need_sec="90" a_need_sec="70" s_need_sec="50" ss_need_sec="30" c_get_point="400" b_get_point="600" a_get_point="700" s_get_point="900" ss_get_point="1200">
+    <stage_buff_group>205801</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+  </bossrush_stage>
+  <bossrush_stage id="9000543" name="Extra" bg="area1007/100701" battle_map="100701/100701" monster_group_id="3" first_pass_item_id="72" first_pass_item_num="100" limit_sec="120" b_need_sec="90" a_need_sec="70" s_need_sec="50" ss_need_sec="30" c_get_point="600" b_get_point="800" a_get_point="1000" s_get_point="1200" ss_get_point="1500">
+    <stage_buff_group>205801</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+  </bossrush_stage>
+  <bossrush_stage id="9000721" name="Normal" bg="area1005/100503" battle_map="101303/101303" monster_group_id="1" first_pass_item_id="72" first_pass_item_num="100" limit_sec="120" b_need_sec="90" a_need_sec="70" s_need_sec="50" ss_need_sec="30" c_get_point="300" b_get_point="400" a_get_point="500" s_get_point="600" ss_get_point="900">
+    <stage_buff_group>207301</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+  </bossrush_stage>
+  <bossrush_stage id="9000722" name="Hard" bg="area1005/100503" battle_map="101303/101303" monster_group_id="2" first_pass_item_id="72" first_pass_item_num="100" limit_sec="120" b_need_sec="90" a_need_sec="70" s_need_sec="50" ss_need_sec="30" c_get_point="400" b_get_point="600" a_get_point="700" s_get_point="900" ss_get_point="1200">
+    <stage_buff_group>207302</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+  </bossrush_stage>
+  <bossrush_stage id="9000723" name="Extra" bg="area1005/100503" battle_map="101303/101303" monster_group_id="3" first_pass_item_id="72" first_pass_item_num="100" limit_sec="120" b_need_sec="90" a_need_sec="70" s_need_sec="50" ss_need_sec="30" c_get_point="600" b_get_point="800" a_get_point="1000" s_get_point="1200" ss_get_point="1500">
+    <stage_buff_group>207303</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+  </bossrush_stage>
 </root>
