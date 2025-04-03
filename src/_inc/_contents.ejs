@@ -1,7 +1,7 @@
 <div id="breadcrumb">
   <div id="breadcrumb-in">
-    <div><a href="../../">巨乳解体トップ</a><span class="arrow"></span></div>
-    <div><a href="../../"><%= page['parent_title'] %></a><span class="arrow"></span></div>
+    <div><a href="<%= baseUrl %>">巨乳解体トップ</a><span class="arrow"></span></div>
+    <div><a href="<%= baseUrl %>"><%= page['parent_title'] %></a><span class="arrow"></span></div>
     <div><span id="bread_now"><%- page['name'] %></span></div>
   </div>
 </div>
@@ -181,23 +181,23 @@
           </tbody>
       </tbody>
   </table>
-    <p class="s-paragraph">※各項目は聖騎士Lv、スキル、アビリティ、奥義、絆、覚醒、を最大育成し、パッシブ効果を加えた能力値です。</p>
-    <% if (page['merit']) { %>
-      <h2 class="s-header--2"><%- page['name'] %>の評価</h2>
-      <table class="s-table rank-table">
-        <tr><th class="rank-th">評価</th></tr>
-        <tr><td class="<%= page['rank_class'] %>"><span class="rank"><%= page['rank_text'] %></span>ランク</td></tr>
-      </table>
-      <h3 class="s-header--3"><%- page['name'] %>の強み・弱み</h3>
-      <table class="s-table">
-        <tr><th class="rank-th"><%- page['name'] %>の<span style="color:red">強み</span></th></tr>
-        <% for (const merit of page['merit']) { %>
-        <tr><td><%- merit.replace(/,/ig, "<br>") %></td></tr>
-        <% } %>
-        <tr><th class="rank-th"><%- page['name'] %>の<span style="color:blue">弱み</span></th></tr>
-        <% for (const demerit of page['demerit']) { %>
-          <tr><td><%- demerit.replace(/,/ig, "<br>") %></td></tr>
-        <% } %>
-      </table>
+  <p class="s-paragraph">※各項目は聖騎士Lv、スキル、アビリティ、奥義、絆、覚醒、を最大育成し、パッシブ効果を加えた能力値です。</p>
+  <% if (page['merit']) { %>
+    <h2 class="s-header--2"><%- page['name'] %>の評価</h2>
+    <table class="s-table rank-table">
+      <tr><th class="rank-th">評価</th></tr>
+      <tr><td class="<%= page['rank_class'] %>"><span class="rank"><%= page['rank_text'] %></span>ランク</td></tr>
+    </table>
+    <h3 class="s-header--3"><%- page['name'] %>の強み・弱み</h3>
+    <table class="s-table">
+      <tr><th class="rank-th"><%- page['name'] %>の<span style="color:red">強み</span></th></tr>
+      <% for (const merit of page['merit']) { %>
+      <tr><td><%- merit.replace(/,/ig, "<br>") %></td></tr>
       <% } %>
+      <tr><th class="rank-th"><%- page['name'] %>の<span style="color:blue">弱み</span></th></tr>
+      <% for (const demerit of page['demerit']) { %>
+        <tr><td><%- demerit.replace(/,/ig, "<br>") %></td></tr>
+      <% } %>
+    </table>
+  <% } %>
 </div>
