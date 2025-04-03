@@ -67,14 +67,14 @@ export class HeroContents {
             json.added_date = gachaTypeEntity['@_added_date'] ?? "";
             json.obtain = gachaTypeEntity['@_obtain'] ?? "";
 
-            if (gachaTypeEntity.review) {
-              json.rank_text = gachaTypeEntity.review['@_rank'];
-              json.rank_class = "rank-" + json.rank_text[0].toLowerCase();
-              json.merit = gachaTypeEntity.review.merit ?? [];
-              if (!Array.isArray(json.merit)) { json.merit = [json.merit]; }
-              json.demerit = gachaTypeEntity.review.demerit ?? [];
-              if (!Array.isArray(json.demerit)) { json.demerit = [json.demerit]; }
-            }
+            // if (gachaTypeEntity.review) {
+            //   json.rank_text = gachaTypeEntity.review['@_rank'];
+            //   json.rank_class = "rank-" + json.rank_text[0].toLowerCase();
+            //   json.merit = gachaTypeEntity.review.merit ?? [];
+            //   if (!Array.isArray(json.merit)) { json.merit = [json.merit]; }
+            //   json.demerit = gachaTypeEntity.review.demerit ?? [];
+            //   if (!Array.isArray(json.demerit)) { json.demerit = [json.demerit]; }
+            // }
           }
       
       
