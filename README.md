@@ -1,1 +1,1 @@
-https://erectorops.github.ip/kyokai
+https://erectorops.github.io/kyokai
