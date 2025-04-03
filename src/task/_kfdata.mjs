@@ -8,14 +8,9 @@ export class KFData
 {
   constructor() {
     const dirpath = srcBase + '/xml';
-    const ridepath = srcBase + "/override_xml";
     const dir = fs.readdirSync(dirpath);
     for (const file of dir) {
       let fullpath = path.join(dirpath, file);
-
-      if (fs.existsSync(path.join(ridepath, file))) {
-        fullpath = path.join(ridepath, file);
-      }
       this[file] = parser.parse(fs.readFileSync(fullpath, 'utf8'));
     }
   }
