@@ -161,7 +161,7 @@ const parseBuff = (buff, lv, info) => {
           break;
 
       case 'MP回復':
-        if (info.duration) {
+        if (info.duration && info.duration !== "0") {
           text += "毎秒MP";
         } else {
           text += "MP";
@@ -305,7 +305,7 @@ const parseBuff = (buff, lv, info) => {
       case '次數傷害吸收':
         text += `${val2.lt(999) ? "回数付" : ""}${val3.gt(0) ? "回復" : ""}バリア(${span}${val1.toString()}%`;
         if (val4.plus(val5.mul(lv)).gt(0)) {
-          text += `+${val4.plus(val5.mul(lv)).toString()}$`;
+          text += `+${val4.plus(val5.mul(lv)).toString()}`;
         }
         text += `${spanEnd}`;
         if (val3.gt(0)) {
@@ -396,7 +396,8 @@ const parseBuff = (buff, lv, info) => {
           break;
 
       case '次數傷害加成':
-        text += `回数付ダメージUP(${span}${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}${spanEnd}`;
+        text += val2.lt(999) ? "回数付" : "";
+        text += `ダメージUP(${span}${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}${spanEnd}`;
         if (val2.lt(999)) {
           text += `、${spanN}${val2.toString()}${spanEnd}回`;
         }
@@ -404,7 +405,8 @@ const parseBuff = (buff, lv, info) => {
           break;
 
       case '物理次數傷害加成':
-        text += `回数付物理ダメージUP(${span}${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}${spanEnd}`;
+        text += val2.lt(999) ? "回数付" : "";
+        text += `物理ダメージUP(${span}${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}${spanEnd}`;
         if (val2.lt(999)) {
           text += `、${spanN}${val2.toString()}${spanEnd}回`;
         }
@@ -412,7 +414,8 @@ const parseBuff = (buff, lv, info) => {
           break;
 
       case '魔法次數傷害加成':
-        text += `回数付魔法ダメージUP(${span}${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}${spanEnd}`;
+        text += val2.lt(999) ? "回数付" : "";
+        text += `魔法ダメージUP(${span}${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}${spanEnd}`;
         if (val2.lt(999)) {
           text += `、${spanN}${val2.toString()}${spanEnd}回`;
         }
@@ -555,27 +558,27 @@ const parseBuff = (buff, lv, info) => {
           break;
 
       case '受到風屬性傷害上升或下降':
-          text += `風属性の敵からの被ダメージ${span}${val1.abs().toString()}${spanEnd}${val1.gt(0) ? "UP" : "DOWN"}`;
+          text += `風属性の敵からの被ダメージ${span}${val1.abs().toString()}%${spanEnd}${val1.gt(0) ? "UP" : "DOWN"}`;
           break;
 
       case '受到水屬性傷害上升或下降':
-          text += `水属性の敵からの被ダメージ${span}${val1.abs().toString()}${spanEnd}${val1.gt(0) ? "UP" : "DOWN"}`;
+          text += `水属性の敵からの被ダメージ${span}${val1.abs().toString()}%${spanEnd}${val1.gt(0) ? "UP" : "DOWN"}`;
           break;
 
       case '受到火屬性傷害上升或下降':
-          text += `火属性の敵からの被ダメージ${span}${val1.abs().toString()}${spanEnd}${val1.gt(0) ? "UP" : "DOWN"}`;
+          text += `火属性の敵からの被ダメージ${span}${val1.abs().toString()}%${spanEnd}${val1.gt(0) ? "UP" : "DOWN"}`;
           break;
 
       case '受到聖屬性傷害上升或下降':
-          text += `聖属性の敵からの被ダメージ${span}${val1.abs().toString()}${spanEnd}${val1.gt(0) ? "UP" : "DOWN"}`;
+          text += `聖属性の敵からの被ダメージ${span}${val1.abs().toString()}%${spanEnd}${val1.gt(0) ? "UP" : "DOWN"}`;
           break;
 
       case '受到魔屬性傷害上升或下降':
-          text += `魔属性の敵からの被ダメージ${span}${val1.abs().toString()}${spanEnd}${val1.gt(0) ? "UP" : "DOWN"}`;
+          text += `魔属性の敵からの被ダメージ${span}${val1.abs().toString()}%${spanEnd}${val1.gt(0) ? "UP" : "DOWN"}`;
           break;
 
       case '受到想屬性傷害上升或下降':
-          text += `想属性の敵からの被ダメージ${span}${val1.abs().toString()}${spanEnd}${val1.gt(0) ? "UP" : "DOWN"}`;
+          text += `想属性の敵からの被ダメージ${span}${val1.abs().toString()}%${spanEnd}${val1.gt(0) ? "UP" : "DOWN"}`;
           break;
 
       case '技能傷害加成無效':
@@ -699,8 +702,8 @@ export const parseSkill = (sid, lv, kf) => {
     time: "",
     time2: "",
     icon: s['@_icon'],
-    text: text,
-    name: s[`@_name`].replace(/<ruby=(.+?)>(.+?)<\/ruby>/ig, "<ruby>$2<rt>$1</rt></ruby>")
+    text: text.replace(/&#xD;/ig, "").replace(/&#xA;/ig, "<br>"),
+    name: s[`@_name`].replace(/&#x[AD];/ig, "").replace(/<ruby=(.+?)>(.+?)<\/ruby>/ig, "<ruby>$2<rt>$1</rt></ruby>")
   };
 
   if (s['@_freeze_time'] && waitShowTime) {
