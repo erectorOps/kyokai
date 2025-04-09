@@ -162,17 +162,33 @@ a img {
     position: relative;
 }
 
+.loop-text::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2215%22%20height%3D%2210%22%20viewBox%3D%220%2C%200%2C%2015%2C%2010%22%3E%3Cpath%20d%3D%22M0%200%20L0%2010%20L15%2010%20Z%22%20fill%3D%22%23de6208%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+
+    background-position: left 0 bottom 0;
+    background-repeat: no-repeat;
+    background-size: 15px 10px;
+    position: absolute;
+    margin: 0;
+    transform: translateX(-17px) translateY(4px);
+}
+
 .loop-text {
     position:absolute;
     top: 0;
     right: 0;
     font-size: 1em;
     margin: 0;
-    padding: 0 0.4em;
+    padding: 0 3px 0 17px;
     color: #de6308;
     font-weight: bold;
-    transform: translateY(-70%) translateX(-1em);
+    transform: translateY(-14px) translateX(-1em);
     background-color: white;
+    line-height: 17px;
 }
 
 .table-scroll {
