@@ -1311,4 +1311,42 @@
     <talent_slot>4000180</talent_slot>
     <talent_slot>4000190</talent_slot>
   </activity_limit_boss>
+  <activity_limit_boss id="400070" name="タコ型魔獣" icon="arrive-limit/limit-36" recommend_lv="0" battle_map="100601/100601" background="area1006/100601" hero_rare_limit="無限制" monster_id="40071" monster_add_lv="0" base_tp="6" daily_tp="0" max_tp="6" limit_sec="120" total_point_reward="4003601" max_damage_rank_reward="4003602" total_damage_rank_reward="4003603">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <talent_slot>4000110</talent_slot>
+    <talent_slot>4000120</talent_slot>
+    <talent_slot>4000130</talent_slot>
+    <talent_slot>4000140</talent_slot>
+    <talent_slot>4000150</talent_slot>
+    <talent_slot>4000160</talent_slot>
+    <talent_slot>4000170</talent_slot>
+    <talent_slot>4000180</talent_slot>
+    <talent_slot>4000190</talent_slot>
+  </activity_limit_boss>
+  <activity_limit_boss id="400071" name="タコ型魔獣(SR限定)" icon="arrive-limit/limit-sr-36" recommend_lv="0" battle_map="100601/100601" background="area1006/100601" hero_rare_limit="SR以下" monster_id="40072" monster_add_lv="0" base_tp="6" daily_tp="0" max_tp="6" limit_sec="120" total_point_reward="4003611" max_damage_rank_reward="4003612" total_damage_rank_reward="0">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <talent_slot>4000110</talent_slot>
+    <talent_slot>4000120</talent_slot>
+    <talent_slot>4000130</talent_slot>
+    <talent_slot>4000140</talent_slot>
+    <talent_slot>4000150</talent_slot>
+    <talent_slot>4000160</talent_slot>
+    <talent_slot>4000170</talent_slot>
+    <talent_slot>4000180</talent_slot>
+    <talent_slot>4000190</talent_slot>
+  </activity_limit_boss>
 </root>

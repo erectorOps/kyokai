@@ -10565,56 +10565,61 @@
   <hero_talk id="2211" talk_type="角色背景2" pre_gp_lv="2" pre_item_id="0" talk_text="ボニータには好不調の波がある。&#xA;絶不調になると猛烈に負ける。&#xA;&#xA;今がその時だった。&#xA;ギルに連敗するのは、いつもそういう時だ。&#xA;&#xA;潮目を変えるために、早く出てみよう。&#xA;そう思ってカジノ・ラプエリアに一番に駆けつけたのだが、待っていたのは支配人の悲鳴だった。&#xA;&#xA;カジノの秘宝、プエリアの涙が盗まれてしまったのだ。&#xA;プエリアが流した涙がそのまま宝石となったものとして伝えられてきたものが、消えていたのである。&#xA;&#xA;支配人はすでに現地の領主には連絡済みだが、領地外に持ち出されると厄介になる。&#xA;そこで領主が思い出したのが、エルロンの領主だった。&#xA;&#xA;あの凄腕の領主なら、捕まえてくれるかもしれない。&#xA;そこで支配人はボニータに頼みごとをし――。" />
   <hero_talk id="2211" talk_type="角色背景3" pre_gp_lv="3" pre_item_id="0" talk_text="基本的にボニータはギャンブラーである。&#xA;運動する人ではない。&#xA;しかし、決して運動神経が悪いわけではない。&#xA;子供の頃から飛び跳ねるのは大好き。&#xA;オッパイが揺れても気にしない。&#xA;ただ、ピラミッドを組むと落っこちてしまう。&#xA;ただ、転落したボニータにぶつかって敵は四散するので、怪我の功名――。" />
   <hero_talk id="2211" talk_type="角色背景4" pre_gp_lv="4" pre_item_id="0" talk_text="ボニータの身体はミニマムサイズ。&#xA;しかし、チアガールのトップスは、それ以上にミニマムサイズ。&#xA;そしてオッパイは特大サイズ。&#xA;うれしいことに下乳が全開。&#xA;いいからもう少し上にずらせ。乳首を見せろ――。" />
-  <hero_talk id="2212" talk_type="召喚自我介紹" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2212/K2212_0001" />
-  <hero_talk id="2212" talk_type="登入_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2212/K2212_0002" />
-  <hero_talk id="2212" talk_type="觸摸1_副官" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2212/K2212_0003" />
-  <hero_talk id="2212" talk_type="觸摸2_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2212/K2212_0004" />
-  <hero_talk id="2212" talk_type="觸摸3_副官" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2212/K2212_0005" />
-  <hero_talk id="2212" talk_type="放置_副官" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2212/K2212_0006" />
-  <hero_talk id="2212" talk_type="出戰" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2212/K2212_0007" />
-  <hero_talk id="2212" talk_type="開場" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2212/K2212_0008" />
-  <hero_talk id="2212" talk_type="技能1" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2212/K2212_0009" />
-  <hero_talk id="2212" talk_type="技能2" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2212/K2212_0010" />
-  <hero_talk id="2212" talk_type="奧義1" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_voice="2212/K2212_0011" />
-  <hero_talk id="2212" talk_type="奧義2" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_voice="2212/K2212_0012" />
-  <hero_talk id="2212" talk_type="勝利" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_voice="2212/K2212_0013" />
-  <hero_talk id="2212" talk_type="戰敗" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2212/K2212_0014" />
-  <hero_talk id="2212" talk_type="一般強化1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2212/K2212_0015" />
-  <hero_talk id="2212" talk_type="一般強化2" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2212/K2212_0016" />
-  <hero_talk id="2212" talk_type="一般強化3" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2212/K2212_0017" />
-  <hero_talk id="2212" talk_type="最高階強化" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2212/K2212_0018" />
-  <hero_talk id="2212" talk_type="好感1" pre_gp_lv="1" pre_item_id="0" talk_face="01" talk_voice="2212/K2212_0019" />
-  <hero_talk id="2212" talk_type="好感2" pre_gp_lv="2" pre_item_id="0" talk_face="01" talk_voice="2212/K2212_0020" />
-  <hero_talk id="2212" talk_type="好感3" pre_gp_lv="3" pre_item_id="0" talk_face="02" talk_voice="2212/K2212_0021" />
-  <hero_talk id="2212" talk_type="好感4" pre_gp_lv="4" pre_item_id="0" talk_face="02" talk_voice="2212/K2212_0022" />
-  <hero_talk id="2212" talk_type="好感5" pre_gp_lv="4" pre_item_id="0" talk_face="03" talk_voice="2212/K2212_0023" />
-  <hero_talk id="2212" talk_type="胸部低好感" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2212/K2212_0024" />
-  <hero_talk id="2212" talk_type="胸部中好感" pre_gp_lv="1" pre_item_id="0" talk_face="01" talk_voice="2212/K2212_0025" />
-  <hero_talk id="2212" talk_type="胸部高好感" pre_gp_lv="2" pre_item_id="0" talk_face="02" talk_voice="2212/K2212_0026" />
-  <hero_talk id="2212" talk_type="贈禮1" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2212/K2212_0027" />
-  <hero_talk id="2212" talk_type="贈禮2" pre_gp_lv="3" pre_item_id="0" talk_face="02" talk_voice="2212/K2212_0028" />
-  <hero_talk id="2212" talk_type="派駐對話1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2212/K2212_0029" />
-  <hero_talk id="2212" talk_type="派駐對話2" pre_gp_lv="3" pre_item_id="0" talk_face="01" talk_voice="2212/K2212_0030" />
-  <hero_talk id="2212" talk_type="遊戲標題" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2212/K2212_0031" />
-  <hero_talk id="2212" talk_type="肯定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2212/K2212_0032" />
-  <hero_talk id="2212" talk_type="否定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2212/K2212_0033" />
-  <hero_talk id="2212" talk_type="思考" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2212/K2212_0034" />
-  <hero_talk id="2212" talk_type="疑念" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2212/K2212_0035" />
-  <hero_talk id="2212" talk_type="唸る" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2212/K2212_0036" />
-  <hero_talk id="2212" talk_type="驚愕" pre_gp_lv="0" pre_item_id="0" talk_face="08" talk_voice="2212/K2212_0037" />
-  <hero_talk id="2212" talk_type="ムカッ" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2212/K2212_0038" />
-  <hero_talk id="2212" talk_type="怒る" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_voice="2212/K2212_0039" />
-  <hero_talk id="2212" talk_type="焦り" pre_gp_lv="0" pre_item_id="0" talk_face="07" talk_voice="2212/K2212_0040" />
-  <hero_talk id="2212" talk_type="ダメージ時" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2212/K2212_0041" />
-  <hero_talk id="2212" talk_type="ため息" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2212/K2212_0042" />
-  <hero_talk id="2212" talk_type="自責" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2212/K2212_0043" />
-  <hero_talk id="2212" talk_type="喜び" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2212/K2212_0044" />
-  <hero_talk id="2212" talk_type="笑い" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_voice="2212/K2212_0045" />
-  <hero_talk id="2212" talk_type="照れ" pre_gp_lv="0" pre_item_id="0" talk_face="09" talk_voice="2212/K2212_0046" />
-  <hero_talk id="2212" talk_type="角色背景1" pre_gp_lv="1" pre_item_id="0" />
-  <hero_talk id="2212" talk_type="角色背景2" pre_gp_lv="2" pre_item_id="0" />
-  <hero_talk id="2212" talk_type="角色背景3" pre_gp_lv="3" pre_item_id="0" />
-  <hero_talk id="2212" talk_type="角色背景4" pre_gp_lv="4" pre_item_id="0" />
+  <hero_talk id="2212" talk_type="召喚自我介紹" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="ヴァルキュリアのジゼルです……あなたがヴァルハラに招かれる価値があるのか見極めさせてもらいます" talk_voice="2212/K2212_0001" />
+  <hero_talk id="2212" talk_type="登入_副官" pre_gp_lv="0" pre_item_id="0" talk_face="08" talk_text="お待ちしておりました。召される覚悟はできましたか？　……って、あら？　まだお元気なようですね" talk_voice="2212/K2212_0002" />
+  <hero_talk id="2212" talk_type="觸摸1_副官" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="触れてはなりません。わたしは神に仕える戦乙女ですよ？" talk_voice="2212/K2212_0003" />
+  <hero_talk id="2212" talk_type="觸摸2_副官" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="くっ、天罰を怖れぬとは……素晴らしい勇気をお持ちですね？" talk_voice="2212/K2212_0004" />
+  <hero_talk id="2212" talk_type="觸摸3_副官" pre_gp_lv="0" pre_item_id="0" talk_face="09" talk_text="だから……もう触れないでください。殿方に触れられるのに慣れていないのです……" talk_voice="2212/K2212_0005" />
+  <hero_talk id="2212" talk_type="放置_副官" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="はあっ……独りぼっちは慣れていますが、やはり寂しいものですね……" talk_voice="2212/K2212_0006" />
+  <hero_talk id="2212" talk_type="出戰" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="行こう、エアリー……！　ヴァルハラに相応しい戦士を探しに……" talk_voice="2212/K2212_0007" />
+  <hero_talk id="2212" talk_type="開場" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="神命を邪魔する者は容赦しませんっ！" talk_voice="2212/K2212_0008" />
+  <hero_talk id="2212" talk_type="技能1" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="不浄なものを成敗します！" talk_voice="2212/K2212_0009" />
+  <hero_talk id="2212" talk_type="技能2" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="邪魔をするのであれば容赦はしません！" talk_voice="2212/K2212_0010" />
+  <hero_talk id="2212" talk_type="奧義1" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_text="ヴァルキュリアの姉妹たちよ、わたしに力をっ……ゲイロンドゥッル・グルヴェイグ！" talk_voice="2212/K2212_0011" />
+  <hero_talk id="2212" talk_type="奧義2" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_text="ゲイロンドゥッル・グルヴェイグ！" talk_voice="2212/K2212_0012" />
+  <hero_talk id="2212" talk_type="勝利" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_text="ラグナロクの日まで、わたしは倒れるわけにはいかないのです……" talk_voice="2212/K2212_0013" />
+  <hero_talk id="2212" talk_type="戰敗" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="神よ……異界で倒れることをお許しください……" talk_voice="2212/K2212_0014" />
+  <hero_talk id="2212" talk_type="一般強化1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="少し強くなったような……異界の旅で鍛えられたのかもしれませんね" talk_voice="2212/K2212_0015" />
+  <hero_talk id="2212" talk_type="一般強化2" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="神よありがとうございます……わたしもまだまだ成長することができそうです" talk_voice="2212/K2212_0016" />
+  <hero_talk id="2212" talk_type="一般強化3" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="ヴァルキュリアの名に恥じない腕前になれたでしょうか？" talk_voice="2212/K2212_0017" />
+  <hero_talk id="2212" talk_type="最高階強化" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_text="この力は……神が授けてくれたものでしょうか？" talk_voice="2212/K2212_0018" />
+  <hero_talk id="2212" talk_type="好感1" pre_gp_lv="1" pre_item_id="0" talk_face="01" talk_text="そんなに胸ばかり見ていると、神罰で目が腐るかもしれませんよ？" talk_voice="2212/K2212_0019" />
+  <hero_talk id="2212" talk_type="好感2" pre_gp_lv="2" pre_item_id="0" talk_face="08" talk_text="いったいどこを見ているのですかっ！？　その……恥ずかしいので見ないでください……" talk_voice="2212/K2212_0020" />
+  <hero_talk id="2212" talk_type="好感3" pre_gp_lv="3" pre_item_id="0" talk_face="02" talk_text="そんなに見ても、ここではおっぱいはあげませんよ？" talk_voice="2212/K2212_0021" />
+  <hero_talk id="2212" talk_type="好感4" pre_gp_lv="4" pre_item_id="0" talk_face="09" talk_text="あの……。母乳が欲しいのなら、後で寝所に伺いますから……今は見ないでください……" talk_voice="2212/K2212_0022" />
+  <hero_talk id="2212" talk_type="好感5" pre_gp_lv="4" pre_item_id="0" talk_face="09" talk_text="よかったら一緒にお話しませんか？　その……一人でいると、寂しくて……" talk_voice="2212/K2212_0023" />
+  <hero_talk id="2212" talk_type="胸部低好感" pre_gp_lv="0" pre_item_id="0" talk_face="08" talk_text="きゃっ！？　し、神罰が怖くないのですかっ！？" talk_voice="2212/K2212_0024" />
+  <hero_talk id="2212" talk_type="胸部中好感" pre_gp_lv="1" pre_item_id="0" talk_face="06" talk_text="あの……触られるのは慣れていないので……止めてもらえると助かるのですが……" talk_voice="2212/K2212_0025" />
+  <hero_talk id="2212" talk_type="胸部高好感" pre_gp_lv="2" pre_item_id="0" talk_face="09" talk_text="あ、あなたが望むのなら許しますが……後でちゃんと慰めてくださいね？" talk_voice="2212/K2212_0026" />
+  <hero_talk id="2212" talk_type="贈禮1" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="わたしにプレゼントですか？　本当にもらってもいいのですか！？" talk_voice="2212/K2212_0027" />
+  <hero_talk id="2212" talk_type="贈禮2" pre_gp_lv="3" pre_item_id="0" talk_face="03" talk_text="本当にもらっていいのですか！？　嬉しい……贈り物なんて、いったい何年ぶりでしょうか！" talk_voice="2212/K2212_0028" />
+  <hero_talk id="2212" talk_type="派駐對話1" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="わたしには神に与えられた任務があるのですが……あなたの頼みなら断れませんね" talk_voice="2212/K2212_0029" />
+  <hero_talk id="2212" talk_type="派駐對話2" pre_gp_lv="3" pre_item_id="0" talk_face="01" talk_text="勇者捜しのついでなら引き受けてもかまいませんよ？" talk_voice="2212/K2212_0030" />
+  <hero_talk id="2212" talk_type="遊戲標題" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="巨乳ファンタジー・バースト" talk_voice="2212/K2212_0031" />
+  <hero_talk id="2212" talk_type="肯定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="そうですね" talk_voice="2212/K2212_0032" />
+  <hero_talk id="2212" talk_type="否定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="違います" talk_voice="2212/K2212_0033" />
+  <hero_talk id="2212" talk_type="思考" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="ふむ……" talk_voice="2212/K2212_0034" />
+  <hero_talk id="2212" talk_type="疑念" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="どうでしょうか……" talk_voice="2212/K2212_0035" />
+  <hero_talk id="2212" talk_type="唸る" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="ううっ……" talk_voice="2212/K2212_0036" />
+  <hero_talk id="2212" talk_type="驚愕" pre_gp_lv="0" pre_item_id="0" talk_face="08" talk_text="えっ！？" talk_voice="2212/K2212_0037" />
+  <hero_talk id="2212" talk_type="ムカッ" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="あのっ……！" talk_voice="2212/K2212_0038" />
+  <hero_talk id="2212" talk_type="怒る" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_text="……怒りますよ？" talk_voice="2212/K2212_0039" />
+  <hero_talk id="2212" talk_type="焦り" pre_gp_lv="0" pre_item_id="0" talk_face="07" talk_text="くっ！？" talk_voice="2212/K2212_0040" />
+  <hero_talk id="2212" talk_type="ダメージ時" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="くうっ……！" talk_voice="2212/K2212_0041" />
+  <hero_talk id="2212" talk_type="ため息" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="はあ……" talk_voice="2212/K2212_0042" />
+  <hero_talk id="2212" talk_type="自責" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="ふがいないです……" talk_voice="2212/K2212_0043" />
+  <hero_talk id="2212" talk_type="喜び" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="やりました！" talk_voice="2212/K2212_0044" />
+  <hero_talk id="2212" talk_type="笑い" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_text="ふふふっ" talk_voice="2212/K2212_0045" />
+  <hero_talk id="2212" talk_type="照れ" pre_gp_lv="0" pre_item_id="0" talk_face="09" talk_text="あの……ええとですね……" talk_voice="2212/K2212_0046" />
+  <hero_talk id="2212" talk_type="角色背景1" pre_gp_lv="1" pre_item_id="0" talk_text="もし、ジゼルが、ヴァルキュリアだったら――。&#xA;&#xA;神々と巨人たちが争う終末の世界。&#xA;ジゼルは終末の戦に向けて、戦士の魂を戦死者の館へ導こうとしていた。&#xA;そんな中、神々の長からジゼルに任務が申し渡される。&#xA;次元を飛び越え、数多くの英雄たちが住んでいる世界へと渡れと――。" />
+  <hero_talk id="2212" talk_type="角色背景2" pre_gp_lv="2" pre_item_id="0" talk_text="九つの世界――神々と巨人たちが争う終末の世界。&#xA;来る終末の戦に向け、神々は一人でも多くの戦士を求めていた。&#xA;神々に仕える戦乙女の一員であるジゼルは、戦で倒れた戦士の魂を導くため、戦場を飛び回る。&#xA;&#xA;しかし、導くべき魂を持つ戦士は見つからない。&#xA;彼女の前に現れる戦士は、食料と命を奪うためだけに殺戮を行う下劣な者ばかり。&#xA;女子供にも刃を振るい、敗れては情けなく命乞いをし、挙げ句の果てには戦利品を奪い合う。&#xA;とても戦士とはいえない汚らわしい者ばかりだった。&#xA;&#xA;ジゼルは、導くにふさわしい戦士はもう残っていないのではないかと思い始めていた。&#xA;しかし、突如神々の長より命が下される。&#xA;遥か遠くの世界に数多くの英雄たちが住んでいる世界があると。&#xA;ジゼルはまだ見ぬ世界の戦士との邂逅に胸を踊らせ、新たな世界に渡るのだった――。" />
+  <hero_talk id="2212" talk_type="角色背景3" pre_gp_lv="3" pre_item_id="0" talk_text="エアリーに乗るジゼルはヴァルキュリアの中でも高い突破力を持つ。&#xA;あらゆるものを貫き、果てには次元の壁すら超えてみせる。&#xA;その力は、ヴァルキュリアの中でもとても貴重なもので――彼女がいるところ、ヴァルキュリアの軍団が世界を超えてやってくる。&#xA;ジゼルこそが、ヴァルキュリアの先駆けなのだ。" />
+  <hero_talk id="2212" talk_type="角色背景4" pre_gp_lv="4" pre_item_id="0" talk_text="ジゼルの槍「ヘルフョトゥル」は、軍に勝利をもたらすとされている。&#xA;彼女の槍は軍の向かうべき先を示し、九つの世界に光を届ける。&#xA;光を辿った戦女神が、九つの世界から訪れるという。" />
+  <hero_talk id="2212" talk_type="追加語音1" pre_gp_lv="0" pre_item_id="177" talk_face="09" talk_text="あの……ちょっと時間はありますか？　その……よければちょっと付き合って欲しくて……だめでしょうか？" talk_voice="2212/K2212_0047" />
+  <hero_talk id="2212" talk_type="追加語音2" pre_gp_lv="0" pre_item_id="178" talk_face="09" talk_text="今日はなんだか切ないんです……よければあなた様の……お、おちんちんで……お、おまんこを……慰めてもらえませんか……？" talk_voice="2212/K2212_0048" />
+  <hero_talk id="2212" talk_type="追加語音3" pre_gp_lv="0" pre_item_id="179" talk_face="09" talk_text="その……どうぞ、わたしの胸を自由に吸ってください……癒やしのお乳を飲みながら……お、おちんちん、擦られたくないですか？" talk_voice="2212/K2212_0049" />
+  <hero_talk id="2212" talk_type="追加語音4" pre_gp_lv="0" pre_item_id="180" talk_face="09" talk_text="お、おちんちんが腫れているようですね？　わ、わたしの……おまんこで浄化しますから……どうぞ、わたしの膣内に注いで…………って、もうっ、恥ずかしいですっ！" talk_voice="2212/K2212_0050" />
+  <hero_talk id="2212" talk_type="追加語音5" pre_gp_lv="0" pre_item_id="181" talk_face="09" talk_text="ああっ、わ、わたしのおまんこを見てください……戦乙女でありながら、こんなにはしたなく濡れてしまって……ううっ、恥ずかしいのにお乳も止まらなくてっ……だから、おちんちんでお仕置きして欲しいのです……" talk_voice="2212/K2212_0051" />
   <hero_talk id="2213" talk_type="召喚自我介紹" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2213/K2213_0001" />
   <hero_talk id="2213" talk_type="登入_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2213/K2213_0002" />
   <hero_talk id="2213" talk_type="觸摸1_副官" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2213/K2213_0003" />

@@ -369,9 +369,9 @@
   <system def="飾品2格開放需求英雄等級" val="41" />
   <system def="飾品4格開放需求英雄等級" val="51" />
   <system def="飾品5格開放需求英雄等級" val="61" />
-  <system def="新角色影片名稱" val="PS8_hero_2208.mp4" />
-  <system def="新角色影片更換時間" val="2025/4/03 11:00:00" />
-  <system def="新角色影片更換名稱" val="PS8_hero_2209&amp;2210.mp4" />
+  <system def="新角色影片名稱" val="PS8_hero_2212.mp4" />
+  <system def="新角色影片更換時間" />
+  <system def="新角色影片更換名稱" />
   <system def="特典序號圖示" val="item001/redemption_icon" />
   <system def="事前活動總登入數獎勵特殊數值ID" val="70001" />
   <system def="事前活動總召喚數獎勵特殊數值ID" val="70002" />
@@ -470,4 +470,6 @@
   <system def="RAID救援額外增加箱數開始時間" val="2025-04-03 11:00:00" />
   <system def="RAID救援額外增加箱數結束時間" val="2025-04-10 11:00:00" />
   <system def="愚人節招募ID" val="9999999" />
+  <system def="重置加值消耗道具ID" />
+  <system def="重置加值消耗道具數量" />
 </root>

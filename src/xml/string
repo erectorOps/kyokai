@@ -4387,6 +4387,17 @@
   <string id="95106" text="次の一枚はありません" />
   <string id="95107" text="報酬がありません" />
   <string id="95108" text="システムエラー" />
+  <string id="95201" text="加值強化" />
+  <string id="95202" text="強化" />
+  <string id="95203" text="重置" />
+  <string id="95204" text="{0}&#xA;確認要消耗{1}進行強化？" />
+  <string id="95205" text="是否要重置加值？&#xA;將退回加值的素材" />
+  <string id="95206" text="角色不存在" />
+  <string id="95207" text="無法強化" />
+  <string id="95208" text="加值已達上限" />
+  <string id="95209" text="素材不足" />
+  <string id="95210" text="系統錯誤" />
+  <string id="95211" text="無法重置" />
   <string id="100001" text="Easy" />
   <string id="100002" text="Normal" />
   <string id="100003" text="Hard" />

@@ -76,6 +76,44 @@
     <reward_num>0</reward_num>
     <reward_num>0</reward_num>
   </activity>
+  <activity id="82" name="藏寶圖" show="false" menu_show="false" sort="0" pre_stage_site="0" dur_day="0" activity_type="藏寶圖" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </activity>
   <activity id="701" name="お正月開運ルーレット召喚" show="false" menu_show="false" sort="0" pre_stage_site="0" start_time="2024/01/01 00:00:00" end_time="2024/01/11 11:00:00" dur_day="0" activity_type="轉盤" activity_val1="33" activity_val2="1" activity_val3="3" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -3953,6 +3991,44 @@
     <reward_num>0</reward_num>
   </activity>
   <activity id="40035" name="第35回競撃戦" show="false" menu_show="false" sort="0" icon="arrive-limit/3-banner" bg="eventbg/limitbg12/limitmain-35-bg" pre_stage_site="0" start_time="2025/03/27 11:00:00" end_time="2025/04/10 11:00:00" dur_day="0" activity_type="限界" activity_val1="3" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </activity>
+  <activity id="40036" name="第36回競撃戦" show="false" menu_show="false" sort="0" icon="arrive-limit/1-banner" bg="eventbg/limitbg12/limitmain-36-bg" pre_stage_site="0" start_time="2025/04/10 11:00:00" end_time="2025/04/24 11:00:00" dur_day="0" activity_type="限界" activity_val1="3" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -9006,6 +9082,44 @@
     <reward_num>0</reward_num>
     <reward_num>0</reward_num>
   </activity>
+  <activity id="60108" name="【天馬のヴァルキュリア】ログインボーナス" show="true" menu_show="false" sort="10" bg="activitylogin107/登入獎勵_天馬のヴァルキュリア_1640x1000" pre_stage_site="0" end_time="2025/04/17 11:00:00" dur_day="0" activity_type="活動簽到" activity_val1="60108" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </activity>
   <activity id="600002" name="活躍度任務" show="true" menu_show="false" sort="6" pre_stage_site="0" end_time="2023/10/12 11:00:00" dur_day="0" activity_type="活躍度" activity_val1="600002" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -11514,6 +11628,44 @@
     <reward_num>0</reward_num>
     <reward_num>0</reward_num>
   </activity>
+  <activity id="600066" name="活躍度任務" show="true" menu_show="false" sort="6" pre_stage_site="0" start_time="2025/04/10 11:00:00" end_time="2025/04/17 11:00:00" dur_day="0" activity_type="活躍度" activity_val1="600066" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </activity>
   <activity id="610001" name="戰鬥通行證" show="true" menu_show="false" sort="5" pre_stage_site="0" start_time="2023/8/28 12:00:00" end_time="2023/12/7 11:00:00" dur_day="0" activity_type="戰鬥通行證" activity_val1="600001" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -11971,6 +12123,44 @@
     <reward_num>0</reward_num>
   </activity>
   <activity id="700006" name="【天と痴と】無限討伐戦" show="false" menu_show="false" sort="0" pre_stage_site="0" end_time="2024/07/18 11:00:00" dur_day="0" activity_type="無雙" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </activity>
+  <activity id="700007" name="【天馬のヴァルキュリア】無限討伐戦" show="false" menu_show="false" sort="0" pre_stage_site="0" end_time="2025/04/17 11:00:00" dur_day="0" activity_type="無雙" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>

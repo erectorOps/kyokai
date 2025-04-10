@@ -7557,4 +7557,59 @@
     <param />
     <param />
   </story_new>
+  <story_new group_id="1062" group_func="標題設定" order="1">
+    <param>活動</param>
+    <param>天馬のヴァルキュリア</param>
+    <param>activity-banner-2081/活動_天馬のヴァルキュリア_320x88</param>
+    <param>一般活動</param>
+    <param>Year2025</param>
+    <param>50810110</param>
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1062" group_func="章節設定" order="1">
+    <param>第1節</param>
+    <param>50810110</param>
+    <param />
+    <param />
+    <param>5066010</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1062" group_func="章節設定" order="2">
+    <param>第2節</param>
+    <param>50810120</param>
+    <param />
+    <param />
+    <param>5066020</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1062" group_func="章節設定" order="3">
+    <param>第3節</param>
+    <param>50810130</param>
+    <param />
+    <param />
+    <param>5066030</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1062" group_func="章節設定" order="4">
+    <param>第4節</param>
+    <param>50810140</param>
+    <param />
+    <param />
+    <param>5066040</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
 </root>

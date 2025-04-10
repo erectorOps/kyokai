@@ -167,4 +167,5 @@
   <stage_world id="5979" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2979" name="【エイプリルフール】クエスト" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="5080" opposite_stage_world_id1="5180" opposite_stage_world_id2="0" arrive_id="2080" name="プエリアに、微笑みを" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="5180" opposite_stage_world_id1="5080" opposite_stage_world_id2="0" arrive_id="2080" name="プエリアに、微笑みを（Hard）" world_type="活動_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <stage_world id="5081" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2081" name="天馬のヴァルキュリア" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
 </root>
