@@ -61,6 +61,18 @@
                     <li data-val="投" data-check="0"><div>投</div></li>
                 </ul>
             </td></tr>
+            <tr><th>サポート</th>
+            <td>
+                <ul class="filter_container" data-filter="support" data-count="6">
+                    <li data-val="最大HP" data-check="0"><div>HP+</div></li>
+                    <li data-val="物理攻撃,魔法攻撃" data-check="0"><div>攻撃+</div></li>
+                    <li data-val="物理防御,魔法防御" data-check="0"><div>防御+</div></li>
+                    <li data-val="物理クリティカル,魔法クリティカル" data-check="0"><div>クリティカル+</div></li>
+                    <li data-val="命中" data-check="0"><div>命中+</div></li>
+                    <li data-val="ブロック" data-check="0"><div>ブロック+</div></li>
+                </ul>
+            </td>
+            </tr>
             <tr><th>行動速度</th>
             <td>
                 <ul class="filter_container" data-filter="atk_speed" data-count="5">
@@ -140,6 +152,7 @@ include('./_order_by_range.ejs', {
 
             function hero_search() {
                 var conditions = {};
+                var meets = {};
                 $(".filter_container").each(function() {
                     var current_key = $(this).data("filter");
                     $(this).find("li[data-check='1']").each(function() {
@@ -147,10 +160,17 @@ include('./_order_by_range.ejs', {
                             conditions[current_key] = [];
                         }
                         Array.prototype.push.apply(conditions[current_key], String($(this).data("val")).split(","));
+                        if (current_key === "support") {
+                            if (meets[current_key] == undefined) {
+                                meets[current_key] = [];
+                            }
+                            meets[current_key].push(String($(this).data("val")));
+                        }
                     })
                 });
 
                 var total_count = 0;
+
                 $(".hero_container").each(function() {
                     var container_val = $(this).data("val");
 
@@ -162,7 +182,7 @@ include('./_order_by_range.ejs', {
                             let current_data = String($(this).data(type));
                             if (type == "gacha_type" || type == "ub_type") {
                                 current_data = current_data.split(',');
-                                var attr_count = 0;
+                                let attr_count = 0;
                                 for (const i in current_data) {
                                     if (conditions[type].indexOf(current_data[i].trim()) != -1) {
                                         attr_count++;
@@ -173,7 +193,25 @@ include('./_order_by_range.ejs', {
                                     disp_bool = false;
                                     break;
                                 }
-                            } else {
+                            } 
+                            else if (type == "support") {
+                                current_data = current_data.split(',');
+                                let attr_count = 0;
+                                for (const n in meets[type]) {
+                                    for (const i in current_data) {
+                                        if (meets[type][n].indexOf(current_data[i].trim()) != -1) {
+                                            attr_count++;
+                                            break;
+                                        }
+                                    }
+                                }
+
+                                if (attr_count < meets[type].length) {
+                                    disp_bool = false;
+                                    break;
+                                }
+                            }
+                            else {
                                 if (conditions[type].indexOf(current_data) == -1) {
                                     disp_bool = false;
                                     break;

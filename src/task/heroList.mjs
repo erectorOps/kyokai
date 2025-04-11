@@ -67,6 +67,12 @@ export class HeroList {
                     obtain: gachaTypeEntity && gachaTypeEntity['@_obtain'] ? gachaTypeEntity['@_obtain'] : "",
                     ub_type: gachaTypeEntity?.['@_ub_type'] ?? ""
                 };
+
+                const maxLimitEntity = kf.limit_over.root.limit_over.find(item => item['@_group_id'] === group && item['@_over_times'] === "5");
+                json.support = maxLimitEntity.support_buff_id.filter(item => item !== '0').map(item => {
+                  const buff = kf.buff_1.root.buff_1.find(y => y['@_id'] === item);
+                  return buff['@_effect_text'].replace(/<.+/, "");
+                }).reduce((p, c) => p.length > 0 ? p + "," + c : c, "");
             
                 if (atkSkill) {
                 json.atk_speed = getAtkSpeed(parseFloat(atkSkill['@_freeze_time']));

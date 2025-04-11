@@ -11,7 +11,7 @@
         <ul class="hero_container" data-val="<%= val %>" data-tab="実装順">
     <% for (; i < end && i < page.heros.length; i++) { %>
         <% item = page.heros[i]; %>
-        <li data-disp="1" data-rare="<%= item.rare %>" data-role_set="<%= item.role_set %>" data-attr="<%= item.attr %>" data-atk_attr="<%= item.atk_attr %>" data-equip_type="<%= item.equip_type %>" data-atk_speed="<%= item.atk_speed %>" data-gacha_type="<%= item.gacha_type %>" data-added_year="<%= new Date(item.added_date).getFullYear() %>" data-ub_type="<%= item.ub_type %>"><a class="s-link" href="./hero/<%= item.id %>.html"><img src="./img/s/<%= item.id %>.png" class="s-img" alt="<%= item.altname %>の画像"><%- item.name %></a></li>
+        <li data-disp="1" data-rare="<%= item.rare %>" data-role_set="<%= item.role_set %>" data-attr="<%= item.attr %>" data-atk_attr="<%= item.atk_attr %>" data-equip_type="<%= item.equip_type %>" data-atk_speed="<%= item.atk_speed %>" data-gacha_type="<%= item.gacha_type %>" data-added_year="<%= new Date(item.added_date).getFullYear() %>" data-ub_type="<%= item.ub_type %>" data-support="<%= item.support %>"><a class="s-link" href="./hero/<%= item.id %>.html"><img src="./img/s/<%= item.id %>.png" class="s-img" alt="<%= item.altname %>の画像"><%- item.name %></a></li>
     <% } %>
         </ul>
     </td>
