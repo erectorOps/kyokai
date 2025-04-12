@@ -90,7 +90,7 @@ export class HeroContents {
             return buff['@_effect_text'].replace(/\{1\}/, buff['@_effect_val2']).replace(/<color=(#[A-F0-9]+?)>/ig, `<span class="value up">`).replace(/<\/color>/ig, "</span>");
           }).reduce((p, c) => p.length > 0 ? p + " / " + c : c, "");
       
-          console.log("id = " + json.id + " name = " + json.name);
+          //console.log("id = " + json.id + " name = " + json.name);
       
           // 基礎パラメータの計算
       
