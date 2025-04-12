@@ -152,19 +152,18 @@ include('./_order_by_range.ejs', {
 
             function hero_search() {
                 var conditions = {};
-                var meets = {};
                 $(".filter_container").each(function() {
                     var current_key = $(this).data("filter");
                     $(this).find("li[data-check='1']").each(function() {
                         if (conditions[current_key] == undefined) {
                             conditions[current_key] = [];
                         }
-                        Array.prototype.push.apply(conditions[current_key], String($(this).data("val")).split(","));
                         if (current_key === "support") {
-                            if (meets[current_key] == undefined) {
-                                meets[current_key] = [];
-                            }
-                            meets[current_key].push(String($(this).data("val")));
+                            // conditions[current_key]のデータ構造: ボタンごとの集合 [[0], [1,2], [3,4,5]]
+                            conditions[current_key].push(String($(this).data("val")).split(","));
+                        } else {
+                            // conditions[current_key]のデータ構造: 通常 [0, 1, 2, 3, 4]
+                            Array.prototype.push.apply(conditions[current_key], String($(this).data("val")).split(","));
                         }
                     })
                 });
@@ -184,7 +183,7 @@ include('./_order_by_range.ejs', {
                                 current_data = current_data.split(',');
                                 let attr_count = 0;
                                 for (const i in current_data) {
-                                    if (conditions[type].indexOf(current_data[i].trim()) != -1) {
+                                    if (conditions[type].indexOf(current_data[i]) != -1) {
                                         attr_count++;
                                         break;
                                     }
@@ -197,16 +196,17 @@ include('./_order_by_range.ejs', {
                             else if (type == "support") {
                                 current_data = current_data.split(',');
                                 let attr_count = 0;
-                                for (const n in meets[type]) {
+                                // ブロック/ブロックをattr_count=1にするためにこう走査する
+                                for (const n in conditions[type]) {
                                     for (const i in current_data) {
-                                        if (meets[type][n].indexOf(current_data[i].trim()) != -1) {
+                                        if (conditions[type][n].indexOf(current_data[i]) != -1) {
                                             attr_count++;
                                             break;
                                         }
                                     }
                                 }
 
-                                if (attr_count < meets[type].length) {
+                                if (attr_count < conditions[type].length) {
                                     disp_bool = false;
                                     break;
                                 }
