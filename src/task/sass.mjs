@@ -16,12 +16,12 @@ export const cssSass = () => {
         plumber({
           errorHandler: notify.onError('Error:<%= error.message %>')
         }))
+      .pipe(sass({ outputStyle: 'expanded' }))
       .pipe(postcss([
         autoprefixer({
           browsers: ['last 2 versions', 'iOS >= 12', 'Android >= 8']
         })
       ]))
-      .pipe(sass({ outputStyle: 'expanded' }))
       .pipe(gulp.dest(distPath.css)) //コンパイル先
       .pipe(browserSync.stream())
       .pipe(notify({

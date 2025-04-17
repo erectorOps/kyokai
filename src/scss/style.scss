@@ -1,6 +1,21 @@
 @charset "utf-8";
-
+@use "sass:map";
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+$mediatypes: (
+    'sp': 'screen and (min-width: 568px)',
+    'tb': 'screen and (min-width: 768px)',
+    'pc': 'screen and (min-width:1000px)',
+    'xl': 'screen and (min-width:1200px)'
+) !default;
+
+@mixin media($mediatype) {
+    @media #{map.get($mediatypes, $mediatype)} {
+        @content;
+    }
+}
+
+
 
 :root {
     --link-color: #0066c0;
@@ -231,6 +246,10 @@ a img {
     border-collapse: collapse;
 }
 
+.filter_table th {
+    width: 20%;
+}
+
 .s-table th {
     background-color: #e1decc;
     font-weight: bold;
@@ -400,6 +419,15 @@ li img.s-img {
 .hero_container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    @include media(tb) {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    @include media(pc) {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    @include media(xl) {
+        grid-template-columns: repeat(8, 1fr);
+    }
     margin-bottom: -1px;
     margin-right: -1px;
 
@@ -470,7 +498,12 @@ li img.s-img {
 .filter_container {
     display: grid;
     gap: 4px;
+
     grid-template-columns: repeat(3, 1fr);
+
+    @include media(tb) {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
 
     > li {
         padding: 4px 0;
@@ -502,8 +535,10 @@ li img.s-img {
     }
 }
 
-.filter_container[data-filter="atk_attr"] {
-    grid-template-columns: repeat(2, 1fr);
+@media screen and (max-width: 768px) {
+    .filter_container[data-filter="atk_attr"] {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 details {
