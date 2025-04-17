@@ -16324,4 +16324,81 @@
     <talent>2212114</talent>
     <talent>2212115</talent>
   </hero_talent>
+  <hero_talent id="2213" name="ボーナス_物理攻撃" icon="Talent001/BOUNS_Atk" describe="アビリティ5つ解放で、物理攻撃 +36" grade="1" need_lv="0" hp="0" atk="36" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <talent>2213011</talent>
+    <talent>2213012</talent>
+    <talent>2213013</talent>
+    <talent>2213014</talent>
+    <talent>2213015</talent>
+  </hero_talent>
+  <hero_talent id="2213" name="ボーナス_命中" icon="Talent001/BOUNS_Hit" describe="アビリティ5つ解放で、命中 +3" grade="2" need_lv="31" hp="0" atk="0" matk="0" def="0" mdef="0" hit="3" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <talent>2213021</talent>
+    <talent>2213022</talent>
+    <talent>2213023</talent>
+    <talent>2213024</talent>
+    <talent>2213025</talent>
+  </hero_talent>
+  <hero_talent id="2213" name="ボーナス_物理攻撃" icon="Talent001/BOUNS_Atk" describe="アビリティ5つ解放で、物理攻撃 +50" grade="3" need_lv="31" hp="0" atk="50" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <talent>2213031</talent>
+    <talent>2213032</talent>
+    <talent>2213033</talent>
+    <talent>2213034</talent>
+    <talent>2213035</talent>
+  </hero_talent>
+  <hero_talent id="2213" name="ボーナス_命中" icon="Talent001/BOUNS_Hit" describe="アビリティ5つ解放で、命中 +4" grade="4" need_lv="41" hp="0" atk="0" matk="0" def="0" mdef="0" hit="4" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <talent>2213041</talent>
+    <talent>2213042</talent>
+    <talent>2213043</talent>
+    <talent>2213044</talent>
+    <talent>2213045</talent>
+  </hero_talent>
+  <hero_talent id="2213" name="ボーナス_物理攻撃" icon="Talent001/BOUNS_Atk" describe="アビリティ5つ解放で、物理攻撃 +64" grade="5" need_lv="41" hp="0" atk="64" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <talent>2213051</talent>
+    <talent>2213052</talent>
+    <talent>2213053</talent>
+    <talent>2213054</talent>
+    <talent>2213055</talent>
+  </hero_talent>
+  <hero_talent id="2213" name="ボーナス_命中" icon="Talent001/BOUNS_Hit" describe="アビリティ5つ解放で、命中 +5" grade="6" need_lv="51" hp="0" atk="0" matk="0" def="0" mdef="0" hit="5" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <talent>2213061</talent>
+    <talent>2213062</talent>
+    <talent>2213063</talent>
+    <talent>2213064</talent>
+    <talent>2213065</talent>
+  </hero_talent>
+  <hero_talent id="2213" name="ボーナス_物理攻撃" icon="Talent001/BOUNS_Atk" describe="アビリティ5つ解放で、物理攻撃 +79" grade="7" need_lv="61" hp="0" atk="79" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <talent>2213071</talent>
+    <talent>2213072</talent>
+    <talent>2213073</talent>
+    <talent>2213074</talent>
+    <talent>2213075</talent>
+  </hero_talent>
+  <hero_talent id="2213" name="ボーナス_命中" icon="Talent001/BOUNS_Hit" describe="アビリティ5つ解放で、命中 +5" grade="8" need_lv="71" hp="0" atk="0" matk="0" def="0" mdef="0" hit="5" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <talent>2213081</talent>
+    <talent>2213082</talent>
+    <talent>2213083</talent>
+    <talent>2213084</talent>
+    <talent>2213085</talent>
+  </hero_talent>
+  <hero_talent id="2213" name="ボーナス_物理攻撃" icon="Talent001/BOUNS_Atk" describe="アビリティ5つ解放で、物理攻撃 +93" grade="9" need_lv="81" hp="0" atk="93" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <talent>2213091</talent>
+    <talent>2213092</talent>
+    <talent>2213093</talent>
+    <talent>2213094</talent>
+    <talent>2213095</talent>
+  </hero_talent>
+  <hero_talent id="2213" name="ボーナス_命中" icon="Talent001/BOUNS_Hit" describe="アビリティ5つ解放で、命中 +6" grade="10" need_lv="81" hp="0" atk="0" matk="0" def="0" mdef="0" hit="6" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <talent>2213101</talent>
+    <talent>2213102</talent>
+    <talent>2213103</talent>
+    <talent>2213104</talent>
+    <talent>2213105</talent>
+  </hero_talent>
+  <hero_talent id="2213" name="ボーナス_物理攻撃" icon="Talent001/BOUNS_Atk" describe="アビリティ5つ解放で、物理攻撃 +103" grade="11" need_lv="91" hp="0" atk="103" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <talent>2213111</talent>
+    <talent>2213112</talent>
+    <talent>2213113</talent>
+    <talent>2213114</talent>
+    <talent>2213115</talent>
+  </hero_talent>
 </root>

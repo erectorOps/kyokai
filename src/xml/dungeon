@@ -170,4 +170,21 @@
     <stage_id>0</stage_id>
     <stage_id>0</stage_id>
   </dungeon>
+  <dungeon id="11" type="EX" start_time="2025/05/01 03:00:00" end_time="2025/06/01 02:59:59" rank_id="510" stage_buff_group="601000" star_id="1000009" award_bonus_scale="0">
+    <stage_id>101</stage_id>
+    <stage_id>102</stage_id>
+    <stage_id>103</stage_id>
+    <stage_id>104</stage_id>
+    <stage_id>105</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+  </dungeon>
 </root>

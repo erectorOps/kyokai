@@ -10620,56 +10620,61 @@
   <hero_talk id="2212" talk_type="追加語音3" pre_gp_lv="0" pre_item_id="179" talk_face="09" talk_text="その……どうぞ、わたしの胸を自由に吸ってください……癒やしのお乳を飲みながら……お、おちんちん、擦られたくないですか？" talk_voice="2212/K2212_0049" />
   <hero_talk id="2212" talk_type="追加語音4" pre_gp_lv="0" pre_item_id="180" talk_face="09" talk_text="お、おちんちんが腫れているようですね？　わ、わたしの……おまんこで浄化しますから……どうぞ、わたしの膣内に注いで…………って、もうっ、恥ずかしいですっ！" talk_voice="2212/K2212_0050" />
   <hero_talk id="2212" talk_type="追加語音5" pre_gp_lv="0" pre_item_id="181" talk_face="09" talk_text="ああっ、わ、わたしのおまんこを見てください……戦乙女でありながら、こんなにはしたなく濡れてしまって……ううっ、恥ずかしいのにお乳も止まらなくてっ……だから、おちんちんでお仕置きして欲しいのです……" talk_voice="2212/K2212_0051" />
-  <hero_talk id="2213" talk_type="召喚自我介紹" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2213/K2213_0001" />
-  <hero_talk id="2213" talk_type="登入_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2213/K2213_0002" />
-  <hero_talk id="2213" talk_type="觸摸1_副官" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2213/K2213_0003" />
-  <hero_talk id="2213" talk_type="觸摸2_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2213/K2213_0004" />
-  <hero_talk id="2213" talk_type="觸摸3_副官" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2213/K2213_0005" />
-  <hero_talk id="2213" talk_type="放置_副官" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2213/K2213_0006" />
-  <hero_talk id="2213" talk_type="出戰" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2213/K2213_0007" />
-  <hero_talk id="2213" talk_type="開場" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2213/K2213_0008" />
-  <hero_talk id="2213" talk_type="技能1" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2213/K2213_0009" />
-  <hero_talk id="2213" talk_type="技能2" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2213/K2213_0010" />
-  <hero_talk id="2213" talk_type="奧義1" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_voice="2213/K2213_0011" />
-  <hero_talk id="2213" talk_type="奧義2" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_voice="2213/K2213_0012" />
-  <hero_talk id="2213" talk_type="勝利" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_voice="2213/K2213_0013" />
-  <hero_talk id="2213" talk_type="戰敗" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2213/K2213_0014" />
-  <hero_talk id="2213" talk_type="一般強化1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2213/K2213_0015" />
-  <hero_talk id="2213" talk_type="一般強化2" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2213/K2213_0016" />
-  <hero_talk id="2213" talk_type="一般強化3" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2213/K2213_0017" />
-  <hero_talk id="2213" talk_type="最高階強化" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2213/K2213_0018" />
-  <hero_talk id="2213" talk_type="好感1" pre_gp_lv="1" pre_item_id="0" talk_face="01" talk_voice="2213/K2213_0019" />
-  <hero_talk id="2213" talk_type="好感2" pre_gp_lv="2" pre_item_id="0" talk_face="01" talk_voice="2213/K2213_0020" />
-  <hero_talk id="2213" talk_type="好感3" pre_gp_lv="3" pre_item_id="0" talk_face="02" talk_voice="2213/K2213_0021" />
-  <hero_talk id="2213" talk_type="好感4" pre_gp_lv="4" pre_item_id="0" talk_face="02" talk_voice="2213/K2213_0022" />
-  <hero_talk id="2213" talk_type="好感5" pre_gp_lv="4" pre_item_id="0" talk_face="03" talk_voice="2213/K2213_0023" />
-  <hero_talk id="2213" talk_type="胸部低好感" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2213/K2213_0024" />
-  <hero_talk id="2213" talk_type="胸部中好感" pre_gp_lv="1" pre_item_id="0" talk_face="01" talk_voice="2213/K2213_0025" />
-  <hero_talk id="2213" talk_type="胸部高好感" pre_gp_lv="2" pre_item_id="0" talk_face="02" talk_voice="2213/K2213_0026" />
-  <hero_talk id="2213" talk_type="贈禮1" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2213/K2213_0027" />
-  <hero_talk id="2213" talk_type="贈禮2" pre_gp_lv="3" pre_item_id="0" talk_face="02" talk_voice="2213/K2213_0028" />
-  <hero_talk id="2213" talk_type="派駐對話1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2213/K2213_0029" />
-  <hero_talk id="2213" talk_type="派駐對話2" pre_gp_lv="3" pre_item_id="0" talk_face="01" talk_voice="2213/K2213_0030" />
-  <hero_talk id="2213" talk_type="遊戲標題" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2213/K2213_0031" />
-  <hero_talk id="2213" talk_type="肯定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2213/K2213_0032" />
-  <hero_talk id="2213" talk_type="否定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2213/K2213_0033" />
-  <hero_talk id="2213" talk_type="思考" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2213/K2213_0034" />
-  <hero_talk id="2213" talk_type="疑念" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2213/K2213_0035" />
-  <hero_talk id="2213" talk_type="唸る" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2213/K2213_0036" />
-  <hero_talk id="2213" talk_type="驚愕" pre_gp_lv="0" pre_item_id="0" talk_face="08" talk_voice="2213/K2213_0037" />
-  <hero_talk id="2213" talk_type="ムカッ" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2213/K2213_0038" />
-  <hero_talk id="2213" talk_type="怒る" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_voice="2213/K2213_0039" />
-  <hero_talk id="2213" talk_type="焦り" pre_gp_lv="0" pre_item_id="0" talk_face="07" talk_voice="2213/K2213_0040" />
-  <hero_talk id="2213" talk_type="ダメージ時" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2213/K2213_0041" />
-  <hero_talk id="2213" talk_type="ため息" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2213/K2213_0042" />
-  <hero_talk id="2213" talk_type="自責" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2213/K2213_0043" />
-  <hero_talk id="2213" talk_type="喜び" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2213/K2213_0044" />
-  <hero_talk id="2213" talk_type="笑い" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_voice="2213/K2213_0045" />
-  <hero_talk id="2213" talk_type="照れ" pre_gp_lv="0" pre_item_id="0" talk_face="09" talk_voice="2213/K2213_0046" />
-  <hero_talk id="2213" talk_type="角色背景1" pre_gp_lv="1" pre_item_id="0" />
-  <hero_talk id="2213" talk_type="角色背景2" pre_gp_lv="2" pre_item_id="0" />
-  <hero_talk id="2213" talk_type="角色背景3" pre_gp_lv="3" pre_item_id="0" />
-  <hero_talk id="2213" talk_type="角色背景4" pre_gp_lv="4" pre_item_id="0" />
+  <hero_talk id="2213" talk_type="召喚自我介紹" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="わたしはシャティ。傭兵だから、お金さえ出してくれれば、どんな戦場でもＯＫよ。雇いたかったら……まずは、このくらい出してもらわないとね" talk_voice="2213/K2213_0001" />
+  <hero_talk id="2213" talk_type="登入_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="おっは～♪　今日ももらったお金の分はきっちり働くよ" talk_voice="2213/K2213_0002" />
+  <hero_talk id="2213" talk_type="觸摸1_副官" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="勝てる戦いでも負ける戦いでも、きっちり報酬がもらえればそれでオッケーだよ" talk_voice="2213/K2213_0003" />
+  <hero_talk id="2213" talk_type="觸摸2_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="一通りの武器は使えるけど、得意なのはスナイパーライフルかな。どんな遠くの目標でも撃ち抜くよ" talk_voice="2213/K2213_0004" />
+  <hero_talk id="2213" talk_type="觸摸3_副官" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="んっ？　今、スペクターって言わなかった？　それ、ダサいからやめて" talk_voice="2213/K2213_0005" />
+  <hero_talk id="2213" talk_type="放置_副官" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="待機って一番苦手。退屈だしゲームでもしてよっかな" talk_voice="2213/K2213_0006" />
+  <hero_talk id="2213" talk_type="出戰" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="ふふっ、わたしの実力、見せてあげる" talk_voice="2213/K2213_0007" />
+  <hero_talk id="2213" talk_type="開場" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="どこに逃げても撃ち抜くよ！" talk_voice="2213/K2213_0008" />
+  <hero_talk id="2213" talk_type="技能1" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="弱点発見ッ！" talk_voice="2213/K2213_0009" />
+  <hero_talk id="2213" talk_type="技能2" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="そんな動きじゃ逃げられないよッ！" talk_voice="2213/K2213_0010" />
+  <hero_talk id="2213" talk_type="奧義1" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_text="そろそろおしまいにしよっか。Invisible of Death" talk_voice="2213/K2213_0011" />
+  <hero_talk id="2213" talk_type="奧義2" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_text="Invisible of Death" talk_voice="2213/K2213_0012" />
+  <hero_talk id="2213" talk_type="勝利" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_text="思ったより弾使っちゃったなぁ" talk_voice="2213/K2213_0013" />
+  <hero_talk id="2213" talk_type="戰敗" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="さすがに撤退するしかないよね" talk_voice="2213/K2213_0014" />
+  <hero_talk id="2213" talk_type="一般強化1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="次の戦場では、もっといい働きができそう" talk_voice="2213/K2213_0015" />
+  <hero_talk id="2213" talk_type="一般強化2" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="もっと遠くまで狙えるようになった気がする" talk_voice="2213/K2213_0016" />
+  <hero_talk id="2213" talk_type="一般強化3" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="昨日までのわたしとは違うよ" talk_voice="2213/K2213_0017" />
+  <hero_talk id="2213" talk_type="最高階強化" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_text="うんっ、最高の仕上がりになった気がする" talk_voice="2213/K2213_0018" />
+  <hero_talk id="2213" talk_type="好感1" pre_gp_lv="1" pre_item_id="0" talk_face="01" talk_text="何か用？　今、銃の整備してるんだけど" talk_voice="2213/K2213_0019" />
+  <hero_talk id="2213" talk_type="好感2" pre_gp_lv="2" pre_item_id="0" talk_face="01" talk_text="退屈してるの？　少しくらいなら、話し相手になってあげてもいいよ" talk_voice="2213/K2213_0020" />
+  <hero_talk id="2213" talk_type="好感3" pre_gp_lv="3" pre_item_id="0" talk_face="02" talk_text="ねぇ、今って暇？　だったら、ちょっと付き合ってくれない？　わたしも暇なの" talk_voice="2213/K2213_0021" />
+  <hero_talk id="2213" talk_type="好感4" pre_gp_lv="4" pre_item_id="0" talk_face="02" talk_text="一緒にお酒でもどう？　わたし、結構強いんだよ" talk_voice="2213/K2213_0022" />
+  <hero_talk id="2213" talk_type="好感5" pre_gp_lv="4" pre_item_id="0" talk_face="03" talk_text="んっ、こんなに楽しく飲んだの久しぶり。……キミとなら、いつでも飲みたいかも" talk_voice="2213/K2213_0023" />
+  <hero_talk id="2213" talk_type="胸部低好感" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="んんっ……わたしのおっぱい、安くないんだけど？" talk_voice="2213/K2213_0024" />
+  <hero_talk id="2213" talk_type="胸部中好感" pre_gp_lv="1" pre_item_id="0" talk_face="01" talk_text="おっぱい触りたいの？　……ちょっとだけだよ？" talk_voice="2213/K2213_0025" />
+  <hero_talk id="2213" talk_type="胸部高好感" pre_gp_lv="2" pre_item_id="0" talk_face="09" talk_text="あっ、ち、乳首を触るのは……もっと、してほしいかも……" talk_voice="2213/K2213_0026" />
+  <hero_talk id="2213" talk_type="贈禮1" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="もらっていいの？　ありがと。使わせてもらうね" talk_voice="2213/K2213_0027" />
+  <hero_talk id="2213" talk_type="贈禮2" pre_gp_lv="3" pre_item_id="0" talk_face="02" talk_text="こんなのもらっていいの？　これは……何かお礼しないとね" talk_voice="2213/K2213_0028" />
+  <hero_talk id="2213" talk_type="派駐對話1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="さっ、そろそろ任務の時間だね" talk_voice="2213/K2213_0029" />
+  <hero_talk id="2213" talk_type="派駐對話2" pre_gp_lv="3" pre_item_id="0" talk_face="01" talk_text="しっかりと結果出してくるよ" talk_voice="2213/K2213_0030" />
+  <hero_talk id="2213" talk_type="遊戲標題" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="巨乳ファンタジー・バースト" talk_voice="2213/K2213_0031" />
+  <hero_talk id="2213" talk_type="肯定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="そうね" talk_voice="2213/K2213_0032" />
+  <hero_talk id="2213" talk_type="否定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="違うって" talk_voice="2213/K2213_0033" />
+  <hero_talk id="2213" talk_type="思考" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="そうねぇ" talk_voice="2213/K2213_0034" />
+  <hero_talk id="2213" talk_type="疑念" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="うーん" talk_voice="2213/K2213_0035" />
+  <hero_talk id="2213" talk_type="唸る" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="悩むなぁ" talk_voice="2213/K2213_0036" />
+  <hero_talk id="2213" talk_type="驚愕" pre_gp_lv="0" pre_item_id="0" talk_face="08" talk_text="そうなの！？" talk_voice="2213/K2213_0037" />
+  <hero_talk id="2213" talk_type="ムカッ" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="へー……" talk_voice="2213/K2213_0038" />
+  <hero_talk id="2213" talk_type="怒る" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_text="怒るよーっ！" talk_voice="2213/K2213_0039" />
+  <hero_talk id="2213" talk_type="焦り" pre_gp_lv="0" pre_item_id="0" talk_face="07" talk_text="ヤバいヤバい" talk_voice="2213/K2213_0040" />
+  <hero_talk id="2213" talk_type="ダメージ時" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="あいたたたっ！" talk_voice="2213/K2213_0041" />
+  <hero_talk id="2213" talk_type="ため息" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="とほほ……" talk_voice="2213/K2213_0042" />
+  <hero_talk id="2213" talk_type="自責" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="ダメねぇ" talk_voice="2213/K2213_0043" />
+  <hero_talk id="2213" talk_type="喜び" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="やったね♪" talk_voice="2213/K2213_0044" />
+  <hero_talk id="2213" talk_type="笑い" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_text="くすくすっ" talk_voice="2213/K2213_0045" />
+  <hero_talk id="2213" talk_type="照れ" pre_gp_lv="0" pre_item_id="0" talk_face="09" talk_text="んっふ♪" talk_voice="2213/K2213_0046" />
+  <hero_talk id="2213" talk_type="角色背景1" pre_gp_lv="1" pre_item_id="0" talk_text="もし、シャティが、凄腕の傭兵だったら――。&#xA;&#xA;生い茂るジャングルの中、１発の銃弾が主人公の肩を撃ち抜く。&#xA;主人公は即座に１つの噂を思い出した。&#xA;スペクター。&#xA;姿の見えない亡霊。&#xA;どうにか生還した主人公は、スペクターを探し出す。&#xA;すると、そこにいたのは、明るく爽やかな女性だった――。" />
+  <hero_talk id="2213" talk_type="角色背景2" pre_gp_lv="2" pre_item_id="0" talk_text="戦場に１つの噂が流れていた。&#xA;相手に気づかれぬまま近づき、敵を排除する姿の見えない亡霊。&#xA;スペクター。&#xA;どこにでもあるような噂だった。&#xA;&#xA;ジャングルでの作戦中、主人公は肩に銃弾を受けてしまう。&#xA;敵の姿は見えない。&#xA;味方も全員倒され、残すは自分だけとなった。&#xA;主人公は噂の人物のことを考えながら、ジャングルに入ったことを後悔した。&#xA;あの噂は本当だったのか。&#xA;傷の痛みを堪えながら、地面を這い、どうにか生還した主人公。&#xA;主人公は、スペクターの情報を集め――。&#xA;&#xA;数ヶ月後、主人公はスペクターとの接触に成功していた。&#xA;傭兵として雇うことができたのだ。&#xA;スペクターの名は、シャティというらしい。&#xA;明るく爽やかな女性だった。&#xA;「生きててよかったね」&#xA;あっけらかんと言ってのける姿に、本当に彼女が噂のスペクターなのかと疑いを持つのだが――。&#xA;&#xA;共に戦場に出て、疑いはなくなった。&#xA;標的を１人残らずあっさりと撃ち抜くシャティを見て、主人公は生き残った幸運を再認識する。&#xA;それからシャティとは何度も戦場を共にした。&#xA;しかし、スペクターと呼ばれるシャティも無敵とはいかず……。" />
+  <hero_talk id="2213" talk_type="角色背景3" pre_gp_lv="3" pre_item_id="0" talk_text="姿の見えない亡霊。&#xA;それは、正しくシャティの戦い方は表現した言葉だ。&#xA;長距離から精密射撃と、射撃位置を巧みに変えて姿をくらます能力。&#xA;狙撃手の必須スキルだが、そのスキルは極限まで高まっている。&#xA;結果、誰もシャティを捉えることはできない。&#xA;見えない敵に怯えるしかないのだ。" />
+  <hero_talk id="2213" talk_type="角色背景4" pre_gp_lv="4" pre_item_id="0" talk_text="シャティはあらゆる銃を扱える銃のエキスパートだ。&#xA;どんな武器でも使いこなしてみせる。&#xA;しかし、スナイパーライフルだけは別だ。&#xA;彼女が使うスナイパーライフルは一つだけ。&#xA;特別なことは何もないスナイパーライフルだが――しかしそれは、彼女が丁寧に整備し、癖をしっかり把握した唯一無二の相棒なのだ。" />
+  <hero_talk id="2213" talk_type="追加語音1" pre_gp_lv="0" pre_item_id="182" talk_face="03" talk_text="ん～～っ、このお酒すっごく美味しい♪　さすが普通のお酒の何倍もの値段するだけのことはあるね。でも、命を懸けて稼いでるんだから、たまには贅沢しないと♪♪" talk_voice="2213/K2213_0047" />
+  <hero_talk id="2213" talk_type="追加語音2" pre_gp_lv="0" pre_item_id="183" talk_face="09" talk_text="あ、でも結構強いかも……体がふわふわしてきたし、心臓がドキドキしてきたし……あと、なんか……エッチ、したくなってきちゃったかも……" talk_voice="2213/K2213_0048" />
+  <hero_talk id="2213" talk_type="追加語音3" pre_gp_lv="0" pre_item_id="184" talk_face="09" talk_text="えっ？　どんなエッチしたいかって？　そんなの……言わなくてもわかってるくせに……。その、だから……おっぱい揉んだり、乳首をグリグリされたり、しながら……おちんこ、おまんこに入れてほしい" talk_voice="2213/K2213_0049" />
+  <hero_talk id="2213" talk_type="追加語音4" pre_gp_lv="0" pre_item_id="185" talk_face="09" talk_text="ああぁっ、おちんこ、ずぶって、ん、はあぁっ、おまんこに、突っ込まれて、ひゃんんっ、おっぱいも、ぎゅむってされて、あぁっ、指先で、乳首、それっ……摘ままれたり、引っ張られたり、グリグリされるの好きぃっ♪" talk_voice="2213/K2213_0050" />
+  <hero_talk id="2213" talk_type="追加語音5" pre_gp_lv="0" pre_item_id="186" talk_face="09" talk_text="おちんこっ、んふあぁっ、おちんこ突いてっ♪　おちんこ突いてぇっ♪♪　おっぱい揉んで、ひゃあぁっ、乳首イジメて、勃起ちんこでズボズボしてぇっ♪　んはあぁっ、乳首いいっ、すっごく感じるぅ♪　もう、そのままぁ、ああぁんっ、ぶっといちんこで、濡れ濡れまんこもイジメてえぇええぇぇっっ♪♪♪" talk_voice="2213/K2213_0051" />
   <hero_talk id="2214" talk_type="召喚自我介紹" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2214/K2214_0001" />
   <hero_talk id="2214" talk_type="登入_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2214/K2214_0002" />
   <hero_talk id="2214" talk_type="觸摸1_副官" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2214/K2214_0003" />
