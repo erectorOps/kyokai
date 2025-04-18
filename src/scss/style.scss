@@ -99,6 +99,8 @@ a img {
     display: block;
     word-break: break-all;
     background-color: #fff;
+    max-width: 1440px;
+    margin:auto;
 }
 
 .center {
@@ -419,6 +421,9 @@ li img.s-img {
 .hero_container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    margin-bottom: -1px;
+    margin-right: -1px;
+
     @include media(tb) {
         grid-template-columns: repeat(5, 1fr);
     }
@@ -428,8 +433,7 @@ li img.s-img {
     @include media(xl) {
         grid-template-columns: repeat(8, 1fr);
     }
-    margin-bottom: -1px;
-    margin-right: -1px;
+
 
     > li { 
         text-align: center;
@@ -447,10 +451,14 @@ li img.s-img {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.tab_container[data-length="2"],
-.tab_container[data-length="4"] {
+.tab_container[data-length="2"] {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+.tab_container[data-length="4"] {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .tab_container {

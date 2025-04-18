@@ -109,30 +109,37 @@
         </tbody>
     </table>
 
-    <ul class="tab_container" data-length="3">
+    <ul class="tab_container" data-length="4">
         <li data-tab="レア" data-check="1">レア別</li>
         <li data-tab="実装順" data-check="0">実装順</li>
         <li data-tab="隊列順" data-check="0">隊列順</li>
+        <li data-tab="Tier順" data-check="0">Tier順</li>
     </ul>
     <table class="s-table">
         <tbody>
-            <%-
-            include('./_order_by_rare.ejs', {
-                baseUrl: baseUrl,
-                page: json
-            });
-        %>
-            <%-
+<%-
+    include('./_order_by_rare.ejs', {
+        baseUrl: baseUrl,
+        page: json
+    });
+%>
+<%-
     include('./_order_by_no.ejs', {
         baseUrl: baseUrl,
         page: json
     });
 %>
 <%-
-include('./_order_by_range.ejs', {
-    baseUrl: baseUrl,
-    page: json
-});
+    include('./_order_by_range.ejs', {
+        baseUrl: baseUrl,
+        page: json
+    });
+%>
+<%-
+    include('./_order_by_tier.ejs', {
+        baseUrl: baseUrl,
+        page: json
+    });
 %>
         </tbody>
     </table>

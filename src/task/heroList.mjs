@@ -65,7 +65,8 @@ export class HeroList {
                     gacha_type: gachaTypeEntity ? gachaTypeEntity['@_gacha_type'] : "",
                     added_date: gachaTypeEntity ? gachaTypeEntity['@_added_date'] : "",
                     obtain: gachaTypeEntity && gachaTypeEntity['@_obtain'] ? gachaTypeEntity['@_obtain'] : "",
-                    ub_type: gachaTypeEntity?.['@_ub_type'] ?? ""
+                    ub_type: gachaTypeEntity?.['@_ub_type'] ?? "",
+                    rank: gachaTypeEntity.review?.['@_rank']
                 };
 
                 const maxLimitEntity = kf.limit_over.root.limit_over.find(item => item['@_group_id'] === group && item['@_over_times'] === "5");
