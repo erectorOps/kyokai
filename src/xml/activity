@@ -1406,6 +1406,44 @@
     <reward_num>0</reward_num>
     <reward_num>0</reward_num>
   </activity>
+  <activity id="520" name="AP消費特典" show="true" menu_show="true" sort="9" icon="activity001/PS8_主介面_活動列表5コラボ_累計消耗" bg="activity5/AP消費特典5コラボ_804x434" pre_stage_site="0" end_time="2025/05/15 11:00:00" dur_day="0" activity_type="消費" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </activity>
   <activity id="901" name="７日ミッション" show="true" menu_show="false" sort="1" icon="activity001/PS8_主介面_活動列表_スタートダッシュミッション" bg="activitytraining001/PS8_新手衝刺任務_裁切檔07_R18" bg_normal="activitytraining001/PS8_新手衝刺任務_裁切檔07_一般" pre_stage_site="0" dur_day="0" activity_type="培訓" activity_val1="初心者" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -1444,7 +1482,7 @@
     <reward_num>0</reward_num>
     <reward_num>0</reward_num>
   </activity>
-  <activity id="902" name="メインミッション" show="true" menu_show="false" sort="2" icon="activity001/PS8_主介面_活動列表_スタートダッシュミッション" bg="activitytraining001/PS8_新手衝刺任務_裁切檔07_R18" bg_normal="activitytraining001/PS8_新手衝刺任務_裁切檔07_一般" pre_stage_site="0" dur_day="0" activity_type="培訓" activity_val1="メイン" activity_val5="false">
+  <activity id="902" name="メインミッション" show="true" menu_show="false" sort="2" icon="activity001/PS8_主介面_活動列表_スタートダッシュミッション" bg="activitytraining001/PS8_新手衝刺任務_裁切檔07_R18" bg_normal="activitytraining001/PS8_新手衝刺任務_裁切檔07_一般" pre_stage_site="0" dur_day="0" activity_type="培訓" activity_val1="メイン" activity_val3="1000011" activity_val4="5" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -1862,6 +1900,44 @@
     <reward_num>0</reward_num>
     <reward_num>0</reward_num>
   </activity>
+  <activity id="913" name="コラボ記念特別ミッション" show="true" menu_show="false" sort="8" icon="activity001/PS8_0.5周年任務" bg="activitytraining001/PS8_5合作" pre_stage_site="0" start_time="2025/04/24 11:00:00" end_time="2025/05/15 11:00:00" dur_day="0" activity_type="培訓" activity_val1="コラボ記念" activity_val2="コラボ記念開催中" activity_val3="1000011" activity_val4="1582" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>5</need_target>
+    <need_target>10</need_target>
+    <need_target>15</need_target>
+    <need_target>20</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>3</reward_type>
+    <reward_type>3</reward_type>
+    <reward_type>3</reward_type>
+    <reward_type>3</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>1582</reward_target>
+    <reward_target>1582</reward_target>
+    <reward_target>1582</reward_target>
+    <reward_target>1582</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>50</reward_num>
+    <reward_num>50</reward_num>
+    <reward_num>50</reward_num>
+    <reward_num>50</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </activity>
   <activity id="601" name="カムバック" show="true" menu_show="false" sort="0" pre_stage_site="0" end_time="2024/3/20 11:00:00" dur_day="0" activity_type="回歸活動" activity_val1="30" activity_val2="21" activity_val3="99999" activity_val4="72" activity_val5="6999">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -2205,6 +2281,44 @@
     <reward_num>0</reward_num>
   </activity>
   <activity id="801" name="刮刮樂" show="false" menu_show="false" sort="0" icon="scratch-off-1/BTN_巨乳スクラッチくじ" bg="eventbg/scratchoff1/刮刮樂_MainBG" pre_stage_site="0" start_time="2025/03/13 11:00:00" end_time="2025/03/27 11:00:00" dur_day="0" activity_type="刮刮樂" activity_val1="44" activity_val2="1" activity_val3="3" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </activity>
+  <activity id="802" name="合作轉盤" show="false" menu_show="false" sort="0" icon="collabo-1/BTN_特典召喚" bg="eventbg/collabobg1/特典召喚_1000x600" pre_stage_site="0" start_time="2025/04/24 00:00:00" end_time="2025/05/15 11:00:00" dur_day="0" activity_type="刮刮樂" activity_val1="45" activity_val2="1" activity_val3="5" activity_val4="合作2" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -2623,6 +2737,44 @@
     <reward_num>0</reward_num>
   </activity>
   <activity id="2311" name="PLAYER版1周年記念ログインスタンプ" show="true" menu_show="false" sort="7" icon="activity-sign/ログインスタンプ" pre_stage_site="0" start_time="2025/04/03 11:00:00" end_time="2025/04/17 11:00:00" dur_day="0" activity_type="每月簽到" activity_val1="activity_sign_dgp1y" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>7</need_target>
+    <need_target>14</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>3</reward_type>
+    <reward_type>2</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>3390</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>1</reward_num>
+    <reward_num>1000</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </activity>
+  <activity id="2312" name="【巨乳ファンタジー5コラボ】ログインスタンプ" show="true" menu_show="false" sort="7" icon="activity-sign/ログインスタンプ" pre_stage_site="0" start_time="2025/04/24 11:00:00" end_time="2025/05/08 11:00:00" dur_day="0" activity_type="每月簽到" activity_val1="activity_sign_5collab" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -4066,6 +4218,44 @@
     <reward_num>0</reward_num>
     <reward_num>0</reward_num>
   </activity>
+  <activity id="40037" name="第37回競撃戦" show="false" menu_show="false" sort="0" icon="arrive-limit/3-banner" bg="eventbg/limitbg12/limitmain-37-bg" pre_stage_site="0" start_time="2025/04/24 11:00:00" end_time="2025/05/08 11:00:00" dur_day="0" activity_type="限界" activity_val1="3" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </activity>
   <activity id="4001" name="ブースト指名" show="false" menu_show="false" sort="0" pre_stage_site="0" start_time="2024/01/18 11:00:00" end_time="2024/02/01 02:59:59" dur_day="0" activity_type="自選養成優待" activity_val1="0.3" activity_val2="0.3" activity_val3="0.3" activity_val4="1" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -4637,6 +4827,44 @@
     <reward_num>0</reward_num>
   </activity>
   <activity id="4016" name="ブースト指名" show="false" menu_show="false" sort="0" pre_stage_site="0" start_time="2025/04/01 03:00:00" end_time="2025/05/01 02:59:59" dur_day="0" activity_type="自選養成優待" activity_val1="0.3" activity_val2="0.3" activity_val3="0.3" activity_val4="1" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </activity>
+  <activity id="4017" name="ブースト指名" show="false" menu_show="false" sort="0" pre_stage_site="0" start_time="2025/05/01 03:00:00" end_time="2025/06/01 02:59:59" dur_day="0" activity_type="自選養成優待" activity_val1="0.3" activity_val2="0.3" activity_val3="0.3" activity_val4="1" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -9158,6 +9386,44 @@
     <reward_num>0</reward_num>
     <reward_num>0</reward_num>
   </activity>
+  <activity id="60110" name="【巨乳ファンタジー5コラボ　～ザマスの復讐～】ログインボーナス" show="true" menu_show="false" sort="10" bg="activitylogin109/登入獎勵_巨乳５コラボイベント_第一弾_1640x1000" pre_stage_site="0" end_time="2025/05/01 11:00:00" dur_day="0" activity_type="活動簽到" activity_val1="60110" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </activity>
   <activity id="600002" name="活躍度任務" show="true" menu_show="false" sort="6" pre_stage_site="0" end_time="2023/10/12 11:00:00" dur_day="0" activity_type="活躍度" activity_val1="600002" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -11705,6 +11971,82 @@
     <reward_num>0</reward_num>
   </activity>
   <activity id="600067" name="活躍度任務" show="true" menu_show="false" sort="6" pre_stage_site="0" start_time="2025/04/17 11:00:00" end_time="2025/04/24 11:00:00" dur_day="0" activity_type="活躍度" activity_val1="600067" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </activity>
+  <activity id="600068" name="活躍度任務" show="true" menu_show="false" sort="6" pre_stage_site="0" start_time="2025/04/24 11:00:00" end_time="2025/05/08 11:00:00" dur_day="0" activity_type="活躍度" activity_val1="600068" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </activity>
+  <activity id="600069" name="活躍度任務" show="true" menu_show="false" sort="6" pre_stage_site="0" start_time="2025/04/24 11:00:00" end_time="2025/05/22 11:00:00" dur_day="0" activity_type="活躍度" activity_val1="600069" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -15543,6 +15885,44 @@
     <reward_num>0</reward_num>
   </activity>
   <activity id="900083" name="Fanzine" show="false" menu_show="false" sort="0" pre_stage_site="0" end_time="2025/04/24 11:00:00" dur_day="0" activity_type="活動事件" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </activity>
+  <activity id="900084" name="巨乳ファンタジー5コラボ　～ザマスの復讐～" show="false" menu_show="false" sort="0" pre_stage_site="0" end_time="2025/05/08 11:00:00" dur_day="0" activity_type="活動事件" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>

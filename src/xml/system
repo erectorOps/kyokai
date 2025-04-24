@@ -74,13 +74,13 @@
   <system def="基礎角色數限制" val="150" />
   <system def="基礎道具數限制" val="1000" />
   <system def="AP回復商品群組" val="101" />
-  <system def="AP回復優惠開始時間" val="2025/03/21 03:00:00" />
-  <system def="AP回復優惠結束時間" val="2025/03/28 03:00:00" />
+  <system def="AP回復優惠開始時間" val="2025/04/25 03:00:00" />
+  <system def="AP回復優惠結束時間" val="2025/05/09 03:00:00" />
   <system def="AP回復優惠商品群組" val="102" />
   <system def="AP回復優惠額度" val="50" />
   <system def="BP回復商品群組" val="201" />
-  <system def="BP回復優惠開始時間" val="2025/03/21 03:00:00" />
-  <system def="BP回復優惠結束時間" val="2025/03/28 03:00:00" />
+  <system def="BP回復優惠開始時間" val="2025/04/25 03:00:00" />
+  <system def="BP回復優惠結束時間" val="2025/05/09 03:00:00" />
   <system def="BP回復優惠商品群組" val="202" />
   <system def="BP回復優惠額度" val="50" />
   <system def="道具欄位擴充商品群組" val="1101" />
@@ -369,7 +369,7 @@
   <system def="飾品2格開放需求英雄等級" val="41" />
   <system def="飾品4格開放需求英雄等級" val="51" />
   <system def="飾品5格開放需求英雄等級" val="61" />
-  <system def="新角色影片名稱" val="PS8_hero_2213.mp4" />
+  <system def="新角色影片名稱" val="PS8_hero_2214&amp;2216.mp4" />
   <system def="新角色影片更換時間" />
   <system def="新角色影片更換名稱" />
   <system def="特典序號圖示" val="item001/redemption_icon" />
@@ -379,7 +379,7 @@
   <system def="戰鬥通行證升級按鈕顯示天數" val="30" />
   <system def="RAID戰撤退按鈕顯示秒數" val="30" />
   <system def="活動通行證購買PASS提醒天數" val="3" />
-  <system def="活動通行證解鎖獎勵功能顯示天數" val="4" />
+  <system def="活動通行證解鎖獎勵功能顯示天數" val="7" />
   <system def="活動通行證解鎖獎勵商品群組" val="2801" />
   <system def="回歸活動商店關閉天數" val="7" />
   <system def="合成頁面分類水晶素材_小_特殊數值" val="2000" />
@@ -467,8 +467,8 @@
   <system def="儲值表特殊頁籤開始時間" val="2025-03-04 11:00:00" />
   <system def="儲值表特殊頁籤結束時間" val="2025-03-27 11:00:00" />
   <system def="RAID救援額外增加箱數" val="1" />
-  <system def="RAID救援額外增加箱數開始時間" val="2025-04-03 11:00:00" />
-  <system def="RAID救援額外增加箱數結束時間" val="2025-04-10 11:00:00" />
+  <system def="RAID救援額外增加箱數開始時間" val="2025-04-24 11:00:00" />
+  <system def="RAID救援額外增加箱數結束時間" val="2025-05-08 11:00:00" />
   <system def="愚人節招募ID" val="9999999" />
   <system def="重置加值消耗道具ID" />
   <system def="重置加值消耗道具數量" />

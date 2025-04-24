@@ -2361,4 +2361,61 @@
     <skill_lv>3</skill_lv>
     <skill_lv>4</skill_lv>
   </equip>
+  <equip id="4365" type="專武" can_equip_hero_ids="2214" rank_limit="4" equip_lv_max="50" main_statistic="HP" main_statistic_value="300" main_statistic_grow="30" rankup_instead_item="40033">
+    <secondary_statistic>14</secondary_statistic>
+    <secondary_statistic>7</secondary_statistic>
+    <secondary_statistic>0</secondary_statistic>
+    <secondary_statistic_value>3</secondary_statistic_value>
+    <secondary_statistic_value>4</secondary_statistic_value>
+    <secondary_statistic_grow>0.3</secondary_statistic_grow>
+    <secondary_statistic_grow>0.1</secondary_statistic_grow>
+    <skill_id>221401</skill_id>
+    <skill_id>221402</skill_id>
+    <skill_id>221403</skill_id>
+    <skill_id>221404</skill_id>
+    <skill_id>221405</skill_id>
+    <skill_lv>0</skill_lv>
+    <skill_lv>1</skill_lv>
+    <skill_lv>2</skill_lv>
+    <skill_lv>3</skill_lv>
+    <skill_lv>4</skill_lv>
+  </equip>
+  <equip id="4366" type="專武" can_equip_hero_ids="2215" rank_limit="4" equip_lv_max="50" main_statistic="技能傷害百分比" main_statistic_value="20" main_statistic_grow="0" rankup_instead_item="40033">
+    <secondary_statistic>8</secondary_statistic>
+    <secondary_statistic>6</secondary_statistic>
+    <secondary_statistic>0</secondary_statistic>
+    <secondary_statistic_value>20</secondary_statistic_value>
+    <secondary_statistic_value>4</secondary_statistic_value>
+    <secondary_statistic_grow>2</secondary_statistic_grow>
+    <secondary_statistic_grow>0.1</secondary_statistic_grow>
+    <skill_id>221501</skill_id>
+    <skill_id>221502</skill_id>
+    <skill_id>221503</skill_id>
+    <skill_id>221504</skill_id>
+    <skill_id>221505</skill_id>
+    <skill_lv>0</skill_lv>
+    <skill_lv>1</skill_lv>
+    <skill_lv>2</skill_lv>
+    <skill_lv>3</skill_lv>
+    <skill_lv>4</skill_lv>
+  </equip>
+  <equip id="4367" type="專武" can_equip_hero_ids="2216" rank_limit="4" equip_lv_max="50" main_statistic="奧義傷害百分比" main_statistic_value="10" main_statistic_grow="0" rankup_instead_item="40033">
+    <secondary_statistic>2</secondary_statistic>
+    <secondary_statistic>15</secondary_statistic>
+    <secondary_statistic>0</secondary_statistic>
+    <secondary_statistic_value>40</secondary_statistic_value>
+    <secondary_statistic_value>5</secondary_statistic_value>
+    <secondary_statistic_grow>4</secondary_statistic_grow>
+    <secondary_statistic_grow>0</secondary_statistic_grow>
+    <skill_id>221601</skill_id>
+    <skill_id>221602</skill_id>
+    <skill_id>221603</skill_id>
+    <skill_id>221604</skill_id>
+    <skill_id>221605</skill_id>
+    <skill_lv>0</skill_lv>
+    <skill_lv>1</skill_lv>
+    <skill_lv>2</skill_lv>
+    <skill_lv>3</skill_lv>
+    <skill_lv>4</skill_lv>
+  </equip>
 </root>

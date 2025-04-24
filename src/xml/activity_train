@@ -814,4 +814,48 @@
     <quest_id>0</quest_id>
     <quest_id>0</quest_id>
   </activity_train>
+  <activity_train id="913" day="0" name="一週目">
+    <quest_id>92601</quest_id>
+    <quest_id>92602</quest_id>
+    <quest_id>92603</quest_id>
+    <quest_id>92604</quest_id>
+    <quest_id>92605</quest_id>
+    <quest_id>92606</quest_id>
+    <quest_id>92607</quest_id>
+    <quest_id>92608</quest_id>
+    <quest_id>92609</quest_id>
+    <quest_id>92610</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+  </activity_train>
+  <activity_train id="913" day="8" name="二週目">
+    <quest_id>92611</quest_id>
+    <quest_id>92612</quest_id>
+    <quest_id>92613</quest_id>
+    <quest_id>92614</quest_id>
+    <quest_id>92615</quest_id>
+    <quest_id>92616</quest_id>
+    <quest_id>92617</quest_id>
+    <quest_id>92618</quest_id>
+    <quest_id>92619</quest_id>
+    <quest_id>92620</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+  </activity_train>
 </root>

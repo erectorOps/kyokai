@@ -175,9 +175,14 @@
     <limit_boss>400069</limit_boss>
     <limit_boss>0</limit_boss>
   </activity_limit_main>
-  <activity_limit_main id="40036" name="第35回競撃戦" hero_group_id="2212">
+  <activity_limit_main id="40036" name="第36回競撃戦" hero_group_id="2212">
     <limit_boss>400070</limit_boss>
     <limit_boss>400071</limit_boss>
+    <limit_boss>0</limit_boss>
+  </activity_limit_main>
+  <activity_limit_main id="40037" name="第37回競撃戦" hero_group_id="2216">
+    <limit_boss>400072</limit_boss>
+    <limit_boss>400073</limit_boss>
     <limit_boss>0</limit_boss>
   </activity_limit_main>
 </root>

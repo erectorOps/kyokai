@@ -736,4 +736,18 @@
   <monster_action id="40072" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4007202" />
   <monster_action id="40072" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4007203" />
   <monster_action id="40072" info="自身が「盲目」状態の場合" type="自身有指定狀態" value="目盲" skill_id="4007204" />
+  <monster_action id="40073" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4007301" />
+  <monster_action id="40073" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4007302" />
+  <monster_action id="40073" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4007303" />
+  <monster_action id="40073" info="自身が「解消」状態の場合" type="自身有指定狀態" value="驅散" skill_id="4007304" />
+  <monster_action id="40074" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4007401" />
+  <monster_action id="40074" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4007402" />
+  <monster_action id="40074" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4007403" />
+  <monster_action id="40074" info="自身が「解消」状態の場合" type="自身有指定狀態" value="驅散" skill_id="4007404" />
+  <monster_action id="50831" info="残りHP80%" type="自身血量低於" value="0.8" skill_id="5047101" />
+  <monster_action id="50831" info="残りHP50%" type="自身血量低於" value="0.5" skill_id="5047102" />
+  <monster_action id="50832" info="残りHP80%" type="自身血量低於" value="0.8" skill_id="5047201" />
+  <monster_action id="50832" info="残りHP50%" type="自身血量低於" value="0.5" skill_id="5047202" />
+  <monster_action id="50833" info="残りHP80%" type="自身血量低於" value="0.8" skill_id="5047301" />
+  <monster_action id="50833" info="残りHP50%" type="自身血量低於" value="0.5" skill_id="5047302" />
 </root>
