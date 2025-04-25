@@ -1,5 +1,7 @@
 import Big from 'big.js';
 
+import { timeErrorMsg } from './_util.mjs';
+
 const parseBuff = (buff, lv, info) => {
   if (buff["@_get_counter"] && buff["@_get_counter"] != "0") {
     //console.log("Error: get_counterのあるバフをパースしようとしてる [buff id="+buff["@_id"] + "]");
@@ -639,9 +641,9 @@ export const parseSkill = (sid, lv, kf) => {
   text = text.replace(/<color=(#[A-F0-9]+?)>\{9\}/i, `<span class="value${is_heal ? " heal" : ""}">{9}`)
     .replace(/<color=(#[A-F0-9]+?)>/ig, `<span class="value">`).replace(/<\/color>/ig, "</span>");
 
-  let waitShowTime = new Big(0);
+  let waitShowTime = "0";
   if (s['@_effect_id'] && kf.skill_effect.root.skill_effect.find(item => item['@_Id'] === s['@_effect_id'])) {
-    waitShowTime = new Big(kf.skill_effect.root.skill_effect.find(item => item['@_Id'] === s['@_effect_id'])['@_WaitShowTime']);
+    waitShowTime = kf.skill_effect.root.skill_effect.find(item => item['@_Id'] === s['@_effect_id'])['@_WaitShowTime'];
   }
 
   const hpScale = s['@_target_hp_scale'] ? new Big(s['@_target_hp_scale']) :new Big(0);
@@ -706,13 +708,14 @@ export const parseSkill = (sid, lv, kf) => {
     name: s[`@_name`].replace(/&#x[AD];/ig, "").replace(/<ruby=(.+?)>(.+?)<\/ruby>/ig, "<ruby>$2<rt>$1</rt></ruby>")
   };
 
-  if (s['@_freeze_time'] && waitShowTime) {
-    const time = new Big(s['@_freeze_time']).plus("0.125").plus(waitShowTime);
+  if (s['@_freeze_time']) {
+    const time = new Big(s['@_freeze_time']).plus("0.125").plus(new Big(waitShowTime));
     result.time = time.toFixed(3, Big.roundHalfEven);
     result.time2 = time.round(2, Big.roundDown).toFixed(1, Big.roundUp);
     result.freezeTime = new Big(s['@_freeze_time']);
-    result.waitShowTime = waitShowTime;
+    result.waitShowTime = new Big(waitShowTime);
   }
-
+  
+  result.time_error_msg = timeErrorMsg(s['@_freeze_time'], waitShowTime);
   return result;
 }

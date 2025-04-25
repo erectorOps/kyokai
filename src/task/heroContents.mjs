@@ -4,7 +4,7 @@ import ejs from 'gulp-ejs'; //EJS
 import rename from 'gulp-rename'; //ファイル出力時にファイル名を変える
 import { Big } from 'big.js';
 
-import { getAtkSpeed, getPosition, abiNameConvTable, statisticConvTable } from './hero/_util.mjs';
+import { getAtkSpeed, getPosition, abiNameConvTable, statisticConvTable, timeErrorMsg } from './hero/_util.mjs';
 import { calcPassive } from './hero/_calcPassive.mjs';
 import { parseSkill } from './hero/_parseSkill.mjs';
 import { srcBase, srcPath, distPath } from './_config.mjs';
@@ -183,7 +183,7 @@ export class HeroContents {
             json.range = atkSkill['@_range'];
             json.position = getPosition(parseInt(json.range));
 
-            const freezeTime = atkSkill['@_freeze_time'];;
+            const freezeTime = atkSkill['@_freeze_time'];
             const waitShowTime = kf.skill_effect.root.skill_effect.find(item => item['@_Id'] === atkSkill['@_effect_id'])?.['@_WaitShowTime'] ?? 0;
             const critWaitShowTime = kf.skill_effect.root.skill_effect.find(item => item['@_Id'] === atkSkill['@_crit_effect_id'])?.['@_WaitShowTime'] ?? waitShowTime;
 
@@ -192,16 +192,17 @@ export class HeroContents {
               icon: atkSkill['@_icon'] ?? (atkSkill['@_target_hp_effect'] === "魔法傷害" ? "skill001/skill0004" : "skill001/skill0001"),
               time: "",
               time2: "",
+              time_error_msg: timeErrorMsg(freezeTime, waitShowTime),
               crit_time: "",
-              crit_time2: ""
+              crit_time2: "",
+              crit_error_msg: timeErrorMsg(freezeTime, critWaitShowTime)
             };
 
-            if (freezeTime && waitShowTime) {
+            if (freezeTime) {
               const time = new Big(freezeTime).plus("0.125").plus(new Big(waitShowTime));
               json.atkskill.time = time.toFixed(3, Big.roundHalfEven);
               json.atkskill.time2 = time.round(2, Big.roundDown).toFixed(1, Big.roundUp);
-            }
-            if (freezeTime && critWaitShowTime) {
+
               const crit_time = new Big(freezeTime).plus("0.125").plus(new Big(critWaitShowTime));
               json.atkskill.crit_time = crit_time.toFixed(3, Big.roundHalfEven);
               json.atkskill.crit_time2 = crit_time.round(2, Big.roundDown).toFixed(1, Big.roundUp);

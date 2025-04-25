@@ -51,3 +51,13 @@ export const statisticConvTable = {
   // 普攻傷害百分比,
   // 普攻傷害加成值
 }
+
+export const timeErrorMsg = (freeze_time, wait_show_time) => {
+  if (freeze_time == null || freeze_time == "0") {
+    return "硬直時間を取得できません(おそらくバグ)";
+  }
+  if (wait_show_time == null || wait_show_time == "0") {
+    return "エフェクトが無いため短い硬直のスキルです(おそらくバグ)"
+  }
+  return "";
+}

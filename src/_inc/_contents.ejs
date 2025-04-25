@@ -131,11 +131,27 @@
       <table class="s-table">
         <tbody>
           <tr><th width="100%"><div class="s-name"><img class="s-icon" alt="覚醒前通常攻撃アイコン" src="../img/<%= page.atkskill.icon %>.png"><%= page.atkskill.name %></div></th></tr>
-          <tr><td class="center">【硬直時間】<%= page.atkskill.time2 %>s<br>【硬直時間(クリティカル)】<%= page.atkskill.crit_time2 %>s</td></tr>
+          <tr><td class="center">【硬直時間】<%= page.atkskill.time2 %>s
+            <% if (page.atkskill.time_error_msg) { %>
+              <span class="time_error_msg">※<%= page.atkskill.time_error_msg %></span>
+            <% } %>
+            <br>【硬直時間(クリティカル)】<%= page.atkskill.crit_time2 %>s
+            <% if (page.atkskill.crit_error_msg) { %>
+              <span class="time_error_msg">※<%= page.atkskill.crit_error_msg %></span>
+            <% } %>
+          </td></tr>
           <tr><th><div class="s-name"><img class="s-icon" alt="覚醒前スキル1アイコン" src="../img/<%= page.skill1.icon %>.png"><%- page.skill1.name %></div></th></tr>
-          <tr><td class="center"><div>【硬直時間】<%=page.skill1.time2 %>s</div><%- page.skill1.text %></td></tr>
+          <tr><td class="center"><div>【硬直時間】<%=page.skill1.time2 %>s
+          <% if (page.skill1.time_error_msg) { %>
+            <span class="time_error_msg">※<%= page.skill1.time_error_msg %></span>
+          <% } %>
+          </div><%- page.skill1.text %></td></tr>
           <tr><th><div class="s-name"><img class="s-icon" alt="覚醒前スキル2アイコン" src="../img/<%= page.skill2.icon %>.png"><%- page.skill2.name %></div></th></tr>
-          <tr><td class="center"><div>【硬直時間】<%=page.skill2.time2 %>s</div><%- page.skill2.text %></td></tr>
+          <tr><td class="center"><div>【硬直時間】<%=page.skill2.time2 %>s
+          <% if (page.skill2.time_error_msg) { %>
+            <span class="time_error_msg">※<%= page.skill2.time_error_msg %></span>
+          <% } %>
+          </div><%- page.skill2.text %></td></tr>
         </tbody>
       </table>
     <% if (page.passive3) { %>
