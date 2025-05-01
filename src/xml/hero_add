@@ -272,9 +272,20 @@ E: すべてのコンテンツ、属性、戦術において候補に上がる�
 		</review>
 	</hero_add>
 	<hero_add id="2205" rare="SSR" name="【生真面目ナース】ラピス" gacha_type="疾走討伐戦" added_date="2025/02/13" obtain="イベント「オッパイ大好きな俺と、生真面目ナース」期間限定召喚" ub_type="全体HP回復,ダメージUP,ブロックUP,バリア,支援バフ"><review rank="C"></review></hero_add>
-	<hero_add id="2201" rare="SSR" name="【小悪魔アイドル】ニーナ" gacha_type="Fanzine" added_date="2025/02/27" obtain="イベント「Fanzine」期間限定召喚" ub_type="全体攻撃,盲目,全体MP継続回復,ダメージUP,支援バフ"><review rank="S"></review></hero_add>
+	<hero_add id="2201" rare="SSR" name="【小悪魔アイドル】ニーナ" gacha_type="Fanzine" added_date="2025/02/27" obtain="イベント「Fanzine」期間限定召喚" ub_type="全体攻撃,盲目,全体MP継続回復,ダメージUP,支援バフ">
+		<review rank="S">
+			<merit>リーゼルの上位互換</merit>
+			<merit>奥義でダメージにも貢献できる</merit>
+			<merit>編成で悩んだ時入れておけばダメージが伸びるのでオススメ</merit>
+		</review>
+	</hero_add>
 	<hero_add id="2203" rare="SSR" name="【氷上の芸術家】イルーギオ" gacha_type="同盟戦" added_date="2025/03/06" obtain="「同盟戦・水攻略応援」期間限定召喚" ub_type="3人攻撃,凍結,防御DOWN,行動速度UP,支援バフ"><review rank="A"></review></hero_add>
-	<hero_add id="2204" rare="SSR" name="【アメスク留学生】アーティア" gacha_type="シーズンパス" added_date="2025/03/06" obtain="シーズンパスLv50報酬" ub_type="3人攻撃,風被ダメージUP,風攻撃UP"><review rank="B"></review></hero_add>
+	<hero_add id="2204" rare="SSR" name="【アメスク留学生】アーティア" gacha_type="シーズンパス" added_date="2025/03/06" obtain="シーズンパスLv50報酬" ub_type="3人攻撃,風被ダメージUP,風攻撃UP">
+		<review rank="B">
+			<merit>2秒で奥義を撃てる</merit>
+			<merit>救援戦でカティーシャ並の性能なので代替として使える</merit>
+		</review>
+	</hero_add>
 	<hero_add id="2183" rare="SSR" name="ベガリア" gacha_type="イベント,周年" added_date="2025/03/13" obtain="イベント「1.5周年Anniversary」期間限定召喚" ub_type="6人攻撃,恐怖,盲目,行動速度DOWN">
 		<review rank="S">
 			<merit>闘技場で挑発耐性による確定開幕敵全体への防御ダウン＆行動速度10%ダウンが強い</merit>
@@ -283,7 +294,11 @@ E: すべてのコンテンツ、属性、戦術において候補に上がる�
 			<demerit>バフが無く行動速度も遅い</demerit>
 		</review>
 	</hero_add>
-	<hero_add id="2206" rare="SSR" name="【エレガントバニー】ベルナデット" gacha_type="イベント,周年" added_date="2025/03/13" obtain="イベント「1.5周年Anniversary」期間限定召喚" ub_type="3人攻撃,行動速度DOWN,ダメージUP,行動速度UP,水攻撃UP,支援バフ"><review rank="A"></review></hero_add>
+	<hero_add id="2206" rare="SSR" name="【エレガントバニー】ベルナデット" gacha_type="イベント,周年" added_date="2025/03/13" obtain="イベント「1.5周年Anniversary」期間限定召喚" ub_type="3人攻撃,行動速度DOWN,ダメージUP,行動速度UP,水攻撃UP,支援バフ">
+		<review rank="A">
+			<merit>バフが豊富で火力が出せるので競撃戦などでメインアタッカーになれる</merit>
+		</review>
+	</hero_add>
 	<hero_add id="2207" rare="SSR" name="【知恵と勇気の女神】アテナ" gacha_type="恒常" added_date="2025/03/20" obtain="恒常,「人気上位特典聖騎士」先行召喚" ub_type="1人攻撃,沈黙,解消,防御DOWN">
 		<review rank="C">
 			<merit>全タンクの中で一番火力が高い</merit>
@@ -304,7 +319,18 @@ E: すべてのコンテンツ、属性、戦術において候補に上がる�
 	<hero_add id="2211" rare="SR" name="【乳揺れチアガール】ボニータ" gacha_type="報酬,イベント" added_date="2025/04/03" obtain="イベント「プエリアに微笑みを」ミッション報酬" ub_type="3人攻撃,行動速度DOWN,ブロックDOWN"><review rank="E"></review></hero_add>
 	<hero_add id="2212" rare="SSR" name="【天馬のヴァルキュリア】ジゼル" gacha_type="無限討伐戦" added_date="2025/04/10" obtain="イベント「天馬のヴァルキュリア」期間限定召喚" ub_type="全体攻撃,盲目,MP回復"><review rank="A"></review></hero_add>
 	<hero_add id="2213" rare="SSR" name="【凄腕傭兵】シャティ" gacha_type="Fanzine" added_date="2025/04/17" obtain="イベント「Fanzine」期間限定召喚" ub_type="1人攻撃,盲目,魔被ダメージUP"><review rank="C"></review></hero_add>
-	<hero_add id="2214" rare="SSR" name="ベルベル" gacha_type="イベント,コラボ" added_date="2025/04/24" obtain="イベント「巨乳ファンタジー5コラボ ～ザマスの逆襲～」期間限定召喚" ub_type="全体攻撃,行動速度DOWN,命中DOWN,MP継続回復"><review rank="B"></review></hero_add>
+	<hero_add id="2214" rare="SSR" name="ベルベル" gacha_type="イベント,コラボ" added_date="2025/04/24" obtain="イベント「巨乳ファンタジー5コラボ ～ザマスの逆襲～」期間限定召喚" ub_type="全体攻撃,行動速度DOWN,命中DOWN,MP継続回復">
+		<review rank="S">
+			<merit>ダメージ2万UPが闘技場で最強</merit>
+			<merit>バニー無しでも2秒で奥義を撃てるぐらいMP回復が豊富</merit>
+		</review>
+	</hero_add>
 	<hero_add id="2215" rare="SSR" name="ソニア" gacha_type="イベント,スペシャルパス,コラボ" added_date="2025/04/24" obtain="イベント「巨乳ファンタジー5コラボ ～ザマスの逆襲～」スペシャルパス1000Pt報酬" ub_type="1人攻撃,聖被ダメージUP,攻撃UP"><review rank="C"></review></hero_add>
 	<hero_add id="2216" rare="SSR" name="アルシャール" gacha_type="イベント,コラボ" added_date="2025/04/24" obtain="イベント「巨乳ファンタジー5コラボ ～ザマスの逆襲～」期間限定召喚" ub_type="3人攻撃,防御DOWN,ブロックDOWN"><review rank="A"></review></hero_add>
+	<hero_add id="2217" rare="SSR" name="ネフィリア" gacha_type="イベント,コラボ" added_date="2025/05/01" obtain="試練の塔「巨乳ファンタジー5コラボ ～ザマスの逆襲～」期間限定召喚" ub_type="3人攻撃,眩暈,防御DOWN,クリティカルUP">
+		<review rank="S">
+			<merit>スキル1が奥義以上のダメージが出て強すぎ</merit>
+			<merit>サポートが攻撃＆クリでボーナスも攻撃なので優秀</merit>
+		</review>
+	</hero_add>
 </root>

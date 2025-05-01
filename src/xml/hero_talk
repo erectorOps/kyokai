@@ -10825,56 +10825,56 @@
   <hero_talk id="2216" talk_type="角色背景2" pre_gp_lv="2" pre_item_id="0" talk_text="レガリア王国の東、国境沿いにベリル海という塩湖がある。&#xA;ベリル海の西側にレガリア王国が、北側にライバル、ファリア王国が、そして東側にトルキア王国がある。&#xA;&#xA;アルシャールはトルキア出身の女だった。&#xA;小料理屋の娘として育ち、子供の頃から料理も手伝って料理上手として知られていたのだが、誘拐されて奴隷として売られてしまう。&#xA;&#xA;そこで逃げ出して、海賊島に流れ着いたのだ。&#xA;以来、最初は料理女、次は海賊、そして海賊の首領に昇りつめたのである。&#xA;&#xA;だが、当時レガリア王国第三王子だったリーンの策にはまって逮捕。&#xA;手下どもも捕まってしまう。&#xA;&#xA;手下思いのアルシャールは、自分の体を自由にしてもいい、その代わり手下の命を助けてくれと命乞い。&#xA;聞き入れられて、部下ともどもリーンの配下に入り、その後、リーンが王に即位して愛妾として収まったのだった。&#xA;&#xA;夢は王妃。&#xA;いつも王妃の自分を妄想している。&#xA;&#xA;まだ王妃にはなれていないが、幸せな毎日を送っていたのだが、変な夢を見てしまったのだ。&#xA;&#xA;タラキン王子は、リーンと王位を争っていたライバルだった。&#xA;ザマス元王妃は、タラキン王子の母。&#xA;&#xA;一度は即位したが、その後、不当な罪を押しつけてリーンを抹殺しようとしたが、逆に返り討ちに遭い、死亡。&#xA;&#xA;母子ともども死んだはずだったのだが……。" />
   <hero_talk id="2216" talk_type="角色背景3" pre_gp_lv="3" pre_item_id="0" talk_text="アルシャールと海賊の手下は強いつながりで結ばれている。&#xA;料理上手のアルシャールに胃袋をつかまれた海賊たちは、アルシャールに絶対服従。&#xA;呼べばいつでも現れて、敵をボコボコにする。" />
   <hero_talk id="2216" talk_type="角色背景4" pre_gp_lv="4" pre_item_id="0" talk_text="アルシャールの真骨頂は身軽さ。&#xA;背丈の高さくらい、ぽんと飛び越える。&#xA;そして剣をなぎ払う。&#xA;&#xA;料理も大得意だが、技にはしていないらしい。" />
-  <hero_talk id="2217" talk_type="召喚自我介紹" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2217/K2217_0001" />
-  <hero_talk id="2217" talk_type="登入_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2217/K2217_0002" />
-  <hero_talk id="2217" talk_type="觸摸1_副官" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2217/K2217_0003" />
-  <hero_talk id="2217" talk_type="觸摸2_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2217/K2217_0004" />
-  <hero_talk id="2217" talk_type="觸摸3_副官" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2217/K2217_0005" />
-  <hero_talk id="2217" talk_type="放置_副官" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2217/K2217_0006" />
-  <hero_talk id="2217" talk_type="出戰" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2217/K2217_0007" />
-  <hero_talk id="2217" talk_type="開場" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2217/K2217_0008" />
-  <hero_talk id="2217" talk_type="技能1" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2217/K2217_0009" />
-  <hero_talk id="2217" talk_type="技能2" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2217/K2217_0010" />
-  <hero_talk id="2217" talk_type="奧義1" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_voice="2217/K2217_0011" />
-  <hero_talk id="2217" talk_type="奧義2" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_voice="2217/K2217_0012" />
-  <hero_talk id="2217" talk_type="勝利" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_voice="2217/K2217_0013" />
-  <hero_talk id="2217" talk_type="戰敗" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2217/K2217_0014" />
-  <hero_talk id="2217" talk_type="一般強化1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2217/K2217_0015" />
-  <hero_talk id="2217" talk_type="一般強化2" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2217/K2217_0016" />
-  <hero_talk id="2217" talk_type="一般強化3" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2217/K2217_0017" />
-  <hero_talk id="2217" talk_type="最高階強化" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2217/K2217_0018" />
-  <hero_talk id="2217" talk_type="好感1" pre_gp_lv="1" pre_item_id="0" talk_face="01" talk_voice="2217/K2217_0019" />
-  <hero_talk id="2217" talk_type="好感2" pre_gp_lv="2" pre_item_id="0" talk_face="01" talk_voice="2217/K2217_0020" />
-  <hero_talk id="2217" talk_type="好感3" pre_gp_lv="3" pre_item_id="0" talk_face="02" talk_voice="2217/K2217_0021" />
-  <hero_talk id="2217" talk_type="好感4" pre_gp_lv="4" pre_item_id="0" talk_face="02" talk_voice="2217/K2217_0022" />
-  <hero_talk id="2217" talk_type="好感5" pre_gp_lv="4" pre_item_id="0" talk_face="03" talk_voice="2217/K2217_0023" />
-  <hero_talk id="2217" talk_type="胸部低好感" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2217/K2217_0024" />
-  <hero_talk id="2217" talk_type="胸部中好感" pre_gp_lv="1" pre_item_id="0" talk_face="01" talk_voice="2217/K2217_0025" />
-  <hero_talk id="2217" talk_type="胸部高好感" pre_gp_lv="2" pre_item_id="0" talk_face="02" talk_voice="2217/K2217_0026" />
-  <hero_talk id="2217" talk_type="贈禮1" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2217/K2217_0027" />
-  <hero_talk id="2217" talk_type="贈禮2" pre_gp_lv="3" pre_item_id="0" talk_face="02" talk_voice="2217/K2217_0028" />
-  <hero_talk id="2217" talk_type="派駐對話1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2217/K2217_0029" />
-  <hero_talk id="2217" talk_type="派駐對話2" pre_gp_lv="3" pre_item_id="0" talk_face="01" talk_voice="2217/K2217_0030" />
-  <hero_talk id="2217" talk_type="遊戲標題" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2217/K2217_0031" />
-  <hero_talk id="2217" talk_type="肯定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2217/K2217_0032" />
-  <hero_talk id="2217" talk_type="否定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2217/K2217_0033" />
-  <hero_talk id="2217" talk_type="思考" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2217/K2217_0034" />
-  <hero_talk id="2217" talk_type="疑念" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2217/K2217_0035" />
-  <hero_talk id="2217" talk_type="唸る" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2217/K2217_0036" />
-  <hero_talk id="2217" talk_type="驚愕" pre_gp_lv="0" pre_item_id="0" talk_face="08" talk_voice="2217/K2217_0037" />
-  <hero_talk id="2217" talk_type="ムカッ" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2217/K2217_0038" />
-  <hero_talk id="2217" talk_type="怒る" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_voice="2217/K2217_0039" />
-  <hero_talk id="2217" talk_type="焦り" pre_gp_lv="0" pre_item_id="0" talk_face="07" talk_voice="2217/K2217_0040" />
-  <hero_talk id="2217" talk_type="ダメージ時" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2217/K2217_0041" />
-  <hero_talk id="2217" talk_type="ため息" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2217/K2217_0042" />
-  <hero_talk id="2217" talk_type="自責" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2217/K2217_0043" />
-  <hero_talk id="2217" talk_type="喜び" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2217/K2217_0044" />
-  <hero_talk id="2217" talk_type="笑い" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_voice="2217/K2217_0045" />
-  <hero_talk id="2217" talk_type="照れ" pre_gp_lv="0" pre_item_id="0" talk_face="09" talk_voice="2217/K2217_0046" />
-  <hero_talk id="2217" talk_type="角色背景1" pre_gp_lv="1" pre_item_id="0" />
-  <hero_talk id="2217" talk_type="角色背景2" pre_gp_lv="2" pre_item_id="0" />
-  <hero_talk id="2217" talk_type="角色背景3" pre_gp_lv="3" pre_item_id="0" />
-  <hero_talk id="2217" talk_type="角色背景4" pre_gp_lv="4" pre_item_id="0" />
+  <hero_talk id="2217" talk_type="召喚自我介紹" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="ネフィリアと申します。レガリア王国で王の専属魔術師と大祭司長を務めております。是非、お力をお貸しください" talk_voice="2217/K2217_0001" />
+  <hero_talk id="2217" talk_type="登入_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="お呼びですか？" talk_voice="2217/K2217_0002" />
+  <hero_talk id="2217" talk_type="觸摸1_副官" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="こちらの水の神様は、ラシュラ様とおっしゃるのですね。わたしどもの世界では、デナリア様と申します" talk_voice="2217/K2217_0003" />
+  <hero_talk id="2217" talk_type="觸摸2_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="こちらの世界も、価値観は似ているのでしょうね。マグダレーナ殿の衣装を見て、きっと同じなのだろうなと感じました" talk_voice="2217/K2217_0004" />
+  <hero_talk id="2217" talk_type="觸摸3_副官" pre_gp_lv="0" pre_item_id="0" talk_face="07" talk_text="タライはその……どうしてタライなのかはわからないのです。とにかく脳天に落として水をと思ったら、タライになってしまって……" talk_voice="2217/K2217_0005" />
+  <hero_talk id="2217" talk_type="放置_副官" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="タライを落としますよ" talk_voice="2217/K2217_0006" />
+  <hero_talk id="2217" talk_type="出戰" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="戦いの時が来たのですね" talk_voice="2217/K2217_0007" />
+  <hero_talk id="2217" talk_type="開場" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="異界の方々、ご覚悟を" talk_voice="2217/K2217_0008" />
+  <hero_talk id="2217" talk_type="技能1" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_text="やられキャラになりなさい！" talk_voice="2217/K2217_0009" />
+  <hero_talk id="2217" talk_type="技能2" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_text="この不届き者！" talk_voice="2217/K2217_0010" />
+  <hero_talk id="2217" talk_type="奧義1" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_text="この穢らわしき者！　――水の神、デナリアよ！　天誅を喰らわせたまえ！" talk_voice="2217/K2217_0011" />
+  <hero_talk id="2217" talk_type="奧義2" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_text="水の神、デナリアよ！　天誅を喰らわせたまえ！" talk_voice="2217/K2217_0012" />
+  <hero_talk id="2217" talk_type="勝利" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_text="無事、成敗されました" talk_voice="2217/K2217_0013" />
+  <hero_talk id="2217" talk_type="戰敗" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="強敵……" talk_voice="2217/K2217_0014" />
+  <hero_talk id="2217" talk_type="一般強化1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="これは……" talk_voice="2217/K2217_0015" />
+  <hero_talk id="2217" talk_type="一般強化2" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="女神の力？" talk_voice="2217/K2217_0016" />
+  <hero_talk id="2217" talk_type="一般強化3" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="女神の力が来てる" talk_voice="2217/K2217_0017" />
+  <hero_talk id="2217" talk_type="最高階強化" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_text="こんなに女神の力が……受け止めきれない……" talk_voice="2217/K2217_0018" />
+  <hero_talk id="2217" talk_type="好感1" pre_gp_lv="1" pre_item_id="0" talk_face="01" talk_text="こんにちは" talk_voice="2217/K2217_0019" />
+  <hero_talk id="2217" talk_type="好感2" pre_gp_lv="2" pre_item_id="0" talk_face="01" talk_text="くす。またお会いしましたね" talk_voice="2217/K2217_0020" />
+  <hero_talk id="2217" talk_type="好感3" pre_gp_lv="3" pre_item_id="0" talk_face="02" talk_text="領主様。少しお話をしませんか？" talk_voice="2217/K2217_0021" />
+  <hero_talk id="2217" talk_type="好感4" pre_gp_lv="4" pre_item_id="0" talk_face="03" talk_text="領主様。お帰りですか？　では、わたしもごいっしょに" talk_voice="2217/K2217_0022" />
+  <hero_talk id="2217" talk_type="好感5" pre_gp_lv="4" pre_item_id="0" talk_face="03" talk_text="領主様！　リネット殿のお店で飲みませんか？　領主様とはちゃんとお話をしてみたかったのです" talk_voice="2217/K2217_0023" />
+  <hero_talk id="2217" talk_type="胸部低好感" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="見ていらっしゃいますね" talk_voice="2217/K2217_0024" />
+  <hero_talk id="2217" talk_type="胸部中好感" pre_gp_lv="1" pre_item_id="0" talk_face="01" talk_text="くす。気になりますか？" talk_voice="2217/K2217_0025" />
+  <hero_talk id="2217" talk_type="胸部高好感" pre_gp_lv="2" pre_item_id="0" talk_face="02" talk_text="いいですよ、たっぷりご覧になって" talk_voice="2217/K2217_0026" />
+  <hero_talk id="2217" talk_type="贈禮1" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="お優しいのですね" talk_voice="2217/K2217_0027" />
+  <hero_talk id="2217" talk_type="贈禮2" pre_gp_lv="3" pre_item_id="0" talk_face="03" talk_text="人たらしでいらっしゃるんですね" talk_voice="2217/K2217_0028" />
+  <hero_talk id="2217" talk_type="派駐對話1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="わたしでよろしければ" talk_voice="2217/K2217_0029" />
+  <hero_talk id="2217" talk_type="派駐對話2" pre_gp_lv="3" pre_item_id="0" talk_face="01" talk_text="かまいませんよ" talk_voice="2217/K2217_0030" />
+  <hero_talk id="2217" talk_type="遊戲標題" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="巨乳ファンタジー・バースト" talk_voice="2217/K2217_0031" />
+  <hero_talk id="2217" talk_type="肯定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="ええ" talk_voice="2217/K2217_0032" />
+  <hero_talk id="2217" talk_type="否定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="いえ" talk_voice="2217/K2217_0033" />
+  <hero_talk id="2217" talk_type="思考" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="ンン……" talk_voice="2217/K2217_0034" />
+  <hero_talk id="2217" talk_type="疑念" pre_gp_lv="0" pre_item_id="0" talk_face="07" talk_text="何かが……" talk_voice="2217/K2217_0035" />
+  <hero_talk id="2217" talk_type="唸る" pre_gp_lv="0" pre_item_id="0" talk_face="08" talk_text="その手で来たか……" talk_voice="2217/K2217_0036" />
+  <hero_talk id="2217" talk_type="驚愕" pre_gp_lv="0" pre_item_id="0" talk_face="08" talk_text="えっ……!?" talk_voice="2217/K2217_0037" />
+  <hero_talk id="2217" talk_type="ムカッ" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="失礼では？" talk_voice="2217/K2217_0038" />
+  <hero_talk id="2217" talk_type="怒る" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_text="タライを落とします" talk_voice="2217/K2217_0039" />
+  <hero_talk id="2217" talk_type="焦り" pre_gp_lv="0" pre_item_id="0" talk_face="07" talk_text="まずいわ……" talk_voice="2217/K2217_0040" />
+  <hero_talk id="2217" talk_type="ダメージ時" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="失態だわ……" talk_voice="2217/K2217_0041" />
+  <hero_talk id="2217" talk_type="ため息" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="難題ね……" talk_voice="2217/K2217_0042" />
+  <hero_talk id="2217" talk_type="自責" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="わたしの責任ね……" talk_voice="2217/K2217_0043" />
+  <hero_talk id="2217" talk_type="喜び" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="よ～し！" talk_voice="2217/K2217_0044" />
+  <hero_talk id="2217" talk_type="笑い" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_text="くすくすくす" talk_voice="2217/K2217_0045" />
+  <hero_talk id="2217" talk_type="照れ" pre_gp_lv="0" pre_item_id="0" talk_face="09" talk_text="照れますよ" talk_voice="2217/K2217_0046" />
+  <hero_talk id="2217" talk_type="角色背景1" pre_gp_lv="1" pre_item_id="0" talk_text="誘惑上手な女魔術師。&#xA;&#xA;昼も夜も、魔術とセックスでリーン王を守る魔術師ネフィリア――。&#xA;王のために、タラキン王子とザマス元王妃の復活は何としても阻止せねばならない。&#xA;&#xA;だが、異界で再会した二人は――。" />
+  <hero_talk id="2217" talk_type="角色背景2" pre_gp_lv="2" pre_item_id="0" talk_text="異界の国、レガリア王国は多神教の国である。&#xA;ネフィリアは元々、レガリア王国で祭司を務めていた。&#xA;&#xA;だが、上司とトラブルで祭司を辞めて無職に。&#xA;新しい仕事先を探して放浪している中で、リーン王に出会った。&#xA;&#xA;当時、リーンは王位継承者から外された第三王子だった。&#xA;だが、ロバが倒れて困っていたネフィリアに、自分の馬を与えてくれたのだ。&#xA;&#xA;ネフィリアはお返しに魔法のランプを渡した。&#xA;結局、そのランプを使ってリーンはベルベルと出会い、リーンの出世街道が始まった。&#xA;&#xA;後にリーンが王位につき、ネフィリアは大祭司長に抜擢されて、宰相的なポジションを務めている。&#xA;だが、リーンが即位して１年――。&#xA;リーン王がユルギア伯領へ滞在中、ネフィリアは不吉な胸騒ぎを感じる。&#xA;しかも、キラル王子の幽霊まで現れた。&#xA;&#xA;何かを忠告しようとしている――。&#xA;&#xA;忠告の内容はすぐに知れた。&#xA;死んだタラキン王子とザマス元王妃が復活しようとしていたのだ。&#xA;&#xA;復活できる？&#xA;魔術書を引っかき回してようやく出てきたのは、亡霊魔術だった。&#xA;&#xA;魔術師が幽霊になった時に使える方法だ。&#xA;異界に転生すれば、肉体を取り戻せるのだという。&#xA;しかも、とてつもない魔力まで手に入れて、元の世界に戻ることができるのだという――。&#xA;&#xA;２人は復活を企図している。&#xA;もう異界へ飛び立っている――。&#xA;&#xA;ネフィリアはソニアとアルシャールとともに異界へ飛ぶ。&#xA;だが、転移魔術を仕掛けた時に、ベルベルとルキシスも巻き込まれてしまう。&#xA;&#xA;辿り着いたネフィリアが見たのは、いやな力を身に着けたタラキン王子とザマス元王妃だった――。" />
+  <hero_talk id="2217" talk_type="角色背景3" pre_gp_lv="3" pre_item_id="0" talk_text="ネフィリアが得意なのは水の魔術である。&#xA;呪殺でも水が絡む。&#xA;バロス島世界での攻撃でも、水が絡む。水を操り、翻弄する。&#xA;ちなみにベッドでも、リーン王を翻弄する。&#xA;ただし、バロス島的世界では披露していない……。" />
+  <hero_talk id="2217" talk_type="角色背景4" pre_gp_lv="4" pre_item_id="0" talk_text="ネフィリアといえば、タライである。&#xA;ネフィリアが人を呪殺する時、タライが現れる。&#xA;どでかいタライが現れて水とともに落下。&#xA;脳天を打ち砕いて死に至らしめるのだ。&#xA;もちろん、相手は死ぬ時にギャグの一発をかましたりはしない。" />
   <hero_talk id="2218" talk_type="召喚自我介紹" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2218/K2218_0001" />
   <hero_talk id="2218" talk_type="登入_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2218/K2218_0002" />
   <hero_talk id="2218" talk_type="觸摸1_副官" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2218/K2218_0003" />
