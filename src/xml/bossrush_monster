@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <root>
-  <bossrush_monster id="1001" group_id="1" wave="1" name="Normal-1" boss_id="207311" boss_lv="20" boss_ani_scale="0.5" boss_buff_group_id="302">
-    <hero_id>2035030</hero_id>
-    <hero_id>2035030</hero_id>
-    <hero_id>2035031</hero_id>
-    <hero_id>1035034</hero_id>
-    <hero_id>1035035</hero_id>
+  <bossrush_monster id="1001" group_id="1" wave="1" name="Normal-1" boss_id="208511" boss_lv="20" boss_ani_scale="0.5" boss_buff_group_id="304">
+    <hero_id>2055002</hero_id>
+    <hero_id>2055002</hero_id>
+    <hero_id>1055003</hero_id>
+    <hero_id>2055006</hero_id>
+    <hero_id>1055004</hero_id>
     <hero_id>0</hero_id>
     <hero_lv>20</hero_lv>
     <hero_lv>20</hero_lv>
@@ -13,19 +13,19 @@
     <hero_lv>20</hero_lv>
     <hero_lv>20</hero_lv>
     <hero_lv>0</hero_lv>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
     <hero_buff_group_id>0</hero_buff_group_id>
   </bossrush_monster>
-  <bossrush_monster id="1002" group_id="1" wave="2" name="Normal-2" boss_id="207312" boss_lv="20" boss_ani_scale="0.5" boss_buff_group_id="302">
-    <hero_id>2035004</hero_id>
-    <hero_id>2035004</hero_id>
-    <hero_id>2035037</hero_id>
-    <hero_id>1035037</hero_id>
-    <hero_id>1035035</hero_id>
+  <bossrush_monster id="1002" group_id="1" wave="2" name="Normal-2" boss_id="208512" boss_lv="20" boss_ani_scale="0.5" boss_buff_group_id="304">
+    <hero_id>2055002</hero_id>
+    <hero_id>1055003</hero_id>
+    <hero_id>1055007</hero_id>
+    <hero_id>2055008</hero_id>
+    <hero_id>2055005</hero_id>
     <hero_id>0</hero_id>
     <hero_lv>20</hero_lv>
     <hero_lv>20</hero_lv>
@@ -33,19 +33,19 @@
     <hero_lv>20</hero_lv>
     <hero_lv>20</hero_lv>
     <hero_lv>0</hero_lv>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
     <hero_buff_group_id>0</hero_buff_group_id>
   </bossrush_monster>
-  <bossrush_monster id="1003" group_id="1" wave="3" name="Normal-3" boss_id="207313" boss_lv="20" boss_ani_scale="0.5" boss_buff_group_id="302">
-    <hero_id>2035030</hero_id>
-    <hero_id>2035030</hero_id>
-    <hero_id>1235032</hero_id>
-    <hero_id>1035004</hero_id>
-    <hero_id>1035037</hero_id>
+  <bossrush_monster id="1003" group_id="1" wave="3" name="Normal-3" boss_id="208513" boss_lv="20" boss_ani_scale="0.5" boss_buff_group_id="304">
+    <hero_id>2055002</hero_id>
+    <hero_id>1055002</hero_id>
+    <hero_id>2055003</hero_id>
+    <hero_id>2055006</hero_id>
+    <hero_id>1055034</hero_id>
     <hero_id>0</hero_id>
     <hero_lv>20</hero_lv>
     <hero_lv>20</hero_lv>
@@ -53,19 +53,19 @@
     <hero_lv>20</hero_lv>
     <hero_lv>20</hero_lv>
     <hero_lv>0</hero_lv>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
     <hero_buff_group_id>0</hero_buff_group_id>
   </bossrush_monster>
-  <bossrush_monster id="1004" group_id="1" wave="4" name="Normal-4" boss_id="207314" boss_lv="20" boss_ani_scale="0.5" boss_buff_group_id="302">
-    <hero_id>2035001</hero_id>
-    <hero_id>2035030</hero_id>
-    <hero_id>2035021</hero_id>
-    <hero_id>1235033</hero_id>
-    <hero_id>1035022</hero_id>
+  <bossrush_monster id="1004" group_id="1" wave="4" name="Normal-4" boss_id="208514" boss_lv="20" boss_ani_scale="0.5" boss_buff_group_id="304">
+    <hero_id>2055002</hero_id>
+    <hero_id>1055003</hero_id>
+    <hero_id>2055007</hero_id>
+    <hero_id>2055008</hero_id>
+    <hero_id>1055035</hero_id>
     <hero_id>0</hero_id>
     <hero_lv>20</hero_lv>
     <hero_lv>20</hero_lv>
@@ -73,19 +73,19 @@
     <hero_lv>20</hero_lv>
     <hero_lv>20</hero_lv>
     <hero_lv>0</hero_lv>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
     <hero_buff_group_id>0</hero_buff_group_id>
   </bossrush_monster>
-  <bossrush_monster id="1005" group_id="1" wave="5" name="Normal-5" boss_id="207315" boss_lv="20" boss_ani_scale="0.5" boss_buff_group_id="302">
-    <hero_id>2035001</hero_id>
-    <hero_id>2035021</hero_id>
-    <hero_id>2035034</hero_id>
-    <hero_id>1035035</hero_id>
-    <hero_id>1035022</hero_id>
+  <bossrush_monster id="1005" group_id="1" wave="5" name="Normal-5" boss_id="208515" boss_lv="20" boss_ani_scale="0.5" boss_buff_group_id="304">
+    <hero_id>2055002</hero_id>
+    <hero_id>2055002</hero_id>
+    <hero_id>1055003</hero_id>
+    <hero_id>1055006</hero_id>
+    <hero_id>2055005</hero_id>
     <hero_id>0</hero_id>
     <hero_lv>20</hero_lv>
     <hero_lv>20</hero_lv>
@@ -93,19 +93,19 @@
     <hero_lv>20</hero_lv>
     <hero_lv>20</hero_lv>
     <hero_lv>0</hero_lv>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
     <hero_buff_group_id>0</hero_buff_group_id>
   </bossrush_monster>
-  <bossrush_monster id="1011" group_id="2" wave="1" name="Hard-1" boss_id="207321" boss_lv="50" boss_ani_scale="0.5" boss_buff_group_id="302">
-    <hero_id>2235030</hero_id>
-    <hero_id>2235030</hero_id>
-    <hero_id>2235031</hero_id>
-    <hero_id>2235034</hero_id>
-    <hero_id>1235035</hero_id>
+  <bossrush_monster id="1011" group_id="2" wave="1" name="Hard-1" boss_id="208521" boss_lv="50" boss_ani_scale="0.5" boss_buff_group_id="304">
+    <hero_id>2255002</hero_id>
+    <hero_id>2255002</hero_id>
+    <hero_id>1255003</hero_id>
+    <hero_id>2255006</hero_id>
+    <hero_id>2255004</hero_id>
     <hero_id>0</hero_id>
     <hero_lv>50</hero_lv>
     <hero_lv>50</hero_lv>
@@ -113,19 +113,19 @@
     <hero_lv>50</hero_lv>
     <hero_lv>50</hero_lv>
     <hero_lv>0</hero_lv>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
     <hero_buff_group_id>0</hero_buff_group_id>
   </bossrush_monster>
-  <bossrush_monster id="1012" group_id="2" wave="2" name="Hard-2" boss_id="207322" boss_lv="50" boss_ani_scale="0.5" boss_buff_group_id="302">
-    <hero_id>2235004</hero_id>
-    <hero_id>2235004</hero_id>
-    <hero_id>2235037</hero_id>
-    <hero_id>2235037</hero_id>
-    <hero_id>1235035</hero_id>
+  <bossrush_monster id="1012" group_id="2" wave="2" name="Hard-2" boss_id="208522" boss_lv="50" boss_ani_scale="0.5" boss_buff_group_id="304">
+    <hero_id>2255002</hero_id>
+    <hero_id>2255003</hero_id>
+    <hero_id>2255007</hero_id>
+    <hero_id>1255008</hero_id>
+    <hero_id>2255005</hero_id>
     <hero_id>0</hero_id>
     <hero_lv>50</hero_lv>
     <hero_lv>50</hero_lv>
@@ -133,19 +133,19 @@
     <hero_lv>50</hero_lv>
     <hero_lv>50</hero_lv>
     <hero_lv>0</hero_lv>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
     <hero_buff_group_id>0</hero_buff_group_id>
   </bossrush_monster>
-  <bossrush_monster id="1013" group_id="2" wave="3" name="Hard-3" boss_id="207323" boss_lv="50" boss_ani_scale="0.5" boss_buff_group_id="302">
-    <hero_id>2235030</hero_id>
-    <hero_id>2235030</hero_id>
-    <hero_id>2235032</hero_id>
-    <hero_id>2235004</hero_id>
-    <hero_id>1235037</hero_id>
+  <bossrush_monster id="1013" group_id="2" wave="3" name="Hard-3" boss_id="208523" boss_lv="50" boss_ani_scale="0.5" boss_buff_group_id="304">
+    <hero_id>2255002</hero_id>
+    <hero_id>2255002</hero_id>
+    <hero_id>2255003</hero_id>
+    <hero_id>2255006</hero_id>
+    <hero_id>1255034</hero_id>
     <hero_id>0</hero_id>
     <hero_lv>50</hero_lv>
     <hero_lv>50</hero_lv>
@@ -153,19 +153,19 @@
     <hero_lv>50</hero_lv>
     <hero_lv>50</hero_lv>
     <hero_lv>0</hero_lv>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
     <hero_buff_group_id>0</hero_buff_group_id>
   </bossrush_monster>
-  <bossrush_monster id="1014" group_id="2" wave="4" name="Hard-4" boss_id="207324" boss_lv="50" boss_ani_scale="0.5" boss_buff_group_id="302">
-    <hero_id>2235001</hero_id>
-    <hero_id>2235030</hero_id>
-    <hero_id>2235021</hero_id>
-    <hero_id>2235033</hero_id>
-    <hero_id>1235022</hero_id>
+  <bossrush_monster id="1014" group_id="2" wave="4" name="Hard-4" boss_id="208524" boss_lv="50" boss_ani_scale="0.5" boss_buff_group_id="304">
+    <hero_id>2255002</hero_id>
+    <hero_id>1255003</hero_id>
+    <hero_id>2255007</hero_id>
+    <hero_id>2255008</hero_id>
+    <hero_id>2255035</hero_id>
     <hero_id>0</hero_id>
     <hero_lv>50</hero_lv>
     <hero_lv>50</hero_lv>
@@ -173,19 +173,19 @@
     <hero_lv>50</hero_lv>
     <hero_lv>50</hero_lv>
     <hero_lv>0</hero_lv>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
     <hero_buff_group_id>0</hero_buff_group_id>
   </bossrush_monster>
-  <bossrush_monster id="1015" group_id="2" wave="5" name="Hard-5" boss_id="207325" boss_lv="50" boss_ani_scale="0.5" boss_buff_group_id="302">
-    <hero_id>2235001</hero_id>
-    <hero_id>2235021</hero_id>
-    <hero_id>2235034</hero_id>
-    <hero_id>2235035</hero_id>
-    <hero_id>1235022</hero_id>
+  <bossrush_monster id="1015" group_id="2" wave="5" name="Hard-5" boss_id="208525" boss_lv="50" boss_ani_scale="0.5" boss_buff_group_id="304">
+    <hero_id>2255002</hero_id>
+    <hero_id>2255002</hero_id>
+    <hero_id>1255003</hero_id>
+    <hero_id>2255006</hero_id>
+    <hero_id>2255005</hero_id>
     <hero_id>0</hero_id>
     <hero_lv>50</hero_lv>
     <hero_lv>50</hero_lv>
@@ -193,19 +193,19 @@
     <hero_lv>50</hero_lv>
     <hero_lv>50</hero_lv>
     <hero_lv>0</hero_lv>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
     <hero_buff_group_id>0</hero_buff_group_id>
   </bossrush_monster>
-  <bossrush_monster id="1021" group_id="3" wave="1" name="Extra-1" boss_id="207331" boss_lv="80" boss_ani_scale="0.5" boss_buff_group_id="302">
-    <hero_id>2335030</hero_id>
-    <hero_id>2335030</hero_id>
-    <hero_id>2335031</hero_id>
-    <hero_id>2335034</hero_id>
-    <hero_id>2335035</hero_id>
+  <bossrush_monster id="1021" group_id="3" wave="1" name="Extra-1" boss_id="208531" boss_lv="80" boss_ani_scale="0.5" boss_buff_group_id="304">
+    <hero_id>2455002</hero_id>
+    <hero_id>2455002</hero_id>
+    <hero_id>2455003</hero_id>
+    <hero_id>2455006</hero_id>
+    <hero_id>2455004</hero_id>
     <hero_id>0</hero_id>
     <hero_lv>80</hero_lv>
     <hero_lv>80</hero_lv>
@@ -213,19 +213,19 @@
     <hero_lv>80</hero_lv>
     <hero_lv>80</hero_lv>
     <hero_lv>0</hero_lv>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
     <hero_buff_group_id>0</hero_buff_group_id>
   </bossrush_monster>
-  <bossrush_monster id="1022" group_id="3" wave="2" name="Extra-2" boss_id="207332" boss_lv="80" boss_ani_scale="0.5" boss_buff_group_id="302">
-    <hero_id>2335004</hero_id>
-    <hero_id>2335004</hero_id>
-    <hero_id>2335037</hero_id>
-    <hero_id>2335037</hero_id>
-    <hero_id>2335035</hero_id>
+  <bossrush_monster id="1022" group_id="3" wave="2" name="Extra-2" boss_id="208532" boss_lv="80" boss_ani_scale="0.5" boss_buff_group_id="304">
+    <hero_id>2455002</hero_id>
+    <hero_id>2455003</hero_id>
+    <hero_id>2455007</hero_id>
+    <hero_id>2455008</hero_id>
+    <hero_id>2455005</hero_id>
     <hero_id>0</hero_id>
     <hero_lv>80</hero_lv>
     <hero_lv>80</hero_lv>
@@ -233,19 +233,19 @@
     <hero_lv>80</hero_lv>
     <hero_lv>80</hero_lv>
     <hero_lv>0</hero_lv>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
     <hero_buff_group_id>0</hero_buff_group_id>
   </bossrush_monster>
-  <bossrush_monster id="1023" group_id="3" wave="3" name="Extra-3" boss_id="207333" boss_lv="80" boss_ani_scale="0.5" boss_buff_group_id="302">
-    <hero_id>2335030</hero_id>
-    <hero_id>2335030</hero_id>
-    <hero_id>1235032</hero_id>
-    <hero_id>2335004</hero_id>
-    <hero_id>2335037</hero_id>
+  <bossrush_monster id="1023" group_id="3" wave="3" name="Extra-3" boss_id="208533" boss_lv="80" boss_ani_scale="0.5" boss_buff_group_id="304">
+    <hero_id>2455002</hero_id>
+    <hero_id>2455002</hero_id>
+    <hero_id>2455003</hero_id>
+    <hero_id>2455006</hero_id>
+    <hero_id>2455034</hero_id>
     <hero_id>0</hero_id>
     <hero_lv>80</hero_lv>
     <hero_lv>80</hero_lv>
@@ -253,19 +253,19 @@
     <hero_lv>80</hero_lv>
     <hero_lv>80</hero_lv>
     <hero_lv>0</hero_lv>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
     <hero_buff_group_id>0</hero_buff_group_id>
   </bossrush_monster>
-  <bossrush_monster id="1024" group_id="3" wave="4" name="Extra-4" boss_id="207334" boss_lv="80" boss_ani_scale="0.5" boss_buff_group_id="302">
-    <hero_id>2335001</hero_id>
-    <hero_id>2335030</hero_id>
-    <hero_id>2335021</hero_id>
-    <hero_id>1235033</hero_id>
-    <hero_id>2335022</hero_id>
+  <bossrush_monster id="1024" group_id="3" wave="4" name="Extra-4" boss_id="208534" boss_lv="80" boss_ani_scale="0.5" boss_buff_group_id="304">
+    <hero_id>2455002</hero_id>
+    <hero_id>2455003</hero_id>
+    <hero_id>2455007</hero_id>
+    <hero_id>2455008</hero_id>
+    <hero_id>2455035</hero_id>
     <hero_id>0</hero_id>
     <hero_lv>80</hero_lv>
     <hero_lv>80</hero_lv>
@@ -273,19 +273,19 @@
     <hero_lv>80</hero_lv>
     <hero_lv>80</hero_lv>
     <hero_lv>0</hero_lv>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
     <hero_buff_group_id>0</hero_buff_group_id>
   </bossrush_monster>
-  <bossrush_monster id="1025" group_id="3" wave="5" name="Extra-5" boss_id="207335" boss_lv="80" boss_ani_scale="0.5" boss_buff_group_id="302">
-    <hero_id>2335001</hero_id>
-    <hero_id>2335021</hero_id>
-    <hero_id>2335034</hero_id>
-    <hero_id>2335035</hero_id>
-    <hero_id>2335022</hero_id>
+  <bossrush_monster id="1025" group_id="3" wave="5" name="Extra-5" boss_id="208535" boss_lv="80" boss_ani_scale="0.5" boss_buff_group_id="304">
+    <hero_id>2455002</hero_id>
+    <hero_id>2455002</hero_id>
+    <hero_id>2455003</hero_id>
+    <hero_id>2455006</hero_id>
+    <hero_id>2455005</hero_id>
     <hero_id>0</hero_id>
     <hero_lv>80</hero_lv>
     <hero_lv>80</hero_lv>
@@ -293,11 +293,11 @@
     <hero_lv>80</hero_lv>
     <hero_lv>80</hero_lv>
     <hero_lv>0</hero_lv>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
-    <hero_buff_group_id>302</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
+    <hero_buff_group_id>304</hero_buff_group_id>
     <hero_buff_group_id>0</hero_buff_group_id>
   </bossrush_monster>
 </root>

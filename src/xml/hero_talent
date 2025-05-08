@@ -16709,4 +16709,81 @@
     <talent>2217114</talent>
     <talent>2217115</talent>
   </hero_talent>
+  <hero_talent id="2218" name="ボーナス_MP消費減少" icon="Talent001/BOUNS_MpCostDown" describe="アビリティ5つ解放で、MP減少 +1" grade="1" need_lv="0" hp="0" atk="0" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="1">
+    <talent>2218011</talent>
+    <talent>2218012</talent>
+    <talent>2218013</talent>
+    <talent>2218014</talent>
+    <talent>2218015</talent>
+  </hero_talent>
+  <hero_talent id="2218" name="ボーナス_ブロック" icon="Talent001/BOUNS_Block" describe="アビリティ5つ解放で、ブロック +5" grade="2" need_lv="31" hp="0" atk="0" matk="0" def="0" mdef="0" hit="0" block="5" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <talent>2218021</talent>
+    <talent>2218022</talent>
+    <talent>2218023</talent>
+    <talent>2218024</talent>
+    <talent>2218025</talent>
+  </hero_talent>
+  <hero_talent id="2218" name="ボーナス_MP消費減少" icon="Talent001/BOUNS_MpCostDown" describe="アビリティ5つ解放で、MP減少 +1" grade="3" need_lv="31" hp="0" atk="0" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="1">
+    <talent>2218031</talent>
+    <talent>2218032</talent>
+    <talent>2218033</talent>
+    <talent>2218034</talent>
+    <talent>2218035</talent>
+  </hero_talent>
+  <hero_talent id="2218" name="ボーナス_ブロック" icon="Talent001/BOUNS_Block" describe="アビリティ5つ解放で、ブロック +7" grade="4" need_lv="41" hp="0" atk="0" matk="0" def="0" mdef="0" hit="0" block="7" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <talent>2218041</talent>
+    <talent>2218042</talent>
+    <talent>2218043</talent>
+    <talent>2218044</talent>
+    <talent>2218045</talent>
+  </hero_talent>
+  <hero_talent id="2218" name="ボーナス_MP消費減少" icon="Talent001/BOUNS_MpCostDown" describe="アビリティ5つ解放で、MP減少 +1" grade="5" need_lv="41" hp="0" atk="0" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="1">
+    <talent>2218051</talent>
+    <talent>2218052</talent>
+    <talent>2218053</talent>
+    <talent>2218054</talent>
+    <talent>2218055</talent>
+  </hero_talent>
+  <hero_talent id="2218" name="ボーナス_ブロック" icon="Talent001/BOUNS_Block" describe="アビリティ5つ解放で、ブロック +8" grade="6" need_lv="51" hp="0" atk="0" matk="0" def="0" mdef="0" hit="0" block="8" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <talent>2218061</talent>
+    <talent>2218062</talent>
+    <talent>2218063</talent>
+    <talent>2218064</talent>
+    <talent>2218065</talent>
+  </hero_talent>
+  <hero_talent id="2218" name="ボーナス_MP消費減少" icon="Talent001/BOUNS_MpCostDown" describe="アビリティ5つ解放で、MP減少 +1" grade="7" need_lv="61" hp="0" atk="0" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="1">
+    <talent>2218071</talent>
+    <talent>2218072</talent>
+    <talent>2218073</talent>
+    <talent>2218074</talent>
+    <talent>2218075</talent>
+  </hero_talent>
+  <hero_talent id="2218" name="ボーナス_ブロック" icon="Talent001/BOUNS_Block" describe="アビリティ5つ解放で、ブロック +10" grade="8" need_lv="71" hp="0" atk="0" matk="0" def="0" mdef="0" hit="0" block="10" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <talent>2218081</talent>
+    <talent>2218082</talent>
+    <talent>2218083</talent>
+    <talent>2218084</talent>
+    <talent>2218085</talent>
+  </hero_talent>
+  <hero_talent id="2218" name="ボーナス_MP消費減少" icon="Talent001/BOUNS_MpCostDown" describe="アビリティ5つ解放で、MP減少 +1" grade="9" need_lv="81" hp="0" atk="0" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="1">
+    <talent>2218091</talent>
+    <talent>2218092</talent>
+    <talent>2218093</talent>
+    <talent>2218094</talent>
+    <talent>2218095</talent>
+  </hero_talent>
+  <hero_talent id="2218" name="ボーナス_ブロック" icon="Talent001/BOUNS_Block" describe="アビリティ5つ解放で、ブロック +12" grade="10" need_lv="81" hp="0" atk="0" matk="0" def="0" mdef="0" hit="0" block="12" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <talent>2218101</talent>
+    <talent>2218102</talent>
+    <talent>2218103</talent>
+    <talent>2218104</talent>
+    <talent>2218105</talent>
+  </hero_talent>
+  <hero_talent id="2218" name="ボーナス_MP消費減少" icon="Talent001/BOUNS_MpCostDown" describe="アビリティ5つ解放で、MP減少 +1" grade="11" need_lv="91" hp="0" atk="0" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="1">
+    <talent>2218111</talent>
+    <talent>2218112</talent>
+    <talent>2218113</talent>
+    <talent>2218114</talent>
+    <talent>2218115</talent>
+  </hero_talent>
 </root>

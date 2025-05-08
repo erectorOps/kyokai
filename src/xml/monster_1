@@ -1246,6 +1246,34 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </monster_1>
+  <monster_1 id="40075" name="女魔導士" limit_sec="120" boss_id="40075" boss_lv="70" boss_ani_scale="0" boss_buff_group_id="40075">
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="40076" name="女魔導士" limit_sec="120" boss_id="40076" boss_lv="70" boss_ani_scale="0" boss_buff_group_id="40075">
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
   <monster_1 id="50011" name="活動1前半N" limit_sec="90" boss_id="50011" boss_lv="5" boss_ani_scale="0" boss_buff_group_id="11">
     <hero_id>1035030</hero_id>
     <hero_id>1035030</hero_id>
@@ -98841,6 +98869,384 @@
     <hero_lv>0</hero_lv>
   </monster_1>
   <monster_1 id="508403033" name="【試練の塔・巨乳ファンタジー5コラボ】3-3Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025004</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508501011" name="【疾走討伐戦・巨乳ファンタジー5コラボ】1-1Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025004</hero_id>
+    <hero_id>1025004</hero_id>
+    <hero_id>1025004</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508501012" name="【疾走討伐戦・巨乳ファンタジー5コラボ】1-1Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025004</hero_id>
+    <hero_id>1025004</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508501013" name="【疾走討伐戦・巨乳ファンタジー5コラボ】1-1Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025004</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508501021" name="【疾走討伐戦・巨乳ファンタジー5コラボ】1-2Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025004</hero_id>
+    <hero_id>1025004</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508501022" name="【疾走討伐戦・巨乳ファンタジー5コラボ】1-2Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025004</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508501023" name="【疾走討伐戦・巨乳ファンタジー5コラボ】1-2Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025037</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508501031" name="【疾走討伐戦・巨乳ファンタジー5コラボ】1-3Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025004</hero_id>
+    <hero_id>1025004</hero_id>
+    <hero_id>1025004</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508501032" name="【疾走討伐戦・巨乳ファンタジー5コラボ】1-3Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025004</hero_id>
+    <hero_id>1025004</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508501033" name="【疾走討伐戦・巨乳ファンタジー5コラボ】1-3Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025004</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508502011" name="【疾走討伐戦・巨乳ファンタジー5コラボ】2-1Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025004</hero_id>
+    <hero_id>1025004</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508502012" name="【疾走討伐戦・巨乳ファンタジー5コラボ】2-1Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025004</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508502013" name="【疾走討伐戦・巨乳ファンタジー5コラボ】2-1Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025037</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508502021" name="【疾走討伐戦・巨乳ファンタジー5コラボ】2-2Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025004</hero_id>
+    <hero_id>1025004</hero_id>
+    <hero_id>1025004</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508502022" name="【疾走討伐戦・巨乳ファンタジー5コラボ】2-2Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025004</hero_id>
+    <hero_id>1025004</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508502023" name="【疾走討伐戦・巨乳ファンタジー5コラボ】2-2Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025004</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508502031" name="【疾走討伐戦・巨乳ファンタジー5コラボ】2-3Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025004</hero_id>
+    <hero_id>1025004</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508502032" name="【疾走討伐戦・巨乳ファンタジー5コラボ】2-3Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025004</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508502033" name="【疾走討伐戦・巨乳ファンタジー5コラボ】2-3Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025037</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508503011" name="【疾走討伐戦・巨乳ファンタジー5コラボ】3-1Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025004</hero_id>
+    <hero_id>1025004</hero_id>
+    <hero_id>1025004</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508503012" name="【疾走討伐戦・巨乳ファンタジー5コラボ】3-1Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025004</hero_id>
+    <hero_id>1025004</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508503013" name="【疾走討伐戦・巨乳ファンタジー5コラボ】3-1Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025004</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508503021" name="【疾走討伐戦・巨乳ファンタジー5コラボ】3-2Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025004</hero_id>
+    <hero_id>1025004</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508503022" name="【疾走討伐戦・巨乳ファンタジー5コラボ】3-2Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025004</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508503023" name="【疾走討伐戦・巨乳ファンタジー5コラボ】3-2Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025037</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508503031" name="【疾走討伐戦・巨乳ファンタジー5コラボ】3-3Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025004</hero_id>
+    <hero_id>1025004</hero_id>
+    <hero_id>1025004</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508503032" name="【疾走討伐戦・巨乳ファンタジー5コラボ】3-3Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025004</hero_id>
+    <hero_id>1025004</hero_id>
+    <hero_id>1025037</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="508503033" name="【疾走討伐戦・巨乳ファンタジー5コラボ】3-3Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1025004</hero_id>
     <hero_id>1025037</hero_id>
     <hero_id>1025037</hero_id>

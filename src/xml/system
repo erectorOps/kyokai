@@ -32,7 +32,7 @@
   <system def="Raid排行最大頁數" val="20" />
   <system def="Raid戰英雄奧義傷害加成倍數" val="2" />
   <system def="任務每日隨機數量" val="4" />
-  <system def="活躍任務每日隨機數量" val="15" />
+  <system def="活躍任務每日隨機數量" val="30" />
   <system def="每日活躍度獎勵特殊數值ID" val="2301" />
   <system def="戰鬥通行證隨機每日數量" val="10" />
   <system def="戰鬥通行證等級商品群組" val="2401" />
@@ -369,7 +369,7 @@
   <system def="飾品2格開放需求英雄等級" val="41" />
   <system def="飾品4格開放需求英雄等級" val="51" />
   <system def="飾品5格開放需求英雄等級" val="61" />
-  <system def="新角色影片名稱" val="PS8_hero_2215&amp;2217.mp4" />
+  <system def="新角色影片名稱" val="PS8_hero_2218.mp4" />
   <system def="新角色影片更換時間" />
   <system def="新角色影片更換名稱" />
   <system def="特典序號圖示" val="item001/redemption_icon" />

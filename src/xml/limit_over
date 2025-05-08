@@ -15612,4 +15612,76 @@
     <support_buff_id>334</support_buff_id>
     <support_buff_id>374</support_buff_id>
   </limit_over>
+  <limit_over group_id="2218" over_times="0" money_cost="10000" hp="675" atk="0" matk="87" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="0" block="17" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="6" mp_cost_down="0">
+    <key_item_id>7011</key_item_id>
+    <key_item_id>7050</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>30</key_item_num>
+    <key_item_num>30</key_item_num>
+    <key_item_num>0</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>381</support_buff_id>
+    <support_buff_id>0</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2218" over_times="1" money_cost="50000" hp="777" atk="0" matk="100" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="13" block="19" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <key_item_id>7012</key_item_id>
+    <key_item_id>7051</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>30</key_item_num>
+    <key_item_num>30</key_item_num>
+    <key_item_num>100</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>382</support_buff_id>
+    <support_buff_id>311</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2218" over_times="2" money_cost="100000" hp="912" atk="0" matk="118" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="0" block="22" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="8" mp_cost_down="0">
+    <key_item_id>7012</key_item_id>
+    <key_item_id>7051</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>40</key_item_num>
+    <key_item_num>40</key_item_num>
+    <key_item_num>200</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>383</support_buff_id>
+    <support_buff_id>312</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2218" over_times="3" money_cost="200000" hp="1013" atk="0" matk="131" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="17" block="25" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <key_item_id>7040</key_item_id>
+    <key_item_id>7052</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>60</key_item_num>
+    <key_item_num>60</key_item_num>
+    <key_item_num>300</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>384</support_buff_id>
+    <support_buff_id>313</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2218" over_times="4" money_cost="500000" hp="1914" atk="0" matk="248" def="24" mdef="29" atk_crit="0" matk_crit="0" hit="0" block="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="19" mp_recovery="0" mp_cost_down="0">
+    <key_item_id>7040</key_item_id>
+    <key_item_id>7052</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>7000</key_item_id>
+    <key_item_num>100</key_item_num>
+    <key_item_num>100</key_item_num>
+    <key_item_num>1000</key_item_num>
+    <key_item_num>30</key_item_num>
+    <support_buff_id>384</support_buff_id>
+    <support_buff_id>314</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2218" over_times="5" money_cost="0" hp="0" atk="0" matk="0" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="0" block="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <key_item_id>0</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>0</key_item_num>
+    <key_item_num>0</key_item_num>
+    <key_item_num>0</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>384</support_buff_id>
+    <support_buff_id>314</support_buff_id>
+  </limit_over>
 </root>

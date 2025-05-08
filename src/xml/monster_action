@@ -750,4 +750,12 @@
   <monster_action id="50832" info="残りHP50%" type="自身血量低於" value="0.5" skill_id="5047202" />
   <monster_action id="50833" info="残りHP80%" type="自身血量低於" value="0.8" skill_id="5047301" />
   <monster_action id="50833" info="残りHP50%" type="自身血量低於" value="0.5" skill_id="5047302" />
+  <monster_action id="40075" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4007501" />
+  <monster_action id="40075" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4007502" />
+  <monster_action id="40075" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4007503" />
+  <monster_action id="40075" info="自身が「呪い」状態の場合" type="自身有指定狀態" value="詛咒" skill_id="4007504" />
+  <monster_action id="40076" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4007601" />
+  <monster_action id="40076" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4007602" />
+  <monster_action id="40076" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4007603" />
+  <monster_action id="40076" info="自身が「呪い」状態の場合" type="自身有指定狀態" value="詛咒" skill_id="4007604" />
 </root>

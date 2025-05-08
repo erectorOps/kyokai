@@ -172,4 +172,6 @@
   <stage_world id="5083" opposite_stage_world_id1="5183" opposite_stage_world_id2="0" arrive_id="2083" name="巨乳ファンタジー5コラボ　～ザマスの復讐～" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="5183" opposite_stage_world_id1="5083" opposite_stage_world_id2="0" arrive_id="2083" name="巨乳ファンタジー5コラボ　～ザマスの復讐～（Hard）" world_type="活動_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="5084" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2084" name="試練の塔・巨乳ファンタジー5コラボ" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <stage_world id="5085" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2085" name="疾走討伐戦・巨乳ファンタジー5コラボ" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <stage_world id="5185" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2185" name="【物資調達】" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
 </root>

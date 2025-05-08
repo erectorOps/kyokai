@@ -2437,4 +2437,23 @@
     <skill_lv>3</skill_lv>
     <skill_lv>4</skill_lv>
   </equip>
+  <equip id="4369" type="專武" can_equip_hero_ids="2218" rank_limit="4" equip_lv_max="50" main_statistic="MP回復" main_statistic_value="3" main_statistic_grow="0.3" rankup_instead_item="40033">
+    <secondary_statistic>5</secondary_statistic>
+    <secondary_statistic>4</secondary_statistic>
+    <secondary_statistic>0</secondary_statistic>
+    <secondary_statistic_value>10</secondary_statistic_value>
+    <secondary_statistic_value>10</secondary_statistic_value>
+    <secondary_statistic_grow>3</secondary_statistic_grow>
+    <secondary_statistic_grow>3</secondary_statistic_grow>
+    <skill_id>221801</skill_id>
+    <skill_id>221802</skill_id>
+    <skill_id>221803</skill_id>
+    <skill_id>221804</skill_id>
+    <skill_id>221805</skill_id>
+    <skill_lv>0</skill_lv>
+    <skill_lv>1</skill_lv>
+    <skill_lv>2</skill_lv>
+    <skill_lv>3</skill_lv>
+    <skill_lv>4</skill_lv>
+  </equip>
 </root>
