@@ -305,7 +305,7 @@
     <feature_id>308</feature_id>
     <feature_id>0</feature_id>
   </hero_group>
-  <hero_group id="2062" pic_id="2062" normal_pic_id="0" ex_pic_id="22062" normal_ex_pic_id="32062" awake_ex_pic_id="0" awake_ex_pic_scale="0" illustration_sequence_num="58" illustration_hero_id="2062" chara_group_id="0" vote_activity_id="0" vote_activity_group="0" name="ヒサラ" introduction="前列、物理、アタック" attr="風" atk_attr="物理" drawer="ゴンデロガ" voicer="杉原茉莉" height="160cm" measurements="B115(O)/W63/H90&#xA;" role_set="火力" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" recommend_comment="─" body_x="0" body_y="90" summary_body_x="0" summary_body_y="0" summary_scale="0" record_body_x="0" record_body_y="0" record_scale="0" face_x="-4" face_y="409" ani_scale="0.2" shadow_scale="0.2" cut_in_x="-65" cut_in_y="160" cut_in_scale="-0.28" dialog_x="0" dialog_y="0" dialog_scale="0" click_chest_x="-81" click_chest_y="99" click_chest_x_range="360" click_chest_y_range="304" awake_ex_pic_x="0" awake_ex_pic_y="0">
+  <hero_group id="2062" pic_id="2062" normal_pic_id="0" ex_pic_id="22062" normal_ex_pic_id="32062" awake_ex_pic_id="42062" awake_ex_pic_scale="-0.1" illustration_sequence_num="58" illustration_hero_id="2062" chara_group_id="0" vote_activity_id="0" vote_activity_group="0" name="ヒサラ" introduction="前列、物理、アタック" attr="風" atk_attr="物理" drawer="ゴンデロガ" voicer="杉原茉莉" height="160cm" measurements="B115(O)/W63/H90&#xA;" role_set="火力" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" recommend_comment="─" body_x="0" body_y="90" summary_body_x="0" summary_body_y="0" summary_scale="0" record_body_x="0" record_body_y="0" record_scale="0" face_x="-4" face_y="409" ani_scale="0.2" shadow_scale="0.2" cut_in_x="-65" cut_in_y="160" cut_in_scale="-0.28" dialog_x="0" dialog_y="0" dialog_scale="0" click_chest_x="-81" click_chest_y="99" click_chest_x_range="360" click_chest_y_range="304" awake_ex_pic_x="10" awake_ex_pic_y="90">
     <feature_id>301</feature_id>
     <feature_id>307</feature_id>
     <feature_id>0</feature_id>
@@ -1090,17 +1090,32 @@
     <feature_id>311</feature_id>
     <feature_id>0</feature_id>
   </hero_group>
-  <hero_group id="2219" pic_id="2219" normal_pic_id="0" ex_pic_id="0" normal_ex_pic_id="0" awake_ex_pic_id="0" awake_ex_pic_scale="0" illustration_sequence_num="0" illustration_hero_id="0" chara_group_id="0" vote_activity_id="0" vote_activity_group="0" attr="想" atk_attr="物理" role_set="無" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="0" summary_body_x="0" summary_body_y="0" summary_scale="0" record_body_x="0" record_body_y="0" record_scale="0" face_x="-27" face_y="484" ani_scale="0" shadow_scale="0" cut_in_x="0" cut_in_y="0" cut_in_scale="0" dialog_x="0" dialog_y="0" dialog_scale="0" click_chest_x="0" click_chest_y="0" click_chest_x_range="0" click_chest_y_range="0" awake_ex_pic_x="0" awake_ex_pic_y="0">
+  <hero_group id="2219" pic_id="2219" normal_pic_id="0" ex_pic_id="22219" normal_ex_pic_id="0" awake_ex_pic_id="0" awake_ex_pic_scale="0" illustration_sequence_num="218" illustration_hero_id="2219" chara_group_id="0" vote_activity_id="0" vote_activity_group="0" name="【紅の花魁】アンジェ" introduction="中列、魔法、アタック" attr="火" atk_attr="魔法" drawer="翠野タヌキ" voicer="伊ヶ崎綾香" height="170cm" measurements="B112(L)/W63/H98" role_set="火力" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="0" summary_body_x="0" summary_body_y="0" summary_scale="0" record_body_x="0" record_body_y="0" record_scale="0" face_x="-27" face_y="484" ani_scale="0.2" shadow_scale="0.2" cut_in_x="40" cut_in_y="100" cut_in_scale="-0.17" dialog_x="0" dialog_y="0" dialog_scale="0" click_chest_x="-76" click_chest_y="194" click_chest_x_range="356" click_chest_y_range="228" awake_ex_pic_x="0" awake_ex_pic_y="0">
+    <feature_id>303</feature_id>
+    <feature_id>311</feature_id>
+    <feature_id>0</feature_id>
+  </hero_group>
+  <hero_group id="2220" pic_id="2220" normal_pic_id="12220" ex_pic_id="22220" normal_ex_pic_id="32220" awake_ex_pic_id="0" awake_ex_pic_scale="0" illustration_sequence_num="219" illustration_hero_id="2220" chara_group_id="0" vote_activity_id="0" vote_activity_group="0" name="ゲルディン" introduction="前列、物理、アタック" attr="風" atk_attr="物理" drawer="２３" voicer="春山色葉" height="173cm" measurements="B118(L)/W67/H110" role_set="火力" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="20" summary_body_x="0" summary_body_y="0" summary_scale="0" record_body_x="0" record_body_y="0" record_scale="0" face_x="-11" face_y="462" ani_scale="0.2" shadow_scale="0.2" cut_in_x="40" cut_in_y="10" cut_in_scale="-0.2" dialog_x="0" dialog_y="0" dialog_scale="0" click_chest_x="-34" click_chest_y="191" click_chest_x_range="366" click_chest_y_range="219" awake_ex_pic_x="0" awake_ex_pic_y="0">
+    <feature_id>301</feature_id>
+    <feature_id>307</feature_id>
+    <feature_id>0</feature_id>
+  </hero_group>
+  <hero_group id="2221" pic_id="2221" normal_pic_id="0" ex_pic_id="22221" normal_ex_pic_id="0" awake_ex_pic_id="0" awake_ex_pic_scale="0" illustration_sequence_num="220" illustration_hero_id="2221" chara_group_id="0" vote_activity_id="0" vote_activity_group="0" name="スーラ" introduction="中列、魔法、アタック" attr="風" atk_attr="魔法" drawer="にゃこたろう" voicer="犀川ささめ" height="157cm" measurements="B118(P)/W65/H91" role_set="火力" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="25" summary_body_x="0" summary_body_y="0" summary_scale="0" record_body_x="0" record_body_y="0" record_scale="0" face_x="-16" face_y="458" ani_scale="0.2" shadow_scale="0.2" cut_in_x="40" cut_in_y="100" cut_in_scale="-0.37" dialog_x="0" dialog_y="0" dialog_scale="0" click_chest_x="-97" click_chest_y="168" click_chest_x_range="406" click_chest_y_range="226" awake_ex_pic_x="0" awake_ex_pic_y="0">
+    <feature_id>301</feature_id>
+    <feature_id>311</feature_id>
+    <feature_id>0</feature_id>
+  </hero_group>
+  <hero_group id="2222" pic_id="2222" normal_pic_id="0" ex_pic_id="0" normal_ex_pic_id="0" awake_ex_pic_id="0" awake_ex_pic_scale="0" illustration_sequence_num="221" illustration_hero_id="2222" chara_group_id="0" vote_activity_id="0" vote_activity_group="0" name="キリエ" introduction="後列、物理、アタック" attr="火" atk_attr="物理" drawer="やまのかみ" voicer="椿なつめ" height="161cm" measurements="B103(K)/W67/H81" role_set="火力" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="60" summary_body_x="0" summary_body_y="0" summary_scale="0" record_body_x="0" record_body_y="0" record_scale="0" face_x="-2" face_y="447" ani_scale="0.2" shadow_scale="0.2" cut_in_x="0" cut_in_y="0" cut_in_scale="0" dialog_x="0" dialog_y="0" dialog_scale="0" click_chest_x="-90" click_chest_y="136" click_chest_x_range="356" click_chest_y_range="216" awake_ex_pic_x="0" awake_ex_pic_y="0">
+    <feature_id>303</feature_id>
+    <feature_id>310</feature_id>
+    <feature_id>0</feature_id>
+  </hero_group>
+  <hero_group id="2223" pic_id="2223" normal_pic_id="0" ex_pic_id="0" normal_ex_pic_id="0" awake_ex_pic_id="0" awake_ex_pic_scale="0" illustration_sequence_num="0" illustration_hero_id="0" chara_group_id="0" vote_activity_id="0" vote_activity_group="0" attr="想" atk_attr="物理" role_set="無" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="50" summary_body_x="-32" summary_body_y="110" summary_scale="-0.2" record_body_x="18" record_body_y="220" record_scale="-0.35" face_x="-3" face_y="427" ani_scale="0.2" shadow_scale="0.2" cut_in_x="0" cut_in_y="0" cut_in_scale="0" dialog_x="0" dialog_y="0" dialog_scale="0" click_chest_x="11" click_chest_y="108" click_chest_x_range="896" click_chest_y_range="272" awake_ex_pic_x="0" awake_ex_pic_y="0">
     <feature_id>0</feature_id>
     <feature_id>0</feature_id>
     <feature_id>0</feature_id>
   </hero_group>
-  <hero_group id="2220" pic_id="2220" normal_pic_id="0" ex_pic_id="0" normal_ex_pic_id="0" awake_ex_pic_id="0" awake_ex_pic_scale="0" illustration_sequence_num="0" illustration_hero_id="0" chara_group_id="0" vote_activity_id="0" vote_activity_group="0" attr="想" atk_attr="物理" role_set="無" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="20" summary_body_x="0" summary_body_y="0" summary_scale="0" record_body_x="0" record_body_y="0" record_scale="0" face_x="-11" face_y="462" ani_scale="0" shadow_scale="0" cut_in_x="0" cut_in_y="0" cut_in_scale="0" dialog_x="0" dialog_y="0" dialog_scale="0" click_chest_x="0" click_chest_y="0" click_chest_x_range="0" click_chest_y_range="0" awake_ex_pic_x="0" awake_ex_pic_y="0">
-    <feature_id>0</feature_id>
-    <feature_id>0</feature_id>
-    <feature_id>0</feature_id>
-  </hero_group>
-  <hero_group id="2221" pic_id="2221" normal_pic_id="12221" ex_pic_id="0" normal_ex_pic_id="0" awake_ex_pic_id="0" awake_ex_pic_scale="0" illustration_sequence_num="0" illustration_hero_id="0" chara_group_id="0" vote_activity_id="0" vote_activity_group="0" attr="想" atk_attr="物理" role_set="無" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="25" summary_body_x="0" summary_body_y="0" summary_scale="0" record_body_x="0" record_body_y="0" record_scale="0" face_x="-16" face_y="458" ani_scale="0" shadow_scale="0" cut_in_x="0" cut_in_y="0" cut_in_scale="0" dialog_x="0" dialog_y="0" dialog_scale="0" click_chest_x="0" click_chest_y="0" click_chest_x_range="0" click_chest_y_range="0" awake_ex_pic_x="0" awake_ex_pic_y="0">
+  <hero_group id="2224" pic_id="2224" normal_pic_id="12224" ex_pic_id="0" normal_ex_pic_id="0" awake_ex_pic_id="0" awake_ex_pic_scale="0" illustration_sequence_num="0" illustration_hero_id="0" chara_group_id="0" vote_activity_id="0" vote_activity_group="0" attr="想" atk_attr="物理" role_set="無" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="-20" summary_body_x="0" summary_body_y="0" summary_scale="0" record_body_x="0" record_body_y="0" record_scale="0" face_x="1" face_y="527" ani_scale="0.2" shadow_scale="0.2" cut_in_x="0" cut_in_y="0" cut_in_scale="0" dialog_x="0" dialog_y="0" dialog_scale="0" click_chest_x="108" click_chest_y="211" click_chest_x_range="396" click_chest_y_range="228" awake_ex_pic_x="0" awake_ex_pic_y="0">
     <feature_id>0</feature_id>
     <feature_id>0</feature_id>
     <feature_id>0</feature_id>
@@ -3406,6 +3421,26 @@
     <feature_id>0</feature_id>
   </hero_group>
   <hero_group id="4001302" pic_id="4001302" normal_pic_id="0" ex_pic_id="0" normal_ex_pic_id="0" awake_ex_pic_id="0" awake_ex_pic_scale="0" illustration_sequence_num="0" illustration_hero_id="0" chara_group_id="0" vote_activity_id="0" vote_activity_group="0" attr="想" atk_attr="物理" role_set="無" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="0" summary_body_x="0" summary_body_y="0" summary_scale="0" record_body_x="0" record_body_y="0" record_scale="0" face_x="18" face_y="452" ani_scale="0" shadow_scale="0" cut_in_x="0" cut_in_y="0" cut_in_scale="0" dialog_x="0" dialog_y="0" dialog_scale="0" click_chest_x="-30" click_chest_y="197" click_chest_x_range="246" click_chest_y_range="182" awake_ex_pic_x="0" awake_ex_pic_y="0">
+    <feature_id>0</feature_id>
+    <feature_id>0</feature_id>
+    <feature_id>0</feature_id>
+  </hero_group>
+  <hero_group id="4001501" pic_id="4001501" normal_pic_id="0" ex_pic_id="0" normal_ex_pic_id="0" awake_ex_pic_id="0" awake_ex_pic_scale="0" illustration_sequence_num="0" illustration_hero_id="0" chara_group_id="0" vote_activity_id="0" vote_activity_group="0" attr="想" atk_attr="物理" role_set="無" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="0" summary_body_x="0" summary_body_y="0" summary_scale="0" record_body_x="0" record_body_y="0" record_scale="0" face_x="-28" face_y="424" ani_scale="0" shadow_scale="0" cut_in_x="0" cut_in_y="0" cut_in_scale="0" dialog_x="0" dialog_y="0" dialog_scale="0" click_chest_x="0" click_chest_y="0" click_chest_x_range="0" click_chest_y_range="0" awake_ex_pic_x="0" awake_ex_pic_y="0">
+    <feature_id>0</feature_id>
+    <feature_id>0</feature_id>
+    <feature_id>0</feature_id>
+  </hero_group>
+  <hero_group id="4101501" pic_id="4101501" normal_pic_id="0" ex_pic_id="0" normal_ex_pic_id="0" awake_ex_pic_id="0" awake_ex_pic_scale="0" illustration_sequence_num="0" illustration_hero_id="0" chara_group_id="0" vote_activity_id="0" vote_activity_group="0" attr="想" atk_attr="物理" role_set="無" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="0" summary_body_x="0" summary_body_y="0" summary_scale="0" record_body_x="0" record_body_y="0" record_scale="0" face_x="-3" face_y="439" ani_scale="0" shadow_scale="0" cut_in_x="0" cut_in_y="0" cut_in_scale="0" dialog_x="0" dialog_y="0" dialog_scale="0" click_chest_x="0" click_chest_y="0" click_chest_x_range="0" click_chest_y_range="0" awake_ex_pic_x="0" awake_ex_pic_y="0">
+    <feature_id>0</feature_id>
+    <feature_id>0</feature_id>
+    <feature_id>0</feature_id>
+  </hero_group>
+  <hero_group id="4001601" pic_id="4001601" normal_pic_id="0" ex_pic_id="0" normal_ex_pic_id="0" awake_ex_pic_id="0" awake_ex_pic_scale="0" illustration_sequence_num="0" illustration_hero_id="0" chara_group_id="0" vote_activity_id="0" vote_activity_group="0" attr="想" atk_attr="物理" role_set="無" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="0" summary_body_x="0" summary_body_y="0" summary_scale="0" record_body_x="0" record_body_y="0" record_scale="0" face_x="21" face_y="462" ani_scale="0" shadow_scale="0" cut_in_x="0" cut_in_y="0" cut_in_scale="0" dialog_x="0" dialog_y="0" dialog_scale="0" click_chest_x="0" click_chest_y="0" click_chest_x_range="0" click_chest_y_range="0" awake_ex_pic_x="0" awake_ex_pic_y="0">
+    <feature_id>0</feature_id>
+    <feature_id>0</feature_id>
+    <feature_id>0</feature_id>
+  </hero_group>
+  <hero_group id="4101601" pic_id="4101601" normal_pic_id="0" ex_pic_id="0" normal_ex_pic_id="0" awake_ex_pic_id="0" awake_ex_pic_scale="0" illustration_sequence_num="0" illustration_hero_id="0" chara_group_id="0" vote_activity_id="0" vote_activity_group="0" attr="想" atk_attr="物理" role_set="無" ignore_grade_skill_limit="false" ignore_ub_skill_limit="false" body_x="0" body_y="0" summary_body_x="0" summary_body_y="0" summary_scale="0" record_body_x="0" record_body_y="0" record_scale="0" face_x="-19" face_y="440" ani_scale="0" shadow_scale="0" cut_in_x="0" cut_in_y="0" cut_in_scale="0" dialog_x="0" dialog_y="0" dialog_scale="0" click_chest_x="0" click_chest_y="0" click_chest_x_range="0" click_chest_y_range="0" awake_ex_pic_x="0" awake_ex_pic_y="0">
     <feature_id>0</feature_id>
     <feature_id>0</feature_id>
     <feature_id>0</feature_id>

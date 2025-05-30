@@ -15684,4 +15684,292 @@
     <support_buff_id>384</support_buff_id>
     <support_buff_id>314</support_buff_id>
   </limit_over>
+  <limit_over group_id="2219" over_times="0" money_cost="10000" hp="382" atk="0" matk="93" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="0" block="15" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="6" mp_cost_down="0">
+    <key_item_id>7001</key_item_id>
+    <key_item_id>7016</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>30</key_item_num>
+    <key_item_num>30</key_item_num>
+    <key_item_num>0</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>371</support_buff_id>
+    <support_buff_id>0</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2219" over_times="1" money_cost="50000" hp="439" atk="0" matk="107" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="13" block="17" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <key_item_id>7002</key_item_id>
+    <key_item_id>7022</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>30</key_item_num>
+    <key_item_num>30</key_item_num>
+    <key_item_num>100</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>372</support_buff_id>
+    <support_buff_id>391</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2219" over_times="2" money_cost="100000" hp="516" atk="0" matk="126" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="0" block="20" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="8" mp_cost_down="0">
+    <key_item_id>7002</key_item_id>
+    <key_item_id>7022</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>40</key_item_num>
+    <key_item_num>40</key_item_num>
+    <key_item_num>200</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>373</support_buff_id>
+    <support_buff_id>392</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2219" over_times="3" money_cost="200000" hp="573" atk="0" matk="140" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="17" block="23" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <key_item_id>7035</key_item_id>
+    <key_item_id>7028</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>60</key_item_num>
+    <key_item_num>60</key_item_num>
+    <key_item_num>300</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>374</support_buff_id>
+    <support_buff_id>393</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2219" over_times="4" money_cost="500000" hp="1083" atk="0" matk="288" def="52" mdef="73" atk_crit="0" matk_crit="0" hit="0" block="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="19" mp_recovery="0" mp_cost_down="0">
+    <key_item_id>7035</key_item_id>
+    <key_item_id>7028</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>7000</key_item_id>
+    <key_item_num>100</key_item_num>
+    <key_item_num>100</key_item_num>
+    <key_item_num>1000</key_item_num>
+    <key_item_num>30</key_item_num>
+    <support_buff_id>374</support_buff_id>
+    <support_buff_id>394</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2219" over_times="5" money_cost="0" hp="0" atk="0" matk="0" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="0" block="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <key_item_id>0</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>0</key_item_num>
+    <key_item_num>0</key_item_num>
+    <key_item_num>0</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>374</support_buff_id>
+    <support_buff_id>394</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2220" over_times="0" money_cost="10000" hp="709" atk="103" matk="0" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="0" block="15" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="6" mp_cost_down="0">
+    <key_item_id>7009</key_item_id>
+    <key_item_id>7015</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>30</key_item_num>
+    <key_item_num>30</key_item_num>
+    <key_item_num>0</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>391</support_buff_id>
+    <support_buff_id>0</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2220" over_times="1" money_cost="50000" hp="816" atk="119" matk="0" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="13" block="17" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <key_item_id>7010</key_item_id>
+    <key_item_id>7021</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>30</key_item_num>
+    <key_item_num>30</key_item_num>
+    <key_item_num>100</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>392</support_buff_id>
+    <support_buff_id>321</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2220" over_times="2" money_cost="100000" hp="958" atk="139" matk="0" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="0" block="20" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="8" mp_cost_down="0">
+    <key_item_id>7010</key_item_id>
+    <key_item_id>7021</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>40</key_item_num>
+    <key_item_num>40</key_item_num>
+    <key_item_num>200</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>393</support_buff_id>
+    <support_buff_id>322</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2220" over_times="3" money_cost="200000" hp="1064" atk="155" matk="0" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="17" block="23" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <key_item_id>7039</key_item_id>
+    <key_item_id>7027</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>60</key_item_num>
+    <key_item_num>60</key_item_num>
+    <key_item_num>300</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>394</support_buff_id>
+    <support_buff_id>323</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2220" over_times="4" money_cost="500000" hp="2010" atk="293" matk="0" def="11" mdef="3" atk_crit="0" matk_crit="0" hit="0" block="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="19" mp_recovery="0" mp_cost_down="0">
+    <key_item_id>7039</key_item_id>
+    <key_item_id>7027</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>7000</key_item_id>
+    <key_item_num>100</key_item_num>
+    <key_item_num>100</key_item_num>
+    <key_item_num>1000</key_item_num>
+    <key_item_num>30</key_item_num>
+    <support_buff_id>394</support_buff_id>
+    <support_buff_id>324</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2220" over_times="5" money_cost="0" hp="0" atk="0" matk="0" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="0" block="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <key_item_id>0</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>0</key_item_num>
+    <key_item_num>0</key_item_num>
+    <key_item_num>0</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>394</support_buff_id>
+    <support_buff_id>324</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2221" over_times="0" money_cost="10000" hp="546" atk="0" matk="78" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="0" block="15" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="5" mp_cost_down="0">
+    <key_item_id>7009</key_item_id>
+    <key_item_id>7016</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>30</key_item_num>
+    <key_item_num>30</key_item_num>
+    <key_item_num>0</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>331</support_buff_id>
+    <support_buff_id>0</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2221" over_times="1" money_cost="50000" hp="628" atk="0" matk="90" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="13" block="17" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <key_item_id>7010</key_item_id>
+    <key_item_id>7022</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>30</key_item_num>
+    <key_item_num>30</key_item_num>
+    <key_item_num>100</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>332</support_buff_id>
+    <support_buff_id>371</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2221" over_times="2" money_cost="100000" hp="737" atk="0" matk="106" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="0" block="20" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="7" mp_cost_down="0">
+    <key_item_id>7010</key_item_id>
+    <key_item_id>7022</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>40</key_item_num>
+    <key_item_num>40</key_item_num>
+    <key_item_num>200</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>333</support_buff_id>
+    <support_buff_id>372</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2221" over_times="3" money_cost="200000" hp="819" atk="0" matk="118" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="17" block="23" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <key_item_id>7039</key_item_id>
+    <key_item_id>7028</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>60</key_item_num>
+    <key_item_num>60</key_item_num>
+    <key_item_num>300</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>334</support_buff_id>
+    <support_buff_id>373</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2221" over_times="4" money_cost="500000" hp="1547" atk="0" matk="223" def="20" mdef="33" atk_crit="0" matk_crit="0" hit="0" block="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="19" mp_recovery="0" mp_cost_down="0">
+    <key_item_id>7039</key_item_id>
+    <key_item_id>7028</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>7000</key_item_id>
+    <key_item_num>100</key_item_num>
+    <key_item_num>100</key_item_num>
+    <key_item_num>1000</key_item_num>
+    <key_item_num>30</key_item_num>
+    <support_buff_id>334</support_buff_id>
+    <support_buff_id>374</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2221" over_times="5" money_cost="0" hp="0" atk="0" matk="0" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="0" block="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <key_item_id>0</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>0</key_item_num>
+    <key_item_num>0</key_item_num>
+    <key_item_num>0</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>334</support_buff_id>
+    <support_buff_id>374</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2222" over_times="0" money_cost="5000" hp="424" atk="99" matk="0" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="0" block="15" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="6" mp_cost_down="0">
+    <key_item_id>7001</key_item_id>
+    <key_item_id>7020</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>20</key_item_num>
+    <key_item_num>20</key_item_num>
+    <key_item_num>0</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>221</support_buff_id>
+    <support_buff_id>0</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2222" over_times="1" money_cost="10000" hp="487" atk="114" matk="0" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="13" block="17" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <key_item_id>7002</key_item_id>
+    <key_item_id>7026</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>20</key_item_num>
+    <key_item_num>20</key_item_num>
+    <key_item_num>50</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>222</support_buff_id>
+    <support_buff_id>291</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2222" over_times="2" money_cost="50000" hp="572" atk="134" matk="0" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="0" block="20" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="8" mp_cost_down="0">
+    <key_item_id>7002</key_item_id>
+    <key_item_id>7026</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>30</key_item_num>
+    <key_item_num>30</key_item_num>
+    <key_item_num>100</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>223</support_buff_id>
+    <support_buff_id>292</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2222" over_times="3" money_cost="100000" hp="635" atk="149" matk="0" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="17" block="23" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <key_item_id>7035</key_item_id>
+    <key_item_id>7032</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>30</key_item_num>
+    <key_item_num>30</key_item_num>
+    <key_item_num>150</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>224</support_buff_id>
+    <support_buff_id>293</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2222" over_times="4" money_cost="250000" hp="1035" atk="243" matk="0" def="38" mdef="30" atk_crit="0" matk_crit="0" hit="0" block="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="16" mp_recovery="0" mp_cost_down="0">
+    <key_item_id>7035</key_item_id>
+    <key_item_id>7032</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>7000</key_item_id>
+    <key_item_num>50</key_item_num>
+    <key_item_num>50</key_item_num>
+    <key_item_num>500</key_item_num>
+    <key_item_num>20</key_item_num>
+    <support_buff_id>224</support_buff_id>
+    <support_buff_id>293</support_buff_id>
+  </limit_over>
+  <limit_over group_id="2222" over_times="5" money_cost="0" hp="0" atk="0" matk="0" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="0" block="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <key_item_id>0</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>0</key_item_num>
+    <key_item_num>0</key_item_num>
+    <key_item_num>0</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>224</support_buff_id>
+    <support_buff_id>293</support_buff_id>
+  </limit_over>
 </root>

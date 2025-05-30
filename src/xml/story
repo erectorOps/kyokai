@@ -271,14 +271,14 @@
   <story type="活動" chapter="魔女、ふたり" section="第7節" title="第7節" pre_stage="50290170" pre_quest_id="0" pre_activity_id="0" dialog_id="5029070" dialog_start_frame="0" dialog_end_frame="0" />
   <story type="活動" chapter="魔女、ふたり" section="第8節" title="第8節" pre_stage="50290180" pre_quest_id="0" pre_activity_id="0" dialog_id="5029080" dialog_start_frame="0" dialog_end_frame="0" />
   <story type="活動" chapter="魔女、ふたり" section="第9節" title="第9節" pre_stage="50290190" pre_quest_id="0" pre_activity_id="0" dialog_id="5029090" dialog_start_frame="0" dialog_end_frame="0" />
-  <story type="活動" chapter="GO! FIGHT! WIN!!" section="第1節" title="第1節" pre_stage="50310110" pre_quest_id="0" pre_activity_id="0" dialog_id="5031010" dialog_start_frame="0" dialog_end_frame="0" />
-  <story type="活動" chapter="GO! FIGHT! WIN!!" section="第2節" title="第2節" pre_stage="50310120" pre_quest_id="0" pre_activity_id="0" dialog_id="5031020" dialog_start_frame="0" dialog_end_frame="0" />
-  <story type="活動" chapter="GO! FIGHT! WIN!!" section="第3節" title="第3節" pre_stage="50310130" pre_quest_id="0" pre_activity_id="0" dialog_id="5031030" dialog_start_frame="0" dialog_end_frame="0" />
-  <story type="活動" chapter="GO! FIGHT! WIN!!" section="第4節" title="第4節" pre_stage="50310140" pre_quest_id="0" pre_activity_id="0" dialog_id="5031040" dialog_start_frame="0" dialog_end_frame="0" />
-  <story type="活動" chapter="GO! FIGHT! WIN!!" section="第5節" title="第5節" pre_stage="50310150" pre_quest_id="0" pre_activity_id="0" dialog_id="5031050" dialog_start_frame="0" dialog_end_frame="0" />
-  <story type="活動" chapter="GO! FIGHT! WIN!!" section="第6節" title="第6節" pre_stage="50310160" pre_quest_id="0" pre_activity_id="0" dialog_id="5031060" dialog_start_frame="0" dialog_end_frame="0" />
-  <story type="活動" chapter="GO! FIGHT! WIN!!" section="第7節" title="第7節" pre_stage="50310170" pre_quest_id="0" pre_activity_id="0" dialog_id="5031070" dialog_start_frame="0" dialog_end_frame="0" />
-  <story type="活動" chapter="GO! FIGHT! WIN!!" section="第8節" title="第8節" pre_stage="50310180" pre_quest_id="0" pre_activity_id="0" dialog_id="5031080" dialog_start_frame="0" dialog_end_frame="0" />
+  <story type="活動" chapter="GO! FIGHT! WIN!!" section="第1節" title="第1節" pre_stage="50310110/50880110" pre_quest_id="0" pre_activity_id="0" dialog_id="5031010" dialog_start_frame="0" dialog_end_frame="0" />
+  <story type="活動" chapter="GO! FIGHT! WIN!!" section="第2節" title="第2節" pre_stage="50310120/50880120" pre_quest_id="0" pre_activity_id="0" dialog_id="5031020" dialog_start_frame="0" dialog_end_frame="0" />
+  <story type="活動" chapter="GO! FIGHT! WIN!!" section="第3節" title="第3節" pre_stage="50310130/50880130" pre_quest_id="0" pre_activity_id="0" dialog_id="5031030" dialog_start_frame="0" dialog_end_frame="0" />
+  <story type="活動" chapter="GO! FIGHT! WIN!!" section="第4節" title="第4節" pre_stage="50310140/50880140" pre_quest_id="0" pre_activity_id="0" dialog_id="5031040" dialog_start_frame="0" dialog_end_frame="0" />
+  <story type="活動" chapter="GO! FIGHT! WIN!!" section="第5節" title="第5節" pre_stage="50310150/50880150" pre_quest_id="0" pre_activity_id="0" dialog_id="5031050" dialog_start_frame="0" dialog_end_frame="0" />
+  <story type="活動" chapter="GO! FIGHT! WIN!!" section="第6節" title="第6節" pre_stage="50310160/50880160" pre_quest_id="0" pre_activity_id="0" dialog_id="5031060" dialog_start_frame="0" dialog_end_frame="0" />
+  <story type="活動" chapter="GO! FIGHT! WIN!!" section="第7節" title="第7節" pre_stage="50310170/50880170" pre_quest_id="0" pre_activity_id="0" dialog_id="5031070" dialog_start_frame="0" dialog_end_frame="0" />
+  <story type="活動" chapter="GO! FIGHT! WIN!!" section="第8節" title="第8節" pre_stage="50310180/50880180" pre_quest_id="0" pre_activity_id="0" dialog_id="5031080" dialog_start_frame="0" dialog_end_frame="0" />
   <story type="活動" chapter="隣国の魔獣狩り女" section="第1節" title="第1節" pre_stage="50330110" pre_quest_id="0" pre_activity_id="0" dialog_id="5033010" dialog_start_frame="0" dialog_end_frame="0" />
   <story type="活動" chapter="隣国の魔獣狩り女" section="第2節" title="第2節" pre_stage="50330120" pre_quest_id="0" pre_activity_id="0" dialog_id="5033020" dialog_start_frame="0" dialog_end_frame="0" />
   <story type="活動" chapter="隣国の魔獣狩り女" section="第3節" title="第3節" pre_stage="50330130" pre_quest_id="0" pre_activity_id="0" dialog_id="5033030" dialog_start_frame="0" dialog_end_frame="0" />

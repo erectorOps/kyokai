@@ -2107,4 +2107,32 @@
     <bonus_cycle>0</bonus_cycle>
     <bonus_cycle>0</bonus_cycle>
   </stage_area>
+  <stage_area id="508601" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="【Fanzine】クエスト" bg="eventbg/eventbg25/event_77-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="508701" open="true" pre_stage_site="0" opposite_stage_area_id1="518701" opposite_stage_area_id2="0" name="ラシンはラシンにあらず" bg="eventbg/eventbg25/event_78-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="518701" open="true" pre_stage_site="50870135" opposite_stage_area_id1="508701" opposite_stage_area_id2="0" name="ラシンはラシンにあらず（Hard）" bg="eventbg/eventbg25/event_78-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="508801" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="GO! FIGHT! WIN!!" bg="eventbg/eventbg26/event_79-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
 </root>
