@@ -7152,4 +7152,52 @@
     <ani_name>null</ani_name>
     <ani_name>null</ani_name>
   </main_page_hcg>
+  <main_page_hcg id="222401" name="ユラシーン1" hero_group="2224" pre_gp_lv="2" pre_quest_id="0" icon="mainset-hcg001/2224_1" ani_path="2224_01a/2224_01a">
+    <ani_title>モーション1</ani_title>
+    <ani_title>モーション2</ani_title>
+    <ani_title>モーション3</ani_title>
+    <ani_title>モーション4</ani_title>
+    <ani_title>モーション5</ani_title>
+    <ani_title>モーション6</ani_title>
+    <ani_title>モーション7</ani_title>
+    <ani_title>モーション8</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_name>act0_1</ani_name>
+    <ani_name>act0_2</ani_name>
+    <ani_name>act1</ani_name>
+    <ani_name>act2_1</ani_name>
+    <ani_name>act2_2</ani_name>
+    <ani_name>act3</ani_name>
+    <ani_name>act4_1</ani_name>
+    <ani_name>act4_2</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+  </main_page_hcg>
+  <main_page_hcg id="222402" name="ユラシーン2" hero_group="2224" pre_gp_lv="4" pre_quest_id="0" icon="mainset-hcg001/2224_2" ani_path="2224_02a/2224_02a">
+    <ani_title>モーション1</ani_title>
+    <ani_title>モーション2</ani_title>
+    <ani_title>モーション3</ani_title>
+    <ani_title>モーション4</ani_title>
+    <ani_title>モーション5</ani_title>
+    <ani_title>モーション6</ani_title>
+    <ani_title>モーション7</ani_title>
+    <ani_title>モーション8</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_name>act0_1</ani_name>
+    <ani_name>act0_2</ani_name>
+    <ani_name>act1</ani_name>
+    <ani_name>act2_1</ani_name>
+    <ani_name>act2_2</ani_name>
+    <ani_name>act3</ani_name>
+    <ani_name>act4_1</ani_name>
+    <ani_name>act4_2</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+  </main_page_hcg>
 </root>

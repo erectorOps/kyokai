@@ -190,9 +190,14 @@
     <limit_boss>400075</limit_boss>
     <limit_boss>0</limit_boss>
   </activity_limit_main>
-  <activity_limit_main id="40039" name="第38回競撃戦" hero_group_id="2220">
+  <activity_limit_main id="40039" name="第39回競撃戦" hero_group_id="2220">
     <limit_boss>400076</limit_boss>
     <limit_boss>400077</limit_boss>
+    <limit_boss>0</limit_boss>
+  </activity_limit_main>
+  <activity_limit_main id="40040" name="第40回競撃戦" hero_group_id="2202">
+    <limit_boss>400078</limit_boss>
+    <limit_boss>400079</limit_boss>
     <limit_boss>0</limit_boss>
   </activity_limit_main>
 </root>

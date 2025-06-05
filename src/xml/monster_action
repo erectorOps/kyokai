@@ -766,6 +766,14 @@
   <monster_action id="40078" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4007802" />
   <monster_action id="40078" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4007803" />
   <monster_action id="40078" info="自身が「盲目」状態の場合" type="自身有指定狀態" value="目盲" skill_id="4007804" />
+  <monster_action id="40079" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4007901" />
+  <monster_action id="40079" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4007902" />
+  <monster_action id="40079" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4007903" />
+  <monster_action id="40079" info="自身が「火傷」状態の場合" type="自身有指定狀態" value="燒傷" skill_id="4007904" />
+  <monster_action id="40080" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4008001" />
+  <monster_action id="40080" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4008002" />
+  <monster_action id="40080" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4008003" />
+  <monster_action id="40080" info="自身が「火傷」状態の場合" type="自身有指定狀態" value="燒傷" skill_id="4008004" />
   <monster_action id="41001" type="剩餘時間低於" value="90" skill_id="4100101" />
   <monster_action id="41001" type="剩餘時間低於" value="60" skill_id="4100102" />
   <monster_action id="41001" type="剩餘時間低於" value="30" skill_id="4100103" />

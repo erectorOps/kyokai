@@ -178,4 +178,5 @@
   <stage_world id="5087" opposite_stage_world_id1="5187" opposite_stage_world_id2="0" arrive_id="2087" name="ラシンはラシンにあらず" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="5187" opposite_stage_world_id1="5087" opposite_stage_world_id2="0" arrive_id="2087" name="ラシンはラシンにあらず（Hard）" world_type="活動_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="5088" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2088" name="GO! FIGHT! WIN!!" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <stage_world id="5089" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2089" name="ユラはお仕事募集中" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
 </root>
