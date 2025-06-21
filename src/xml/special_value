@@ -2251,6 +2251,13 @@
   <special_value id="4" group_id="208701" tar_type="英雄" tar_id="2009" tar_prob="1598" tar_num="3" />
   <special_value id="5" group_id="208701" tar_type="英雄" tar_id="2017" tar_prob="1598" tar_num="3" />
   <special_value id="1" group_id="208901" tar_type="英雄" tar_id="2224" tar_prob="1606" tar_num="1" />
+  <special_value id="1" group_id="209001" tar_type="英雄" tar_id="2225" tar_prob="0" tar_num="10" />
+  <special_value id="2" group_id="209001" tar_type="英雄" tar_id="2226" tar_prob="0" tar_num="10" />
+  <special_value id="3" group_id="209001" tar_type="英雄" tar_id="2227" tar_prob="0" tar_num="5" />
+  <special_value id="4" group_id="209001" tar_type="英雄" tar_id="2014" tar_prob="0" tar_num="5" />
+  <special_value id="5" group_id="209001" tar_type="英雄" tar_id="2017" tar_prob="0" tar_num="3" />
+  <special_value id="6" group_id="209001" tar_type="英雄" tar_id="2018" tar_prob="0" tar_num="3" />
+  <special_value id="1" group_id="209101" tar_type="英雄" tar_id="2228" tar_prob="0" tar_num="5" />
   <special_value id="1" group_id="60007" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="300" />
   <special_value id="2" group_id="60007" tar_type="道具" tar_id="3404" tar_prob="0" tar_num="10" />
   <special_value id="3" group_id="60007" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="200" />
@@ -3429,6 +3436,150 @@
   <special_value id="2" group_id="100005" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="45" />
   <special_value id="3" group_id="100005" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="15" />
   <special_value id="4" group_id="100005" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="90" />
+  <special_value id="1" group_id="100010" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="20" />
+  <special_value id="2" group_id="100010" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="30" />
+  <special_value id="3" group_id="100010" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="10" />
+  <special_value id="4" group_id="100010" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="60" />
+  <special_value id="1" group_id="100011" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="22" />
+  <special_value id="2" group_id="100011" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="33" />
+  <special_value id="3" group_id="100011" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="11" />
+  <special_value id="4" group_id="100011" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="66" />
+  <special_value id="1" group_id="100012" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="24" />
+  <special_value id="2" group_id="100012" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="36" />
+  <special_value id="3" group_id="100012" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="12" />
+  <special_value id="4" group_id="100012" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="72" />
+  <special_value id="1" group_id="100013" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="26" />
+  <special_value id="2" group_id="100013" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="39" />
+  <special_value id="3" group_id="100013" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="13" />
+  <special_value id="4" group_id="100013" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="78" />
+  <special_value id="1" group_id="100014" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="28" />
+  <special_value id="2" group_id="100014" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="42" />
+  <special_value id="3" group_id="100014" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="14" />
+  <special_value id="4" group_id="100014" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="84" />
+  <special_value id="1" group_id="100015" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="30" />
+  <special_value id="2" group_id="100015" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="45" />
+  <special_value id="3" group_id="100015" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="15" />
+  <special_value id="4" group_id="100015" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="90" />
+  <special_value id="1" group_id="100020" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="20" />
+  <special_value id="2" group_id="100020" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="30" />
+  <special_value id="3" group_id="100020" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="10" />
+  <special_value id="4" group_id="100020" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="60" />
+  <special_value id="1" group_id="100021" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="22" />
+  <special_value id="2" group_id="100021" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="33" />
+  <special_value id="3" group_id="100021" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="11" />
+  <special_value id="4" group_id="100021" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="66" />
+  <special_value id="1" group_id="100022" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="24" />
+  <special_value id="2" group_id="100022" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="36" />
+  <special_value id="3" group_id="100022" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="12" />
+  <special_value id="4" group_id="100022" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="72" />
+  <special_value id="1" group_id="100023" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="26" />
+  <special_value id="2" group_id="100023" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="39" />
+  <special_value id="3" group_id="100023" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="13" />
+  <special_value id="4" group_id="100023" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="78" />
+  <special_value id="1" group_id="100024" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="28" />
+  <special_value id="2" group_id="100024" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="42" />
+  <special_value id="3" group_id="100024" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="14" />
+  <special_value id="4" group_id="100024" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="84" />
+  <special_value id="1" group_id="100025" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="30" />
+  <special_value id="2" group_id="100025" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="45" />
+  <special_value id="3" group_id="100025" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="15" />
+  <special_value id="4" group_id="100025" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="90" />
+  <special_value id="1" group_id="100030" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="20" />
+  <special_value id="2" group_id="100030" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="30" />
+  <special_value id="3" group_id="100030" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="10" />
+  <special_value id="4" group_id="100030" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="60" />
+  <special_value id="1" group_id="100031" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="22" />
+  <special_value id="2" group_id="100031" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="33" />
+  <special_value id="3" group_id="100031" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="11" />
+  <special_value id="4" group_id="100031" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="66" />
+  <special_value id="1" group_id="100032" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="24" />
+  <special_value id="2" group_id="100032" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="36" />
+  <special_value id="3" group_id="100032" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="12" />
+  <special_value id="4" group_id="100032" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="72" />
+  <special_value id="1" group_id="100033" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="26" />
+  <special_value id="2" group_id="100033" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="39" />
+  <special_value id="3" group_id="100033" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="13" />
+  <special_value id="4" group_id="100033" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="78" />
+  <special_value id="1" group_id="100034" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="28" />
+  <special_value id="2" group_id="100034" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="42" />
+  <special_value id="3" group_id="100034" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="14" />
+  <special_value id="4" group_id="100034" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="84" />
+  <special_value id="1" group_id="100035" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="30" />
+  <special_value id="2" group_id="100035" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="45" />
+  <special_value id="3" group_id="100035" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="15" />
+  <special_value id="4" group_id="100035" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="90" />
+  <special_value id="1" group_id="100040" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="20" />
+  <special_value id="2" group_id="100040" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="30" />
+  <special_value id="3" group_id="100040" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="10" />
+  <special_value id="4" group_id="100040" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="60" />
+  <special_value id="1" group_id="100041" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="22" />
+  <special_value id="2" group_id="100041" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="33" />
+  <special_value id="3" group_id="100041" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="11" />
+  <special_value id="4" group_id="100041" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="66" />
+  <special_value id="1" group_id="100042" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="24" />
+  <special_value id="2" group_id="100042" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="36" />
+  <special_value id="3" group_id="100042" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="12" />
+  <special_value id="4" group_id="100042" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="72" />
+  <special_value id="1" group_id="100043" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="26" />
+  <special_value id="2" group_id="100043" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="39" />
+  <special_value id="3" group_id="100043" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="13" />
+  <special_value id="4" group_id="100043" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="78" />
+  <special_value id="1" group_id="100044" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="28" />
+  <special_value id="2" group_id="100044" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="42" />
+  <special_value id="3" group_id="100044" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="14" />
+  <special_value id="4" group_id="100044" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="84" />
+  <special_value id="1" group_id="100045" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="30" />
+  <special_value id="2" group_id="100045" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="45" />
+  <special_value id="3" group_id="100045" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="15" />
+  <special_value id="4" group_id="100045" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="90" />
+  <special_value id="1" group_id="100050" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="20" />
+  <special_value id="2" group_id="100050" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="30" />
+  <special_value id="3" group_id="100050" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="10" />
+  <special_value id="4" group_id="100050" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="60" />
+  <special_value id="1" group_id="100051" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="22" />
+  <special_value id="2" group_id="100051" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="33" />
+  <special_value id="3" group_id="100051" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="11" />
+  <special_value id="4" group_id="100051" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="66" />
+  <special_value id="1" group_id="100052" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="24" />
+  <special_value id="2" group_id="100052" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="36" />
+  <special_value id="3" group_id="100052" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="12" />
+  <special_value id="4" group_id="100052" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="72" />
+  <special_value id="1" group_id="100053" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="26" />
+  <special_value id="2" group_id="100053" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="39" />
+  <special_value id="3" group_id="100053" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="13" />
+  <special_value id="4" group_id="100053" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="78" />
+  <special_value id="1" group_id="100054" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="28" />
+  <special_value id="2" group_id="100054" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="42" />
+  <special_value id="3" group_id="100054" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="14" />
+  <special_value id="4" group_id="100054" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="84" />
+  <special_value id="1" group_id="100055" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="30" />
+  <special_value id="2" group_id="100055" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="45" />
+  <special_value id="3" group_id="100055" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="15" />
+  <special_value id="4" group_id="100055" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="90" />
+  <special_value id="1" group_id="100060" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="20" />
+  <special_value id="2" group_id="100060" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="30" />
+  <special_value id="3" group_id="100060" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="10" />
+  <special_value id="4" group_id="100060" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="60" />
+  <special_value id="1" group_id="100061" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="22" />
+  <special_value id="2" group_id="100061" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="33" />
+  <special_value id="3" group_id="100061" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="11" />
+  <special_value id="4" group_id="100061" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="66" />
+  <special_value id="1" group_id="100062" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="24" />
+  <special_value id="2" group_id="100062" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="36" />
+  <special_value id="3" group_id="100062" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="12" />
+  <special_value id="4" group_id="100062" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="72" />
+  <special_value id="1" group_id="100063" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="26" />
+  <special_value id="2" group_id="100063" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="39" />
+  <special_value id="3" group_id="100063" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="13" />
+  <special_value id="4" group_id="100063" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="78" />
+  <special_value id="1" group_id="100064" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="28" />
+  <special_value id="2" group_id="100064" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="42" />
+  <special_value id="3" group_id="100064" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="14" />
+  <special_value id="4" group_id="100064" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="84" />
+  <special_value id="1" group_id="100065" tar_type="道具" tar_id="9200" tar_prob="0" tar_num="30" />
+  <special_value id="2" group_id="100065" tar_type="道具" tar_id="9199" tar_prob="0" tar_num="45" />
+  <special_value id="3" group_id="100065" tar_type="道具" tar_id="9198" tar_prob="0" tar_num="15" />
+  <special_value id="4" group_id="100065" tar_type="道具" tar_id="9197" tar_prob="0" tar_num="90" />
   <special_value id="1" group_id="60042" tar_type="道具" tar_id="10991" tar_prob="0" tar_num="1" />
   <special_value id="2" group_id="60042" tar_type="遊戲幣" tar_id="0" tar_prob="0" tar_num="500000" />
   <special_value id="3" group_id="60042" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="300" />
@@ -5251,6 +5402,28 @@
   <special_value id="9" group_id="9642" tar_type="道具" tar_id="9235" tar_prob="1900" tar_num="1" />
   <special_value id="10" group_id="9642" tar_type="道具" tar_id="9236" tar_prob="3400" tar_num="1" />
   <special_value id="11" group_id="9642" tar_type="道具" tar_id="3404" tar_prob="385" tar_num="1" />
+  <special_value id="1" group_id="9643" tar_type="道具" tar_id="9235" tar_prob="5" tar_num="1" />
+  <special_value id="2" group_id="9643" tar_type="道具" tar_id="9236" tar_prob="15" tar_num="1" />
+  <special_value id="3" group_id="9643" tar_type="道具" tar_id="3402" tar_prob="5" tar_num="1" />
+  <special_value id="4" group_id="9643" tar_type="道具" tar_id="3401" tar_prob="25" tar_num="1" />
+  <special_value id="5" group_id="9643" tar_type="道具" tar_id="3602" tar_prob="5" tar_num="1" />
+  <special_value id="6" group_id="9643" tar_type="道具" tar_id="3601" tar_prob="25" tar_num="1" />
+  <special_value id="7" group_id="9643" tar_type="遊戲幣" tar_id="0" tar_prob="15" tar_num="10000" />
+  <special_value id="1" group_id="9644" tar_type="道具" tar_id="9235" tar_prob="20" tar_num="1" />
+  <special_value id="2" group_id="9644" tar_type="道具" tar_id="9236" tar_prob="60" tar_num="1" />
+  <special_value id="3" group_id="9644" tar_type="道具" tar_id="3403" tar_prob="5" tar_num="1" />
+  <special_value id="4" group_id="9644" tar_type="遊戲幣" tar_id="0" tar_prob="20" tar_num="20000" />
+  <special_value id="1" group_id="9645" tar_type="道具" tar_id="1611" tar_prob="1000" tar_num="2" />
+  <special_value id="2" group_id="9645" tar_type="道具" tar_id="1611" tar_prob="2000" tar_num="1" />
+  <special_value id="3" group_id="9645" tar_type="商城幣" tar_id="0" tar_prob="100" tar_num="10" />
+  <special_value id="4" group_id="9645" tar_type="商城幣" tar_id="0" tar_prob="200" tar_num="5" />
+  <special_value id="5" group_id="9645" tar_type="道具" tar_id="14" tar_prob="5" tar_num="5" />
+  <special_value id="6" group_id="9645" tar_type="道具" tar_id="9015" tar_prob="10" tar_num="1" />
+  <special_value id="7" group_id="9645" tar_type="道具" tar_id="9014" tar_prob="300" tar_num="1" />
+  <special_value id="8" group_id="9645" tar_type="道具" tar_id="9013" tar_prob="700" tar_num="1" />
+  <special_value id="9" group_id="9645" tar_type="道具" tar_id="9235" tar_prob="1900" tar_num="1" />
+  <special_value id="10" group_id="9645" tar_type="道具" tar_id="9236" tar_prob="3400" tar_num="1" />
+  <special_value id="11" group_id="9645" tar_type="道具" tar_id="3404" tar_prob="385" tar_num="1" />
   <special_value id="1" group_id="60097" tar_type="道具" tar_id="10991" tar_prob="0" tar_num="1" />
   <special_value id="2" group_id="60097" tar_type="道具" tar_id="3404" tar_prob="0" tar_num="10" />
   <special_value id="3" group_id="60097" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="300" />
@@ -5807,6 +5980,52 @@
   <special_value id="4" group_id="92224" tar_type="道具" tar_id="7044" tar_prob="1" tar_num="21" />
   <special_value id="5" group_id="92224" tar_type="道具" tar_id="7045" tar_prob="1" tar_num="21" />
   <special_value id="6" group_id="92224" tar_type="道具" tar_id="7014" tar_prob="1" tar_num="70" />
+  <special_value id="1" group_id="60117" tar_type="道具" tar_id="10991" tar_prob="0" tar_num="1" />
+  <special_value id="2" group_id="60117" tar_type="遊戲幣" tar_id="0" tar_prob="0" tar_num="500000" />
+  <special_value id="3" group_id="60117" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="300" />
+  <special_value id="4" group_id="60117" tar_type="AP" tar_id="0" tar_prob="0" tar_num="200" />
+  <special_value id="5" group_id="60117" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="200" />
+  <special_value id="6" group_id="60117" tar_type="道具" tar_id="9204" tar_prob="0" tar_num="20" />
+  <special_value id="7" group_id="60117" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="300" />
+  <special_value id="8" group_id="60117" tar_type="道具" tar_id="1608" tar_prob="0" tar_num="1" />
+  <special_value id="9" group_id="60117" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="200" />
+  <special_value id="10" group_id="60117" tar_type="道具" tar_id="3604" tar_prob="0" tar_num="10" />
+  <special_value id="11" group_id="60117" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="200" />
+  <special_value id="12" group_id="60117" tar_type="道具" tar_id="3404" tar_prob="0" tar_num="10" />
+  <special_value id="13" group_id="60117" tar_type="道具" tar_id="3003" tar_prob="0" tar_num="10" />
+  <special_value id="14" group_id="60117" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="300" />
+  <special_value id="1" group_id="92225" tar_type="道具" tar_id="3404" tar_prob="1" tar_num="110" />
+  <special_value id="2" group_id="92225" tar_type="道具" tar_id="7009" tar_prob="1" tar_num="21" />
+  <special_value id="3" group_id="92225" tar_type="道具" tar_id="7010" tar_prob="1" tar_num="21" />
+  <special_value id="4" group_id="92225" tar_type="道具" tar_id="7019" tar_prob="1" tar_num="21" />
+  <special_value id="5" group_id="92225" tar_type="道具" tar_id="7025" tar_prob="1" tar_num="21" />
+  <special_value id="6" group_id="92225" tar_type="道具" tar_id="7014" tar_prob="1" tar_num="70" />
+  <special_value id="1" group_id="92226" tar_type="道具" tar_id="3404" tar_prob="1" tar_num="110" />
+  <special_value id="2" group_id="92226" tar_type="道具" tar_id="7001" tar_prob="1" tar_num="21" />
+  <special_value id="3" group_id="92226" tar_type="道具" tar_id="7002" tar_prob="1" tar_num="21" />
+  <special_value id="4" group_id="92226" tar_type="道具" tar_id="7041" tar_prob="1" tar_num="21" />
+  <special_value id="5" group_id="92226" tar_type="道具" tar_id="7042" tar_prob="1" tar_num="21" />
+  <special_value id="6" group_id="92226" tar_type="道具" tar_id="7014" tar_prob="1" tar_num="70" />
+  <special_value id="1" group_id="92228" tar_type="道具" tar_id="3404" tar_prob="1" tar_num="110" />
+  <special_value id="2" group_id="92228" tar_type="道具" tar_id="7011" tar_prob="1" tar_num="21" />
+  <special_value id="3" group_id="92228" tar_type="道具" tar_id="7012" tar_prob="1" tar_num="21" />
+  <special_value id="4" group_id="92228" tar_type="道具" tar_id="7044" tar_prob="1" tar_num="21" />
+  <special_value id="5" group_id="92228" tar_type="道具" tar_id="7045" tar_prob="1" tar_num="21" />
+  <special_value id="6" group_id="92228" tar_type="道具" tar_id="7014" tar_prob="1" tar_num="70" />
+  <special_value id="1" group_id="60118" tar_type="道具" tar_id="10991" tar_prob="0" tar_num="1" />
+  <special_value id="2" group_id="60118" tar_type="道具" tar_id="3404" tar_prob="0" tar_num="10" />
+  <special_value id="3" group_id="60118" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="300" />
+  <special_value id="4" group_id="60118" tar_type="AP" tar_id="0" tar_prob="0" tar_num="200" />
+  <special_value id="5" group_id="60118" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="400" />
+  <special_value id="6" group_id="60118" tar_type="道具" tar_id="3604" tar_prob="0" tar_num="10" />
+  <special_value id="7" group_id="60118" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="300" />
+  <special_value id="1" group_id="60119" tar_type="道具" tar_id="10991" tar_prob="0" tar_num="1" />
+  <special_value id="2" group_id="60119" tar_type="道具" tar_id="3404" tar_prob="0" tar_num="10" />
+  <special_value id="3" group_id="60119" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="300" />
+  <special_value id="4" group_id="60119" tar_type="AP" tar_id="0" tar_prob="0" tar_num="200" />
+  <special_value id="5" group_id="60119" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="400" />
+  <special_value id="6" group_id="60119" tar_type="道具" tar_id="3604" tar_prob="0" tar_num="10" />
+  <special_value id="7" group_id="60119" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="300" />
   <special_value id="1" group_id="80101" tar_type="道具" tar_id="7035" tar_prob="0" tar_num="30" />
   <special_value id="2" group_id="80101" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="1000" />
   <special_value id="3" group_id="80101" tar_type="道具" tar_id="80601" tar_prob="0" tar_num="1" />
@@ -6258,6 +6477,47 @@
   <special_value id="7" group_id="90063" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
   <special_value id="8" group_id="90063" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
   <special_value id="5" group_id="90064" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="300" />
+  <special_value id="1" group_id="90065" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="100" />
+  <special_value id="2" group_id="90065" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="3" group_id="90065" tar_type="道具" tar_id="192" tar_prob="0" tar_num="1" />
+  <special_value id="4" group_id="90065" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="5" group_id="90065" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="6" group_id="90065" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="7" group_id="90065" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="8" group_id="90065" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="1" group_id="90066" tar_type="道具" tar_id="9214" tar_prob="0" tar_num="20" />
+  <special_value id="2" group_id="90066" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="3" group_id="90066" tar_type="道具" tar_id="193" tar_prob="0" tar_num="1" />
+  <special_value id="4" group_id="90066" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="5" group_id="90066" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="6" group_id="90066" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="7" group_id="90066" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="8" group_id="90066" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="1" group_id="90067" tar_type="道具" tar_id="9204" tar_prob="0" tar_num="20" />
+  <special_value id="2" group_id="90067" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="3" group_id="90067" tar_type="道具" tar_id="194" tar_prob="0" tar_num="1" />
+  <special_value id="4" group_id="90067" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="5" group_id="90067" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="6" group_id="90067" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="7" group_id="90067" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="8" group_id="90067" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="1" group_id="90068" tar_type="道具" tar_id="9225" tar_prob="0" tar_num="20" />
+  <special_value id="2" group_id="90068" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="3" group_id="90068" tar_type="道具" tar_id="195" tar_prob="0" tar_num="1" />
+  <special_value id="4" group_id="90068" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="5" group_id="90068" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="6" group_id="90068" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="7" group_id="90068" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="8" group_id="90068" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="1" group_id="90069" tar_type="道具" tar_id="1612" tar_prob="0" tar_num="1" />
+  <special_value id="2" group_id="90069" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="3" group_id="90069" tar_type="道具" tar_id="196" tar_prob="0" tar_num="1" />
+  <special_value id="4" group_id="90069" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="5" group_id="90069" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="6" group_id="90069" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="7" group_id="90069" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="8" group_id="90069" tar_type="None" tar_id="0" tar_prob="0" tar_num="0" />
+  <special_value id="5" group_id="90070" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="300" />
   <special_value id="1" group_id="9000001" tar_type="道具" tar_id="7001" tar_prob="0" tar_num="10" />
   <special_value id="2" group_id="9000001" tar_type="道具" tar_id="7001" tar_prob="0" tar_num="30" />
   <special_value id="3" group_id="9000001" tar_type="道具" tar_id="7002" tar_prob="0" tar_num="20" />

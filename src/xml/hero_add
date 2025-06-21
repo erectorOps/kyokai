@@ -340,4 +340,14 @@ E: すべてのコンテンツ、属性、戦術において候補に上がる�
 	<hero_add id="2222" rare="SR" name="キリエ" gacha_type="報酬,イベント" added_date="2025/05/29" obtain="イベント「ラシンはラシンにあらず」ミッション報酬" ub_type="1人攻撃,火傷,火攻撃UP"><review rank="C"></review></hero_add>
 	<hero_add id="2223" rare="SSR" name="【食欲の女戦士】ラウール＆クルール" gacha_type="シーズンパス" added_date="2025/06/05" obtain="シーズンパスLv50報酬" ub_type="1人攻撃,眩暈,防御DOWN"><review rank="C"></review></hero_add>
 	<hero_add id="2224" rare="SSR" name="ユラ" gacha_type="バーストフェス" added_date="2025/06/05" obtain="バーストフェス期間限定召喚" ub_type="1人攻撃,ブロックDOWN,水被ダメージUP,ダメージUP"><review rank="C"></review></hero_add>
+
+	<hero_add id="2225" rare="SSR" name="【困惑の花嫁】マグダレーナ" gacha_type="イベント" added_date="2025/06/12" obtain="イベント「恵みの雨は、降り注ぎ」期間限定召喚" ub_type="3人攻撃,防御DOWN,バリア,ダメージUP"><review rank="A"></review></hero_add>
+	<hero_add id="2226" rare="SSR" name="【日傘の花嫁】麗鬼" gacha_type="イベント" added_date="2025/06/12" obtain="イベント「恵みの雨は、降り注ぎ」期間限定召喚" ub_type="3人攻撃,沈黙,火被ダメージUP,ブロックDOWN"><review rank="C"></review></hero_add>
+	<hero_add id="2227" rare="SR" name="ボクっ娘の花嫁】メイニアス" gacha_type="報酬,イベント" added_date="2025/06/12" obtain="イベント「恵みの雨は、降り注ぎ」ミッション報酬" ub_type="1人攻撃,出血,ブロックDOWN"><review rank="C"></review></hero_add>
+	<hero_add id="2228" rare="SSR" name="【疾風のくノ一】リン" gacha_type="Fanzine" added_date="2025/06/19" obtain="イベント「Fanzine」期間限定召喚" ub_type="3人攻撃,攻撃UP,ダメージUP"><review rank="C"></review></hero_add>
+	<!-- コピペ用
+	<hero_add id="" rare="SSR" name="" gacha_type="イベント" added_date="2025/00/00" obtain="イベント「【イベント名】」期間限定召喚" ub_type=""><review rank="C"></review></hero_add>
+	<hero_add id="" rare="SSR" name="" gacha_type="イベント" added_date="2025/00/00" obtain="イベント「【イベント名】」期間限定召喚" ub_type=""><review rank="C"></review></hero_add>
+	<hero_add id="" rare="SR" name="" gacha_type="報酬,イベント" added_date="2025/00/00" obtain="イベント「【イベント名】」ミッション報酬" ub_type=""><review rank="C"></review></hero_add>
+	-->
 </root>

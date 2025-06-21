@@ -3955,14 +3955,14 @@
     <param>activity-banner-2038/召喚_花嫁の恵み320x88</param>
     <param>活動RAID</param>
     <param>Year2024</param>
-    <param>50380110</param>
+    <param>50380110/51910110</param>
     <param />
     <param />
     <param />
   </story_new>
   <story_new group_id="1031" group_func="章節設定" order="1">
     <param>第1節</param>
-    <param>50380110</param>
+    <param>50380110/51910110</param>
     <param />
     <param />
     <param>5035010</param>
@@ -3973,7 +3973,7 @@
   </story_new>
   <story_new group_id="1031" group_func="章節設定" order="2">
     <param>第2節</param>
-    <param>50380120</param>
+    <param>50380120/51910120</param>
     <param />
     <param />
     <param>5035020</param>
@@ -3984,7 +3984,7 @@
   </story_new>
   <story_new group_id="1031" group_func="章節設定" order="3">
     <param>第3節</param>
-    <param>50380130</param>
+    <param>50380130/51910130</param>
     <param />
     <param />
     <param>5035030</param>
@@ -3995,7 +3995,7 @@
   </story_new>
   <story_new group_id="1031" group_func="章節設定" order="4">
     <param>第4節</param>
-    <param>50380140</param>
+    <param>50380140/51910140</param>
     <param />
     <param />
     <param>5035040</param>
@@ -4006,7 +4006,7 @@
   </story_new>
   <story_new group_id="1031" group_func="章節設定" order="5">
     <param>第5節</param>
-    <param>50380150</param>
+    <param>50380150/51910150</param>
     <param />
     <param />
     <param>5035050</param>
@@ -4017,7 +4017,7 @@
   </story_new>
   <story_new group_id="1031" group_func="章節設定" order="6">
     <param>第6節</param>
-    <param>50380160</param>
+    <param>50380160/51910160</param>
     <param />
     <param />
     <param>5035060</param>
@@ -8091,6 +8091,182 @@
     <param />
     <param />
     <param>5071100</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1068" group_func="標題設定" order="1">
+    <param>活動</param>
+    <param>恵みの雨は、降り注ぎ</param>
+    <param>activity-banner-2090/活動_恵みの雨は、降り注ぎ_320x88</param>
+    <param>一般活動</param>
+    <param>Year2025</param>
+    <param>50900111</param>
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1068" group_func="章節設定" order="1">
+    <param>第1節</param>
+    <param>50900111</param>
+    <param />
+    <param />
+    <param>5072010</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1068" group_func="章節設定" order="2">
+    <param>第2節</param>
+    <param>50900113</param>
+    <param />
+    <param />
+    <param>5072020</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1068" group_func="章節設定" order="3">
+    <param>第3節</param>
+    <param>50900115</param>
+    <param />
+    <param />
+    <param>5072030</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1068" group_func="章節設定" order="4">
+    <param>第4節</param>
+    <param>50900117</param>
+    <param />
+    <param />
+    <param>5072040</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1068" group_func="章節設定" order="5">
+    <param>第5節</param>
+    <param>50900119</param>
+    <param />
+    <param />
+    <param>5072050</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1068" group_func="章節設定" order="6">
+    <param>第6節</param>
+    <param>50900121</param>
+    <param />
+    <param />
+    <param>5072060</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1068" group_func="章節設定" order="7">
+    <param>第7節</param>
+    <param>50900122</param>
+    <param />
+    <param />
+    <param>5072070</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1068" group_func="章節設定" order="8">
+    <param>第8節</param>
+    <param>50900125</param>
+    <param />
+    <param />
+    <param>5072080</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1068" group_func="章節設定" order="9">
+    <param>第9節</param>
+    <param>50900126</param>
+    <param />
+    <param />
+    <param>5072090</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1068" group_func="章節設定" order="10">
+    <param>第10節</param>
+    <param>50900129</param>
+    <param />
+    <param />
+    <param>5072100</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1068" group_func="章節設定" order="11">
+    <param>第11節</param>
+    <param>50900132</param>
+    <param />
+    <param />
+    <param>5072110</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1069" group_func="標題設定" order="1">
+    <param>活動</param>
+    <param>Fanzine</param>
+    <param>activity-banner-2091/活動_Fanzine_320x88</param>
+    <param>一般活動</param>
+    <param>Year2025</param>
+    <param>50910111</param>
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1069" group_func="章節設定" order="1">
+    <param>第1節</param>
+    <param>50910111</param>
+    <param />
+    <param />
+    <param>5073010</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1069" group_func="章節設定" order="2">
+    <param>第2節</param>
+    <param>50910113</param>
+    <param />
+    <param />
+    <param>5073020</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1069" group_func="章節設定" order="3">
+    <param>第3節</param>
+    <param>50910115</param>
+    <param />
+    <param />
+    <param>5073030</param>
     <param />
     <param />
     <param />
