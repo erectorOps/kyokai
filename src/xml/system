@@ -71,6 +71,7 @@
   <system def="R級角色碎片溢出轉換比" val="1" />
   <system def="SR級角色碎片溢出轉換比" val="5" />
   <system def="SSR級角色碎片溢出轉換比" val="25" />
+  <system def="SKIN道具天數轉換比" val="100" />
   <system def="基礎角色數限制" val="150" />
   <system def="基礎道具數限制" val="1000" />
   <system def="AP回復商品群組" val="101" />
@@ -110,6 +111,7 @@
   <system def="限界戰次數商品群組" val="2301" />
   <system def="無雙模式次數商品群組" val="2601" />
   <system def="頭目連戰次數商品群組" val="2701" />
+  <system def="寶藏獵人次數商品群組" val="2701" />
   <system def="每日登入禮ID" val="1" />
   <system def="每日登入禮重製天數" val="7" />
   <system def="簽到簿補簽開關" val="true" />
@@ -374,7 +376,7 @@
   <system def="飾品2格開放需求英雄等級" val="41" />
   <system def="飾品4格開放需求英雄等級" val="51" />
   <system def="飾品5格開放需求英雄等級" val="61" />
-  <system def="新角色影片名稱" val="PS8_hero_2228.mp4" />
+  <system def="新角色影片名稱" val="PS8_hero_2232.mp4" />
   <system def="新角色影片更換時間" />
   <system def="新角色影片更換名稱" />
   <system def="特典序號圖示" val="item001/redemption_icon" />

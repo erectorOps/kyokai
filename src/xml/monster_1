@@ -3094,6 +3094,62 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </monster_1>
+  <monster_1 id="80801" name="同盟戰" limit_sec="120" boss_id="80801" boss_lv="1" boss_ani_scale="0.4" boss_buff_group_id="80801">
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="80802" name="同盟戰" limit_sec="120" boss_id="80802" boss_lv="1" boss_ani_scale="0.4" boss_buff_group_id="80801">
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="80803" name="同盟戰" limit_sec="120" boss_id="80803" boss_lv="1" boss_ani_scale="0.4" boss_buff_group_id="80801">
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="80804" name="同盟戰" limit_sec="120" boss_id="80804" boss_lv="1" boss_ani_scale="0.4" boss_buff_group_id="80801">
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
   <monster_1 id="900010101" name="地成一般1-1-1" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>5015019</hero_id>
     <hero_id>6015018</hero_id>

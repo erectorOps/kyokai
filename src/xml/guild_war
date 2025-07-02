@@ -170,7 +170,7 @@
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
   </guild_war>
-  <guild_war id="206" name="6月" background="battle100101bg/100103" open="false" start_time="2025/06/01 10:00:00" end_time="2025/06/10 23:59:59" coin_item_id="0" battle_dmg_buff_hero_group="0" battle_anti_dmg_buff_hero_group="0" battle_guild_coin_buff_hero_group="0">
+  <guild_war id="206" name="6月" background="battle100101bg/100103" open="true" start_time="2025/06/30 03:00:00" end_time="2025/07/07 03:00:00" coin_item_id="1620" battle_dmg_buff_hero_group="2050" battle_anti_dmg_buff_hero_group="2064" battle_guild_coin_buff_hero_group="2084">
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
