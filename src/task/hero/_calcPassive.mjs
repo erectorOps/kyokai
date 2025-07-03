@@ -534,6 +534,56 @@ const calcBuff = (params, buff) => {
 
       // case '反擊':
       //     break;
+
+      case '物理防禦值護盾':
+        // text += `物理防御力バリア(${span}${val1.toString()}%`;
+        // if (val2.plus(val3.mul(lv)).gt(0)) {
+        //   text += `+${val2.plus(val3.mul(lv)).toString()}`;
+        // }
+        // text += `${spanEnd}`;
+        // text += ")";
+        break;
+      case '魔法防禦值護盾':
+        // text += `魔法防御力バリア(${span}${val1.toString()}%`;
+        // if (val2.plus(val3.mul(lv)).gt(0)) {
+        //   text += `+${val2.plus(val3.mul(lv)).toString()}`;
+        // }
+        // text += `${spanEnd}`;
+        // text += ")";
+        break;
+      case '綜合防禦值護盾':
+        //         text += `防御力バリア(${span}${val1.toString()}%`;
+        // if (val2.plus(val3.mul(lv)).gt(0)) {
+        //   text += `+${val2.plus(val3.mul(lv)).toString()}`;
+        // }
+        // text += `${spanEnd}`;
+        // text += ")";
+        break;
+      case '物理防禦值反射':
+        // text += `物理防御力反射バリア(${span}${val1.toString()}%`;
+        // if (val2.plus(val3.mul(lv)).gt(0)) {
+        //   text += `+${val2.plus(val3.mul(lv)).toString()}`;
+        // }
+        // text += `${spanEnd}`;
+        // text += ")";
+        break;
+      case '魔法防禦值反射':
+        // text += `魔法防御力反射バリア(${span}${val1.toString()}%`;
+        // if (val2.plus(val3.mul(lv)).gt(0)) {
+        //   text += `+${val2.plus(val3.mul(lv)).toString()}`;
+        // }
+        // text += `${spanEnd}`;
+        // text += ")";
+        break;
+      case '綜合防禦值反射':
+        // text += `防御力反射バリア(${span}${val1.toString()}%`;
+        // if (val2.plus(val3.mul(lv)).gt(0)) {
+        //   text += `+${val2.plus(val3.mul(lv)).toString()}`;
+        // }
+        // text += `${spanEnd}`;
+        // text += ")";
+        break;
+
       default:
           console.log("Unknown buff effect type = "+type);
           break;

@@ -622,6 +622,73 @@ const parseBuff = (buff, lv, info) => {
 
       // case '反擊':
       //     break;
+
+      case '受到傷害上升或下降':
+          text += `受けるダメージが${span}${val1.abs().toString()}%${spanEnd}軽減される`;
+          break;
+      case '造成傷害上升或下降':
+          text += `与えるダメージが${parseUpDown()}`;
+          break;
+      // case '狀態效果時間上升或下降':
+      //     break;
+      // case 'Buff效果時間上升或下降':
+      //     break;
+      // case 'Debuff效果時間上升或下降':
+      //     break;
+      // case '狀態持續時間延長或縮短':
+      //     break;
+      // case 'Buff持續時間延長或縮短':
+      //     break;
+      // case 'Debuff持續時間延長或縮短':
+      //     break;
+      case '物理防禦值護盾':
+        text += `物理防御力バリア(${span}${val1.toString()}%`;
+        if (val2.plus(val3.mul(lv)).gt(0)) {
+          text += `+${val2.plus(val3.mul(lv)).toString()}`;
+        }
+        text += `${spanEnd}`;
+        text += ")";
+        break;
+      case '魔法防禦值護盾':
+        text += `魔法防御力バリア(${span}${val1.toString()}%`;
+        if (val2.plus(val3.mul(lv)).gt(0)) {
+          text += `+${val2.plus(val3.mul(lv)).toString()}`;
+        }
+        text += `${spanEnd}`;
+        text += ")";
+        break;
+      case '綜合防禦值護盾':
+                text += `防御力バリア(${span}${val1.toString()}%`;
+        if (val2.plus(val3.mul(lv)).gt(0)) {
+          text += `+${val2.plus(val3.mul(lv)).toString()}`;
+        }
+        text += `${spanEnd}`;
+        text += ")";
+        break;
+      case '物理防禦值反射':
+        text += `物理防御力反射バリア(${span}${val1.toString()}%`;
+        if (val2.plus(val3.mul(lv)).gt(0)) {
+          text += `+${val2.plus(val3.mul(lv)).toString()}`;
+        }
+        text += `${spanEnd}`;
+        text += ")";
+        break;
+      case '魔法防禦值反射':
+        text += `魔法防御力反射バリア(${span}${val1.toString()}%`;
+        if (val2.plus(val3.mul(lv)).gt(0)) {
+          text += `+${val2.plus(val3.mul(lv)).toString()}`;
+        }
+        text += `${spanEnd}`;
+        text += ")";
+        break;
+      case '綜合防禦值反射':
+        text += `防御力反射バリア(${span}${val1.toString()}%`;
+        if (val2.plus(val3.mul(lv)).gt(0)) {
+          text += `+${val2.plus(val3.mul(lv)).toString()}`;
+        }
+        text += `${spanEnd}`;
+        text += ")";
+        break;
       
       default:
           console.log("Unknown buff effect type = "+type);
