@@ -807,6 +807,14 @@
   <monster_action id="80804" info="残り60秒" type="剩餘時間低於" value="60" skill_id="8080402" />
   <monster_action id="80804" info="残り30秒" type="剩餘時間低於" value="30" skill_id="8080403" />
   <monster_action id="80804" info="自身が「解消」状態の場合" type="自身有指定狀態" value="驅散" skill_id="8080404" />
+  <monster_action id="40083" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4008301" />
+  <monster_action id="40083" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4008302" />
+  <monster_action id="40083" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4008303" />
+  <monster_action id="40083" info="自身が「解消」状態の場合" type="自身有指定狀態" value="驅散" skill_id="4008304" />
+  <monster_action id="40084" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4008401" />
+  <monster_action id="40084" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4008402" />
+  <monster_action id="40084" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4008403" />
+  <monster_action id="40084" info="自身が「解消」状態の場合" type="自身有指定狀態" value="驅散" skill_id="4008404" />
   <monster_action id="41001" type="剩餘時間低於" value="90" skill_id="4100101" />
   <monster_action id="41001" type="剩餘時間低於" value="60" skill_id="4100102" />
   <monster_action id="41001" type="剩餘時間低於" value="30" skill_id="4100103" />

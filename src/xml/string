@@ -2226,6 +2226,7 @@
   <string id="33006" text="使用できない文字が含まれています" />
   <string id="33007" text="入力した名前が変更前と同じです" />
   <string id="33008" text="1～12文字入力してください" />
+  <string id="33009" text="※チーム名は最大{0}文字まで" />
   <string id="33101" text="プレイヤー情報" />
   <string id="33102" text="プレイヤー" />
   <string id="33103" text="アイテム" />
@@ -3293,6 +3294,7 @@
   <string id="57117" text="共通" />
   <string id="57118" text="装備プラン選択" />
   <string id="57119" text="異なる武器からプランをコピーできません" />
+  <string id="57120" text="※プラン名は最大{0}文字まで" />
   <string id="58001" text="R" />
   <string id="58002" text="SR" />
   <string id="58003" text="SSR" />

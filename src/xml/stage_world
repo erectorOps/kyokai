@@ -184,4 +184,6 @@
   <stage_world id="5091" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2091" name="【Fanzine】クエスト" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="5191" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2191" name="［復刻］花嫁の恵み" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="5092" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2092" name="【物資調達】" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <stage_world id="5093" opposite_stage_world_id1="5193" opposite_stage_world_id2="0" arrive_id="2093" name="飛来せし巨鳥" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <stage_world id="5193" opposite_stage_world_id1="5093" opposite_stage_world_id2="0" arrive_id="2093" name="飛来せし巨鳥（Hard）" world_type="活動_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
 </root>
