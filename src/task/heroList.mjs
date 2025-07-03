@@ -5,6 +5,7 @@ import rename from 'gulp-rename'; //ファイル出力時にファイル名を�
 
 import { getAtkSpeed, getPosition } from './hero/_util.mjs';
 import { srcBase, srcPath, distBase } from './_config.mjs';
+import log from 'fancy-log';
 
 export class HeroList {
     constructor(kf) {
@@ -40,6 +41,7 @@ export class HeroList {
                 const rareOrder = ["SSR", "SR", "R"];
             
                 const gachaTypeEntity = kf.hero_add.root.hero_add.find(item => item['@_id'] === id);
+ 
                 const json = {
                     id: id,
                     name: rubyName,
@@ -66,7 +68,7 @@ export class HeroList {
                     added_date: gachaTypeEntity ? gachaTypeEntity['@_added_date'] : "",
                     obtain: gachaTypeEntity && gachaTypeEntity['@_obtain'] ? gachaTypeEntity['@_obtain'] : "",
                     ub_type: gachaTypeEntity?.['@_ub_type'] ?? "",
-                    rank: gachaTypeEntity.review?.['@_rank']
+                    rank: gachaTypeEntity?.review?.['@_rank'] ?? "未"
                 };
 
                 const maxLimitEntity = kf.limit_over.root.limit_over.find(item => item['@_group_id'] === group && item['@_over_times'] === "5");
