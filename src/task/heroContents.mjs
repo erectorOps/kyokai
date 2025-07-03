@@ -8,6 +8,7 @@ import { getAtkSpeed, getPosition, abiNameConvTable, statisticConvTable, timeErr
 import { calcPassive } from './hero/_calcPassive.mjs';
 import { parseSkill } from './hero/_parseSkill.mjs';
 import { srcBase, srcPath, distPath } from './_config.mjs';
+import log from 'fancy-log';
 
 
 
@@ -278,7 +279,7 @@ export class HeroContents {
               json[paramName] = json[paramName].toString();
             }
           }
-      
+
           return gulp.src([srcBase + "/hero/*.ejs", srcPath._ejs])
           .pipe(ejs({json: json}))
           .pipe(rename(
@@ -287,8 +288,9 @@ export class HeroContents {
                   extname: '.html'
               }
           ))
-          .pipe(gulp.dest(distPath.hero));
-      
+          .pipe(gulp.dest(distPath.hero))
+          .on('end', function() { log(`${id}.html created.`)});
+
         });
         }
         return heroFuncs;
