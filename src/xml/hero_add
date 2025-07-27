@@ -348,6 +348,12 @@ E: すべてのコンテンツ、属性、戦術において候補に上がる�
 	<hero_add id="2230" rare="SSR" name="モーラン" gacha_type="イベント" added_date="2025/07/03" obtain="イベント「飛来せし巨鳥」期間限定召喚" ub_type="1人攻撃,防御DOWN,クリティカルUP"><review rank="C"></review></hero_add>
 	<hero_add id="2231" rare="SR" name="ツキナ" gacha_type="イベント,報酬" added_date="2025/07/03" obtain="イベント「飛来せし巨鳥」ミッション報酬" ub_type="HP回復,バリア"><review rank="C"></review></hero_add>
 	<hero_add id="2232" rare="SSR" name="【エルロンの堅牢なる盾】ナターシャ" gacha_type="同盟戦" added_date="2025/06/26" obtain="「同盟戦・火攻略応援」期間限定召喚" ub_type="1人攻撃,命中DOWN,バリア,反射バリア"><review rank="C"></review></hero_add>
+	<hero_add id="2233" rare="SSR" name="【伝説の勇者】ジェミニ" gacha_type="Fanzine" added_date="2025/07/10" obtain="イベント「Fanzine」期間限定召喚" ub_type="5人攻撃,麻痺,攻撃UP,クリティカルUP"><review rank="C"></review></hero_add>
+	<hero_add id="2234" rare="SSR" name="【ビキニでタコ殴り】ギル" gacha_type="イベント" added_date="2025/07/17" obtain="イベント「やかんでゆでたタコのよう」期間限定召喚" ub_type="3人攻撃,盲目,防御DOWN,速度DOWN"><review rank="C"></review></hero_add>
+	<hero_add id="2235" rare="SSR" name="【ビキニでお祝い】ヴィアトリーチェ" gacha_type="イベント" added_date="2025/07/17" obtain="イベント「やかんでゆでたタコのよう」期間限定召喚" ub_type="3人攻撃,火被ダメージUP,行動速度DOWN,火攻撃UP"><review rank="C"></review></hero_add>
+	<hero_add id="2236" rare="SR" name="【たまにはビキニで】リネット" gacha_type="報酬,イベント" added_date="2025/07/17" obtain="イベント「やかんでゆでたタコのよう」ミッション報酬" ub_type="1人攻撃,防御DOWN"><review rank="C"></review></hero_add>
+	<hero_add id="2237" rare="SSR" name="【捕縛杖の聖騎士】カティーシャ" gacha_type="イベント" added_date="2025/07/24" obtain="イベント「この時を、待ちわびて」期間限定召喚" ub_type="1人攻撃,沈黙,防御DOWN,行動速度DOWN"><review rank="C"></review></hero_add>
+
 	<!-- コピペ用
 	<hero_add id="" rare="SSR" name="" gacha_type="イベント" added_date="2025/00/00" obtain="イベント「【イベント名】」期間限定召喚" ub_type=""><review rank="C"></review></hero_add>
 	<hero_add id="" rare="SSR" name="" gacha_type="イベント" added_date="2025/00/00" obtain="イベント「【イベント名】」期間限定召喚" ub_type=""><review rank="C"></review></hero_add>

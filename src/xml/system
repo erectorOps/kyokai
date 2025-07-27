@@ -75,13 +75,13 @@
   <system def="基礎角色數限制" val="150" />
   <system def="基礎道具數限制" val="1000" />
   <system def="AP回復商品群組" val="101" />
-  <system def="AP回復優惠開始時間" val="2025/06/06 03:00:00" />
-  <system def="AP回復優惠結束時間" val="2025/06/13 03:00:00" />
+  <system def="AP回復優惠開始時間" val="2025/07/25 03:00:00" />
+  <system def="AP回復優惠結束時間" val="2025/08/01 03:00:00" />
   <system def="AP回復優惠商品群組" val="102" />
   <system def="AP回復優惠額度" val="50" />
   <system def="BP回復商品群組" val="201" />
-  <system def="BP回復優惠開始時間" val="2025/06/06 03:00:00" />
-  <system def="BP回復優惠結束時間" val="2025/06/13 03:00:00" />
+  <system def="BP回復優惠開始時間" val="2025/07/25 03:00:00" />
+  <system def="BP回復優惠結束時間" val="2025/08/01 03:00:00" />
   <system def="BP回復優惠商品群組" val="202" />
   <system def="BP回復優惠額度" val="50" />
   <system def="道具欄位擴充商品群組" val="1101" />
@@ -376,7 +376,7 @@
   <system def="飾品2格開放需求英雄等級" val="41" />
   <system def="飾品4格開放需求英雄等級" val="51" />
   <system def="飾品5格開放需求英雄等級" val="61" />
-  <system def="新角色影片名稱" val="PS8_hero_2229&amp;2230.mp4" />
+  <system def="新角色影片名稱" val="PS8_hero_2237.mp4" />
   <system def="新角色影片更換時間" />
   <system def="新角色影片更換名稱" />
   <system def="特典序號圖示" val="item001/redemption_icon" />
@@ -418,6 +418,7 @@
   <system def="劇情提示開關" val="false" />
   <system def="劇情提示章節名稱" val="序章" />
   <system def="巨乳日" val="8/18/28" />
+  <system def="巨乳日補償" />
   <system def="巨乳日轉換道具ID" val="18" />
   <system def="巨乳日轉道道具到期時間" val="-1" />
   <system def="巨乳日轉換AP比率" val="1" />
@@ -441,18 +442,19 @@
   <system def="地城EX關卡重置日期" val="1/15" />
   <system def="地城排行榜獎勵配布日期" val="1" />
   <system def="地城排行最大頁數" val="10" />
-  <system def="活動巨乳月開始時間" val="2024-08-01 12:00:00" />
-  <system def="活動巨乳月後半開始時間" val="2024-08-16 00:00:00" />
-  <system def="活動巨乳月結束時間" val="2024-08-31 23:59:59" />
-  <system def="活動巨乳月轉換道具ID" val="21" />
+  <system def="活動巨乳月開始時間" val="2025-08-01 12:00:00" />
+  <system def="活動巨乳月後半開始時間" val="2025-08-16 00:00:00" />
+  <system def="活動巨乳月結束時間" val="2025-08-31 23:59:59" />
+  <system def="活動巨乳月轉換道具ID" val="25" />
   <system def="活動巨乳月轉換AP比率" val="1" />
   <system def="活動巨乳月轉換BP比率" val="20" />
   <system def="活動巨乳月開放活動編號" val="3000" />
-  <system def="活動巨乳月開放商店編號" val="5101" />
+  <system def="活動巨乳月開放商店編號" val="5990" />
   <system def="活動巨乳月開放商店編號2" />
-  <system def="活動巨乳月道具排行獎勵ID" val="999991" />
-  <system def="活動巨乳月後半道具排行獎勵ID" val="999992" />
-  <system def="活動巨乳月開放任務編號" val="907" />
+  <system def="活動巨乳月道具排行獎勵ID" val="999993" />
+  <system def="活動巨乳月後半道具排行獎勵ID" val="999994" />
+  <system def="活動巨乳月開放任務編號" val="916" />
+  <system def="活動巨乳月額外倍率" val="1" />
   <system def="活動巨乳月角色養成優待上限" val="0.3" />
   <system def="資源收集重置優惠商品群組_巨乳月加日" val="503" />
   <system def="資源收集重置優惠額度_巨乳月加日" val="75" />
@@ -460,6 +462,7 @@
   <system def="AP回復優惠額度_巨乳月加日" val="75" />
   <system def="BP回復優惠商品群組_巨乳月加日" val="203" />
   <system def="BP回復優惠額度_巨乳月加日" val="75" />
+  <system def="額外倍率_巨乳月加日" val="2" />
   <system def="召喚選擇轉盤活動編號" val="706" />
   <system def="投票晶石使用比率" val="2" />
   <system def="投票晶石最低消耗量" val="5" />
@@ -476,7 +479,7 @@
   <system def="RAID救援額外增加箱數" val="1" />
   <system def="RAID救援額外增加箱數開始時間" val="2025-04-24 11:00:00" />
   <system def="RAID救援額外增加箱數結束時間" val="2025-05-08 11:00:00" />
-  <system def="愚人節招募ID" val="9999999" />
   <system def="重置加值消耗道具ID" />
   <system def="重置加值消耗道具數量" />
+  <system def="愚人節招募ID" val="9999999" />
 </root>

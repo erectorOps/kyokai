@@ -186,4 +186,10 @@
   <stage_world id="5092" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2092" name="【物資調達】" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="5093" opposite_stage_world_id1="5193" opposite_stage_world_id2="0" arrive_id="2093" name="飛来せし巨鳥" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="5193" opposite_stage_world_id1="5093" opposite_stage_world_id2="0" arrive_id="2093" name="飛来せし巨鳥（Hard）" world_type="活動_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <stage_world id="5094" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2094" name="伝説の勇者 御一行様" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <stage_world id="5194" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2194" name="［復刻］洞窟に潜むもの" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <stage_world id="5095" opposite_stage_world_id1="5195" opposite_stage_world_id2="0" arrive_id="2095" name="やかんでゆでたタコのよう" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <stage_world id="5195" opposite_stage_world_id1="5095" opposite_stage_world_id2="0" arrive_id="2095" name="やかんでゆでたタコのよう（Hard）" world_type="活動_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <stage_world id="5096" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2096" name="この時を、待ちわびて" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <stage_world id="5196" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2196" name="【《復刻》タコ帝国の逆襲】" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
 </root>

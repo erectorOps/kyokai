@@ -269,4 +269,34 @@
   <activity_cost id="521" serial_no="13" cost_type="AP" cost_target="0" cost_num="8000" reward_type="道具" reward_target="12" reward_num="30" />
   <activity_cost id="521" serial_no="14" cost_type="AP" cost_target="0" cost_num="9000" reward_type="道具" reward_target="51" reward_num="1" />
   <activity_cost id="521" serial_no="15" cost_type="AP" cost_target="0" cost_num="10000" reward_type="道具" reward_target="14" reward_num="30" />
+  <activity_cost id="523" serial_no="1" cost_type="AP" cost_target="0" cost_num="500" reward_type="商城幣" reward_target="0" reward_num="300" />
+  <activity_cost id="523" serial_no="2" cost_type="AP" cost_target="0" cost_num="1000" reward_type="商城幣" reward_target="0" reward_num="300" />
+  <activity_cost id="523" serial_no="3" cost_type="AP" cost_target="0" cost_num="1500" reward_type="道具" reward_target="12" reward_num="100" />
+  <activity_cost id="523" serial_no="4" cost_type="AP" cost_target="0" cost_num="2000" reward_type="商城幣" reward_target="0" reward_num="400" />
+  <activity_cost id="523" serial_no="5" cost_type="AP" cost_target="0" cost_num="2500" reward_type="商城幣" reward_target="0" reward_num="400" />
+  <activity_cost id="523" serial_no="6" cost_type="AP" cost_target="0" cost_num="3000" reward_type="道具" reward_target="12" reward_num="100" />
+  <activity_cost id="523" serial_no="7" cost_type="AP" cost_target="0" cost_num="3500" reward_type="商城幣" reward_target="0" reward_num="500" />
+  <activity_cost id="523" serial_no="8" cost_type="AP" cost_target="0" cost_num="4000" reward_type="商城幣" reward_target="0" reward_num="500" />
+  <activity_cost id="523" serial_no="9" cost_type="AP" cost_target="0" cost_num="4500" reward_type="道具" reward_target="12" reward_num="200" />
+  <activity_cost id="523" serial_no="10" cost_type="AP" cost_target="0" cost_num="5000" reward_type="商城幣" reward_target="0" reward_num="600" />
+  <activity_cost id="523" serial_no="11" cost_type="AP" cost_target="0" cost_num="6000" reward_type="商城幣" reward_target="0" reward_num="600" />
+  <activity_cost id="523" serial_no="12" cost_type="AP" cost_target="0" cost_num="7000" reward_type="道具" reward_target="12" reward_num="200" />
+  <activity_cost id="523" serial_no="13" cost_type="AP" cost_target="0" cost_num="8000" reward_type="商城幣" reward_target="0" reward_num="700" />
+  <activity_cost id="523" serial_no="14" cost_type="AP" cost_target="0" cost_num="9000" reward_type="商城幣" reward_target="0" reward_num="700" />
+  <activity_cost id="523" serial_no="15" cost_type="AP" cost_target="0" cost_num="10000" reward_type="道具" reward_target="12" reward_num="400" />
+  <activity_cost id="524" serial_no="1" cost_type="AP" cost_target="0" cost_num="500" reward_type="商城幣" reward_target="0" reward_num="300" />
+  <activity_cost id="524" serial_no="2" cost_type="AP" cost_target="0" cost_num="1000" reward_type="商城幣" reward_target="0" reward_num="300" />
+  <activity_cost id="524" serial_no="3" cost_type="AP" cost_target="0" cost_num="1500" reward_type="道具" reward_target="12" reward_num="100" />
+  <activity_cost id="524" serial_no="4" cost_type="AP" cost_target="0" cost_num="2000" reward_type="商城幣" reward_target="0" reward_num="400" />
+  <activity_cost id="524" serial_no="5" cost_type="AP" cost_target="0" cost_num="2500" reward_type="商城幣" reward_target="0" reward_num="400" />
+  <activity_cost id="524" serial_no="6" cost_type="AP" cost_target="0" cost_num="3000" reward_type="道具" reward_target="12" reward_num="100" />
+  <activity_cost id="524" serial_no="7" cost_type="AP" cost_target="0" cost_num="3500" reward_type="商城幣" reward_target="0" reward_num="500" />
+  <activity_cost id="524" serial_no="8" cost_type="AP" cost_target="0" cost_num="4000" reward_type="商城幣" reward_target="0" reward_num="500" />
+  <activity_cost id="524" serial_no="9" cost_type="AP" cost_target="0" cost_num="4500" reward_type="道具" reward_target="12" reward_num="200" />
+  <activity_cost id="524" serial_no="10" cost_type="AP" cost_target="0" cost_num="5000" reward_type="商城幣" reward_target="0" reward_num="600" />
+  <activity_cost id="524" serial_no="11" cost_type="AP" cost_target="0" cost_num="6000" reward_type="商城幣" reward_target="0" reward_num="600" />
+  <activity_cost id="524" serial_no="12" cost_type="AP" cost_target="0" cost_num="7000" reward_type="道具" reward_target="12" reward_num="200" />
+  <activity_cost id="524" serial_no="13" cost_type="AP" cost_target="0" cost_num="8000" reward_type="商城幣" reward_target="0" reward_num="700" />
+  <activity_cost id="524" serial_no="14" cost_type="AP" cost_target="0" cost_num="9000" reward_type="商城幣" reward_target="0" reward_num="700" />
+  <activity_cost id="524" serial_no="15" cost_type="AP" cost_target="0" cost_num="10000" reward_type="道具" reward_target="12" reward_num="400" />
 </root>

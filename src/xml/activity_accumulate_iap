@@ -616,4 +616,136 @@
     <reward_num>30</reward_num>
     <reward_num>0</reward_num>
   </activity_accumulate_iap>
+  <activity_accumulate_iap id="522" serial_no="1" target="120" icon="activity-14/egg01" hero_pic="activity-17/LeftBanner01">
+    <reward_type>3</reward_type>
+    <reward_type>3</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>3005</reward_target>
+    <reward_target>10991</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>100</reward_num>
+    <reward_num>1</reward_num>
+    <reward_num>0</reward_num>
+  </activity_accumulate_iap>
+  <activity_accumulate_iap id="522" serial_no="2" target="480" icon="activity-14/egg01" hero_pic="activity-17/LeftBanner01">
+    <reward_type>3</reward_type>
+    <reward_type>3</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>3005</reward_target>
+    <reward_target>7059</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>100</reward_num>
+    <reward_num>20</reward_num>
+    <reward_num>0</reward_num>
+  </activity_accumulate_iap>
+  <activity_accumulate_iap id="522" serial_no="3" target="980" icon="activity-14/egg02" hero_pic="activity-17/LeftBanner01">
+    <reward_type>3</reward_type>
+    <reward_type>3</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>3390</reward_target>
+    <reward_target>12</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>1</reward_num>
+    <reward_num>300</reward_num>
+    <reward_num>0</reward_num>
+  </activity_accumulate_iap>
+  <activity_accumulate_iap id="522" serial_no="4" target="3000" icon="activity-14/egg03" hero_pic="activity-17/LeftBanner02">
+    <reward_type>3</reward_type>
+    <reward_type>3</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>3005</reward_target>
+    <reward_target>7000</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>100</reward_num>
+    <reward_num>10</reward_num>
+    <reward_num>0</reward_num>
+  </activity_accumulate_iap>
+  <activity_accumulate_iap id="522" serial_no="5" target="5000" icon="activity-14/egg04" hero_pic="activity-17/LeftBanner02">
+    <reward_type>3</reward_type>
+    <reward_type>3</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>3005</reward_target>
+    <reward_target>7059</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>100</reward_num>
+    <reward_num>30</reward_num>
+    <reward_num>0</reward_num>
+  </activity_accumulate_iap>
+  <activity_accumulate_iap id="522" serial_no="6" target="10000" icon="activity-14/egg05" hero_pic="activity-17/LeftBanner03">
+    <reward_type>3</reward_type>
+    <reward_type>3</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>3390</reward_target>
+    <reward_target>10992</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>1</reward_num>
+    <reward_num>1</reward_num>
+    <reward_num>0</reward_num>
+  </activity_accumulate_iap>
+  <activity_accumulate_iap id="522" serial_no="7" target="15000" icon="activity-14/egg06" hero_pic="activity-17/LeftBanner03">
+    <reward_type>3</reward_type>
+    <reward_type>3</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>3005</reward_target>
+    <reward_target>12</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>100</reward_num>
+    <reward_num>300</reward_num>
+    <reward_num>0</reward_num>
+  </activity_accumulate_iap>
+  <activity_accumulate_iap id="522" serial_no="8" target="20000" icon="activity-14/egg07" hero_pic="activity-17/LeftBanner03">
+    <reward_type>3</reward_type>
+    <reward_type>3</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>3005</reward_target>
+    <reward_target>7000</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>100</reward_num>
+    <reward_num>20</reward_num>
+    <reward_num>0</reward_num>
+  </activity_accumulate_iap>
+  <activity_accumulate_iap id="522" serial_no="9" target="25000" icon="activity-14/egg07" hero_pic="activity-17/LeftBanner04">
+    <reward_type>3</reward_type>
+    <reward_type>3</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>3390</reward_target>
+    <reward_target>7059</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>1</reward_num>
+    <reward_num>50</reward_num>
+    <reward_num>0</reward_num>
+  </activity_accumulate_iap>
+  <activity_accumulate_iap id="522" serial_no="10" target="30000" icon="activity-14/egg07" hero_pic="activity-17/LeftBanner04">
+    <reward_type>3</reward_type>
+    <reward_type>3</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>3005</reward_target>
+    <reward_target>10994</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>200</reward_num>
+    <reward_num>1</reward_num>
+    <reward_num>0</reward_num>
+  </activity_accumulate_iap>
+  <activity_accumulate_iap id="522" serial_no="11" target="40000" icon="activity-14/egg07" hero_pic="activity-17/LeftBanner04">
+    <reward_type>3</reward_type>
+    <reward_type>3</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>3005</reward_target>
+    <reward_target>12</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>200</reward_num>
+    <reward_num>400</reward_num>
+    <reward_num>0</reward_num>
+  </activity_accumulate_iap>
+  <activity_accumulate_iap id="522" serial_no="12" target="50000" icon="activity-14/egg07" hero_pic="activity-17/LeftBanner04">
+    <reward_type>3</reward_type>
+    <reward_type>3</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>3390</reward_target>
+    <reward_target>7000</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>2</reward_num>
+    <reward_num>30</reward_num>
+    <reward_num>0</reward_num>
+  </activity_accumulate_iap>
 </root>

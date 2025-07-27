@@ -815,6 +815,23 @@
   <monster_action id="40084" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4008402" />
   <monster_action id="40084" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4008403" />
   <monster_action id="40084" info="自身が「解消」状態の場合" type="自身有指定狀態" value="驅散" skill_id="4008404" />
+  <monster_action id="40085" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4008501" />
+  <monster_action id="40085" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4008502" />
+  <monster_action id="40085" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4008503" />
+  <monster_action id="40085" info="自身が「行動速度DOWN」状態の場合" type="自身有指定狀態" value="速度上升或下降" skill_id="4008504" />
+  <monster_action id="40086" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4008601" />
+  <monster_action id="40086" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4008602" />
+  <monster_action id="40086" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4008603" />
+  <monster_action id="40086" info="自身が「行動速度DOWN」状態の場合" type="自身有指定狀態" value="速度上升或下降" skill_id="4008604" />
+  <monster_action id="509501" info="残りHP80%" type="自身血量低於" value="0.8" skill_id="509505" />
+  <monster_action id="509501" info="残りHP50%" type="自身血量低於" value="0.5" skill_id="509506" />
+  <monster_action id="509501" info="残りHP30%" type="自身血量低於" value="0.3" skill_id="509507" />
+  <monster_action id="509502" info="残りHP80%" type="自身血量低於" value="0.8" skill_id="509515" />
+  <monster_action id="509502" info="残りHP50%" type="自身血量低於" value="0.5" skill_id="509516" />
+  <monster_action id="509502" info="残りHP30%" type="自身血量低於" value="0.3" skill_id="509517" />
+  <monster_action id="509503" info="残りHP80%" type="自身血量低於" value="0.8" skill_id="509525" />
+  <monster_action id="509503" info="残りHP50%" type="自身血量低於" value="0.5" skill_id="509526" />
+  <monster_action id="509503" info="残りHP30%" type="自身血量低於" value="0.3" skill_id="509527" />
   <monster_action id="41001" type="剩餘時間低於" value="90" skill_id="4100101" />
   <monster_action id="41001" type="剩餘時間低於" value="60" skill_id="4100102" />
   <monster_action id="41001" type="剩餘時間低於" value="30" skill_id="4100103" />

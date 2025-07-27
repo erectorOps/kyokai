@@ -902,4 +902,92 @@
     <quest_id>0</quest_id>
     <quest_id>0</quest_id>
   </activity_train>
+  <activity_train id="915" day="0" name="一週目">
+    <quest_id>92800</quest_id>
+    <quest_id>92801</quest_id>
+    <quest_id>92802</quest_id>
+    <quest_id>92803</quest_id>
+    <quest_id>92804</quest_id>
+    <quest_id>92805</quest_id>
+    <quest_id>92806</quest_id>
+    <quest_id>92807</quest_id>
+    <quest_id>92808</quest_id>
+    <quest_id>92809</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+  </activity_train>
+  <activity_train id="915" day="8" name="二週目">
+    <quest_id>92810</quest_id>
+    <quest_id>92811</quest_id>
+    <quest_id>92812</quest_id>
+    <quest_id>92813</quest_id>
+    <quest_id>92814</quest_id>
+    <quest_id>92815</quest_id>
+    <quest_id>92816</quest_id>
+    <quest_id>92817</quest_id>
+    <quest_id>92818</quest_id>
+    <quest_id>92819</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+  </activity_train>
+  <activity_train id="916" day="0" name="一週目">
+    <quest_id>92820</quest_id>
+    <quest_id>92821</quest_id>
+    <quest_id>92822</quest_id>
+    <quest_id>92823</quest_id>
+    <quest_id>92824</quest_id>
+    <quest_id>92825</quest_id>
+    <quest_id>92826</quest_id>
+    <quest_id>92827</quest_id>
+    <quest_id>92828</quest_id>
+    <quest_id>92829</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+  </activity_train>
+  <activity_train id="916" day="8" name="二週目">
+    <quest_id>92830</quest_id>
+    <quest_id>92831</quest_id>
+    <quest_id>92832</quest_id>
+    <quest_id>92833</quest_id>
+    <quest_id>92834</quest_id>
+    <quest_id>92835</quest_id>
+    <quest_id>92836</quest_id>
+    <quest_id>92837</quest_id>
+    <quest_id>92838</quest_id>
+    <quest_id>92839</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+  </activity_train>
 </root>
