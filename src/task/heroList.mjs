@@ -5,6 +5,7 @@ import rename from 'gulp-rename'; //ファイル出力時にファイル名を�
 
 import { getAtkSpeed, getPosition } from './hero/_util.mjs';
 import { srcBase, srcPath, distBase } from './_config.mjs';
+import { PreSkillCategorize } from './preSkillCategorize.mjs';
 import log from 'fancy-log';
 
 export class HeroList {
@@ -16,6 +17,11 @@ export class HeroList {
         const kf = this.kf;
         return () => {
             const heroList = kf.hero_1.root.hero_1.filter(item => item['@_id'] !== undefined && parseInt(item['@_id']) < 10000);
+
+            const categorize = (new PreSkillCategorize(kf)).categorize();
+
+
+
             let jsonRoot = {
                 title: "聖騎士一覧",
                 description: "聖騎士一覧",
@@ -68,6 +74,8 @@ export class HeroList {
                     added_date: gachaTypeEntity ? gachaTypeEntity['@_added_date'] : "",
                     obtain: gachaTypeEntity && gachaTypeEntity['@_obtain'] ? gachaTypeEntity['@_obtain'] : "",
                     ub_type: gachaTypeEntity?.['@_ub_type'] ?? "",
+                    sk_type: categorize[id] ? categorize[id].sk_type : "",
+                  //  sk_type: gachaTypeEntity?.['@_sk_type'] ?? "",
                     rank: gachaTypeEntity?.review?.['@_rank'] ?? "未"
                 };
 
