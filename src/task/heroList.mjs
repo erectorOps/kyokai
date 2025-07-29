@@ -4,7 +4,7 @@ import ejs from 'gulp-ejs'; //EJS
 import rename from 'gulp-rename'; //ファイル出力時にファイル名を変える
 
 import { getAtkSpeed, getPosition } from './hero/_util.mjs';
-import { srcBase, srcPath, distBase } from './_config.mjs';
+import { srcBase, srcPath, distBase, def } from './_config.mjs';
 import { PreSkillCategorize } from './preSkillCategorize.mjs';
 import log from 'fancy-log';
 
@@ -122,9 +122,6 @@ export class HeroList {
                     }
                 }
 
-                json.sk_type = encodeURIComponent(json.sk_type);
-                json.ub_type = encodeURIComponent(json.ub_type);
-
                 const maxLimitEntity = kf.limit_over.root.limit_over.find(item => item['@_group_id'] === group && item['@_over_times'] === "5");
                 json.support = maxLimitEntity.support_buff_id.filter(item => item !== '0').map(item => {
                   const buff = kf.buff_1.root.buff_1.find(y => y['@_id'] === item);
@@ -141,7 +138,7 @@ export class HeroList {
             }
             // HTMLファイル作成
             return gulp.src([srcBase + "/index.ejs", srcPath._ejs])
-            .pipe(ejs({json: jsonRoot}))
+            .pipe(ejs({json: jsonRoot, define: def}))
             .pipe(rename(
             {
                 basename: 'index',

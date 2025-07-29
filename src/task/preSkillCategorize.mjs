@@ -1,5 +1,6 @@
 // gulpプラグインの読み込み
 import log from 'fancy-log';
+import { def } from './_config.mjs';
 
 class SkillCheck {
     constructor(kf, sid) {
@@ -455,161 +456,161 @@ export class PreSkillCategorize {
     checkUltimateType(type, ultimate) {
 
         if (ultimate.some(v => v.isSingleAttack())) {
-            type.push("単体攻撃");
+            type.push(def["単体攻撃"]);
         }
 
         if (ultimate.some(v => v.isMultiAttack())) {
-            type.push("複数攻撃");
+            type.push(def["複数攻撃"]);
         }
 
         if (ultimate.some(v => v.isSixAttack())) {
-            type.push("6人攻撃");
+            type.push(def["六人攻撃"]);
         }
 
         if (ultimate.some(v => v.isAllAttack())) {
-            type.push("全体攻撃");
+            type.push(def["全体攻撃"]);
         }
 
         if (ultimate.some(v => v.isBuffOnly())) {
-            type.push("バフのみ");
+            type.push(def["バフのみ"]);
         }
 
         if (ultimate.some(v => v.isHealing())) {
-            type.push("HP回復");
+            type.push(def["HP回復"]);
         }
 
         const self = "自身";
 
         if (ultimate.some(v => v.isHealing(self))) {
-            type.push("自身HP回復");
+            type.push(def["自身HP回復"]);
         }
 
         if (ultimate.some(v => v.isMpHeal(self))) {
-            type.push("自身MP回復");
+            type.push(def["自身MP回復"]);
         }
         if (ultimate.some(v => v.isIncreasesATK(self))) {
-            type.push("自身物理攻撃UP");
+            type.push(def["自身物理攻撃UP"]);
         }
 
         if (ultimate.some(v => v.isIncreasesMATK(self))) {
-            type.push("自身魔法攻撃UP");
+            type.push(def["自身魔法攻撃UP"]);
         }
 
         if (ultimate.some(v => v.isIncreasesCRT(self))) {
-            type.push("自身物理クリティカルUP");
+            type.push(def["自身物理クリティカルUP"]);
         }
 
         if (ultimate.some(v => v.isIncreasesMCRT(self))) {
-            type.push("自身魔法クリティカルUP");
+            type.push(def["自身魔法クリティカルUP"]);
         }
 
         if (ultimate.some(v => v.isIncreasesSPD(self))) {
-            type.push("自身行動速度UP");
+            type.push(def["自身行動速度UP"]);
         }
 
         if (ultimate.some(v => v.isIncreasesElementAttack(self))) {
-            type.push("自身属性攻撃UP");
+            type.push(def["自身属性攻撃UP"]);
         }
 
         if (ultimate.some(v => v.isIncreasedDamage(self))) {
-            type.push("自身ダメージUP");
+            type.push(def["自身ダメージUP"]);
         }
 
         if (ultimate.some(v => v.DamageUp)) {
-            type.push("自身条件付ダメージUP");
+            type.push(def["自身条件付ダメージUP"]);
         }
 
         if (ultimate.some(v => v.isIncreasedDamageForNAttacks(self))) {
-            type.push("自身回数付ダメージUP");
+            type.push(def["自身回数付ダメージUP"]);
         }
 
         if (ultimate.some(v => v.isIncreasedPhysicalDamageForNAttacks(self))) {
-            type.push("自身回数付物理ダメージUP");
+            type.push(def["自身回数付物理ダメージUP"]);
         }
 
         if (ultimate.some(v => v.isIncreasedMagicDamageForNAttacks(self))) {
-            type.push("自身回数付魔法ダメージUP");
+            type.push(def["自身回数付魔法ダメージUP"]);
         }
 
     }
 
     checkSkillComposition(type, actives) {
         if (actives.every(v => v.isDamageSkill())) {
-            type.push("W攻撃");
+            type.push(def["W攻撃"]);
         }
 
         if (actives.every(v => !v.isDamageSkill())) {
-            type.push("バフのみ");
+            type.push(def["バフのみ"]);
         }
 
         if (actives.some(v => v.isHealing())) {
-            type.push("HP回復");
+            type.push(def["HP回復"]);
         }
     }
 
     checkSelf(type, actives, passives, skills) {
         const self = "自身";
         if (actives.some(v => v.isHealing(self))) {
-            type.push("自身HP回復");
+            type.push(def["自身HP回復"]);
         }
 
         if (skills.some(v => v.isMpHeal(self))) {
-            type.push("自身MP回復");
+            type.push(def["自身MP回復"]);
         }
         if (actives.some(v => v.isIncreasesATK(self))) {
-            type.push("自身物理攻撃UP");
+            type.push(def["自身物理攻撃UP"]);
         }
 
         if (actives.some(v => v.isIncreasesMATK(self))) {
-            type.push("自身魔法攻撃UP");
+            type.push(def["自身魔法攻撃UP"]);
         }
 
         if (actives.some(v => v.isIncreasesCRT(self))) {
-            type.push("自身物理クリティカルUP");
+            type.push(def["自身物理クリティカルUP"]);
         }
 
         if (actives.some(v => v.isIncreasesMCRT(self))) {
-            type.push("自身魔法クリティカルUP");
+            type.push(def["自身魔法クリティカルUP"]);
         }
 
         if (actives.some(v => v.isIncreasesSPD(self))) {
-            type.push("自身行動速度UP");
+            type.push(def["自身行動速度UP"]);
         }
 
         if (passives.some(v => v.isIncreasesSkillDamage(self))) {
-            type.push("自身スキルダメージUP");
+            type.push(def["自身スキルダメージUP"]);
         }
 
         if (passives.some(v => v.isIncreasesUltimateDamage(self))) {
-            type.push("自身奥義ダメージUP");
+            type.push(def["自身奥義ダメージUP"]);
         }
 
         if (actives.some(v => v.isIncreasesElementAttack(self))) {
-            type.push("自身属性攻撃UP");
+            type.push(def["自身属性攻撃UP"]);
         }
 
         if (actives.some(v => v.isIncreasedDamage(self))) {
-            type.push("自身ダメージUP");
+            type.push(def["自身ダメージUP"]);
         }
 
         if (actives.some(v => v.DamageUp)) {
-            type.push("自身条件付ダメージUP")
+            type.push(def["自身条件付ダメージUP"])
         }
 
         if (skills.some(v => v.isDebuffResistance(self))) {
-            type.push("自身デバフ耐性");
+            type.push(def["自身デバフ耐性"]);
         }
 
         if (actives.some(v => v.isIncreasedDamageForNAttacks(self))) {
-            type.push("自身回数付ダメージUP");
+            type.push(def["自身回数付ダメージUP"]);
         }
 
         if (actives.some(v => v.isIncreasedPhysicalDamageForNAttacks(self))) {
-            type.push("自身回数付物理ダメージUP");
+            type.push(def["自身回数付物理ダメージUP"]);
         }
 
         if (actives.some(v => v.isIncreasedMagicDamageForNAttacks(self))) {
-            type.push("自身回数付魔法ダメージUP");
+            type.push(def["自身回数付魔法ダメージUP"]);
         }
 
         this._checkResistance(type, skills);
@@ -617,62 +618,62 @@ export class PreSkillCategorize {
 
     checkBoth(type, skills) {
         if (skills.some(v => v.isMpHeal())) {
-            type.push("MP回復");
+            type.push(def["MP回復"]);
         }
         if (skills.some(v => v.isIncreasesATK())) {
-            type.push("物理攻撃UP");
+            type.push(def["物理攻撃UP"]);
         }
 
         if (skills.some(v => v.isIncreasesMATK())) {
-            type.push("魔法攻撃UP");
+            type.push(def["魔法攻撃UP"]);
         }
 
         if (skills.some(v => v.isIncreasesCRT())) {
-            type.push("物理クリティカルUP");
+            type.push(def["物理クリティカルUP"]);
         }
 
         if (skills.some(v => v.isIncreasesMCRT())) {
-            type.push("魔法クリティカルUP");
+            type.push(def["魔法クリティカルUP"]);
         }
 
         if (skills.some(v => v.isIncreasesSPD())) {
-            type.push("行動速度UP");
+            type.push(def["行動速度UP"]);
         }
 
         if (skills.some(v => v.isIncreasesSkillDamage())) {
-            type.push("スキルダメージUP");
+            type.push(def["スキルダメージUP"]);
         }
 
         if (skills.some(v => v.isIncreasesUltimateDamage())) {
-            type.push("奥義ダメージUP");
+            type.push(def["奥義ダメージUP"]);
         }
 
         if (skills.some(v => v.isIncreasesElementAttack())) {
-            type.push("属性攻撃UP");
+            type.push(def["属性攻撃UP"]);
         }
 
         if (skills.some(v => v.isIncreasedDamage())) {
-            type.push("ダメージUP");
+            type.push(def["ダメージUP"]);
         }
 
         if (skills.some(v => v.isDebuffResistance())) {
-            type.push("デバフ耐性");
+            type.push(def["デバフ耐性"]);
         }
 
         if (skills.some(v => v.isDecreasesDEF())) {
-            type.push("物理防御DOWN");
+            type.push(def["物理防御DOWN"]);
         }
 
         if (skills.some(v => v.isDecreasesMDEF())) {
-            type.push("魔法防御DOWN");
+            type.push(def["魔法防御DOWN"]);
         }
 
         if (skills.some(v => v.isDecreasesSPD())) {
-            type.push("行動速度DOWN");
+            type.push(def["行動速度DOWN"]);
         }
 
         if (skills.some(v => v.isIncreasesDamageTaken())) {
-            type.push("被ダメージUP");
+            type.push(def["被ダメージUP"]);
         }
 
         this._checkAbnormalState(type, skills);
@@ -680,134 +681,134 @@ export class PreSkillCategorize {
 
     checkActiveOnly(type, actives) {
         if (actives.some(v => v.isIncreasedDamageForNAttacks())) {
-            type.push("回数付ダメージUP");
+            type.push(def["回数付ダメージUP"]);
         }
 
         if (actives.some(v => v.isIncreasedPhysicalDamageForNAttacks())) {
-            type.push("回数付物理ダメージUP");
+            type.push(def["回数付物理ダメージUP"]);
         }
 
         if (actives.some(v => v.isIncreasedMagicDamageForNAttacks())) {
-            type.push("回数付魔法ダメージUP");
+            type.push(def["回数付魔法ダメージUP"]);
         }
         if (actives.some(v => v.isDebuffCure())) {
-            type.push("デバフ解除");
+            type.push(def["デバフ解除"]);
         }
 
         if (actives.some(v => v.isProvoke())) {
-            type.push("挑発");
+            type.push(def["挑発"]);
         }
     }
 
     _checkAbnormalState(type, skills) {
         if (skills.some(v => v.isPoison())) {
-            type.push("毒");
+            type.push(def["毒"]);
         }
 
         if (skills.some(v => v.isBurn())) {
-            type.push("火傷");
+            type.push(def["火傷"]);
         }
 
         if (skills.some(v => v.isFreeze())) {
-            type.push("凍結");
+            type.push(def["凍結"]);
         }
 
         if (skills.some(v => v.isStone())) {
-            type.push("石化");
+            type.push(def["石化"]);
         }
 
         if (skills.some(v => v.isSleep())) {
-            type.push("睡眠");
+            type.push(def["睡眠"]);
         }
 
         if (skills.some(v => v.isSilent())) {
-            type.push("沈黙");
+            type.push(def["沈黙"]);
         }
 
         if (skills.some(v => v.isFlash())) {
-            type.push("眩暈");
+            type.push(def["眩暈"]);
         }
 
         if (skills.some(v => v.isPararaize())) {
-            type.push("麻痺");
+            type.push(def["麻痺"]);
         }
 
         if (skills.some(v => v.isConfue())) {
-            type.push("混乱");
+            type.push(def["混乱"]);
         }
 
         if (skills.some(v => v.isCharm())) {
-            type.push("誘惑");
+            type.push(def["誘惑"]);
         }
 
         if (skills.some(v => v.isCurse())) {
-            type.push("呪い");
+            type.push(def["呪い"]);
         }
 
         if (skills.some(v => v.isDarkness())) {
-            type.push("盲目");
+            type.push(def["盲目"]);
         }
 
         if (skills.some(v => v.isReset())) {
-            type.push("解消");
+            type.push(def["解消"]);
         }
     }
 
     _checkResistance(type, skills) {
         if (skills.some(v => v.isProvokeResistance())) {
-            type.push("挑発耐性");
+            type.push(def["挑発耐性"]);
         }
 
         if (skills.some(v => v.isPoisonResistance())) {
-            type.push("毒耐性");
+            type.push(def["毒耐性"]);
         }
 
         if (skills.some(v => v.isBurnResistance())) {
-            type.push("火傷耐性");
+            type.push(def["火傷耐性"]);
         }
 
         if (skills.some(v => v.isFreezeResistance())) {
-            type.push("凍結耐性");
+            type.push(def["凍結耐性"]);
         }
 
         if (skills.some(v => v.isStoneResistance())) {
-            type.push("石化耐性");
+            type.push(def["石化耐性"]);
         }
 
         if (skills.some(v => v.isSleepResistance())) {
-            type.push("睡眠耐性");
+            type.push(def["睡眠耐性"]);
         }
 
         if (skills.some(v => v.isSilentResistance())) {
-            type.push("沈黙耐性");
+            type.push(def["沈黙耐性"]);
         }
 
         if (skills.some(v => v.isFlashResistance())) {
-            type.push("眩暈耐性");
+            type.push(def["眩暈耐性"]);
         }
 
         if (skills.some(v => v.isPararaizeResistance())) {
-            type.push("麻痺耐性");
+            type.push(def["麻痺耐性"]);
         }
 
         if (skills.some(v => v.isConfueResistance())) {
-            type.push("混乱耐性");
+            type.push(def["混乱耐性"]);
         }
 
         if (skills.some(v => v.isCharmResistance())) {
-            type.push("誘惑耐性");
+            type.push(def["誘惑耐性"]);
         }
 
         if (skills.some(v => v.isCurseResistance())) {
-            type.push("呪い耐性");
+            type.push(def["呪い耐性"]);
         }
 
         if (skills.some(v => v.isDarknessResistance())) {
-            type.push("盲目耐性");
+            type.push(def["盲目耐性"]);
         }
 
         if (skills.some(v => v.isResetResistance())) {
-            type.push("解消耐性");
+            type.push(def["解消耐性"]);
         }
     }
 }
