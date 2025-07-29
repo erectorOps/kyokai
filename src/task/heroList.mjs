@@ -73,7 +73,8 @@ export class HeroList {
                     gacha_type: gachaTypeEntity ? gachaTypeEntity['@_gacha_type'] : "",
                     added_date: gachaTypeEntity ? gachaTypeEntity['@_added_date'] : "",
                     obtain: gachaTypeEntity && gachaTypeEntity['@_obtain'] ? gachaTypeEntity['@_obtain'] : "",
-                    ub_type: gachaTypeEntity?.['@_ub_type'] ?? "",
+                  //  ub_type: gachaTypeEntity?.['@_ub_type'] ?? "",
+                    ub_type: categorize[id] ? categorize[id].ub_type : "",
                     sk_type: categorize[id] ? categorize[id].sk_type : "",
                   //  sk_type: gachaTypeEntity?.['@_sk_type'] ?? "",
                     rank: gachaTypeEntity?.review?.['@_rank'] ?? "未"

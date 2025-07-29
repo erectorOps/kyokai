@@ -38,7 +38,8 @@
             </td></tr>
             <tr><th>奥義</th>
             <td>
-                <ul class="filter_container" data-filter="ub_type" data-count="9">
+                <ul class="filter_container" data-filter="ub_type" data-count="26">
+                    <!--
                     <li data-val="1人攻撃" data-check="0"><div>単体攻撃</div></li>
                     <li data-val="2人攻撃,3人攻撃,4人攻撃,5人攻撃" data-check="0"><div>複数攻撃</div></li>
                     <li data-val="6人攻撃,全体攻撃" data-check="0"><div>全体攻撃</div></li>
@@ -48,31 +49,79 @@
                     <li data-val="防御DOWN,火被ダメージUP,水被ダメージUP,風被ダメージUP,聖被ダメージUP,魔被ダメージUP,想被ダメージUP" data-check="0"><div>防御ダウン系</div></li>
                     <li data-val="攻撃UP,火攻撃UP,水攻撃UP,風攻撃UP,聖攻撃UP,魔攻撃UP,想攻撃UP" data-check="0"><div>攻撃アップ系</div></li>
                     <li data-val="中毒,猛毒,火傷,凍結,出血,沈黙,解消,麻痺,睡眠,石化,眩暈,混乱,魅了,呪い,盲目,恐怖,解消" data-check="0"><div>状態異常</div></li>
+                -->
+                
+                <li data-val="単体攻撃" data-check="0"><div>単体攻撃</div></li>
+                <li data-val="複数攻撃" data-check="0"><div>複数攻撃</div></li>
+                <li data-val="6人攻撃" data-check="0"><div>6人攻撃</div></li>
+                <li data-val="全体攻撃" data-check="0"><div>全体攻撃</div></li>
+                <li data-val="バフのみ" data-check="0"><div>バブのみ</div></li>
+
+                <li data-val="HP回復" data-check="0"><div>HP回復</div></li>
+                <li data-val="MP回復" data-check="0"><div>MP回復</div></li>
+                <li data-val="物理攻撃UP,魔法攻撃UP" data-check="0"><div>攻撃UP</div></li>
+                <li data-val="物理クリティカルUP,魔法クリティカルUP" data-check="0"><div>クリティカルUP</div></li>
+                <li data-val="行動速度UP" data-check="0"><div>行動速度UP</div></li>
+
+                <li data-val="属性攻撃UP" data-check="0"><div>◯属性攻撃UP</div></li>
+                <li data-val="回数付ダメージUP,回数付物理ダメージUP,回数付魔法ダメージUP" data-check="0"><div>回数付ダメージUP</div></li>
+                <li data-val="ダメージUP" data-check="0"><div>ダメージUP</div></li>
+                <li data-val="挑発" data-check="0"><div>挑発</div></li>
+                <li data-val="デバフ耐性" data-check="0"><div>デバフ耐性</div></li>
+
+                <li data-val="物理防御DOWN,魔法防御DOWN" data-check="0"><div>防御DOWN</div></li>
+                <li data-val="行動速度DOWN" data-check="0"><div>行動速度DOWN</div></li>
+                <li data-val="被ダメージUP" data-check="0"><div>被ダメージUP</div></li>
+                <li data-val="毒,火傷,凍結,出血,沈黙,解消,麻痺,睡眠,石化,眩暈,混乱,魅了,呪い,盲目,恐怖,解消" data-check="0"><div>状態異常</div></li>
+                <li data-val="自身MP回復" data-check="0"><div>自MP回復</div></li>
+
+                <li data-val="自身物理攻撃UP,自身魔法攻撃UP" data-check="0"><div>自攻撃UP</div></li>
+                <li data-val="自身物理クリティカルUP,自身魔法クリティカルUP" data-check="0"><div>自クリUP</div></li>
+                <li data-val="自身行動速度UP" data-check="0"><div>自行動速度UP</div></li>
+                <li data-val="自身属性攻撃UP" data-check="0"><div>自属性攻撃UP</div></li>
+                <li data-val="自身回数付ダメージUP,自身回数付物理ダメージUP,自身回数付魔法ダメージUP" data-check="0"><div>自回数付ダメUP</div></li>
+
+                <li data-val="自身ダメージUP,自身条件付ダメージUP" data-check="0"><div>自ダメージUP</div></li>
                 </ul>
             </td>
             </tr>
             <tr><th>スキル</th>
             <td>
-                <ul class="filter_container" data-filter="sk_type" data-count="18">
+                <ul class="filter_container" data-filter="sk_type" data-count="28">
+
                     <li data-val="W攻撃" data-check="0"><div>W攻撃</div></li>
                     <li data-val="バフのみ" data-check="0"><div>バフのみ</div></li>
                     <li data-val="MP回復" data-check="0"><div>MP回復</div></li>
                     <li data-val="物理攻撃UP,魔法攻撃UP" data-check="0"><div>攻撃UP</div></li>
                     <li data-val="物理クリティカルUP,魔法クリティカルUP" data-check="0"><div>クリティカルUP</div></li>
+
                     <li data-val="行動速度UP" data-check="0"><div>行動速度UP</div></li>
                     <li data-val="スキルダメージUP" data-check="0"><div>スキルダメージUP</div></li>
                     <li data-val="奥義ダメージUP" data-check="0"><div>奥義ダメージUP</div></li>
                     <li data-val="属性攻撃UP" data-check="0"><div>◯属性攻撃UP</div></li>
                     <li data-val="回数付ダメージUP,回数付物理ダメージUP,回数付魔法ダメージUP" data-check="0"><div>回数付ダメージUP</div></li>
+
                     <li data-val="ダメージUP" data-check="0"><div>ダメージUP</div></li>
                     <li data-val="挑発" data-check="0"><div>挑発</div></li>
                     <li data-val="デバフ耐性" data-check="0"><div>デバフ耐性</div></li>
-
                     <li data-val="物理防御DOWN,魔法防御DOWN" data-check="0"><div>防御DOWN</div></li>
                     <li data-val="行動速度DOWN" data-check="0"><div>行動速度DOWN</div></li>
+
                     <li data-val="被ダメージUP" data-check="0"><div>被ダメージUP</div></li>
                     <li data-val="挑発耐性" data-check="0"><div>挑発耐性</div></li>
                     <li data-val="毒,火傷,凍結,出血,沈黙,解消,麻痺,睡眠,石化,眩暈,混乱,魅了,呪い,盲目,恐怖,解消" data-check="0"><div>状態異常</div></li>
+                    <li data-val="自身MP回復" data-check="0"><div>自MP回復</div></li>
+                    <li data-val="自身物理攻撃UP,自身魔法攻撃UP" data-check="0"><div>自攻撃UP</div></li>
+
+                    <li data-val="自身物理クリティカルUP,自身魔法クリティカルUP" data-check="0"><div>自クリUP</div></li>
+                    <li data-val="自身行動速度UP" data-check="0"><div>自行動速度UP</div></li>
+                    <li data-val="自身スキルダメージUP" data-check="0"><div>自スキルダメUP</div></li>
+                    <li data-val="自身奥義ダメージUP" data-check="0"><div>自奥義ダメUP</div></li>
+                    <li data-val="自身属性攻撃UP" data-check="0"><div>自属性攻撃UP</div></li>
+
+                    <li data-val="自身回数付ダメージUP,自身回数付物理ダメージUP,自身回数付魔法ダメージUP" data-check="0"><div>自回数付ダメUP</div></li>
+                    <li data-val="自身ダメージUP,自身条件付ダメージUP" data-check="0"><div>自ダメージUP</div></li>
+                    <li data-val="自身デバフ耐性" data-check="0"><div>自デバフ耐性</div></li>
                 </ul>
             </td>
             </tr>

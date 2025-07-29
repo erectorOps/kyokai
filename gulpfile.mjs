@@ -22,7 +22,8 @@ function testCategory(cb) {
       for (const entry in data) {
         const name = data[entry].name;
         const sk_type = data[entry].sk_type.join(",");
-        log(`${name}(${entry}) : ${sk_type}`);
+        const ub_type = data[entry].ub_type.join(",");
+        log(`${name}(${entry}) : ${sk_type} : ${ub_type}`);
       }
 
       cb();
