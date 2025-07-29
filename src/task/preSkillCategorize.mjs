@@ -156,7 +156,7 @@ class SkillCheck {
     }
 
     isAllAttack() {
-        return this.list.some(x => this.is_attack(x) && 6 <= this.get_targetCount(x));
+        return this.list.some(x => this.is_attack(x) && this.is_allrange(x));
     }
 
     isBuffOnly() {
