@@ -8,6 +8,23 @@ import { srcBase, srcPath, distBase } from './_config.mjs';
 import { PreSkillCategorize } from './preSkillCategorize.mjs';
 import log from 'fancy-log';
 
+function removeCommaSeparatedItem(str, itemToRemove) {
+    const arr = str.split(",");
+    const index = arr.indexOf(itemToRemove);
+    if (index > -1) {
+        arr.splice(index, 1);
+    }
+
+    return arr.join(",");
+}
+
+function addCommaSeparatedItem(str, targetItem) {
+    const items = str.split(",");
+    const uniqueItems = new Set(items);
+    uniqueItems.add(targetItem);
+    return Array.from(uniqueItems);
+}
+
 export class HeroList {
     constructor(kf) {
         this.kf = kf;
@@ -79,6 +96,31 @@ export class HeroList {
                   //  sk_type: gachaTypeEntity?.['@_sk_type'] ?? "",
                     rank: gachaTypeEntity?.review?.['@_rank'] ?? "未"
                 };
+
+                if (gachaTypeEntity) {
+                    if (gachaTypeEntity['@_sk_type_replace']) {
+                        const rep = gachaTypeEntity['@_sk_type_replace'].split(",");
+                        for (const r of rep) {
+                            if (r[0] === "-") {
+                                json.sk_type = removeCommaSeparatedItem(json.sk_type, r.substr(1));
+                            }
+                            else if (r[0] === "+") {
+                                json.sk_type = addCommaSeparatedItem(json.sk_type, r.substr(1));
+                            }
+                        }
+                    }
+                    if (gachaTypeEntity['@_ub_type_replace']) {
+                        const rep = gachaTypeEntity['@_ub_type_replace'].split(",");
+                        for (const r of rep) {
+                            if (r[0] === "-") {
+                                json.ub_type = removeCommaSeparatedItem(json.ub_type, r.substr(1));
+                            }
+                            else if (r[0] === "+") {
+                                json.ub_type = addCommaSeparatedItem(json.ub_type, r.substr(1));
+                            }
+                        }
+                    }
+                }
 
                 const maxLimitEntity = kf.limit_over.root.limit_over.find(item => item['@_group_id'] === group && item['@_over_times'] === "5");
                 json.support = maxLimitEntity.support_buff_id.filter(item => item !== '0').map(item => {

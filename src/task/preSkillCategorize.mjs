@@ -1,10 +1,4 @@
 // gulpプラグインの読み込み
-import gulp from 'gulp';
-import ejs from 'gulp-ejs'; //EJS
-import rename from 'gulp-rename'; //ファイル出力時にファイル名を変える
-
-import { getAtkSpeed, getPosition } from './hero/_util.mjs';
-import { srcBase, srcPath, distBase } from './_config.mjs';
 import log from 'fancy-log';
 
 class SkillCheck {
