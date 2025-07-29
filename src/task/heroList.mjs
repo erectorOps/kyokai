@@ -122,6 +122,9 @@ export class HeroList {
                     }
                 }
 
+                json.sk_type = encodeURIComponent(json.sk_type);
+                json.ub_type = encodeURIComponent(json.ub_type);
+
                 const maxLimitEntity = kf.limit_over.root.limit_over.find(item => item['@_group_id'] === group && item['@_over_times'] === "5");
                 json.support = maxLimitEntity.support_buff_id.filter(item => item !== '0').map(item => {
                   const buff = kf.buff_1.root.buff_1.find(y => y['@_id'] === item);

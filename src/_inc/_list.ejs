@@ -248,7 +248,7 @@
                     $(this).find("li").each(function() {
                         var disp_bool = true;
                         for (const type in conditions) {
-                            let current_data = String($(this).data(type));
+                            let current_data = decodeURIComponent(($(this).data(type)));
                             if (type == "gacha_type" || type == "ub_type") {
                                 current_data = current_data.split(',');
                                 let attr_count = 0;
