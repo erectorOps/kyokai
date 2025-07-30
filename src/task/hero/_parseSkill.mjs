@@ -700,11 +700,41 @@ const parseBuff = (buff, lv, info) => {
   return text;
 }
 
+function parseFixed(text, s) {
+
+  switch (s['@_name']) {
+    case "忍法・十面埋伏キリキリ舞":
+      text = text.replace(/物理ダメージUP\(LV\d\)/, "物理{C7}") + " ※【分身】{7}";
+      break;
+    case "Rabit Rave Recital":
+      text = text.replace(/水属性攻撃UP\(LV\d\)/, "{C12}");
+      break;
+    case "夜這イ星・金神七殺ノ祟リ":
+      text = text.replace(/行動速度UP\(LV\d\)/, "{C12}");
+      break;
+    case "マシェリ・シュ・シュ":
+      text = text.replace(/5秒間の恐怖\(LV\d\)/, "<color=#BB3D00>5</color>秒間の{C12}");
+      break;
+    case "ヴェルン神聖槍術　ファントムアクセル":
+      text = text.replace(/ダメージUP\(LV\d\)/, "{C12}");
+      break;
+    case "ソウルサクションショット":
+      text = text.replace(/魔属性被ダメージ増加\(LV\d\)/, "{C12}");
+      break;
+  }
+
+  text = text.replace(/{(\d+)}<\/color>秒間?の(?:恐怖|凍結)\(LV\d\)/, (match, p1) => {
+    const repIndex = parseInt(p1) - 1;
+    return "{"+p1+"}</color>秒の{"+repIndex+"}";
+  });
+  return text;
+}
+
 export const parseSkill = (sid, lv, kf) => {
   const s = kf.skill_hero_1.root.skill_hero_1.find(item => item['@_id'] === sid);
   const is_heal = s['@_target_hp_effect'] && s['@_target_hp_effect'] === "回復";
 
-  let text = s['@_effect_text'];
+  let text = parseFixed(s['@_effect_text'], s);
   text = text.replace(/<color=(#[A-F0-9]+?)>\{9\}/i, `<span class="value${is_heal ? " heal" : ""}">{9}`)
     .replace(/<color=(#[A-F0-9]+?)>/ig, `<span class="value">`).replace(/<\/color>/ig, "</span>");
 
@@ -740,7 +770,7 @@ export const parseSkill = (sid, lv, kf) => {
     const buffId = s['@_buff_id'+postFix[0]];
     const buffDur = s['@_buff_dur'+postFix[0]];
     const buffIf = s['@_buff_if'+postFix[0]];
-    const buffTarget = s['@_buff_target'+postFix[0]]
+    const buffTarget = s['@_buff_target'+postFix[0]];
     if (buffId) {
       text = text.replace(postFix[2], buffDur);
       const buff = kf.buff_1.root.buff_1.find(item => item['@_id'] === buffId);
@@ -750,6 +780,29 @@ export const parseSkill = (sid, lv, kf) => {
           speed_value += (buff["@_effect_val1"] !== undefined ? parseFloat(buff["@_effect_val1"]) : 0) 
             + (buff["@_counter_effect_val1"] !== undefined ? parseFloat(buff["@_counter_effect_val1"]) : 0);
         }
+      }
+    }
+  }
+
+  // パースが難しい部分を独自仕様"{C5}"で補完
+  if (s['@_change_skill_id'] && s['@_change_skill_id'] !== "0") {
+    const c = kf.skill_hero_1.root.skill_hero_1.find(item => item['@_id'] === s['@_change_skill_id']);
+    if (c) {
+      for (const postFix of [
+        ['A', "{C5}", "{C6}"],
+        ['B', "{C7}", "{C8}"],
+        ['C', "{C12}", "{C13}"]]) {
+          const buffId = c['@_buff_id'+postFix[0]];
+          const buffDur = c['@_buff_dur'+postFix[0]];
+          const buffIf = c['@_buff_if'+postFix[0]];
+          const buffTarget = c['@_buff_target'+postFix[0]];
+          if (buffId) {
+            text = text.replace(postFix[2], buffDur);
+            const buff = kf.buff_1.root.buff_1.find(item => item['@_id'] === buffId);
+            if (buff !== undefined) {
+              text = text.replace(postFix[1], parseBuff(buff, lv, {id: buffId, duration: buffDur, if: buffIf, target: buffTarget}));
+            }
+          }
       }
     }
   }
