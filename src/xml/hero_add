@@ -10,135 +10,135 @@ D: まず使わないキャラだが特殊な戦術のときに使えそうだ�
 E: すべてのコンテンツ、属性、戦術において候補に上がることがないキャラ
 -->
 <root>
-	<hero_add id="2001" rare="R" name="シャムシェル" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="3人攻撃,HP吸収"><review rank="E"></review></hero_add>
-	<hero_add id="2002" rare="R" name="アイシス" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="1人攻撃,攻撃DOWN"><review rank="E"></review></hero_add>
-	<hero_add id="2003" rare="R" name="ロクサーヌ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="3人HP回復,攻撃UP,支援バフ"><review rank="E"></review></hero_add>
-	<hero_add id="2004" rare="R" name="ルセリア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="3人HP回復,ブロックUP,支援バフ"><review rank="E"></review></hero_add>
-	<hero_add id="2005" rare="SR" name="グラディス" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="1人攻撃,HP吸収"><review rank="E"></review></hero_add>
-	<hero_add id="2006" rare="SR" name="エメラリア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="全体攻撃,恐怖"><review rank="E"></review></hero_add>
-	<hero_add id="2007" rare="R" name="アフロディア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="全体HP回復,バリア,支援バフ"><review rank="E"></review></hero_add>
-	<hero_add id="2008" rare="SR" name="ネリス" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="2人攻撃,眩暈"><review rank="E"></review></hero_add>
-	<hero_add id="2009" rare="R" name="ドロワット" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="1人攻撃,攻撃DOWN"><review rank="D"></review></hero_add>
-	<hero_add id="2010" rare="R" name="アリステラ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="1人攻撃,石化"><review rank="E"></review></hero_add>
-	<hero_add id="2011" rare="R" name="ロザリン" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="3人攻撃,眩暈"><review rank="E"></review></hero_add>
-	<hero_add id="2012" rare="R" name="エストリア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="1人攻撃,HP継続回復"><review rank="E"></review></hero_add>
-	<hero_add id="2013" rare="R" name="セレブリア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="3人攻撃,行動速度DOWN"><review rank="E"></review></hero_add>
-	<hero_add id="2014" rare="SR" name="イリーナ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="全体HP回復,デバフ耐性UP,支援バフ"><review rank="E"></review></hero_add>
-	<hero_add id="2015" rare="R" name="ゼビア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="1人攻撃"><review rank="E"></review></hero_add>
-	<hero_add id="2016" rare="R" name="シャハル" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="1人攻撃,HP吸収"><review rank="E"></review></hero_add>
-	<hero_add id="2017" rare="R" name="エリュシア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="1人攻撃,盲目"><review rank="D"></review></hero_add>
-	<hero_add id="2018" rare="R" name="ナディーヌ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="全体攻撃,火傷"><review rank="E"></review></hero_add>
-	<hero_add id="2019" rare="R" name="ローレリア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="3人攻撃,眩暈"><review rank="E"></review></hero_add>
-	<hero_add id="2020" rare="SR" name="ソブリナ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="全体HP回復,デバフ耐性UP,支援バフ"><review rank="E"></review></hero_add>
-	<hero_add id="2021" rare="SR" name="メッセリア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="全体攻撃,火傷"><review rank="E"></review></hero_add>
-	<hero_add id="2022" rare="SR" name="パイア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="全体HP回復,ブロックUP,支援バフ"><review rank="E"></review></hero_add>
-	<hero_add id="2023" rare="SR" name="アジュラ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="1人攻撃,クリティカルUP"><review rank="D"></review></hero_add>
-	<hero_add id="2024" rare="SR" name="ゾーエ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="1人攻撃,恐怖,混乱"><review rank="E"></review></hero_add>
-	<hero_add id="2025" rare="SR" name="コンスタンツィア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="全体バフのみ,防御UP,支援バフ"><review rank="E"></review></hero_add>
-	<hero_add id="2026" rare="SR" name="ファルネリア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="1人攻撃,凍結,防御DOWN"><review rank="E"></review></hero_add>
-	<hero_add id="2027" rare="R" name="デストラ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="3人攻撃,防御DOWN"><review rank="E"></review></hero_add>
-	<hero_add id="2028" rare="R" name="エスケルダ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="3人攻撃,命中DOWN"><review rank="E"></review></hero_add>
-	<hero_add id="2029" rare="SR" name="アルテミス" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="1人攻撃,風被ダメージUP"><review rank="D"></review></hero_add>
-	<hero_add id="2030" rare="SR" name="アテナ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="1人攻撃,沈黙,解消"><review rank="E"></review></hero_add>
-	<hero_add id="2031" rare="SR" name="メデューサ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="全体攻撃,石化"><review rank="E"></review></hero_add>
-	<hero_add id="2032" rare="R" name="ルクレチア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="1人攻撃,麻痺"><review rank="E"></review></hero_add>
-	<hero_add id="2033" rare="SR" name="ウェヌス" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="全体バフのみ,攻撃UP,支援バフ"><review rank="E"></review></hero_add>
-	<hero_add id="2035" rare="SR" name="リーゼル" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="全体バフのみ,全体MP継続回復,行動速度UP,支援バフ"><review rank="S"></review></hero_add>
-	<hero_add id="2036" rare="SR" name="イシュトヴィア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="1人攻撃,防御DOWN,沈黙"><review rank="E"></review></hero_add>
-	<hero_add id="2037" rare="SR" name="ベロニカ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="全体バフのみ,攻撃UP,防御UP,支援バフ"><review rank="E"></review></hero_add>
-	<hero_add id="2038" rare="SR" name="セレスティア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="1人攻撃,麻痺"><review rank="E"></review></hero_add>
-	<hero_add id="2039" rare="SR" name="グネヴィア" gacha_type="報酬" added_date="2024/01/25" obtain="同盟コイン交換" ub_type="1人攻撃,行動速度DOWN"><review rank="D"></review></hero_add>
-	<hero_add id="2040" rare="SSR" name="【高貴なる皇妃】シャムシェル" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="3人攻撃,攻撃UP"><review rank="C"></review></hero_add>
-	<hero_add id="2041" rare="SSR" name="【マジカルプリンセス】ルセリア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="3人攻撃,眩暈,火傷"><review rank="E"></review></hero_add>
-	<hero_add id="2042" rare="SSR" name="【巨岩兵の使い手】ネリス" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="1人攻撃,攻撃DOWN"><review rank="E"></review></hero_add>
-	<hero_add id="2043" rare="SSR" name="【速唱の魔道士】ソブリナ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="全体攻撃,凍結,麻痺"><review rank="C"></review></hero_add>
-	<hero_add id="2044" rare="SSR" name="【幻想の踊り子】メッセリア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="全体HP回復,行動速度UP,ブロックUP,支援バフ"><review rank="B"></review></hero_add>
-	<hero_add id="2045" rare="SSR" name="【敬虔なる癒やし手】イシュトヴィア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="全体HP回復,全体HP継続回復,バリア,支援バフ"><review rank="D"></review></hero_add>
-	<hero_add id="2046" rare="SSR" name="テレシア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="1人攻撃,想攻撃UP"><review rank="A"></review></hero_add>
-	<hero_add id="2047" rare="SSR" name="ソルティナ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="3人攻撃,防御DOWN,行動速度DOWN"><review rank="E"></review></hero_add>
-	<hero_add id="2048" rare="SSR" name="アーティア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="3人攻撃,眩暈,バリア,挑発"><review rank="E"></review></hero_add>
-	<hero_add id="2049" rare="SSR" name="黒騎士" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="3人攻撃,呪い,恐怖"><review rank="B"></review></hero_add>
-	<hero_add id="2050" rare="SSR" name="インリーン" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="3人攻撃,防御DOWN,ブロックDOWN"><review rank="E"></review></hero_add>
-	<hero_add id="2051" rare="SSR" name="フレイ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="全体HP回復,バリア,ダメージUP,支援バフ"><review rank="B"></review></hero_add>
-	<hero_add id="2052" rare="SSR" name="ジェミニ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="3人攻撃"><review rank="C"></review></hero_add>
-	<hero_add id="2053" rare="SSR" name="エスティリエル" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="全体攻撃,行動速度DOWN,ブロックDOWN"><review rank="C"></review></hero_add>
-	<hero_add id="2054" rare="SSR" name="ヒルディス" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="3人攻撃,防御DOWN,ブロックDOWN"><review rank="D"></review></hero_add>
-	<hero_add id="2055" rare="SSR" name="リュッカ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="3人攻撃,攻撃DOWN,命中DOWN"><review rank="C"></review></hero_add>
-	<hero_add id="2056" rare="SSR" name="マリーナ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="全体バフのみ,行動速度UP,バリア,支援バフ"><review rank="D"></review></hero_add>
-	<hero_add id="2057" rare="SSR" name="ノーラ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="全体攻撃,眩暈,行動速度DOWN"><review rank="E"></review></hero_add>
-	<hero_add id="2058" rare="SSR" name="メイニアス" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="1人攻撃,ダメージUP"><review rank="C"></review></hero_add>
-	<hero_add id="2059" rare="SSR" name="刹華" gacha_type="恒常" added_date="2023/11/09" obtain="恒常" ub_type="1人攻撃,火攻撃UP"><review rank="C"></review></hero_add>
-	<hero_add id="2060" rare="SSR" name="ユ・リマ・エルカ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="1人攻撃,麻痺,呪い"><review rank="E"></review></hero_add>
-	<hero_add id="2061" rare="SSR" name="ステンリナ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="3人攻撃,クリティカルDOWN"><review rank="C"></review></hero_add>
-	<hero_add id="2062" rare="SSR" name="ヒサラ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="3人攻撃,ブロックDOWN,行動速度UP"><review rank="D"></review></hero_add>
-	<hero_add id="2063" rare="SSR" name="ビアンカ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="全体攻撃,沈黙,解消"><review rank="C"></review></hero_add>
-	<hero_add id="2064" rare="SSR" name="ナターシャ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" ub_type="自身バフのみ,バリア"><review rank="E"></review></hero_add>
-	<hero_add id="2065" rare="SSR" name="【優美なる肖像】シャムシェル" gacha_type="報酬" added_date="2023/09/11" obtain="DMMポイント累計チャージ特典" ub_type="3人攻撃,HP吸収">
+	<hero_add id="2001" rare="R" name="シャムシェル" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2002" rare="R" name="アイシス" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2003" rare="R" name="ロクサーヌ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2004" rare="R" name="ルセリア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2005" rare="SR" name="グラディス" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2006" rare="SR" name="エメラリア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2007" rare="R" name="アフロディア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2008" rare="SR" name="ネリス" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2009" rare="R" name="ドロワット" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="D"></review></hero_add>
+	<hero_add id="2010" rare="R" name="アリステラ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2011" rare="R" name="ロザリン" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2012" rare="R" name="エストリア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2013" rare="R" name="セレブリア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2014" rare="SR" name="イリーナ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2015" rare="R" name="ゼビア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2016" rare="R" name="シャハル" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2017" rare="R" name="エリュシア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="D"></review></hero_add>
+	<hero_add id="2018" rare="R" name="ナディーヌ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2019" rare="R" name="ローレリア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2020" rare="SR" name="ソブリナ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2021" rare="SR" name="メッセリア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2022" rare="SR" name="パイア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2023" rare="SR" name="アジュラ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="D"></review></hero_add>
+	<hero_add id="2024" rare="SR" name="ゾーエ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2025" rare="SR" name="コンスタンツィア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2026" rare="SR" name="ファルネリア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2027" rare="R" name="デストラ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2028" rare="R" name="エスケルダ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2029" rare="SR" name="アルテミス" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="D"></review></hero_add>
+	<hero_add id="2030" rare="SR" name="アテナ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2031" rare="SR" name="メデューサ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2032" rare="R" name="ルクレチア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2033" rare="SR" name="ウェヌス" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2035" rare="SR" name="リーゼル" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="S"></review></hero_add>
+	<hero_add id="2036" rare="SR" name="イシュトヴィア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2037" rare="SR" name="ベロニカ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2038" rare="SR" name="セレスティア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2039" rare="SR" name="グネヴィア" gacha_type="報酬" added_date="2024/01/25" obtain="同盟コイン交換"><review rank="D"></review></hero_add>
+	<hero_add id="2040" rare="SSR" name="【高貴なる皇妃】シャムシェル" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="C"></review></hero_add>
+	<hero_add id="2041" rare="SSR" name="【マジカルプリンセス】ルセリア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2042" rare="SSR" name="【巨岩兵の使い手】ネリス" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2043" rare="SSR" name="【速唱の魔道士】ソブリナ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="C"></review></hero_add>
+	<hero_add id="2044" rare="SSR" name="【幻想の踊り子】メッセリア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="B"></review></hero_add>
+	<hero_add id="2045" rare="SSR" name="【敬虔なる癒やし手】イシュトヴィア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="D"></review></hero_add>
+	<hero_add id="2046" rare="SSR" name="テレシア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="A"></review></hero_add>
+	<hero_add id="2047" rare="SSR" name="ソルティナ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2048" rare="SSR" name="アーティア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2049" rare="SSR" name="黒騎士" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="B"></review></hero_add>
+	<hero_add id="2050" rare="SSR" name="インリーン" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2051" rare="SSR" name="フレイ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="B"></review></hero_add>
+	<hero_add id="2052" rare="SSR" name="ジェミニ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="C"></review></hero_add>
+	<hero_add id="2053" rare="SSR" name="エスティリエル" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="C"></review></hero_add>
+	<hero_add id="2054" rare="SSR" name="ヒルディス" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="D"></review></hero_add>
+	<hero_add id="2055" rare="SSR" name="リュッカ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="C"></review></hero_add>
+	<hero_add id="2056" rare="SSR" name="マリーナ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="D"></review></hero_add>
+	<hero_add id="2057" rare="SSR" name="ノーラ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2058" rare="SSR" name="メイニアス" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="C"></review></hero_add>
+	<hero_add id="2059" rare="SSR" name="刹華" gacha_type="恒常" added_date="2023/11/09" obtain="恒常"><review rank="C"></review></hero_add>
+	<hero_add id="2060" rare="SSR" name="ユ・リマ・エルカ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2061" rare="SSR" name="ステンリナ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="C"></review></hero_add>
+	<hero_add id="2062" rare="SSR" name="ヒサラ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="D"></review></hero_add>
+	<hero_add id="2063" rare="SSR" name="ビアンカ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="C"></review></hero_add>
+	<hero_add id="2064" rare="SSR" name="ナターシャ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2065" rare="SSR" name="【優美なる肖像】シャムシェル" gacha_type="報酬" added_date="2023/09/11" obtain="DMMポイント累計チャージ特典">
 		<review rank="E">
 			<merit>サポートが優秀な攻撃＆クリなので聖騎士レベルだけ凸るのがオススメ</merit>
 			<demerit>育成しても他のSSRより性能が劣る</demerit>
 		</review>
 	</hero_add>
-	<hero_add id="2066" rare="SSR" name="【優美なる肖像】アイシス" gacha_type="報酬" added_date="2023/09/11" obtain="初心者応援ログインボーナス" ub_type="1人攻撃,攻撃DOWN">
+	<hero_add id="2066" rare="SSR" name="【優美なる肖像】アイシス" gacha_type="報酬" added_date="2023/09/11" obtain="初心者応援ログインボーナス">
 		<review rank="E">
 			<merit>ログボだけで奥義5にできる為、手持ちが少ない時期に頼りになる</merit>
 			<demerit>育成しても他のSSRより性能が劣る</demerit>
 			<demerit>挑発がなく、耐久力も低め</demerit>
 		</review>
 	</hero_add>
-	<hero_add id="2067" rare="SSR" name="【おてんば人魚姫】ローレリア" gacha_type="シーズンパス" added_date="2023/09/11" obtain="シーズンパスLv50報酬" ub_type="3人攻撃,眩暈,行動速度DOWN"><review rank="C"></review></hero_add>
-	<hero_add id="2068" rare="SSR" name="【祝祭の皇妃】シャムシェル" gacha_type="イベント" added_date="2023/09/14" obtain="イベント「ヴェルン建国祭」期間限定召喚" ub_type="3人攻撃,魅了,防御DOWN"><review rank="C"></review></hero_add>
-	<hero_add id="2069" rare="SSR" name="【祝祭の装い】エスティリエル" gacha_type="イベント" added_date="2023/09/14" obtain="イベント「ヴェルン建国祭」期間限定召喚" ub_type="全体HP回復,デバフ耐性UP,ブロックUP,支援バフ"><review rank="A"></review></hero_add>
-	<hero_add id="2070" rare="SR" name="【祝祭のおめかし】ナターシャ" gacha_type="報酬,イベント" added_date="2023/09/14" obtain="イベント「ヴェルン建国祭」ミッション報酬" ub_type="3人攻撃,命中DOWN"><review rank="E"></review></hero_add>
-	<hero_add id="2071" rare="SSR" name="カグヤ" gacha_type="無限討伐戦" added_date="2023/10/06" obtain="イベント「想望のアルドナラ」期間限定召喚" ub_type="全体攻撃,混乱,恐怖"><review rank="C"></review></hero_add>
-	<hero_add id="2072" rare="SSR" name="シャティ" gacha_type="恒常" added_date="2023/09/21" obtain="恒常,「メインストーリー6章開放記念」先行召喚" ub_type="1人攻撃,風攻撃UP,ダメージUP"><review rank="C"></review></hero_add>
-	<hero_add id="2073" rare="SSR" name="ルシエ" gacha_type="恒常" added_date="2023/10/12" obtain="恒常,イベント「裁きの刃」先行召喚" ub_type="5人攻撃,行動速度DOWN,解消"><review rank="C"></review></hero_add>
-	<hero_add id="2074" rare="SR" name="累" gacha_type="恒常" added_date="2023/10/12" obtain="恒常,イベント「裁きの刃」先行召喚" ub_type="1人攻撃"><review rank="A"></review></hero_add>
-	<hero_add id="2075" rare="SR" name="鵺" gacha_type="報酬,イベント" added_date="2023/10/12" obtain="イベント「裁きの刃」ミッション報酬" ub_type="3人攻撃"><review rank="B"></review></hero_add>
-	<hero_add id="2076" rare="SSR" name="オフィーリオ" gacha_type="試練の塔" added_date="2023/10/19" obtain="イベント「美魔女・パーリーピーポー☆」期間限定召喚" ub_type="全体攻撃,行動速度DOWN,ブロックDOWN"><review rank="C"></review></hero_add>
-	<hero_add id="2077" rare="SSR" name="【魅惑のハイレグ】ネリス" gacha_type="イベント" added_date="2023/09/28" obtain="イベント「タコタコ、ビーチパニック!!」期間限定召喚" ub_type="1人攻撃,解消,盲目"><review rank="E"></review></hero_add>
-	<hero_add id="2078" rare="SSR" name="【悩殺☆ビキニ】テレシア" gacha_type="イベント" added_date="2023/09/28" obtain="イベント「タコタコ、ビーチパニック!!」期間限定召喚" ub_type="全体攻撃,麻痺,命中DOWN"><review rank="B"></review></hero_add>
-	<hero_add id="2079" rare="SR" name="【豪快一本釣り】メイニアス" gacha_type="報酬,イベント" added_date="2023/09/28" obtain="イベント「タコタコ、ビーチパニック!!」ミッション報酬" ub_type="3人攻撃,防御DOWN"><review rank="C"></review></hero_add>
-	<hero_add id="2080" rare="SSR" name="パステル" gacha_type="無限討伐戦" added_date="2023/11/02" obtain="イベント「情熱とともに殴りぬ」期間限定召喚" ub_type="全体攻撃,沈黙,全体HP継続回復"><review rank="E"></review></hero_add>
-	<hero_add id="2081" rare="SSR" name="【最強魔女】シャハル" gacha_type="イベント" added_date="2023/10/26" obtain="イベント「悪玉ハロウィン」期間限定召喚" ub_type="全体攻撃,クリティカルDOWN"><review rank="E"></review></hero_add>
-	<hero_add id="2082" rare="SSR" name="【誘惑の吸血鬼】ソルティナ" gacha_type="イベント" added_date="2023/10/26" obtain="イベント「悪玉ハロウィン」期間限定召喚" ub_type="1人攻撃,解消,行動速度DOWN,HP吸収"><review rank="E"></review></hero_add>
-	<hero_add id="2083" rare="SR" name="【ちょっぴり小悪魔】リュッカ" gacha_type="報酬,イベント" added_date="2023/10/26" obtain="イベント「悪玉ハロウィン」ミッション報酬" ub_type="1人攻撃,解消,HP吸収"><review rank="E"></review></hero_add>
-	<hero_add id="2084" rare="SSR" name="ラピス" gacha_type="恒常" added_date="2023/11/16" obtain="恒常,「メインストーリー7章開放記念」先行召喚" ub_type="1人攻撃,水被ダメージUP,火被ダメージUP"><review rank="D"></review></hero_add>
-	<hero_add id="2085" rare="SSR" name="ローサ" gacha_type="試練の塔" added_date="2023/12/7" obtain="イベント「奴隷の飴」期間限定召喚" ub_type="1人攻撃,ブロックDOWN,聖攻撃UP"><review rank="D"></review></hero_add>
-	<hero_add id="2086" rare="SR" name="グレイシー" gacha_type="恒常" added_date="2023/11/9" obtain="恒常,イベント「血の凶刃」先行召喚" ub_type="1人攻撃,防御DOWN"><review rank="E"></review></hero_add>
-	<hero_add id="2087" rare="SR" name="リネット" gacha_type="報酬,イベント" added_date="2023/11/9" obtain="イベント「血の凶刃」ミッション報酬" ub_type="1人攻撃,火傷"><review rank="E"></review></hero_add>
-	<hero_add id="2088" rare="SSR" name="ジゼル" gacha_type="試練の塔" added_date="2024/1/4" obtain="イベント「疾風のユニコーン」期間限定召喚" ub_type="3人攻撃,ブロックDOWN,攻撃UP"><review rank="D"></review></hero_add>
-	<hero_add id="2089" rare="SSR" name="【トップダンサー】メッセリア" gacha_type="イベント" added_date="2023/11/30" obtain="イベント「踊りの女神に微笑みを」期間限定召喚" ub_type="全体バフのみ,クリティカルUP,命中UP,支援バフ"><review rank="C"></review></hero_add>
-	<hero_add id="2090" rare="SSR" name="【フルーツバスケット】ビアンカ" gacha_type="イベント" added_date="2023/11/30" obtain="イベント「踊りの女神に微笑みを」期間限定召喚" ub_type="1人攻撃,盲目,行動速度DOWN"><review rank="E"></review></hero_add>
-	<hero_add id="2091" rare="SR" name="【ビールはいかが？】ステンリナ" gacha_type="報酬,イベント" added_date="2023/11/30" obtain="イベント「踊りの女神に微笑みを」ミッション報酬" ub_type="全体バフのみ,攻撃UP,支援バフ"><review rank="C"></review></hero_add>
-	<hero_add id="2092" rare="SSR" name="ルスト" gacha_type="バーストフェス" added_date="2023/11/23" obtain="バーストフェス期間限定召喚" ub_type="1人攻撃,混乱,恐怖"><review rank="B"></review></hero_add>
-	<hero_add id="2093" rare="SSR" name="ラーグエン" gacha_type="バーストフェス" added_date="2023/11/23" obtain="バーストフェス期間限定召喚" ub_type="1人攻撃,攻撃DOWN,挑発"><review rank="C"></review></hero_add>
-	<hero_add id="2094" rare="SSR" name="【サムライカウガール】刹華" gacha_type="シーズンパス" added_date="2023/12/7" obtain="シーズンパスLv50報酬" ub_type="1人攻撃,防御DOWN"><review rank="C"></review></hero_add>
-	<hero_add id="2095" rare="SSR" name="【パイとクッキーの女王】アフロディア" gacha_type="イベント" added_date="2023/12/14" obtain="イベント「聖夜祭にクッキーを」期間限定召喚" ub_type="1人攻撃,行動速度DOWN,ブロックDOWN"><review rank="C"></review></hero_add>
-	<hero_add id="2096" rare="SSR" name="【夢見し聖夜祭】カグヤ" gacha_type="イベント" added_date="2023/12/14" obtain="イベント「聖夜祭にクッキーを」期間限定召喚" ub_type="全体HP回復,防御UP,支援バフ"><review rank="D"></review></hero_add>
-	<hero_add id="2097" rare="SR" name="【聖夜のサキュバス】ユ・リマ・エルカ" gacha_type="報酬,イベント" added_date="2023/12/14" obtain="イベント「聖夜祭にクッキーを」ミッション報酬" ub_type="1人攻撃,解消,HP吸収"><review rank="E"></review></hero_add>
-	<hero_add id="2098" rare="SSR" name="ルールー" gacha_type="無限討伐戦" added_date="2023/12/21" obtain="イベント「揺れよ、乳」期間限定召喚" ub_type="全体攻撃,風攻撃UP,MP回復"><review rank="A"></review></hero_add>
-	<hero_add id="2099" rare="SSR" name="【ドラゴン粉砕】メデューサ" gacha_type="イベント" added_date="2023/12/18" obtain="イベント「新春の邪竜」期間限定召喚" ub_type="1人攻撃,魔被ダメージUP,行動速度UP"><review rank="C"></review></hero_add>
-	<hero_add id="2100" rare="SSR" name="【新年筆下ろし】パステル" gacha_type="イベント" added_date="2023/12/18" obtain="イベント「新春の邪竜」期間限定召喚" ub_type="全体攻撃,解消,行動速度DOWN"><review rank="E"></review></hero_add>
-	<hero_add id="2101" rare="SR" name="【重箱満載】リネット" gacha_type="報酬,イベント" added_date="2023/12/18" obtain="イベント「新春の邪竜」ミッション報酬" ub_type="全体HP回復,ブロックUP,支援バフ"><review rank="E"></review></hero_add>
-	<hero_add id="2102" rare="SR" name="ヘンリエッティ" gacha_type="恒常" added_date="2024/01/11" obtain="恒常,イベント「審眼の女」先行召喚" ub_type="全体攻撃,眩暈,盲目"><review rank="E"></review></hero_add>
-	<hero_add id="2103" rare="SR" name="ヴァネッサ" gacha_type="報酬,イベント" added_date="2024/01/11" obtain="イベント「審眼の女」ミッション報酬" ub_type="1人攻撃,ブロックDOWN"><review rank="E"></review></hero_add>
-	<hero_add id="2104" rare="SSR" name="ヴィアトリーチェ" gacha_type="無限討伐戦" added_date="2024/01/18" obtain="イベント「エルロンの幽霊」期間限定召喚" ub_type="1人攻撃,火傷,火被ダメージUP"><review rank="E"></review></hero_add>
-	<hero_add id="2105" rare="SSR" name="トリシュ" gacha_type="イベント" added_date="2024/01/25" obtain="イベント「毒と勝利」期間限定召喚" ub_type="全体バフのみ,全体HP継続回復,攻撃UP,支援バフ"><review rank="B"></review></hero_add>
-	<hero_add id="2106" rare="SSR" name="リコリス" gacha_type="イベント" added_date="2024/01/25" obtain="イベント「毒と勝利」期間限定召喚" ub_type="1人攻撃,麻痺,猛毒"><review rank="C"></review></hero_add>
-	<hero_add id="2107" rare="SR" name="カティーシャ" gacha_type="報酬,イベント" added_date="2024/01/25" obtain="イベント「毒と勝利」ミッション報酬" ub_type="1人攻撃,行動速度DOWN,沈黙"><review rank="E"></review></hero_add>
-	<hero_add id="2108" rare="SSR" name="マグダレーナ" gacha_type="恒常" added_date="2024/02/01" obtain="恒常,「メインストーリー8章開放記念」先行召喚" ub_type="3人攻撃,解消,防御DOWN,HP継続回復"><review rank="E"></review></hero_add>
-	<hero_add id="2109" rare="SSR" name="【純情ショコラティエ】フレイ" gacha_type="イベント" added_date="2024/02/08" obtain="イベント「馬に願いを」期間限定召喚" ub_type="全体HP回復,バリア,ブロックUP,支援バフ"><review rank="D"></review></hero_add>
-	<hero_add id="2110" rare="SSR" name="【チョコまみれの竜戦士】ヒルディス" gacha_type="イベント" added_date="2024/02/08" obtain="イベント「馬に願いを」期間限定召喚" ub_type="1人攻撃,ブロックDOWN,防御DOWN,魅了"><review rank="A"></review></hero_add>
-	<hero_add id="2111" rare="SR" name="【愛とチョコレートの戦士】シャティ" gacha_type="報酬,イベント" added_date="2024/02/08" obtain="イベント「馬に願いを」ミッション報酬" ub_type="1人攻撃,ダメージUP,想攻撃UP"><review rank="E"></review></hero_add>
-	<hero_add id="2112" rare="SSR" name="プリシラ" gacha_type="試練の塔" added_date="2024/02/15" obtain="イベント「ぬいぐるみの孤児」期間限定召喚" ub_type="1人攻撃,想被ダメージUP,想攻撃UP"><review rank="C"></review></hero_add>
-	<hero_add id="2113" rare="SSR" name="リリス" gacha_type="バーストフェス" added_date="2024/02/22" obtain="バーストフェス期間限定召喚" ub_type="1人攻撃,沈黙,呪い,クリティカルUP"><review rank="C"></review></hero_add>
-	<hero_add id="2114" rare="SSR" name="ディアナ" gacha_type="イベント" added_date="2024/02/29" obtain="イベント「双剣の門」期間限定召喚" ub_type="1人攻撃,沈黙,防御DOWN"><review rank="B"></review></hero_add>
-	<hero_add id="2115" rare="SSR" name="ジールカ" gacha_type="イベント" added_date="2024/02/29" obtain="イベント「双剣の門」期間限定召喚" ub_type="1人攻撃,解消,ブロックDOWN"><review rank="B"></review></hero_add>
-	<hero_add id="2116" rare="SR" name="サーカ" gacha_type="報酬,イベント" added_date="2024/02/29" obtain="イベント「双剣の門」ミッション報酬" ub_type="1人攻撃"><review rank="C"></review></hero_add>
-	<hero_add id="2117" rare="SSR" name="【アメリカンポリス】ラピス" gacha_type="シーズンパス" added_date="2024/03/07" obtain="シーズンパスLv50報酬" ub_type="3人攻撃,防御DOWN,攻撃UP"><review rank="C"></review></hero_add>
-	<hero_add id="2118" rare="SSR" name="リリララ" gacha_type="無限討伐戦" added_date="2024/03/07" obtain="イベント「お菓子と獣」期間限定召喚" ub_type="3人攻撃,防御DOWN,命中DOWN,HP吸収"><review rank="C"></review></hero_add>
-	<hero_add id="2119" rare="SSR" name="【スウィートバニー】アーティア" gacha_type="イベント,周年" added_date="2024/03/14" obtain="「0.5周年Anniversary」期間限定召喚" ub_type="全体攻撃,ブロックDOWN,行動速度UP,全体MP回復,支援バフ">
+	<hero_add id="2067" rare="SSR" name="【おてんば人魚姫】ローレリア" gacha_type="シーズンパス" added_date="2023/09/11" obtain="シーズンパスLv50報酬"><review rank="C"></review></hero_add>
+	<hero_add id="2068" rare="SSR" name="【祝祭の皇妃】シャムシェル" gacha_type="イベント" added_date="2023/09/14" obtain="イベント「ヴェルン建国祭」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2069" rare="SSR" name="【祝祭の装い】エスティリエル" gacha_type="イベント" added_date="2023/09/14" obtain="イベント「ヴェルン建国祭」期間限定召喚"><review rank="A"></review></hero_add>
+	<hero_add id="2070" rare="SR" name="【祝祭のおめかし】ナターシャ" gacha_type="報酬,イベント" added_date="2023/09/14" obtain="イベント「ヴェルン建国祭」ミッション報酬"><review rank="E"></review></hero_add>
+	<hero_add id="2071" rare="SSR" name="カグヤ" gacha_type="無限討伐戦" added_date="2023/10/06" obtain="イベント「想望のアルドナラ」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2072" rare="SSR" name="シャティ" gacha_type="恒常" added_date="2023/09/21" obtain="恒常,「メインストーリー6章開放記念」先行召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2073" rare="SSR" name="ルシエ" gacha_type="恒常" added_date="2023/10/12" obtain="恒常,イベント「裁きの刃」先行召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2074" rare="SR" name="累" gacha_type="恒常" added_date="2023/10/12" obtain="恒常,イベント「裁きの刃」先行召喚"><review rank="A"></review></hero_add>
+	<hero_add id="2075" rare="SR" name="鵺" gacha_type="報酬,イベント" added_date="2023/10/12" obtain="イベント「裁きの刃」ミッション報酬"><review rank="B"></review></hero_add>
+	<hero_add id="2076" rare="SSR" name="オフィーリオ" gacha_type="試練の塔" added_date="2023/10/19" obtain="イベント「美魔女・パーリーピーポー☆」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2077" rare="SSR" name="【魅惑のハイレグ】ネリス" gacha_type="イベント" added_date="2023/09/28" obtain="イベント「タコタコ、ビーチパニック!!」期間限定召喚"><review rank="E"></review></hero_add>
+	<hero_add id="2078" rare="SSR" name="【悩殺☆ビキニ】テレシア" gacha_type="イベント" added_date="2023/09/28" obtain="イベント「タコタコ、ビーチパニック!!」期間限定召喚"><review rank="B"></review></hero_add>
+	<hero_add id="2079" rare="SR" name="【豪快一本釣り】メイニアス" gacha_type="報酬,イベント" added_date="2023/09/28" obtain="イベント「タコタコ、ビーチパニック!!」ミッション報酬"><review rank="C"></review></hero_add>
+	<hero_add id="2080" rare="SSR" name="パステル" gacha_type="無限討伐戦" added_date="2023/11/02" obtain="イベント「情熱とともに殴りぬ」期間限定召喚"><review rank="E"></review></hero_add>
+	<hero_add id="2081" rare="SSR" name="【最強魔女】シャハル" gacha_type="イベント" added_date="2023/10/26" obtain="イベント「悪玉ハロウィン」期間限定召喚"><review rank="E"></review></hero_add>
+	<hero_add id="2082" rare="SSR" name="【誘惑の吸血鬼】ソルティナ" gacha_type="イベント" added_date="2023/10/26" obtain="イベント「悪玉ハロウィン」期間限定召喚"><review rank="E"></review></hero_add>
+	<hero_add id="2083" rare="SR" name="【ちょっぴり小悪魔】リュッカ" gacha_type="報酬,イベント" added_date="2023/10/26" obtain="イベント「悪玉ハロウィン」ミッション報酬"><review rank="E"></review></hero_add>
+	<hero_add id="2084" rare="SSR" name="ラピス" gacha_type="恒常" added_date="2023/11/16" obtain="恒常,「メインストーリー7章開放記念」先行召喚"><review rank="D"></review></hero_add>
+	<hero_add id="2085" rare="SSR" name="ローサ" gacha_type="試練の塔" added_date="2023/12/7" obtain="イベント「奴隷の飴」期間限定召喚"><review rank="D"></review></hero_add>
+	<hero_add id="2086" rare="SR" name="グレイシー" gacha_type="恒常" added_date="2023/11/9" obtain="恒常,イベント「血の凶刃」先行召喚"><review rank="E"></review></hero_add>
+	<hero_add id="2087" rare="SR" name="リネット" gacha_type="報酬,イベント" added_date="2023/11/9" obtain="イベント「血の凶刃」ミッション報酬"><review rank="E"></review></hero_add>
+	<hero_add id="2088" rare="SSR" name="ジゼル" gacha_type="試練の塔" added_date="2024/1/4" obtain="イベント「疾風のユニコーン」期間限定召喚"><review rank="D"></review></hero_add>
+	<hero_add id="2089" rare="SSR" name="【トップダンサー】メッセリア" gacha_type="イベント" added_date="2023/11/30" obtain="イベント「踊りの女神に微笑みを」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2090" rare="SSR" name="【フルーツバスケット】ビアンカ" gacha_type="イベント" added_date="2023/11/30" obtain="イベント「踊りの女神に微笑みを」期間限定召喚"><review rank="E"></review></hero_add>
+	<hero_add id="2091" rare="SR" name="【ビールはいかが？】ステンリナ" gacha_type="報酬,イベント" added_date="2023/11/30" obtain="イベント「踊りの女神に微笑みを」ミッション報酬"><review rank="C"></review></hero_add>
+	<hero_add id="2092" rare="SSR" name="ルスト" gacha_type="バーストフェス" added_date="2023/11/23" obtain="バーストフェス期間限定召喚"><review rank="B"></review></hero_add>
+	<hero_add id="2093" rare="SSR" name="ラーグエン" gacha_type="バーストフェス" added_date="2023/11/23" obtain="バーストフェス期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2094" rare="SSR" name="【サムライカウガール】刹華" gacha_type="シーズンパス" added_date="2023/12/7" obtain="シーズンパスLv50報酬"><review rank="C"></review></hero_add>
+	<hero_add id="2095" rare="SSR" name="【パイとクッキーの女王】アフロディア" gacha_type="イベント" added_date="2023/12/14" obtain="イベント「聖夜祭にクッキーを」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2096" rare="SSR" name="【夢見し聖夜祭】カグヤ" gacha_type="イベント" added_date="2023/12/14" obtain="イベント「聖夜祭にクッキーを」期間限定召喚"><review rank="D"></review></hero_add>
+	<hero_add id="2097" rare="SR" name="【聖夜のサキュバス】ユ・リマ・エルカ" gacha_type="報酬,イベント" added_date="2023/12/14" obtain="イベント「聖夜祭にクッキーを」ミッション報酬"><review rank="E"></review></hero_add>
+	<hero_add id="2098" rare="SSR" name="ルールー" gacha_type="無限討伐戦" added_date="2023/12/21" obtain="イベント「揺れよ、乳」期間限定召喚"><review rank="A"></review></hero_add>
+	<hero_add id="2099" rare="SSR" name="【ドラゴン粉砕】メデューサ" gacha_type="イベント" added_date="2023/12/18" obtain="イベント「新春の邪竜」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2100" rare="SSR" name="【新年筆下ろし】パステル" gacha_type="イベント" added_date="2023/12/18" obtain="イベント「新春の邪竜」期間限定召喚"><review rank="E"></review></hero_add>
+	<hero_add id="2101" rare="SR" name="【重箱満載】リネット" gacha_type="報酬,イベント" added_date="2023/12/18" obtain="イベント「新春の邪竜」ミッション報酬"><review rank="E"></review></hero_add>
+	<hero_add id="2102" rare="SR" name="ヘンリエッティ" gacha_type="恒常" added_date="2024/01/11" obtain="恒常,イベント「審眼の女」先行召喚"><review rank="E"></review></hero_add>
+	<hero_add id="2103" rare="SR" name="ヴァネッサ" gacha_type="報酬,イベント" added_date="2024/01/11" obtain="イベント「審眼の女」ミッション報酬"><review rank="E"></review></hero_add>
+	<hero_add id="2104" rare="SSR" name="ヴィアトリーチェ" gacha_type="無限討伐戦" added_date="2024/01/18" obtain="イベント「エルロンの幽霊」期間限定召喚"><review rank="E"></review></hero_add>
+	<hero_add id="2105" rare="SSR" name="トリシュ" gacha_type="イベント" added_date="2024/01/25" obtain="イベント「毒と勝利」期間限定召喚"><review rank="B"></review></hero_add>
+	<hero_add id="2106" rare="SSR" name="リコリス" gacha_type="イベント" added_date="2024/01/25" obtain="イベント「毒と勝利」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2107" rare="SR" name="カティーシャ" gacha_type="報酬,イベント" added_date="2024/01/25" obtain="イベント「毒と勝利」ミッション報酬"><review rank="E"></review></hero_add>
+	<hero_add id="2108" rare="SSR" name="マグダレーナ" gacha_type="恒常" added_date="2024/02/01" obtain="恒常,「メインストーリー8章開放記念」先行召喚"><review rank="E"></review></hero_add>
+	<hero_add id="2109" rare="SSR" name="【純情ショコラティエ】フレイ" gacha_type="イベント" added_date="2024/02/08" obtain="イベント「馬に願いを」期間限定召喚"><review rank="D"></review></hero_add>
+	<hero_add id="2110" rare="SSR" name="【チョコまみれの竜戦士】ヒルディス" gacha_type="イベント" added_date="2024/02/08" obtain="イベント「馬に願いを」期間限定召喚"><review rank="A"></review></hero_add>
+	<hero_add id="2111" rare="SR" name="【愛とチョコレートの戦士】シャティ" gacha_type="報酬,イベント" added_date="2024/02/08" obtain="イベント「馬に願いを」ミッション報酬"><review rank="E"></review></hero_add>
+	<hero_add id="2112" rare="SSR" name="プリシラ" gacha_type="試練の塔" added_date="2024/02/15" obtain="イベント「ぬいぐるみの孤児」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2113" rare="SSR" name="リリス" gacha_type="バーストフェス" added_date="2024/02/22" obtain="バーストフェス期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2114" rare="SSR" name="ディアナ" gacha_type="イベント" added_date="2024/02/29" obtain="イベント「双剣の門」期間限定召喚"><review rank="B"></review></hero_add>
+	<hero_add id="2115" rare="SSR" name="ジールカ" gacha_type="イベント" added_date="2024/02/29" obtain="イベント「双剣の門」期間限定召喚"><review rank="B"></review></hero_add>
+	<hero_add id="2116" rare="SR" name="サーカ" gacha_type="報酬,イベント" added_date="2024/02/29" obtain="イベント「双剣の門」ミッション報酬"><review rank="C"></review></hero_add>
+	<hero_add id="2117" rare="SSR" name="【アメリカンポリス】ラピス" gacha_type="シーズンパス" added_date="2024/03/07" obtain="シーズンパスLv50報酬"><review rank="C"></review></hero_add>
+	<hero_add id="2118" rare="SSR" name="リリララ" gacha_type="無限討伐戦" added_date="2024/03/07" obtain="イベント「お菓子と獣」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2119" rare="SSR" name="【スウィートバニー】アーティア" gacha_type="イベント,周年" added_date="2024/03/14" obtain="「0.5周年Anniversary」期間限定召喚">
 		<review rank="S+">
 			<merit>味方の奥義回転率がめちゃくちゃ上がる</merit>
 			<merit>開幕にMP付与できるので味方の奥義も早く打てる</merit>
@@ -146,7 +146,7 @@ E: すべてのコンテンツ、属性、戦術において候補に上がる�
 			<demerit>召喚できる機会が少ない</demerit>
 		</review>
 	</hero_add>
-	<hero_add id="2120" rare="SSR" name="ラウール" gacha_type="イベント" added_date="2024/03/21" obtain="イベント「脂肪は正義、否、悪魔」期間限定召喚" ub_type="1人攻撃,行動速度UP">
+	<hero_add id="2120" rare="SSR" name="ラウール" gacha_type="イベント" added_date="2024/03/21" obtain="イベント「脂肪は正義、否、悪魔」期間限定召喚">
 		<review rank="B">
 			<merit>想魔法アタッカーとしてトップクラスの火力</merit>
 			<merit>クルールとセット運用すると魔防ダウンを隙無く付与できる</merit>
@@ -154,7 +154,7 @@ E: すべてのコンテンツ、属性、戦術において候補に上がる�
 			<demerit>奥義ダメージUPが無い</demerit>
 		</review>
 	</hero_add>
-	<hero_add id="2121" rare="SSR" name="クルール" gacha_type="イベント" added_date="2024/03/21" obtain="イベント「脂肪は正義、否、悪魔」期間限定召喚" ub_type="1人攻撃,防御DOWN,想攻撃UP">
+	<hero_add id="2121" rare="SSR" name="クルール" gacha_type="イベント" added_date="2024/03/21" obtain="イベント「脂肪は正義、否、悪魔」期間限定召喚">
 		<review rank="B">
 			<merit>想魔法アタッカーとしてトップクラスの火力</merit>
 			<merit>ラウールとセット運用すると魔防ダウンを隙無く付与できる</merit>
@@ -162,57 +162,57 @@ E: すべてのコンテンツ、属性、戦術において候補に上がる�
 			<demerit>魔クリアップバフが上限に行って腐りがち</demerit>
 		</review>
 	</hero_add>
-	<hero_add id="2122" rare="SR" name="ビューティア" gacha_type="報酬,イベント" added_date="2024/03/21" obtain="イベント「脂肪は正義、否、悪魔」ミッション報酬" ub_type="1人攻撃,行動速度UP"><review rank="E"></review></hero_add>
-	<hero_add id="2123" rare="SSR" name="フィオノーレ" gacha_type="試練の塔" added_date="2024/03/28" obtain="イベント「復活の母乳」期間限定召喚" ub_type="1人攻撃,聖被ダメージUP,聖攻撃UP"><review rank="B"></review></hero_add>
-	<hero_add id="2124" rare="SSR" name="厄叉" gacha_type="恒常" added_date="2024/04/04" obtain="恒常,「DMM PLAYER版リリース記念」先行召喚" ub_type="1人攻撃,防御DOWN,ブロックDOWN,HP吸収"><review rank="C"></review></hero_add>
-	<hero_add id="2125" rare="SSR" name="ニーナ" gacha_type="恒常" added_date="2024/04/11" obtain="恒常,「DMM PLAYER版リリース記念」先行召喚" ub_type="3人攻撃,ブロックDOWN,行動速度DOWN,水被ダメージUP"><review rank="B"></review></hero_add>
-	<hero_add id="2126" rare="SSR" name="アビゲイル" gacha_type="バーストフェス" added_date="2024/04/18" obtain="バーストフェス期間限定召喚" ub_type="1人攻撃,沈黙,盲目">
+	<hero_add id="2122" rare="SR" name="ビューティア" gacha_type="報酬,イベント" added_date="2024/03/21" obtain="イベント「脂肪は正義、否、悪魔」ミッション報酬"><review rank="E"></review></hero_add>
+	<hero_add id="2123" rare="SSR" name="フィオノーレ" gacha_type="試練の塔" added_date="2024/03/28" obtain="イベント「復活の母乳」期間限定召喚"><review rank="B"></review></hero_add>
+	<hero_add id="2124" rare="SSR" name="厄叉" gacha_type="恒常" added_date="2024/04/04" obtain="恒常,「DMM PLAYER版リリース記念」先行召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2125" rare="SSR" name="ニーナ" gacha_type="恒常" added_date="2024/04/11" obtain="恒常,「DMM PLAYER版リリース記念」先行召喚"><review rank="B"></review></hero_add>
+	<hero_add id="2126" rare="SSR" name="アビゲイル" gacha_type="バーストフェス" added_date="2024/04/18" obtain="バーストフェス期間限定召喚">
 		<review rank="D">
 			<merit>闘技場で最初に奥義を撃つ聖騎士に先制攻撃とデバフを入れれる</merit>
 			<merit>パッシブ12が闘技場向き</merit>
 			<demerit>闘技場メタ運用が前提なので扱いが難しい,└全体奥義でなく全体バフも無い為普通に使うと弱い</demerit>
 		</review>
 	</hero_add>
-	<hero_add id="2127" rare="SSR" name="【下乳チアガール】ジェミニ" gacha_type="イベント" added_date="2024/04/25" obtain="イベント「GO! FIGHT! WIN!!」期間限定召喚" ub_type="全体バフのみ,行動速度UP,命中UP,支援バフ"><review rank="E"></review></hero_add>
-	<hero_add id="2128" rare="SSR" name="【下乳チアガール】ヴァネッサ" gacha_type="イベント" added_date="2024/04/25" obtain="イベント「GO! FIGHT! WIN!!」期間限定召喚" ub_type="全体バフのみ,行動速度UP,命中UP,支援バフ"><review rank="E"></review></hero_add>
-	<hero_add id="2129" rare="SR" name="【下乳チアガール】ヘンリエッティ" gacha_type="報酬,イベント" added_date="2024/04/25" obtain="イベント「GO! FIGHT! WIN!!」ミッション報酬" ub_type="全体バフのみ,体HP継続回復,ダメージUP,支援バフ"><review rank="A"></review></hero_add>
-	<hero_add id="2130" rare="SSR" name="【プールあがり】アーティア" gacha_type="Fanzine" added_date="2024/05/09" obtain="イベント「Fanzine」期間限定召喚" ub_type="3人攻撃,解消,命中DOWN"><review rank="D"></review></hero_add>
-	<hero_add id="2131" rare="SSR" name="エヴァ" gacha_type="イベント" added_date="2024/05/16" obtain="イベント「隣国の魔獣狩り女」期間限定召喚" ub_type="1人攻撃,防御DOWN,盲目"><review rank="D"></review></hero_add>
-	<hero_add id="2132" rare="SSR" name="イネス" gacha_type="イベント" added_date="2024/05/16" obtain="イベント「隣国の魔獣狩り女」期間限定召喚" ub_type="1人攻撃,ブロックDOWN,行動速度DOWN,HP吸収,魔被ダメージUP"><review rank="C"></review></hero_add>
-	<hero_add id="2133" rare="SR" name="コリー" gacha_type="報酬,イベント" added_date="2024/05/16" obtain="イベント「隣国の魔獣狩り女」ミッション報酬" ub_type="1人攻撃"><review rank="E"></review></hero_add>
-	<hero_add id="2134" rare="SSR" name="【誘惑の裸エプロン】ディアナ" gacha_type="Fanzine" added_date="2024/05/23" obtain="イベント「Fanzine」期間限定召喚" ub_type="1人攻撃,攻撃UP,聖攻撃UP"><review rank="A"></review></hero_add>
-	<hero_add id="2135" rare="SSR" name="ギル" gacha_type="イベント" added_date="2024/05/30" obtain="イベント「No more bet」期間限定召喚" ub_type="1人攻撃,防御DOWN"><review rank="B"></review></hero_add>
-	<hero_add id="2136" rare="SSR" name="ボニータ" gacha_type="イベント" added_date="2024/05/30" obtain="イベント「No more bet」期間限定召喚" ub_type="1人攻撃,命中UP,攻撃UP,ダメージUP"><review rank="C"></review></hero_add>
-	<hero_add id="2137" rare="SR" name="アシュレイ" gacha_type="報酬" added_date="2024/05/30" obtain="イベント「No more bet」ミッション報酬" ub_type="全体バフのみ,クリティカルUP,行動速度UP,支援バフ"><review rank="C"></review></hero_add>
-	<hero_add id="2138" rare="SSR" name="【学園ブルマー】黒騎士" gacha_type="シーズンパス" added_date="2024/06/06" obtain="シーズンパスLv50報酬" ub_type="1人攻撃,恐怖,攻撃UP"><review rank="C"></review></hero_add>
-	<hero_add id="2139" rare="SSR" name="シリウス" gacha_type="恒常" added_date="2024/06/13" obtain="恒常,「メインストーリー12章開放記念」先行召喚" ub_type="5人攻撃,ブロックDOWN,防御DOWN"><review rank="E"></review></hero_add>
-	<hero_add id="2140" rare="SSR" name="【幸運の花嫁】テレシア" gacha_type="イベント" added_date="2024/06/20" obtain="イベント「花嫁の恵み」期間限定召喚" ub_type="全員HP回復,命中UP,行動速度UP,支援バフ"><review rank="D"></review></hero_add>
-	<hero_add id="2141" rare="SSR" name="【純真の花嫁】ジゼル" gacha_type="イベント" added_date="2024/06/20" obtain="イベント「花嫁の恵み」期間限定召喚" ub_type="1人攻撃,火傷,火攻撃UP"><review rank="C"></review></hero_add>
-	<hero_add id="2142" rare="SR" name="【悩殺の花嫁】オフィーリオ" gacha_type="報酬,イベント" added_date="2024/06/20" obtain="イベント「花嫁の恵み」ミッション報酬" ub_type="3人攻撃,火傷,凍結"><review rank="E"></review></hero_add>
-	<hero_add id="2143" rare="SSR" name="【魅惑の裸エプロン】ジールカ" gacha_type="Fanzine" added_date="2024/06/27" obtain="イベント「Fanzine」期間限定召喚" ub_type="1人攻撃,攻撃UP,想攻撃UP"><review rank="D"></review></hero_add>
-	<hero_add id="2144" rare="SSR" name="イルーギオ" gacha_type="イベント" added_date="2024/07/04" obtain="イベント「洞窟に潜むもの」期間限定召喚" ub_type="1人攻撃,防御DOWN,攻撃UP"><review rank="D"></review></hero_add>
-	<hero_add id="2145" rare="SSR" name="アンジェ" gacha_type="イベント" added_date="2024/07/04" obtain="イベント「洞窟に潜むもの」期間限定召喚" ub_type="5人攻撃,防御DOWN,ブロックDOWN,火傷"><review rank="D"></review></hero_add>
-	<hero_add id="2146" rare="SR" name="ラッフィ" gacha_type="報酬,イベント" added_date="2024/07/04" obtain="イベント「洞窟に潜むもの」ミッション報酬" ub_type="1人攻撃,眩暈,行動速度DOWN"><review rank="E"></review></hero_add>
-	<hero_add id="2147" rare="SSR" name="ラフィーネ" gacha_type="無限討伐戦" added_date="2024/07/11" obtain="イベント「天と痴と」期間限定召喚" ub_type="1人攻撃,沈黙,解消"><review rank="C"></review></hero_add>
-	<hero_add id="2148" rare="SSR" name="エレイン" gacha_type="バーストフェス" added_date="2024/07/18" obtain="バーストフェス期間限定召喚" ub_type="1人攻撃,防御DOWN,魔攻撃UP"><review rank="A"></review></hero_add>
-	<hero_add id="2149" rare="SSR" name="【キミのハートを狙い撃ち♪】シャティ" gacha_type="イベント" added_date="2024/07/25" obtain="イベント「タコ帝国の逆襲」期間限定召喚" ub_type="1人攻撃,水被ダメージUP,ダメージUP,水攻撃UP"><review rank="C"></review></hero_add>
-	<hero_add id="2150" rare="SSR" name="【恋のビッグウェーブライド】プリシラ" gacha_type="イベント" added_date="2024/07/25" obtain="イベント「タコ帝国の逆襲」期間限定召喚" ub_type="1人攻撃,風被ダメージUP,防御DOWN"><review rank="C"></review></hero_add>
-	<hero_add id="2151" rare="SR" name="【ゴージャスでノーブルな夏】グレイシー" gacha_type="報酬,イベント" added_date="2024/07/25" obtain="イベント「タコ帝国の逆襲」ミッション報酬" ub_type="1人攻撃,防御DOWN"><review rank="E"></review></hero_add>
-	<hero_add id="2152" rare="SSR" name="【スケートボーダー】鵺" gacha_type="Fanzine" added_date="2024/08/01" obtain="イベント「Fanzine」期間限定召喚" ub_type="1人攻撃,眩暈,解消,バリア"><review rank="C"></review></hero_add>
-	<hero_add id="2153" rare="SSR" name="ベルナデット" gacha_type="イベント" added_date="2024/08/08" obtain="イベント「太陽と月」期間限定召喚" ub_type="全体バフのみ,ダメージUP,命中UP,ブロックDOWN,支援バフ"><review rank="S"></review></hero_add>
-	<hero_add id="2154" rare="SSR" name="アドリエンヌ" gacha_type="イベント" added_date="2024/08/08" obtain="イベント「太陽と月」期間限定召喚" ub_type="全体バフのみ,ダメージUP,命中UP,ブロックUP,支援バフ"><review rank="S"></review></hero_add>
-	<hero_add id="2155" rare="SR" name="シャリク" gacha_type="報酬,イベント" added_date="2024/08/08" obtain="イベント「太陽と月」ミッション報酬" ub_type="1人攻撃"><review rank="E"></review></hero_add>
-	<hero_add id="2156" rare="SSR" name="リン" gacha_type="試練の塔" added_date="2024/08/15" obtain="イベント「風、纏いて」期間限定召喚" ub_type="1人攻撃,ブロックDOWN,行動速度UP"><review rank="A"></review></hero_add>
-	<hero_add id="2157" rare="SSR" name="【大空祭の花火師】ヴィアトリーチェ" gacha_type="イベント" added_date="2024/08/22" obtain="イベント「真夏の大空祭」期間限定召喚" ub_type="全体攻撃,ブロックDOWN,行動速度DOWN"><review rank="D"></review></hero_add>
-	<hero_add id="2158" rare="SSR" name="【大空祭の剣士】ラーグエン" gacha_type="イベント" added_date="2024/08/22" obtain="イベント「真夏の大空祭」期間限定召喚" ub_type="1人攻撃,聖被ダメージUP,ブロックDOWN"><review rank="B"></review></hero_add>
-	<hero_add id="2159" rare="SR" name="【大空祭の歌姫】ベルナデット" gacha_type="報酬,イベント" added_date="2024/08/22" obtain="イベント「真夏の大空祭」ミッション報酬" ub_type="全体バフのみ,命中UP,クリティカルUP,支援バフ"><review rank="E"></review></hero_add>
-	<hero_add id="2160" rare="SSR" name="【ホカホカ点心】リリララ" gacha_type="Fanzine" added_date="2024/08/29" obtain="イベント「Fanzine」期間限定召喚" ub_type="1人攻撃,火傷,火被ダメージUP"><review rank="C"></review></hero_add>
-	<hero_add id="2161" rare="SSR" name="【メイドエロチャンター】イルーギオ" gacha_type="シーズンパス" added_date="2024/09/05" obtain="シーズンパスLv50報酬" ub_type="5人攻撃,行動速度DOWN,攻撃UP"><review rank="C"></review></hero_add>
-	<hero_add id="2162" rare="SSR" name="【ハイレグの力に取り込まれし者】黒騎士" gacha_type="恒常" added_date="2024/09/19" obtain="恒常,「人気上位特典聖騎士」先行召喚" ub_type="全体バフのみ,全体HP継続回復,デバフ耐性UP,想被ダメージDOWN,支援バフ"><review rank="A"></review></hero_add>
-	<hero_add id="2163" rare="SSR" name="【無敵の皇妃】グラディス" gacha_type="イベント" added_date="2024/09/12" obtain="イベント「巨大魔獣、襲来」期間限定召喚" ub_type="1人攻撃,クリティカルUP,バリア"><review rank="B"></review></hero_add>
-	<hero_add id="2164" rare="SSR" name="【ヴェルン神聖騎士団団長】フリギス" gacha_type="イベント" added_date="2024/09/12" obtain="イベント「巨大魔獣、襲来」期間限定召喚" ub_type="1人攻撃,沈黙,行動速度UP,ダメージUP"><review rank="A"></review></hero_add>
-	<hero_add id="2165" rare="SR" name="【祝祭のチャイナドレス】ディアナ" gacha_type="報酬,イベント" added_date="2024/09/12" obtain="イベント「巨大魔獣、襲来」ミッション報酬" ub_type="1人攻撃,ブロックDOWN"><review rank="E"></review></hero_add>
-	<hero_add id="2166" rare="SSR" name="シュシュ" gacha_type="バーストフェス" added_date="2024/09/26" obtain="バーストフェス期間限定召喚" ub_type="1人攻撃,防御DOWN,MP回復">
+	<hero_add id="2127" rare="SSR" name="【下乳チアガール】ジェミニ" gacha_type="イベント" added_date="2024/04/25" obtain="イベント「GO! FIGHT! WIN!!」期間限定召喚"><review rank="E"></review></hero_add>
+	<hero_add id="2128" rare="SSR" name="【下乳チアガール】ヴァネッサ" gacha_type="イベント" added_date="2024/04/25" obtain="イベント「GO! FIGHT! WIN!!」期間限定召喚"><review rank="E"></review></hero_add>
+	<hero_add id="2129" rare="SR" name="【下乳チアガール】ヘンリエッティ" gacha_type="報酬,イベント" added_date="2024/04/25" obtain="イベント「GO! FIGHT! WIN!!」ミッション報酬"><review rank="A"></review></hero_add>
+	<hero_add id="2130" rare="SSR" name="【プールあがり】アーティア" gacha_type="Fanzine" added_date="2024/05/09" obtain="イベント「Fanzine」期間限定召喚"><review rank="D"></review></hero_add>
+	<hero_add id="2131" rare="SSR" name="エヴァ" gacha_type="イベント" added_date="2024/05/16" obtain="イベント「隣国の魔獣狩り女」期間限定召喚"><review rank="D"></review></hero_add>
+	<hero_add id="2132" rare="SSR" name="イネス" gacha_type="イベント" added_date="2024/05/16" obtain="イベント「隣国の魔獣狩り女」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2133" rare="SR" name="コリー" gacha_type="報酬,イベント" added_date="2024/05/16" obtain="イベント「隣国の魔獣狩り女」ミッション報酬"><review rank="E"></review></hero_add>
+	<hero_add id="2134" rare="SSR" name="【誘惑の裸エプロン】ディアナ" gacha_type="Fanzine" added_date="2024/05/23" obtain="イベント「Fanzine」期間限定召喚"><review rank="A"></review></hero_add>
+	<hero_add id="2135" rare="SSR" name="ギル" gacha_type="イベント" added_date="2024/05/30" obtain="イベント「No more bet」期間限定召喚"><review rank="B"></review></hero_add>
+	<hero_add id="2136" rare="SSR" name="ボニータ" gacha_type="イベント" added_date="2024/05/30" obtain="イベント「No more bet」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2137" rare="SR" name="アシュレイ" gacha_type="報酬" added_date="2024/05/30" obtain="イベント「No more bet」ミッション報酬"><review rank="C"></review></hero_add>
+	<hero_add id="2138" rare="SSR" name="【学園ブルマー】黒騎士" gacha_type="シーズンパス" added_date="2024/06/06" obtain="シーズンパスLv50報酬"><review rank="C"></review></hero_add>
+	<hero_add id="2139" rare="SSR" name="シリウス" gacha_type="恒常" added_date="2024/06/13" obtain="恒常,「メインストーリー12章開放記念」先行召喚"><review rank="E"></review></hero_add>
+	<hero_add id="2140" rare="SSR" name="【幸運の花嫁】テレシア" gacha_type="イベント" added_date="2024/06/20" obtain="イベント「花嫁の恵み」期間限定召喚"><review rank="D"></review></hero_add>
+	<hero_add id="2141" rare="SSR" name="【純真の花嫁】ジゼル" gacha_type="イベント" added_date="2024/06/20" obtain="イベント「花嫁の恵み」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2142" rare="SR" name="【悩殺の花嫁】オフィーリオ" gacha_type="報酬,イベント" added_date="2024/06/20" obtain="イベント「花嫁の恵み」ミッション報酬"><review rank="E"></review></hero_add>
+	<hero_add id="2143" rare="SSR" name="【魅惑の裸エプロン】ジールカ" gacha_type="Fanzine" added_date="2024/06/27" obtain="イベント「Fanzine」期間限定召喚"><review rank="D"></review></hero_add>
+	<hero_add id="2144" rare="SSR" name="イルーギオ" gacha_type="イベント" added_date="2024/07/04" obtain="イベント「洞窟に潜むもの」期間限定召喚"><review rank="D"></review></hero_add>
+	<hero_add id="2145" rare="SSR" name="アンジェ" gacha_type="イベント" added_date="2024/07/04" obtain="イベント「洞窟に潜むもの」期間限定召喚"><review rank="D"></review></hero_add>
+	<hero_add id="2146" rare="SR" name="ラッフィ" gacha_type="報酬,イベント" added_date="2024/07/04" obtain="イベント「洞窟に潜むもの」ミッション報酬"><review rank="E"></review></hero_add>
+	<hero_add id="2147" rare="SSR" name="ラフィーネ" gacha_type="無限討伐戦" added_date="2024/07/11" obtain="イベント「天と痴と」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2148" rare="SSR" name="エレイン" gacha_type="バーストフェス" added_date="2024/07/18" obtain="バーストフェス期間限定召喚"><review rank="A"></review></hero_add>
+	<hero_add id="2149" rare="SSR" name="【キミのハートを狙い撃ち♪】シャティ" gacha_type="イベント" added_date="2024/07/25" obtain="イベント「タコ帝国の逆襲」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2150" rare="SSR" name="【恋のビッグウェーブライド】プリシラ" gacha_type="イベント" added_date="2024/07/25" obtain="イベント「タコ帝国の逆襲」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2151" rare="SR" name="【ゴージャスでノーブルな夏】グレイシー" gacha_type="報酬,イベント" added_date="2024/07/25" obtain="イベント「タコ帝国の逆襲」ミッション報酬"><review rank="E"></review></hero_add>
+	<hero_add id="2152" rare="SSR" name="【スケートボーダー】鵺" gacha_type="Fanzine" added_date="2024/08/01" obtain="イベント「Fanzine」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2153" rare="SSR" name="ベルナデット" gacha_type="イベント" added_date="2024/08/08" obtain="イベント「太陽と月」期間限定召喚"><review rank="S"></review></hero_add>
+	<hero_add id="2154" rare="SSR" name="アドリエンヌ" gacha_type="イベント" added_date="2024/08/08" obtain="イベント「太陽と月」期間限定召喚"><review rank="S"></review></hero_add>
+	<hero_add id="2155" rare="SR" name="シャリク" gacha_type="報酬,イベント" added_date="2024/08/08" obtain="イベント「太陽と月」ミッション報酬"><review rank="E"></review></hero_add>
+	<hero_add id="2156" rare="SSR" name="リン" gacha_type="試練の塔" added_date="2024/08/15" obtain="イベント「風、纏いて」期間限定召喚"><review rank="A"></review></hero_add>
+	<hero_add id="2157" rare="SSR" name="【大空祭の花火師】ヴィアトリーチェ" gacha_type="イベント" added_date="2024/08/22" obtain="イベント「真夏の大空祭」期間限定召喚"><review rank="D"></review></hero_add>
+	<hero_add id="2158" rare="SSR" name="【大空祭の剣士】ラーグエン" gacha_type="イベント" added_date="2024/08/22" obtain="イベント「真夏の大空祭」期間限定召喚"><review rank="B"></review></hero_add>
+	<hero_add id="2159" rare="SR" name="【大空祭の歌姫】ベルナデット" gacha_type="報酬,イベント" added_date="2024/08/22" obtain="イベント「真夏の大空祭」ミッション報酬"><review rank="E"></review></hero_add>
+	<hero_add id="2160" rare="SSR" name="【ホカホカ点心】リリララ" gacha_type="Fanzine" added_date="2024/08/29" obtain="イベント「Fanzine」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2161" rare="SSR" name="【メイドエロチャンター】イルーギオ" gacha_type="シーズンパス" added_date="2024/09/05" obtain="シーズンパスLv50報酬"><review rank="C"></review></hero_add>
+	<hero_add id="2162" rare="SSR" name="【ハイレグの力に取り込まれし者】黒騎士" gacha_type="恒常" added_date="2024/09/19" obtain="恒常,「人気上位特典聖騎士」先行召喚"><review rank="A"></review></hero_add>
+	<hero_add id="2163" rare="SSR" name="【無敵の皇妃】グラディス" gacha_type="イベント" added_date="2024/09/12" obtain="イベント「巨大魔獣、襲来」期間限定召喚"><review rank="B"></review></hero_add>
+	<hero_add id="2164" rare="SSR" name="【ヴェルン神聖騎士団団長】フリギス" gacha_type="イベント" added_date="2024/09/12" obtain="イベント「巨大魔獣、襲来」期間限定召喚"><review rank="A"></review></hero_add>
+	<hero_add id="2165" rare="SR" name="【祝祭のチャイナドレス】ディアナ" gacha_type="報酬,イベント" added_date="2024/09/12" obtain="イベント「巨大魔獣、襲来」ミッション報酬"><review rank="E"></review></hero_add>
+	<hero_add id="2166" rare="SSR" name="シュシュ" gacha_type="バーストフェス" added_date="2024/09/26" obtain="バーストフェス期間限定召喚">
 		<review rank="A">
 			<merit>精気が3つ溜まった時の奥義2連射が強力</merit>
 			<merit>奥義回転率が異常に高く魔属性アタッカーとしてトップレベル</merit>
@@ -220,73 +220,73 @@ E: すべてのコンテンツ、属性、戦術において候補に上がる�
 			<demerit>隊列がかなり前列寄りなので集中砲火を食らう</demerit>
 		</review>
 	</hero_add>
-	<hero_add id="2167" rare="SSR" name="【にゃんこ】ルールー" gacha_type="Fanzine" added_date="2024/10/03" obtain="イベント「Fanzine」期間限定召喚" ub_type="1人攻撃,盲目,攻撃UP"><review rank="B"></review></hero_add>
-	<hero_add id="2168" rare="SSR" name="東雲アイル" gacha_type="イベント,コラボ" added_date="2024/10/10" obtain="イベント「にじげんカノジョコラボ　～ようこそ、異世界へ～」期間限定召喚" ub_type="6人攻撃,麻痺,行動速度DOWN"><review rank="A"></review></hero_add>
-	<hero_add id="2169" rare="SSR" name="碧井エリカ" gacha_type="イベント,コラボ" added_date="2024/10/10" obtain="イベント「にじげんカノジョコラボ　～ようこそ、異世界へ～」期間限定召喚" ub_type="3人攻撃,解消,ブロックDOWN"><review rank="D"></review></hero_add>
-	<hero_add id="2170" rare="SR" name="如月レイナ" gacha_type="報酬,イベント,コラボ" added_date="2024/10/10" obtain="イベント「にじげんカノジョコラボ　～ようこそ、異世界へ～」ミッション報酬" ub_type="1人攻撃,眩暈,防御DOWN"><review rank="B"></review></hero_add>
-	<hero_add id="2171" rare="SSR" name="【夢のようなひととき】エスティリエル" gacha_type="Fanzine" added_date="2024/10/17" obtain="イベント「Fanzine」期間限定召喚" ub_type="全体攻撃,行動速度DOWN,攻撃DOWN"><review rank="B"></review></hero_add>
-	<hero_add id="2172" rare="SSR" name="【むちむちサキュバス】カティーシャ" gacha_type="イベント" added_date="2024/10/24" obtain="イベント「大淫鬼ハロウィン」期間限定召喚" ub_type="1人攻撃,眩暈,攻撃UP"><review rank="A"></review></hero_add>
-	<hero_add id="2173" rare="SSR" name="【闇夜の吸血鬼】鵺" gacha_type="イベント" added_date="2024/10/24" obtain="イベント「大淫鬼ハロウィン」期間限定召喚" ub_type="1人攻撃,防御DOWN,想被ダメージUP"><review rank="C"></review></hero_add>
-	<hero_add id="2174" rare="SR" name="【おばけカボチャの魔女】ジールカ" gacha_type="報酬,イベント" added_date="2024/10/24" obtain="イベント「大淫鬼ハロウィン」ミッション報酬" ub_type="1人攻撃,火被ダメージUP"><review rank="E"></review></hero_add>
-	<hero_add id="2175" rare="SSR" name="【俺の妹は水兵さん】ボニータ" gacha_type="疾走討伐戦" added_date="2024/11/07" obtain="イベント「俺の妹は水兵さん」期間限定召喚" ub_type="6人攻撃,ブロックDOWN,防御DOWN"><review rank="S"></review></hero_add>
-	<hero_add id="2176" rare="SSR" name="【うし乳娘】エレイン" gacha_type="イベント" added_date="2024/11/08" obtain="イベント「いいおπの日」期間限定召喚" ub_type="1人攻撃,命中DOWN,デバフ耐性UP,HP吸収"><review rank="C"></review></hero_add>
-	<hero_add id="2177" rare="SSR" name="【恵みのビアガール】デストラ＆エスケルダ" gacha_type="イベント" added_date="2024/11/14" obtain="イベント「エルロンの収穫祭」期間限定召喚" ub_type="全体HP回復,全体MP継続回復,盲目,行動速度DOWN,支援バフ"><review rank="C"></review></hero_add>
-	<hero_add id="2178" rare="SSR" name="【暗殺ビアガール】累" gacha_type="イベント" added_date="2024/11/14" obtain="イベント「エルロンの収穫祭」期間限定召喚" ub_type="1人攻撃,解消,攻撃UP"><review rank="B"></review></hero_add>
-	<hero_add id="2179" rare="SR" name="【超乳ディアンドル】アドリエンヌ" gacha_type="報酬,イベント" added_date="2024/11/14" obtain="イベント「エルロンの収穫祭」ミッション報酬" ub_type="1人攻撃"><review rank="E"></review></hero_add>
-	<hero_add id="2180" rare="SSR" name="【エルロンの聖騎士】リュッカ" gacha_type="バーストフェス" added_date="2024/12/05" obtain="バーストフェス期間限定召喚" ub_type="1人攻撃,解消,風被ダメージUP,防御DOWN"><review rank="A"></review></hero_add>
-	<hero_add id="2181" rare="SSR" name="【孤高のバイカー】インリーン" gacha_type="Fanzine" added_date="2024/11/28" obtain="イベント「Fanzine」期間限定召喚" ub_type="1人攻撃,行動速度UP,攻撃UP"><review rank="B"></review></hero_add>
-	<hero_add id="2182" rare="SSR" name="【悩殺セーター】ヒルディス" gacha_type="シーズンパス" added_date="2024/12/05" obtain="シーズンパスLv50報酬" ub_type="6人攻撃,行動速度DOWN,ブロックDOWN,行動速度UP"><review rank="A"></review></hero_add>
-	<hero_add id="2184" rare="SSR" name="【聖夜の乳魔】ルスト" gacha_type="イベント" added_date="2024/12/12" obtain="イベント「誰ぞ　聖夜の恵み手よ」期間限定召喚" ub_type="全体攻撃,水被ダメージUP,ブロックDOWN,行動速度DOWN,沈黙"><review rank="D"></review></hero_add>
-	<hero_add id="2185" rare="SSR" name="【乳魔な恵み手】シュシュ" gacha_type="イベント" added_date="2024/12/12" obtain="イベント「誰ぞ　聖夜の恵み手よ」期間限定召喚" ub_type="6人攻撃,眩暈,行動速度DOWN,命中DOWN"><review rank="S"></review></hero_add>
-	<hero_add id="2186" rare="SR" name="【疾風の恵み手】リン" gacha_type="報酬,イベント" added_date="2024/12/12" obtain="イベント「誰ぞ　聖夜の恵み手よ」ミッション報酬" ub_type="全体HP回復,全体MP回復,盲目,眩暈,支援バフ"><review rank="A"></review></hero_add>
-	<hero_add id="2187" rare="SSR" name="【むっつり女学生】ラフィーネ" gacha_type="試練の塔" added_date="2024/12/19" obtain="イベント「天使なあの娘はエロが好き」期間限定召喚" ub_type="3人攻撃,攻撃UP,想攻撃UP"><review rank="D"></review></hero_add>
-	<hero_add id="2188" rare="SSR" name="【羽子板の着物娘】リリス" gacha_type="イベント" added_date="2024/12/26" obtain="イベント「新年、来たりて」期間限定召喚" ub_type="3人攻撃,防御DOWN,行動速度UP,攻撃UP"><review rank="A"></review></hero_add>
-	<hero_add id="2189" rare="SSR" name="【脂肪燃焼の着物娘】ビューティア" gacha_type="イベント" added_date="2024/12/26" obtain="イベント「新年、来たりて」期間限定召喚" ub_type="3人攻撃,防御DOWN,命中DOWN,麻痺"><review rank="D"></review></hero_add>
-	<hero_add id="2190" rare="SR" name="【紅傘の歳女】リリララ" gacha_type="報酬,イベント" added_date="2024/12/26" obtain="イベント「新年、来たりて」ミッション報酬" ub_type="1人攻撃,水被ダメージUP"><review rank="B"></review></hero_add>
-	<hero_add id="2191" rare="SSR" name="【双子巫女】ラウール" gacha_type="Fanzine" added_date="2025/01/02" obtain="イベント「Fanzine」期間限定召喚" ub_type="全体HP回復,バリア,行動速度UP,呪い,支援バフ"><review rank="A"></review></hero_add>
-	<hero_add id="2192" rare="SSR" name="【双子巫女】クルール" gacha_type="Fanzine" added_date="2025/01/09" obtain="イベント「Fanzine」期間限定召喚" ub_type="1人攻撃,解消,防御DOWN">
+	<hero_add id="2167" rare="SSR" name="【にゃんこ】ルールー" gacha_type="Fanzine" added_date="2024/10/03" obtain="イベント「Fanzine」期間限定召喚"><review rank="B"></review></hero_add>
+	<hero_add id="2168" rare="SSR" name="東雲アイル" gacha_type="イベント,コラボ" added_date="2024/10/10" obtain="イベント「にじげんカノジョコラボ　～ようこそ、異世界へ～」期間限定召喚"><review rank="A"></review></hero_add>
+	<hero_add id="2169" rare="SSR" name="碧井エリカ" gacha_type="イベント,コラボ" added_date="2024/10/10" obtain="イベント「にじげんカノジョコラボ　～ようこそ、異世界へ～」期間限定召喚"><review rank="D"></review></hero_add>
+	<hero_add id="2170" rare="SR" name="如月レイナ" gacha_type="報酬,イベント,コラボ" added_date="2024/10/10" obtain="イベント「にじげんカノジョコラボ　～ようこそ、異世界へ～」ミッション報酬"><review rank="B"></review></hero_add>
+	<hero_add id="2171" rare="SSR" name="【夢のようなひととき】エスティリエル" gacha_type="Fanzine" added_date="2024/10/17" obtain="イベント「Fanzine」期間限定召喚"><review rank="B"></review></hero_add>
+	<hero_add id="2172" rare="SSR" name="【むちむちサキュバス】カティーシャ" gacha_type="イベント" added_date="2024/10/24" obtain="イベント「大淫鬼ハロウィン」期間限定召喚"><review rank="A"></review></hero_add>
+	<hero_add id="2173" rare="SSR" name="【闇夜の吸血鬼】鵺" gacha_type="イベント" added_date="2024/10/24" obtain="イベント「大淫鬼ハロウィン」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2174" rare="SR" name="【おばけカボチャの魔女】ジールカ" gacha_type="報酬,イベント" added_date="2024/10/24" obtain="イベント「大淫鬼ハロウィン」ミッション報酬"><review rank="E"></review></hero_add>
+	<hero_add id="2175" rare="SSR" name="【俺の妹は水兵さん】ボニータ" gacha_type="疾走討伐戦" added_date="2024/11/07" obtain="イベント「俺の妹は水兵さん」期間限定召喚"><review rank="S"></review></hero_add>
+	<hero_add id="2176" rare="SSR" name="【うし乳娘】エレイン" gacha_type="イベント" added_date="2024/11/08" obtain="イベント「いいおπの日」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2177" rare="SSR" name="【恵みのビアガール】デストラ＆エスケルダ" gacha_type="イベント" added_date="2024/11/14" obtain="イベント「エルロンの収穫祭」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2178" rare="SSR" name="【暗殺ビアガール】累" gacha_type="イベント" added_date="2024/11/14" obtain="イベント「エルロンの収穫祭」期間限定召喚"><review rank="B"></review></hero_add>
+	<hero_add id="2179" rare="SR" name="【超乳ディアンドル】アドリエンヌ" gacha_type="報酬,イベント" added_date="2024/11/14" obtain="イベント「エルロンの収穫祭」ミッション報酬"><review rank="E"></review></hero_add>
+	<hero_add id="2180" rare="SSR" name="【エルロンの聖騎士】リュッカ" gacha_type="バーストフェス" added_date="2024/12/05" obtain="バーストフェス期間限定召喚"><review rank="A"></review></hero_add>
+	<hero_add id="2181" rare="SSR" name="【孤高のバイカー】インリーン" gacha_type="Fanzine" added_date="2024/11/28" obtain="イベント「Fanzine」期間限定召喚"><review rank="B"></review></hero_add>
+	<hero_add id="2182" rare="SSR" name="【悩殺セーター】ヒルディス" gacha_type="シーズンパス" added_date="2024/12/05" obtain="シーズンパスLv50報酬"><review rank="A"></review></hero_add>
+	<hero_add id="2184" rare="SSR" name="【聖夜の乳魔】ルスト" gacha_type="イベント" added_date="2024/12/12" obtain="イベント「誰ぞ　聖夜の恵み手よ」期間限定召喚"><review rank="D"></review></hero_add>
+	<hero_add id="2185" rare="SSR" name="【乳魔な恵み手】シュシュ" gacha_type="イベント" added_date="2024/12/12" obtain="イベント「誰ぞ　聖夜の恵み手よ」期間限定召喚"><review rank="S"></review></hero_add>
+	<hero_add id="2186" rare="SR" name="【疾風の恵み手】リン" gacha_type="報酬,イベント" added_date="2024/12/12" obtain="イベント「誰ぞ　聖夜の恵み手よ」ミッション報酬"><review rank="A"></review></hero_add>
+	<hero_add id="2187" rare="SSR" name="【むっつり女学生】ラフィーネ" gacha_type="試練の塔" added_date="2024/12/19" obtain="イベント「天使なあの娘はエロが好き」期間限定召喚"><review rank="D"></review></hero_add>
+	<hero_add id="2188" rare="SSR" name="【羽子板の着物娘】リリス" gacha_type="イベント" added_date="2024/12/26" obtain="イベント「新年、来たりて」期間限定召喚"><review rank="A"></review></hero_add>
+	<hero_add id="2189" rare="SSR" name="【脂肪燃焼の着物娘】ビューティア" gacha_type="イベント" added_date="2024/12/26" obtain="イベント「新年、来たりて」期間限定召喚"><review rank="D"></review></hero_add>
+	<hero_add id="2190" rare="SR" name="【紅傘の歳女】リリララ" gacha_type="報酬,イベント" added_date="2024/12/26" obtain="イベント「新年、来たりて」ミッション報酬"><review rank="B"></review></hero_add>
+	<hero_add id="2191" rare="SSR" name="【双子巫女】ラウール" gacha_type="Fanzine" added_date="2025/01/02" obtain="イベント「Fanzine」期間限定召喚"><review rank="A"></review></hero_add>
+	<hero_add id="2192" rare="SSR" name="【双子巫女】クルール" gacha_type="Fanzine" added_date="2025/01/09" obtain="イベント「Fanzine」期間限定召喚">
 		<review rank="S">
 			<merit>現状最強の魔防デバフで汎用パーティで活躍できる</merit>
 			<merit>火属性有利ならアタッカーとしてトップレベル</merit>
 			<demerit>開幕性能は並なので地下神殿や闘技場、討伐戦では出番がない</demerit>
 		</review>
 	</hero_add>
-	<hero_add id="2193" rare="SSR" name="ノワ" gacha_type="イベント" added_date="2025/01/16" obtain="イベント「３姉妹は崖っぷち」期間限定召喚" ub_type="全体HP回復,防御UP,デバフ耐性UP,支援バフ">
+	<hero_add id="2193" rare="SSR" name="ノワ" gacha_type="イベント" added_date="2025/01/16" obtain="イベント「３姉妹は崖っぷち」期間限定召喚">
 		<review rank="S">
 			<merit>味方へのバフがとても強力,行動速度+29%＆ダメージUP+30%＆クリ+37.5%</merit>
 			<merit>デバフ耐性を付与できるので競撃戦では必須</merit>
 			<demerit>開幕スキルが弱いため闘技場ではパッシブ置物寄り</demerit>
 		</review>
 	</hero_add>
-	<hero_add id="2194" rare="SSR" name="ルイーズ" gacha_type="イベント" added_date="2025/01/16" obtain="イベント「３姉妹は崖っぷち」期間限定召喚" ub_type="1人攻撃,盲目,防御DOWN"><review rank="A"></review></hero_add>
-	<hero_add id="2195" rare="SR" name="ネリネ" gacha_type="報酬,イベント" added_date="2025/01/16" obtain="イベント「３姉妹は崖っぷち」ミッション報酬" ub_type="3人攻撃,聖被ダメージUP"><review rank="E"></review></hero_add>
-	<hero_add id="2196" rare="SSR" name="【エロ修道女】ソルティナ" gacha_type="同盟戦" added_date="2025/01/23" obtain="「同盟戦・聖攻略応援」期間限定召喚" ub_type="6人攻撃,防御DOWN,出血,ブロックDOWN,恐怖"><review rank="A"></review></hero_add>
-	<hero_add id="2197" rare="SSR" name="【冒険家】ヘンリエッティ" gacha_type="Fanzine" added_date="2025/01/30" obtain="イベント「Fanzine」期間限定召喚" ub_type="全体攻撃,眩暈,呪い,行動速度DOWN"><review rank="C"></review></hero_add>
-	<hero_add id="2198" rare="SSR" name="【初めてのチョコづくり】カグヤ" gacha_type="イベント" added_date="2025/02/06" obtain="イベント「聖菓のために、我ゆかん」期間限定召喚" ub_type="1人攻撃,盲目,呪い"><review rank="C"></review></hero_add>
-	<hero_add id="2199" rare="SSR" name="【チョコレートはわたし♪】アンジェ" gacha_type="イベント" added_date="2025/02/06" obtain="イベント「聖菓のために、我ゆかん」期間限定召喚" ub_type="3人攻撃,火傷,眩暈,防御DOWN"><review rank="C"></review></hero_add>
-	<hero_add id="2200" rare="SR" name="【チョコづくりメイド】サーカ" gacha_type="報酬,イベント" added_date="2025/02/06" obtain="イベント「聖菓のために、我ゆかん」ミッション報酬" ub_type="1人攻撃,魔被ダメージUP"><review rank="E"></review></hero_add>
-	<hero_add id="2202" rare="SSR" name="麗鬼" gacha_type="バーストフェス" added_date="2025/02/20" obtain="バーストフェス期間限定召喚" ub_type="1人攻撃,火被ダメージUP,火傷,呪い,行動速度UP">
+	<hero_add id="2194" rare="SSR" name="ルイーズ" gacha_type="イベント" added_date="2025/01/16" obtain="イベント「３姉妹は崖っぷち」期間限定召喚"><review rank="A"></review></hero_add>
+	<hero_add id="2195" rare="SR" name="ネリネ" gacha_type="報酬,イベント" added_date="2025/01/16" obtain="イベント「３姉妹は崖っぷち」ミッション報酬"><review rank="E"></review></hero_add>
+	<hero_add id="2196" rare="SSR" name="【エロ修道女】ソルティナ" gacha_type="同盟戦" added_date="2025/01/23" obtain="「同盟戦・聖攻略応援」期間限定召喚"><review rank="A"></review></hero_add>
+	<hero_add id="2197" rare="SSR" name="【冒険家】ヘンリエッティ" gacha_type="Fanzine" added_date="2025/01/30" obtain="イベント「Fanzine」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2198" rare="SSR" name="【初めてのチョコづくり】カグヤ" gacha_type="イベント" added_date="2025/02/06" obtain="イベント「聖菓のために、我ゆかん」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2199" rare="SSR" name="【チョコレートはわたし♪】アンジェ" gacha_type="イベント" added_date="2025/02/06" obtain="イベント「聖菓のために、我ゆかん」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2200" rare="SR" name="【チョコづくりメイド】サーカ" gacha_type="報酬,イベント" added_date="2025/02/06" obtain="イベント「聖菓のために、我ゆかん」ミッション報酬"><review rank="E"></review></hero_add>
+	<hero_add id="2202" rare="SSR" name="麗鬼" gacha_type="バーストフェス" added_date="2025/02/20" obtain="バーストフェス期間限定召喚">
 		<review rank="A">
 			<merit>全体反射スキルが闘技場でとても強力</merit>
 			<demerit>行動速度+20%が優秀だが大抵ノワ等に上書きされてしまう</demerit>
 		</review>
 	</hero_add>
-	<hero_add id="2205" rare="SSR" name="【生真面目ナース】ラピス" gacha_type="疾走討伐戦" added_date="2025/02/13" obtain="イベント「オッパイ大好きな俺と、生真面目ナース」期間限定召喚" ub_type="全体HP回復,ダメージUP,ブロックUP,バリア,支援バフ"><review rank="C"></review></hero_add>
-	<hero_add id="2201" rare="SSR" name="【小悪魔アイドル】ニーナ" gacha_type="Fanzine" added_date="2025/02/27" obtain="イベント「Fanzine」期間限定召喚" ub_type="全体攻撃,盲目,全体MP継続回復,ダメージUP,支援バフ">
+	<hero_add id="2205" rare="SSR" name="【生真面目ナース】ラピス" gacha_type="疾走討伐戦" added_date="2025/02/13" obtain="イベント「オッパイ大好きな俺と、生真面目ナース」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2201" rare="SSR" name="【小悪魔アイドル】ニーナ" gacha_type="Fanzine" added_date="2025/02/27" obtain="イベント「Fanzine」期間限定召喚">
 		<review rank="S">
 			<merit>リーゼルの上位互換</merit>
 			<merit>奥義でダメージにも貢献できる</merit>
 			<merit>編成で悩んだ時入れておけばダメージが伸びるのでオススメ</merit>
 		</review>
 	</hero_add>
-	<hero_add id="2203" rare="SSR" name="【氷上の芸術家】イルーギオ" gacha_type="同盟戦" added_date="2025/03/06" obtain="「同盟戦・水攻略応援」期間限定召喚" ub_type="3人攻撃,凍結,防御DOWN,行動速度UP,支援バフ"><review rank="A"></review></hero_add>
-	<hero_add id="2204" rare="SSR" name="【アメスク留学生】アーティア" gacha_type="シーズンパス" added_date="2025/03/06" obtain="シーズンパスLv50報酬" ub_type="3人攻撃,風被ダメージUP,風攻撃UP">
+	<hero_add id="2203" rare="SSR" name="【氷上の芸術家】イルーギオ" gacha_type="同盟戦" added_date="2025/03/06" obtain="「同盟戦・水攻略応援」期間限定召喚"><review rank="A"></review></hero_add>
+	<hero_add id="2204" rare="SSR" name="【アメスク留学生】アーティア" gacha_type="シーズンパス" added_date="2025/03/06" obtain="シーズンパスLv50報酬">
 		<review rank="B">
 			<merit>2秒で奥義を撃てる</merit>
 			<merit>救援戦でカティーシャ並の性能なので代替として使える</merit>
 		</review>
 	</hero_add>
-	<hero_add id="2183" rare="SSR" name="ベガリア" gacha_type="イベント,周年" added_date="2025/03/13" obtain="イベント「1.5周年Anniversary」期間限定召喚" ub_type="6人攻撃,恐怖,盲目,行動速度DOWN">
+	<hero_add id="2183" rare="SSR" name="ベガリア" gacha_type="イベント,周年" added_date="2025/03/13" obtain="イベント「1.5周年Anniversary」期間限定召喚">
 		<review rank="S">
 			<merit>闘技場で挑発耐性による確定開幕敵全体への防御ダウン＆行動速度10%ダウンが強い</merit>
 			<merit>奥義回転率が早く競撃戦でシュシュ並に火力が出る</merit>
@@ -294,19 +294,19 @@ E: すべてのコンテンツ、属性、戦術において候補に上がる�
 			<demerit>バフが無く行動速度も遅い</demerit>
 		</review>
 	</hero_add>
-	<hero_add id="2206" rare="SSR" name="【エレガントバニー】ベルナデット" gacha_type="イベント,周年" added_date="2025/03/13" obtain="イベント「1.5周年Anniversary」期間限定召喚" ub_type="3人攻撃,行動速度DOWN,ダメージUP,行動速度UP,水攻撃UP,支援バフ">
+	<hero_add id="2206" rare="SSR" name="【エレガントバニー】ベルナデット" gacha_type="イベント,周年" added_date="2025/03/13" obtain="イベント「1.5周年Anniversary」期間限定召喚">
 		<review rank="A">
 			<merit>バフが豊富で火力が出せるので競撃戦などでメインアタッカーになれる</merit>
 		</review>
 	</hero_add>
-	<hero_add id="2207" rare="SSR" name="【知恵と勇気の女神】アテナ" gacha_type="恒常" added_date="2025/03/20" obtain="恒常,「人気上位特典聖騎士」先行召喚" ub_type="1人攻撃,沈黙,解消,防御DOWN">
+	<hero_add id="2207" rare="SSR" name="【知恵と勇気の女神】アテナ" gacha_type="恒常" added_date="2025/03/20" obtain="恒常,「人気上位特典聖騎士」先行召喚">
 		<review rank="C">
 			<merit>全タンクの中で一番火力が高い</merit>
 			<demerit>挑発がない</demerit>
 			<demerit>聖物理アタッカーは充実しているので競撃戦で出番があるか微妙</demerit>
 		</review>
 	</hero_add>
-	<hero_add id="2208" rare="SSR" name="【ゴスロリ乳魔】シュシュ" gacha_type="Fanzine" added_date="2025/03/27" obtain="イベント「Fanzine」期間限定召喚" ub_type="全体攻撃,水被ダメージUP,命中UP,ダメージUP">
+	<hero_add id="2208" rare="SSR" name="【ゴスロリ乳魔】シュシュ" gacha_type="Fanzine" added_date="2025/03/27" obtain="イベント「Fanzine」期間限定召喚">
 		<review rank="A">
 			<merit>物理水属性の全体奥義、威力の倍率も高め</merit>
 			<merit>バフを配れるので競撃戦や地下神殿で活躍できる</merit>
@@ -314,49 +314,49 @@ E: すべてのコンテンツ、属性、戦術において候補に上がる�
 			<demerit>超高倍率のクリティカルUPバフも元のステータスが激低いので微妙</demerit>
 		</review>
 	</hero_add>
-	<hero_add id="2209" rare="SSR" name="【乳揺れチアガール】ノーラ" gacha_type="イベント" added_date="2025/04/03" obtain="イベント「プエリアに微笑みを」期間限定召喚" ub_type="3人攻撃,行動速度DOWN,想攻撃UP,命中UP"><review rank="B"></review></hero_add>
-	<hero_add id="2210" rare="SSR" name="【乳揺れチアガール】アシュレイ" gacha_type="イベント" added_date="2025/04/03" obtain="イベント「プエリアに微笑みを」期間限定召喚" ub_type="クリティカルUP,ダメージUP,支援バフ"><review rank="D"></review></hero_add>
-	<hero_add id="2211" rare="SR" name="【乳揺れチアガール】ボニータ" gacha_type="報酬,イベント" added_date="2025/04/03" obtain="イベント「プエリアに微笑みを」ミッション報酬" ub_type="3人攻撃,行動速度DOWN,ブロックDOWN"><review rank="E"></review></hero_add>
-	<hero_add id="2212" rare="SSR" name="【天馬のヴァルキュリア】ジゼル" gacha_type="無限討伐戦" added_date="2025/04/10" obtain="イベント「天馬のヴァルキュリア」期間限定召喚" ub_type="全体攻撃,盲目,MP回復"><review rank="A"></review></hero_add>
-	<hero_add id="2213" rare="SSR" name="【凄腕傭兵】シャティ" gacha_type="Fanzine" added_date="2025/04/17" obtain="イベント「Fanzine」期間限定召喚" ub_type="1人攻撃,盲目,魔被ダメージUP"><review rank="C"></review></hero_add>
-	<hero_add id="2214" rare="SSR" name="ベルベル" gacha_type="イベント,コラボ" added_date="2025/04/24" obtain="イベント「巨乳ファンタジー5コラボ ～ザマスの逆襲～」期間限定召喚" ub_type="全体攻撃,行動速度DOWN,命中DOWN,MP継続回復">
+	<hero_add id="2209" rare="SSR" name="【乳揺れチアガール】ノーラ" gacha_type="イベント" added_date="2025/04/03" obtain="イベント「プエリアに微笑みを」期間限定召喚"><review rank="B"></review></hero_add>
+	<hero_add id="2210" rare="SSR" name="【乳揺れチアガール】アシュレイ" gacha_type="イベント" added_date="2025/04/03" obtain="イベント「プエリアに微笑みを」期間限定召喚"><review rank="D"></review></hero_add>
+	<hero_add id="2211" rare="SR" name="【乳揺れチアガール】ボニータ" gacha_type="報酬,イベント" added_date="2025/04/03" obtain="イベント「プエリアに微笑みを」ミッション報酬"><review rank="E"></review></hero_add>
+	<hero_add id="2212" rare="SSR" name="【天馬のヴァルキュリア】ジゼル" gacha_type="無限討伐戦" added_date="2025/04/10" obtain="イベント「天馬のヴァルキュリア」期間限定召喚"><review rank="A"></review></hero_add>
+	<hero_add id="2213" rare="SSR" name="【凄腕傭兵】シャティ" gacha_type="Fanzine" added_date="2025/04/17" obtain="イベント「Fanzine」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2214" rare="SSR" name="ベルベル" gacha_type="イベント,コラボ" added_date="2025/04/24" obtain="イベント「巨乳ファンタジー5コラボ ～ザマスの逆襲～」期間限定召喚">
 		<review rank="S">
 			<merit>ダメージ2万UPが闘技場で最強</merit>
 			<merit>バニー無しでも2秒で奥義を撃てるぐらいMP回復が豊富</merit>
 		</review>
 	</hero_add>
-	<hero_add id="2215" rare="SSR" name="ソニア" gacha_type="イベント,スペシャルパス,コラボ" added_date="2025/04/24" obtain="イベント「巨乳ファンタジー5コラボ ～ザマスの逆襲～」スペシャルパス1000Pt報酬" ub_type="1人攻撃,聖被ダメージUP,攻撃UP"><review rank="C"></review></hero_add>
-	<hero_add id="2216" rare="SSR" name="アルシャール" gacha_type="イベント,コラボ" added_date="2025/04/24" obtain="イベント「巨乳ファンタジー5コラボ ～ザマスの逆襲～」期間限定召喚" ub_type="3人攻撃,防御DOWN,ブロックDOWN"><review rank="A"></review></hero_add>
-	<hero_add id="2217" rare="SSR" name="ネフィリア" gacha_type="イベント,コラボ" added_date="2025/05/01" obtain="試練の塔「巨乳ファンタジー5コラボ ～ザマスの逆襲～」期間限定召喚" ub_type="3人攻撃,眩暈,防御DOWN,クリティカルUP">
+	<hero_add id="2215" rare="SSR" name="ソニア" gacha_type="イベント,スペシャルパス,コラボ" added_date="2025/04/24" obtain="イベント「巨乳ファンタジー5コラボ ～ザマスの逆襲～」スペシャルパス1000Pt報酬"><review rank="C"></review></hero_add>
+	<hero_add id="2216" rare="SSR" name="アルシャール" gacha_type="イベント,コラボ" added_date="2025/04/24" obtain="イベント「巨乳ファンタジー5コラボ ～ザマスの逆襲～」期間限定召喚"><review rank="A"></review></hero_add>
+	<hero_add id="2217" rare="SSR" name="ネフィリア" gacha_type="イベント,コラボ" added_date="2025/05/01" obtain="試練の塔「巨乳ファンタジー5コラボ ～ザマスの逆襲～」期間限定召喚">
 		<review rank="S">
 			<merit>スキル1が奥義以上のダメージが出て強すぎ</merit>
 			<merit>サポートが攻撃＆クリでボーナスも攻撃なので優秀</merit>
 		</review>
 	</hero_add>
-	<hero_add id="2218" rare="SSR" name="ルキシス" gacha_type="イベント,コラボ" added_date="2025/05/08" obtain="疾走討伐戦「巨乳ファンタジー5コラボ ～ザマスの逆襲～」期間限定召喚" ub_type="3人攻撃,凍結,攻撃DOWN"><review rank="C"></review></hero_add>
-	<hero_add id="2219" rare="SSR" name="【紅の花魁】アンジェ" gacha_type="Fanzine" added_date="2025/05/15" obtain="イベント「Fanzine」期間限定召喚" ub_type="3人攻撃,眩暈,防御DOWN,命中DOWN"><review rank="C"></review></hero_add>
-	<hero_add id="2220" rare="SSR" name="ゲルディン" gacha_type="イベント" added_date="2025/05/22" obtain="イベント「ラシンはラシンにあらず」期間限定召喚" ub_type="1人攻撃,盲目,防御DOWN,風攻撃UP"><review rank="C"></review></hero_add>
-	<hero_add id="2221" rare="SSR" name="スーラ" gacha_type="イベント" added_date="2025/05/22" obtain="イベント「ラシンはラシンにあらず」期間限定召喚" ub_type="1人攻撃,防御DOWN,攻撃UP"><review rank="C"></review></hero_add>
-	<hero_add id="2222" rare="SR" name="キリエ" gacha_type="報酬,イベント" added_date="2025/05/29" obtain="イベント「ラシンはラシンにあらず」ミッション報酬" ub_type="1人攻撃,火傷,火攻撃UP"><review rank="C"></review></hero_add>
-	<hero_add id="2223" rare="SSR" name="【食欲の女戦士】ラウール＆クルール" gacha_type="シーズンパス" added_date="2025/06/05" obtain="シーズンパスLv50報酬" ub_type="1人攻撃,眩暈,防御DOWN"><review rank="C"></review></hero_add>
-	<hero_add id="2224" rare="SSR" name="ユラ" gacha_type="バーストフェス" added_date="2025/06/05" obtain="バーストフェス期間限定召喚" ub_type="1人攻撃,ブロックDOWN,水被ダメージUP,ダメージUP"><review rank="C"></review></hero_add>
-	<hero_add id="2225" rare="SSR" name="【困惑の花嫁】マグダレーナ" gacha_type="イベント" added_date="2025/06/12" obtain="イベント「恵みの雨は、降り注ぎ」期間限定召喚" ub_type="3人攻撃,防御DOWN,バリア,ダメージUP"><review rank="A"></review></hero_add>
-	<hero_add id="2226" rare="SSR" name="【日傘の花嫁】麗鬼" gacha_type="イベント" added_date="2025/06/12" obtain="イベント「恵みの雨は、降り注ぎ」期間限定召喚" ub_type="3人攻撃,沈黙,火被ダメージUP,ブロックDOWN"><review rank="C"></review></hero_add>
-	<hero_add id="2227" rare="SR" name="ボクっ娘の花嫁】メイニアス" gacha_type="報酬,イベント" added_date="2025/06/12" obtain="イベント「恵みの雨は、降り注ぎ」ミッション報酬" ub_type="1人攻撃,出血,ブロックDOWN"><review rank="C"></review></hero_add>
-	<hero_add id="2228" rare="SSR" name="【疾風のくノ一】リン" gacha_type="Fanzine" added_date="2025/06/19" obtain="イベント「Fanzine」期間限定召喚" ub_type="3人攻撃,攻撃UP,ダメージUP"><review rank="C"></review></hero_add>
-	<hero_add id="2229" rare="SSR" name="ハニス" gacha_type="イベント" added_date="2025/07/03" obtain="イベント「飛来せし巨鳥」期間限定召喚" ub_type="バリア,反射バリア,ブロックUP"><review rank="C"></review></hero_add>
-	<hero_add id="2230" rare="SSR" name="モーラン" gacha_type="イベント" added_date="2025/07/03" obtain="イベント「飛来せし巨鳥」期間限定召喚" ub_type="1人攻撃,防御DOWN,クリティカルUP"><review rank="C"></review></hero_add>
-	<hero_add id="2231" rare="SR" name="ツキナ" gacha_type="イベント,報酬" added_date="2025/07/03" obtain="イベント「飛来せし巨鳥」ミッション報酬" ub_type="HP回復,バリア"><review rank="C"></review></hero_add>
-	<hero_add id="2232" rare="SSR" name="【エルロンの堅牢なる盾】ナターシャ" gacha_type="同盟戦" added_date="2025/06/26" obtain="「同盟戦・火攻略応援」期間限定召喚" ub_type="1人攻撃,命中DOWN,バリア,反射バリア"><review rank="C"></review></hero_add>
-	<hero_add id="2233" rare="SSR" name="【伝説の勇者】ジェミニ" gacha_type="Fanzine" added_date="2025/07/10" obtain="イベント「Fanzine」期間限定召喚" ub_type="5人攻撃,麻痺,攻撃UP,クリティカルUP"><review rank="C"></review></hero_add>
-	<hero_add id="2234" rare="SSR" name="【ビキニでタコ殴り】ギル" gacha_type="イベント" added_date="2025/07/17" obtain="イベント「やかんでゆでたタコのよう」期間限定召喚" ub_type="3人攻撃,盲目,防御DOWN,速度DOWN"><review rank="C"></review></hero_add>
-	<hero_add id="2235" rare="SSR" name="【ビキニでお祝い】ヴィアトリーチェ" gacha_type="イベント" added_date="2025/07/17" obtain="イベント「やかんでゆでたタコのよう」期間限定召喚" ub_type="3人攻撃,火被ダメージUP,行動速度DOWN,火攻撃UP"><review rank="C"></review></hero_add>
-	<hero_add id="2236" rare="SR" name="【たまにはビキニで】リネット" gacha_type="報酬,イベント" added_date="2025/07/17" obtain="イベント「やかんでゆでたタコのよう」ミッション報酬" ub_type="1人攻撃,防御DOWN"><review rank="C"></review></hero_add>
-	<hero_add id="2237" rare="SSR" name="【捕縛杖の聖騎士】カティーシャ" gacha_type="イベント" added_date="2025/07/24" obtain="イベント「この時を、待ちわびて」期間限定召喚" ub_type="1人攻撃,沈黙,防御DOWN,行動速度DOWN"><review rank="C"></review></hero_add>
+	<hero_add id="2218" rare="SSR" name="ルキシス" gacha_type="イベント,コラボ" added_date="2025/05/08" obtain="疾走討伐戦「巨乳ファンタジー5コラボ ～ザマスの逆襲～」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2219" rare="SSR" name="【紅の花魁】アンジェ" gacha_type="Fanzine" added_date="2025/05/15" obtain="イベント「Fanzine」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2220" rare="SSR" name="ゲルディン" gacha_type="イベント" added_date="2025/05/22" obtain="イベント「ラシンはラシンにあらず」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2221" rare="SSR" name="スーラ" gacha_type="イベント" added_date="2025/05/22" obtain="イベント「ラシンはラシンにあらず」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2222" rare="SR" name="キリエ" gacha_type="報酬,イベント" added_date="2025/05/29" obtain="イベント「ラシンはラシンにあらず」ミッション報酬"><review rank="C"></review></hero_add>
+	<hero_add id="2223" rare="SSR" name="【食欲の女戦士】ラウール＆クルール" gacha_type="シーズンパス" added_date="2025/06/05" obtain="シーズンパスLv50報酬"><review rank="C"></review></hero_add>
+	<hero_add id="2224" rare="SSR" name="ユラ" gacha_type="バーストフェス" added_date="2025/06/05" obtain="バーストフェス期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2225" rare="SSR" name="【困惑の花嫁】マグダレーナ" gacha_type="イベント" added_date="2025/06/12" obtain="イベント「恵みの雨は、降り注ぎ」期間限定召喚"><review rank="A"></review></hero_add>
+	<hero_add id="2226" rare="SSR" name="【日傘の花嫁】麗鬼" gacha_type="イベント" added_date="2025/06/12" obtain="イベント「恵みの雨は、降り注ぎ」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2227" rare="SR" name="ボクっ娘の花嫁】メイニアス" gacha_type="報酬,イベント" added_date="2025/06/12" obtain="イベント「恵みの雨は、降り注ぎ」ミッション報酬"><review rank="C"></review></hero_add>
+	<hero_add id="2228" rare="SSR" name="【疾風のくノ一】リン" gacha_type="Fanzine" added_date="2025/06/19" obtain="イベント「Fanzine」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2229" rare="SSR" name="ハニス" gacha_type="イベント" added_date="2025/07/03" obtain="イベント「飛来せし巨鳥」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2230" rare="SSR" name="モーラン" gacha_type="イベント" added_date="2025/07/03" obtain="イベント「飛来せし巨鳥」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2231" rare="SR" name="ツキナ" gacha_type="イベント,報酬" added_date="2025/07/03" obtain="イベント「飛来せし巨鳥」ミッション報酬"><review rank="C"></review></hero_add>
+	<hero_add id="2232" rare="SSR" name="【エルロンの堅牢なる盾】ナターシャ" gacha_type="同盟戦" added_date="2025/06/26" obtain="「同盟戦・火攻略応援」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2233" rare="SSR" name="【伝説の勇者】ジェミニ" gacha_type="Fanzine" added_date="2025/07/10" obtain="イベント「Fanzine」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2234" rare="SSR" name="【ビキニでタコ殴り】ギル" gacha_type="イベント" added_date="2025/07/17" obtain="イベント「やかんでゆでたタコのよう」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2235" rare="SSR" name="【ビキニでお祝い】ヴィアトリーチェ" gacha_type="イベント" added_date="2025/07/17" obtain="イベント「やかんでゆでたタコのよう」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="2236" rare="SR" name="【たまにはビキニで】リネット" gacha_type="報酬,イベント" added_date="2025/07/17" obtain="イベント「やかんでゆでたタコのよう」ミッション報酬"><review rank="C"></review></hero_add>
+	<hero_add id="2237" rare="SSR" name="【捕縛杖の聖騎士】カティーシャ" gacha_type="イベント" added_date="2025/07/24" obtain="イベント「この時を、待ちわびて」期間限定召喚"><review rank="C"></review></hero_add>
 
 	<!-- コピペ用
-	<hero_add id="" rare="SSR" name="" gacha_type="イベント" added_date="2025/00/00" obtain="イベント「【イベント名】」期間限定召喚" ub_type=""><review rank="C"></review></hero_add>
-	<hero_add id="" rare="SSR" name="" gacha_type="イベント" added_date="2025/00/00" obtain="イベント「【イベント名】」期間限定召喚" ub_type=""><review rank="C"></review></hero_add>
-	<hero_add id="" rare="SR" name="" gacha_type="報酬,イベント" added_date="2025/00/00" obtain="イベント「【イベント名】」ミッション報酬" ub_type=""><review rank="C"></review></hero_add>
+	<hero_add id="" rare="SSR" name="" gacha_type="イベント" added_date="2025/00/00" obtain="イベント「【イベント名】」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="" rare="SSR" name="" gacha_type="イベント" added_date="2025/00/00" obtain="イベント「【イベント名】」期間限定召喚"><review rank="C"></review></hero_add>
+	<hero_add id="" rare="SR" name="" gacha_type="報酬,イベント" added_date="2025/00/00" obtain="イベント「【イベント名】」ミッション報酬"><review rank="C"></review></hero_add>
 	-->
 </root>
