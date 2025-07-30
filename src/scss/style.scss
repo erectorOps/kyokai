@@ -479,6 +479,7 @@ li img.s-img {
     background: #f6f6f6;
     color: #a3a3a3;
     height: 42px;
+    user-select: none;
 }
 
 .tab_container > li[data-check="1"]{
@@ -526,6 +527,7 @@ li img.s-img {
         border: 2px solid #f0f0f0;
         border-radius: 5px;
         text-align: center;
+        user-select: none;
 
         > div {
             font-size: 1.2rem;
