@@ -314,6 +314,12 @@ class SkillCheck {
     isResetResistance() {
         return this.is_buff((info) => info.target.indexOf("自身") != -1 && info.type == "驅散抗性");
     }
+    isBleedResistance() {
+        return this.is_buff((info) => info.target.indexOf("自身") != -1 && info.type == "流血抗性");
+    }
+    isFearResistance() {
+        return this.is_buff((info) => info.target.indexOf("自身") != -1 && info.type == "恐懼抗性");
+    }
 
     // Debuff -----------------------------------------------------------------------
 
@@ -383,6 +389,13 @@ class SkillCheck {
 
     isReset() {
         return this.is_buff((info) => info.target.indexOf("敵方") != -1 && info.type == "驅散");
+    }
+
+    isBleed() {
+        return this.is_buff((info) => info.target.indexOf("敵方") != -1 && info.type == "流血");
+    }
+    isFear() {
+        return this.is_buff((info) => info.target.indexOf("敵方") != -1 && info.type == "恐懼");
     }
 }
 
@@ -738,7 +751,7 @@ export class PreSkillCategorize {
         }
 
         if (skills.some(v => v.isCharm())) {
-            type.push(def["誘惑"]);
+            type.push(def["魅了"]);
         }
 
         if (skills.some(v => v.isCurse())) {
@@ -751,6 +764,12 @@ export class PreSkillCategorize {
 
         if (skills.some(v => v.isReset())) {
             type.push(def["解消"]);
+        }
+        if (skills.some(v => v.isBleed())) {
+            type.pus(def["出血"]);
+        }
+        if (skills.some(v => v.isFear())) {
+            type.pus(def["恐怖"]);
         }
     }
 
@@ -796,7 +815,7 @@ export class PreSkillCategorize {
         }
 
         if (skills.some(v => v.isCharmResistance())) {
-            type.push(def["誘惑耐性"]);
+            type.push(def["魅了耐性"]);
         }
 
         if (skills.some(v => v.isCurseResistance())) {
@@ -809,6 +828,12 @@ export class PreSkillCategorize {
 
         if (skills.some(v => v.isResetResistance())) {
             type.push(def["解消耐性"]);
+        }
+        if (skills.some(v => v.isBleedResistance())) {
+            type.push(def["出血耐性"]);
+        }
+        if (skills.some(v => v.isFearResistance())) {
+            type.push(def["恐怖耐性"]);
         }
     }
 }
