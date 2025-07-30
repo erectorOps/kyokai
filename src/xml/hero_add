@@ -18,7 +18,7 @@ E: すべてのコンテンツ、属性、戦術において候補に上がる�
 	<hero_add id="2006" rare="SR" name="エメラリア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
 	<hero_add id="2007" rare="R" name="アフロディア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
 	<hero_add id="2008" rare="SR" name="ネリス" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
-	<hero_add id="2009" rare="R" name="ドロワット" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="D"></review></hero_add>
+	<hero_add id="2009" rare="R" name="ドロワット" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" bug_report="奥義がテキストと異なり敵3体に攻撃している"><review rank="D"></review></hero_add>
 	<hero_add id="2010" rare="R" name="アリステラ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
 	<hero_add id="2011" rare="R" name="ロザリン" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
 	<hero_add id="2012" rare="R" name="エストリア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
@@ -162,7 +162,7 @@ E: すべてのコンテンツ、属性、戦術において候補に上がる�
 			<demerit>魔クリアップバフが上限に行って腐りがち</demerit>
 		</review>
 	</hero_add>
-	<hero_add id="2122" rare="SR" name="ビューティア" gacha_type="報酬,イベント" added_date="2024/03/21" obtain="イベント「脂肪は正義、否、悪魔」ミッション報酬"><review rank="E"></review></hero_add>
+	<hero_add id="2122" rare="SR" name="ビューティア" gacha_type="報酬,イベント" added_date="2024/03/21" obtain="イベント「脂肪は正義、否、悪魔」ミッション報酬" bug_report="一部のバトルモーションが実装されてない"><review rank="E"></review></hero_add>
 	<hero_add id="2123" rare="SSR" name="フィオノーレ" gacha_type="試練の塔" added_date="2024/03/28" obtain="イベント「復活の母乳」期間限定召喚"><review rank="B"></review></hero_add>
 	<hero_add id="2124" rare="SSR" name="厄叉" gacha_type="恒常" added_date="2024/04/04" obtain="恒常,「DMM PLAYER版リリース記念」先行召喚"><review rank="C"></review></hero_add>
 	<hero_add id="2125" rare="SSR" name="ニーナ" gacha_type="恒常" added_date="2024/04/11" obtain="恒常,「DMM PLAYER版リリース記念」先行召喚"><review rank="B"></review></hero_add>
@@ -265,7 +265,7 @@ E: すべてのコンテンツ、属性、戦術において候補に上がる�
 	<hero_add id="2198" rare="SSR" name="【初めてのチョコづくり】カグヤ" gacha_type="イベント" added_date="2025/02/06" obtain="イベント「聖菓のために、我ゆかん」期間限定召喚"><review rank="C"></review></hero_add>
 	<hero_add id="2199" rare="SSR" name="【チョコレートはわたし♪】アンジェ" gacha_type="イベント" added_date="2025/02/06" obtain="イベント「聖菓のために、我ゆかん」期間限定召喚"><review rank="C"></review></hero_add>
 	<hero_add id="2200" rare="SR" name="【チョコづくりメイド】サーカ" gacha_type="報酬,イベント" added_date="2025/02/06" obtain="イベント「聖菓のために、我ゆかん」ミッション報酬"><review rank="E"></review></hero_add>
-	<hero_add id="2202" rare="SSR" name="麗鬼" gacha_type="バーストフェス" added_date="2025/02/20" obtain="バーストフェス期間限定召喚">
+	<hero_add id="2202" rare="SSR" name="麗鬼" gacha_type="バーストフェス" added_date="2025/02/20" obtain="バーストフェス期間限定召喚" bug_report="奥義Lv5の鬼火5個の時の追加効果が奥義Lv2のものになっている">
 		<review rank="A">
 			<merit>全体反射スキルが闘技場でとても強力</merit>
 			<demerit>行動速度+20%が優秀だが大抵ノワ等に上書きされてしまう</demerit>

@@ -60,13 +60,15 @@ export class HeroContents {
               equip_type: hero['@_equip_type'],
               gacha_type: "",
               added_date: "",
-              obtain: ""
+              obtain: "",
+              bug_report: ""
           };
 
           if (gachaTypeEntity) {
             json.gacha_type = gachaTypeEntity['@_gacha_type'] ?? "";
             json.added_date = gachaTypeEntity['@_added_date'] ?? "";
             json.obtain = gachaTypeEntity['@_obtain'] ?? "";
+            json.bug_report = gachaTypeEntity['@_bug_report'] ?? "";
 
             // if (gachaTypeEntity.review) {
             //   json.rank_text = gachaTypeEntity.review['@_rank'];

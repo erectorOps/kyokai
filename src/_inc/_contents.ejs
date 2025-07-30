@@ -194,6 +194,9 @@
           <tr><th width="25%">体型</th><td><%= page['measurements'] %></td></tr>
           <tr><th width="25%">実装日</th><td><%= page['added_date'] %></td></tr>
           <tr><th width="25%">入手方法</th><td><%- page['obtain'].replace(/,/ig, "<br>") %></td></tr>
+          <% if (page['bug_report']) { %>
+          <tr><th width="25%">バグ報告</th><td><%= page['bug_report'] %></td></tr>
+          <% } %>
           </tbody>
       </tbody>
   </table>
