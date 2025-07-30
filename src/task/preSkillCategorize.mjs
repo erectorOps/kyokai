@@ -766,10 +766,10 @@ export class PreSkillCategorize {
             type.push(def["解消"]);
         }
         if (skills.some(v => v.isBleed())) {
-            type.pus(def["出血"]);
+            type.push(def["出血"]);
         }
         if (skills.some(v => v.isFear())) {
-            type.pus(def["恐怖"]);
+            type.push(def["恐怖"]);
         }
     }
 
