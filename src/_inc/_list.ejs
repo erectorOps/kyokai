@@ -38,80 +38,20 @@
             </td></tr>
             <tr><th>奥義</th>
             <td>
-                <ul class="filter_container" data-filter="ub_type" data-count="26">
-
-                <li data-val="<%= def['単体攻撃'] %>" data-check="0"><div>単体攻撃</div></li>
-                <li data-val="<%= def['複数攻撃'] %>" data-check="0"><div>複数攻撃</div></li>
-                <li data-val="<%= def['六人攻撃'] %>" data-check="0"><div>6人攻撃</div></li>
-                <li data-val="<%= def['全体攻撃'] %>" data-check="0"><div>全体攻撃</div></li>
-                <li data-val="<%= def['バフのみ'] %>" data-check="0"><div>バブのみ</div></li>
-
-                <li data-val="<%= def['HP回復'] %>" data-check="0"><div>HP回復</div></li>
-                <li data-val="<%= def['MP回復'] %>" data-check="0"><div>MP回復</div></li>
-                <li data-val="<%= def['物理攻撃UP'] %>,<%= def['魔法攻撃UP'] %>" data-check="0"><div>攻撃UP</div></li>
-                <li data-val="<%= def['物理クリティカルUP'] %>,<%= def['魔法クリティカルUP'] %>" data-check="0"><div>クリティカルUP</div></li>
-                <li data-val="<%= def['行動速度UP'] %>" data-check="0"><div>行動速度UP</div></li>
-
-                <li data-val="<%= def['属性攻撃UP'] %>" data-check="0"><div>◯属性攻撃UP</div></li>
-                <li data-val="<%= def['回数付ダメージUP'] %>,<%= def['回数付物理ダメージUP'] %>,<%= def['回数付魔法ダメージUP'] %>" data-check="0"><div>回数付ダメージUP</div></li>
-                <li data-val="<%= def['ダメージUP'] %>" data-check="0"><div>ダメージUP</div></li>
-                <li data-val="<%= def['挑発'] %>" data-check="0"><div>挑発</div></li>
-                <li data-val="<%= def['デバフ耐性'] %>" data-check="0"><div>デバフ耐性</div></li>
-
-                <li data-val="<%= def['物理防御DOWN'] %>,<%= def['魔法防御DOWN'] %>" data-check="0"><div>防御DOWN</div></li>
-                <li data-val="<%= def['行動速度DOWN'] %>" data-check="0"><div>行動速度DOWN</div></li>
-                <li data-val="<%= def['被ダメージUP'] %>" data-check="0"><div>被ダメージUP</div></li>
-                <li data-val="<%= def['毒'] %>,<%= def['火傷'] %>,<%= def['凍結'] %>,<%= def['出血'] %>,<%= def['沈黙'] %>,<%= def['解消'] %>,<%= def['麻痺'] %>,<%= def['睡眠'] %>,<%= def['石化'] %>,<%= def['眩暈'] %>,<%= def['混乱'] %>,<%= def['魅了'] %>,<%= def['呪い'] %>,<%= def['盲目'] %>,<%= def['恐怖'] %>,<%= def['解消'] %>" data-check="0"><div>状態異常</div></li>
-                <li data-val="<%= def['自身MP回復'] %>" data-check="0"><div>自MP回復</div></li>
-
-                <li data-val="<%= def['自身物理攻撃UP'] %>,<% def['自身魔法攻撃UP'] %>" data-check="0"><div>自攻撃UP</div></li>
-                <li data-val="<%= def['自身物理クリティカルUP'] %>,<%= def['自身魔法クリティカルUP'] %>" data-check="0"><div>自クリUP</div></li>
-                <li data-val="<%= def['自身行動速度UP'] %>" data-check="0"><div>自行動速度UP</div></li>
-                <li data-val="<%= def['自身属性攻撃UP'] %>" data-check="0"><div>自属性攻撃UP</div></li>
-                <li data-val="<%= def['自身回数付ダメージUP'] %>,<%= def['自身回数付物理ダメージUP'] %>,<%= def['自身回数付魔法ダメージUP'] %>" data-check="0"><div>自回数付ダメUP</div></li>
-
-                <li data-val="<%= def['自身ダメージUP'] %>,<%= def['自身条件付ダメージUP'] %>" data-check="0"><div>自ダメージUP</div></li>
-                </ul>
+<%-
+    include('./_ub_buttons.ejs', {
+        def: json.def
+    });
+%>
             </td>
             </tr>
             <tr><th>スキル</th>
             <td>
-                <ul class="filter_container" data-filter="sk_type" data-count="28">
-
-                    <li data-val="<%= def['W攻撃'] %>" data-check="0"><div>W攻撃</div></li>
-                    <li data-val="<%= def['バフのみ'] %>" data-check="0"><div>バフのみ</div></li>
-                    <li data-val="<%= def['MP回復'] %>" data-check="0"><div>MP回復</div></li>
-                    <li data-val="<%= def['物理攻撃UP'] %>,<%= def['魔法攻撃UP'] %>" data-check="0"><div>攻撃UP</div></li>
-                    <li data-val="<%= def['物理クリティカルUP'] %>,<%= def['魔法クリティカルUP'] %>" data-check="0"><div>クリティカルUP</div></li>
-
-                    <li data-val="<%= def['行動速度UP'] %>" data-check="0"><div>行動速度UP</div></li>
-                    <li data-val="<%= def['スキルダメージUP'] %>" data-check="0"><div>スキルダメージUP</div></li>
-                    <li data-val="<%= def['奥義ダメージUP'] %>" data-check="0"><div>奥義ダメージUP</div></li>
-                    <li data-val="<%= def['属性攻撃UP'] %>" data-check="0"><div>◯属性攻撃UP</div></li>
-                    <li data-val="<%= def['回数付ダメージUP'] %>,<%= def['回数付物理ダメージUP'] %>,<%= def['回数付魔法ダメージUP'] %>" data-check="0"><div>回数付ダメージUP</div></li>
-
-                    <li data-val="<%= def['ダメージUP'] %>" data-check="0"><div>ダメージUP</div></li>
-                    <li data-val="<%= def['挑発'] %>" data-check="0"><div>挑発</div></li>
-                    <li data-val="<%= def['デバフ耐性'] %>" data-check="0"><div>デバフ耐性</div></li>
-                    <li data-val="<%= def['物理防御DOWN'] %>,<%= def['魔法防御DOWN'] %>" data-check="0"><div>防御DOWN</div></li>
-                    <li data-val="<%= def['行動速度DOWN'] %>" data-check="0"><div>行動速度DOWN</div></li>
-
-                    <li data-val="<%= def['被ダメージUP'] %>" data-check="0"><div>被ダメージUP</div></li>
-                    <li data-val="<%= def['挑発耐性'] %>" data-check="0"><div>挑発耐性</div></li>
-                    <li data-val="<%= def['毒'] %>,<%= def['火傷'] %>,<%= def['凍結'] %>,<%= def['出血'] %>,<%= def['沈黙'] %>,<%= def['解消'] %>,<%= def['麻痺'] %>,<%= def['睡眠'] %>,<%= def['石化'] %>,<%= def['眩暈'] %>,<%= def['混乱'] %>,<%= def['魅了'] %>,<%= def['呪い'] %>,<%= def['盲目'] %>,<%= def['恐怖'] %>,<%= def['解消'] %>" data-check="0"><div>状態異常</div></li>
-                    <li data-val="<%= def['自身MP回復'] %>" data-check="0"><div>自MP回復</div></li>
-                    <li data-val="<%= def['自身物理攻撃UP'] %>,<%= def['自身魔法攻撃UP'] %>" data-check="0"><div>自攻撃UP</div></li>
-
-                    <li data-val="<%= def['自身物理クリティカルUP'] %>,<%= def['自身魔法クリティカルUP'] %>" data-check="0"><div>自クリUP</div></li>
-                    <li data-val="<%= def['自身行動速度UP'] %>" data-check="0"><div>自行動速度UP</div></li>
-                    <li data-val="<%= def['自身スキルダメージUP'] %>" data-check="0"><div>自スキルダメUP</div></li>
-                    <li data-val="<%= def['自身奥義ダメージUP'] %>" data-check="0"><div>自奥義ダメUP</div></li>
-                    <li data-val="<%= def['自身属性攻撃UP'] %>" data-check="0"><div>自属性攻撃UP</div></li>
-
-                    <li data-val="<%= def['自身回数付ダメージUP'] %>,<%= def['自身回数付物理ダメージUP'] %>,<%= def['自身回数付魔法ダメージUP'] %>" data-check="0"><div>自回数付ダメUP</div></li>
-                    <li data-val="<%= def['自身ダメージUP'] %>,<%= def['自身条件付ダメージUP'] %>" data-check="0"><div>自ダメージUP</div></li>
-                    <li data-val="<%= def['自身デバフ耐性'] %>" data-check="0"><div>自デバフ耐性</div></li>
-                </ul>
+<%-
+    include('./_sk_buttons.ejs', { 
+        def: json.def
+    });
+%>
             </td>
             </tr>
             <tr><th>武器</th>
@@ -181,28 +121,16 @@
     <table class="s-table">
         <tbody>
 <%-
-    include('./_order_by_rare.ejs', {
-        baseUrl: baseUrl,
-        page: json
-    });
+    include('./_order_by_rare.ejs');
 %>
 <%-
-    include('./_order_by_no.ejs', {
-        baseUrl: baseUrl,
-        page: json
-    });
+    include('./_order_by_no.ejs');
 %>
 <%-
-    include('./_order_by_range.ejs', {
-        baseUrl: baseUrl,
-        page: json
-    });
+    include('./_order_by_range.ejs');
 %>
 <%-
-    include('./_order_by_tier.ejs', {
-        baseUrl: baseUrl,
-        page: json
-    });
+    include('./_order_by_tier.ejs');
 %>
         </tbody>
     </table>

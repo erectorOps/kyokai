@@ -43,7 +43,8 @@ export class HeroList {
                 title: "聖騎士一覧",
                 description: "聖騎士一覧",
                 keywords: "聖騎士一覧",
-                heros: []
+                heros: [],
+                def: def
             };
             
             for(const hero of heroList) {
@@ -138,7 +139,7 @@ export class HeroList {
             }
             // HTMLファイル作成
             return gulp.src([srcBase + "/index.ejs", srcPath._ejs])
-            .pipe(ejs({json: jsonRoot, define: def}))
+            .pipe(ejs({json: jsonRoot}))
             .pipe(rename(
             {
                 basename: 'index',
