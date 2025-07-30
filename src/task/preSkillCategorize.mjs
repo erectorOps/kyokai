@@ -13,6 +13,10 @@ class SkillCheck {
             s1 = skills.find(item => item['@_id'] === s1['@_awake_change_skill_id']);
         }
 
+        if (s1['@_guild_war_skill_id'] !== "0") {
+            s1 = skills.find(item => item['@_id'] === s1['@_guild_war_skill_id']);
+        }
+
         const list = [];
 
         list.push(s1);
@@ -25,6 +29,9 @@ class SkillCheck {
 
                     if (s2['@_awake_change_skill_id'] !== "0") {
                         s2 = skills.find(item => item['@_id'] === s2['@_awake_change_skill_id']);
+                    }
+                    if (s2['@_guild_war_skill_id'] !== "0") {
+                        s2 = skills.find(item => item['@_id'] === s2['@_guild_war_skill_id']);
                     }
                     if (list.indexOf(s2) < 0) {
                         list.push(s2);
