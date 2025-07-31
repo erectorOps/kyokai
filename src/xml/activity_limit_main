@@ -215,4 +215,9 @@
     <limit_boss>400085</limit_boss>
     <limit_boss>0</limit_boss>
   </activity_limit_main>
+  <activity_limit_main id="40044" name="第44回競撃戦" hero_group_id="2238">
+    <limit_boss>400086</limit_boss>
+    <limit_boss>400087</limit_boss>
+    <limit_boss>0</limit_boss>
+  </activity_limit_main>
 </root>

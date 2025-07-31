@@ -1414,6 +1414,34 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </monster_1>
+  <monster_1 id="40087" name="ゴーレム" limit_sec="120" boss_id="40087" boss_lv="70" boss_ani_scale="0.6" boss_buff_group_id="40087">
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="40088" name="ゴーレム" limit_sec="120" boss_id="40088" boss_lv="70" boss_ani_scale="0.6" boss_buff_group_id="40087">
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
   <monster_1 id="50011" name="活動1前半N" limit_sec="90" boss_id="50011" boss_lv="5" boss_ani_scale="0" boss_buff_group_id="11">
     <hero_id>1035030</hero_id>
     <hero_id>1035030</hero_id>
@@ -107092,6 +107120,216 @@
     <hero_id>1015009</hero_id>
     <hero_id>509602</hero_id>
     <hero_id>1015033</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="509701011" name="Fanzine 1Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035015</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="509701012" name="Fanzine 1Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035015</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>1035012</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="509701013" name="Fanzine 1Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035009</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>1035012</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="509702011" name="Fanzine 2Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035015</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="509702012" name="Fanzine 2Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035015</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>1035012</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="509702013" name="Fanzine 2Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035009</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>1035012</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="509703011" name="Fanzine 3Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035015</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="509703012" name="Fanzine 3Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035015</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>1035012</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="509703013" name="Fanzine 3Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035009</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>1035012</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="509704011" name="Fanzine 4Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035015</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="509704012" name="Fanzine 4Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035015</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>1035012</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="509704013" name="Fanzine 4Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035009</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>1035012</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="509705011" name="Fanzine 周回Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035023</hero_id>
+    <hero_id>1035024</hero_id>
+    <hero_id>1035025</hero_id>
+    <hero_id>1035026</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="509705012" name="Fanzine 周回Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035023</hero_id>
+    <hero_id>1035028</hero_id>
+    <hero_id>1035026</hero_id>
+    <hero_id>1035025</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </monster_1>
+  <monster_1 id="509705013" name="Fanzine 周回Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035023</hero_id>
+    <hero_id>1035029</hero_id>
+    <hero_id>1035024</hero_id>
+    <hero_id>1035026</hero_id>
+    <hero_id>1035027</hero_id>
     <hero_id>0</hero_id>
     <hero_lv>20</hero_lv>
     <hero_lv>20</hero_lv>

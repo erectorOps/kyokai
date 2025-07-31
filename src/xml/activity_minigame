@@ -13,4 +13,5 @@
   <activity_minigame id="11" name="藏寶圖" cost_item_id="0" cost_item_num="0" hero_group="0" type="藏寶圖" mini_game_val1="900088" reward_val1="0" reward_val2="0" reward_val3="0" reward_val4="0" reward_val5="0" reward_val6="0" reward_val7="0" />
   <activity_minigame id="12" name="走格子" cost_item_id="1614" cost_item_num="1" hero_group="2228" type="走格子" mini_game_val1="10" mini_game_val2="1615" mini_game_val3="1" reward_val1="90065" reward_val2="90066" reward_val3="90067" reward_val4="90068" reward_val5="90069" reward_val6="90070" reward_val7="1000014" />
   <activity_minigame id="13" name="藏寶圖" cost_item_id="0" cost_item_num="0" hero_group="0" type="藏寶圖" mini_game_val1="900097" reward_val1="0" reward_val2="0" reward_val3="0" reward_val4="0" reward_val5="0" reward_val6="0" reward_val7="0" />
+  <activity_minigame id="14" name="走格子" cost_item_id="1654" cost_item_num="1" hero_group="2238" type="走格子" mini_game_val1="11" mini_game_val2="1655" mini_game_val3="1" reward_val1="90071" reward_val2="90072" reward_val3="90073" reward_val4="90074" reward_val5="90075" reward_val6="90076" reward_val7="1000016" />
 </root>

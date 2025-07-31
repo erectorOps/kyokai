@@ -222,7 +222,7 @@
     <daily_item_num>0</daily_item_num>
     <daily_item_num>0</daily_item_num>
   </month_card>
-  <month_card id="1045" name="【おπの月(前半)】特別セット" icon="item001/PASS01_7日パス" dur_day="7" can_buy_day="0" daily_free_point="200" daily_money="0" daily_ap="0" daily_bp="0" ap_max_add="0" resource_atk_cnt_add="0" vip_id="0" vip_add_exp="0">
+  <month_card id="1045" name="【おπの月(前半)】特別セット" icon="item001/PASS01_7日パス" dur_day="7" can_buy_day="0" daily_free_point="0" daily_money="0" daily_ap="200" daily_bp="0" ap_max_add="0" resource_atk_cnt_add="0" vip_id="0" vip_add_exp="0">
     <daily_item_id>0</daily_item_id>
     <daily_item_id>0</daily_item_id>
     <daily_item_num>0</daily_item_num>

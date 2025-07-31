@@ -2233,4 +2233,18 @@
     <bonus_cycle>0</bonus_cycle>
     <bonus_cycle>0</bonus_cycle>
   </stage_area>
+  <stage_area id="300201" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="【おπの月】特別クエスト" bg="eventbg/speventbg1/event_2025oppaimonth-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="509701" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="稀代の発明家" bg="eventbg/eventbg30/event_91-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
 </root>

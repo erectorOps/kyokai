@@ -832,6 +832,18 @@
   <monster_action id="509503" info="残りHP80%" type="自身血量低於" value="0.8" skill_id="509525" />
   <monster_action id="509503" info="残りHP50%" type="自身血量低於" value="0.5" skill_id="509526" />
   <monster_action id="509503" info="残りHP30%" type="自身血量低於" value="0.3" skill_id="509527" />
+  <monster_action id="40087" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4008701" />
+  <monster_action id="40087" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4008702" />
+  <monster_action id="40087" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4008703" />
+  <monster_action id="40087" info="自身が「物理防御DOWN」状態の場合" type="自身有指定狀態" value="DEF上升或下降" skill_id="4008704" />
+  <monster_action id="40087" info="自身が「魔法防御DOWN」状態の場合" type="自身有指定狀態" value="MDEF上升或下降" skill_id="4008705" />
+  <monster_action id="40087" info="自身が「ブロックDOWN」状態の場合" type="自身有指定狀態" value="迴避上升或下降" skill_id="4008706" />
+  <monster_action id="40088" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4008801" />
+  <monster_action id="40088" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4008802" />
+  <monster_action id="40088" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4008803" />
+  <monster_action id="40088" info="自身が「物理防御DOWN」状態の場合" type="自身有指定狀態" value="DEF上升或下降" skill_id="4008804" />
+  <monster_action id="40088" info="自身が「魔法防御DOWN」状態の場合" type="自身有指定狀態" value="MDEF上升或下降" skill_id="4008805" />
+  <monster_action id="40088" info="自身が「ブロックDOWN」状態の場合" type="自身有指定狀態" value="迴避上升或下降" skill_id="4008806" />
   <monster_action id="41001" type="剩餘時間低於" value="90" skill_id="4100101" />
   <monster_action id="41001" type="剩餘時間低於" value="60" skill_id="4100102" />
   <monster_action id="41001" type="剩餘時間低於" value="30" skill_id="4100103" />

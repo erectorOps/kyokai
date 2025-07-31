@@ -72,16 +72,18 @@
   <system def="SR級角色碎片溢出轉換比" val="5" />
   <system def="SSR級角色碎片溢出轉換比" val="25" />
   <system def="SKIN道具天數轉換比" val="100" />
+  <system def="自選PU召喚獲得額外碎片數" val="50" />
+  <system def="自選PU交換所獲得額外碎片數" val="100" />
   <system def="基礎角色數限制" val="150" />
   <system def="基礎道具數限制" val="1000" />
   <system def="AP回復商品群組" val="101" />
-  <system def="AP回復優惠開始時間" val="2025/07/25 03:00:00" />
-  <system def="AP回復優惠結束時間" val="2025/08/01 03:00:00" />
+  <system def="AP回復優惠開始時間" val="2025/08/16 03:00:00" />
+  <system def="AP回復優惠結束時間" val="2025/09/01 03:00:00" />
   <system def="AP回復優惠商品群組" val="102" />
   <system def="AP回復優惠額度" val="50" />
   <system def="BP回復商品群組" val="201" />
-  <system def="BP回復優惠開始時間" val="2025/07/25 03:00:00" />
-  <system def="BP回復優惠結束時間" val="2025/08/01 03:00:00" />
+  <system def="BP回復優惠開始時間" val="2025/08/16 03:00:00" />
+  <system def="BP回復優惠結束時間" val="2025/09/01 03:00:00" />
   <system def="BP回復優惠商品群組" val="202" />
   <system def="BP回復優惠額度" val="50" />
   <system def="道具欄位擴充商品群組" val="1101" />
@@ -94,8 +96,8 @@
   <system def="投裝備套組擴充商品群組" val="1151" />
   <system def="共通裝備套組擴充商品群組" val="1156" />
   <system def="資源收集重置商品群組" val="501" />
-  <system def="資源收集重置優惠開始時間" val="2025/05/30 03:00:00" />
-  <system def="資源收集重置優惠結束時間" val="2025/06/06 03:00:00" />
+  <system def="資源收集重置優惠開始時間" val="2025/08/01 03:00:00" />
+  <system def="資源收集重置優惠結束時間" val="2025/08/16 03:00:00" />
   <system def="資源收集重置優惠商品群組" val="502" />
   <system def="資源收集重置優惠額度" val="50" />
   <system def="遊戲幣購買商品群組" val="701" />
@@ -376,7 +378,7 @@
   <system def="飾品2格開放需求英雄等級" val="41" />
   <system def="飾品4格開放需求英雄等級" val="51" />
   <system def="飾品5格開放需求英雄等級" val="61" />
-  <system def="新角色影片名稱" val="PS8_hero_2237.mp4" />
+  <system def="新角色影片名稱" val="PS8_hero_2238.mp4" />
   <system def="新角色影片更換時間" />
   <system def="新角色影片更換名稱" />
   <system def="特典序號圖示" val="item001/redemption_icon" />
@@ -389,6 +391,9 @@
   <system def="活動通行證解鎖獎勵功能顯示天數" val="7" />
   <system def="活動通行證解鎖獎勵商品群組" val="2801" />
   <system def="回歸活動商店關閉天數" val="7" />
+  <system def="回歸活動撈取玩家數量" val="100" />
+  <system def="回歸活動玩家列表數量" val="15" />
+  <system def="回歸活動撈取玩家間隔" val="5" />
   <system def="合成頁面分類水晶素材_小_特殊數值" val="2000" />
   <system def="合成頁面分類水晶素材_中_特殊數值" val="2001" />
   <system def="合成頁面分類水晶素材_大_特殊數值" val="2002" />
@@ -442,15 +447,15 @@
   <system def="地城EX關卡重置日期" val="1/15" />
   <system def="地城排行榜獎勵配布日期" val="1" />
   <system def="地城排行最大頁數" val="10" />
-  <system def="活動巨乳月開始時間" val="2025-08-01 12:00:00" />
+  <system def="活動巨乳月開始時間" val="2025-08-01 00:00:00" />
   <system def="活動巨乳月後半開始時間" val="2025-08-16 00:00:00" />
   <system def="活動巨乳月結束時間" val="2025-08-31 23:59:59" />
   <system def="活動巨乳月轉換道具ID" val="25" />
   <system def="活動巨乳月轉換AP比率" val="1" />
   <system def="活動巨乳月轉換BP比率" val="20" />
-  <system def="活動巨乳月開放活動編號" val="3000" />
-  <system def="活動巨乳月開放商店編號" val="5990" />
-  <system def="活動巨乳月開放商店編號2" />
+  <system def="活動巨乳月開放活動編號" val="3002" />
+  <system def="活動巨乳月開放商店編號" val="5991" />
+  <system def="活動巨乳月開放商店編號2" val="5990" />
   <system def="活動巨乳月道具排行獎勵ID" val="999993" />
   <system def="活動巨乳月後半道具排行獎勵ID" val="999994" />
   <system def="活動巨乳月開放任務編號" val="916" />

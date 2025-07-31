@@ -2817,4 +2817,23 @@
     <skill_lv>3</skill_lv>
     <skill_lv>4</skill_lv>
   </equip>
+  <equip id="4370" type="專武" can_equip_hero_ids="2239" rank_limit="4" equip_lv_max="50" main_statistic="奧義傷害百分比" main_statistic_value="10" main_statistic_grow="0" rankup_instead_item="113">
+    <secondary_statistic>2</secondary_statistic>
+    <secondary_statistic>1</secondary_statistic>
+    <secondary_statistic>0</secondary_statistic>
+    <secondary_statistic_value>40</secondary_statistic_value>
+    <secondary_statistic_value>300</secondary_statistic_value>
+    <secondary_statistic_grow>4</secondary_statistic_grow>
+    <secondary_statistic_grow>30</secondary_statistic_grow>
+    <skill_id>221901</skill_id>
+    <skill_id>221902</skill_id>
+    <skill_id>221903</skill_id>
+    <skill_id>221904</skill_id>
+    <skill_id>221905</skill_id>
+    <skill_lv>0</skill_lv>
+    <skill_lv>1</skill_lv>
+    <skill_lv>2</skill_lv>
+    <skill_lv>3</skill_lv>
+    <skill_lv>4</skill_lv>
+  </equip>
 </root>

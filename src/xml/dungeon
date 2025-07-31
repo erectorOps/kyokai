@@ -221,7 +221,7 @@
     <stage_id>0</stage_id>
     <stage_id>0</stage_id>
   </dungeon>
-  <dungeon id="14" type="EX" start_time="2025/08/01 03:00:00" end_time="2025/09/01 02:59:59" rank_id="513" stage_buff_group="601300" star_id="1000015" award_bonus_scale="0">
+  <dungeon id="14" type="EX" start_time="2025/08/01 03:00:00" end_time="2025/09/01 02:59:59" rank_id="513" stage_buff_group="601300" star_id="1000015" award_bonus_scale="1" award_bonus_start_time="2025/08/01 03:00:00" award_bonus_end_time="2025/09/01 02:59:59">
     <stage_id>131</stage_id>
     <stage_id>132</stage_id>
     <stage_id>133</stage_id>
