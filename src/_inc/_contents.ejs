@@ -183,6 +183,25 @@
       </tbody>
     </table>    
     <% } %>
+    <h3 class="s-header--3">絆ボーナス</h3>
+    <table class="s-table">
+      <tbody>
+        <% for (const gp_key in page.gp_text) { %>
+        <tr><th width="100%" colspan="5"><%= gp_key %></th></tr>
+        <tr>
+          <% for (let i = 0; i < 5; i++) { %>
+            <td class="center" width="20%"><div><string>【Lv.<%= i+1 %>】</string></div><div><%= page.gp_text[gp_key][i] %></div></td>
+          <% } %>
+        </tr>
+        <tr>
+          <% for (let i = 5; i < 9; i++) { %>
+            <td class="center" width="20%"><div><string>【Lv.<%= i+1 %>】</string></div><div><%= page.gp_text[gp_key][i] %></div></td>
+          <% } %>
+          <td class="center" width="20%"><div><string>【Lv.10】</string></div><div style="color:red"><%= page.gp_text[gp_key][9] %></div></td>
+        </tr>
+        <% } %>
+      </tbody>
+    </table>
     <h3 class="s-header--3">備考</h3>
     <table class="s-table">
       <tbody>
@@ -194,6 +213,11 @@
           <tr><th width="25%">体型</th><td><%= page['measurements'] %></td></tr>
           <tr><th width="25%">実装日</th><td><%= page['added_date'] %></td></tr>
           <tr><th width="25%">入手方法</th><td><%- page['obtain'].replace(/,/ig, "<br>") %></td></tr>
+          <tr><th width="25%">主な限界素材</th><td>
+            <% for (const item of page.need_items) { %>
+              <img class="s-icon" alt="限界素材アイコン" src="../img/item001/<%= item %>.png">
+            <% } %>
+          </td></tr>
           <% if (page['bug_report']) { %>
           <tr><th width="25%">バグ報告</th><td><%= page['bug_report'] %></td></tr>
           <% } %>

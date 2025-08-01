@@ -4,17 +4,35 @@ import ejs from 'gulp-ejs'; //EJS
 import rename from 'gulp-rename'; //ファイル出力時にファイル名を変える
 import { Big } from 'big.js';
 
-import { getAtkSpeed, getPosition, abiNameConvTable, statisticConvTable, timeErrorMsg } from './hero/_util.mjs';
+import { getAtkSpeed, getPosition, abiNameConvTable, statisticConvTable, timeErrorMsg, parseIntOnlyString } from './hero/_util.mjs';
 import { calcPassive } from './hero/_calcPassive.mjs';
 import { parseSkill } from './hero/_parseSkill.mjs';
 import { srcBase, srcPath, distPath } from './_config.mjs';
 import log from 'fancy-log';
 
-
+const paramNameList = ["hp","atk","matk", "def", "mdef", "atk_crit", "matk_crit", "hit", "block", "end_hp_recovery", "end_mp_recovery", "dmg_suck_hp", "healing_power", "mp_recovery", "mp_cost_down"];
+const convNameList = ["HP", "物理攻撃", "魔法攻撃", "物理防御", "魔法防御", "物理クリティカル", "魔法クリティカル","命中", "ブロック", "HP回復", "MP回復", "HP吸収", "治癒", "MPチャージ", "MP消費減少"];
 
 export class HeroContents {
     constructor(kf) {
         this.kf = kf;
+    }
+
+    makeGpText(result, cur) {
+      const lv = parseInt(cur["@_gp_lv"]);
+      for (let i = 0; i < paramNameList.length; i++) {
+        const name = paramNameList[i];
+        let cv = parseIntOnlyString(cur["@_" + name]);
+        if (!isNaN(cv) && 0 < cv) {
+          if (!result[convNameList[i]]) {
+            result[convNameList[i]] = new Array(10).fill(0);
+          }
+          if (name === "atk_crit" || name === "matk_crit") {
+            cv = `${cv * 0.05}%`;
+          }
+          result[convNameList[i]][lv-1] = `${cv}`;
+        }
+      }
     }
 
     createFuncs() {
@@ -61,7 +79,9 @@ export class HeroContents {
               gacha_type: "",
               added_date: "",
               obtain: "",
-              bug_report: ""
+              bug_report: "",
+              gp_text: {},
+              need_items: [],
           };
 
           if (gachaTypeEntity) {
@@ -97,8 +117,7 @@ export class HeroContents {
       
           // 基礎パラメータの計算
       
-          const paramNameList = ["hp","atk","matk", "def", "mdef", "atk_crit", "matk_crit", "hit", "block", "end_hp_recovery", "end_mp_recovery", "dmg_suck_hp", "healing_power", "mp_recovery", "mp_cost_down"];
-      
+
           const awakeEntity = kf.hero_awake_1.root.hero_awake_1.find(item => item['@_id'] === group && item['@_open'] == "true");
       
           for (const paramName of paramNameList) {
@@ -281,6 +300,16 @@ export class HeroContents {
               json[paramName] = json[paramName].toString();
             }
           }
+
+          const gplist = kf.hero_gp.root.hero_gp.filter(item => item['@_id'] === group);
+          const gptext = {};
+          for (let i = 1; i < 11; i++) {
+            this.makeGpText(gptext, gplist[i]);
+          }
+          json.gp_text = gptext;
+
+          const limit3Entity = kf.limit_over.root.limit_over.find(item => item['@_group_id'] === group && item['@_over_times'] === "3");
+          json.need_items = limit3Entity.key_item_id.filter(x => x !== "0");
 
           return gulp.src([srcBase + "/hero/*.ejs", srcPath._ejs])
           .pipe(ejs({json: json}))

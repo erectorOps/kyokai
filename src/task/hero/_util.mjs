@@ -12,6 +12,16 @@ export const getPosition = (value) => {
     else { return "後列"; }
 }
 
+export const parseIntOnlyString = (value) => {
+    if (typeof value === 'string' || typeof value === 'number') {
+      const num = parseInt(value, 10);
+      if (!isNaN(num)) {
+        return num;
+      }
+    }
+    return NaN;
+}
+
 export const abiNameConvTable = {
   hp: "HP",
   atk: "物理攻擊",
