@@ -3116,7 +3116,7 @@
     <reward_num>0</reward_num>
     <reward_num>0</reward_num>
   </activity>
-  <activity id="2314" name="おπの月ログインスタンプ(前半)" show="true" menu_show="false" sort="7" icon="activity-sign/ログインスタンプ" pre_stage_site="0" start_time="2025/08/01 00:00:00" end_time="2025/08/16 00:00:00" dur_day="0" activity_type="每月簽到" activity_val1="activity_sign_2025oppaimonth1" activity_val5="false">
+  <activity id="2314" name="おπの月ログインスタンプ(前半)" show="true" menu_show="false" sort="7" icon="activity-sign/ログインスタンプ" pre_stage_site="0" start_time="2025/08/01 03:00:00" end_time="2025/08/16 02:59:59" dur_day="0" activity_type="每月簽到" activity_val1="activity_sign_2025oppaimonth1" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -3154,7 +3154,7 @@
     <reward_num>0</reward_num>
     <reward_num>0</reward_num>
   </activity>
-  <activity id="2315" name="おπの月ログインスタンプ(後半)" show="true" menu_show="false" sort="7" icon="activity-sign/ログインスタンプ" pre_stage_site="0" start_time="2025/08/16 00:00:00" end_time="2025/09/01 00:00:00" dur_day="0" activity_type="每月簽到" activity_val1="activity_sign_2025oppaimonth2" activity_val5="false">
+  <activity id="2315" name="おπの月ログインスタンプ(後半)" show="true" menu_show="false" sort="7" icon="activity-sign/ログインスタンプ" pre_stage_site="0" start_time="2025/08/16 03:00:00" end_time="2025/09/01 02:59:59" dur_day="0" activity_type="每月簽到" activity_val1="activity_sign_2025oppaimonth2" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
