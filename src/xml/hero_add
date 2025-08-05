@@ -34,7 +34,7 @@ E: すべてのコンテンツ、属性、戦術において候補に上がる�
 	<hero_add id="2022" rare="SR" name="パイア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
 	<hero_add id="2023" rare="SR" name="アジュラ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="D"></review></hero_add>
 	<hero_add id="2024" rare="SR" name="ゾーエ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
-	<hero_add id="2025" rare="SR" name="コンスタンツィア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
+	<hero_add id="2025" rare="SR" name="コンスタンツィア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常" bug_report="味方全体行動速度UPが他キャラの味方全体速度バフと重複可能であり、自身速度バフとうち消し合ってしまう(同バグの祝エスを除く)"><review rank="E"></review></hero_add>
 	<hero_add id="2026" rare="SR" name="ファルネリア" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
 	<hero_add id="2027" rare="R" name="デストラ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
 	<hero_add id="2028" rare="R" name="エスケルダ" gacha_type="恒常" added_date="2023/09/11" obtain="恒常"><review rank="E"></review></hero_add>
@@ -87,8 +87,8 @@ E: すべてのコンテンツ、属性、戦術において候補に上がる�
 		</review>
 	</hero_add>
 	<hero_add id="2067" rare="SSR" name="【おてんば人魚姫】ローレリア" gacha_type="シーズンパス" added_date="2023/09/11" obtain="シーズンパスLv50報酬"><review rank="C"></review></hero_add>
-	<hero_add id="2068" rare="SSR" name="【祝祭の皇妃】シャムシェル" gacha_type="イベント" added_date="2023/09/14" obtain="イベント「ヴェルン建国祭」期間限定召喚"><review rank="C"></review></hero_add>
-	<hero_add id="2069" rare="SSR" name="【祝祭の装い】エスティリエル" gacha_type="イベント" added_date="2023/09/14" obtain="イベント「ヴェルン建国祭」期間限定召喚"><review rank="A"></review></hero_add>
+	<hero_add id="2068" rare="SSR" name="【祝祭の皇妃】シャムシェル" gacha_type="イベント" added_date="2023/09/14" obtain="イベント「ヴェルン建国祭」期間限定召喚" bug_report="自身行動速度UPが他キャラの味方全体バフとうち消し合ってしまう(同バグの祝エス、コンスタツィアを除く)"><review rank="C"></review></hero_add>
+	<hero_add id="2069" rare="SSR" name="【祝祭の装い】エスティリエル" gacha_type="イベント" added_date="2023/09/14" obtain="イベント「ヴェルン建国祭」期間限定召喚" bug_report="味方全体行動速度UPが他キャラの味方全体速度バフと重複可能であり、自身速度バフとうち消し合ってしまう(同バグのコンスタツィアを除く)"><review rank="A"></review></hero_add>
 	<hero_add id="2070" rare="SR" name="【祝祭のおめかし】ナターシャ" gacha_type="報酬,イベント" added_date="2023/09/14" obtain="イベント「ヴェルン建国祭」ミッション報酬"><review rank="E"></review></hero_add>
 	<hero_add id="2071" rare="SSR" name="カグヤ" gacha_type="無限討伐戦" added_date="2023/10/06" obtain="イベント「想望のアルドナラ」期間限定召喚"><review rank="C"></review></hero_add>
 	<hero_add id="2072" rare="SSR" name="シャティ" gacha_type="恒常" added_date="2023/09/21" obtain="恒常,「メインストーリー6章開放記念」先行召喚"><review rank="C"></review></hero_add>
@@ -234,8 +234,8 @@ E: すべてのコンテンツ、属性、戦術において候補に上がる�
 	<hero_add id="2178" rare="SSR" name="【暗殺ビアガール】累" gacha_type="イベント" added_date="2024/11/14" obtain="イベント「エルロンの収穫祭」期間限定召喚"><review rank="B"></review></hero_add>
 	<hero_add id="2179" rare="SR" name="【超乳ディアンドル】アドリエンヌ" gacha_type="報酬,イベント" added_date="2024/11/14" obtain="イベント「エルロンの収穫祭」ミッション報酬"><review rank="E"></review></hero_add>
 	<hero_add id="2180" rare="SSR" name="【エルロンの聖騎士】リュッカ" gacha_type="バーストフェス" added_date="2024/12/05" obtain="バーストフェス期間限定召喚"><review rank="A"></review></hero_add>
-	<hero_add id="2181" rare="SSR" name="【孤高のバイカー】インリーン" gacha_type="Fanzine" added_date="2024/11/28" obtain="イベント「Fanzine」期間限定召喚"><review rank="B"></review></hero_add>
-	<hero_add id="2182" rare="SSR" name="【悩殺セーター】ヒルディス" gacha_type="シーズンパス" added_date="2024/12/05" obtain="シーズンパスLv50報酬"><review rank="A"></review></hero_add>
+	<hero_add id="2181" rare="SSR" name="【孤高のバイカー】インリーン" gacha_type="Fanzine" added_date="2024/11/28" obtain="イベント「Fanzine」期間限定召喚" bug_report="奥義の行動速度UPは他キャラの奥義行動速度UPと重複可能"><review rank="B"></review></hero_add>
+	<hero_add id="2182" rare="SSR" name="【悩殺セーター】ヒルディス" gacha_type="シーズンパス" added_date="2024/12/05" obtain="シーズンパスLv50報酬"><review rank="A" bug_report="奥義の行動速度UPは他キャラの奥義行動速度UPと重複可能"></review></hero_add>
 	<hero_add id="2184" rare="SSR" name="【聖夜の乳魔】ルスト" gacha_type="イベント" added_date="2024/12/12" obtain="イベント「誰ぞ　聖夜の恵み手よ」期間限定召喚"><review rank="D"></review></hero_add>
 	<hero_add id="2185" rare="SSR" name="【乳魔な恵み手】シュシュ" gacha_type="イベント" added_date="2024/12/12" obtain="イベント「誰ぞ　聖夜の恵み手よ」期間限定召喚"><review rank="S"></review></hero_add>
 	<hero_add id="2186" rare="SR" name="【疾風の恵み手】リン" gacha_type="報酬,イベント" added_date="2024/12/12" obtain="イベント「誰ぞ　聖夜の恵み手よ」ミッション報酬"><review rank="A"></review></hero_add>

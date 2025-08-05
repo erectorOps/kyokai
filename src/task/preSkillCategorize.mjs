@@ -97,6 +97,10 @@ class SkillCheck {
                         info.debuff = buff['@_debuff'] === "true";
 
                         if (func(info)) {
+                            this.message = {};
+                            this.message.group = buff['@_group'];
+                            //this.message.id_stack = buff['@_id_stack'];
+                            //this.message.group_stack = buff['@_group_stack'];
                             return true;
                         }
                     }
@@ -466,6 +470,7 @@ export class PreSkillCategorize {
             this.checkBoth(json.ub_type, ultimate);
             this.checkActiveOnly(json.ub_type, ultimate);
 
+            //this.checkTest(json.sk_type, ultimate, actives);
 
             if (json.sk_type.length > 0 || json.ub_type.length > 0) {
                 jsonList[id] = json;
@@ -473,6 +478,35 @@ export class PreSkillCategorize {
         }
 
         return jsonList;
+    }
+
+    checkTest(type, ultimate, actives)
+    {
+        let outer = {};
+        // if (ultimate.some(v => v.isIncreasesSPD("我方") && (outer = v.message) && true)) {
+        //     type.push(`奥義(${outer.group})`);
+        // }
+        // outer = {};
+        // if (ultimate.some(v => v.isIncreasesSPD("自身") && (outer = v.message) && true)) {
+        //     type.push(`自奥義(${outer.group})`);
+        // }
+        // outer = {};
+        // if (actives.some(v => v.isIncreasesSPD("我方") && (outer = v.message) && true)) {
+        //     type.push(`スキル(${outer.group})`);
+        // }
+        // outer = {};
+        // if (actives.some(v => v.isIncreasesSPD("自身") && (outer = v.message) && true)) {
+        //     type.push(`自スキル(${outer.group})`);
+        // }
+
+        outer = {};
+        if (actives.some(v => v.isDecreasesSPD() && (outer = v.message) && true)) {
+            type.push(`スキル(${outer.group})`);
+        }
+        outer = {};
+        if (ultimate.some(v => v.isDecreasesSPD() && (outer = v.message) && true)) {
+            type.push(`奥義(${outer.group})`);
+        }
     }
 
     checkUltimateType(type, ultimate) {
@@ -595,8 +629,15 @@ export class PreSkillCategorize {
             type.push(def["自身魔法クリティカルUP"]);
         }
 
-        if (actives.some(v => v.isIncreasesSPD(self))) {
+        let outer = {};
+        if (actives.some(v => v.isIncreasesSPD(self) && (outer = v.message) && true)) {
             type.push(def["自身行動速度UP"]);
+            if (outer.group == "109") {
+                type.push(def["行動速度UP_A"]);
+            }
+            if (outer.group == "209") {
+                type.push(def["行動速度UP_B"]);
+            }
         }
 
         if (passives.some(v => v.isIncreasesSkillDamage(self))) {
@@ -658,8 +699,15 @@ export class PreSkillCategorize {
             type.push(def["魔法クリティカルUP"]);
         }
 
-        if (skills.some(v => v.isIncreasesSPD())) {
+        let outer = {};
+        if (skills.some(v => v.isIncreasesSPD() && (outer = v.message) && true)) {
             type.push(def["行動速度UP"]);
+            if (outer.group == "109") {
+                type.push(def["行動速度UP_A"]);
+            }
+            if (outer.group == "209") {
+                type.push(def["行動速度UP_B"]);
+            }
         }
 
         if (skills.some(v => v.isIncreasesSkillDamage())) {
@@ -690,8 +738,15 @@ export class PreSkillCategorize {
             type.push(def["魔法防御DOWN"]);
         }
 
-        if (skills.some(v => v.isDecreasesSPD())) {
+        outer = {};
+        if (skills.some(v => v.isDecreasesSPD() && (outer = v.message) && true)) {
             type.push(def["行動速度DOWN"]);
+            if (outer.group == "509") {
+                type.push(def["行動速度DOWN_A"]);
+            }
+            if (outer.group == "609") {
+                type.push(def["行動速度DOWN_B"]);
+            }
         }
 
         if (skills.some(v => v.isIncreasesDamageTaken())) {
