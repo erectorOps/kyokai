@@ -67,10 +67,12 @@ class SkillCheck {
     }
 
     is_buff(func) {
+        
         for (const postFix of [
             ['A', "{5}", "{6}"],  //  バフ属性名の末尾, バフ効果量挿入文字列, バフ効果時間挿入文字列
             ['B', "{7}", "{8}"],
-            ['C', "{12}", "{13}"]]) {
+            ['C', "{12}", "{13}"],
+            ['D', "{14}", "{15}"]]) {
             for (const s of this.list) {
                 if (s['@_buff_id' + postFix[0]]) {
                     const info = {
