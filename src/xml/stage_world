@@ -194,4 +194,6 @@
   <stage_world id="5196" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2196" name="【《復刻》タコ帝国の逆襲】" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="3002" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="3002" name="【おπの月】特別クエスト" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="5097" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2097" name="稀代の発明家" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <stage_world id="5098" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2098" name="幻惑の魔術師" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <stage_world id="5198" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2198" name="《復刻》タコタコ、ビーチパニック!!" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
 </root>

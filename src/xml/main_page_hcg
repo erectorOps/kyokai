@@ -7824,4 +7824,52 @@
     <ani_name>null</ani_name>
     <ani_name>null</ani_name>
   </main_page_hcg>
+  <main_page_hcg id="224001" name="ラスウェルシーン1" hero_group="2240" pre_gp_lv="2" pre_quest_id="0" icon="mainset-hcg001/2240_1" ani_path="2240_01a/2240_01a">
+    <ani_title>モーション1</ani_title>
+    <ani_title>モーション2</ani_title>
+    <ani_title>モーション3</ani_title>
+    <ani_title>モーション4</ani_title>
+    <ani_title>モーション5</ani_title>
+    <ani_title>モーション6</ani_title>
+    <ani_title>モーション7</ani_title>
+    <ani_title>モーション8</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_name>act0_1</ani_name>
+    <ani_name>act0_2</ani_name>
+    <ani_name>act1</ani_name>
+    <ani_name>act2_1</ani_name>
+    <ani_name>act2_2</ani_name>
+    <ani_name>act3</ani_name>
+    <ani_name>act4_1</ani_name>
+    <ani_name>act4_2</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+  </main_page_hcg>
+  <main_page_hcg id="224002" name="ラスウェルシーン2" hero_group="2240" pre_gp_lv="4" pre_quest_id="0" icon="mainset-hcg001/2240_2" ani_path="2240_02a/2240_02a">
+    <ani_title>モーション1</ani_title>
+    <ani_title>モーション2</ani_title>
+    <ani_title>モーション3</ani_title>
+    <ani_title>モーション4</ani_title>
+    <ani_title>モーション5</ani_title>
+    <ani_title>モーション6</ani_title>
+    <ani_title>モーション7</ani_title>
+    <ani_title>モーション8</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_name>act0_1</ani_name>
+    <ani_name>act0_2</ani_name>
+    <ani_name>act1</ani_name>
+    <ani_name>act2_1</ani_name>
+    <ani_name>act2_2</ani_name>
+    <ani_name>act3</ani_name>
+    <ani_name>act4_1</ani_name>
+    <ani_name>act4_2</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+  </main_page_hcg>
 </root>

@@ -1513,14 +1513,14 @@
     <param>activity-banner-2000/期間活動_タコタコ、ビーチパニック!!_320x88</param>
     <param>一般活動</param>
     <param>Year2023</param>
-    <param>50020140/59440140</param>
+    <param>50020140/59440140/51980110</param>
     <param />
     <param />
     <param>3.1</param>
   </story_new>
   <story_new group_id="1002" group_func="章節設定" order="1">
     <param>第1節</param>
-    <param>50020110/59440110</param>
+    <param>50020110/59440110/51980110</param>
     <param />
     <param />
     <param>5002010</param>
@@ -1531,7 +1531,7 @@
   </story_new>
   <story_new group_id="1002" group_func="章節設定" order="2">
     <param>第2節</param>
-    <param>50020120/59440120</param>
+    <param>50020120/59440120/51980120</param>
     <param />
     <param />
     <param>5002020</param>
@@ -1542,7 +1542,7 @@
   </story_new>
   <story_new group_id="1002" group_func="章節設定" order="3">
     <param>第3節</param>
-    <param>50020130/59440130</param>
+    <param>50020130/59440130/51980130</param>
     <param />
     <param />
     <param>5002030</param>
@@ -1553,7 +1553,7 @@
   </story_new>
   <story_new group_id="1002" group_func="章節設定" order="4">
     <param>第4節</param>
-    <param>50020140/59440140</param>
+    <param>50020140/59440140/51980140</param>
     <param />
     <param />
     <param>5002040</param>
@@ -8806,6 +8806,127 @@
     <param />
     <param />
     <param>5078040</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1075" group_func="標題設定" order="1">
+    <param>活動</param>
+    <param>幻惑の魔術師</param>
+    <param>activity-banner-2098/活動_幻惑の魔術師_320x88</param>
+    <param>一般活動</param>
+    <param>Year2025</param>
+    <param>50980110</param>
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1075" group_func="章節設定" order="1">
+    <param>第1節</param>
+    <param>50980110</param>
+    <param />
+    <param />
+    <param>5079010</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1075" group_func="章節設定" order="2">
+    <param>第2節</param>
+    <param>50980111</param>
+    <param />
+    <param />
+    <param>5079020</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1075" group_func="章節設定" order="3">
+    <param>第3節</param>
+    <param>50980115</param>
+    <param />
+    <param />
+    <param>5079030</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1075" group_func="章節設定" order="4">
+    <param>第4節</param>
+    <param>50980118</param>
+    <param />
+    <param />
+    <param>5079040</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1075" group_func="章節設定" order="5">
+    <param>第5節</param>
+    <param>50980121</param>
+    <param />
+    <param />
+    <param>5079050</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1075" group_func="章節設定" order="6">
+    <param>第6節</param>
+    <param>50980122</param>
+    <param />
+    <param />
+    <param>5079060</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1075" group_func="章節設定" order="7">
+    <param>第7節</param>
+    <param>50980126</param>
+    <param />
+    <param />
+    <param>5079070</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1075" group_func="章節設定" order="8">
+    <param>第8節</param>
+    <param>50980129</param>
+    <param />
+    <param />
+    <param>5079080</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1075" group_func="章節設定" order="9">
+    <param>第9節</param>
+    <param>50980130</param>
+    <param />
+    <param />
+    <param>5079090</param>
+    <param />
+    <param />
+    <param />
+    <param />
+  </story_new>
+  <story_new group_id="1075" group_func="章節設定" order="10">
+    <param>第10節</param>
+    <param>50980134</param>
+    <param />
+    <param />
+    <param>5079100</param>
     <param />
     <param />
     <param />

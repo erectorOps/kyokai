@@ -80,7 +80,7 @@
     <button_show>0</button_show>
     <button_show>0</button_show>
   </arrive>
-  <arrive id="2009" sort="4" name="競擊戰模式" icon="arrive-limit/4" type="競擊戰模式" activity_mode_id="0" hero_group_id="0" hero_face="未指定" stage_hero_group_id="0" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="0" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="0" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="0" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" end_time="2025/08/14 11:00:00" close_time="2025/08/14 11:00:00" show="true">
+  <arrive id="2009" sort="6" name="競擊戰模式" icon="arrive-limit/4" type="競擊戰模式" activity_mode_id="0" hero_group_id="0" hero_face="未指定" stage_hero_group_id="0" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="0" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="0" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="0" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" end_time="2025/08/14 11:00:00" close_time="2025/08/14 11:00:00" show="true">
     <button_show>0</button_show>
     <button_show>0</button_show>
     <button_show>0</button_show>
@@ -625,17 +625,17 @@
     <button_show>0</button_show>
     <button_show>0</button_show>
   </arrive>
-  <arrive id="2095" sort="7" name="やかんでゆでたタコのよう" icon="arrive-2095/event_88" type="活動RAID" activity_mode_id="900099" hero_group_id="2234" hero_face="未指定" stage_hero_group_id="2235" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5095" stage_world_id_b="0" activity_lottery_id="0" shop_id="5095" activity_draw_id="226" contribution_reward="209501" ranking_reward="209501" activity_treasure_id="0" contribution_buff_special_id="209501" ap_bonus_hero_special_id="0" normal_boss_id="509501" hard_boss_id="509502" very_hard_boss_id="509503" boss_cost_item_id="1637" mini_game_id="0" end_time="2025/07/31 11:00:00" close_time="2025/08/07 11:00:00" show="true">
+  <arrive id="2095" sort="9" name="やかんでゆでたタコのよう" icon="arrive-2095/event_88" type="活動RAID" activity_mode_id="900099" hero_group_id="2234" hero_face="未指定" stage_hero_group_id="2235" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5095" stage_world_id_b="0" activity_lottery_id="0" shop_id="5095" activity_draw_id="226" contribution_reward="209501" ranking_reward="209501" activity_treasure_id="0" contribution_buff_special_id="209501" ap_bonus_hero_special_id="0" normal_boss_id="509501" hard_boss_id="509502" very_hard_boss_id="509503" boss_cost_item_id="1637" mini_game_id="0" end_time="2025/07/31 11:00:00" close_time="2025/08/07 11:00:00" show="true">
     <button_show>1</button_show>
     <button_show>3</button_show>
     <button_show>2</button_show>
   </arrive>
-  <arrive id="2096" sort="5" name="この時を、待ちわびて" icon="arrive-2096/event_89" type="活動" activity_mode_id="900100" hero_group_id="2237" hero_face="未指定" stage_hero_group_id="2237" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5096" stage_world_id_b="0" activity_lottery_id="910116" shop_id="0" activity_draw_id="228" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="209601" ap_bonus_hero_special_id="0" normal_boss_id="50961" hard_boss_id="50962" very_hard_boss_id="50963" boss_cost_item_id="1646" mini_game_id="0" end_time="2025/07/31 11:00:00" close_time="2025/08/07 11:00:00" show="true">
+  <arrive id="2096" sort="7" name="この時を、待ちわびて" icon="arrive-2096/event_89" type="活動" activity_mode_id="900100" hero_group_id="2237" hero_face="未指定" stage_hero_group_id="2237" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5096" stage_world_id_b="0" activity_lottery_id="910116" shop_id="0" activity_draw_id="228" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="209601" ap_bonus_hero_special_id="0" normal_boss_id="50961" hard_boss_id="50962" very_hard_boss_id="50963" boss_cost_item_id="1646" mini_game_id="0" end_time="2025/07/31 11:00:00" close_time="2025/08/07 11:00:00" show="true">
     <button_show>4</button_show>
     <button_show>0</button_show>
     <button_show>0</button_show>
   </arrive>
-  <arrive id="2196" sort="6" name="《復刻》タコ帝国の逆襲" icon="arrive-2096/event_90" type="活動" activity_mode_id="900101" hero_group_id="2149" hero_face="未指定" stage_hero_group_id="2150" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5196" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="229" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="0" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" end_time="2025/07/31 11:00:00" close_time="2025/08/07 11:00:00" show="true">
+  <arrive id="2196" sort="8" name="《復刻》タコ帝国の逆襲" icon="arrive-2096/event_90" type="活動" activity_mode_id="900101" hero_group_id="2149" hero_face="未指定" stage_hero_group_id="2150" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5196" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="229" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="0" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" end_time="2025/07/31 11:00:00" close_time="2025/08/07 11:00:00" show="true">
     <button_show>0</button_show>
     <button_show>0</button_show>
     <button_show>0</button_show>
@@ -645,7 +645,17 @@
     <button_show>0</button_show>
     <button_show>0</button_show>
   </arrive>
-  <arrive id="2097" sort="3" name="【Fanzine】クエスト" icon="arrive-2097/event_91" type="活動" activity_mode_id="900102" hero_group_id="2238" hero_face="未指定" stage_hero_group_id="2238" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5097" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="230" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="0" ap_bonus_hero_special_id="209701" ap_bonus_stage_site_id="50970118" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="14" end_time="2025/08/07 11:00:00" close_time="2025/08/14 11:00:00" show="true">
+  <arrive id="2097" sort="5" name="【Fanzine】クエスト" icon="arrive-2097/event_91" type="活動" activity_mode_id="900102" hero_group_id="2238" hero_face="未指定" stage_hero_group_id="2238" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5097" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="230" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="0" ap_bonus_hero_special_id="209701" ap_bonus_stage_site_id="50970118" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="14" end_time="2025/08/07 11:00:00" close_time="2025/08/14 11:00:00" show="true">
+    <button_show>0</button_show>
+    <button_show>0</button_show>
+    <button_show>0</button_show>
+  </arrive>
+  <arrive id="2098" sort="3" name="幻惑の魔術師" icon="arrive-2098/event_92" type="時間塔模式" activity_mode_id="900103" hero_group_id="2240" hero_face="未指定" stage_hero_group_id="2240" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5098" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="232" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="0" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" end_time="2025/08/14 11:00:00" close_time="2025/08/21 11:00:00" show="true">
+    <button_show>0</button_show>
+    <button_show>0</button_show>
+    <button_show>0</button_show>
+  </arrive>
+  <arrive id="2198" sort="4" name="《復刻》タコタコ、ビーチパニック!!" icon="arrive-2098/event_93" type="活動" activity_mode_id="900104" hero_group_id="2077" hero_face="未指定" stage_hero_group_id="2078" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5198" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="233" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="0" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" end_time="2025/08/14 11:00:00" close_time="2025/08/21 11:00:00" show="true">
     <button_show>0</button_show>
     <button_show>0</button_show>
     <button_show>0</button_show>
