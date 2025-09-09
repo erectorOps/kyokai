@@ -15,6 +15,7 @@
   <stage_world id="1012" opposite_stage_world_id1="1112" opposite_stage_world_id2="1212" arrive_id="0" name="第12章" world_bg="area1002/100204" world_type="主線_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="1013" opposite_stage_world_id1="1113" opposite_stage_world_id2="1213" arrive_id="0" name="第13章" world_bg="area1001/100101" world_type="主線_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="1014" opposite_stage_world_id1="1114" opposite_stage_world_id2="1214" arrive_id="0" name="第14章" world_bg="area1005/100501" world_type="主線_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <stage_world id="1015" opposite_stage_world_id1="1115" opposite_stage_world_id2="1215" arrive_id="0" name="第15章" world_bg="area1005/100501" world_type="主線_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="1101" opposite_stage_world_id1="1001" opposite_stage_world_id2="1201" arrive_id="0" name="第1章(Hard)" world_bg="area1005/100502" world_type="主線_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="1102" opposite_stage_world_id1="1002" opposite_stage_world_id2="1202" arrive_id="0" name="第2章(Hard)" world_bg="area1005/100502" world_type="主線_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="1103" opposite_stage_world_id1="1003" opposite_stage_world_id2="1203" arrive_id="0" name="第3章(Hard)" world_bg="area1005/100502" world_type="主線_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
@@ -29,6 +30,7 @@
   <stage_world id="1112" opposite_stage_world_id1="1012" opposite_stage_world_id2="1212" arrive_id="0" name="第12章(Hard)" world_bg="area1002/100205" world_type="主線_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="1113" opposite_stage_world_id1="1013" opposite_stage_world_id2="1213" arrive_id="0" name="第13章(Hard)" world_bg="area1006/100603" world_type="主線_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="1114" opposite_stage_world_id1="1014" opposite_stage_world_id2="1214" arrive_id="0" name="第14章(Hard)" world_bg="area1005/100502" world_type="主線_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <stage_world id="1115" opposite_stage_world_id1="1015" opposite_stage_world_id2="1215" arrive_id="0" name="第15章(Hard)" world_bg="area1005/100502" world_type="主線_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="1201" opposite_stage_world_id1="1001" opposite_stage_world_id2="1101" arrive_id="0" name="第1章(Very Hard)" world_bg="area1005/100503" world_type="主線_非常困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="1202" opposite_stage_world_id1="1002" opposite_stage_world_id2="1102" arrive_id="0" name="第2章(Very Hard)" world_bg="area1005/100503" world_type="主線_非常困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="1203" opposite_stage_world_id1="1003" opposite_stage_world_id2="1103" arrive_id="0" name="第3章(Very Hard)" world_bg="area1005/100503" world_type="主線_非常困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
@@ -43,6 +45,7 @@
   <stage_world id="1212" opposite_stage_world_id1="1012" opposite_stage_world_id2="1112" arrive_id="0" name="第12章(Very Hard)" world_bg="area1002/100206" world_type="主線_非常困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="1213" opposite_stage_world_id1="1013" opposite_stage_world_id2="1113" arrive_id="0" name="第13章(Very Hard)" world_bg="area1002/100206" world_type="主線_非常困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="1214" opposite_stage_world_id1="1014" opposite_stage_world_id2="1114" arrive_id="0" name="第14章(Very Hard)" world_bg="area1005/100503" world_type="主線_非常困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <stage_world id="1215" opposite_stage_world_id1="1015" opposite_stage_world_id2="1115" arrive_id="0" name="第15章(Very Hard)" world_bg="area1005/100503" world_type="主線_非常困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="2001" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="0" name="遺跡" world_bg="area1006/100601" world_type="遺跡關卡" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="3001" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="0" name="資源収集" world_bg="area1009/100901" world_type="素材回收" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="5000" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2000" name="【おπの日】特別クエスト" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
@@ -196,4 +199,11 @@
   <stage_world id="5097" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2097" name="稀代の発明家" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="5098" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2098" name="幻惑の魔術師" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <stage_world id="5198" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2198" name="《復刻》タコタコ、ビーチパニック!!" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <stage_world id="5099" opposite_stage_world_id1="5199" opposite_stage_world_id2="0" arrive_id="2099" name="大空祭に迫りし、黒き影" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <stage_world id="5199" opposite_stage_world_id1="5099" opposite_stage_world_id2="0" arrive_id="2099" name="大空祭に迫りし、黒き影（Hard）" world_type="活動_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <stage_world id="5100" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2100" name="【Fanzine】クエスト" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <stage_world id="5900" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2900" name="《復刻》真夏の大空祭" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <stage_world id="5201" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2201" name="バーストフェス" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <stage_world id="5202" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2202" name="【2周年】特別クエスト" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <stage_world id="5302" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2302" name="物資調達" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
 </root>

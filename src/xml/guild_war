@@ -200,7 +200,7 @@
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
   </guild_war>
-  <guild_war id="209" name="9月" background="battle100101bg/100103" open="false" start_time="2025/09/01 10:00:00" end_time="2025/09/10 23:59:59" coin_item_id="0" battle_dmg_buff_hero_group="0" battle_anti_dmg_buff_hero_group="0" battle_guild_coin_buff_hero_group="0">
+  <guild_war id="209" name="9月" background="battle100101bg/100103" open="true" start_time="2025/09/08 03:00:00" end_time="2025/09/15 03:00:00" coin_item_id="1681" battle_dmg_buff_hero_group="2162" battle_anti_dmg_buff_hero_group="2124" battle_guild_coin_buff_hero_group="2060">
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>

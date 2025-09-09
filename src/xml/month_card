@@ -234,6 +234,18 @@
     <daily_item_num>0</daily_item_num>
     <daily_item_num>0</daily_item_num>
   </month_card>
+  <month_card id="1047" name="【2周年記念】特別パス（7日）" icon="item001/PASS01_7日パス" dur_day="7" can_buy_day="0" daily_free_point="300" daily_money="0" daily_ap="200" daily_bp="0" ap_max_add="0" resource_atk_cnt_add="1" vip_id="0" vip_add_exp="0">
+    <daily_item_id>0</daily_item_id>
+    <daily_item_id>0</daily_item_id>
+    <daily_item_num>0</daily_item_num>
+    <daily_item_num>0</daily_item_num>
+  </month_card>
+  <month_card id="1048" name="【2周年記念】特別パス（30日）" icon="item001/PASS01_7日パス" dur_day="30" can_buy_day="0" daily_free_point="300" daily_money="0" daily_ap="200" daily_bp="0" ap_max_add="0" resource_atk_cnt_add="1" vip_id="0" vip_add_exp="0">
+    <daily_item_id>0</daily_item_id>
+    <daily_item_id>0</daily_item_id>
+    <daily_item_num>0</daily_item_num>
+    <daily_item_num>0</daily_item_num>
+  </month_card>
   <month_card id="1001" name="7日パス" icon="item001/PASS01_7日パス" dur_day="7" can_buy_day="3" daily_free_point="0" daily_money="0" daily_ap="300" daily_bp="0" ap_max_add="50" resource_atk_cnt_add="1" vip_id="0" vip_add_exp="0">
     <daily_item_id>0</daily_item_id>
     <daily_item_id>0</daily_item_id>

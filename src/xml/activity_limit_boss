@@ -1653,4 +1653,80 @@
     <talent_slot>4000180</talent_slot>
     <talent_slot>4000190</talent_slot>
   </activity_limit_boss>
+  <activity_limit_boss id="400088" name="ウェアウルフ" icon="arrive-limit/limit-45" recommend_lv="0" battle_map="100101/100101" background="area1001/100101" hero_rare_limit="無限制" monster_id="40089" monster_add_lv="0" base_tp="6" daily_tp="0" max_tp="6" limit_sec="120" total_point_reward="4004501" max_damage_rank_reward="4004502" total_damage_rank_reward="4004503">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <talent_slot>4000110</talent_slot>
+    <talent_slot>4000120</talent_slot>
+    <talent_slot>4000130</talent_slot>
+    <talent_slot>4000140</talent_slot>
+    <talent_slot>4000150</talent_slot>
+    <talent_slot>4000160</talent_slot>
+    <talent_slot>4000170</talent_slot>
+    <talent_slot>4000180</talent_slot>
+    <talent_slot>4000190</talent_slot>
+  </activity_limit_boss>
+  <activity_limit_boss id="400089" name="ウェアウルフ(SR限定)" icon="arrive-limit/limit-sr-45" recommend_lv="0" battle_map="100101/100101" background="area1001/100101" hero_rare_limit="SR以下" monster_id="40090" monster_add_lv="0" base_tp="6" daily_tp="0" max_tp="6" limit_sec="120" total_point_reward="4004511" max_damage_rank_reward="4004512" total_damage_rank_reward="0">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <talent_slot>4000110</talent_slot>
+    <talent_slot>4000120</talent_slot>
+    <talent_slot>4000130</talent_slot>
+    <talent_slot>4000140</talent_slot>
+    <talent_slot>4000150</talent_slot>
+    <talent_slot>4000160</talent_slot>
+    <talent_slot>4000170</talent_slot>
+    <talent_slot>4000180</talent_slot>
+    <talent_slot>4000190</talent_slot>
+  </activity_limit_boss>
+  <activity_limit_boss id="400090" name="ピッグマン" icon="arrive-limit/limit-46" recommend_lv="0" battle_map="100301/100301" background="area1003/100301" hero_rare_limit="無限制" monster_id="40091" monster_add_lv="0" base_tp="6" daily_tp="0" max_tp="6" limit_sec="120" total_point_reward="4004601" max_damage_rank_reward="4004602" total_damage_rank_reward="4004603">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <talent_slot>4000110</talent_slot>
+    <talent_slot>4000120</talent_slot>
+    <talent_slot>4000130</talent_slot>
+    <talent_slot>4000140</talent_slot>
+    <talent_slot>4000150</talent_slot>
+    <talent_slot>4000160</talent_slot>
+    <talent_slot>4000170</talent_slot>
+    <talent_slot>4000180</talent_slot>
+    <talent_slot>4000190</talent_slot>
+  </activity_limit_boss>
+  <activity_limit_boss id="400091" name="ピッグマン(SR限定)" icon="arrive-limit/limit-sr-46" recommend_lv="0" battle_map="100301/100301" background="area1003/100301" hero_rare_limit="SR以下" monster_id="40092" monster_add_lv="0" base_tp="6" daily_tp="0" max_tp="6" limit_sec="120" total_point_reward="4004611" max_damage_rank_reward="4004612" total_damage_rank_reward="0">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <talent_slot>4000110</talent_slot>
+    <talent_slot>4000120</talent_slot>
+    <talent_slot>4000130</talent_slot>
+    <talent_slot>4000140</talent_slot>
+    <talent_slot>4000150</talent_slot>
+    <talent_slot>4000160</talent_slot>
+    <talent_slot>4000170</talent_slot>
+    <talent_slot>4000180</talent_slot>
+    <talent_slot>4000190</talent_slot>
+  </activity_limit_boss>
 </root>

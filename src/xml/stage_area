@@ -616,7 +616,7 @@
     <bonus_cycle>0</bonus_cycle>
     <bonus_cycle>0</bonus_cycle>
   </stage_area>
-  <stage_area id="101401" open="true" pre_stage_site="10130905" opposite_stage_area_id1="111401" opposite_stage_area_id2="0" name="第1節" bg="area1005/100501" pos_x="-480" pos_y="-130" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+  <stage_area id="101401" open="true" pre_stage_site="10130905" opposite_stage_area_id1="111402" opposite_stage_area_id2="0" name="第1節" bg="area1005/100501" pos_x="-480" pos_y="-130" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
     <open_cycle>0</open_cycle>
     <open_cycle>0</open_cycle>
     <bonus_cycle>0</bonus_cycle>
@@ -680,6 +680,111 @@
     <bonus_cycle>0</bonus_cycle>
   </stage_area>
   <stage_area id="101410" open="true" pre_stage_site="10140905" opposite_stage_area_id1="111402" opposite_stage_area_id2="0" name="第10節" bg="area1005/100501" pos_x="500" pos_y="-50" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="101501" open="true" pre_stage_site="10141005" opposite_stage_area_id1="111502" opposite_stage_area_id2="0" name="第1節" bg="area1005/100501" pos_x="-540" pos_y="-120" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="101502" open="true" pre_stage_site="10150105" opposite_stage_area_id1="111502" opposite_stage_area_id2="0" name="第2節" bg="area1005/100503" pos_x="-455" pos_y="30" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="101503" open="true" pre_stage_site="10150205" opposite_stage_area_id1="111502" opposite_stage_area_id2="0" name="第3節" bg="area1005/100501" pos_x="-380" pos_y="-60" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="101504" open="true" pre_stage_site="10150305" opposite_stage_area_id1="111502" opposite_stage_area_id2="0" name="第4節" bg="area1005/100501" pos_x="-305" pos_y="-130" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="101505" open="true" pre_stage_site="10150405" opposite_stage_area_id1="111502" opposite_stage_area_id2="0" name="第5節" bg="area1005/100501" pos_x="-230" pos_y="-20" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="101506" open="true" pre_stage_site="10150505" opposite_stage_area_id1="111502" opposite_stage_area_id2="0" name="第6節" bg="area1005/100503" pos_x="-155" pos_y="40" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="101507" open="true" pre_stage_site="10150605" opposite_stage_area_id1="111502" opposite_stage_area_id2="0" name="第7節" bg="area1005/100503" pos_x="-80" pos_y="-70" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="101508" open="true" pre_stage_site="10150705" opposite_stage_area_id1="111502" opposite_stage_area_id2="0" name="第8節" bg="area1005/100501" pos_x="-5" pos_y="-130" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="101509" open="true" pre_stage_site="10150805" opposite_stage_area_id1="111502" opposite_stage_area_id2="0" name="第9節" bg="area1005/100502" pos_x="70" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="101510" open="true" pre_stage_site="10150905" opposite_stage_area_id1="111502" opposite_stage_area_id2="0" name="第10節" bg="area1005/100501" pos_x="145" pos_y="-125" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="101511" open="true" pre_stage_site="10151005" opposite_stage_area_id1="111502" opposite_stage_area_id2="0" name="第11節" bg="area1005/100502" pos_x="220" pos_y="-65" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="101512" open="true" pre_stage_site="10151105" opposite_stage_area_id1="111502" opposite_stage_area_id2="0" name="第12節" bg="area1005/100502" pos_x="295" pos_y="10" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="101513" open="true" pre_stage_site="10151205" opposite_stage_area_id1="111502" opposite_stage_area_id2="0" name="第13節" bg="area1005/100502" pos_x="370" pos_y="-120" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="101514" open="true" pre_stage_site="10151305" opposite_stage_area_id1="111502" opposite_stage_area_id2="0" name="第14節" bg="area1005/100502" pos_x="445" pos_y="-60" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="101515" open="true" pre_stage_site="10151405" opposite_stage_area_id1="111502" opposite_stage_area_id2="0" name="第15節" bg="area1005/100503" pos_x="530" pos_y="-5" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
     <open_cycle>0</open_cycle>
     <open_cycle>0</open_cycle>
     <bonus_cycle>0</bonus_cycle>
@@ -974,6 +1079,27 @@
     <bonus_cycle>0</bonus_cycle>
   </stage_area>
   <stage_area id="111403" open="true" pre_stage_site="11140203" opposite_stage_area_id1="101403" opposite_stage_area_id2="0" name="第3節" bg="area1005/100502" pos_x="390" pos_y="-30" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="111501" open="true" pre_stage_site="10151505" opposite_stage_area_id1="101501" opposite_stage_area_id2="0" name="第1節" bg="area1005/100501" pos_x="-410" pos_y="-50" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="111502" open="true" pre_stage_site="11150103" opposite_stage_area_id1="101502" opposite_stage_area_id2="0" name="第2節" bg="area1005/100502" pos_x="35" pos_y="-70" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="111503" open="true" pre_stage_site="11150203" opposite_stage_area_id1="101503" opposite_stage_area_id2="0" name="第3節" bg="area1005/100503" pos_x="380" pos_y="-80" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
     <open_cycle>0</open_cycle>
     <open_cycle>0</open_cycle>
     <bonus_cycle>0</bonus_cycle>
@@ -2255,6 +2381,55 @@
     <bonus_cycle>0</bonus_cycle>
   </stage_area>
   <stage_area id="519801" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="《復刻》タコタコ、ビーチパニック!!" bg="eventbg/eventbg30/event_93-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="509901" open="true" pre_stage_site="0" opposite_stage_area_id1="519901" opposite_stage_area_id2="0" name="大空祭に迫りし、黒き影" bg="eventbg/eventbg31/event_94-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="519901" open="true" pre_stage_site="50990136" opposite_stage_area_id1="509901" opposite_stage_area_id2="0" name="大空祭に迫りし、黒き影（Hard）" bg="eventbg/eventbg31/event_94-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="510001" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="【Fanzine】クエスト" bg="eventbg/eventbg31/event_95-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="590001" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="《復刻》真夏の大空祭" bg="eventbg/eventbg31/event_96-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="520101" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="バーストフェス" bg="eventbg/eventbg32/event_97-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="520201" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="【2周年】特別クエスト" bg="eventbg/eventbg32/event_98-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </stage_area>
+  <stage_area id="530201" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="物資調達" bg="eventbg/eventbg32/event_99-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
     <open_cycle>0</open_cycle>
     <open_cycle>0</open_cycle>
     <bonus_cycle>0</bonus_cycle>

@@ -844,6 +844,22 @@
   <monster_action id="40088" info="自身が「物理防御DOWN」状態の場合" type="自身有指定狀態" value="DEF上升或下降" skill_id="4008804" />
   <monster_action id="40088" info="自身が「魔法防御DOWN」状態の場合" type="自身有指定狀態" value="MDEF上升或下降" skill_id="4008805" />
   <monster_action id="40088" info="自身が「ブロックDOWN」状態の場合" type="自身有指定狀態" value="迴避上升或下降" skill_id="4008806" />
+  <monster_action id="40089" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4008901" />
+  <monster_action id="40089" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4008902" />
+  <monster_action id="40089" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4008903" />
+  <monster_action id="40089" info="自身が「解消」状態の場合" type="自身有指定狀態" value="驅散" skill_id="4008904" />
+  <monster_action id="40090" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4009001" />
+  <monster_action id="40090" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4009002" />
+  <monster_action id="40090" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4009003" />
+  <monster_action id="40090" info="自身が「解消」状態の場合" type="自身有指定狀態" value="驅散" skill_id="4009004" />
+  <monster_action id="40091" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4009101" />
+  <monster_action id="40091" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4009102" />
+  <monster_action id="40091" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4009103" />
+  <monster_action id="40091" info="自身が「解消」状態の場合" type="自身有指定狀態" value="驅散" skill_id="4009104" />
+  <monster_action id="40092" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4009201" />
+  <monster_action id="40092" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4009202" />
+  <monster_action id="40092" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4009203" />
+  <monster_action id="40092" info="自身が「解消」状態の場合" type="自身有指定狀態" value="驅散" skill_id="4009204" />
   <monster_action id="41001" type="剩餘時間低於" value="90" skill_id="4100101" />
   <monster_action id="41001" type="剩餘時間低於" value="60" skill_id="4100102" />
   <monster_action id="41001" type="剩餘時間低於" value="30" skill_id="4100103" />
@@ -1057,4 +1073,24 @@
   <monster_action id="41061" info="剩餘60秒" type="剩餘時間低於" value="60" skill_id="4106102" />
   <monster_action id="41061" info="剩餘30秒" type="剩餘時間低於" value="30" skill_id="4106103" />
   <monster_action id="41061" info="自身「詛咒」狀態的場合" type="自身有指定狀態" value="詛咒" skill_id="4106104" />
+  <monster_action id="80901" info="残り90秒" type="剩餘時間低於" value="90" skill_id="8090101" />
+  <monster_action id="80901" info="残り60秒" type="剩餘時間低於" value="60" skill_id="8090102" />
+  <monster_action id="80901" info="残り30秒" type="剩餘時間低於" value="30" skill_id="8090103" />
+  <monster_action id="80901" info="残りHP50%" type="自身血量低於" value="0.5" skill_id="8090104" />
+  <monster_action id="80901" info="自身が「出血」状態の場合" type="自身有指定狀態" value="流血" skill_id="8090105" />
+  <monster_action id="80902" info="残り90秒" type="剩餘時間低於" value="90" skill_id="8090201" />
+  <monster_action id="80902" info="残り60秒" type="剩餘時間低於" value="60" skill_id="8090202" />
+  <monster_action id="80902" info="残り30秒" type="剩餘時間低於" value="30" skill_id="8090203" />
+  <monster_action id="80902" info="残りHP50%" type="自身血量低於" value="0.5" skill_id="8090204" />
+  <monster_action id="80902" info="自身が「出血」状態の場合" type="自身有指定狀態" value="流血" skill_id="8090205" />
+  <monster_action id="80903" info="残り90秒" type="剩餘時間低於" value="90" skill_id="8090301" />
+  <monster_action id="80903" info="残り60秒" type="剩餘時間低於" value="60" skill_id="8090302" />
+  <monster_action id="80903" info="残り30秒" type="剩餘時間低於" value="30" skill_id="8090303" />
+  <monster_action id="80903" info="残りHP50%" type="自身血量低於" value="0.5" skill_id="8090304" />
+  <monster_action id="80903" info="自身が「出血」状態の場合" type="自身有指定狀態" value="流血" skill_id="8090305" />
+  <monster_action id="80904" info="残り90秒" type="剩餘時間低於" value="90" skill_id="8090401" />
+  <monster_action id="80904" info="残り60秒" type="剩餘時間低於" value="60" skill_id="8090402" />
+  <monster_action id="80904" info="残り30秒" type="剩餘時間低於" value="30" skill_id="8090403" />
+  <monster_action id="80904" info="残りHP50%" type="自身血量低於" value="0.5" skill_id="8090404" />
+  <monster_action id="80904" info="自身が「出血」状態の場合" type="自身有指定狀態" value="流血" skill_id="8090405" />
 </root>
