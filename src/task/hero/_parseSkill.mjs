@@ -305,53 +305,64 @@ const parseBuff = (buff, lv, info) => {
           break;
 
       case '次數傷害吸收':
-        text += `${val2.lt(999) ? "回数付" : ""}${val3.gt(0) ? "回復" : ""}バリア(${span}${val1.toString()}%`;
-        if (val4.plus(val5.mul(lv)).gt(0)) {
-          text += `+${val4.plus(val5.mul(lv)).toString()}`;
-        }
-        text += `${spanEnd}`;
-        if (val3.gt(0)) {
-          text += `、削れたバリアの${spanHeal}${val3.toString()}%${spanEnd}回復`;
-        }
+        if (buff['@_cant_remove'] === 'true' && val2.gt(999)) {
+          text += `被ダメージ${span}${val1.abs().toString()}%${spanEnd}減少`;
+        } else {
+          text += `${val2.lt(999) ? "回数付" : ""}${val3.gt(0) ? "回復" : ""}バリア(${span}${val1.toString()}%`;
+          if (val4.plus(val5.mul(lv)).gt(0)) {
+            text += `+${val4.plus(val5.mul(lv)).toString()}`;
+          }
+          text += `${spanEnd}`;
+          if (val3.gt(0)) {
+            text += `、削れたバリアの${spanHeal}${val3.toString()}%${spanEnd}回復`;
+          }
 
-        if (val2.lt(999)) {
-          text += `、${spanN}${val2.toString()}${spanEnd}回`;
+          if (val2.lt(999)) {
+            text += `、${spanN}${val2.toString()}${spanEnd}回`;
+          }
+          text += ")";
         }
-        text += ")";
-        
-          break;
+        break;
 
       case '物理次數傷害吸收':
-        text += `${val2.lt(999) ? "回数付" : ""}${val3.gt(0) ? "物理回復" : "物理"}バリア(${span}${val1.toString()}%`;
-        if (val4.plus(val5.mul(lv)).gt(0)) {
-          text += `+${val4.plus(val5.mul(lv)).toString()}`;
-        }
-        text += `${spanEnd}`;
-        if (val3.gt(0)) {
-          text += `、削れたバリアの${span}${val3.toString()}%${spanEnd}回復`;
-        }
+        if (buff['@_cant_remove'] === 'true' && val2.gt(999)) {
+          text += `被物理ダメージ${span}${val1.abs().toString()}%${spanEnd}減少`;
+        } else {
+          text += `${val2.lt(999) ? "回数付" : ""}${val3.gt(0) ? "物理回復" : "物理"}バリア(${span}${val1.toString()}%`;
+          if (val4.plus(val5.mul(lv)).gt(0)) {
+            text += `+${val4.plus(val5.mul(lv)).toString()}`;
+          }
+          text += `${spanEnd}`;
+          if (val3.gt(0)) {
+            text += `、削れたバリアの${span}${val3.toString()}%${spanEnd}回復`;
+          }
 
-        if (val2.lt(999)) {
-          text += `、${spanN}${val2.toString()}${spanEnd}回`;
+          if (val2.lt(999)) {
+            text += `、${spanN}${val2.toString()}${spanEnd}回`;
+          }
+          text += ")";
         }
-        text += ")";
-          break;
+        break;
 
       case '魔法次數傷害吸收':
-        text += `${val2.lt(999) ? "回数付" : ""}${val3.gt(0) ? "魔法回復" : "魔法"}バリア(${span}${val1.toString()}%`;
-        if (val4.plus(val5.mul(lv)).gt(0)) {
-          text += `+${val4.plus(val5.mul(lv)).toString()}`;
-        }
-        text += `${spanEnd}`;
-        if (val3.gt(0)) {
-          text += `、削れたバリアの${span}${val3.toString()}%${spanEnd}回復`;
-        }
+        if (buff['@_cant_remove'] === 'true' && val2.gt(999)) {
+          text += `被魔法ダメージ${span}${val1.abs().toString()}%${spanEnd}減少`;
+        } else {
+          text += `${val2.lt(999) ? "回数付" : ""}${val3.gt(0) ? "魔法回復" : "魔法"}バリア(${span}${val1.toString()}%`;
+          if (val4.plus(val5.mul(lv)).gt(0)) {
+            text += `+${val4.plus(val5.mul(lv)).toString()}`;
+          }
+          text += `${spanEnd}`;
+          if (val3.gt(0)) {
+            text += `、削れたバリアの${span}${val3.toString()}%${spanEnd}回復`;
+          }
 
-        if (val2.lt(999)) {
-          text += `、${spanN}${val2.toString()}${spanEnd}回`;
+          if (val2.lt(999)) {
+            text += `、${spanN}${val2.toString()}${spanEnd}回`;
+          }
+          text += ")";
         }
-        text += ")";
-          break;
+        break;
 
       case '次數傷害反彈':
         text += `反射バリア(${span}${val1.toString()}%${val3.plus(val4.mul(lv)).gt(0) ? "+" + val3.plus(val4.mul(lv)).toString() : ""}${spanEnd}`;
@@ -592,7 +603,7 @@ const parseBuff = (buff, lv, info) => {
           break;
 
       case '受到普攻傷害上升或下降':
-          text += `敵からの通常攻撃の被ダメージ${parseUpDown()}`;
+          text += `通常攻撃被ダメージ${parseUpDown()}`;
           break;
 
       case '受到技能傷害上升或下降':
@@ -624,10 +635,19 @@ const parseBuff = (buff, lv, info) => {
       //     break;
 
       case '受到傷害上升或下降':
-          text += `受けるダメージが${span}${val1.abs().toString()}%${spanEnd}軽減される`;
+        if (val1.lt(0)) {
+          text += `被ダメージ${span}${val1.abs().toString()}%${spanEnd}減少`;
+        } else {
+          text += `被ダメージ${span}${val1.abs().toString()}%${spanEnd}UP`
+        }
           break;
       case '造成傷害上升或下降':
-          text += `与えるダメージが${parseUpDown()}`;
+          text += "ダメージ";
+          text += `<span class=\"value ${debuff ? "down" : "up"}\">`;
+          const v = val1.plus(val2.mul(lv));
+          if (v.gt(0)) { text += `${v.abs().toString()}`; } else if (v.lt(0)) { text += `-${v.abs().toString()}`; }
+          text += "%</span>";
+          text += "UP";
           break;
       // case '狀態效果時間上升或下降':
       //     break;
@@ -689,13 +709,16 @@ const parseBuff = (buff, lv, info) => {
         text += `${spanEnd}`;
         text += ")";
         break;
+      case '普攻追加傷害':
+        text += `通常攻撃追撃(${spanN}${val1.toString()}%${spanEnd}${val2.gt(1) ? "・"+val2+"回" : ""})`
+        break;
       
       default:
           console.log("Unknown buff effect type = "+type);
           break;
   }
   if (buff['@_cant_remove'] === 'true') {
-    text += "(消去不可)";
+    //text += "(消去不可)";
   }
   return text;
 }
@@ -767,7 +790,7 @@ export const parseSkill = (sid, lv, kf) => {
     ['A', "{5}", "{6}"],  //  バフ属性名の末尾, バフ効果量挿入文字列, バフ効果時間挿入文字列
     ['B', "{7}", "{8}"], 
     ['C', "{12}", "{13}"],
-    ['D', "{14}", "{15}"]]) {
+    ['D', "{27}", "{28}"]]) {
     const buffId = s['@_buff_id'+postFix[0]];
     const buffDur = s['@_buff_dur'+postFix[0]];
     const buffIf = s['@_buff_if'+postFix[0]];
@@ -793,7 +816,7 @@ export const parseSkill = (sid, lv, kf) => {
         ['A', "{C5}", "{C6}"],
         ['B', "{C7}", "{C8}"],
         ['C', "{C12}", "{C13}"],
-        ['D', "{C14}", "{C15}"]]) {
+        ['D', "{C27}", "{C28}"]]) {
           const buffId = c['@_buff_id'+postFix[0]];
           const buffDur = c['@_buff_dur'+postFix[0]];
           const buffIf = c['@_buff_if'+postFix[0]];

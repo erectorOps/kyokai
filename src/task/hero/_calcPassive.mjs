@@ -583,6 +583,8 @@ const calcBuff = (params, buff) => {
         // text += `${spanEnd}`;
         // text += ")";
         break;
+      case '普攻追加傷害':
+        break;
 
       default:
           console.log("Unknown buff effect type = "+type);
@@ -596,7 +598,7 @@ export const calcPassive = (sid, params, kf) => {
     ['A', "{5}", "{6}"],  //  バフ属性名の末尾, バフ効果量挿入文字列, バフ効果時間挿入文字列
     ['B', "{7}", "{8}"], 
     ['C', "{12}", "{13}"],
-    ['D', "{14}", "{15}"]]) {
+    ['D', "{27}", "{28}"]]) {
     const buffId = s['@_buff_id'+postFix[0]];
     const buffDur = s['@_buff_dur'+postFix[0]];
     //const buffIf = s['@_buff_if'+postFix[0]];
