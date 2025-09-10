@@ -136,6 +136,72 @@
     </table>
     <script>
         $(document).ready(function() {
+            
+            $('.self-btn').on('click', function() {
+                var $container = $(this).closest('.target-container');
+                var $allBtn = $container.find('.all-btn');
+                var $selfBtn = $(this);
+                var $ul = $container.next('ul.filter_container');
+
+                // 既に self-btnがactiveの場合は何もしない
+                if ($selfBtn.hasClass('active')) return;
+
+                if ($allBtn.hasClass('active')) {
+                    // all側のチェック済みをself側に引き継ぐ
+                    $ul.find('li[data-range="all"]').each(function() {
+                        if ($(this).attr('data-check') === "1") {
+                            var name = $(this).data('name');
+                            $ul.find('li[data-range="self"][data-name="'+name+'"]')
+                                .attr('data-check', "1");
+                        }
+                    });
+                }
+
+                // all側は最後に全てリセット
+                $ul.find('li[data-range="all"]').attr('data-check', "0");
+
+                // ボタン状態切替
+                $selfBtn.addClass('active');
+                $allBtn.removeClass('active');
+
+                // 表示制御
+                $ul.find('li[data-range="all"]').hide();
+                $ul.find('li[data-range="self"]').show();
+
+                hero_search();
+            });
+
+            $('.all-btn').on('click', function() {
+                var $container = $(this).closest('.target-container');
+                var $allBtn = $(this);
+                var $selfBtn = $container.find('.self-btn');
+                var $ul = $container.next('ul.filter_container');
+
+                if ($allBtn.hasClass('active')) return; // 既にactiveなら何もしない
+
+                if ($selfBtn.hasClass('active')) {
+                    // self → all への引き継ぎ
+                    $ul.find('li[data-range="self"]').each(function() {
+                    if ($(this).attr('data-check') === "1") {
+                        var name = $(this).data('name');
+                        $ul.find('li[data-range="all"][data-name="' + name + '"]')
+                                .attr('data-check', "1");
+                    }
+                    });
+                    // self 側をリセット
+                    $ul.find('li[data-range="self"]').attr('data-check', "0");
+                }
+
+                // ボタン状態切替
+                $allBtn.addClass('active');
+                $selfBtn.removeClass('active');
+
+                // 表示制御
+                $ul.find('li[data-range="self"]').hide();
+                $ul.find('li[data-range="all"]').show();
+
+                hero_search();
+            });
 
             $(".filter_container > li").click(function() {
                 var current_check = $(this).attr("data-check");

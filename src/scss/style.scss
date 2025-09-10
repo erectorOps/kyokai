@@ -701,3 +701,59 @@ summary {
     font-size: 1.1rem;
     margin-left: 1em;
 }
+
+/* ラベルとボタンを右端にまとめる */
+.target-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px; /* ラベルとボタンの間隔 */
+    margin-bottom: 5px;
+}
+
+.target-selector {
+    display: inline-flex; /* 横並びでくっつける */
+    overflow: hidden;
+}
+
+.target-button {
+    padding: 4px 20px;
+    border: 1px solid #CCC;
+    background-color: white;
+    color: #007BFF;
+    cursor: pointer;
+    transition: all 0.2s;
+    flex: 1;
+    white-space: nowrap;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+/* 左端のボタンの左角だけ丸める */
+.target-button:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: none;
+}
+
+/* 右端のボタンの右角だけ丸める */
+.target-button:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.target-button.active {
+    background-color: #007BFF;
+    border-color: #007BFF;
+    color: white;
+}
+
+.target-button:not(.active):hover {
+    background-color: #e0f0ff;
+    border-color: #007BFF;
+}
+
+.target-label {
+    font-weight: normal;
+}
