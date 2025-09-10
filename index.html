@@ -67,193 +67,265 @@
             <tr><th>奥義</th>
             <td>
 
+<div class="target-container" id="ub-target-container">
+    <span class="target-label">対象:</span>
+    <div class="target-selector">
+        <button class="target-button" data-range="self">👤自身</button>
+        <button class="target-button active" data-range="all">👥味方</button>
+        <button class="target-button" data-range="enemy">👹敵</button>
+    </div>
+</div>
 <ul class="filter_container" data-filter="ub_type" data-count="26">
     
         
         <li data-val="a" data-check="0"><div>単体攻撃</div></li>
+        
     
         
         <li data-val="b" data-check="0"><div>複数攻撃</div></li>
+        
     
         
         <li data-val="c" data-check="0"><div>6人攻撃</div></li>
+        
     
         
         <li data-val="d" data-check="0"><div>全体攻撃</div></li>
+        
     
         
         <li data-val="e" data-check="0"><div>バブのみ</div></li>
+        
     
         
-        <li data-val="f" data-check="0"><div>HP回復</div></li>
+        <li data-range="all" data-name="HP回復" data-val="f" data-check="0" ><div>HP回復👥</div></li>
+        
     
         
-        <li data-val="x" data-check="0"><div>MP回復</div></li>
+        <li data-range="all" data-name="MP回復" data-val="x" data-check="0" ><div>MP回復👥</div></li>
+        
     
         
-        <li data-val="y,z" data-check="0"><div>攻撃UP</div></li>
+        <li data-range="all" data-name="攻撃UP" data-val="y,z" data-check="0" ><div>攻撃UP👥</div></li>
+        
     
         
-        <li data-val="aa,ab" data-check="0"><div>クリUP</div></li>
+        <li data-range="all" data-name="クリUP" data-val="aa,ab" data-check="0" ><div>クリUP👥</div></li>
+        
     
         
-        <li data-val="ac" data-check="0"><div>速度UP</div></li>
+        <li data-range="all" data-name="速度UP" data-val="ac" data-check="0" ><div>速度UP👥</div></li>
+        
     
         
-        <li data-val="af" data-check="0"><div>属性攻撃UP</div></li>
+        <li data-range="all" data-name="属性攻撃UP" data-val="af" data-check="0" ><div>属性攻撃UP👥</div></li>
+        
     
         
-        <li data-val="am,an,ao" data-check="0"><div>回数付ダメUP</div></li>
+        <li data-range="all" data-name="回数付ダメUP" data-val="am,an,ao" data-check="0" ><div>回数付ダメUP👥</div></li>
+        
     
         
-        <li data-val="ag" data-check="0"><div>ダメUP</div></li>
+        <li data-range="all" data-name="ダメUP" data-val="ag" data-check="0" ><div>ダメUP👥</div></li>
+        
     
         
-        <li data-val="aq" data-check="0"><div>挑発</div></li>
+        <li data-range="all" data-name="デバフ耐性" data-val="ah" data-check="0" ><div>デバフ耐性👥</div></li>
+        
     
         
-        <li data-val="ah" data-check="0"><div>デバフ耐性</div></li>
+        <li data-range="self" data-name="MP回復" data-val="h" data-check="0" style='display: none;'><div>MP回復👤</div></li>
+        
     
         
-        <li data-val="ai,aj" data-check="0"><div>防御DOWN</div></li>
+        <li data-range="self" data-name="攻撃UP" data-val="i,j" data-check="0" style='display: none;'><div>攻撃UP👤</div></li>
+        
     
         
-        <li data-val="ak" data-check="0"><div>速度DOWN</div></li>
+        <li data-range="self" data-name="クリUP" data-val="k,l" data-check="0" style='display: none;'><div>クリUP👤</div></li>
+        
     
         
-        <li data-val="al" data-check="0"><div>被ダメUP</div></li>
+        <li data-range="self" data-name="速度UP" data-val="m" data-check="0" style='display: none;'><div>速度UP👤</div></li>
+        
     
         
-        <li data-val="ar,as,at,bs,aw,bd,ay,av,au,ax,az,ba,bb,bc,bu,bd" data-check="0"><div>状態異常</div></li>
+        <li data-range="self" data-name="属性攻撃UP" data-val="n" data-check="0" style='display: none;'><div>属性攻撃UP👤</div></li>
+        
     
         
-        <li data-val="h" data-check="0"><div>自MP回復</div></li>
+        <li data-range="self" data-name="回数付ダメUP" data-val="q,r,s" data-check="0" style='display: none;'><div>回数付ダメUP👤</div></li>
+        
     
         
-        <li data-val="i,j" data-check="0"><div>自攻撃UP</div></li>
+        <li data-range="self" data-name="ダメUP" data-val="o,p" data-check="0" style='display: none;'><div>ダメUP👤</div></li>
+        
     
         
-        <li data-val="k,l" data-check="0"><div>自クリUP</div></li>
+        <li data-range="enemy" data-name="挑発" data-val="aq" data-check="0" style='display: none;'><div>挑発👹</div></li>
+        
     
         
-        <li data-val="m" data-check="0"><div>自速度UP</div></li>
+        <li data-range="enemy" data-name="防御DOWN" data-val="ai,aj" data-check="0" style='display: none;'><div>防御DOWN👹</div></li>
+        
     
         
-        <li data-val="n" data-check="0"><div>自属性攻撃UP</div></li>
+        <li data-range="enemy" data-name="速度DOWN" data-val="ak" data-check="0" style='display: none;'><div>速度DOWN👹</div></li>
+        
     
         
-        <li data-val="q,r,s" data-check="0"><div>自回数付ダメUP</div></li>
+        <li data-range="enemy" data-name="被ダメUP" data-val="al" data-check="0" style='display: none;'><div>被ダメUP👹</div></li>
+        
     
         
-        <li data-val="o,p" data-check="0"><div>自ダメUP</div></li>
+        <li data-range="enemy" data-name="状態異常" data-val="ar,as,at,bs,aw,bd,ay,av,au,ax,az,ba,bb,bc,bu,bd" data-check="0" style='display: none;'><div>状態異常👹</div></li>
+        
     
 </ul>
-
             </td>
             </tr>
             <tr><th>スキル</th>
             <td>
 
+<div class="target-container" id="sk-target-container">
+    <span class="target-label">対象:</span>
+    <div class="target-selector">
+        <button class="target-button" data-range="self">👤自身</button>
+        <button class="target-button active" data-range="all">👥味方</button>
+        <button class="target-button" data-range="enemy">👹敵</button>
+    </div>
+</div>
 <ul class="filter_container" data-filter="sk_type" data-count="32">
     
         
         <li data-val="t" data-check="0"><div>W攻撃</div></li>
+        
     
         
         <li data-val="e" data-check="0"><div>バフのみ</div></li>
-    
         
-        <li data-val="x" data-check="0"><div>MP回復</div></li>
-    
-        
-        <li data-val="y,z" data-check="0"><div>攻撃UP</div></li>
-    
-        
-        <li data-val="aa,ab" data-check="0"><div>クリUP</div></li>
-    
-        
-        <li data-val="ac" data-check="0"><div>速度UP</div></li>
-    
-        
-        <li data-val="ad" data-check="0"><div>スキルダメUP</div></li>
-    
-        
-        <li data-val="ae" data-check="0"><div>奥義ダメUP</div></li>
-    
-        
-        <li data-val="af" data-check="0"><div>属性攻撃UP</div></li>
-    
-        
-        <li data-val="am,an,ao" data-check="0"><div>回数付ダメUP</div></li>
-    
-        
-        <li data-val="ag" data-check="0"><div>ダメUP</div></li>
-    
-        
-        <li data-val="aq" data-check="0"><div>挑発</div></li>
-    
-        
-        <li data-val="ah" data-check="0"><div>デバフ耐性</div></li>
-    
-        
-        <li data-val="ai,aj" data-check="0"><div>防御DOWN</div></li>
-    
-        
-        <li data-val="ak" data-check="0"><div>速度DOWN</div></li>
-    
-        
-        <li data-val="al" data-check="0"><div>被ダメUP</div></li>
-    
-        
-        <li data-val="be" data-check="0"><div>挑発耐性</div></li>
-    
-        
-        <li data-val="ar,as,at,bs,aw,bd,ay,av,au,ax,az,ba,bb,bc,bu,bd" data-check="0"><div>状態異常</div></li>
-    
-        
-        <li data-val="h" data-check="0"><div>自MP回復</div></li>
-    
-        
-        <li data-val="i,j" data-check="0"><div>自攻撃UP</div></li>
-    
-        
-        <li data-val="k,l" data-check="0"><div>自クリUP</div></li>
-    
-        
-        <li data-val="m" data-check="0"><div>自速度UP</div></li>
-    
-        
-        <li data-val="u" data-check="0"><div>自スキルダメUP</div></li>
-    
-        
-        <li data-val="v" data-check="0"><div>自奥義ダメUP</div></li>
-    
-        
-        <li data-val="n" data-check="0"><div>自属性攻撃UP</div></li>
-    
-        
-        <li data-val="q,r,s" data-check="0"><div>自回数付ダメUP</div></li>
-    
-        
-        <li data-val="o,p" data-check="0"><div>自ダメUP</div></li>
-    
-        
-        <li data-val="w" data-check="0"><div>自デバフ耐性</div></li>
     
         
         <li data-val="bw" data-check="0"><div>速度UP①のみ</div></li>
+        
     
         
         <li data-val="bx" data-check="0"><div>速度UP②のみ</div></li>
+        
     
         
-        <li data-val="by" data-check="0"><div>速度DOWN①のみ</div></li>
+        <li data-range="all" data-name="MP回復" data-val="x" data-check="0" ><div>MP回復👥</div></li>
+        
     
         
-        <li data-val="bz" data-check="0"><div>速度DOWN②のみ</div></li>
+        <li data-range="all" data-name="攻撃UP" data-val="y,z" data-check="0" ><div>攻撃UP👥</div></li>
+        
+    
+        
+        <li data-range="all" data-name="クリUP" data-val="aa,ab" data-check="0" ><div>クリUP👥</div></li>
+        
+    
+        
+        <li data-range="all" data-name="速度UP" data-val="ac" data-check="0" ><div>速度UP👥</div></li>
+        
+    
+        
+        <li data-range="all" data-name="スキルダメUP" data-val="ad" data-check="0" ><div>スキルダメUP👥</div></li>
+        
+    
+        
+        <li data-range="all" data-name="奥義ダメUP" data-val="ae" data-check="0" ><div>奥義ダメUP👥</div></li>
+        
+    
+        
+        <li data-range="all" data-name="属性攻撃UP" data-val="af" data-check="0" ><div>属性攻撃UP👥</div></li>
+        
+    
+        
+        <li data-range="all" data-name="回数付ダメUP" data-val="am,an,ao" data-check="0" ><div>回数付ダメUP👥</div></li>
+        
+    
+        
+        <li data-range="all" data-name="ダメUP" data-val="ag" data-check="0" ><div>ダメUP👥</div></li>
+        
+    
+        
+        <li data-range="all" data-name="デバフ耐性" data-val="ah" data-check="0" ><div>デバフ耐性👥</div></li>
+        
+    
+        
+        <li data-range="self" data-name="MP回復" data-val="h" data-check="0" style='display: none;'><div>MP回復👤</div></li>
+        
+    
+        
+        <li data-range="self" data-name="攻撃UP" data-val="i,j" data-check="0" style='display: none;'><div>攻撃UP👤</div></li>
+        
+    
+        
+        <li data-range="self" data-name="クリUP" data-val="k,l" data-check="0" style='display: none;'><div>クリUP👤</div></li>
+        
+    
+        
+        <li data-range="self" data-name="速度UP" data-val="m" data-check="0" style='display: none;'><div>速度UP👤</div></li>
+        
+    
+        
+        <li data-range="self" data-name="スキルダメUP" data-val="u" data-check="0" style='display: none;'><div>スキルダメUP👤</div></li>
+        
+    
+        
+        <li data-range="self" data-name="奥義ダメUP" data-val="v" data-check="0" style='display: none;'><div>奥義ダメUP👤</div></li>
+        
+    
+        
+        <li data-range="self" data-name="属性攻撃UP" data-val="n" data-check="0" style='display: none;'><div>属性攻撃UP👤</div></li>
+        
+    
+        
+        <li data-range="self" data-name="回数付ダメUP" data-val="q,r,s" data-check="0" style='display: none;'><div>回数付ダメUP👤</div></li>
+        
+    
+        
+        <li data-range="self" data-name="ダメUP" data-val="o,p" data-check="0" style='display: none;'><div>ダメUP👤</div></li>
+        
+    
+        
+        <li data-range="self" data-name="デバフ耐性" data-val="w" data-check="0" style='display: none;'><div>デバフ耐性👤</div></li>
+        
+    
+        
+        <li data-range="self" data-name="挑発耐性" data-val="be" data-check="0" style='display: none;'><div>挑発耐性👤</div></li>
+        
+    
+        
+        <li data-range="enemy" data-name="挑発" data-val="aq" data-check="0" style='display: none;'><div>挑発👹</div></li>
+        
+    
+        
+        <li data-range="enemy" data-name="防御DOWN" data-val="ai,aj" data-check="0" style='display: none;'><div>防御DOWN👹</div></li>
+        
+    
+        
+        <li data-range="enemy" data-name="速度DOWN" data-val="ak" data-check="0" style='display: none;'><div>速度DOWN👹</div></li>
+        
+    
+        
+        <li data-range="enemy" data-name="被ダメUP" data-val="al" data-check="0" style='display: none;'><div>被ダメUP👹</div></li>
+        
+    
+        
+        <li data-range="enemy" data-name="状態異常" data-val="ar,as,at,bs,aw,bd,ay,av,au,ax,az,ba,bb,bc,bu,bd" data-check="0" style='display: none;'><div>状態異常👹</div></li>
+        
+    
+        
+        <li data-range="enemy" data-name="速度DOWN①のみ" data-val="by" data-check="0" style='display: none;'><div>速度DOWN①のみ👹</div></li>
+        
+    
+        
+        <li data-range="enemy" data-name="速度DOWN②のみ" data-val="bz" data-check="0" style='display: none;'><div>速度DOWN②のみ👹</div></li>
+        
     
 </ul>
-
             </td>
             </tr>
             <tr><th>武器</th>
@@ -3501,6 +3573,42 @@
     </table>
     <script>
         $(document).ready(function() {
+
+            function switchTarget($container, fromRange, toRange) {
+                var $ul = $container.next('ul.filter_container');
+
+                // 引き継ぎ
+                $ul.find('li[data-range="' + fromRange + '"]').each(function() {
+                    if ($(this).attr('data-check') === "1") {
+                        var name = $(this).data('name');
+                        $ul.find('li[data-range="' + toRange + '"][data-name="' + name + '"]')
+                                .attr('data-check', "1");
+                    }
+                });
+
+                // 元のをリセット
+                $ul.find('li[data-range="' + fromRange + '"]').attr('data-check', "0");
+
+                // 表示切り替え
+                $ul.find('li[data-range]').hide();
+                $ul.find('li[data-range="' + toRange + '"]').show();
+            }
+
+            $('.target-button').on('click', function() {
+                var $container = $(this).closest('.target-container');
+                var $buttons = $container.find('.target-button');
+                var $current = $buttons.filter('.active');
+                var fromRange = $current.data('range');
+                var toRange = $(this).data('range');
+                if (fromRange === toRange) return;
+
+                switchTarget($container, fromRange, toRange);
+
+                $current.removeClass('active');
+                $(this).addClass('active');
+
+                hero_search();
+            });
 
             $(".filter_container > li").click(function() {
                 var current_check = $(this).attr("data-check");

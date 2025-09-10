@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 :root {
   --link-color: #0066c0;
@@ -709,4 +710,72 @@ summary {
   color: red;
   font-size: 1.1rem;
   margin-left: 1em;
+}
+
+/* ラベルとボタンを右端にまとめる */
+.target-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px; /* ラベルとボタンの間隔 */
+  margin-bottom: 5px;
+}
+
+.target-selector {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex; /* 横並びでくっつける */
+  overflow: hidden;
+}
+
+.target-button {
+  padding: 4px 20px;
+  border: 1px solid #CCC;
+  background-color: white;
+  color: #007BFF;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  white-space: nowrap;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1;
+  border-left: none;
+}
+
+/* 左端のボタンの左角だけ丸める */
+.target-button:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-left: 1px solid #CCC;
+}
+
+/* 右端のボタンの右角だけ丸める */
+.target-button:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.target-button.active {
+  background-color: #007BFF;
+  border-color: #007BFF;
+  color: white;
+}
+
+.target-button:not(.active):hover {
+  background-color: #e0f0ff;
+  border-color: #007BFF;
+}
+
+.target-label {
+  font-weight: normal;
 }
