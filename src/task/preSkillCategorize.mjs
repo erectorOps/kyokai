@@ -633,10 +633,10 @@ export class PreSkillCategorize {
         if (actives.some(v => v.isIncreasesSPD(self) && (outer = v.message) && true)) {
             type.push(def["自身行動速度UP"]);
             if (outer.group == "109") {
-                type.push(def["行動速度UP_A"]);
+                type.push(def["自身行動速度UP_A"]);
             }
             if (outer.group == "209") {
-                type.push(def["行動速度UP_B"]);
+                type.push(def["自身行動速度UP_B"]);
             }
         }
 

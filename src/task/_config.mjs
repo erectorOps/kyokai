@@ -106,5 +106,7 @@ export const def = {
     "行動速度UP_A": "bw",
     "行動速度UP_B": "bx",
     "行動速度DOWN_A": "by",
-    "行動速度DOWN_B": "bz"
+    "行動速度DOWN_B": "bz",
+    "自身行動速度UP_A": "ca",
+    "自身行動速度UP_B": "cb"
 };
