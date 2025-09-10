@@ -1,6 +1,8 @@
 <% const sk_buttons = [
     ["W攻撃", "W攻撃"],
     ["バフのみ", "バフのみ"],
+    ["速度UP①のみ", "行動速度UP_A"],
+    ["速度UP②のみ", "行動速度UP_B"],
 
     ["MP回復👥", "MP回復"],
     ["攻撃UP👥", "物理攻撃UP,魔法攻撃UP"],
@@ -23,24 +25,23 @@
     ["回数付ダメUP👤", "自身回数付ダメージUP,自身回数付物理ダメージUP,自身回数付魔法ダメージUP"],
     ["ダメUP👤", "自身ダメージUP,自身条件付ダメージUP"],
     ["デバフ耐性👤", "自身デバフ耐性"],
+    ["挑発耐性👤", "挑発耐性"],
 
-    ["挑発", "挑発"],
-    ["防御DOWN", "物理防御DOWN,魔法防御DOWN"],
-    ["速度DOWN", "行動速度DOWN"],
-    ["被ダメUP", "被ダメージUP"],
-    ["挑発耐性", "挑発耐性"],
-    ["状態異常", "毒,火傷,凍結,出血,沈黙,解消,麻痺,睡眠,石化,眩暈,混乱,魅了,呪い,盲目,恐怖,解消"],
-    ["速度UP①のみ", "行動速度UP_A"],
-    ["速度UP②のみ", "行動速度UP_B"],
-    ["速度DOWN①のみ", "行動速度DOWN_A"],
-    ["速度DOWN②のみ", "行動速度DOWN_B"],
+    ["挑発👹", "挑発"],
+    ["防御DOWN👹", "物理防御DOWN,魔法防御DOWN"],
+    ["速度DOWN👹", "行動速度DOWN"],
+    ["被ダメUP👹", "被ダメージUP"],
+    ["状態異常👹", "毒,火傷,凍結,出血,沈黙,解消,麻痺,睡眠,石化,眩暈,混乱,魅了,呪い,盲目,恐怖,解消"],
+    ["速度DOWN①のみ👹", "行動速度DOWN_A"],
+    ["速度DOWN②のみ👹", "行動速度DOWN_B"],
 ];
 %>
 <div class="target-container" id="sk-target-container">
-    <span class="target-label">ターゲット:</span>
+    <span class="target-label">対象:</span>
     <div class="target-selector">
-        <button class="target-button self-btn">👤自身</button>
-        <button class="target-button all-btn active">👥味方全体</button>
+        <button class="target-button" data-range="self">👤自身</button>
+        <button class="target-button active" data-range="all">👥味方</button>
+        <button class="target-button" data-range="enemy">👹敵</button>
     </div>
 </div>
 <ul class="filter_container" data-filter="sk_type" data-count="<%= sk_buttons.length %>">
@@ -53,10 +54,17 @@
             initStyle = "style='display: none;'"
         } else if (button[0].includes("👥")) {
             range = 'all';
+        } else if (button[0].includes("👹")) {
+            range = 'enemy';
+            initStyle = "style='display: none;'"
         }
 
-        const name = button[0].replace(/👤|👥/g, '');
+        const name = button[0].replace(/👤|👥|👹/g, '');
     %>
+        <% if (range !== "") { %>
         <li data-range="<%= range %>" data-name="<%= name %>" data-val="<%= val %>" data-check="0" <%- initStyle %>><div><%= button[0] %></div></li>
+        <% } else { %>
+        <li data-val="<%= val %>" data-check="0"><div><%= button[0] %></div></li>
+        <% } %>
     <% } %>
 </ul>

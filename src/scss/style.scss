@@ -728,13 +728,14 @@ summary {
     font-size: 1.2rem;
     font-weight: bold;
     line-height: 1;
+    border-left: none;
 }
 
 /* 左端のボタンの左角だけ丸める */
 .target-button:first-child {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    border-right: none;
+    border-left: 1px solid #CCC;
 }
 
 /* 右端のボタンの右角だけ丸める */

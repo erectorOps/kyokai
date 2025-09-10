@@ -5,8 +5,7 @@
     ["全体攻撃", "全体攻撃"],
     ["バブのみ", "バフのみ"],
 
-    ["HP回復", "HP回復"],
-
+    ["HP回復👥", "HP回復"],
     ["MP回復👥", "MP回復"],
     ["攻撃UP👥", "物理攻撃UP,魔法攻撃UP"],
     ["クリUP👥", "物理クリティカルUP,魔法クリティカルUP"],
@@ -14,6 +13,7 @@
     ["属性攻撃UP👥", "属性攻撃UP"],
     ["回数付ダメUP👥", "回数付ダメージUP,回数付物理ダメージUP,回数付魔法ダメージUP"],
     ["ダメUP👥", "ダメージUP"],
+    ["デバフ耐性👥", "デバフ耐性"],
 
     ["MP回復👤", "自身MP回復"],
     ["攻撃UP👤", "自身物理攻撃UP,自身魔法攻撃UP"],
@@ -23,21 +23,20 @@
     ["回数付ダメUP👤", "自身回数付ダメージUP,自身回数付物理ダメージUP,自身回数付魔法ダメージUP"],
     ["ダメUP👤", "自身ダメージUP,自身条件付ダメージUP"],
 
-    ["挑発", "挑発"],
-    ["デバフ耐性", "デバフ耐性"],
-
-    ["防御DOWN", "物理防御DOWN,魔法防御DOWN"],
-    ["速度DOWN", "行動速度DOWN"],
-    ["被ダメUP", "被ダメージUP"],
-    ["状態異常", "毒,火傷,凍結,出血,沈黙,解消,麻痺,睡眠,石化,眩暈,混乱,魅了,呪い,盲目,恐怖,解消"],
+    ["挑発👹", "挑発"],
+    ["防御DOWN👹", "物理防御DOWN,魔法防御DOWN"],
+    ["速度DOWN👹", "行動速度DOWN"],
+    ["被ダメUP👹", "被ダメージUP"],
+    ["状態異常👹", "毒,火傷,凍結,出血,沈黙,解消,麻痺,睡眠,石化,眩暈,混乱,魅了,呪い,盲目,恐怖,解消"],
 
 ]; 
 %>
 <div class="target-container" id="ub-target-container">
-    <span class="target-label">ターゲット:</span>
+    <span class="target-label">対象:</span>
     <div class="target-selector">
-        <button class="target-button self-btn">👤自身</button>
-        <button class="target-button all-btn active">👥味方全体</button>
+        <button class="target-button" data-range="self">👤自身</button>
+        <button class="target-button active" data-range="all">👥味方</button>
+        <button class="target-button" data-range="enemy">👹敵</button>
     </div>
 </div>
 <ul class="filter_container" data-filter="ub_type" data-count="<%= ub_buttons.length %>">
@@ -50,10 +49,17 @@
             initStyle = "style='display: none;'"
         } else if (button[0].includes("👥")) {
             range = 'all';
+        } else if (button[0].includes("👹")) {
+            range = 'enemy';
+            initStyle = "style='display: none;'"
         }
 
-        const name = button[0].replace(/👤|👥/g, '');
+        const name = button[0].replace(/👤|👥|👹/g, '');
     %>
+        <% if (range !== "") { %>
         <li data-range="<%= range %>" data-name="<%= name %>" data-val="<%= val %>" data-check="0" <%- initStyle %>><div><%= button[0] %></div></li>
+        <% } else { %>
+        <li data-val="<%= val %>" data-check="0"><div><%= button[0] %></div></li>
+        <% } %>
     <% } %>
 </ul>
