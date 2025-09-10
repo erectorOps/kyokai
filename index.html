@@ -67,15 +67,15 @@
             <tr><th>奥義</th>
             <td>
 
-<div class="target-container" id="ub-target-container">
-    <span class="target-label">対象:</span>
-    <div class="target-selector">
-        <button class="target-button" data-range="self">👤自身</button>
-        <button class="target-button active" data-range="all">👥味方</button>
-        <button class="target-button" data-range="enemy">👹敵</button>
-    </div>
-</div>
 <ul class="filter_container" data-filter="ub_type" data-count="26">
+    <div class="target-container target-cell" id="ub-target-container">
+        <span class="target-label">対象:</span>
+        <div class="target-selector">
+            <button class="target-button" data-range="self">👤自身</button>
+            <button class="target-button active" data-range="all">👥味方</button>
+            <button class="target-button" data-range="enemy">👹敵</button>
+        </div>
+    </div>
     
         
         <li data-val="a" data-check="0"><div>単体攻撃</div></li>
@@ -98,87 +98,87 @@
         
     
         
-        <li data-range="all" data-name="HP回復" data-val="f" data-check="0" ><div>HP回復👥</div></li>
+        <li data-range="all" data-name="HP回復" data-val="f" data-check="0" ><div>👥HP回復</div></li>
         
     
         
-        <li data-range="all" data-name="MP回復" data-val="x" data-check="0" ><div>MP回復👥</div></li>
+        <li data-range="all" data-name="MP回復" data-val="x" data-check="0" ><div>👥MP回復</div></li>
         
     
         
-        <li data-range="all" data-name="攻撃UP" data-val="y,z" data-check="0" ><div>攻撃UP👥</div></li>
+        <li data-range="all" data-name="攻撃⬆" data-val="y,z" data-check="0" ><div>👥攻撃<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="all" data-name="クリUP" data-val="aa,ab" data-check="0" ><div>クリUP👥</div></li>
+        <li data-range="all" data-name="クリ⬆" data-val="aa,ab" data-check="0" ><div>👥クリ<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="all" data-name="速度UP" data-val="ac" data-check="0" ><div>速度UP👥</div></li>
+        <li data-range="all" data-name="速度⬆" data-val="ac" data-check="0" ><div>👥速度<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="all" data-name="属性攻撃UP" data-val="af" data-check="0" ><div>属性攻撃UP👥</div></li>
+        <li data-range="all" data-name="属性攻撃⬆" data-val="af" data-check="0" ><div>👥属性攻撃<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="all" data-name="回数付ダメUP" data-val="am,an,ao" data-check="0" ><div>回数付ダメUP👥</div></li>
+        <li data-range="all" data-name="回数付ダメ⬆" data-val="am,an,ao" data-check="0" ><div>👥回数付ダメ<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="all" data-name="ダメUP" data-val="ag" data-check="0" ><div>ダメUP👥</div></li>
+        <li data-range="all" data-name="ダメ⬆" data-val="ag" data-check="0" ><div>👥ダメ<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="all" data-name="デバフ耐性" data-val="ah" data-check="0" ><div>デバフ耐性👥</div></li>
+        <li data-range="all" data-name="デバフ耐性" data-val="ah" data-check="0" ><div>👥デバフ耐性</div></li>
         
     
         
-        <li data-range="self" data-name="MP回復" data-val="h" data-check="0" style='display: none;'><div>MP回復👤</div></li>
+        <li data-range="self" data-name="MP回復" data-val="h" data-check="0" style='display: none;'><div>👤MP回復</div></li>
         
     
         
-        <li data-range="self" data-name="攻撃UP" data-val="i,j" data-check="0" style='display: none;'><div>攻撃UP👤</div></li>
+        <li data-range="self" data-name="攻撃⬆" data-val="i,j" data-check="0" style='display: none;'><div>👤攻撃<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="self" data-name="クリUP" data-val="k,l" data-check="0" style='display: none;'><div>クリUP👤</div></li>
+        <li data-range="self" data-name="クリ⬆" data-val="k,l" data-check="0" style='display: none;'><div>👤クリ<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="self" data-name="速度UP" data-val="m" data-check="0" style='display: none;'><div>速度UP👤</div></li>
+        <li data-range="self" data-name="速度⬆" data-val="m" data-check="0" style='display: none;'><div>👤速度<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="self" data-name="属性攻撃UP" data-val="n" data-check="0" style='display: none;'><div>属性攻撃UP👤</div></li>
+        <li data-range="self" data-name="属性攻撃⬆" data-val="n" data-check="0" style='display: none;'><div>👤属性攻撃<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="self" data-name="回数付ダメUP" data-val="q,r,s" data-check="0" style='display: none;'><div>回数付ダメUP👤</div></li>
+        <li data-range="self" data-name="回数付ダメ⬆" data-val="q,r,s" data-check="0" style='display: none;'><div>👤回数付ダメ<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="self" data-name="ダメUP" data-val="o,p" data-check="0" style='display: none;'><div>ダメUP👤</div></li>
+        <li data-range="self" data-name="ダメ⬆" data-val="o,p" data-check="0" style='display: none;'><div>👤ダメ<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="enemy" data-name="挑発" data-val="aq" data-check="0" style='display: none;'><div>挑発👹</div></li>
+        <li data-range="enemy" data-name="挑発" data-val="aq" data-check="0" style='display: none;'><div>👹挑発</div></li>
         
     
         
-        <li data-range="enemy" data-name="防御DOWN" data-val="ai,aj" data-check="0" style='display: none;'><div>防御DOWN👹</div></li>
+        <li data-range="enemy" data-name="防御⬇" data-val="ai,aj" data-check="0" style='display: none;'><div>👹防御<span class="arrow-mark down">⬇</span></div></li>
         
     
         
-        <li data-range="enemy" data-name="速度DOWN" data-val="ak" data-check="0" style='display: none;'><div>速度DOWN👹</div></li>
+        <li data-range="enemy" data-name="速度⬇" data-val="ak" data-check="0" style='display: none;'><div>👹速度<span class="arrow-mark down">⬇</span></div></li>
         
     
         
-        <li data-range="enemy" data-name="被ダメUP" data-val="al" data-check="0" style='display: none;'><div>被ダメUP👹</div></li>
+        <li data-range="enemy" data-name="被ダメ⬆" data-val="al" data-check="0" style='display: none;'><div>👹被ダメ<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="enemy" data-name="状態異常" data-val="ar,as,at,bs,aw,bd,ay,av,au,ax,az,ba,bb,bc,bu,bd" data-check="0" style='display: none;'><div>状態異常👹</div></li>
+        <li data-range="enemy" data-name="状態付与" data-val="ar,as,at,bs,aw,bd,ay,av,au,ax,az,ba,bb,bc,bu,bd" data-check="0" style='display: none;'><div>👹状態付与</div></li>
         
     
 </ul>
@@ -187,15 +187,16 @@
             <tr><th>スキル</th>
             <td>
 
-<div class="target-container" id="sk-target-container">
-    <span class="target-label">対象:</span>
-    <div class="target-selector">
-        <button class="target-button" data-range="self">👤自身</button>
-        <button class="target-button active" data-range="all">👥味方</button>
-        <button class="target-button" data-range="enemy">👹敵</button>
+
+<ul class="filter_container" data-filter="sk_type" data-count="34">
+    <div class="target-container target-cell" id="sk-target-container">
+        <span class="target-label">対象:</span>
+        <div class="target-selector">
+            <button class="target-button" data-range="self">👤自身</button>
+            <button class="target-button active" data-range="all">👥味方</button>
+            <button class="target-button" data-range="enemy">👹敵</button>
+        </div>
     </div>
-</div>
-<ul class="filter_container" data-filter="sk_type" data-count="32">
     
         
         <li data-val="t" data-check="0"><div>W攻撃</div></li>
@@ -206,123 +207,131 @@
         
     
         
-        <li data-val="bw" data-check="0"><div>速度UP①のみ</div></li>
+        <li data-range="all" data-name="MP回復" data-val="x" data-check="0" ><div>👥MP回復</div></li>
         
     
         
-        <li data-val="bx" data-check="0"><div>速度UP②のみ</div></li>
+        <li data-range="all" data-name="攻撃⬆" data-val="y,z" data-check="0" ><div>👥攻撃<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="all" data-name="MP回復" data-val="x" data-check="0" ><div>MP回復👥</div></li>
+        <li data-range="all" data-name="クリ⬆" data-val="aa,ab" data-check="0" ><div>👥クリ<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="all" data-name="攻撃UP" data-val="y,z" data-check="0" ><div>攻撃UP👥</div></li>
+        <li data-range="all" data-name="速度⬆" data-val="ac" data-check="0" ><div>👥速度<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="all" data-name="クリUP" data-val="aa,ab" data-check="0" ><div>クリUP👥</div></li>
+        <li data-range="all" data-name="速度⬆Aのみ" data-val="bw" data-check="0" ><div>👥速度<span class="arrow-mark up">⬆</span>Aのみ</div></li>
         
     
         
-        <li data-range="all" data-name="速度UP" data-val="ac" data-check="0" ><div>速度UP👥</div></li>
+        <li data-range="all" data-name="速度⬆Bのみ" data-val="bx" data-check="0" ><div>👥速度<span class="arrow-mark up">⬆</span>Bのみ</div></li>
         
     
         
-        <li data-range="all" data-name="スキルダメUP" data-val="ad" data-check="0" ><div>スキルダメUP👥</div></li>
+        <li data-range="all" data-name="スキルダメ⬆" data-val="ad" data-check="0" ><div>👥スキルダメ<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="all" data-name="奥義ダメUP" data-val="ae" data-check="0" ><div>奥義ダメUP👥</div></li>
+        <li data-range="all" data-name="奥義ダメ⬆" data-val="ae" data-check="0" ><div>👥奥義ダメ<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="all" data-name="属性攻撃UP" data-val="af" data-check="0" ><div>属性攻撃UP👥</div></li>
+        <li data-range="all" data-name="属性攻撃⬆" data-val="af" data-check="0" ><div>👥属性攻撃<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="all" data-name="回数付ダメUP" data-val="am,an,ao" data-check="0" ><div>回数付ダメUP👥</div></li>
+        <li data-range="all" data-name="回数付ダメ⬆" data-val="am,an,ao" data-check="0" ><div>👥回数付ダメ<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="all" data-name="ダメUP" data-val="ag" data-check="0" ><div>ダメUP👥</div></li>
+        <li data-range="all" data-name="ダメ⬆" data-val="ag" data-check="0" ><div>👥ダメ<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="all" data-name="デバフ耐性" data-val="ah" data-check="0" ><div>デバフ耐性👥</div></li>
+        <li data-range="all" data-name="デバフ耐性" data-val="ah" data-check="0" ><div>👥デバフ耐性</div></li>
         
     
         
-        <li data-range="self" data-name="MP回復" data-val="h" data-check="0" style='display: none;'><div>MP回復👤</div></li>
+        <li data-range="self" data-name="MP回復" data-val="h" data-check="0" style='display: none;'><div>👤MP回復</div></li>
         
     
         
-        <li data-range="self" data-name="攻撃UP" data-val="i,j" data-check="0" style='display: none;'><div>攻撃UP👤</div></li>
+        <li data-range="self" data-name="攻撃⬆" data-val="i,j" data-check="0" style='display: none;'><div>👤攻撃<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="self" data-name="クリUP" data-val="k,l" data-check="0" style='display: none;'><div>クリUP👤</div></li>
+        <li data-range="self" data-name="クリ⬆" data-val="k,l" data-check="0" style='display: none;'><div>👤クリ<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="self" data-name="速度UP" data-val="m" data-check="0" style='display: none;'><div>速度UP👤</div></li>
+        <li data-range="self" data-name="速度⬆" data-val="m" data-check="0" style='display: none;'><div>👤速度<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="self" data-name="スキルダメUP" data-val="u" data-check="0" style='display: none;'><div>スキルダメUP👤</div></li>
+        <li data-range="self" data-name="速度⬆Aのみ" data-val="ca" data-check="0" style='display: none;'><div>👤速度<span class="arrow-mark up">⬆</span>Aのみ</div></li>
         
     
         
-        <li data-range="self" data-name="奥義ダメUP" data-val="v" data-check="0" style='display: none;'><div>奥義ダメUP👤</div></li>
+        <li data-range="self" data-name="速度⬆Bのみ" data-val="cb" data-check="0" style='display: none;'><div>👤速度<span class="arrow-mark up">⬆</span>Bのみ</div></li>
         
     
         
-        <li data-range="self" data-name="属性攻撃UP" data-val="n" data-check="0" style='display: none;'><div>属性攻撃UP👤</div></li>
+        <li data-range="self" data-name="スキルダメ⬆" data-val="u" data-check="0" style='display: none;'><div>👤スキルダメ<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="self" data-name="回数付ダメUP" data-val="q,r,s" data-check="0" style='display: none;'><div>回数付ダメUP👤</div></li>
+        <li data-range="self" data-name="奥義ダメ⬆" data-val="v" data-check="0" style='display: none;'><div>👤奥義ダメ<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="self" data-name="ダメUP" data-val="o,p" data-check="0" style='display: none;'><div>ダメUP👤</div></li>
+        <li data-range="self" data-name="属性攻撃⬆" data-val="n" data-check="0" style='display: none;'><div>👤属性攻撃<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="self" data-name="デバフ耐性" data-val="w" data-check="0" style='display: none;'><div>デバフ耐性👤</div></li>
+        <li data-range="self" data-name="回数付ダメ⬆" data-val="q,r,s" data-check="0" style='display: none;'><div>👤回数付ダメ<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="self" data-name="挑発耐性" data-val="be" data-check="0" style='display: none;'><div>挑発耐性👤</div></li>
+        <li data-range="self" data-name="ダメ⬆" data-val="o,p" data-check="0" style='display: none;'><div>👤ダメ<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="enemy" data-name="挑発" data-val="aq" data-check="0" style='display: none;'><div>挑発👹</div></li>
+        <li data-range="self" data-name="デバフ耐性" data-val="w" data-check="0" style='display: none;'><div>👤デバフ耐性</div></li>
         
     
         
-        <li data-range="enemy" data-name="防御DOWN" data-val="ai,aj" data-check="0" style='display: none;'><div>防御DOWN👹</div></li>
+        <li data-range="self" data-name="挑発耐性" data-val="be" data-check="0" style='display: none;'><div>👤挑発耐性</div></li>
         
     
         
-        <li data-range="enemy" data-name="速度DOWN" data-val="ak" data-check="0" style='display: none;'><div>速度DOWN👹</div></li>
+        <li data-range="enemy" data-name="挑発" data-val="aq" data-check="0" style='display: none;'><div>👹挑発</div></li>
         
     
         
-        <li data-range="enemy" data-name="被ダメUP" data-val="al" data-check="0" style='display: none;'><div>被ダメUP👹</div></li>
+        <li data-range="enemy" data-name="防御⬇" data-val="ai,aj" data-check="0" style='display: none;'><div>👹防御<span class="arrow-mark down">⬇</span></div></li>
         
     
         
-        <li data-range="enemy" data-name="状態異常" data-val="ar,as,at,bs,aw,bd,ay,av,au,ax,az,ba,bb,bc,bu,bd" data-check="0" style='display: none;'><div>状態異常👹</div></li>
+        <li data-range="enemy" data-name="速度⬇" data-val="ak" data-check="0" style='display: none;'><div>👹速度<span class="arrow-mark down">⬇</span></div></li>
         
     
         
-        <li data-range="enemy" data-name="速度DOWN①のみ" data-val="by" data-check="0" style='display: none;'><div>速度DOWN①のみ👹</div></li>
+        <li data-range="enemy" data-name="被ダメ⬆" data-val="al" data-check="0" style='display: none;'><div>👹被ダメ<span class="arrow-mark up">⬆</span></div></li>
         
     
         
-        <li data-range="enemy" data-name="速度DOWN②のみ" data-val="bz" data-check="0" style='display: none;'><div>速度DOWN②のみ👹</div></li>
+        <li data-range="enemy" data-name="状態付与" data-val="ar,as,at,bs,aw,bd,ay,av,au,ax,az,ba,bb,bc,bu,bd" data-check="0" style='display: none;'><div>👹状態付与</div></li>
+        
+    
+        
+        <li data-range="enemy" data-name="速度⬇Aのみ" data-val="by" data-check="0" style='display: none;'><div>👹速度<span class="arrow-mark down">⬇</span>Aのみ</div></li>
+        
+    
+        
+        <li data-range="enemy" data-name="速度⬇Bのみ" data-val="bz" data-check="0" style='display: none;'><div>👹速度<span class="arrow-mark down">⬇</span>Bのみ</div></li>
         
     
 </ul>
@@ -450,7 +459,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,d,ak" data-sk_type="f,ai,aj" data-support="魔法防御,物理防御"><a class="s-link" href="./hero/2053.html"><img src="./img/s/2053.png" class="s-img" alt="エスティリエルの画像">エスティリエル</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="打" data-atk_speed="早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="b,ai" data-sk_type="y,aa,ai,as,i,m,bw" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2054.html"><img src="./img/s/2054.png" class="s-img" alt="ヒルディスの画像">ヒルディス</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="打" data-atk_speed="早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="b,ai" data-sk_type="y,aa,ai,as,i,m,ca" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2054.html"><img src="./img/s/2054.png" class="s-img" alt="ヒルディスの画像">ヒルディス</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="b" data-sk_type="ac,ad,i,k" data-support="物理クリティカル,ブロック"><a class="s-link" href="./hero/2055.html"><img src="./img/s/2055.png" class="s-img" alt="リュッカの画像">リュッカ</a></li>
@@ -492,7 +501,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="シーズンパス" data-added_year="2023" data-ub_type="b,ak,ax" data-sk_type="t,ax,w" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2067.html"><img src="./img/s/2067.png" class="s-img" alt="【おてんば人魚姫】ローレリアの画像"><ruby>【おてんば人魚姫】<rt>マーメイドプリンセス</rt></ruby>ローレリア</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2023" data-ub_type="b,aj,ba" data-sk_type="j,m,bx,u,bo" data-support="魔法クリティカル,命中"><a class="s-link" href="./hero/2068.html"><img src="./img/s/2068.png" class="s-img" alt="【祝祭の皇妃】シャムシェルの画像">【祝祭の皇妃】シャムシェル</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2023" data-ub_type="b,aj,ba" data-sk_type="j,m,cb,u,bo" data-support="魔法クリティカル,命中"><a class="s-link" href="./hero/2068.html"><img src="./img/s/2068.png" class="s-img" alt="【祝祭の皇妃】シャムシェルの画像">【祝祭の皇妃】シャムシェル</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="聖" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2023" data-ub_type="f,ah" data-sk_type="e,f,ac,bw,w" data-support="ブロック,ブロック"><a class="s-link" href="./hero/2069.html"><img src="./img/s/2069.png" class="s-img" alt="【祝祭の装い】エスティリエルの画像">【祝祭の装い】エスティリエル</a></li>
@@ -504,7 +513,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="射" data-atk_speed="遅い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,n,q" data-sk_type="al,v,n" data-support="命中,物理攻撃"><a class="s-link" href="./hero/2072.html"><img src="./img/s/2072.png" class="s-img" alt="シャティの画像">シャティ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや遅い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="b,ak,bd" data-sk_type="ai,m,bw,v,w" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2073.html"><img src="./img/s/2073.png" class="s-img" alt="ルシエの画像">ルシエ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや遅い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="b,ak,bd" data-sk_type="ai,m,ca,v,w" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2073.html"><img src="./img/s/2073.png" class="s-img" alt="ルシエの画像">ルシエ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="試練の塔" data-added_year="2023" data-ub_type="a,d,ak" data-sk_type="t,aj,at,ax,v" data-support="魔法攻撃,魔法クリティカル"><a class="s-link" href="./hero/2076.html"><img src="./img/s/2076.png" class="s-img" alt="オフィーリオの画像">オフィーリオ</a></li>
@@ -525,7 +534,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="投" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2023" data-ub_type="a,ak,bd" data-sk_type="i,u" data-support="物理攻撃,最大HP"><a class="s-link" href="./hero/2082.html"><img src="./img/s/2082.png" class="s-img" alt="【誘惑の吸血鬼】ソルティナの画像">【誘惑の吸血鬼】ソルティナ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,al" data-sk_type="as,at,j,m,bw,u" data-support="魔法クリティカル,魔法攻撃"><a class="s-link" href="./hero/2084.html"><img src="./img/s/2084.png" class="s-img" alt="ラピスの画像">ラピス</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,al" data-sk_type="as,at,j,m,ca,u" data-support="魔法クリティカル,魔法攻撃"><a class="s-link" href="./hero/2084.html"><img src="./img/s/2084.png" class="s-img" alt="ラピスの画像">ラピス</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや遅い" data-gacha_type="試練の塔" data-added_year="2023" data-ub_type="a,n" data-sk_type="aa,i,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2085.html"><img src="./img/s/2085.png" class="s-img" alt="ローサの画像">ローサ</a></li>
@@ -555,7 +564,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="タンク" data-attr="想" data-atk_attr="物理" data-equip_type="突" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2023" data-ub_type="f" data-sk_type="ak,bz" data-support="最大HP,ブロック"><a class="s-link" href="./hero/2096.html"><img src="./img/s/2096.png" class="s-img" alt="【夢見し聖夜祭】カグヤの画像">【夢見し聖夜祭】カグヤ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="無限討伐戦" data-added_year="2023" data-ub_type="a,d,h,n" data-sk_type="h,i,m,bw,v" data-support="物理攻撃,ブロック"><a class="s-link" href="./hero/2098.html"><img src="./img/s/2098.png" class="s-img" alt="ルールーの画像">ルールー</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="無限討伐戦" data-added_year="2023" data-ub_type="a,d,h,n" data-sk_type="h,i,m,ca,v" data-support="物理攻撃,ブロック"><a class="s-link" href="./hero/2098.html"><img src="./img/s/2098.png" class="s-img" alt="ルールーの画像">ルールー</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="突" data-atk_speed="遅い" data-gacha_type="イベント" data-added_year="2023" data-ub_type="a,m,al" data-sk_type="au,aw,j,v,s" data-support="魔法攻撃,魔法クリティカル"><a class="s-link" href="./hero/2099.html"><img src="./img/s/2099.png" class="s-img" alt="【ドラゴン粉砕】メデューサの画像">【ドラゴン粉砕】メデューサ</a></li>
@@ -597,7 +606,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="シーズンパス" data-added_year="2024" data-ub_type="b,j,aj" data-sk_type="t,ak,by,as,at,u" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2117.html"><img src="./img/s/2117.png" class="s-img" alt="【アメリカンポリス】ラピスの画像">【アメリカンポリス】ラピス</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="タンク" data-attr="風" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや早い" data-gacha_type="無限討伐戦" data-added_year="2024" data-ub_type="b,ai" data-sk_type="m,bw,v,w" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2118.html"><img src="./img/s/2118.png" class="s-img" alt="リリララの画像">リリララ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="タンク" data-attr="風" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや早い" data-gacha_type="無限討伐戦" data-added_year="2024" data-ub_type="b,ai" data-sk_type="m,ca,v,w" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2118.html"><img src="./img/s/2118.png" class="s-img" alt="リリララの画像">リリララ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="想" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="イベント,周年" data-added_year="2024" data-ub_type="a,d,m,p,x,ac" data-sk_type="e,x,ad,ae,ak,bz,ba,am" data-support="最大HP,魔法攻撃"><a class="s-link" href="./hero/2119.html"><img src="./img/s/2119.png" class="s-img" alt="【スウィートバニー】アーティアの画像">【スウィートバニー】アーティア</a></li>
@@ -612,7 +621,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="タンク" data-attr="聖" data-atk_attr="物理" data-equip_type="突" data-atk_speed="普通" data-gacha_type="試練の塔" data-added_year="2024" data-ub_type="a,n,al" data-sk_type="ak,bz,aq,v" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2123.html"><img src="./img/s/2123.png" class="s-img" alt="フィオノーレの画像">フィオノーレ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや遅い" data-gacha_type="恒常" data-added_year="2024" data-ub_type="a,ai" data-sk_type="g,i,m,bw,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2124.html"><img src="./img/s/2124.png" class="s-img" alt="厄叉の画像">厄叉</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや遅い" data-gacha_type="恒常" data-added_year="2024" data-ub_type="a,ai" data-sk_type="g,i,m,ca,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2124.html"><img src="./img/s/2124.png" class="s-img" alt="厄叉の画像">厄叉</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2024" data-ub_type="b,ak,al" data-sk_type="ai,aj,ak,by,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2125.html"><img src="./img/s/2125.png" class="s-img" alt="ニーナの画像">ニーナ</a></li>
@@ -636,10 +645,10 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="射" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,p,ak,al" data-sk_type="ai,i,v,p" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2132.html"><img src="./img/s/2132.png" class="s-img" alt="イネスの画像">イネス</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="Fanzine" data-added_year="2024" data-ub_type="a,j,n" data-sk_type="e,ac,ak,bz,ba,ao,h,m,bw,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2134.html"><img src="./img/s/2134.png" class="s-img" alt="【誘惑の裸エプロン】ディアナの画像">【誘惑の裸エプロン】ディアナ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="Fanzine" data-added_year="2024" data-ub_type="a,j,n" data-sk_type="e,ac,ak,bz,ba,ao,h,m,ca,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2134.html"><img src="./img/s/2134.png" class="s-img" alt="【誘惑の裸エプロン】ディアナの画像">【誘惑の裸エプロン】ディアナ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="射" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,ai" data-sk_type="i,m,bw,v,r" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2135.html"><img src="./img/s/2135.png" class="s-img" alt="ギルの画像">ギル</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="射" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,ai" data-sk_type="i,m,ca,v,r" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2135.html"><img src="./img/s/2135.png" class="s-img" alt="ギルの画像">ギル</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="火" data-atk_attr="物理" data-equip_type="投" data-atk_speed="やや遅い" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,y,am" data-sk_type="f,ah,h" data-support="最大HP,ブロック"><a class="s-link" href="./hero/2136.html"><img src="./img/s/2136.png" class="s-img" alt="ボニータの画像">ボニータ</a></li>
@@ -657,7 +666,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="突" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,n,as" data-sk_type="ac,bx,aj,as,ao,u" data-support="魔法攻撃,最大HP"><a class="s-link" href="./hero/2141.html"><img src="./img/s/2141.png" class="s-img" alt="【純真の花嫁】ジゼルの画像">【純真の花嫁】ジゼル</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="Fanzine" data-added_year="2024" data-ub_type="a,j,n" data-sk_type="e,z,bc,h,m,bw,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2143.html"><img src="./img/s/2143.png" class="s-img" alt="【魅惑の裸エプロン】ジールカの画像">【魅惑の裸エプロン】ジールカ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="Fanzine" data-added_year="2024" data-ub_type="a,j,n" data-sk_type="e,z,bc,h,m,ca,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2143.html"><img src="./img/s/2143.png" class="s-img" alt="【魅惑の裸エプロン】ジールカの画像">【魅惑の裸エプロン】ジールカ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,i,ai" data-sk_type="at,u" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2144.html"><img src="./img/s/2144.png" class="s-img" alt="イルーギオの画像">イルーギオ</a></li>
@@ -711,7 +720,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや遅い" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,m,o,aw" data-sk_type="ai,bc,h,u,v" data-support="物理攻撃,ブロック"><a class="s-link" href="./hero/2164.html"><img src="./img/s/2164.png" class="s-img" alt="【ヴェルン神聖騎士団団長】フリギスの画像">【ヴェルン神聖騎士団団長】フリギス</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="バーストフェス" data-added_year="2024" data-ub_type="a,h,aj,ak" data-sk_type="t,bb,h,m,bw,u,v" data-support="魔法クリティカル,命中"><a class="s-link" href="./hero/2166.html"><img src="./img/s/2166.png" class="s-img" alt="シュシュの画像">シュシュ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="バーストフェス" data-added_year="2024" data-ub_type="a,h,aj,ak" data-sk_type="t,bb,h,m,ca,u,v" data-support="魔法クリティカル,命中"><a class="s-link" href="./hero/2166.html"><img src="./img/s/2166.png" class="s-img" alt="シュシュの画像">シュシュ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや早い" data-gacha_type="Fanzine" data-added_year="2024" data-ub_type="a,i,bc" data-sk_type="aa,ac,bx,ai,ak,by,u" data-support="最大HP,物理クリティカル"><a class="s-link" href="./hero/2167.html"><img src="./img/s/2167.png" class="s-img" alt="【にゃんこ】ルールーの画像">【にゃんこ】ルールー</a></li>
@@ -726,13 +735,13 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや遅い" data-gacha_type="Fanzine" data-added_year="2024" data-ub_type="a,d,ak" data-sk_type="aj,ba,bb,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2171.html"><img src="./img/s/2171.png" class="s-img" alt="【夢のようなひととき】エスティリエルの画像">【夢のようなひととき】エスティリエル</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,i,ax" data-sk_type="ai,ak,bz,ba,h,m,bw,v" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2172.html"><img src="./img/s/2172.png" class="s-img" alt="【むちむちサキュバス】カティーシャの画像">【むちむちサキュバス】カティーシャ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,i,ax" data-sk_type="ai,ak,bz,ba,h,m,ca,v" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2172.html"><img src="./img/s/2172.png" class="s-img" alt="【むちむちサキュバス】カティーシャの画像">【むちむちサキュバス】カティーシャ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="物理" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,ai,al" data-sk_type="ai,az,bb,bs,i,u" data-support="物理クリティカル,物理攻撃"><a class="s-link" href="./hero/2173.html"><img src="./img/s/2173.png" class="s-img" alt="【闇夜の吸血鬼】鵺の画像">【闇夜の吸血鬼】鵺</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="疾走討伐戦" data-added_year="2024" data-ub_type="c,aj" data-sk_type="ax,h,j,m,bw,v" data-support="魔法クリティカル,魔法攻撃"><a class="s-link" href="./hero/2175.html"><img src="./img/s/2175.png" class="s-img" alt="【俺の妹は水兵さん】ボニータの画像">【俺の妹は水兵さん】ボニータ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="疾走討伐戦" data-added_year="2024" data-ub_type="c,aj" data-sk_type="ax,h,j,m,ca,v" data-support="魔法クリティカル,魔法攻撃"><a class="s-link" href="./hero/2175.html"><img src="./img/s/2175.png" class="s-img" alt="【俺の妹は水兵さん】ボニータの画像">【俺の妹は水兵さん】ボニータ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="タンク" data-attr="魔" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a" data-sk_type="aq,g,v" data-support="最大HP,ブロック"><a class="s-link" href="./hero/2176.html"><img src="./img/s/2176.png" class="s-img" alt="【うし乳娘】エレインの画像">【うし乳娘】エレイン</a></li>
@@ -771,13 +780,13 @@
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="火" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="やや遅い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="f,ac,bb" data-sk_type="f,ag,ai,aj,aw,bd,am,w" data-support="魔法防御,最大HP"><a class="s-link" href="./hero/2191.html"><img src="./img/s/2191.png" class="s-img" alt="【双子巫女】ラウールの画像">【双子巫女】ラウール</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="a,aj,bd" data-sk_type="t,aj,al,m,bw,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2192.html"><img src="./img/s/2192.png" class="s-img" alt="【双子巫女】クルールの画像">【双子巫女】クルール</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="a,aj,bd" data-sk_type="t,aj,al,m,ca,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2192.html"><img src="./img/s/2192.png" class="s-img" alt="【双子巫女】クルールの画像">【双子巫女】クルール</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="聖" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="やや遅い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="f,ah" data-sk_type="e,f,aa,ab,ac,bx,ag,ap" data-support="魔法防御,物理防御"><a class="s-link" href="./hero/2193.html"><img src="./img/s/2193.png" class="s-img" alt="ノワの画像">ノワ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,ai,bc" data-sk_type="ai,h,k,m,bw,v,n" data-support="物理攻撃,魔法防御"><a class="s-link" href="./hero/2194.html"><img src="./img/s/2194.png" class="s-img" alt="ルイーズの画像">ルイーズ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,ai,bc" data-sk_type="ai,h,k,m,ca,v,n" data-support="物理攻撃,魔法防御"><a class="s-link" href="./hero/2194.html"><img src="./img/s/2194.png" class="s-img" alt="ルイーズの画像">ルイーズ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="早い" data-gacha_type="同盟戦" data-added_year="2025" data-ub_type="c,p,ai,bs,bu" data-sk_type="ac,bx,ay,bs,h,i,v,p,w" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2196.html"><img src="./img/s/2196.png" class="s-img" alt="【エロ修道女】ソルティナの画像">【エロ修道女】ソルティナ</a></li>
@@ -801,10 +810,10 @@
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="想" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="やや遅い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="a,d,x,ag,bc" data-sk_type="e,y,z,aa,ab,ac,bx,h" data-support="物理防御,魔法防御"><a class="s-link" href="./hero/2201.html"><img src="./img/s/2201.png" class="s-img" alt="【小悪魔アイドル】ニーナの画像">【小悪魔アイドル】ニーナ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="同盟戦" data-added_year="2025" data-ub_type="b,ac,ai,at" data-sk_type="ag,ak,bz,al,i,m,bw,v" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2203.html"><img src="./img/s/2203.png" class="s-img" alt="【氷上の芸術家】イルーギオの画像">【氷上の<ruby>芸術家<rt>アーティスト</rt></ruby>】イルーギオ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="同盟戦" data-added_year="2025" data-ub_type="b,ac,ai,at" data-sk_type="ag,ak,bz,al,i,m,ca,v" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2203.html"><img src="./img/s/2203.png" class="s-img" alt="【氷上の芸術家】イルーギオの画像">【氷上の<ruby>芸術家<rt>アーティスト</rt></ruby>】イルーギオ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="射" data-atk_speed="やや遅い" data-gacha_type="シーズンパス" data-added_year="2025" data-ub_type="b,n,al" data-sk_type="e,h,i,k,m,bw,v,r" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2204.html"><img src="./img/s/2204.png" class="s-img" alt="【アメスク留学生】アーティアの画像">【アメスク留学生】アーティア</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="射" data-atk_speed="やや遅い" data-gacha_type="シーズンパス" data-added_year="2025" data-ub_type="b,n,al" data-sk_type="e,h,i,k,m,ca,v,r" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2204.html"><img src="./img/s/2204.png" class="s-img" alt="【アメスク留学生】アーティアの画像">【アメスク留学生】アーティア</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="遅い" data-gacha_type="イベント,周年" data-added_year="2025" data-ub_type="c,ak,bc,bu" data-sk_type="t,ai,aj,ak,bb,h,u,v,be" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2183.html"><img src="./img/s/2183.png" class="s-img" alt="ベガリアの画像">ベガリア</a></li>
@@ -825,7 +834,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="火" data-atk_attr="物理" data-equip_type="投" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="e,aa,ab,ag" data-sk_type="e,ac,bx,ag,h,w" data-support="最大HP,命中"><a class="s-link" href="./hero/2210.html"><img src="./img/s/2210.png" class="s-img" alt="【乳揺れチアガール】アシュレイの画像">【乳揺れチアガール】アシュレイ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや遅い" data-gacha_type="無限討伐戦" data-added_year="2025" data-ub_type="a,d,h,bc" data-sk_type="f,ac,bx,ap,h,m,bx,v,w" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2212.html"><img src="./img/s/2212.png" class="s-img" alt="【天馬のヴァルキュリア】ジゼルの画像">【天馬のヴァルキュリア】ジゼル</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや遅い" data-gacha_type="無限討伐戦" data-added_year="2025" data-ub_type="a,d,h,bc" data-sk_type="f,ac,bx,ap,h,m,cb,v,w" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2212.html"><img src="./img/s/2212.png" class="s-img" alt="【天馬のヴァルキュリア】ジゼルの画像">【天馬のヴァルキュリア】ジゼル</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="射" data-atk_speed="遅い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="a,al,bc" data-sk_type="t,ai,u,r,be" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2213.html"><img src="./img/s/2213.png" class="s-img" alt="【凄腕傭兵】シャティの画像">【凄腕傭兵】シャティ</a></li>
@@ -834,7 +843,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="魔" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="普通" data-gacha_type="イベント,コラボ" data-added_year="2025" data-ub_type="a,d,h,x,ak" data-sk_type="e,ae,ag,ba,h" data-support="最大HP,ブロック"><a class="s-link" href="./hero/2214.html"><img src="./img/s/2214.png" class="s-img" alt="ベルベルの画像">ベルベル</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="イベント,スペシャルパス,コラボ" data-added_year="2025" data-ub_type="a,i,al" data-sk_type="an,i,k,m,bw,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2215.html"><img src="./img/s/2215.png" class="s-img" alt="ソニアの画像">ソニア</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="イベント,スペシャルパス,コラボ" data-added_year="2025" data-ub_type="a,i,al" data-sk_type="an,i,k,m,ca,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2215.html"><img src="./img/s/2215.png" class="s-img" alt="ソニアの画像">ソニア</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="イベント,コラボ" data-added_year="2025" data-ub_type="b,i,ai" data-sk_type="x,y,aa,ac,bx,ak,bz,ax,v,w" data-support="物理クリティカル,最大HP"><a class="s-link" href="./hero/2216.html"><img src="./img/s/2216.png" class="s-img" alt="アルシャールの画像">アルシャール</a></li>
@@ -849,13 +858,13 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="やや遅い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="b,aj,ax" data-sk_type="al,bc,h,j,v,n" data-support="魔法クリティカル,命中"><a class="s-link" href="./hero/2219.html"><img src="./img/s/2219.png" class="s-img" alt="【紅の花魁】アンジェの画像">【紅の花魁】アンジェ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,n,ai,bc" data-sk_type="y,al,h,k,m,bw,v" data-support="命中,物理攻撃"><a class="s-link" href="./hero/2220.html"><img src="./img/s/2220.png" class="s-img" alt="ゲルディンの画像">ゲルディン</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,n,ai,bc" data-sk_type="y,al,h,k,m,ca,v" data-support="命中,物理攻撃"><a class="s-link" href="./hero/2220.html"><img src="./img/s/2220.png" class="s-img" alt="ゲルディンの画像">ゲルディン</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,j,aj" data-sk_type="z,aj,ak,by,ao,h,v,n" data-support="魔法攻撃,魔法クリティカル"><a class="s-link" href="./hero/2221.html"><img src="./img/s/2221.png" class="s-img" alt="スーラの画像">スーラ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="早い" data-gacha_type="シーズンパス" data-added_year="2025" data-ub_type="a,ai,ax" data-sk_type="bs,i,m,bw,v,o" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2223.html"><img src="./img/s/2223.png" class="s-img" alt="【食欲の女戦士】ラウール＆クルールの画像">【食欲の女戦士】ラウール＆クルール</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="早い" data-gacha_type="シーズンパス" data-added_year="2025" data-ub_type="a,ai,ax" data-sk_type="bs,i,m,ca,v,o" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2223.html"><img src="./img/s/2223.png" class="s-img" alt="【食欲の女戦士】ラウール＆クルールの画像">【食欲の女戦士】ラウール＆クルール</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="バーストフェス" data-added_year="2025" data-ub_type="a,o,al" data-sk_type="t,aj,aw,bb,u,v" data-support="魔法クリティカル,魔法攻撃"><a class="s-link" href="./hero/2224.html"><img src="./img/s/2224.png" class="s-img" alt="ユラの画像">ユラ</a></li>
@@ -864,10 +873,10 @@
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="聖" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2025" data-ub_type="b,aj,ao" data-sk_type="e,f,x,z,ac,ap,w" data-support="魔法防御,魔法攻撃"><a class="s-link" href="./hero/2225.html"><img src="./img/s/2225.png" class="s-img" alt="【困惑の花嫁】マグダレーナの画像">【困惑の花嫁】マグダレーナ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="b,al,aw" data-sk_type="aj,h,j,m,bw,v,w" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2226.html"><img src="./img/s/2226.png" class="s-img" alt="【日傘の花嫁】麗鬼の画像">【日傘の花嫁】麗鬼</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="b,al,aw" data-sk_type="aj,h,j,m,ca,v,w" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2226.html"><img src="./img/s/2226.png" class="s-img" alt="【日傘の花嫁】麗鬼の画像">【日傘の花嫁】麗鬼</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="b,i,o,p" data-sk_type="al,k,m,bw,v,p" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2228.html"><img src="./img/s/2228.png" class="s-img" alt="【疾風のくノ一】リンの画像">【疾風のくノ一】リン</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="b,i,o,p" data-sk_type="al,k,m,ca,v,p" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2228.html"><img src="./img/s/2228.png" class="s-img" alt="【疾風のくノ一】リンの画像">【疾風のくノ一】リン</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや遅い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,k,ai" data-sk_type="bd,h,i,v" data-support="物理攻撃,魔法防御"><a class="s-link" href="./hero/2229.html"><img src="./img/s/2229.png" class="s-img" alt="ハニスの画像">ハニス</a></li>
@@ -885,13 +894,13 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2025" data-ub_type="b,ai,ak,bc" data-sk_type="t,ax,bc,i,u,w" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2234.html"><img src="./img/s/2234.png" class="s-img" alt="【ビキニでタコ殴り】ギルの画像">【ビキニでタコ殴り】ギル</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="b,n,ak,al" data-sk_type="t,af,aj,l,m,bw,u" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2235.html"><img src="./img/s/2235.png" class="s-img" alt="【ビキニでお祝い】ヴィアトリーチェの画像">【ビキニでお祝い】ヴィアトリーチェ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="b,n,ak,al" data-sk_type="t,af,aj,l,m,ca,u" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2235.html"><img src="./img/s/2235.png" class="s-img" alt="【ビキニでお祝い】ヴィアトリーチェの画像">【ビキニでお祝い】ヴィアトリーチェ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや遅い" data-gacha_type="恒常" data-added_year="2025" data-ub_type="a,ai,ak,aw" data-sk_type="i,u,n,p" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2237.html"><img src="./img/s/2237.png" class="s-img" alt="【捕縛杖の聖騎士】カティーシャの画像">【捕縛杖の聖騎士】カティーシャ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや遅い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="c,k,ai" data-sk_type="h,i,m,bw,v" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2238.html"><img src="./img/s/2238.png" class="s-img" alt="【稀代の発明家】パステルの画像">【稀代の発明家】パステル</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや遅い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="c,k,ai" data-sk_type="h,i,m,ca,v" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2238.html"><img src="./img/s/2238.png" class="s-img" alt="【稀代の発明家】パステルの画像">【稀代の発明家】パステル</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,al,ax" data-sk_type="y,ac,bx,af,ai,ba,bs,v" data-support="物理クリティカル,最大HP"><a class="s-link" href="./hero/2239.html"><img src="./img/s/2239.png" class="s-img" alt="【うし乳娘】累＆鵺の画像">【うし乳娘】累＆鵺</a></li>
@@ -900,7 +909,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="魔" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="試練の塔" data-added_year="2025" data-ub_type="e,y,ah,ak" data-sk_type="t,ac,ag,ai,al,bs,w" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2240.html"><img src="./img/s/2240.png" class="s-img" alt="ラスウェルの画像">ラスウェル</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,d,ag,al,bd" data-sk_type="ac,ai,k,m,bw,v,w" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2241.html"><img src="./img/s/2241.png" class="s-img" alt="【箱入り浴衣娘】ルールーの画像">【箱入り浴衣娘】ルールー</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,d,ag,al,bd" data-sk_type="ac,ai,k,m,ca,v,w" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2241.html"><img src="./img/s/2241.png" class="s-img" alt="【箱入り浴衣娘】ルールーの画像">【箱入り浴衣娘】ルールー</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,i,ai,ak" data-sk_type="t,ai,ax,h,v,n" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2242.html"><img src="./img/s/2242.png" class="s-img" alt="【ゴージャスでノーブルな浴衣娘】グレイシーの画像">【ゴージャスでノーブルな浴衣娘】グレイシー</a></li>
@@ -915,7 +924,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや早い" data-gacha_type="シーズンパス" data-added_year="2025" data-ub_type="a,ai,al,bu" data-sk_type="t,ai,ak,by,ax,bs,h,v" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2246.html"><img src="./img/s/2246.png" class="s-img" alt="【ハミ乳オーバーオール】シャリクの画像">【ハミ乳オーバーオール】シャリク</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="早い" data-gacha_type="同盟戦" data-added_year="2025" data-ub_type="a,i,p,ai,al" data-sk_type="t,ai,al,k,m,bw,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2247.html"><img src="./img/s/2247.png" class="s-img" alt="【妖魔を狩る者】ラーグエンの画像">【妖魔を狩る者】ラーグエン</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="早い" data-gacha_type="同盟戦" data-added_year="2025" data-ub_type="a,i,p,ai,al" data-sk_type="t,ai,al,k,m,ca,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2247.html"><img src="./img/s/2247.png" class="s-img" alt="【妖魔を狩る者】ラーグエンの画像">【妖魔を狩る者】ラーグエン</a></li>
     
         </ul>
     </td>
@@ -964,13 +973,13 @@
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="水" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,aj,at" data-sk_type="at,j,bh" data-support="魔法攻撃,魔法防御"><a class="s-link" href="./hero/2026.html"><img src="./img/s/2026.png" class="s-img" alt="ファルネリアの画像">ファルネリア</a></li>
     
         
-        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="射" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,al" data-sk_type="i,m,bw,u" data-support="物理クリティカル,ブロック"><a class="s-link" href="./hero/2029.html"><img src="./img/s/2029.png" class="s-img" alt="アルテミスの画像">アルテミス</a></li>
+        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="射" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,al" data-sk_type="i,m,ca,u" data-support="物理クリティカル,ブロック"><a class="s-link" href="./hero/2029.html"><img src="./img/s/2029.png" class="s-img" alt="アルテミスの画像">アルテミス</a></li>
     
         
         <li data-disp="1" data-rare="SR" data-role_set="タンク" data-attr="聖" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,aw,bd" data-sk_type="g" data-support="物理防御,物理攻撃"><a class="s-link" href="./hero/2030.html"><img src="./img/s/2030.png" class="s-img" alt="アテナの画像">アテナ</a></li>
     
         
-        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="突" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,d,au" data-sk_type="ay,j,m,bw,bi" data-support="魔法クリティカル,ブロック"><a class="s-link" href="./hero/2031.html"><img src="./img/s/2031.png" class="s-img" alt="メデューサの画像">メデューサ</a></li>
+        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="突" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,d,au" data-sk_type="ay,j,m,ca,bi" data-support="魔法クリティカル,ブロック"><a class="s-link" href="./hero/2031.html"><img src="./img/s/2031.png" class="s-img" alt="メデューサの画像">メデューサ</a></li>
     
         
         <li data-disp="1" data-rare="SR" data-role_set="サポート" data-attr="聖" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="やや遅い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="e,y,z" data-sk_type="e,y,z,aa,ab" data-support="最大HP,命中"><a class="s-link" href="./hero/2033.html"><img src="./img/s/2033.png" class="s-img" alt="ウェヌスの画像">ウェヌス</a></li>
@@ -988,7 +997,7 @@
         <li data-disp="1" data-rare="SR" data-role_set="サポート" data-attr="風" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや遅い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,ay" data-sk_type="f,ai,bm" data-support="物理攻撃,ブロック"><a class="s-link" href="./hero/2038.html"><img src="./img/s/2038.png" class="s-img" alt="セレスティアの画像">セレスティア</a></li>
     
         
-        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="報酬" data-added_year="2024" data-ub_type="a,ak" data-sk_type="i,m,bw" data-support="物理攻撃,ブロック"><a class="s-link" href="./hero/2039.html"><img src="./img/s/2039.png" class="s-img" alt="グネヴィアの画像">グネヴィア</a></li>
+        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="報酬" data-added_year="2024" data-ub_type="a,ak" data-sk_type="i,m,ca" data-support="物理攻撃,ブロック"><a class="s-link" href="./hero/2039.html"><img src="./img/s/2039.png" class="s-img" alt="グネヴィアの画像">グネヴィア</a></li>
     
         
         <li data-disp="1" data-rare="SR" data-role_set="タンク" data-attr="聖" data-atk_attr="物理" data-equip_type="突" data-atk_speed="早い" data-gacha_type="報酬,イベント" data-added_year="2023" data-ub_type="a" data-sk_type="ak,by,aq" data-support="物理防御,ブロック"><a class="s-link" href="./hero/2070.html"><img src="./img/s/2070.png" class="s-img" alt="【祝祭のおめかし】ナターシャの画像">【祝祭のおめかし】ナターシャ</a></li>
@@ -1084,7 +1093,7 @@
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="聖" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや遅い" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="b,al" data-sk_type="t,aj,ay,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2195.html"><img src="./img/s/2195.png" class="s-img" alt="ネリネの画像">ネリネ</a></li>
     
         
-        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="a,al" data-sk_type="i,m,bw,u" data-support="物理クリティカル,物理攻撃"><a class="s-link" href="./hero/2200.html"><img src="./img/s/2200.png" class="s-img" alt="【チョコづくりメイド】サーカの画像">【チョコづくりメイド】サーカ</a></li>
+        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="a,al" data-sk_type="i,m,ca,u" data-support="物理クリティカル,物理攻撃"><a class="s-link" href="./hero/2200.html"><img src="./img/s/2200.png" class="s-img" alt="【チョコづくりメイド】サーカの画像">【チョコづくりメイド】サーカ</a></li>
     
         
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="想" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや遅い" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="b,ak" data-sk_type="aa,v" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2211.html"><img src="./img/s/2211.png" class="s-img" alt="【乳揺れチアガール】ボニータの画像">【乳揺れチアガール】ボニータ</a></li>
@@ -1093,7 +1102,7 @@
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="射" data-atk_speed="やや遅い" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="a,n,as" data-sk_type="t,al,as,u" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2222.html"><img src="./img/s/2222.png" class="s-img" alt="キリエの画像">キリエ</a></li>
     
         
-        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="a,bs" data-sk_type="ai,h,m,bw,v" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2227.html"><img src="./img/s/2227.png" class="s-img" alt="【ボクっ娘の花嫁】メイニアスの画像">【ボクっ娘の花嫁】メイニアス</a></li>
+        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="a,bs" data-sk_type="ai,h,m,ca,v" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2227.html"><img src="./img/s/2227.png" class="s-img" alt="【ボクっ娘の花嫁】メイニアスの画像">【ボクっ娘の花嫁】メイニアス</a></li>
     
         
         <li data-disp="1" data-rare="SR" data-role_set="サポート" data-attr="聖" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや遅い" data-gacha_type="イベント,報酬" data-added_year="2025" data-ub_type="f" data-sk_type="e,f,ac,bx,ah,am" data-support="ブロック,魔法防御"><a class="s-link" href="./hero/2231.html"><img src="./img/s/2231.png" class="s-img" alt="ツキナの画像">ツキナ</a></li>
@@ -1272,13 +1281,13 @@
         <li data-disp="1" data-rare="R" data-role_set="タンク" data-attr="水" data-atk_attr="物理" data-equip_type="投" data-atk_speed="遅い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="b" data-sk_type="bm" data-support="魔法防御,魔法クリティカル"><a class="s-link" href="./hero/2028.html"><img src="./img/s/2028.png" class="s-img" alt="エスケルダの画像">エスケルダ</a></li>
     
         
-        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="射" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,al" data-sk_type="i,m,bw,u" data-support="物理クリティカル,ブロック"><a class="s-link" href="./hero/2029.html"><img src="./img/s/2029.png" class="s-img" alt="アルテミスの画像">アルテミス</a></li>
+        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="射" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,al" data-sk_type="i,m,ca,u" data-support="物理クリティカル,ブロック"><a class="s-link" href="./hero/2029.html"><img src="./img/s/2029.png" class="s-img" alt="アルテミスの画像">アルテミス</a></li>
     
         
         <li data-disp="1" data-rare="SR" data-role_set="タンク" data-attr="聖" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,aw,bd" data-sk_type="g" data-support="物理防御,物理攻撃"><a class="s-link" href="./hero/2030.html"><img src="./img/s/2030.png" class="s-img" alt="アテナの画像">アテナ</a></li>
     
         
-        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="突" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,d,au" data-sk_type="ay,j,m,bw,bi" data-support="魔法クリティカル,ブロック"><a class="s-link" href="./hero/2031.html"><img src="./img/s/2031.png" class="s-img" alt="メデューサの画像">メデューサ</a></li>
+        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="突" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,d,au" data-sk_type="ay,j,m,ca,bi" data-support="魔法クリティカル,ブロック"><a class="s-link" href="./hero/2031.html"><img src="./img/s/2031.png" class="s-img" alt="メデューサの画像">メデューサ</a></li>
     
         
         <li data-disp="1" data-rare="R" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,ay" data-sk_type="t,ai,ba" data-support="物理攻撃,最大HP"><a class="s-link" href="./hero/2032.html"><img src="./img/s/2032.png" class="s-img" alt="ルクレチアの画像">ルクレチア</a></li>
@@ -1338,7 +1347,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,d,ak" data-sk_type="f,ai,aj" data-support="魔法防御,物理防御"><a class="s-link" href="./hero/2053.html"><img src="./img/s/2053.png" class="s-img" alt="エスティリエルの画像">エスティリエル</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="打" data-atk_speed="早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="b,ai" data-sk_type="y,aa,ai,as,i,m,bw" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2054.html"><img src="./img/s/2054.png" class="s-img" alt="ヒルディスの画像">ヒルディス</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="打" data-atk_speed="早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="b,ai" data-sk_type="y,aa,ai,as,i,m,ca" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2054.html"><img src="./img/s/2054.png" class="s-img" alt="ヒルディスの画像">ヒルディス</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="b" data-sk_type="ac,ad,i,k" data-support="物理クリティカル,ブロック"><a class="s-link" href="./hero/2055.html"><img src="./img/s/2055.png" class="s-img" alt="リュッカの画像">リュッカ</a></li>
@@ -1377,7 +1386,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="シーズンパス" data-added_year="2023" data-ub_type="b,ak,ax" data-sk_type="t,ax,w" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2067.html"><img src="./img/s/2067.png" class="s-img" alt="【おてんば人魚姫】ローレリアの画像"><ruby>【おてんば人魚姫】<rt>マーメイドプリンセス</rt></ruby>ローレリア</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2023" data-ub_type="b,aj,ba" data-sk_type="j,m,bx,u,bo" data-support="魔法クリティカル,命中"><a class="s-link" href="./hero/2068.html"><img src="./img/s/2068.png" class="s-img" alt="【祝祭の皇妃】シャムシェルの画像">【祝祭の皇妃】シャムシェル</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2023" data-ub_type="b,aj,ba" data-sk_type="j,m,cb,u,bo" data-support="魔法クリティカル,命中"><a class="s-link" href="./hero/2068.html"><img src="./img/s/2068.png" class="s-img" alt="【祝祭の皇妃】シャムシェルの画像">【祝祭の皇妃】シャムシェル</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="聖" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2023" data-ub_type="f,ah" data-sk_type="e,f,ac,bw,w" data-support="ブロック,ブロック"><a class="s-link" href="./hero/2069.html"><img src="./img/s/2069.png" class="s-img" alt="【祝祭の装い】エスティリエルの画像">【祝祭の装い】エスティリエル</a></li>
@@ -1401,7 +1410,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="遅い" data-gacha_type="無限討伐戦" data-added_year="2023" data-ub_type="a,d,az,bu" data-sk_type="t,ar,bb,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2071.html"><img src="./img/s/2071.png" class="s-img" alt="カグヤの画像">カグヤ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや遅い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="b,ak,bd" data-sk_type="ai,m,bw,v,w" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2073.html"><img src="./img/s/2073.png" class="s-img" alt="ルシエの画像">ルシエ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや遅い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="b,ak,bd" data-sk_type="ai,m,ca,v,w" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2073.html"><img src="./img/s/2073.png" class="s-img" alt="ルシエの画像">ルシエ</a></li>
     
         
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a" data-sk_type="ai,h,v" data-support="物理クリティカル,ブロック"><a class="s-link" href="./hero/2074.html"><img src="./img/s/2074.png" class="s-img" alt="累の画像"><ruby>累<rt>るい</rt></ruby></a></li>
@@ -1434,7 +1443,7 @@
         <li data-disp="1" data-rare="SR" data-role_set="タンク" data-attr="想" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="報酬,イベント" data-added_year="2023" data-ub_type="a,as" data-sk_type="ax,aq" data-support="最大HP,ブロック"><a class="s-link" href="./hero/2087.html"><img src="./img/s/2087.png" class="s-img" alt="リネットの画像">リネット</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,al" data-sk_type="as,at,j,m,bw,u" data-support="魔法クリティカル,魔法攻撃"><a class="s-link" href="./hero/2084.html"><img src="./img/s/2084.png" class="s-img" alt="ラピスの画像">ラピス</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,al" data-sk_type="as,at,j,m,ca,u" data-support="魔法クリティカル,魔法攻撃"><a class="s-link" href="./hero/2084.html"><img src="./img/s/2084.png" class="s-img" alt="ラピスの画像">ラピス</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="突" data-atk_speed="普通" data-gacha_type="バーストフェス" data-added_year="2023" data-ub_type="a,az,bu" data-sk_type="aj,ak,bz,aw,bb,v,w" data-support="魔法攻撃,最大HP"><a class="s-link" href="./hero/2092.html"><img src="./img/s/2092.png" class="s-img" alt="ルストの画像">ルスト</a></li>
@@ -1467,7 +1476,7 @@
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="普通" data-gacha_type="報酬,イベント" data-added_year="2023" data-ub_type="a,bd" data-sk_type="aj,as,ba,u" data-support="魔法攻撃,最大HP"><a class="s-link" href="./hero/2097.html"><img src="./img/s/2097.png" class="s-img" alt="【聖夜のサキュバス】ユ・リマ・エルカの画像">【聖夜のサキュバス】ユ・リマ・エルカ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="無限討伐戦" data-added_year="2023" data-ub_type="a,d,h,n" data-sk_type="h,i,m,bw,v" data-support="物理攻撃,ブロック"><a class="s-link" href="./hero/2098.html"><img src="./img/s/2098.png" class="s-img" alt="ルールーの画像">ルールー</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="無限討伐戦" data-added_year="2023" data-ub_type="a,d,h,n" data-sk_type="h,i,m,ca,v" data-support="物理攻撃,ブロック"><a class="s-link" href="./hero/2098.html"><img src="./img/s/2098.png" class="s-img" alt="ルールーの画像">ルールー</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="突" data-atk_speed="遅い" data-gacha_type="イベント" data-added_year="2023" data-ub_type="a,m,al" data-sk_type="au,aw,j,v,s" data-support="魔法攻撃,魔法クリティカル"><a class="s-link" href="./hero/2099.html"><img src="./img/s/2099.png" class="s-img" alt="【ドラゴン粉砕】メデューサの画像">【ドラゴン粉砕】メデューサ</a></li>
@@ -1517,7 +1526,7 @@
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="聖" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや遅い" data-gacha_type="報酬,イベント" data-added_year="2024" data-ub_type="a,ak,aw" data-sk_type="u" data-support="物理攻撃,ブロック"><a class="s-link" href="./hero/2107.html"><img src="./img/s/2107.png" class="s-img" alt="カティーシャの画像">カティーシャ</a></li>
     
         
-        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="報酬" data-added_year="2024" data-ub_type="a,ak" data-sk_type="i,m,bw" data-support="物理攻撃,ブロック"><a class="s-link" href="./hero/2039.html"><img src="./img/s/2039.png" class="s-img" alt="グネヴィアの画像">グネヴィア</a></li>
+        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="報酬" data-added_year="2024" data-ub_type="a,ak" data-sk_type="i,m,ca" data-support="物理攻撃,ブロック"><a class="s-link" href="./hero/2039.html"><img src="./img/s/2039.png" class="s-img" alt="グネヴィアの画像">グネヴィア</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="タンク" data-attr="風" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2024" data-ub_type="b,g,aj,bd" data-sk_type="z" data-support="最大HP,魔法防御"><a class="s-link" href="./hero/2108.html"><img src="./img/s/2108.png" class="s-img" alt="マグダレーナの画像">マグダレーナ</a></li>
@@ -1550,7 +1559,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="シーズンパス" data-added_year="2024" data-ub_type="b,j,aj" data-sk_type="t,ak,by,as,at,u" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2117.html"><img src="./img/s/2117.png" class="s-img" alt="【アメリカンポリス】ラピスの画像">【アメリカンポリス】ラピス</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="タンク" data-attr="風" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや早い" data-gacha_type="無限討伐戦" data-added_year="2024" data-ub_type="b,ai" data-sk_type="m,bw,v,w" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2118.html"><img src="./img/s/2118.png" class="s-img" alt="リリララの画像">リリララ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="タンク" data-attr="風" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや早い" data-gacha_type="無限討伐戦" data-added_year="2024" data-ub_type="b,ai" data-sk_type="m,ca,v,w" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2118.html"><img src="./img/s/2118.png" class="s-img" alt="リリララの画像">リリララ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="想" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="イベント,周年" data-added_year="2024" data-ub_type="a,d,m,p,x,ac" data-sk_type="e,x,ad,ae,ak,bz,ba,am" data-support="最大HP,魔法攻撃"><a class="s-link" href="./hero/2119.html"><img src="./img/s/2119.png" class="s-img" alt="【スウィートバニー】アーティアの画像">【スウィートバニー】アーティア</a></li>
@@ -1568,7 +1577,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="タンク" data-attr="聖" data-atk_attr="物理" data-equip_type="突" data-atk_speed="普通" data-gacha_type="試練の塔" data-added_year="2024" data-ub_type="a,n,al" data-sk_type="ak,bz,aq,v" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2123.html"><img src="./img/s/2123.png" class="s-img" alt="フィオノーレの画像">フィオノーレ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや遅い" data-gacha_type="恒常" data-added_year="2024" data-ub_type="a,ai" data-sk_type="g,i,m,bw,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2124.html"><img src="./img/s/2124.png" class="s-img" alt="厄叉の画像">厄叉</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや遅い" data-gacha_type="恒常" data-added_year="2024" data-ub_type="a,ai" data-sk_type="g,i,m,ca,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2124.html"><img src="./img/s/2124.png" class="s-img" alt="厄叉の画像">厄叉</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2024" data-ub_type="b,ak,al" data-sk_type="ai,aj,ak,by,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2125.html"><img src="./img/s/2125.png" class="s-img" alt="ニーナの画像">ニーナ</a></li>
@@ -1598,10 +1607,10 @@
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="報酬,イベント" data-added_year="2024" data-ub_type="a" data-sk_type="i,k,u,r" data-support="最大HP,物理クリティカル"><a class="s-link" href="./hero/2133.html"><img src="./img/s/2133.png" class="s-img" alt="コリーの画像">コリー</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="Fanzine" data-added_year="2024" data-ub_type="a,j,n" data-sk_type="e,ac,ak,bz,ba,ao,h,m,bw,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2134.html"><img src="./img/s/2134.png" class="s-img" alt="【誘惑の裸エプロン】ディアナの画像">【誘惑の裸エプロン】ディアナ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="Fanzine" data-added_year="2024" data-ub_type="a,j,n" data-sk_type="e,ac,ak,bz,ba,ao,h,m,ca,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2134.html"><img src="./img/s/2134.png" class="s-img" alt="【誘惑の裸エプロン】ディアナの画像">【誘惑の裸エプロン】ディアナ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="射" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,ai" data-sk_type="i,m,bw,v,r" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2135.html"><img src="./img/s/2135.png" class="s-img" alt="ギルの画像">ギル</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="射" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,ai" data-sk_type="i,m,ca,v,r" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2135.html"><img src="./img/s/2135.png" class="s-img" alt="ギルの画像">ギル</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="火" data-atk_attr="物理" data-equip_type="投" data-atk_speed="やや遅い" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,y,am" data-sk_type="f,ah,h" data-support="最大HP,ブロック"><a class="s-link" href="./hero/2136.html"><img src="./img/s/2136.png" class="s-img" alt="ボニータの画像">ボニータ</a></li>
@@ -1625,7 +1634,7 @@
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="聖" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="普通" data-gacha_type="報酬,イベント" data-added_year="2024" data-ub_type="b,as,at" data-sk_type="aj,ak,bz,ba,v" data-support="魔法攻撃,最大HP"><a class="s-link" href="./hero/2142.html"><img src="./img/s/2142.png" class="s-img" alt="【悩殺の花嫁】オフィーリオの画像">【悩殺の花嫁】オフィーリオ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="Fanzine" data-added_year="2024" data-ub_type="a,j,n" data-sk_type="e,z,bc,h,m,bw,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2143.html"><img src="./img/s/2143.png" class="s-img" alt="【魅惑の裸エプロン】ジールカの画像">【魅惑の裸エプロン】ジールカ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="Fanzine" data-added_year="2024" data-ub_type="a,j,n" data-sk_type="e,z,bc,h,m,ca,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2143.html"><img src="./img/s/2143.png" class="s-img" alt="【魅惑の裸エプロン】ジールカの画像">【魅惑の裸エプロン】ジールカ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,i,ai" data-sk_type="at,u" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2144.html"><img src="./img/s/2144.png" class="s-img" alt="イルーギオの画像">イルーギオ</a></li>
@@ -1694,7 +1703,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="魔" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2024" data-ub_type="e,f,ah" data-sk_type="ac,af,ag,al,am" data-support="最大HP,命中"><a class="s-link" href="./hero/2162.html"><img src="./img/s/2162.png" class="s-img" alt="【ハイレグの力に取り込まれし者】黒騎士の画像">【ハイレグの力に取り込まれし者】黒騎士</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="バーストフェス" data-added_year="2024" data-ub_type="a,h,aj,ak" data-sk_type="t,bb,h,m,bw,u,v" data-support="魔法クリティカル,命中"><a class="s-link" href="./hero/2166.html"><img src="./img/s/2166.png" class="s-img" alt="シュシュの画像">シュシュ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="バーストフェス" data-added_year="2024" data-ub_type="a,h,aj,ak" data-sk_type="t,bb,h,m,ca,u,v" data-support="魔法クリティカル,命中"><a class="s-link" href="./hero/2166.html"><img src="./img/s/2166.png" class="s-img" alt="シュシュの画像">シュシュ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや早い" data-gacha_type="Fanzine" data-added_year="2024" data-ub_type="a,i,bc" data-sk_type="aa,ac,bx,ai,ak,by,u" data-support="最大HP,物理クリティカル"><a class="s-link" href="./hero/2167.html"><img src="./img/s/2167.png" class="s-img" alt="【にゃんこ】ルールーの画像">【にゃんこ】ルールー</a></li>
@@ -1712,7 +1721,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや遅い" data-gacha_type="Fanzine" data-added_year="2024" data-ub_type="a,d,ak" data-sk_type="aj,ba,bb,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2171.html"><img src="./img/s/2171.png" class="s-img" alt="【夢のようなひととき】エスティリエルの画像">【夢のようなひととき】エスティリエル</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,i,ax" data-sk_type="ai,ak,bz,ba,h,m,bw,v" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2172.html"><img src="./img/s/2172.png" class="s-img" alt="【むちむちサキュバス】カティーシャの画像">【むちむちサキュバス】カティーシャ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,i,ax" data-sk_type="ai,ak,bz,ba,h,m,ca,v" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2172.html"><img src="./img/s/2172.png" class="s-img" alt="【むちむちサキュバス】カティーシャの画像">【むちむちサキュバス】カティーシャ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="物理" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,ai,al" data-sk_type="ai,az,bb,bs,i,u" data-support="物理クリティカル,物理攻撃"><a class="s-link" href="./hero/2173.html"><img src="./img/s/2173.png" class="s-img" alt="【闇夜の吸血鬼】鵺の画像">【闇夜の吸血鬼】鵺</a></li>
@@ -1721,7 +1730,7 @@
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="普通" data-gacha_type="報酬,イベント" data-added_year="2024" data-ub_type="a,al" data-sk_type="aj,as,j,v,n" data-support="魔法クリティカル,魔法攻撃"><a class="s-link" href="./hero/2174.html"><img src="./img/s/2174.png" class="s-img" alt="【おばけカボチャの魔女】ジールカの画像">【おばけカボチャの魔女】ジールカ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="疾走討伐戦" data-added_year="2024" data-ub_type="c,aj" data-sk_type="ax,h,j,m,bw,v" data-support="魔法クリティカル,魔法攻撃"><a class="s-link" href="./hero/2175.html"><img src="./img/s/2175.png" class="s-img" alt="【俺の妹は水兵さん】ボニータの画像">【俺の妹は水兵さん】ボニータ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="疾走討伐戦" data-added_year="2024" data-ub_type="c,aj" data-sk_type="ax,h,j,m,ca,v" data-support="魔法クリティカル,魔法攻撃"><a class="s-link" href="./hero/2175.html"><img src="./img/s/2175.png" class="s-img" alt="【俺の妹は水兵さん】ボニータの画像">【俺の妹は水兵さん】ボニータ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="タンク" data-attr="魔" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a" data-sk_type="aq,g,v" data-support="最大HP,ブロック"><a class="s-link" href="./hero/2176.html"><img src="./img/s/2176.png" class="s-img" alt="【うし乳娘】エレインの画像">【うし乳娘】エレイン</a></li>
@@ -1769,13 +1778,13 @@
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="火" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="やや遅い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="f,ac,bb" data-sk_type="f,ag,ai,aj,aw,bd,am,w" data-support="魔法防御,最大HP"><a class="s-link" href="./hero/2191.html"><img src="./img/s/2191.png" class="s-img" alt="【双子巫女】ラウールの画像">【双子巫女】ラウール</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="a,aj,bd" data-sk_type="t,aj,al,m,bw,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2192.html"><img src="./img/s/2192.png" class="s-img" alt="【双子巫女】クルールの画像">【双子巫女】クルール</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="a,aj,bd" data-sk_type="t,aj,al,m,ca,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2192.html"><img src="./img/s/2192.png" class="s-img" alt="【双子巫女】クルールの画像">【双子巫女】クルール</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="聖" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="やや遅い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="f,ah" data-sk_type="e,f,aa,ab,ac,bx,ag,ap" data-support="魔法防御,物理防御"><a class="s-link" href="./hero/2193.html"><img src="./img/s/2193.png" class="s-img" alt="ノワの画像">ノワ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,ai,bc" data-sk_type="ai,h,k,m,bw,v,n" data-support="物理攻撃,魔法防御"><a class="s-link" href="./hero/2194.html"><img src="./img/s/2194.png" class="s-img" alt="ルイーズの画像">ルイーズ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,ai,bc" data-sk_type="ai,h,k,m,ca,v,n" data-support="物理攻撃,魔法防御"><a class="s-link" href="./hero/2194.html"><img src="./img/s/2194.png" class="s-img" alt="ルイーズの画像">ルイーズ</a></li>
     
         
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="聖" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや遅い" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="b,al" data-sk_type="t,aj,ay,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2195.html"><img src="./img/s/2195.png" class="s-img" alt="ネリネの画像">ネリネ</a></li>
@@ -1793,7 +1802,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2025" data-ub_type="b,aj,as,ax" data-sk_type="ab,af,aj,as,u" data-support="魔法クリティカル,魔法攻撃"><a class="s-link" href="./hero/2199.html"><img src="./img/s/2199.png" class="s-img" alt="【チョコレートはわたし♪】アンジェの画像">【チョコレートはわたし♪】アンジェ</a></li>
     
         
-        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="a,al" data-sk_type="i,m,bw,u" data-support="物理クリティカル,物理攻撃"><a class="s-link" href="./hero/2200.html"><img src="./img/s/2200.png" class="s-img" alt="【チョコづくりメイド】サーカの画像">【チョコづくりメイド】サーカ</a></li>
+        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="a,al" data-sk_type="i,m,ca,u" data-support="物理クリティカル,物理攻撃"><a class="s-link" href="./hero/2200.html"><img src="./img/s/2200.png" class="s-img" alt="【チョコづくりメイド】サーカの画像">【チョコづくりメイド】サーカ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="風" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや早い" data-gacha_type="疾走討伐戦" data-added_year="2025" data-ub_type="f,am" data-sk_type="t,ag,ax,ay,bd,bs,u" data-support="物理攻撃,魔法防御"><a class="s-link" href="./hero/2205.html"><img src="./img/s/2205.png" class="s-img" alt="【生真面目ナース】ラピスの画像">【生真面目ナース】ラピス</a></li>
@@ -1819,10 +1828,10 @@
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="想" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="やや遅い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="a,d,x,ag,bc" data-sk_type="e,y,z,aa,ab,ac,bx,h" data-support="物理防御,魔法防御"><a class="s-link" href="./hero/2201.html"><img src="./img/s/2201.png" class="s-img" alt="【小悪魔アイドル】ニーナの画像">【小悪魔アイドル】ニーナ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="射" data-atk_speed="やや遅い" data-gacha_type="シーズンパス" data-added_year="2025" data-ub_type="b,n,al" data-sk_type="e,h,i,k,m,bw,v,r" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2204.html"><img src="./img/s/2204.png" class="s-img" alt="【アメスク留学生】アーティアの画像">【アメスク留学生】アーティア</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="射" data-atk_speed="やや遅い" data-gacha_type="シーズンパス" data-added_year="2025" data-ub_type="b,n,al" data-sk_type="e,h,i,k,m,ca,v,r" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2204.html"><img src="./img/s/2204.png" class="s-img" alt="【アメスク留学生】アーティアの画像">【アメスク留学生】アーティア</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="同盟戦" data-added_year="2025" data-ub_type="b,ac,ai,at" data-sk_type="ag,ak,bz,al,i,m,bw,v" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2203.html"><img src="./img/s/2203.png" class="s-img" alt="【氷上の芸術家】イルーギオの画像">【氷上の<ruby>芸術家<rt>アーティスト</rt></ruby>】イルーギオ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="同盟戦" data-added_year="2025" data-ub_type="b,ac,ai,at" data-sk_type="ag,ak,bz,al,i,m,ca,v" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2203.html"><img src="./img/s/2203.png" class="s-img" alt="【氷上の芸術家】イルーギオの画像">【氷上の<ruby>芸術家<rt>アーティスト</rt></ruby>】イルーギオ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="遅い" data-gacha_type="イベント,周年" data-added_year="2025" data-ub_type="c,ak,bc,bu" data-sk_type="t,ai,aj,ak,bb,h,u,v,be" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2183.html"><img src="./img/s/2183.png" class="s-img" alt="ベガリアの画像">ベガリア</a></li>
@@ -1846,7 +1855,7 @@
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="想" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや遅い" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="b,ak" data-sk_type="aa,v" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2211.html"><img src="./img/s/2211.png" class="s-img" alt="【乳揺れチアガール】ボニータの画像">【乳揺れチアガール】ボニータ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや遅い" data-gacha_type="無限討伐戦" data-added_year="2025" data-ub_type="a,d,h,bc" data-sk_type="f,ac,bx,ap,h,m,bx,v,w" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2212.html"><img src="./img/s/2212.png" class="s-img" alt="【天馬のヴァルキュリア】ジゼルの画像">【天馬のヴァルキュリア】ジゼル</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや遅い" data-gacha_type="無限討伐戦" data-added_year="2025" data-ub_type="a,d,h,bc" data-sk_type="f,ac,bx,ap,h,m,cb,v,w" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2212.html"><img src="./img/s/2212.png" class="s-img" alt="【天馬のヴァルキュリア】ジゼルの画像">【天馬のヴァルキュリア】ジゼル</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="射" data-atk_speed="遅い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="a,al,bc" data-sk_type="t,ai,u,r,be" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2213.html"><img src="./img/s/2213.png" class="s-img" alt="【凄腕傭兵】シャティの画像">【凄腕傭兵】シャティ</a></li>
@@ -1855,7 +1864,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="魔" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="普通" data-gacha_type="イベント,コラボ" data-added_year="2025" data-ub_type="a,d,h,x,ak" data-sk_type="e,ae,ag,ba,h" data-support="最大HP,ブロック"><a class="s-link" href="./hero/2214.html"><img src="./img/s/2214.png" class="s-img" alt="ベルベルの画像">ベルベル</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="イベント,スペシャルパス,コラボ" data-added_year="2025" data-ub_type="a,i,al" data-sk_type="an,i,k,m,bw,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2215.html"><img src="./img/s/2215.png" class="s-img" alt="ソニアの画像">ソニア</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="イベント,スペシャルパス,コラボ" data-added_year="2025" data-ub_type="a,i,al" data-sk_type="an,i,k,m,ca,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2215.html"><img src="./img/s/2215.png" class="s-img" alt="ソニアの画像">ソニア</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="イベント,コラボ" data-added_year="2025" data-ub_type="b,i,ai" data-sk_type="x,y,aa,ac,bx,ak,bz,ax,v,w" data-support="物理クリティカル,最大HP"><a class="s-link" href="./hero/2216.html"><img src="./img/s/2216.png" class="s-img" alt="アルシャールの画像">アルシャール</a></li>
@@ -1870,7 +1879,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="やや遅い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="b,aj,ax" data-sk_type="al,bc,h,j,v,n" data-support="魔法クリティカル,命中"><a class="s-link" href="./hero/2219.html"><img src="./img/s/2219.png" class="s-img" alt="【紅の花魁】アンジェの画像">【紅の花魁】アンジェ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,n,ai,bc" data-sk_type="y,al,h,k,m,bw,v" data-support="命中,物理攻撃"><a class="s-link" href="./hero/2220.html"><img src="./img/s/2220.png" class="s-img" alt="ゲルディンの画像">ゲルディン</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,n,ai,bc" data-sk_type="y,al,h,k,m,ca,v" data-support="命中,物理攻撃"><a class="s-link" href="./hero/2220.html"><img src="./img/s/2220.png" class="s-img" alt="ゲルディンの画像">ゲルディン</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,j,aj" data-sk_type="z,aj,ak,by,ao,h,v,n" data-support="魔法攻撃,魔法クリティカル"><a class="s-link" href="./hero/2221.html"><img src="./img/s/2221.png" class="s-img" alt="スーラの画像">スーラ</a></li>
@@ -1879,7 +1888,7 @@
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="射" data-atk_speed="やや遅い" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="a,n,as" data-sk_type="t,al,as,u" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2222.html"><img src="./img/s/2222.png" class="s-img" alt="キリエの画像">キリエ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="早い" data-gacha_type="シーズンパス" data-added_year="2025" data-ub_type="a,ai,ax" data-sk_type="bs,i,m,bw,v,o" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2223.html"><img src="./img/s/2223.png" class="s-img" alt="【食欲の女戦士】ラウール＆クルールの画像">【食欲の女戦士】ラウール＆クルール</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="早い" data-gacha_type="シーズンパス" data-added_year="2025" data-ub_type="a,ai,ax" data-sk_type="bs,i,m,ca,v,o" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2223.html"><img src="./img/s/2223.png" class="s-img" alt="【食欲の女戦士】ラウール＆クルールの画像">【食欲の女戦士】ラウール＆クルール</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="バーストフェス" data-added_year="2025" data-ub_type="a,o,al" data-sk_type="t,aj,aw,bb,u,v" data-support="魔法クリティカル,魔法攻撃"><a class="s-link" href="./hero/2224.html"><img src="./img/s/2224.png" class="s-img" alt="ユラの画像">ユラ</a></li>
@@ -1888,13 +1897,13 @@
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="聖" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2025" data-ub_type="b,aj,ao" data-sk_type="e,f,x,z,ac,ap,w" data-support="魔法防御,魔法攻撃"><a class="s-link" href="./hero/2225.html"><img src="./img/s/2225.png" class="s-img" alt="【困惑の花嫁】マグダレーナの画像">【困惑の花嫁】マグダレーナ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="b,al,aw" data-sk_type="aj,h,j,m,bw,v,w" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2226.html"><img src="./img/s/2226.png" class="s-img" alt="【日傘の花嫁】麗鬼の画像">【日傘の花嫁】麗鬼</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="b,al,aw" data-sk_type="aj,h,j,m,ca,v,w" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2226.html"><img src="./img/s/2226.png" class="s-img" alt="【日傘の花嫁】麗鬼の画像">【日傘の花嫁】麗鬼</a></li>
     
         
-        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="a,bs" data-sk_type="ai,h,m,bw,v" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2227.html"><img src="./img/s/2227.png" class="s-img" alt="【ボクっ娘の花嫁】メイニアスの画像">【ボクっ娘の花嫁】メイニアス</a></li>
+        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="a,bs" data-sk_type="ai,h,m,ca,v" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2227.html"><img src="./img/s/2227.png" class="s-img" alt="【ボクっ娘の花嫁】メイニアスの画像">【ボクっ娘の花嫁】メイニアス</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="b,i,o,p" data-sk_type="al,k,m,bw,v,p" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2228.html"><img src="./img/s/2228.png" class="s-img" alt="【疾風のくノ一】リンの画像">【疾風のくノ一】リン</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="b,i,o,p" data-sk_type="al,k,m,ca,v,p" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2228.html"><img src="./img/s/2228.png" class="s-img" alt="【疾風のくノ一】リンの画像">【疾風のくノ一】リン</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="タンク" data-attr="水" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや早い" data-gacha_type="同盟戦" data-added_year="2025" data-ub_type="a" data-sk_type="ak,by,w" data-support="物理防御,魔法防御"><a class="s-link" href="./hero/2232.html"><img src="./img/s/2232.png" class="s-img" alt="【エルロンの堅牢なる盾】ナターシャの画像">【エルロンの堅牢なる盾】ナターシャ</a></li>
@@ -1915,7 +1924,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2025" data-ub_type="b,ai,ak,bc" data-sk_type="t,ax,bc,i,u,w" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2234.html"><img src="./img/s/2234.png" class="s-img" alt="【ビキニでタコ殴り】ギルの画像">【ビキニでタコ殴り】ギル</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="b,n,ak,al" data-sk_type="t,af,aj,l,m,bw,u" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2235.html"><img src="./img/s/2235.png" class="s-img" alt="【ビキニでお祝い】ヴィアトリーチェの画像">【ビキニでお祝い】ヴィアトリーチェ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="b,n,ak,al" data-sk_type="t,af,aj,l,m,ca,u" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2235.html"><img src="./img/s/2235.png" class="s-img" alt="【ビキニでお祝い】ヴィアトリーチェの画像">【ビキニでお祝い】ヴィアトリーチェ</a></li>
     
         
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="投" data-atk_speed="やや遅い" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="a,ai" data-sk_type="f,as,an,v" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2236.html"><img src="./img/s/2236.png" class="s-img" alt="【たまにはビキニで】リネットの画像">【たまにはビキニで】リネット</a></li>
@@ -1924,7 +1933,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや遅い" data-gacha_type="恒常" data-added_year="2025" data-ub_type="a,ai,ak,aw" data-sk_type="i,u,n,p" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2237.html"><img src="./img/s/2237.png" class="s-img" alt="【捕縛杖の聖騎士】カティーシャの画像">【捕縛杖の聖騎士】カティーシャ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや遅い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="c,k,ai" data-sk_type="h,i,m,bw,v" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2238.html"><img src="./img/s/2238.png" class="s-img" alt="【稀代の発明家】パステルの画像">【稀代の発明家】パステル</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや遅い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="c,k,ai" data-sk_type="h,i,m,ca,v" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2238.html"><img src="./img/s/2238.png" class="s-img" alt="【稀代の発明家】パステルの画像">【稀代の発明家】パステル</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,al,ax" data-sk_type="y,ac,bx,af,ai,ba,bs,v" data-support="物理クリティカル,最大HP"><a class="s-link" href="./hero/2239.html"><img src="./img/s/2239.png" class="s-img" alt="【うし乳娘】累＆鵺の画像">【うし乳娘】累＆鵺</a></li>
@@ -1933,7 +1942,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="魔" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="試練の塔" data-added_year="2025" data-ub_type="e,y,ah,ak" data-sk_type="t,ac,ag,ai,al,bs,w" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2240.html"><img src="./img/s/2240.png" class="s-img" alt="ラスウェルの画像">ラスウェル</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,d,ag,al,bd" data-sk_type="ac,ai,k,m,bw,v,w" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2241.html"><img src="./img/s/2241.png" class="s-img" alt="【箱入り浴衣娘】ルールーの画像">【箱入り浴衣娘】ルールー</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,d,ag,al,bd" data-sk_type="ac,ai,k,m,ca,v,w" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2241.html"><img src="./img/s/2241.png" class="s-img" alt="【箱入り浴衣娘】ルールーの画像">【箱入り浴衣娘】ルールー</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,i,ai,ak" data-sk_type="t,ai,ax,h,v,n" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2242.html"><img src="./img/s/2242.png" class="s-img" alt="【ゴージャスでノーブルな浴衣娘】グレイシーの画像">【ゴージャスでノーブルな浴衣娘】グレイシー</a></li>
@@ -1951,7 +1960,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや早い" data-gacha_type="シーズンパス" data-added_year="2025" data-ub_type="a,ai,al,bu" data-sk_type="t,ai,ak,by,ax,bs,h,v" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2246.html"><img src="./img/s/2246.png" class="s-img" alt="【ハミ乳オーバーオール】シャリクの画像">【ハミ乳オーバーオール】シャリク</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="早い" data-gacha_type="同盟戦" data-added_year="2025" data-ub_type="a,i,p,ai,al" data-sk_type="t,ai,al,k,m,bw,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2247.html"><img src="./img/s/2247.png" class="s-img" alt="【妖魔を狩る者】ラーグエンの画像">【妖魔を狩る者】ラーグエン</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="早い" data-gacha_type="同盟戦" data-added_year="2025" data-ub_type="a,i,p,ai,al" data-sk_type="t,ai,al,k,m,ca,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2247.html"><img src="./img/s/2247.png" class="s-img" alt="【妖魔を狩る者】ラーグエンの画像">【妖魔を狩る者】ラーグエン</a></li>
     
         </ul>
     </td>
@@ -1982,7 +1991,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="タンク" data-attr="水" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや早い" data-gacha_type="同盟戦" data-added_year="2025" data-ub_type="a" data-sk_type="ak,by,w" data-support="物理防御,魔法防御"><a class="s-link" href="./hero/2232.html"><img src="./img/s/2232.png" class="s-img" alt="【エルロンの堅牢なる盾】ナターシャの画像">【エルロンの堅牢なる盾】ナターシャ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="タンク" data-attr="風" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや早い" data-gacha_type="無限討伐戦" data-added_year="2024" data-ub_type="b,ai" data-sk_type="m,bw,v,w" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2118.html"><img src="./img/s/2118.png" class="s-img" alt="リリララの画像">リリララ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="タンク" data-attr="風" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや早い" data-gacha_type="無限討伐戦" data-added_year="2024" data-ub_type="b,ai" data-sk_type="m,ca,v,w" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2118.html"><img src="./img/s/2118.png" class="s-img" alt="リリララの画像">リリララ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="タンク" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,ai,bc" data-sk_type="aq,g,i,v" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2131.html"><img src="./img/s/2131.png" class="s-img" alt="エヴァの画像">エヴァ</a></li>
@@ -2042,7 +2051,7 @@
         <li data-disp="1" data-rare="SR" data-role_set="タンク" data-attr="聖" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,ai" data-sk_type="ai,aq" data-support="物理防御,魔法防御"><a class="s-link" href="./hero/2086.html"><img src="./img/s/2086.png" class="s-img" alt="グレイシーの画像">グレイシー</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="バーストフェス" data-added_year="2024" data-ub_type="a,h,aj,ak" data-sk_type="t,bb,h,m,bw,u,v" data-support="魔法クリティカル,命中"><a class="s-link" href="./hero/2166.html"><img src="./img/s/2166.png" class="s-img" alt="シュシュの画像">シュシュ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="バーストフェス" data-added_year="2024" data-ub_type="a,h,aj,ak" data-sk_type="t,bb,h,m,ca,u,v" data-support="魔法クリティカル,命中"><a class="s-link" href="./hero/2166.html"><img src="./img/s/2166.png" class="s-img" alt="シュシュの画像">シュシュ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="やや遅い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="b,j,l,ay" data-sk_type="f,af,aj,as,ap,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2233.html"><img src="./img/s/2233.png" class="s-img" alt="【伝説の勇者】ジェミニの画像">【伝説の勇者】ジェミニ</a></li>
@@ -2060,25 +2069,25 @@
         <li data-disp="1" data-rare="SSR" data-role_set="タンク" data-attr="火" data-atk_attr="物理" data-equip_type="打" data-atk_speed="遅い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,d,ak,ax" data-sk_type="aa" data-support="ブロック,物理防御"><a class="s-link" href="./hero/2057.html"><img src="./img/s/2057.png" class="s-img" alt="ノーラの画像">ノーラ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="イベント,スペシャルパス,コラボ" data-added_year="2025" data-ub_type="a,i,al" data-sk_type="an,i,k,m,bw,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2215.html"><img src="./img/s/2215.png" class="s-img" alt="ソニアの画像">ソニア</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="イベント,スペシャルパス,コラボ" data-added_year="2025" data-ub_type="a,i,al" data-sk_type="an,i,k,m,ca,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2215.html"><img src="./img/s/2215.png" class="s-img" alt="ソニアの画像">ソニア</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,n,ai,bc" data-sk_type="y,al,h,k,m,bw,v" data-support="命中,物理攻撃"><a class="s-link" href="./hero/2220.html"><img src="./img/s/2220.png" class="s-img" alt="ゲルディンの画像">ゲルディン</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,n,ai,bc" data-sk_type="y,al,h,k,m,ca,v" data-support="命中,物理攻撃"><a class="s-link" href="./hero/2220.html"><img src="./img/s/2220.png" class="s-img" alt="ゲルディンの画像">ゲルディン</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="早い" data-gacha_type="シーズンパス" data-added_year="2025" data-ub_type="a,ai,ax" data-sk_type="bs,i,m,bw,v,o" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2223.html"><img src="./img/s/2223.png" class="s-img" alt="【食欲の女戦士】ラウール＆クルールの画像">【食欲の女戦士】ラウール＆クルール</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="早い" data-gacha_type="シーズンパス" data-added_year="2025" data-ub_type="a,ai,ax" data-sk_type="bs,i,m,ca,v,o" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2223.html"><img src="./img/s/2223.png" class="s-img" alt="【食欲の女戦士】ラウール＆クルールの画像">【食欲の女戦士】ラウール＆クルール</a></li>
     
         
-        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="a,bs" data-sk_type="ai,h,m,bw,v" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2227.html"><img src="./img/s/2227.png" class="s-img" alt="【ボクっ娘の花嫁】メイニアスの画像">【ボクっ娘の花嫁】メイニアス</a></li>
+        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="a,bs" data-sk_type="ai,h,m,ca,v" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2227.html"><img src="./img/s/2227.png" class="s-img" alt="【ボクっ娘の花嫁】メイニアスの画像">【ボクっ娘の花嫁】メイニアス</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="b,i,o,p" data-sk_type="al,k,m,bw,v,p" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2228.html"><img src="./img/s/2228.png" class="s-img" alt="【疾風のくノ一】リンの画像">【疾風のくノ一】リン</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="b,i,o,p" data-sk_type="al,k,m,ca,v,p" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2228.html"><img src="./img/s/2228.png" class="s-img" alt="【疾風のくノ一】リンの画像">【疾風のくノ一】リン</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,al,ax" data-sk_type="y,ac,bx,af,ai,ba,bs,v" data-support="物理クリティカル,最大HP"><a class="s-link" href="./hero/2239.html"><img src="./img/s/2239.png" class="s-img" alt="【うし乳娘】累＆鵺の画像">【うし乳娘】累＆鵺</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="早い" data-gacha_type="同盟戦" data-added_year="2025" data-ub_type="a,i,p,ai,al" data-sk_type="t,ai,al,k,m,bw,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2247.html"><img src="./img/s/2247.png" class="s-img" alt="【妖魔を狩る者】ラーグエンの画像">【妖魔を狩る者】ラーグエン</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="早い" data-gacha_type="同盟戦" data-added_year="2025" data-ub_type="a,i,p,ai,al" data-sk_type="t,ai,al,k,m,ca,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2247.html"><img src="./img/s/2247.png" class="s-img" alt="【妖魔を狩る者】ラーグエンの画像">【妖魔を狩る者】ラーグエン</a></li>
     
         
         <li data-disp="1" data-rare="SR" data-role_set="サポート" data-attr="風" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや遅い" data-gacha_type="報酬,イベント" data-added_year="2024" data-ub_type="e,f,x,ax,bc" data-sk_type="aa,ab,ak,by,h" data-support="最大HP,ブロック"><a class="s-link" href="./hero/2186.html"><img src="./img/s/2186.png" class="s-img" alt="【疾風の恵み手】リンの画像">【疾風の恵み手】リン</a></li>
@@ -2093,7 +2102,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="早い" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,bd" data-sk_type="i,u" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2115.html"><img src="./img/s/2115.png" class="s-img" alt="ジールカの画像">ジールカ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや遅い" data-gacha_type="恒常" data-added_year="2024" data-ub_type="a,ai" data-sk_type="g,i,m,bw,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2124.html"><img src="./img/s/2124.png" class="s-img" alt="厄叉の画像">厄叉</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや遅い" data-gacha_type="恒常" data-added_year="2024" data-ub_type="a,ai" data-sk_type="g,i,m,ca,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2124.html"><img src="./img/s/2124.png" class="s-img" alt="厄叉の画像">厄叉</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="やや早い" data-gacha_type="シーズンパス" data-added_year="2024" data-ub_type="a,j,bu" data-sk_type="t,aj,bb,bc,u,p" data-support="魔法クリティカル,魔法攻撃"><a class="s-link" href="./hero/2138.html"><img src="./img/s/2138.png" class="s-img" alt="【学園ブルマー】黒騎士の画像">【学園ブルマー】黒騎士</a></li>
@@ -2120,7 +2129,7 @@
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや早い" data-gacha_type="報酬,イベント" data-added_year="2024" data-ub_type="a,al" data-sk_type="ai,h,v" data-support="物理クリティカル,物理攻撃"><a class="s-link" href="./hero/2190.html"><img src="./img/s/2190.png" class="s-img" alt="【紅傘の歳女】リリララの画像">【紅傘の歳女】リリララ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="a,aj,bd" data-sk_type="t,aj,al,m,bw,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2192.html"><img src="./img/s/2192.png" class="s-img" alt="【双子巫女】クルールの画像">【双子巫女】クルール</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="a,aj,bd" data-sk_type="t,aj,al,m,ca,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2192.html"><img src="./img/s/2192.png" class="s-img" alt="【双子巫女】クルールの画像">【双子巫女】クルール</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2025" data-ub_type="b,af,ak" data-sk_type="t,ac,ai,ax,u" data-support="最大HP,物理クリティカル"><a class="s-link" href="./hero/2209.html"><img src="./img/s/2209.png" class="s-img" alt="【乳揺れチアガール】ノーラの画像">【乳揺れチアガール】ノーラ</a></li>
@@ -2156,7 +2165,7 @@
         <li data-disp="1" data-rare="SR" data-role_set="サポート" data-attr="風" data-atk_attr="物理" data-equip_type="投" data-atk_speed="普通" data-gacha_type="報酬,イベント" data-added_year="2024" data-ub_type="e,aa,ab" data-sk_type="h" data-support="最大HP,命中"><a class="s-link" href="./hero/2159.html"><img src="./img/s/2159.png" class="s-img" alt="【大空祭の歌姫】ベルナデットの画像">【大空祭の歌姫】ベルナデット</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="疾走討伐戦" data-added_year="2024" data-ub_type="c,aj" data-sk_type="ax,h,j,m,bw,v" data-support="魔法クリティカル,魔法攻撃"><a class="s-link" href="./hero/2175.html"><img src="./img/s/2175.png" class="s-img" alt="【俺の妹は水兵さん】ボニータの画像">【俺の妹は水兵さん】ボニータ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="疾走討伐戦" data-added_year="2024" data-ub_type="c,aj" data-sk_type="ax,h,j,m,ca,v" data-support="魔法クリティカル,魔法攻撃"><a class="s-link" href="./hero/2175.html"><img src="./img/s/2175.png" class="s-img" alt="【俺の妹は水兵さん】ボニータの画像">【俺の妹は水兵さん】ボニータ</a></li>
     
         
         <li data-disp="1" data-rare="R" data-role_set="タンク" data-attr="想" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a" data-sk_type="" data-support="ブロック,物理クリティカル"><a class="s-link" href="./hero/2002.html"><img src="./img/s/2002.png" class="s-img" alt="アイシスの画像">アイシス</a></li>
@@ -2198,7 +2207,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="突" data-atk_speed="早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="b" data-sk_type="t,ai,u" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2052.html"><img src="./img/s/2052.png" class="s-img" alt="ジェミニの画像">ジェミニ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="打" data-atk_speed="早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="b,ai" data-sk_type="y,aa,ai,as,i,m,bw" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2054.html"><img src="./img/s/2054.png" class="s-img" alt="ヒルディスの画像">ヒルディス</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="打" data-atk_speed="早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="b,ai" data-sk_type="y,aa,ai,as,i,m,ca" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2054.html"><img src="./img/s/2054.png" class="s-img" alt="ヒルディスの画像">ヒルディス</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="b" data-sk_type="ac,ad,i,k" data-support="物理クリティカル,ブロック"><a class="s-link" href="./hero/2055.html"><img src="./img/s/2055.png" class="s-img" alt="リュッカの画像">リュッカ</a></li>
@@ -2210,7 +2219,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="シーズンパス" data-added_year="2023" data-ub_type="b,ak,ax" data-sk_type="t,ax,w" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2067.html"><img src="./img/s/2067.png" class="s-img" alt="【おてんば人魚姫】ローレリアの画像"><ruby>【おてんば人魚姫】<rt>マーメイドプリンセス</rt></ruby>ローレリア</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや遅い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="b,ak,bd" data-sk_type="ai,m,bw,v,w" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2073.html"><img src="./img/s/2073.png" class="s-img" alt="ルシエの画像">ルシエ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや遅い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="b,ak,bd" data-sk_type="ai,m,ca,v,w" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2073.html"><img src="./img/s/2073.png" class="s-img" alt="ルシエの画像">ルシエ</a></li>
     
         
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a" data-sk_type="ai,h,v" data-support="物理クリティカル,ブロック"><a class="s-link" href="./hero/2074.html"><img src="./img/s/2074.png" class="s-img" alt="累の画像"><ruby>累<rt>るい</rt></ruby></a></li>
@@ -2222,7 +2231,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,n" data-sk_type="i,k,u" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2059.html"><img src="./img/s/2059.png" class="s-img" alt="刹華の画像">刹華</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,al" data-sk_type="as,at,j,m,bw,u" data-support="魔法クリティカル,魔法攻撃"><a class="s-link" href="./hero/2084.html"><img src="./img/s/2084.png" class="s-img" alt="ラピスの画像">ラピス</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,al" data-sk_type="as,at,j,m,ca,u" data-support="魔法クリティカル,魔法攻撃"><a class="s-link" href="./hero/2084.html"><img src="./img/s/2084.png" class="s-img" alt="ラピスの画像">ラピス</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや遅い" data-gacha_type="試練の塔" data-added_year="2023" data-ub_type="a,n" data-sk_type="aa,i,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2085.html"><img src="./img/s/2085.png" class="s-img" alt="ローサの画像">ローサ</a></li>
@@ -2237,7 +2246,7 @@
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="早い" data-gacha_type="報酬,イベント" data-added_year="2024" data-ub_type="a" data-sk_type="k,u" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2103.html"><img src="./img/s/2103.png" class="s-img" alt="ヴァネッサの画像">ヴァネッサ</a></li>
     
         
-        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="報酬" data-added_year="2024" data-ub_type="a,ak" data-sk_type="i,m,bw" data-support="物理攻撃,ブロック"><a class="s-link" href="./hero/2039.html"><img src="./img/s/2039.png" class="s-img" alt="グネヴィアの画像">グネヴィア</a></li>
+        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="報酬" data-added_year="2024" data-ub_type="a,ak" data-sk_type="i,m,ca" data-support="物理攻撃,ブロック"><a class="s-link" href="./hero/2039.html"><img src="./img/s/2039.png" class="s-img" alt="グネヴィアの画像">グネヴィア</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="早い" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,aj,ba" data-sk_type="aj,h,l,v" data-support="魔法攻撃,魔法クリティカル"><a class="s-link" href="./hero/2110.html"><img src="./img/s/2110.png" class="s-img" alt="【チョコまみれの竜戦士】ヒルディスの画像">【チョコまみれの竜戦士】ヒルディス</a></li>
@@ -2246,19 +2255,19 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや遅い" data-gacha_type="試練の塔" data-added_year="2024" data-ub_type="a,m" data-sk_type="ac,bx,af,ag,ai,u,n" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2156.html"><img src="./img/s/2156.png" class="s-img" alt="リンの画像">リン</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,i,ax" data-sk_type="ai,ak,bz,ba,h,m,bw,v" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2172.html"><img src="./img/s/2172.png" class="s-img" alt="【むちむちサキュバス】カティーシャの画像">【むちむちサキュバス】カティーシャ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,i,ax" data-sk_type="ai,ak,bz,ba,h,m,ca,v" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2172.html"><img src="./img/s/2172.png" class="s-img" alt="【むちむちサキュバス】カティーシャの画像">【むちむちサキュバス】カティーシャ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="バーストフェス" data-added_year="2024" data-ub_type="a,ai,al,bd" data-sk_type="ai,ax,an,i,k,u,v,w" data-support="物理クリティカル,物理攻撃"><a class="s-link" href="./hero/2180.html"><img src="./img/s/2180.png" class="s-img" alt="【エルロンの聖騎士】リュッカの画像">【エルロンの聖騎士】リュッカ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,ai,bc" data-sk_type="ai,h,k,m,bw,v,n" data-support="物理攻撃,魔法防御"><a class="s-link" href="./hero/2194.html"><img src="./img/s/2194.png" class="s-img" alt="ルイーズの画像">ルイーズ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,ai,bc" data-sk_type="ai,h,k,m,ca,v,n" data-support="物理攻撃,魔法防御"><a class="s-link" href="./hero/2194.html"><img src="./img/s/2194.png" class="s-img" alt="ルイーズの画像">ルイーズ</a></li>
     
         
-        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="a,al" data-sk_type="i,m,bw,u" data-support="物理クリティカル,物理攻撃"><a class="s-link" href="./hero/2200.html"><img src="./img/s/2200.png" class="s-img" alt="【チョコづくりメイド】サーカの画像">【チョコづくりメイド】サーカ</a></li>
+        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="a,al" data-sk_type="i,m,ca,u" data-support="物理クリティカル,物理攻撃"><a class="s-link" href="./hero/2200.html"><img src="./img/s/2200.png" class="s-img" alt="【チョコづくりメイド】サーカの画像">【チョコづくりメイド】サーカ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="同盟戦" data-added_year="2025" data-ub_type="b,ac,ai,at" data-sk_type="ag,ak,bz,al,i,m,bw,v" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2203.html"><img src="./img/s/2203.png" class="s-img" alt="【氷上の芸術家】イルーギオの画像">【氷上の<ruby>芸術家<rt>アーティスト</rt></ruby>】イルーギオ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="同盟戦" data-added_year="2025" data-ub_type="b,ac,ai,at" data-sk_type="ag,ak,bz,al,i,m,ca,v" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2203.html"><img src="./img/s/2203.png" class="s-img" alt="【氷上の芸術家】イルーギオの画像">【氷上の<ruby>芸術家<rt>アーティスト</rt></ruby>】イルーギオ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや遅い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,k,ai" data-sk_type="bd,h,i,v" data-support="物理攻撃,魔法防御"><a class="s-link" href="./hero/2229.html"><img src="./img/s/2229.png" class="s-img" alt="ハニスの画像">ハニス</a></li>
@@ -2300,7 +2309,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="イベント,周年" data-added_year="2025" data-ub_type="b,m,p,af,ak,am" data-sk_type="t,ac,ai,ak,by,al,bc,bd,m,u,v,p" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2206.html"><img src="./img/s/2206.png" class="s-img" alt="【エレガントバニー】ベルナデットの画像">【エレガントバニー】ベルナデット</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや遅い" data-gacha_type="無限討伐戦" data-added_year="2025" data-ub_type="a,d,h,bc" data-sk_type="f,ac,bx,ap,h,m,bx,v,w" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2212.html"><img src="./img/s/2212.png" class="s-img" alt="【天馬のヴァルキュリア】ジゼルの画像">【天馬のヴァルキュリア】ジゼル</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや遅い" data-gacha_type="無限討伐戦" data-added_year="2025" data-ub_type="a,d,h,bc" data-sk_type="f,ac,bx,ap,h,m,cb,v,w" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2212.html"><img src="./img/s/2212.png" class="s-img" alt="【天馬のヴァルキュリア】ジゼルの画像">【天馬のヴァルキュリア】ジゼル</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや早い" data-gacha_type="シーズンパス" data-added_year="2025" data-ub_type="a,ai,al,bu" data-sk_type="t,ai,ak,by,ax,bs,h,v" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2246.html"><img src="./img/s/2246.png" class="s-img" alt="【ハミ乳オーバーオール】シャリクの画像">【ハミ乳オーバーオール】シャリク</a></li>
@@ -2346,7 +2355,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,i,ai,ak" data-sk_type="t,ai,ax,h,v,n" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2242.html"><img src="./img/s/2242.png" class="s-img" alt="【ゴージャスでノーブルな浴衣娘】グレイシーの画像">【ゴージャスでノーブルな浴衣娘】グレイシー</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="射" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,ai" data-sk_type="i,m,bw,v,r" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2135.html"><img src="./img/s/2135.png" class="s-img" alt="ギルの画像">ギル</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="射" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,ai" data-sk_type="i,m,ca,v,r" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2135.html"><img src="./img/s/2135.png" class="s-img" alt="ギルの画像">ギル</a></li>
     
         
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="報酬" data-added_year="2024" data-ub_type="e,aa,ac" data-sk_type="t,ax,u" data-support="命中,最大HP"><a class="s-link" href="./hero/2137.html"><img src="./img/s/2137.png" class="s-img" alt="アシュレイの画像">アシュレイ</a></li>
@@ -2379,10 +2388,10 @@
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="聖" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2025" data-ub_type="e" data-sk_type="e,x,ah" data-support="物理防御,魔法防御"><a class="s-link" href="./hero/2230.html"><img src="./img/s/2230.png" class="s-img" alt="モーランの画像">モーラン</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="b,n,ak,al" data-sk_type="t,af,aj,l,m,bw,u" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2235.html"><img src="./img/s/2235.png" class="s-img" alt="【ビキニでお祝い】ヴィアトリーチェの画像">【ビキニでお祝い】ヴィアトリーチェ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="b,n,ak,al" data-sk_type="t,af,aj,l,m,ca,u" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2235.html"><img src="./img/s/2235.png" class="s-img" alt="【ビキニでお祝い】ヴィアトリーチェの画像">【ビキニでお祝い】ヴィアトリーチェ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや遅い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="c,k,ai" data-sk_type="h,i,m,bw,v" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2238.html"><img src="./img/s/2238.png" class="s-img" alt="【稀代の発明家】パステルの画像">【稀代の発明家】パステル</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや遅い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="c,k,ai" data-sk_type="h,i,m,ca,v" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2238.html"><img src="./img/s/2238.png" class="s-img" alt="【稀代の発明家】パステルの画像">【稀代の発明家】パステル</a></li>
     
         
         <li data-disp="1" data-rare="R" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="b" data-sk_type="t,ba,bo" data-support="命中,ブロック"><a class="s-link" href="./hero/2001.html"><img src="./img/s/2001.png" class="s-img" alt="シャムシェルの画像">シャムシェル</a></li>
@@ -2418,7 +2427,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="報酬" data-added_year="2023" data-ub_type="b" data-sk_type="t,ba,bo" data-support="魔法攻撃,魔法クリティカル"><a class="s-link" href="./hero/2065.html"><img src="./img/s/2065.png" class="s-img" alt="【優美なる肖像】シャムシェルの画像">【優美なる肖像】シャムシェル</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2023" data-ub_type="b,aj,ba" data-sk_type="j,m,bx,u,bo" data-support="魔法クリティカル,命中"><a class="s-link" href="./hero/2068.html"><img src="./img/s/2068.png" class="s-img" alt="【祝祭の皇妃】シャムシェルの画像">【祝祭の皇妃】シャムシェル</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2023" data-ub_type="b,aj,ba" data-sk_type="j,m,cb,u,bo" data-support="魔法クリティカル,命中"><a class="s-link" href="./hero/2068.html"><img src="./img/s/2068.png" class="s-img" alt="【祝祭の皇妃】シャムシェルの画像">【祝祭の皇妃】シャムシェル</a></li>
     
         
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや遅い" data-gacha_type="報酬,イベント" data-added_year="2023" data-ub_type="b" data-sk_type="ai,ay,h,v" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2075.html"><img src="./img/s/2075.png" class="s-img" alt="鵺の画像"><ruby>鵺<rt>ぬえ</rt></ruby></a></li>
@@ -2442,7 +2451,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="火" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2023" data-ub_type="a,d" data-sk_type="aj,al,bb,v" data-support="最大HP,魔法クリティカル"><a class="s-link" href="./hero/2081.html"><img src="./img/s/2081.png" class="s-img" alt="【最強魔女】シャハルの画像">【最強魔女】シャハル</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="無限討伐戦" data-added_year="2023" data-ub_type="a,d,h,n" data-sk_type="h,i,m,bw,v" data-support="物理攻撃,ブロック"><a class="s-link" href="./hero/2098.html"><img src="./img/s/2098.png" class="s-img" alt="ルールーの画像">ルールー</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="無限討伐戦" data-added_year="2023" data-ub_type="a,d,h,n" data-sk_type="h,i,m,ca,v" data-support="物理攻撃,ブロック"><a class="s-link" href="./hero/2098.html"><img src="./img/s/2098.png" class="s-img" alt="ルールーの画像">ルールー</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="やや遅い" data-gacha_type="イベント" data-added_year="2024" data-ub_type="c,ak,ax" data-sk_type="al,h,j,l,v" data-support="魔法攻撃,魔法クリティカル"><a class="s-link" href="./hero/2185.html"><img src="./img/s/2185.png" class="s-img" alt="【乳魔な恵み手】シュシュの画像">【乳魔な恵み手】シュシュ</a></li>
@@ -2451,7 +2460,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="魔" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="試練の塔" data-added_year="2025" data-ub_type="e,y,ah,ak" data-sk_type="t,ac,ag,ai,al,bs,w" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2240.html"><img src="./img/s/2240.png" class="s-img" alt="ラスウェルの画像">ラスウェル</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,d,ag,al,bd" data-sk_type="ac,ai,k,m,bw,v,w" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2241.html"><img src="./img/s/2241.png" class="s-img" alt="【箱入り浴衣娘】ルールーの画像">【箱入り浴衣娘】ルールー</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,d,ag,al,bd" data-sk_type="ac,ai,k,m,ca,v,w" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2241.html"><img src="./img/s/2241.png" class="s-img" alt="【箱入り浴衣娘】ルールーの画像">【箱入り浴衣娘】ルールー</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="物理" data-equip_type="突" data-atk_speed="遅い" data-gacha_type="試練の塔" data-added_year="2024" data-ub_type="b,i" data-sk_type="ai,k,v" data-support="物理攻撃,最大HP"><a class="s-link" href="./hero/2088.html"><img src="./img/s/2088.png" class="s-img" alt="ジゼルの画像">ジゼル</a></li>
@@ -2463,7 +2472,7 @@
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="普通" data-gacha_type="報酬,イベント" data-added_year="2023" data-ub_type="a,bd" data-sk_type="aj,as,ba,u" data-support="魔法攻撃,最大HP"><a class="s-link" href="./hero/2097.html"><img src="./img/s/2097.png" class="s-img" alt="【聖夜のサキュバス】ユ・リマ・エルカの画像">【聖夜のサキュバス】ユ・リマ・エルカ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="Fanzine" data-added_year="2024" data-ub_type="a,j,n" data-sk_type="e,ac,ak,bz,ba,ao,h,m,bw,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2134.html"><img src="./img/s/2134.png" class="s-img" alt="【誘惑の裸エプロン】ディアナの画像">【誘惑の裸エプロン】ディアナ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="Fanzine" data-added_year="2024" data-ub_type="a,j,n" data-sk_type="e,ac,ak,bz,ba,ao,h,m,ca,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2134.html"><img src="./img/s/2134.png" class="s-img" alt="【誘惑の裸エプロン】ディアナの画像">【誘惑の裸エプロン】ディアナ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="物理" data-equip_type="投" data-atk_speed="普通" data-gacha_type="イベント,コラボ" data-added_year="2024" data-ub_type="b,i,bd" data-sk_type="ai,ba,bs,u" data-support="物理クリティカル,物理攻撃"><a class="s-link" href="./hero/2169.html"><img src="./img/s/2169.png" class="s-img" alt="碧井エリカの画像">碧井エリカ</a></li>
@@ -2499,7 +2508,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="想" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="イベント,周年" data-added_year="2024" data-ub_type="a,d,m,p,x,ac" data-sk_type="e,x,ad,ae,ak,bz,ba,am" data-support="最大HP,魔法攻撃"><a class="s-link" href="./hero/2119.html"><img src="./img/s/2119.png" class="s-img" alt="【スウィートバニー】アーティアの画像">【スウィートバニー】アーティア</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="Fanzine" data-added_year="2024" data-ub_type="a,j,n" data-sk_type="e,z,bc,h,m,bw,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2143.html"><img src="./img/s/2143.png" class="s-img" alt="【魅惑の裸エプロン】ジールカの画像">【魅惑の裸エプロン】ジールカ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="Fanzine" data-added_year="2024" data-ub_type="a,j,n" data-sk_type="e,z,bc,h,m,ca,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2143.html"><img src="./img/s/2143.png" class="s-img" alt="【魅惑の裸エプロン】ジールカの画像">【魅惑の裸エプロン】ジールカ</a></li>
     
         
         <li data-disp="1" data-rare="SR" data-role_set="サポート" data-attr="想" data-atk_attr="物理" data-equip_type="投" data-atk_speed="やや早い" data-gacha_type="報酬,イベント,コラボ" data-added_year="2024" data-ub_type="a,ai,ax" data-sk_type="e,ai,av,bc,h,v" data-support="物理攻撃,最大HP"><a class="s-link" href="./hero/2170.html"><img src="./img/s/2170.png" class="s-img" alt="如月レイナの画像">如月レイナ</a></li>
@@ -2562,7 +2571,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="早い" data-gacha_type="同盟戦" data-added_year="2025" data-ub_type="c,p,ai,bs,bu" data-sk_type="ac,bx,ay,bs,h,i,v,p,w" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2196.html"><img src="./img/s/2196.png" class="s-img" alt="【エロ修道女】ソルティナの画像">【エロ修道女】ソルティナ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="射" data-atk_speed="やや遅い" data-gacha_type="シーズンパス" data-added_year="2025" data-ub_type="b,n,al" data-sk_type="e,h,i,k,m,bw,v,r" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2204.html"><img src="./img/s/2204.png" class="s-img" alt="【アメスク留学生】アーティアの画像">【アメスク留学生】アーティア</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="射" data-atk_speed="やや遅い" data-gacha_type="シーズンパス" data-added_year="2025" data-ub_type="b,n,al" data-sk_type="e,h,i,k,m,ca,v,r" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2204.html"><img src="./img/s/2204.png" class="s-img" alt="【アメスク留学生】アーティアの画像">【アメスク留学生】アーティア</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="火" data-atk_attr="物理" data-equip_type="投" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="e,aa,ab,ag" data-sk_type="e,ac,bx,ag,h,w" data-support="最大HP,命中"><a class="s-link" href="./hero/2210.html"><img src="./img/s/2210.png" class="s-img" alt="【乳揺れチアガール】アシュレイの画像">【乳揺れチアガール】アシュレイ</a></li>
@@ -2587,10 +2596,10 @@
         <li data-disp="1" data-rare="R" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,d,as" data-sk_type="as" data-support="魔法攻撃,最大HP"><a class="s-link" href="./hero/2018.html"><img src="./img/s/2018.png" class="s-img" alt="ナディーヌの画像">ナディーヌ</a></li>
     
         
-        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="射" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,al" data-sk_type="i,m,bw,u" data-support="物理クリティカル,ブロック"><a class="s-link" href="./hero/2029.html"><img src="./img/s/2029.png" class="s-img" alt="アルテミスの画像">アルテミス</a></li>
+        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="射" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,al" data-sk_type="i,m,ca,u" data-support="物理クリティカル,ブロック"><a class="s-link" href="./hero/2029.html"><img src="./img/s/2029.png" class="s-img" alt="アルテミスの画像">アルテミス</a></li>
     
         
-        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="突" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,d,au" data-sk_type="ay,j,m,bw,bi" data-support="魔法クリティカル,ブロック"><a class="s-link" href="./hero/2031.html"><img src="./img/s/2031.png" class="s-img" alt="メデューサの画像">メデューサ</a></li>
+        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="突" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,d,au" data-sk_type="ay,j,m,ca,bi" data-support="魔法クリティカル,ブロック"><a class="s-link" href="./hero/2031.html"><img src="./img/s/2031.png" class="s-img" alt="メデューサの画像">メデューサ</a></li>
     
         
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="聖" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,aj,aw" data-sk_type="f,h" data-support="ブロック,物理クリティカル"><a class="s-link" href="./hero/2036.html"><img src="./img/s/2036.png" class="s-img" alt="イシュトヴィアの画像">イシュトヴィア</a></li>
@@ -2644,7 +2653,7 @@
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="射" data-atk_speed="やや遅い" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="a,n,as" data-sk_type="t,al,as,u" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2222.html"><img src="./img/s/2222.png" class="s-img" alt="キリエの画像">キリエ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="b,al,aw" data-sk_type="aj,h,j,m,bw,v,w" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2226.html"><img src="./img/s/2226.png" class="s-img" alt="【日傘の花嫁】麗鬼の画像">【日傘の花嫁】麗鬼</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="b,al,aw" data-sk_type="aj,h,j,m,ca,v,w" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2226.html"><img src="./img/s/2226.png" class="s-img" alt="【日傘の花嫁】麗鬼の画像">【日傘の花嫁】麗鬼</a></li>
     
         
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="投" data-atk_speed="やや遅い" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="a,ai" data-sk_type="f,as,an,v" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2236.html"><img src="./img/s/2236.png" class="s-img" alt="【たまにはビキニで】リネットの画像">【たまにはビキニで】リネット</a></li>
@@ -2766,10 +2775,10 @@
         <ul class="hero_container" data-val="S" data-tab="Tier順">
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="a,aj,bd" data-sk_type="t,aj,al,m,bw,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2192.html"><img src="./img/s/2192.png" class="s-img" alt="【双子巫女】クルールの画像">【双子巫女】クルール</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="a,aj,bd" data-sk_type="t,aj,al,m,ca,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2192.html"><img src="./img/s/2192.png" class="s-img" alt="【双子巫女】クルールの画像">【双子巫女】クルール</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="疾走討伐戦" data-added_year="2024" data-ub_type="c,aj" data-sk_type="ax,h,j,m,bw,v" data-support="魔法クリティカル,魔法攻撃"><a class="s-link" href="./hero/2175.html"><img src="./img/s/2175.png" class="s-img" alt="【俺の妹は水兵さん】ボニータの画像">【俺の妹は水兵さん】ボニータ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="疾走討伐戦" data-added_year="2024" data-ub_type="c,aj" data-sk_type="ax,h,j,m,ca,v" data-support="魔法クリティカル,魔法攻撃"><a class="s-link" href="./hero/2175.html"><img src="./img/s/2175.png" class="s-img" alt="【俺の妹は水兵さん】ボニータの画像">【俺の妹は水兵さん】ボニータ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="聖" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="やや遅い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="f,ah" data-sk_type="e,f,aa,ab,ac,bx,ag,ap" data-support="魔法防御,物理防御"><a class="s-link" href="./hero/2193.html"><img src="./img/s/2193.png" class="s-img" alt="ノワの画像">ノワ</a></li>
@@ -2812,7 +2821,7 @@
         <ul class="hero_container" data-val="A" data-tab="Tier順">
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="バーストフェス" data-added_year="2024" data-ub_type="a,h,aj,ak" data-sk_type="t,bb,h,m,bw,u,v" data-support="魔法クリティカル,命中"><a class="s-link" href="./hero/2166.html"><img src="./img/s/2166.png" class="s-img" alt="シュシュの画像">シュシュ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="バーストフェス" data-added_year="2024" data-ub_type="a,h,aj,ak" data-sk_type="t,bb,h,m,ca,u,v" data-support="魔法クリティカル,命中"><a class="s-link" href="./hero/2166.html"><img src="./img/s/2166.png" class="s-img" alt="シュシュの画像">シュシュ</a></li>
     
         
         <li data-disp="1" data-rare="SR" data-role_set="サポート" data-attr="風" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや遅い" data-gacha_type="報酬,イベント" data-added_year="2024" data-ub_type="e,f,x,ax,bc" data-sk_type="aa,ab,ak,by,h" data-support="最大HP,ブロック"><a class="s-link" href="./hero/2186.html"><img src="./img/s/2186.png" class="s-img" alt="【疾風の恵み手】リンの画像">【疾風の恵み手】リン</a></li>
@@ -2833,16 +2842,16 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや遅い" data-gacha_type="試練の塔" data-added_year="2024" data-ub_type="a,m" data-sk_type="ac,bx,af,ag,ai,u,n" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2156.html"><img src="./img/s/2156.png" class="s-img" alt="リンの画像">リン</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,i,ax" data-sk_type="ai,ak,bz,ba,h,m,bw,v" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2172.html"><img src="./img/s/2172.png" class="s-img" alt="【むちむちサキュバス】カティーシャの画像">【むちむちサキュバス】カティーシャ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,i,ax" data-sk_type="ai,ak,bz,ba,h,m,ca,v" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2172.html"><img src="./img/s/2172.png" class="s-img" alt="【むちむちサキュバス】カティーシャの画像">【むちむちサキュバス】カティーシャ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="バーストフェス" data-added_year="2024" data-ub_type="a,ai,al,bd" data-sk_type="ai,ax,an,i,k,u,v,w" data-support="物理クリティカル,物理攻撃"><a class="s-link" href="./hero/2180.html"><img src="./img/s/2180.png" class="s-img" alt="【エルロンの聖騎士】リュッカの画像">【エルロンの聖騎士】リュッカ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,ai,bc" data-sk_type="ai,h,k,m,bw,v,n" data-support="物理攻撃,魔法防御"><a class="s-link" href="./hero/2194.html"><img src="./img/s/2194.png" class="s-img" alt="ルイーズの画像">ルイーズ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,ai,bc" data-sk_type="ai,h,k,m,ca,v,n" data-support="物理攻撃,魔法防御"><a class="s-link" href="./hero/2194.html"><img src="./img/s/2194.png" class="s-img" alt="ルイーズの画像">ルイーズ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="同盟戦" data-added_year="2025" data-ub_type="b,ac,ai,at" data-sk_type="ag,ak,bz,al,i,m,bw,v" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2203.html"><img src="./img/s/2203.png" class="s-img" alt="【氷上の芸術家】イルーギオの画像">【氷上の<ruby>芸術家<rt>アーティスト</rt></ruby>】イルーギオ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="同盟戦" data-added_year="2025" data-ub_type="b,ac,ai,at" data-sk_type="ag,ak,bz,al,i,m,ca,v" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2203.html"><img src="./img/s/2203.png" class="s-img" alt="【氷上の芸術家】イルーギオの画像">【氷上の<ruby>芸術家<rt>アーティスト</rt></ruby>】イルーギオ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや遅い" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,m,o,aw" data-sk_type="ai,bc,h,u,v" data-support="物理攻撃,ブロック"><a class="s-link" href="./hero/2164.html"><img src="./img/s/2164.png" class="s-img" alt="【ヴェルン神聖騎士団団長】フリギスの画像">【ヴェルン神聖騎士団団長】フリギス</a></li>
@@ -2851,7 +2860,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="イベント,周年" data-added_year="2025" data-ub_type="b,m,p,af,ak,am" data-sk_type="t,ac,ai,ak,by,al,bc,bd,m,u,v,p" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2206.html"><img src="./img/s/2206.png" class="s-img" alt="【エレガントバニー】ベルナデットの画像">【エレガントバニー】ベルナデット</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや遅い" data-gacha_type="無限討伐戦" data-added_year="2025" data-ub_type="a,d,h,bc" data-sk_type="f,ac,bx,ap,h,m,bx,v,w" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2212.html"><img src="./img/s/2212.png" class="s-img" alt="【天馬のヴァルキュリア】ジゼルの画像">【天馬のヴァルキュリア】ジゼル</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや遅い" data-gacha_type="無限討伐戦" data-added_year="2025" data-ub_type="a,d,h,bc" data-sk_type="f,ac,bx,ap,h,m,cb,v,w" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2212.html"><img src="./img/s/2212.png" class="s-img" alt="【天馬のヴァルキュリア】ジゼルの画像">【天馬のヴァルキュリア】ジゼル</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="突" data-atk_speed="普通" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="a,d,ag,al" data-sk_type="t,ag,ai,k,u" data-support="物理攻撃,最大HP"><a class="s-link" href="./hero/2208.html"><img src="./img/s/2208.png" class="s-img" alt="【ゴスロリ乳魔】シュシュの画像">【ゴスロリ乳魔】シュシュ</a></li>
@@ -2869,10 +2878,10 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="魔法" data-equip_type="突" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,h,j,n" data-sk_type="aj,ax,h,j,l,v" data-support="魔法攻撃,魔法クリティカル"><a class="s-link" href="./hero/2046.html"><img src="./img/s/2046.png" class="s-img" alt="テレシアの画像">テレシア</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="無限討伐戦" data-added_year="2023" data-ub_type="a,d,h,n" data-sk_type="h,i,m,bw,v" data-support="物理攻撃,ブロック"><a class="s-link" href="./hero/2098.html"><img src="./img/s/2098.png" class="s-img" alt="ルールーの画像">ルールー</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="無限討伐戦" data-added_year="2023" data-ub_type="a,d,h,n" data-sk_type="h,i,m,ca,v" data-support="物理攻撃,ブロック"><a class="s-link" href="./hero/2098.html"><img src="./img/s/2098.png" class="s-img" alt="ルールーの画像">ルールー</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="Fanzine" data-added_year="2024" data-ub_type="a,j,n" data-sk_type="e,ac,ak,bz,ba,ao,h,m,bw,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2134.html"><img src="./img/s/2134.png" class="s-img" alt="【誘惑の裸エプロン】ディアナの画像">【誘惑の裸エプロン】ディアナ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="Fanzine" data-added_year="2024" data-ub_type="a,j,n" data-sk_type="e,ac,ak,bz,ba,ao,h,m,ca,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2134.html"><img src="./img/s/2134.png" class="s-img" alt="【誘惑の裸エプロン】ディアナの画像">【誘惑の裸エプロン】ディアナ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="普通" data-gacha_type="バーストフェス" data-added_year="2025" data-ub_type="a,m,p,al,as,bb" data-sk_type="ac,bx,aj,al,as,bd,h,u,v,p" data-support="魔法攻撃,物理防御"><a class="s-link" href="./hero/2202.html"><img src="./img/s/2202.png" class="s-img" alt="麗鬼の画像">麗鬼</a></li>
@@ -2945,7 +2954,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="やや遅い" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,m" data-sk_type="aj,j,u,n" data-support="魔法クリティカル,命中"><a class="s-link" href="./hero/2120.html"><img src="./img/s/2120.png" class="s-img" alt="ラウールの画像">ラウール</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="射" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,ai" data-sk_type="i,m,bw,v,r" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2135.html"><img src="./img/s/2135.png" class="s-img" alt="ギルの画像">ギル</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="射" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,ai" data-sk_type="i,m,ca,v,r" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2135.html"><img src="./img/s/2135.png" class="s-img" alt="ギルの画像">ギル</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="遅い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="b,p,aj,bb,bu" data-sk_type="t,aj,al,l,u" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2049.html"><img src="./img/s/2049.png" class="s-img" alt="黒騎士の画像">黒騎士</a></li>
@@ -2969,7 +2978,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="魔法" data-equip_type="突" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2023" data-ub_type="a,d,ay" data-sk_type="ab,ac,bx,ax,w,s" data-support="最大HP,魔法攻撃"><a class="s-link" href="./hero/2078.html"><img src="./img/s/2078.png" class="s-img" alt="【悩殺☆ビキニ】テレシアの画像">【悩殺☆ビキニ】テレシア</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="射" data-atk_speed="やや遅い" data-gacha_type="シーズンパス" data-added_year="2025" data-ub_type="b,n,al" data-sk_type="e,h,i,k,m,bw,v,r" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2204.html"><img src="./img/s/2204.png" class="s-img" alt="【アメスク留学生】アーティアの画像">【アメスク留学生】アーティア</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="射" data-atk_speed="やや遅い" data-gacha_type="シーズンパス" data-added_year="2025" data-ub_type="b,n,al" data-sk_type="e,h,i,k,m,ca,v,r" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2204.html"><img src="./img/s/2204.png" class="s-img" alt="【アメスク留学生】アーティアの画像">【アメスク留学生】アーティア</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2024" data-ub_type="b,ak,al" data-sk_type="ai,aj,ak,by,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2125.html"><img src="./img/s/2125.png" class="s-img" alt="ニーナの画像">ニーナ</a></li>
@@ -3000,7 +3009,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="タンク" data-attr="水" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや早い" data-gacha_type="同盟戦" data-added_year="2025" data-ub_type="a" data-sk_type="ak,by,w" data-support="物理防御,魔法防御"><a class="s-link" href="./hero/2232.html"><img src="./img/s/2232.png" class="s-img" alt="【エルロンの堅牢なる盾】ナターシャの画像">【エルロンの堅牢なる盾】ナターシャ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="タンク" data-attr="風" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや早い" data-gacha_type="無限討伐戦" data-added_year="2024" data-ub_type="b,ai" data-sk_type="m,bw,v,w" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2118.html"><img src="./img/s/2118.png" class="s-img" alt="リリララの画像">リリララ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="タンク" data-attr="風" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや早い" data-gacha_type="無限討伐戦" data-added_year="2024" data-ub_type="b,ai" data-sk_type="m,ca,v,w" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2118.html"><img src="./img/s/2118.png" class="s-img" alt="リリララの画像">リリララ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="タンク" data-attr="風" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="Fanzine" data-added_year="2024" data-ub_type="a,ax,bd" data-sk_type="ax,aq,h,v,w" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2152.html"><img src="./img/s/2152.png" class="s-img" alt="【スケートボーダー】鵺の画像">【スケートボーダー】鵺</a></li>
@@ -3018,28 +3027,28 @@
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや早い" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="a,d,ai,ak" data-sk_type="t,ai,u" data-support="物理クリティカル,物理攻撃"><a class="s-link" href="./hero/2243.html"><img src="./img/s/2243.png" class="s-img" alt="【長乳の浴衣娘】ルイーズの画像">【長乳の浴衣娘】ルイーズ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="イベント,スペシャルパス,コラボ" data-added_year="2025" data-ub_type="a,i,al" data-sk_type="an,i,k,m,bw,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2215.html"><img src="./img/s/2215.png" class="s-img" alt="ソニアの画像">ソニア</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="イベント,スペシャルパス,コラボ" data-added_year="2025" data-ub_type="a,i,al" data-sk_type="an,i,k,m,ca,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2215.html"><img src="./img/s/2215.png" class="s-img" alt="ソニアの画像">ソニア</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,n,ai,bc" data-sk_type="y,al,h,k,m,bw,v" data-support="命中,物理攻撃"><a class="s-link" href="./hero/2220.html"><img src="./img/s/2220.png" class="s-img" alt="ゲルディンの画像">ゲルディン</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,n,ai,bc" data-sk_type="y,al,h,k,m,ca,v" data-support="命中,物理攻撃"><a class="s-link" href="./hero/2220.html"><img src="./img/s/2220.png" class="s-img" alt="ゲルディンの画像">ゲルディン</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="早い" data-gacha_type="シーズンパス" data-added_year="2025" data-ub_type="a,ai,ax" data-sk_type="bs,i,m,bw,v,o" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2223.html"><img src="./img/s/2223.png" class="s-img" alt="【食欲の女戦士】ラウール＆クルールの画像">【食欲の女戦士】ラウール＆クルール</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="早い" data-gacha_type="シーズンパス" data-added_year="2025" data-ub_type="a,ai,ax" data-sk_type="bs,i,m,ca,v,o" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2223.html"><img src="./img/s/2223.png" class="s-img" alt="【食欲の女戦士】ラウール＆クルールの画像">【食欲の女戦士】ラウール＆クルール</a></li>
     
         
-        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="a,bs" data-sk_type="ai,h,m,bw,v" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2227.html"><img src="./img/s/2227.png" class="s-img" alt="【ボクっ娘の花嫁】メイニアスの画像">【ボクっ娘の花嫁】メイニアス</a></li>
+        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="a,bs" data-sk_type="ai,h,m,ca,v" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2227.html"><img src="./img/s/2227.png" class="s-img" alt="【ボクっ娘の花嫁】メイニアスの画像">【ボクっ娘の花嫁】メイニアス</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="b,i,o,p" data-sk_type="al,k,m,bw,v,p" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2228.html"><img src="./img/s/2228.png" class="s-img" alt="【疾風のくノ一】リンの画像">【疾風のくノ一】リン</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="b,i,o,p" data-sk_type="al,k,m,ca,v,p" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2228.html"><img src="./img/s/2228.png" class="s-img" alt="【疾風のくノ一】リンの画像">【疾風のくノ一】リン</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,al,ax" data-sk_type="y,ac,bx,af,ai,ba,bs,v" data-support="物理クリティカル,最大HP"><a class="s-link" href="./hero/2239.html"><img src="./img/s/2239.png" class="s-img" alt="【うし乳娘】累＆鵺の画像">【うし乳娘】累＆鵺</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="早い" data-gacha_type="同盟戦" data-added_year="2025" data-ub_type="a,i,p,ai,al" data-sk_type="t,ai,al,k,m,bw,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2247.html"><img src="./img/s/2247.png" class="s-img" alt="【妖魔を狩る者】ラーグエンの画像">【妖魔を狩る者】ラーグエン</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="早い" data-gacha_type="同盟戦" data-added_year="2025" data-ub_type="a,i,p,ai,al" data-sk_type="t,ai,al,k,m,ca,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2247.html"><img src="./img/s/2247.png" class="s-img" alt="【妖魔を狩る者】ラーグエンの画像">【妖魔を狩る者】ラーグエン</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや遅い" data-gacha_type="恒常" data-added_year="2024" data-ub_type="a,ai" data-sk_type="g,i,m,bw,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2124.html"><img src="./img/s/2124.png" class="s-img" alt="厄叉の画像">厄叉</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや遅い" data-gacha_type="恒常" data-added_year="2024" data-ub_type="a,ai" data-sk_type="g,i,m,ca,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2124.html"><img src="./img/s/2124.png" class="s-img" alt="厄叉の画像">厄叉</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="やや早い" data-gacha_type="シーズンパス" data-added_year="2024" data-ub_type="a,j,bu" data-sk_type="t,aj,bb,bc,u,p" data-support="魔法クリティカル,魔法攻撃"><a class="s-link" href="./hero/2138.html"><img src="./img/s/2138.png" class="s-img" alt="【学園ブルマー】黒騎士の画像">【学園ブルマー】黒騎士</a></li>
@@ -3063,7 +3072,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="シーズンパス" data-added_year="2023" data-ub_type="b,ak,ax" data-sk_type="t,ax,w" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2067.html"><img src="./img/s/2067.png" class="s-img" alt="【おてんば人魚姫】ローレリアの画像"><ruby>【おてんば人魚姫】<rt>マーメイドプリンセス</rt></ruby>ローレリア</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや遅い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="b,ak,bd" data-sk_type="ai,m,bw,v,w" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2073.html"><img src="./img/s/2073.png" class="s-img" alt="ルシエの画像">ルシエ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや遅い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="b,ak,bd" data-sk_type="ai,m,ca,v,w" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2073.html"><img src="./img/s/2073.png" class="s-img" alt="ルシエの画像">ルシエ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,n" data-sk_type="i,k,u" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2059.html"><img src="./img/s/2059.png" class="s-img" alt="刹華の画像">刹華</a></li>
@@ -3126,10 +3135,10 @@
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="聖" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2025" data-ub_type="e" data-sk_type="e,x,ah" data-support="物理防御,魔法防御"><a class="s-link" href="./hero/2230.html"><img src="./img/s/2230.png" class="s-img" alt="モーランの画像">モーラン</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="b,n,ak,al" data-sk_type="t,af,aj,l,m,bw,u" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2235.html"><img src="./img/s/2235.png" class="s-img" alt="【ビキニでお祝い】ヴィアトリーチェの画像">【ビキニでお祝い】ヴィアトリーチェ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="b,n,ak,al" data-sk_type="t,af,aj,l,m,ca,u" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2235.html"><img src="./img/s/2235.png" class="s-img" alt="【ビキニでお祝い】ヴィアトリーチェの画像">【ビキニでお祝い】ヴィアトリーチェ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや遅い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="c,k,ai" data-sk_type="h,i,m,bw,v" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2238.html"><img src="./img/s/2238.png" class="s-img" alt="【稀代の発明家】パステルの画像">【稀代の発明家】パステル</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや遅い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="c,k,ai" data-sk_type="h,i,m,ca,v" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2238.html"><img src="./img/s/2238.png" class="s-img" alt="【稀代の発明家】パステルの画像">【稀代の発明家】パステル</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="b,j" data-sk_type="t,ba,u,bn,bo" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2040.html"><img src="./img/s/2040.png" class="s-img" alt="【高貴なる皇妃】シャムシェルの画像">【高貴なる皇妃】シャムシェル</a></li>
@@ -3138,7 +3147,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,d,aw,bd" data-sk_type="i,n" data-support="物理攻撃,ブロック"><a class="s-link" href="./hero/2063.html"><img src="./img/s/2063.png" class="s-img" alt="ビアンカの画像">ビアンカ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2023" data-ub_type="b,aj,ba" data-sk_type="j,m,bx,u,bo" data-support="魔法クリティカル,命中"><a class="s-link" href="./hero/2068.html"><img src="./img/s/2068.png" class="s-img" alt="【祝祭の皇妃】シャムシェルの画像">【祝祭の皇妃】シャムシェル</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2023" data-ub_type="b,aj,ba" data-sk_type="j,m,cb,u,bo" data-support="魔法クリティカル,命中"><a class="s-link" href="./hero/2068.html"><img src="./img/s/2068.png" class="s-img" alt="【祝祭の皇妃】シャムシェルの画像">【祝祭の皇妃】シャムシェル</a></li>
     
         
         <li data-disp="1" data-rare="SR" data-role_set="サポート" data-attr="聖" data-atk_attr="物理" data-equip_type="打" data-atk_speed="やや遅い" data-gacha_type="イベント,報酬" data-added_year="2025" data-ub_type="f" data-sk_type="e,f,ac,bx,ah,am" data-support="ブロック,魔法防御"><a class="s-link" href="./hero/2231.html"><img src="./img/s/2231.png" class="s-img" alt="ツキナの画像">ツキナ</a></li>
@@ -3150,7 +3159,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="魔" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="試練の塔" data-added_year="2025" data-ub_type="e,y,ah,ak" data-sk_type="t,ac,ag,ai,al,bs,w" data-support="最大HP,物理攻撃"><a class="s-link" href="./hero/2240.html"><img src="./img/s/2240.png" class="s-img" alt="ラスウェルの画像">ラスウェル</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,d,ag,al,bd" data-sk_type="ac,ai,k,m,bw,v,w" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2241.html"><img src="./img/s/2241.png" class="s-img" alt="【箱入り浴衣娘】ルールーの画像">【箱入り浴衣娘】ルールー</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2025" data-ub_type="a,d,ag,al,bd" data-sk_type="ac,ai,k,m,ca,v,w" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2241.html"><img src="./img/s/2241.png" class="s-img" alt="【箱入り浴衣娘】ルールーの画像">【箱入り浴衣娘】ルールー</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="突" data-atk_speed="やや遅い" data-gacha_type="Fanzine" data-added_year="2025" data-ub_type="a,d,ak,ax,bb" data-sk_type="t,ai,al,as,ax,az,bc,v,w" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2197.html"><img src="./img/s/2197.png" class="s-img" alt="【冒険家】ヘンリエッティの画像">【冒険家】ヘンリエッティ</a></li>
@@ -3207,7 +3216,7 @@
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="射" data-atk_speed="やや遅い" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="a,n,as" data-sk_type="t,al,as,u" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2222.html"><img src="./img/s/2222.png" class="s-img" alt="キリエの画像">キリエ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="b,al,aw" data-sk_type="aj,h,j,m,bw,v,w" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2226.html"><img src="./img/s/2226.png" class="s-img" alt="【日傘の花嫁】麗鬼の画像">【日傘の花嫁】麗鬼</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="射" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="b,al,aw" data-sk_type="aj,h,j,m,ca,v,w" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2226.html"><img src="./img/s/2226.png" class="s-img" alt="【日傘の花嫁】麗鬼の画像">【日傘の花嫁】麗鬼</a></li>
     
         
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="投" data-atk_speed="やや遅い" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="a,ai" data-sk_type="f,as,an,v" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2236.html"><img src="./img/s/2236.png" class="s-img" alt="【たまにはビキニで】リネットの画像">【たまにはビキニで】リネット</a></li>
@@ -3268,19 +3277,19 @@
         <li data-disp="1" data-rare="R" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,bc" data-sk_type="y" data-support="物理クリティカル,ブロック"><a class="s-link" href="./hero/2017.html"><img src="./img/s/2017.png" class="s-img" alt="エリュシアの画像">エリュシア</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="打" data-atk_speed="早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="b,ai" data-sk_type="y,aa,ai,as,i,m,bw" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2054.html"><img src="./img/s/2054.png" class="s-img" alt="ヒルディスの画像">ヒルディス</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="火" data-atk_attr="物理" data-equip_type="打" data-atk_speed="早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="b,ai" data-sk_type="y,aa,ai,as,i,m,ca" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2054.html"><img src="./img/s/2054.png" class="s-img" alt="ヒルディスの画像">ヒルディス</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="b,m" data-sk_type="t,ai,ak,by,h,u,v,n" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2062.html"><img src="./img/s/2062.png" class="s-img" alt="ヒサラの画像">ヒサラ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,al" data-sk_type="as,at,j,m,bw,u" data-support="魔法クリティカル,魔法攻撃"><a class="s-link" href="./hero/2084.html"><img src="./img/s/2084.png" class="s-img" alt="ラピスの画像">ラピス</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="魔法" data-equip_type="斬" data-atk_speed="やや早い" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,al" data-sk_type="as,at,j,m,ca,u" data-support="魔法クリティカル,魔法攻撃"><a class="s-link" href="./hero/2084.html"><img src="./img/s/2084.png" class="s-img" alt="ラピスの画像">ラピス</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="聖" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="やや遅い" data-gacha_type="試練の塔" data-added_year="2023" data-ub_type="a,n" data-sk_type="aa,i,u" data-support="物理攻撃,物理クリティカル"><a class="s-link" href="./hero/2085.html"><img src="./img/s/2085.png" class="s-img" alt="ローサの画像">ローサ</a></li>
     
         
-        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="報酬" data-added_year="2024" data-ub_type="a,ak" data-sk_type="i,m,bw" data-support="物理攻撃,ブロック"><a class="s-link" href="./hero/2039.html"><img src="./img/s/2039.png" class="s-img" alt="グネヴィアの画像">グネヴィア</a></li>
+        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="報酬" data-added_year="2024" data-ub_type="a,ak" data-sk_type="i,m,ca" data-support="物理攻撃,ブロック"><a class="s-link" href="./hero/2039.html"><img src="./img/s/2039.png" class="s-img" alt="グネヴィアの画像">グネヴィア</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="水" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="a,i,ai" data-sk_type="at,u" data-support="物理クリティカル,命中"><a class="s-link" href="./hero/2144.html"><img src="./img/s/2144.png" class="s-img" alt="イルーギオの画像">イルーギオ</a></li>
@@ -3298,7 +3307,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="物理" data-equip_type="投" data-atk_speed="普通" data-gacha_type="イベント,コラボ" data-added_year="2024" data-ub_type="b,i,bd" data-sk_type="ai,ba,bs,u" data-support="物理クリティカル,物理攻撃"><a class="s-link" href="./hero/2169.html"><img src="./img/s/2169.png" class="s-img" alt="碧井エリカの画像">碧井エリカ</a></li>
     
         
-        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="Fanzine" data-added_year="2024" data-ub_type="a,j,n" data-sk_type="e,z,bc,h,m,bw,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2143.html"><img src="./img/s/2143.png" class="s-img" alt="【魅惑の裸エプロン】ジールカの画像">【魅惑の裸エプロン】ジールカ</a></li>
+        <li data-disp="1" data-rare="SSR" data-role_set="アタック" data-attr="想" data-atk_attr="魔法" data-equip_type="打" data-atk_speed="普通" data-gacha_type="Fanzine" data-added_year="2024" data-ub_type="a,j,n" data-sk_type="e,z,bc,h,m,ca,v" data-support="魔法攻撃,命中"><a class="s-link" href="./hero/2143.html"><img src="./img/s/2143.png" class="s-img" alt="【魅惑の裸エプロン】ジールカの画像">【魅惑の裸エプロン】ジールカ</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="火" data-atk_attr="物理" data-equip_type="打" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="f" data-sk_type="ab,ac,ad,ak,bz" data-support="最大HP,命中"><a class="s-link" href="./hero/2109.html"><img src="./img/s/2109.png" class="s-img" alt="【純情ショコラティエ】フレイの画像">【純情ショコラティエ】フレイ</a></li>
@@ -3307,7 +3316,7 @@
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="火" data-atk_attr="物理" data-equip_type="投" data-atk_speed="やや早い" data-gacha_type="イベント" data-added_year="2025" data-ub_type="e,aa,ab,ag" data-sk_type="e,ac,bx,ag,h,w" data-support="最大HP,命中"><a class="s-link" href="./hero/2210.html"><img src="./img/s/2210.png" class="s-img" alt="【乳揺れチアガール】アシュレイの画像">【乳揺れチアガール】アシュレイ</a></li>
     
         
-        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="射" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,al" data-sk_type="i,m,bw,u" data-support="物理クリティカル,ブロック"><a class="s-link" href="./hero/2029.html"><img src="./img/s/2029.png" class="s-img" alt="アルテミスの画像">アルテミス</a></li>
+        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="射" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,al" data-sk_type="i,m,ca,u" data-support="物理クリティカル,ブロック"><a class="s-link" href="./hero/2029.html"><img src="./img/s/2029.png" class="s-img" alt="アルテミスの画像">アルテミス</a></li>
     
         
         <li data-disp="1" data-rare="SSR" data-role_set="サポート" data-attr="聖" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="普通" data-gacha_type="イベント" data-added_year="2024" data-ub_type="f,ac" data-sk_type="e,z,ab,ad,ah" data-support="魔法防御,物理防御"><a class="s-link" href="./hero/2140.html"><img src="./img/s/2140.png" class="s-img" alt="【幸運の花嫁】テレシアの画像">【幸運の花嫁】テレシア</a></li>
@@ -3440,7 +3449,7 @@
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="風" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="早い" data-gacha_type="報酬,イベント" data-added_year="2024" data-ub_type="a" data-sk_type="k,u" data-support="物理攻撃,命中"><a class="s-link" href="./hero/2103.html"><img src="./img/s/2103.png" class="s-img" alt="ヴァネッサの画像">ヴァネッサ</a></li>
     
         
-        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="a,al" data-sk_type="i,m,bw,u" data-support="物理クリティカル,物理攻撃"><a class="s-link" href="./hero/2200.html"><img src="./img/s/2200.png" class="s-img" alt="【チョコづくりメイド】サーカの画像">【チョコづくりメイド】サーカ</a></li>
+        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="報酬,イベント" data-added_year="2025" data-ub_type="a,al" data-sk_type="i,m,ca,u" data-support="物理クリティカル,物理攻撃"><a class="s-link" href="./hero/2200.html"><img src="./img/s/2200.png" class="s-img" alt="【チョコづくりメイド】サーカの画像">【チョコづくりメイド】サーカ</a></li>
     
         
         <li data-disp="1" data-rare="SR" data-role_set="サポート" data-attr="火" data-atk_attr="物理" data-equip_type="斬" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2024" data-ub_type="a,d,ax,bc" data-sk_type="e,f,w" data-support="物理攻撃,ブロック"><a class="s-link" href="./hero/2102.html"><img src="./img/s/2102.png" class="s-img" alt="ヘンリエッティの画像">ヘンリエッティ</a></li>
@@ -3524,7 +3533,7 @@
         <li data-disp="1" data-rare="R" data-role_set="アタック" data-attr="火" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,d,as" data-sk_type="as" data-support="魔法攻撃,最大HP"><a class="s-link" href="./hero/2018.html"><img src="./img/s/2018.png" class="s-img" alt="ナディーヌの画像">ナディーヌ</a></li>
     
         
-        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="突" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,d,au" data-sk_type="ay,j,m,bw,bi" data-support="魔法クリティカル,ブロック"><a class="s-link" href="./hero/2031.html"><img src="./img/s/2031.png" class="s-img" alt="メデューサの画像">メデューサ</a></li>
+        <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="魔" data-atk_attr="魔法" data-equip_type="突" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,d,au" data-sk_type="ay,j,m,ca,bi" data-support="魔法クリティカル,ブロック"><a class="s-link" href="./hero/2031.html"><img src="./img/s/2031.png" class="s-img" alt="メデューサの画像">メデューサ</a></li>
     
         
         <li data-disp="1" data-rare="SR" data-role_set="アタック" data-attr="聖" data-atk_attr="魔法" data-equip_type="投" data-atk_speed="普通" data-gacha_type="恒常" data-added_year="2023" data-ub_type="a,aj,aw" data-sk_type="f,h" data-support="ブロック,物理クリティカル"><a class="s-link" href="./hero/2036.html"><img src="./img/s/2036.png" class="s-img" alt="イシュトヴィアの画像">イシュトヴィア</a></li>
@@ -3575,7 +3584,7 @@
         $(document).ready(function() {
 
             function switchTarget($container, fromRange, toRange) {
-                var $ul = $container.next('ul.filter_container');
+                var $ul = $container.parent();
 
                 // 引き継ぎ
                 $ul.find('li[data-range="' + fromRange + '"]').each(function() {
