@@ -508,7 +508,12 @@ li img.s-img {
     display: grid;
     gap: 4px;
 
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(100px, 1fr);
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    grid-auto-flow: dense;
 
     @include media(tb) {
         grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
@@ -532,6 +537,16 @@ li img.s-img {
         > div {
             font-size: 1.2rem;
             font-weight: bold;
+
+            .arrow-mark {
+                &.down {
+                    color: #007BFF;
+                }
+
+                &.up {
+                    color: #FF0000;
+                }
+            }
         }
     }
 
@@ -542,7 +557,21 @@ li img.s-img {
         background-color: #95836b;
         color: #eae4d4;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+
+        .arrow-mark.down {
+            color: #c7fffa;
+        }
+
+        .arrow-mark.up {
+            color: #ffb3b3;
+        }
     }
+}
+
+.target-cell {
+    grid-column: -4 / -1;
+    grid-row: 1;
+    justify-self: end;
 }
 
 @media screen and (max-width: 768px) {
@@ -708,7 +737,6 @@ summary {
     justify-content: flex-end;
     align-items: center;
     gap: 10px; /* ラベルとボタンの間隔 */
-    margin-bottom: 5px;
 }
 
 .target-selector {
@@ -718,7 +746,7 @@ summary {
 
 .target-button {
     padding: 4px 20px;
-    border: 1px solid #CCC;
+    border: 2px solid #CCC;
     background-color: white;
     color: #007BFF;
     cursor: pointer;
@@ -728,14 +756,16 @@ summary {
     font-size: 1.2rem;
     font-weight: bold;
     line-height: 1;
-    border-left: none;
+    margin-left: -2px;
+    position: relative;
+    z-index: 0;
 }
 
 /* 左端のボタンの左角だけ丸める */
 .target-button:first-child {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    border-left: 1px solid #CCC;
+    margin-left: 0;
 }
 
 /* 右端のボタンの右角だけ丸める */
@@ -748,13 +778,16 @@ summary {
     background-color: #007BFF;
     border-color: #007BFF;
     color: white;
+    z-index: 1;
 }
 
 .target-button:not(.active):hover {
     background-color: #e0f0ff;
     border-color: #007BFF;
+    z-index: 1;
 }
 
 .target-label {
     font-weight: normal;
 }
+

@@ -138,7 +138,7 @@
         $(document).ready(function() {
 
             function switchTarget($container, fromRange, toRange) {
-                var $ul = $container.next('ul.filter_container');
+                var $ul = $container.parent();
 
                 // 引き継ぎ
                 $ul.find('li[data-range="' + fromRange + '"]').each(function() {
