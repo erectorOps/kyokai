@@ -135,7 +135,7 @@
         </tbody>
     </table>
     <script>
-        $(document).ready(function() {
+        $(function() {
 
             function switchTarget($container, fromRange, toRange) {
                 var $ul = $container.parent();
@@ -156,33 +156,6 @@
                 $ul.find('li[data-range]').hide();
                 $ul.find('li[data-range="' + toRange + '"]').show();
             }
-
-            $('.target-button').on('click', function() {
-                var $container = $(this).closest('.target-container');
-                var $buttons = $container.find('.target-button');
-                var $current = $buttons.filter('.active');
-                var fromRange = $current.data('range');
-                var toRange = $(this).data('range');
-                if (fromRange === toRange) return;
-
-                switchTarget($container, fromRange, toRange);
-
-                $current.removeClass('active');
-                $(this).addClass('active');
-
-                hero_search();
-            });
-
-            $(".filter_container > li").click(function() {
-                var current_check = $(this).attr("data-check");
-                if (current_check == 0) {
-                    $(this).attr("data-check", 1);
-                } else {
-                    $(this).attr("data-check", 0);
-                }
-                hero_search();
-            });
-
 
             function hero_search() {
                 var conditions = {};
@@ -283,13 +256,13 @@
                 }
             }
 
-            $(".tab_container > li").click(function() {
-                var current_check = $(this).attr("data-check");
+            function tabSwitch($tab) {
+                var current_check = $tab.attr("data-check");
                 if (current_check == 0) {
-                    $(this).attr("data-check", 1);
-                    $(this).siblings().attr("data-check", 0);
+                    $tab.attr("data-check", 1);
+                    $tab.siblings().attr("data-check", 0);
 
-                    var current_tab = $(this).data("tab");
+                    var current_tab = $tab.data("tab");
 
                     $(".hero_tr").each(function() {
                         if ($(this).data("tab") === current_tab) {
@@ -299,9 +272,38 @@
                         }
                     });
                 }
-            });
-        });
+            }
 
-        $(".tab_container > li:first-child").trigger("click");
+            // --- Event bindings ---
+
+            $('.target-button').on('click', function() {
+                var $container = $(this).closest('.target-container');
+                var $buttons = $container.find('.target-button');
+                var $current = $buttons.filter('.active');
+                var fromRange = $current.data('range');
+                var toRange = $(this).data('range');
+                if (fromRange === toRange) return;
+
+                switchTarget($container, fromRange, toRange);
+
+                $current.removeClass('active');
+                $(this).addClass('active');
+
+                hero_search();
+            });
+
+            $(".filter_container > li").click(function() {
+                var current_check = $(this).attr("data-check");
+                $(this).attr("data-check", current_check == 0 ? 1 : 0);
+                hero_search();
+            });
+
+            $(".tab_container > li").click(function() {
+                tabSwitch($(this));
+            });
+
+            $(".tab_container > li:first-child").trigger("click");
+
+        });
     </script>
 </div>
