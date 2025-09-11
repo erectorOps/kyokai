@@ -138,12 +138,12 @@
         $(function() {
 
             function switchTarget($container, fromRange, toRange) {
-                var $ul = $container.parent();
+                const $ul = $container.parent();
 
                 // 引き継ぎ
                 $ul.find('li[data-range="' + fromRange + '"]').each(function() {
                     if ($(this).attr('data-check') === "1") {
-                        var name = $(this).data('name');
+                        const name = $(this).data('name');
                         $ul.find('li[data-range="' + toRange + '"][data-name="' + name + '"]')
                                 .attr('data-check', "1");
                     }
@@ -158,111 +158,91 @@
             }
 
             function hero_search() {
-                var conditions = {};
+                const conditions = {};
+
+                // --- フィルター条件の収集 ---
                 $(".filter_container").each(function() {
-                    var current_key = $(this).data("filter");
+                    const current_key = $(this).data("filter");
                     $(this).find("li[data-check='1']").each(function() {
-                        if (conditions[current_key] == undefined) {
-                            conditions[current_key] = [];
-                        }
+                        if (!conditions[current_key]) conditions[current_key] = [];
+
+                        const vals = String($(this).data("val")).split(",");
+
                         if (current_key === "support" || current_key === "sk_type") {
-                            // conditions[current_key]のデータ構造: ボタンごとの集合 [[0], [1,2], [3,4,5]]
-                            conditions[current_key].push(String($(this).data("val")).split(","));
+                            // ボタンごとの集合 [[0], [1,2], [3,4,5]]
+                            conditions[current_key].push(vals);
                         } else {
-                            // conditions[current_key]のデータ構造: 通常 [0, 1, 2, 3, 4]
-                            Array.prototype.push.apply(conditions[current_key], String($(this).data("val")).split(","));
+                            // 通常 [0, 1, 2, 3, 4]
+                            conditions[current_key].push(...vals);
                         }
                     })
                 });
 
-                var total_count = 0;
+                // --- OR 判定関数 ---
+                const matchOR = (dataArray, conditionArray) => dataArray.some(v => conditionArray.includes(v));
+
+                // --- AND 判定関数 (ボタン内 OR x ボタン間 AND)---
+                const matchAND = (dataArray, conditionGroups) =>
+                    conditionGroups.every(group => matchOR(dataArray, group));
+
+                let total_count = 0;
 
                 $(".hero_container").each(function() {
-                    var container_val = $(this).data("val");
-
-                    var disp_count = 0;
+                    const container_val = $(this).data("val");
+                    let disp_count = 0;
 
                     $(this).find("li").each(function() {
-                        var disp_bool = true;
+                        let disp_bool = true;
+
                         for (const type in conditions) {
-                            let current_data = decodeURIComponent(($(this).data(type)));
-                            if (type == "gacha_type" || type == "ub_type") {
-                                current_data = current_data.split(',');
-                                let attr_count = 0;
-                                for (const i in current_data) {
-                                    if (conditions[type].indexOf(current_data[i]) != -1) {
-                                        attr_count++;
-                                        break;
-                                    }
-                                }
-                                if (attr_count == 0) {
+                            const current_data = String($(this).data(type)).split(',');
+
+                            if (type === "gacha_type" || type === "ub_type") {
+                                // OR 条件
+                                if (!matchOR(current_data, conditions[type])) {
                                     disp_bool = false;
                                     break;
                                 }
                             } 
                             else if (type == "support" || type == "sk_type") {
-                                current_data = current_data.split(',');
-                                let attr_count = 0;
-                                // ブロック/ブロックをattr_count=1にするためにこう走査する
-                                for (const n in conditions[type]) {
-                                    for (const i in current_data) {
-                                        if (conditions[type][n].indexOf(current_data[i]) != -1) {
-                                            attr_count++;
-                                            break;
-                                        }
-                                    }
-                                }
-
-                                if (attr_count < conditions[type].length) {
+                                // AND 条件 (ボタン内 OR x ボタン間 AND)
+                                if (!matchAND(current_data, conditions[type])) {
                                     disp_bool = false;
                                     break;
                                 }
                             }
                             else {
-                                if (conditions[type].indexOf(current_data) == -1) {
+                                // 完全一致
+                                if (!conditions[type].includes(current_data[0])) {
                                     disp_bool = false;
                                     break;
                                 }
                             }
                         }
-                        if (disp_bool) {
-                            $(this).attr("data-disp", 1);
-                            disp_count++;
-                        } else {
-                            $(this).attr("data-disp", 0);
-                        }
+
+                        $(this).attr("data-disp", disp_bool ? 1 : 0);
+                        if (disp_bool) disp_count++;
                     });
 
                     if (container_val != undefined) {
-                        var container_tab = $(this).data("tab");
-
-                        var tab_select = "";
-                        if (container_tab != undefined) {
-                            tab_select = "[data-tab='"+container_tab+"']";
-                        }
-                        if (disp_count == 0) {
-                            $(".hero_tr"+tab_select+"[data-val='"+container_val+"']").attr("data-disp_val", 0);
-                        } else {
-                            $(".hero_tr"+tab_select+"[data-val='"+container_val+"']").attr("data-disp_val", 1);
-                        }
+                        const container_tab = $(this).data("tab") || "";
+                        const $hero_tr = $(".hero_tr" + (container_tab ? `[data-tab='${container_tab}']` : "") + `[data-val='${container_val}']`);
+                        $hero_tr.attr("data-disp_val", disp_count ? 1 : 0);
                     }
+
                     total_count += disp_count;
                 });
 
-                if (total_count == 0) {
-                    $(".no_result").show();
-                } else {
-                    $(".no_result").hide();
-                }
+                $(".no_result").toggle(total_count === 0);
             }
 
             function tabSwitch($tab) {
-                var current_check = $tab.attr("data-check");
+                const current_check = $tab.attr("data-check");
                 if (current_check == 0) {
                     $tab.attr("data-check", 1);
                     $tab.siblings().attr("data-check", 0);
 
-                    var current_tab = $tab.data("tab");
+                    const current_tab = $tab.data("tab");
 
                     $(".hero_tr").each(function() {
                         if ($(this).data("tab") === current_tab) {
@@ -277,11 +257,11 @@
             // --- Event bindings ---
 
             $('.target-button').on('click', function() {
-                var $container = $(this).closest('.target-container');
-                var $buttons = $container.find('.target-button');
-                var $current = $buttons.filter('.active');
-                var fromRange = $current.data('range');
-                var toRange = $(this).data('range');
+                const $container = $(this).closest('.target-container');
+                const $buttons = $container.find('.target-button');
+                const $current = $buttons.filter('.active');
+                const fromRange = $current.data('range');
+                const toRange = $(this).data('range');
                 if (fromRange === toRange) return;
 
                 switchTarget($container, fromRange, toRange);
@@ -293,7 +273,7 @@
             });
 
             $(".filter_container > li").click(function() {
-                var current_check = $(this).attr("data-check");
+                const current_check = $(this).attr("data-check");
                 $(this).attr("data-check", current_check == 0 ? 1 : 0);
                 hero_search();
             });
@@ -303,7 +283,6 @@
             });
 
             $(".tab_container > li:first-child").trigger("click");
-
         });
     </script>
 </div>
