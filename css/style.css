@@ -799,6 +799,11 @@ summary {
   color: white;
   z-index: 1;
 }
+.target-button.active:hover {
+  background-color: #3399FF;
+  border-color: #3399FF;
+  color: white;
+}
 
 .target-button:not(.active):hover {
   background-color: #e0f0ff;
