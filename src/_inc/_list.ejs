@@ -140,21 +140,36 @@
             function switchTarget($container, fromRange, toRange) {
                 const $ul = $container.parent();
 
-                // 引き継ぎ
-                $ul.find('li[data-range="' + fromRange + '"]').each(function() {
-                    if ($(this).attr('data-check') === "1") {
-                        const name = $(this).data('name');
-                        $ul.find('li[data-range="' + toRange + '"][data-name="' + name + '"]')
-                                .attr('data-check', "1");
-                    }
-                });
+                // 0個選択 (全て状態) の場合
+                if (!toRange) {
+                    $ul.find('li[data-range]').show();
+                    return;
+                }
 
-                // 元のをリセット
-                $ul.find('li[data-range="' + fromRange + '"]').attr('data-check', "0");
+                // 引き継ぎ: fromRange の選択を toRange に移す
+                if (fromRange) {
+                    $ul.find('li[data-range="' + fromRange + '"]').each(function() {
+                        if ($(this).attr('data-check') === "1") {
+                            const name = $(this).data('name');
+                            $ul.find('li[data-range="' + toRange + '"][data-name="' + name + '"]')
+                                    .attr('data-check', "1");
+                        }
+                    });
+
+                    // 元のをリセット
+                    $ul.find('li[data-range="' + fromRange + '"]').attr('data-check', "0");
+                }
 
                 // 表示切り替え
-                $ul.find('li[data-range]').hide();
-                $ul.find('li[data-range="' + toRange + '"]').show();
+                $ul.find('li[data-range]').each(function() {
+                    const liRange = $(this).data('range');
+                    if (liRange === toRange) {
+                        $(this).show();
+                    } else {
+                        $(this).hide();
+                        $(this).attr('data-check', "0");
+                    }
+                })
             }
 
             function hero_search() {
@@ -262,12 +277,14 @@
                 const $current = $buttons.filter('.active');
                 const fromRange = $current.data('range');
                 const toRange = $(this).data('range');
-                if (fromRange === toRange) return;
 
-                switchTarget($container, fromRange, toRange);
-
-                $current.removeClass('active');
-                $(this).addClass('active');
+                if ($current.is($(this))) {
+                    $current.removeClass('active');
+                    switchTarget($container, fromRange, null);
+                } else {
+                    $(this).addClass('active').siblings().removeClass('active');
+                    switchTarget($container, fromRange, toRange);
+                }
 
                 hero_search();
             });

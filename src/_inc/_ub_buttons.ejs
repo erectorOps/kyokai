@@ -36,22 +36,19 @@
         <span class="target-label">対象:</span>
         <div class="target-selector">
             <button class="target-button" data-range="self">👤自身</button>
-            <button class="target-button active" data-range="all">👥味方</button>
+            <button class="target-button" data-range="all">👥味方</button>
             <button class="target-button" data-range="enemy">👹敵</button>
         </div>
     </div>
     <% for (const button of ub_buttons) {
         const val = button[1].split(",").map(x => def[x]).join(",");
         let range = "";
-        let initStyle = "";
         if (button[0].includes("👤")) {
             range = 'self';
-            initStyle = "style='display: none;'"
         } else if (button[0].includes("👥")) {
             range = 'all';
         } else if (button[0].includes("👹")) {
             range = 'enemy';
-            initStyle = "style='display: none;'"
         }
 
         const name = button[0].replace(/👤|👥|👹/g, '');
@@ -61,7 +58,7 @@
         .replace(/⬇/g, '<span class="arrow-mark down">⬇</span>');
     %>
         <% if (range !== "") { %>
-        <li data-range="<%= range %>" data-name="<%= name %>" data-val="<%= val %>" data-check="0" <%- initStyle %>><div><%- label %></div></li>
+        <li data-range="<%= range %>" data-name="<%= name %>" data-val="<%= val %>" data-check="0"><div><%- label %></div></li>
         <% } else { %>
         <li data-val="<%= val %>" data-check="0"><div><%- label %></div></li>
         <% } %>

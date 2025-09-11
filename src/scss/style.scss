@@ -785,6 +785,12 @@ summary {
     border-color: #007BFF;
     color: white;
     z-index: 1;
+
+    &:hover {
+        background-color: #3399FF;
+        border-color: #3399FF;
+        color: white;
+    }
 }
 
 .target-button:not(.active):hover {
