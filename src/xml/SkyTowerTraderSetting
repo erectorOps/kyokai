@@ -1,0 +1,651 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <SkyTowerTraderSetting id="111" group="11">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380003</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="112" group="11">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="113" group="11">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380009</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="114" group="11">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="115" group="11">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380011</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="116" group="11">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380004</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="117" group="11">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="118" group="11">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380009</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="119" group="11">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="121" group="12">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380011</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="122" group="12">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380003</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="123" group="12">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="124" group="12">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380009</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="125" group="12">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="126" group="12">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380011</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="127" group="12">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380004</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="128" group="12">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="129" group="12">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380009</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="131" group="13">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="132" group="13">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380011</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="133" group="13">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380003</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="134" group="13">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="135" group="13">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380009</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="136" group="13">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="137" group="13">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380011</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="138" group="13">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380004</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="139" group="13">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="211" group="21">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380003</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="212" group="21">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="213" group="21">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380009</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="214" group="21">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="215" group="21">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380011</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="216" group="21">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380004</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="217" group="21">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="218" group="21">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380009</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="219" group="21">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="220" group="21">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380011</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="222" group="22">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380003</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="223" group="22">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="224" group="22">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380009</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="225" group="22">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="226" group="22">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380011</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="227" group="22">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380004</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="228" group="22">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="229" group="22">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380009</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="231" group="23">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="232" group="23">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380011</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="233" group="23">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380003</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="234" group="23">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="235" group="23">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380009</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="236" group="23">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="237" group="23">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380011</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="238" group="23">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380004</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="239" group="23">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="311" group="31">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380003</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="312" group="31">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="313" group="31">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380009</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="314" group="31">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="315" group="31">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380011</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="316" group="31">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380004</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="317" group="31">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="318" group="31">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380009</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="319" group="31">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="321" group="32">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380011</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="322" group="32">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380003</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="323" group="32">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="324" group="32">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380009</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="325" group="32">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="326" group="32">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380011</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="327" group="32">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380004</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="328" group="32">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="329" group="32">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380009</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="331" group="33">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="332" group="33">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380011</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="333" group="33">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380003</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="334" group="33">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="335" group="33">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380009</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="336" group="33">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="337" group="33">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380005</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380011</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="338" group="33">
+    <shop_item_id>380002</shop_item_id>
+    <shop_item_id>380004</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+  <SkyTowerTraderSetting id="339" group="33">
+    <shop_item_id>380001</shop_item_id>
+    <shop_item_id>380006</shop_item_id>
+    <shop_item_id>380008</shop_item_id>
+    <shop_item_id>380010</shop_item_id>
+    <shop_item_id>380007</shop_item_id>
+    <shop_item_id>380012</shop_item_id>
+  </SkyTowerTraderSetting>
+</root>

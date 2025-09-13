@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <HelpSubTitleSetting id="10101" group_id="101" help_type="一般" name="画面" target_id="0" />
+  <HelpSubTitleSetting id="10102" group_id="101" help_type="一般" name="アイコンの変更" target_id="0" />
+  <HelpSubTitleSetting id="10103" group_id="101" help_type="一般" name="AP、BP" target_id="0" />
+  <HelpSubTitleSetting id="10104" group_id="101" help_type="一般" name="レゴル" target_id="0" />
+  <HelpSubTitleSetting id="10105" group_id="101" help_type="一般" name="晶石" target_id="0" />
+  <HelpSubTitleSetting id="10201" group_id="102" help_type="一般" name="聖騎士" target_id="0" />
+  <HelpSubTitleSetting id="10202" group_id="102" help_type="一般" name="Lv" target_id="0" />
+  <HelpSubTitleSetting id="10203" group_id="102" help_type="一般" name="アビリティ" target_id="0" />
+  <HelpSubTitleSetting id="10204" group_id="102" help_type="一般" name="スキル" target_id="0" />
+  <HelpSubTitleSetting id="10205" group_id="102" help_type="一般" name="能力" target_id="0" />
+  <HelpSubTitleSetting id="10206" group_id="102" help_type="一般" name="属性" target_id="0" />
+  <HelpSubTitleSetting id="10207" group_id="102" help_type="一般" name="サポート" target_id="0" />
+  <HelpSubTitleSetting id="10208" group_id="102" help_type="一般" name="スキン" target_id="0" />
+  <HelpSubTitleSetting id="10301" group_id="103" help_type="一般" name="Pスキル" target_id="0" />
+  <HelpSubTitleSetting id="10401" group_id="104" help_type="一般" name="武器" target_id="0" />
+  <HelpSubTitleSetting id="10402" group_id="104" help_type="一般" name="装飾品" target_id="0" />
+  <HelpSubTitleSetting id="10501" group_id="105" help_type="一般" name="記録" target_id="0" />
+  <HelpSubTitleSetting id="10601" group_id="106" help_type="一般" name="冒険" target_id="0" />
+  <HelpSubTitleSetting id="10602" group_id="106" help_type="一般" name="メインストーリー" target_id="0" />
+  <HelpSubTitleSetting id="10603" group_id="106" help_type="一般" name="資源収集" target_id="0" />
+  <HelpSubTitleSetting id="10604" group_id="106" help_type="一般" name="遺跡" target_id="0" />
+  <HelpSubTitleSetting id="10701" group_id="107" help_type="一般" name="迷宮" target_id="0" />
+  <HelpSubTitleSetting id="10702" group_id="107" help_type="一般" name="報酬" target_id="0" />
+  <HelpSubTitleSetting id="10801" group_id="108" help_type="一般" name="救援戦" target_id="0" />
+  <HelpSubTitleSetting id="10802" group_id="108" help_type="一般" name="報酬" target_id="0" />
+  <HelpSubTitleSetting id="10803" group_id="108" help_type="一般" name="要請" target_id="0" />
+  <HelpSubTitleSetting id="10901" group_id="109" help_type="一般" name="深淵の地下神殿" target_id="0" />
+  <HelpSubTitleSetting id="10902" group_id="109" help_type="一般" name="クエスト" target_id="0" />
+  <HelpSubTitleSetting id="10903" group_id="109" help_type="一般" name="挑戦目標" target_id="0" />
+  <HelpSubTitleSetting id="10904" group_id="109" help_type="一般" name="報酬" target_id="0" />
+  <HelpSubTitleSetting id="10905" group_id="109" help_type="一般" name="クエストの更新" target_id="0" />
+  <HelpSubTitleSetting id="10906" group_id="109" help_type="一般" name="ランキングについて" target_id="0" />
+  <HelpSubTitleSetting id="11001" group_id="110" help_type="一般" name="FANZINEすごろく" target_id="0" />
+  <HelpSubTitleSetting id="11002" group_id="110" help_type="一般" name="ダイスの入手方法" target_id="0" />
+  <HelpSubTitleSetting id="11003" group_id="110" help_type="一般" name="遊び方" target_id="0" />
+  <HelpSubTitleSetting id="11004" group_id="110" help_type="一般" name="報酬" target_id="0" />
+  <HelpSubTitleSetting id="11005" group_id="110" help_type="一般" name="蓄音水晶" target_id="0" />
+  <HelpSubTitleSetting id="11101" group_id="111" help_type="一般" name="同盟" target_id="0" />
+  <HelpSubTitleSetting id="11102" group_id="111" help_type="一般" name="活動" target_id="0" />
+  <HelpSubTitleSetting id="11103" group_id="111" help_type="一般" name="貢献" target_id="0" />
+  <HelpSubTitleSetting id="11104" group_id="111" help_type="一般" name="管理" target_id="0" />
+  <HelpSubTitleSetting id="11201" group_id="112" help_type="一般" name="闘技場1vs1" target_id="0" />
+  <HelpSubTitleSetting id="11202" group_id="112" help_type="一般" name="チーム" target_id="0" />
+  <HelpSubTitleSetting id="11203" group_id="112" help_type="一般" name="報酬" target_id="0" />
+  <HelpSubTitleSetting id="11301" group_id="113" help_type="一般" name="闘技場3vs3" target_id="0" />
+  <HelpSubTitleSetting id="11302" group_id="113" help_type="一般" name="チーム" target_id="0" />
+  <HelpSubTitleSetting id="11303" group_id="113" help_type="一般" name="報酬" target_id="0" />
+  <HelpSubTitleSetting id="11401" group_id="114" help_type="一般" name="戦闘" target_id="0" />
+  <HelpSubTitleSetting id="11402" group_id="114" help_type="一般" name="編成" target_id="0" />
+  <HelpSubTitleSetting id="11403" group_id="114" help_type="一般" name="Pスキル" target_id="0" />
+  <HelpSubTitleSetting id="11404" group_id="114" help_type="一般" name="奥義、スキル" target_id="0" />
+  <HelpSubTitleSetting id="11405" group_id="114" help_type="一般" name="物理/魔法ダメージ" target_id="0" />
+  <HelpSubTitleSetting id="11406" group_id="114" help_type="一般" name="回復" target_id="0" />
+  <HelpSubTitleSetting id="11407" group_id="114" help_type="一般" name="状態異常/特殊効果" target_id="0" />
+  <HelpSubTitleSetting id="11409" group_id="114" help_type="一般" name="MENU、設定" target_id="0" />
+  <HelpSubTitleSetting id="11410" group_id="114" help_type="一般" name="評価、報酬" target_id="0" />
+  <HelpSubTitleSetting id="11501" group_id="115" help_type="一般" name="派遣" target_id="0" />
+  <HelpSubTitleSetting id="11601" group_id="116" help_type="一般" name="召喚" target_id="0" />
+  <HelpSubTitleSetting id="11602" group_id="116" help_type="一般" name="獲得済みの聖騎士" target_id="0" />
+  <HelpSubTitleSetting id="11603" group_id="116" help_type="一般" name="交換" target_id="0" />
+  <HelpSubTitleSetting id="11701" group_id="117" help_type="一般" name="ショップ" target_id="0" />
+  <HelpSubTitleSetting id="11801" group_id="118" help_type="一般" name="ミッション" target_id="0" />
+  <HelpSubTitleSetting id="11901" group_id="119" help_type="一般" name="倉庫" target_id="0" />
+  <HelpSubTitleSetting id="12001" group_id="120" help_type="一般" name="素材合成" target_id="0" />
+  <HelpSubTitleSetting id="12002" group_id="120" help_type="一般" name="素材変換" target_id="0" />
+  <HelpSubTitleSetting id="12003" group_id="120" help_type="一般" name="変換安定剤" target_id="0" />
+  <HelpSubTitleSetting id="12101" group_id="121" help_type="一般" name="メニュー" target_id="0" />
+  <HelpSubTitleSetting id="12102" group_id="121" help_type="一般" name="プレイヤー情報" target_id="0" />
+  <HelpSubTitleSetting id="12103" group_id="121" help_type="一般" name="フレンド" target_id="0" />
+  <HelpSubTitleSetting id="101" group_id="1" help_type="新手導引圖片" name="戰鬥" hint="簡易的了解戰鬥介面" target_id="2" />
+  <HelpSubTitleSetting id="102" group_id="1" help_type="新手導引圖片" name="技能與狀態" hint="技能圖像為一個參考指標，詳細還是請參照技能說明" target_id="9" />
+  <HelpSubTitleSetting id="103" group_id="1" help_type="新手導引圖片" name="競技殿堂" hint="1VS1雙方各派出一隊冒險者爭取至高的榮耀" target_id="3" />
+  <HelpSubTitleSetting id="104" group_id="1" help_type="新手導引圖片" name="大型競技殿堂" hint="3VS3雙方各派出三隊冒險者爭取至高的榮耀" target_id="4" />
+  <HelpSubTitleSetting id="105" group_id="1" help_type="新手導引圖片" name="升星與碎片" hint="3★角色升到5★，可獲得新動圖。完成好感劇情可獲得晶片。" target_id="12" />
+  <HelpSubTitleSetting id="106" group_id="1" help_type="新手導引圖片" name="相遇事件" hint="與芭芭姆特一起在圖書室裡回顧特殊事件" target_id="7" />
+  <HelpSubTitleSetting id="107" group_id="1" help_type="新手導引圖片" name="魔界塔" hint="向魔神證明「美德」存在，魔神就允許挑戰者帶走塔中的寶物。" target_id="8" />
+  <HelpSubTitleSetting id="108" group_id="1" help_type="新手導引圖片" name="魔械蛋" hint="能戰鬥能支援能強化主角的存在" target_id="10" />
+  <HelpSubTitleSetting id="109" group_id="1" help_type="新手導引圖片" name="戰場情報" hint="掌握戰場整體資訊" target_id="11" />
+  <HelpSubTitleSetting id="201" group_id="201" help_type="新手導引圖片" name="競撃戦" target_id="201" />
+  <HelpSubTitleSetting id="202" group_id="202" help_type="新手導引圖片" name="ブースト指名" target_id="202" />
+  <HelpSubTitleSetting id="203" group_id="203" help_type="新手導引圖片" name="属性の極み" target_id="203" />
+  <HelpSubTitleSetting id="204" group_id="204" help_type="新手導引圖片" name="ホーム画面設定" target_id="204" />
+  <HelpSubTitleSetting id="205" group_id="205" help_type="新手導引圖片" name="ホーム画面設定" target_id="205" />
+  <HelpSubTitleSetting id="206" group_id="206" help_type="新手導引圖片" name="同盟戦" target_id="206" />
+</root>

@@ -33,7 +33,7 @@ export class HeroList {
     createFunc() {
         const kf = this.kf;
         return () => {
-            const heroList = kf.hero_1.root.hero_1.filter(item => item['@_id'] !== undefined && parseInt(item['@_id']) < 10000);
+            const heroList = kf.HeroSetting.root.HeroSetting.filter(item => item['@_id'] !== undefined && parseInt(item['@_id']) < 10000);
 
             const categorize = (new PreSkillCategorize(kf)).categorize();
 
@@ -53,14 +53,14 @@ export class HeroList {
                 const name = hero['@_name'].replace(/<\/?ruby.*?>/ig, "");
                 const rubyName = hero['@_name'].replace(/<ruby=(.+?)>(.+?)<\/ruby>/ig, "<ruby>$2<rt>$1</rt></ruby>");
             
-                const heroGroup = kf.hero_group.root.hero_group.find(item => item['@_id'] === group);
+                const heroGroup = kf.HeroGroupSetting.root.HeroGroupSetting.find(item => item['@_id'] === group);
             
-                const atkSkill = kf.skill_hero_1.root.skill_hero_1.find(item => item['@_id'] === hero['@_atk_skill']);
-                const atkEffect = kf.skill_effect.root.skill_effect.find(item => item['@_Id'] === atkSkill['@_effect_id']);
-                const skill1 = kf.skill_hero_1.root.skill_hero_1.find(item => item['@_id'] === hero['@_skill1']);
-                const skill1Effect = kf.skill_effect.root.skill_effect.find(item => item['@_Id'] === skill1['@_effect_id']);
-                const skill2 = kf.skill_hero_1.root.skill_hero_1.find(item => item['@_id'] === hero['@_skill2']);
-                const skill2Effect = kf.skill_effect.root.skill_effect.find(item => item['@_Id'] === skill2['@_effect_id']);
+                const atkSkill = kf.SkillSetting.root.SkillSetting.find(item => item['@_id'] === hero['@_atk_skill']);
+                const atkEffect = kf.SkillEffectSetting.root.SkillEffectSetting.find(item => item['@_Id'] === atkSkill['@_effect_id']);
+                const skill1 = kf.SkillSetting.root.SkillSetting.find(item => item['@_id'] === hero['@_skill1']);
+                const skill1Effect = kf.SkillEffectSetting.root.SkillEffectSetting.find(item => item['@_Id'] === skill1['@_effect_id']);
+                const skill2 = kf.SkillSetting.root.SkillSetting.find(item => item['@_id'] === hero['@_skill2']);
+                const skill2Effect = kf.SkillEffectSetting.root.SkillEffectSetting.find(item => item['@_Id'] === skill2['@_effect_id']);
             
                 const rareOrder = ["SSR", "SR", "R"];
             
@@ -123,9 +123,9 @@ export class HeroList {
                     }
                 }
 
-                const maxLimitEntity = kf.limit_over.root.limit_over.find(item => item['@_group_id'] === group && item['@_over_times'] === "5");
+                const maxLimitEntity = kf.HeroLimitOverSetting.root.HeroLimitOverSetting.find(item => item['@_group_id'] === group && item['@_over_times'] === "5");
                 json.support = maxLimitEntity.support_buff_id.filter(item => item !== '0').map(item => {
-                  const buff = kf.buff_1.root.buff_1.find(y => y['@_id'] === item);
+                  const buff = kf.BuffSetting.root.BuffSetting.find(y => y['@_id'] === item);
                   return buff['@_effect_text'].replace(/<.+/, "");
                 }).reduce((p, c) => p.length > 0 ? p + "," + c : c, "");
             

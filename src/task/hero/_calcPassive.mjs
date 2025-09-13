@@ -593,7 +593,7 @@ const calcBuff = (params, buff) => {
 }
 
 export const calcPassive = (sid, params, kf) => {
-  const s = kf.skill_hero_1.root.skill_hero_1.find(item => item['@_id'] === sid);  
+  const s = kf.SkillSetting.root.SkillSetting.find(item => item['@_id'] === sid);  
   for (const postFix of [
     ['A', "{5}", "{6}"],  //  バフ属性名の末尾, バフ効果量挿入文字列, バフ効果時間挿入文字列
     ['B', "{7}", "{8}"], 
@@ -604,7 +604,7 @@ export const calcPassive = (sid, params, kf) => {
     //const buffIf = s['@_buff_if'+postFix[0]];
     //const buffTarget = s['@_buff_target'+postFix[0]]
     if (buffId) {
-      const buff = kf.buff_1.root.buff_1.find(item => item['@_id'] === buffId);
+      const buff = kf.BuffSetting.root.BuffSetting.find(item => item['@_id'] === buffId);
       if (buff !== undefined) {
         calcBuff(params, buff);
       }

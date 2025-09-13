@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <MusouMonsterStateSetting type="BOSS" wave="1" hp_rate="3" hurt_rate="0.8" atk_rate="0.5" point_rate="0" />
+  <MusouMonsterStateSetting type="BOSS" wave="2" hp_rate="5" hurt_rate="0.5" atk_rate="0.8" point_rate="0.5" />
+  <MusouMonsterStateSetting type="BOSS" wave="3" hp_rate="7" hurt_rate="0.3" atk_rate="1" point_rate="1" />
+  <MusouMonsterStateSetting type="小怪" wave="1" hp_rate="3" hurt_rate="1" atk_rate="0.6" point_rate="0" />
+  <MusouMonsterStateSetting type="小怪" wave="2" hp_rate="3.5" hurt_rate="1" atk_rate="0.6" point_rate="0" />
+  <MusouMonsterStateSetting type="小怪" wave="3" hp_rate="3.5" hurt_rate="1" atk_rate="0.6" point_rate="0" />
+  <MusouMonsterStateSetting type="小怪" wave="4" hp_rate="3.5" hurt_rate="1" atk_rate="0.6" point_rate="0" />
+  <MusouMonsterStateSetting type="小怪" wave="5" hp_rate="3.5" hurt_rate="1" atk_rate="0.6" point_rate="0" />
+  <MusouMonsterStateSetting type="小怪" wave="6" hp_rate="3.5" hurt_rate="1" atk_rate="0.6" point_rate="0" />
+  <MusouMonsterStateSetting type="小怪" wave="7" hp_rate="3.5" hurt_rate="1" atk_rate="0.6" point_rate="0" />
+  <MusouMonsterStateSetting type="小怪" wave="8" hp_rate="3.5" hurt_rate="1" atk_rate="0.6" point_rate="0" />
+  <MusouMonsterStateSetting type="小怪" wave="9" hp_rate="3" hurt_rate="0.8" atk_rate="0.8" point_rate="0" />
+  <MusouMonsterStateSetting type="小怪" wave="10" hp_rate="3" hurt_rate="0.8" atk_rate="0.8" point_rate="0" />
+  <MusouMonsterStateSetting type="小怪" wave="11" hp_rate="3" hurt_rate="0.8" atk_rate="0.8" point_rate="0" />
+  <MusouMonsterStateSetting type="小怪" wave="12" hp_rate="3" hurt_rate="0.8" atk_rate="0.8" point_rate="0" />
+  <MusouMonsterStateSetting type="小怪" wave="13" hp_rate="3" hurt_rate="0.8" atk_rate="0.8" point_rate="0" />
+  <MusouMonsterStateSetting type="小怪" wave="14" hp_rate="3" hurt_rate="0.8" atk_rate="0.8" point_rate="0" />
+  <MusouMonsterStateSetting type="小怪" wave="15" hp_rate="3" hurt_rate="0.8" atk_rate="0.8" point_rate="0" />
+  <MusouMonsterStateSetting type="小怪" wave="16" hp_rate="3" hurt_rate="0.8" atk_rate="0.8" point_rate="0" />
+  <MusouMonsterStateSetting type="小怪" wave="17" hp_rate="2.5" hurt_rate="0.4" atk_rate="0.6" point_rate="0" />
+  <MusouMonsterStateSetting type="小怪" wave="18" hp_rate="2.5" hurt_rate="0.4" atk_rate="1" point_rate="0" />
+  <MusouMonsterStateSetting type="小怪" wave="19" hp_rate="2.5" hurt_rate="0.4" atk_rate="1" point_rate="0" />
+  <MusouMonsterStateSetting type="小怪" wave="20" hp_rate="2.5" hurt_rate="0.4" atk_rate="1" point_rate="0" />
+  <MusouMonsterStateSetting type="小怪" wave="21" hp_rate="2.5" hurt_rate="0.4" atk_rate="1" point_rate="0" />
+  <MusouMonsterStateSetting type="小怪" wave="22" hp_rate="2.5" hurt_rate="0.4" atk_rate="1" point_rate="0" />
+  <MusouMonsterStateSetting type="小怪" wave="23" hp_rate="2.5" hurt_rate="0.4" atk_rate="1" point_rate="0" />
+  <MusouMonsterStateSetting type="小怪" wave="24" hp_rate="2.5" hurt_rate="0.4" atk_rate="1" point_rate="0" />
+  <MusouMonsterStateSetting type="小怪" wave="25" hp_rate="2" hurt_rate="0.2" atk_rate="1.2" point_rate="1" />
+  <MusouMonsterStateSetting type="小怪" wave="26" hp_rate="2" hurt_rate="0.2" atk_rate="1.2" point_rate="1" />
+  <MusouMonsterStateSetting type="小怪" wave="27" hp_rate="2" hurt_rate="0.2" atk_rate="1.2" point_rate="1" />
+  <MusouMonsterStateSetting type="小怪" wave="28" hp_rate="2" hurt_rate="0.2" atk_rate="1.2" point_rate="1" />
+  <MusouMonsterStateSetting type="小怪" wave="29" hp_rate="2" hurt_rate="0.2" atk_rate="1.2" point_rate="1" />
+  <MusouMonsterStateSetting type="小怪" wave="30" hp_rate="2" hurt_rate="0.2" atk_rate="1.2" point_rate="1" />
+  <MusouMonsterStateSetting type="小怪" wave="31" hp_rate="2" hurt_rate="0.2" atk_rate="1.2" point_rate="1" />
+  <MusouMonsterStateSetting type="小怪" wave="32" hp_rate="2" hurt_rate="0.2" atk_rate="1.2" point_rate="1" />
+</root>

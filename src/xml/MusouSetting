@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <MusouSetting id="700001" name="想望のアルドラナ" bg="area1001/100104" battle_map="100104/100104" atk_cnt_limit="3" monster_group="1" boss_time="30" monster_point="1" boss_point="10" time_point="0" b_need_point="30" a_need_point="100" s_need_point="200" ss_need_point="300" c_get_point="600" b_get_point="800" a_get_point="1000" s_get_point="1200" ss_get_point="1500">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+  </MusouSetting>
+  <MusouSetting id="700002" name="情熱とともに殴りぬ" bg="area1001/100101" battle_map="100101/100101" atk_cnt_limit="3" monster_group="2" boss_time="30" monster_point="1" boss_point="10" time_point="0" b_need_point="30" a_need_point="100" s_need_point="200" ss_need_point="300" c_get_point="600" b_get_point="800" a_get_point="1000" s_get_point="1200" ss_get_point="1500">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+  </MusouSetting>
+  <MusouSetting id="700003" name="揺れよ、乳" bg="battle101101bg/101101" battle_map="101101/101101" atk_cnt_limit="3" monster_group="3" boss_time="30" monster_point="1" boss_point="10" time_point="0" b_need_point="30" a_need_point="100" s_need_point="200" ss_need_point="300" c_get_point="600" b_get_point="800" a_get_point="1000" s_get_point="1200" ss_get_point="1500">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+  </MusouSetting>
+  <MusouSetting id="700004" name="エルロンの幽霊" bg="area1005/100503" battle_map="100503/100503" atk_cnt_limit="3" monster_group="4" boss_time="30" monster_point="1" boss_point="10" time_point="0" b_need_point="30" a_need_point="100" s_need_point="200" ss_need_point="300" c_get_point="600" b_get_point="800" a_get_point="1000" s_get_point="1200" ss_get_point="1500">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+  </MusouSetting>
+  <MusouSetting id="700005" name="お菓子と獣" bg="area1001/100103" battle_map="100103/100103" atk_cnt_limit="3" monster_group="5" boss_time="30" monster_point="1" boss_point="10" time_point="0" b_need_point="30" a_need_point="100" s_need_point="200" ss_need_point="300" c_get_point="600" b_get_point="800" a_get_point="1000" s_get_point="1200" ss_get_point="1500">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+  </MusouSetting>
+  <MusouSetting id="700006" name="天と痴と" bg="area1001/100103" battle_map="100103/100103" atk_cnt_limit="3" monster_group="6" boss_time="30" monster_point="1" boss_point="10" time_point="0" b_need_point="30" a_need_point="100" s_need_point="200" ss_need_point="300" c_get_point="600" b_get_point="800" a_get_point="1000" s_get_point="1200" ss_get_point="1500">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+  </MusouSetting>
+  <MusouSetting id="700007" name="天馬のヴァルキュリア" bg="area1005/100503" battle_map="101303/101303" atk_cnt_limit="3" monster_group="7" boss_time="30" monster_point="1" boss_point="10" time_point="0" b_need_point="30" a_need_point="100" s_need_point="200" ss_need_point="300" c_get_point="600" b_get_point="800" a_get_point="1000" s_get_point="1200" ss_get_point="1500">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+  </MusouSetting>
+</root>

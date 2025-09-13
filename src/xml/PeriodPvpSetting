@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <PeriodPvpSetting id="301" name="イベントアリーナ" icon="pvp-1/競技場檯子ICON01" hint="水属性限定" open="true" start_time="2024/05/06 11:00:00" end_time="2024/05/16 11:00:00" limit_type="只能水" info="水属性限定" />
+  <PeriodPvpSetting id="302" name="イベントアリーナ" icon="pvp-1/競技場檯子ICON01" hint="想属性限定" open="true" start_time="2024/06/27 11:00:00" end_time="2024/07/04 11:00:00" limit_type="只能想" info="想属性限定" />
+</root>
