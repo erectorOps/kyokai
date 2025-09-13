@@ -709,13 +709,28 @@ const parseBuff = (buff, lv, info) => {
         text += `${spanEnd}`;
         text += ")";
         break;
-      case '普攻追加傷害':
-        text += `通常攻撃追撃(${spanN}${val1.toString()}%${spanEnd}${val2.gt(1) ? "・"+val2+"回" : ""})`;
-        break;
-      case '技能追加傷害':
-        text += `通常攻撃追加ダメージ(${val2.toString()}Hit、${spanN}${val1.toString()}%${spanEnd})`;
-        break;
-      
+      case '普攻追加傷害': {
+          let attackText = '';
+          if (val2.eq(1)) {
+            attackText = `ダメージ${spanN}${val1}%${spanEnd}の通常攻撃`;
+          } else {
+            attackText = `ダメージ${spanN}${val1}%${spanEnd}で${val2}回通常攻撃`;
+          }
+
+          text += `通常攻撃時追撃(${attackText})状態を付与`;
+          break;
+      }
+      case '技能追加傷害': {
+          let attackText = '';
+          if (val2.eq(1)) {
+            attackText = `ダメージ${spanN}${val1}%${spanEnd}の通常攻撃`;
+          } else {
+            attackText = `ダメージ${spanN}${val1}%${spanEnd}で${val2}回通常攻撃`;
+          }
+
+          text += `スキル発動時追撃(${attackText})状態を付与`;
+          break;
+      }
       default:
           console.log("Unknown buff effect type = "+type);
           break;
