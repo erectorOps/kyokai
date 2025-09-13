@@ -710,7 +710,10 @@ const parseBuff = (buff, lv, info) => {
         text += ")";
         break;
       case '普攻追加傷害':
-        text += `通常攻撃追撃(${spanN}${val1.toString()}%${spanEnd}${val2.gt(1) ? "・"+val2+"回" : ""})`
+        text += `通常攻撃追撃(${spanN}${val1.toString()}%${spanEnd}${val2.gt(1) ? "・"+val2+"回" : ""})`;
+        break;
+      case '技能追加傷害':
+        text += `通常攻撃追加ダメージ(${val2.toString()}Hit、${spanN}${val1.toString()}%${spanEnd})`;
         break;
       
       default:
@@ -754,7 +757,7 @@ function parseFixed(text, s) {
 }
 
 export const parseSkill = (sid, lv, kf) => {
-  const s = kf.SkillSetting.root.SkillSetting.find(item => item['@_id'] === sid);
+  const s = kf.SkillSetting.find(item => item['@_id'] === sid);
   const is_heal = s['@_target_hp_effect'] && s['@_target_hp_effect'] === "回復";
 
   let text = parseFixed(s['@_effect_text'], s);
@@ -762,8 +765,8 @@ export const parseSkill = (sid, lv, kf) => {
     .replace(/<color=(#[A-F0-9]+?)>/ig, `<span class="value">`).replace(/<\/color>/ig, "</span>");
 
   let waitShowTime = "0";
-  if (s['@_effect_id'] && kf.SkillEffectSetting.root.SkillEffectSetting.find(item => item['@_Id'] === s['@_effect_id'])) {
-    waitShowTime = kf.SkillEffectSetting.root.SkillEffectSetting.find(item => item['@_Id'] === s['@_effect_id'])['@_WaitShowTime'];
+  if (s['@_effect_id'] && kf.SkillEffectSetting.find(item => item['@_Id'] === s['@_effect_id'])) {
+    waitShowTime = kf.SkillEffectSetting.find(item => item['@_Id'] === s['@_effect_id'])['@_WaitShowTime'];
   }
 
   const hpScale = s['@_target_hp_scale'] ? new Big(s['@_target_hp_scale']) :new Big(0);
@@ -797,7 +800,7 @@ export const parseSkill = (sid, lv, kf) => {
     const buffTarget = s['@_buff_target'+postFix[0]];
     if (buffId) {
       text = text.replace(postFix[2], buffDur);
-      const buff = kf.BuffSetting.root.BuffSetting.find(item => item['@_id'] === buffId);
+      const buff = kf.BuffSetting.find(item => item['@_id'] === buffId);
       if (buff !== undefined) {
         text = text.replace(postFix[1], parseBuff(buff, lv, {id: buffId, duration: buffDur, if: buffIf, target: buffTarget}));
         if (buff['@_effect_type'] === '速度上升或下降') {
@@ -810,7 +813,7 @@ export const parseSkill = (sid, lv, kf) => {
 
   // パースが難しい部分を独自仕様"{C5}"で補完
   if (s['@_change_skill_id'] && s['@_change_skill_id'] !== "0") {
-    const c = kf.SkillSetting.root.SkillSetting.find(item => item['@_id'] === s['@_change_skill_id']);
+    const c = kf.SkillSetting.find(item => item['@_id'] === s['@_change_skill_id']);
     if (c) {
       for (const postFix of [
         ['A', "{C5}", "{C6}"],
@@ -823,7 +826,7 @@ export const parseSkill = (sid, lv, kf) => {
           const buffTarget = c['@_buff_target'+postFix[0]];
           if (buffId) {
             text = text.replace(postFix[2], buffDur);
-            const buff = kf.BuffSetting.root.BuffSetting.find(item => item['@_id'] === buffId);
+            const buff = kf.BuffSetting.find(item => item['@_id'] === buffId);
             if (buff !== undefined) {
               text = text.replace(postFix[1], parseBuff(buff, lv, {id: buffId, duration: buffDur, if: buffIf, target: buffTarget}));
             }
@@ -834,7 +837,7 @@ export const parseSkill = (sid, lv, kf) => {
 
   // ◯◯か◯◯のスキル
   if (s['@_group']) {
-    const groups = kf.SkillSetting.root.SkillSetting.filter(item => item['@_group'] === s['@_group']); 
+    const groups = kf.SkillSetting.filter(item => item['@_group'] === s['@_group']); 
     if (groups[0]['@_id'] === s['@_id']) {
       for (let i = 1; i < groups.length; i++) {
         if (groups[i]['@_effect_text']) {

@@ -6,7 +6,7 @@ class SkillCheck {
     constructor(kf, sid) {
         this.kf = kf;
         this.DamageUp = false;
-        const skills = kf.SkillSetting.root.SkillSetting;
+        const skills = kf.SkillSetting;
         let s1 = skills.find(item => item['@_id'] === sid);
 
         if (s1['@_awake_change_skill_id'] !== "0") {
@@ -89,7 +89,7 @@ class SkillCheck {
                         info.target = s['@_target'];
                     }
 
-                    const buff = this.kf.BuffSetting.root.BuffSetting.find(item => item['@_id'] === info.id);
+                    const buff = this.kf.BuffSetting.find(item => item['@_id'] === info.id);
                     if (buff !== undefined) {
                         info.type = buff["@_effect_type"];
                         info.buff = buff;
@@ -420,7 +420,7 @@ export class PreSkillCategorize {
 
     categorize() {
 
-        const heroList = this.kf.HeroSetting.root.HeroSetting.filter(item => item['@_id'] !== undefined && parseInt(item['@_id']) < 10000);
+        const heroList = this.kf.HeroSetting.filter(item => item['@_id'] !== undefined && parseInt(item['@_id']) < 10000);
 
         const jsonList = {
 

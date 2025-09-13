@@ -11,7 +11,16 @@ export class KFData
     const dir = fs.readdirSync(dirpath);
     for (const file of dir) {
       let fullpath = path.join(dirpath, file);
-      this[file] = parser.parse(fs.readFileSync(fullpath, 'utf8'));
+      const parsed = parser.parse(fs.readFileSync(fullpath, 'utf8'));
+
+      const key = path.basename(file);
+
+      const rootKeys = Object.keys(parsed.root || {});
+      if (rootKeys.length === 1) {
+        this[key] = parsed.root[rootKeys[0]];
+      } else {
+        this[key] = parsed.root || parsed;
+      }
     }
   }
 }
