@@ -234,19 +234,57 @@ export class HeroContents {
             const scales = 
             ["0", "0.1", "0.15", "0.2", "0.25", "0.30", "0.35", "0.40", "0.45", "0.50", 
               "0.55", "0.60", "0.65", "0.70", "0.75", "0.80", "0.85", "0.90", "0.95", "1", 
-              "1.05", "1.10" ,"1.15", "1.2", "1.25"]
-            .reverse();
+              "1.05", "1.10" ,"1.15", "1.2", "1.25"];
             for (const scale of scales) {
               const scalecheck = { attack: new Big(0), crit: new Big(0), skill1: new Big(0), skill2: new Big(0) };
 
                 scalecheck.name = new Big(scale).mul(100).toFixed(0) + "%";
 
-                scalecheck.attack = calcWaitTime(freezeTime, waitShowTime, scale).toFixed(2, Big.roundUp);
-                scalecheck.crit = calcWaitTime(freezeTime, critWaitShowTime, scale).toFixed(2, Big.roundUp);
+                scalecheck.attack = calcWaitTime(freezeTime, waitShowTime, scale);
+                scalecheck.crit = calcWaitTime(freezeTime, critWaitShowTime, scale);
 
-                scalecheck.skill1 = calcWaitTime(json.skill1.freezeTime, json.skill1.waitShowTime, scale).toFixed(2, Big.roundUp);
+                scalecheck.skill1 = calcWaitTime(json.skill1.freezeTime, json.skill1.waitShowTime, scale);
 
-                scalecheck.skill2 = calcWaitTime(json.skill2.freezeTime, json.skill2.waitShowTime, scale).toFixed(2, Big.roundUp);
+                scalecheck.skill2 = calcWaitTime(json.skill2.freezeTime, json.skill2.waitShowTime, scale);
+
+                const timeline = [];
+                let totalTime = new Big(0);
+                json.first_skill_order.split("").forEach((v, i) => {
+                  if (v.trim() === "1") {
+                    totalTime = totalTime.plus(scalecheck.skill1);
+                    timeline.push(totalTime.toFixed(1, Big.roundHalfEven));
+                  } else if (v.trim() === "2") {
+                    totalTime = totalTime.plus(scalecheck.skill2);
+                    timeline.push(totalTime.toFixed(1, Big.roundHalfEven));
+                  } else if (v.trim() === "0") {
+                    totalTime = totalTime.plus(scalecheck.attack);
+                    timeline.push(totalTime.toFixed(1, Big.roundHalfEven));
+                  } else {
+                    timeline.push("----");
+                  }
+                });
+                scalecheck.first_skill_order = timeline;
+                const timeline2 = [];
+                json.loop_skill_order.split("").forEach((v, i) => {
+                  if (v.trim() === "1") {
+                    totalTime = totalTime.plus(scalecheck.skill1);
+                    timeline2.push(totalTime.toFixed(1, Big.roundHalfEven));
+                  } else if (v.trim() === "2") {
+                    totalTime = totalTime.plus(scalecheck.skill2);
+                    timeline2.push(totalTime.toFixed(1, Big.roundHalfEven));
+                  } else if (v.trim() === "0") {
+                    totalTime = totalTime.plus(scalecheck.attack);
+                    timeline2.push(totalTime.toFixed(1, Big.roundHalfEven));
+                  } else {
+                    timeline2.push("----");
+                  }
+                });
+                scalecheck.attack = scalecheck.attack.toFixed(2, Big.roundUp);
+                scalecheck.crit = scalecheck.crit.toFixed(2, Big.roundUp);
+                scalecheck.skill1 = scalecheck.skill1.toFixed(2, Big.roundUp);
+                scalecheck.skill2 = scalecheck.skill2.toFixed(2, Big.roundUp);
+
+                scalecheck.loop_skill_order = timeline2;
                 scalechecklist.push(scalecheck);
             }
             json.scalecheck = scalechecklist;

@@ -113,7 +113,6 @@ a img {
 
 
 .attack {
-    display: inline-block;
     width: 48px;
     height: 48px;
     border: 5px solid #f76163;
@@ -123,8 +122,15 @@ a img {
     line-height: 38px;
 }
 
+.attack-wrapper,
+.skill-wrapper {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .skill {
-    display: inline-block;
     width: 48px;
     height: 48px;
     border: 5px solid #6161f7;
@@ -134,8 +140,19 @@ a img {
     line-height: 38px;
 }
 
-.special {
+.time-text {
+    display: none;
+    font-size: 1.3rem;
+    color: #333;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.time-text.active {
     display: inline-block;
+}
+
+.special {
     width: 48px;
     height: 48px;
     border: 5px solid orange;
@@ -146,36 +163,27 @@ a img {
 }
 
 .dli-arrow-right {
+    flex-shrink: 0;
     display: inline-block;
-    vertical-align: middle;
-    color: #333;
-    line-height: 1;
-    position: relative;
-    width: 1em;
-    height: 0.1em;
-    background: currentColor;
-}
+    width: 20px; /* 矢印の幅を調整 */
+    height: 20px; /* 矢印の高さを調整 */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; /* サイズに合わせて矢印を調整 */
 
-.dli-arrow-right::before {
-    content: '';
-    width: 0.65em;
-    height: 0.65em;
-    border: 0.1em solid currentColor;
-    border-left: 0;
-    border-bottom: 0;
-    transform: rotate(45deg);
-    transform-origin: top right;
-    position: absolute;
-    top: 50%;
-    right: -0.05em;
-    box-sizing: border-box;
+    position: relative;
+    top: -9px;
 }
 
 .loop {
-    display: inline-block;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
     border: 3px solid #de6308;
     border-radius: 10px;
-    padding: 5px 1px;
+    padding: 5px 10px;
     position: relative;
 }
 
@@ -208,10 +216,65 @@ a img {
     line-height: 17px;
 }
 
+.scale-selector {
+    display: grid;
+    gap: 4px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0;
+    margin: 0;
+    
+    @include media(tb) {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+}
+
+.filter-button {
+    padding: 4px 8px; /* ボタンなのでpaddingを調整 */
+    line-height: 1;
+    margin: 1px;
+    cursor: pointer;
+    filter: grayscale(20%);
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    font-size: 1.2rem; /* `font-size`を直接ボタンに適用 */
+    font-weight: bold; /* `font-weight`を直接ボタンに適用 */
+    background-color: transparent; /* デフォルトの背景色をクリア */
+    color: inherit; /* デフォルトの文字色を継承 */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    transition: all 0.2s ease-in-out; /* ホバーやクリック時のアニメーションを追加 */
+
+    &:hover,
+    &:focus {
+        filter: none;
+        opacity: 1;
+        background-color: #f8f8f8;
+    }
+}
+
+.filter-button.is_active {
+    filter: none;
+    opacity: 1;
+    border: 2px solid #78632c;
+    background-color: #95836b;
+    color: #eae4d4;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
 .table-scroll {
     overflow-x: auto;
-    white-space: nowrap;
+    //white-space: nowrap;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .table-scroll table {

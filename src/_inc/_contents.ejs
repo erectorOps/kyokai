@@ -41,17 +41,42 @@
 
     <h3 class="s-header--3">行動タイムライン</h3>
 
+    <% 
+      const allScaleData  = page.scalecheck;
+    %>
+
+    <div class="scale-selector">
+      <% allScaleData.forEach(data => { %>
+        <button class="filter-button" data-target="<%= data.name %>"><%= data.name %></button>
+      <% }); %>
+    </div>
+
     <div class="table-scroll">
         <% for (let i = 0; i < page['first_skill_order'].length; i++) { %>
           <% let c = page['first_skill_order'][i]; %>
           <% if (c === '/') { %>
             <span class="dli-arrow-right"></span>
           <% } else if (c === '0') { %>
-            <span class="attack">攻撃</span>
+            <span class="attack-wrapper">
+              <span class="attack">攻撃</span>
+              <% allScaleData.forEach(data => { %>
+                <span class="time-text" data-name="<%= data.name %>"><%= data.first_skill_order[i] %>s</span>
+              <% }); %>
+            </span>
           <% } else if (c === '1') { %>
-            <span class="skill">ｽｷﾙ1</span>
+            <span class="skill-wrapper">
+              <span class="skill">ｽｷﾙ1</span>
+              <% allScaleData.forEach(data => { %>
+                <span class="time-text" data-name="<%= data.name %>"><%= data.first_skill_order[i] %>s</span>
+              <% }); %>
+            </span>
           <% } else if (c === '2') { %>
-            <span class="skill">ｽｷﾙ2</span>
+            <span class="skill-wrapper">
+              <span class="skill">ｽｷﾙ2</span>
+              <% allScaleData.forEach(data => { %>
+                <span class="time-text" data-name="<%= data.name %>"><%= data.first_skill_order[i] %>s</span>
+              <% }); %>
+            </span>
           <% } %> 
         <% } %>
         <span class="dli-arrow-right"></span>
@@ -62,29 +87,30 @@
               <% if (c === '/') { %>
                 <span class="dli-arrow-right"></span>
               <% } else if (c === '0') { %>
-                <span class="attack">攻撃</span>
+                <span class="attack-wrapper">
+                  <span class="attack">攻撃</span>
+                  <% allScaleData.forEach(data => { %>
+                    <span class="time-text" data-name="<%= data.name %>"><%= data.loop_skill_order[i] %>s</span>
+                  <% }); %>
+                </span>
               <% } else if (c === '1') { %>
-                <span class="skill">ｽｷﾙ1</span>
+                <span class="skill-wrapper">
+                  <span class="skill">ｽｷﾙ1</span>
+                  <% allScaleData.forEach(data => { %>
+                    <span class="time-text" data-name="<%= data.name %>"><%= data.loop_skill_order[i] %>s</span>
+                  <% }); %>
+                </span>
               <% } else if (c === '2') { %>
-                <span class="skill">ｽｷﾙ2</span>
+                <span class="skill-wrapper">
+                  <span class="skill">ｽｷﾙ2</span>
+                  <% allScaleData.forEach(data => { %>
+                    <span class="time-text" data-name="<%= data.name %>"><%= data.loop_skill_order[i] %>s</span>
+                  <% }); %>
+                </span>
               <% } %> 
             <% } %>            
         </div>
     </div>
-
-    <details>
-      <summary>行動速度バフの硬直時間変化</summary>
-    <h4 class="s-header--4">硬直時間表（仮）</h4>
-    <table class="s-table freeze-table">
-      <tbody>
-        <tr><th width="20%">行動速度</th><th width="20%">通常攻撃</th><th width="20%">クリティカル</th><th width="20%">スキル1</th><th width="20%">スキル2</th></tr>
-        <% for (const scale of page.scalecheck) { 
-        %>
-        <tr><td class="strong scaleval"><%= scale.name %></td><td class="scaleval"><%= scale.attack %>s</td><td class="scaleval"><%= scale.crit %>s</td><td class="scaleval"><%= scale.skill1 %>s</td><td class="scaleval"><%= scale.skill2 %>s</td></tr>
-        <% } %>
-      </tbody>
-    </table>
-  </details>
 
     <h3 class="s-header--3">奥義</h3>
     <% if (page.passive3) { %>
@@ -244,3 +270,36 @@
     </table>
   <% } %>
 </div>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const scaleSelector = document.querySelector('.scale-selector');
+    const timeTexts = document.querySelectorAll('.time-text');
+    const buttons = scaleSelector.querySelectorAll('button');
+
+    const initialActive = scaleSelector.querySelector('button');
+    updateActiveScale(initialActive);
+
+    scaleSelector.addEventListener('click', (event) => {
+      if (event.target.tagName === 'BUTTON') {
+        updateActiveScale(event.target);
+      }
+    });
+
+    function updateActiveScale(buttonElement) {
+      const targetName = buttonElement.dataset.target;
+      timeTexts.forEach(text => {
+        text.classList.remove('active');
+      });
+
+      buttons.forEach(btn => {
+        btn.classList.remove('is_active');
+      });
+
+      buttonElement.classList.add('is_active');
+
+      document.querySelectorAll(`.time-text[data-name="${targetName}"]`).forEach(text => {
+        text.classList.add('active');
+      });
+    }
+  });
+</script>
