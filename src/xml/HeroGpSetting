@@ -27500,4 +27500,114 @@
     <limit_over_item_num>0</limit_over_item_num>
     <limit_over_item_num>0</limit_over_item_num>
   </HeroGpSetting>
+  <HeroGpSetting id="2251" gp_lv="0" hp="0" atk="0" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0" gp_token_id="0">
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+  </HeroGpSetting>
+  <HeroGpSetting id="2251" gp_lv="1" hp="300" atk="0" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0" gp_token_id="0">
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+  </HeroGpSetting>
+  <HeroGpSetting id="2251" gp_lv="2" hp="300" atk="0" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="3" gp_token_id="0">
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+  </HeroGpSetting>
+  <HeroGpSetting id="2251" gp_lv="3" hp="750" atk="0" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="3" gp_token_id="0">
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+  </HeroGpSetting>
+  <HeroGpSetting id="2251" gp_lv="4" hp="750" atk="0" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="5" gp_token_id="0">
+    <limit_over_item_id>3390</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_num>1</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+  </HeroGpSetting>
+  <HeroGpSetting id="2251" gp_lv="5" hp="1200" atk="0" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="5" gp_token_id="0">
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+  </HeroGpSetting>
+  <HeroGpSetting id="2251" gp_lv="6" hp="1200" atk="0" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="6" gp_token_id="0">
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+  </HeroGpSetting>
+  <HeroGpSetting id="2251" gp_lv="7" hp="1650" atk="0" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="6" gp_token_id="0">
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+  </HeroGpSetting>
+  <HeroGpSetting id="2251" gp_lv="8" hp="1650" atk="0" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="7" gp_token_id="0">
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+  </HeroGpSetting>
+  <HeroGpSetting id="2251" gp_lv="9" hp="2100" atk="0" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="7" gp_token_id="0">
+    <limit_over_item_id>3390</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_num>1</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+  </HeroGpSetting>
+  <HeroGpSetting id="2251" gp_lv="10" hp="2100" atk="0" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="8" gp_token_id="3395">
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_id>0</limit_over_item_id>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+    <limit_over_item_num>0</limit_over_item_num>
+  </HeroGpSetting>
 </root>

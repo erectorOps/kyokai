@@ -6578,6 +6578,32 @@
   <SpecialValueSetting id="9" group_id="9651" tar_type="道具" tar_id="9235" tar_prob="1900" tar_num="1" />
   <SpecialValueSetting id="10" group_id="9651" tar_type="道具" tar_id="9236" tar_prob="3400" tar_num="1" />
   <SpecialValueSetting id="11" group_id="9651" tar_type="道具" tar_id="3404" tar_prob="385" tar_num="1" />
+  <SpecialValueSetting id="1" group_id="9524" tar_type="商城幣" tar_id="0" tar_prob="10" tar_num="1000" />
+  <SpecialValueSetting id="2" group_id="9524" tar_type="商城幣" tar_id="0" tar_prob="15" tar_num="500" />
+  <SpecialValueSetting id="3" group_id="9524" tar_type="商城幣" tar_id="0" tar_prob="25" tar_num="300" />
+  <SpecialValueSetting id="4" group_id="9524" tar_type="AP" tar_id="0" tar_prob="10" tar_num="900" />
+  <SpecialValueSetting id="5" group_id="9524" tar_type="AP" tar_id="0" tar_prob="15" tar_num="600" />
+  <SpecialValueSetting id="6" group_id="9524" tar_type="AP" tar_id="0" tar_prob="25" tar_num="300" />
+  <SpecialValueSetting id="1" group_id="60139" tar_type="道具" tar_id="9214" tar_prob="0" tar_num="50" />
+  <SpecialValueSetting id="2" group_id="60139" tar_type="道具" tar_id="9204" tar_prob="0" tar_num="50" />
+  <SpecialValueSetting id="3" group_id="60139" tar_type="道具" tar_id="7014" tar_prob="0" tar_num="50" />
+  <SpecialValueSetting id="4" group_id="60139" tar_type="道具" tar_id="9214" tar_prob="0" tar_num="100" />
+  <SpecialValueSetting id="5" group_id="60139" tar_type="道具" tar_id="9204" tar_prob="0" tar_num="100" />
+  <SpecialValueSetting id="6" group_id="60139" tar_type="道具" tar_id="7014" tar_prob="0" tar_num="100" />
+  <SpecialValueSetting id="7" group_id="60139" tar_type="道具" tar_id="7000" tar_prob="0" tar_num="5" />
+  <SpecialValueSetting id="1" group_id="92251" tar_type="道具" tar_id="3404" tar_prob="1" tar_num="110" />
+  <SpecialValueSetting id="2" group_id="92251" tar_type="道具" tar_id="7007" tar_prob="1" tar_num="21" />
+  <SpecialValueSetting id="3" group_id="92251" tar_type="道具" tar_id="7008" tar_prob="1" tar_num="21" />
+  <SpecialValueSetting id="4" group_id="92251" tar_type="道具" tar_id="7044" tar_prob="1" tar_num="21" />
+  <SpecialValueSetting id="5" group_id="92251" tar_type="道具" tar_id="7045" tar_prob="1" tar_num="21" />
+  <SpecialValueSetting id="6" group_id="92251" tar_type="道具" tar_id="7014" tar_prob="1" tar_num="70" />
+  <SpecialValueSetting id="1" group_id="60138" tar_type="道具" tar_id="10991" tar_prob="0" tar_num="1" />
+  <SpecialValueSetting id="2" group_id="60138" tar_type="道具" tar_id="3404" tar_prob="0" tar_num="10" />
+  <SpecialValueSetting id="3" group_id="60138" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="300" />
+  <SpecialValueSetting id="4" group_id="60138" tar_type="AP" tar_id="0" tar_prob="0" tar_num="200" />
+  <SpecialValueSetting id="5" group_id="60138" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="400" />
+  <SpecialValueSetting id="6" group_id="60138" tar_type="道具" tar_id="3604" tar_prob="0" tar_num="10" />
+  <SpecialValueSetting id="7" group_id="60138" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="300" />
   <SpecialValueSetting id="1" group_id="80101" tar_type="道具" tar_id="7035" tar_prob="0" tar_num="30" />
   <SpecialValueSetting id="2" group_id="80101" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="1000" />
   <SpecialValueSetting id="3" group_id="80101" tar_type="道具" tar_id="80601" tar_prob="0" tar_num="1" />

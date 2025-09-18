@@ -77,13 +77,13 @@
   <SystemSetting def="基礎角色數限制" val="150" />
   <SystemSetting def="基礎道具數限制" val="1000" />
   <SystemSetting def="AP回復商品群組" val="101" />
-  <SystemSetting def="AP回復優惠開始時間" val="2025/08/16 03:00:00" />
-  <SystemSetting def="AP回復優惠結束時間" val="2025/09/05 03:00:00" />
+  <SystemSetting def="AP回復優惠開始時間" val="2025/09/19 03:00:00" />
+  <SystemSetting def="AP回復優惠結束時間" val="2025/09/26 03:00:00" />
   <SystemSetting def="AP回復優惠商品群組" val="102" />
   <SystemSetting def="AP回復優惠額度" val="50" />
   <SystemSetting def="BP回復商品群組" val="201" />
-  <SystemSetting def="BP回復優惠開始時間" val="2025/08/16 03:00:00" />
-  <SystemSetting def="BP回復優惠結束時間" val="2025/09/05 03:00:00" />
+  <SystemSetting def="BP回復優惠開始時間" val="2025/09/19 03:00:00" />
+  <SystemSetting def="BP回復優惠結束時間" val="2025/09/26 03:00:00" />
   <SystemSetting def="BP回復優惠商品群組" val="202" />
   <SystemSetting def="BP回復優惠額度" val="50" />
   <SystemSetting def="道具欄位擴充商品群組" val="1101" />
@@ -378,7 +378,7 @@
   <SystemSetting def="飾品2格開放需求英雄等級" val="41" />
   <SystemSetting def="飾品4格開放需求英雄等級" val="51" />
   <SystemSetting def="飾品5格開放需求英雄等級" val="61" />
-  <SystemSetting def="新角色影片名稱" val="PS8_hero_2248&amp;2249.mp4" />
+  <SystemSetting def="新角色影片名稱" val="PS8_hero_2251.mp4" />
   <SystemSetting def="新角色影片更換時間" />
   <SystemSetting def="新角色影片更換名稱" />
   <SystemSetting def="特典序號圖示" val="item001/redemption_icon" />
@@ -461,7 +461,9 @@
   <SystemSetting def="活動巨乳月開放任務編號" val="915" />
   <SystemSetting def="活動巨乳月後半開放任務編號" val="916" />
   <SystemSetting def="活動巨乳月額外倍率" val="1" />
+  <SystemSetting def="活動巨乳月養成優待倍率" val="0.2" />
   <SystemSetting def="活動巨乳月角色養成優待上限" val="0.3" />
+  <SystemSetting def="活動巨乳月每日定時體力額外倍率" val="1" />
   <SystemSetting def="資源收集重置優惠商品群組_巨乳月加日" val="503" />
   <SystemSetting def="資源收集重置優惠額度_巨乳月加日" val="75" />
   <SystemSetting def="AP回復優惠商品群組_巨乳月加日" val="103" />
