@@ -1,3 +1,5 @@
+import { Big } from 'big.js';
+
 export const getAtkSpeed = (value) => {
     if (value <= 0.39) { return "早い"; }
     else if (value <= 0.79) { return "やや早い"; }
@@ -20,6 +22,30 @@ export const parseIntOnlyString = (value) => {
       }
     }
     return NaN;
+}
+
+export const toBig = (value) => {
+  if (value instanceof Big) {
+    return value;
+  }
+
+  if (typeof value === 'string' || typeof value == 'number') {
+    return new Big(value);
+  }
+
+  throw new Error('Invalid value type for Big conversion');
+}
+
+export const calcWaitTime = (freeze_time, wait_show_time, atk_speed) => {
+  try {
+  const c = 0.81
+  const ft = toBig(freeze_time);
+  const wst = toBig(wait_show_time);
+  return ft.plus("0.125").plus(wst).div(new Big(1).plus(toBig(atk_speed ?? 0).mul(new Big(c))));
+  } catch (e) {
+    console.error(e);
+  }
+  //return (freeze_time + 0.125 + wait_show_time) / (1 + atk_speed + c)
 }
 
 export const abiNameConvTable = {

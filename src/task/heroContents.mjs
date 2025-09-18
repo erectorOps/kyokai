@@ -4,7 +4,7 @@ import ejs from 'gulp-ejs'; //EJS
 import rename from 'gulp-rename'; //ファイル出力時にファイル名を変える
 import { Big } from 'big.js';
 
-import { getAtkSpeed, getPosition, abiNameConvTable, statisticConvTable, timeErrorMsg, parseIntOnlyString } from './hero/_util.mjs';
+import { getAtkSpeed, getPosition, abiNameConvTable, statisticConvTable, timeErrorMsg, parseIntOnlyString, calcWaitTime, toBig } from './hero/_util.mjs';
 import { calcPassive } from './hero/_calcPassive.mjs';
 import { parseSkill } from './hero/_parseSkill.mjs';
 import { srcBase, srcPath, distPath } from './_config.mjs';
@@ -221,13 +221,14 @@ export class HeroContents {
             };
 
             if (freezeTime) {
-              const time = new Big(freezeTime).plus("0.125").plus(new Big(waitShowTime));
-              json.atkskill.time = time.toFixed(3, Big.roundHalfEven);
-              json.atkskill.time2 = time.round(2, Big.roundDown).toFixed(1, Big.roundUp);
+              json.atkskill.time = calcWaitTime(freezeTime, waitShowTime, 0).toFixed(2, Big.roundUp);
+              json.atkskill.time2 = calcWaitTime(freezeTime, waitShowTime, 0).toFixed(2, Big.roundUp);
 
-              const crit_time = new Big(freezeTime).plus("0.125").plus(new Big(critWaitShowTime));
-              json.atkskill.crit_time = crit_time.toFixed(3, Big.roundHalfEven);
-              json.atkskill.crit_time2 = crit_time.round(2, Big.roundDown).toFixed(1, Big.roundUp);
+              json.atkskill.freezeTime = toBig(freezeTime)
+              json.atkskill.waitShowTime = toBig(waitShowTime);
+              json.atkskill.crit_time = calcWaitTime(freezeTime, critWaitShowTime, 0).toFixed(2, Big.roundUp);
+              json.atkskill.crit_time2 = calcWaitTime(freezeTime, critWaitShowTime, 0).toFixed(2, Big.roundUp);
+              json.atkskill.crit_waitShowTime = toBig(critWaitShowTime);
             }
             let scalechecklist = [];
             const scales = 
@@ -240,21 +241,12 @@ export class HeroContents {
 
                 scalecheck.name = new Big(scale).mul(100).toFixed(0) + "%";
 
-                scalecheck.attack = 
-                scalecheck.attack.plus((new Big(freezeTime).plus(new Big("0.125")).div(new Big(scale).plus(new Big(1)))).round(2, Big.roundDown).round(1, Big.roundUp))
-                .plus(new Big(waitShowTime).div(new Big(scale).plus(1))).round(2, Big.roundDown).round(1, Big.roundUp);
+                scalecheck.attack = calcWaitTime(freezeTime, waitShowTime, scale).toFixed(2, Big.roundUp);
+                scalecheck.crit = calcWaitTime(freezeTime, critWaitShowTime, scale).toFixed(2, Big.roundUp);
 
-                scalecheck.crit = 
-                scalecheck.crit.plus((new Big(freezeTime).plus(new Big("0.125")).div(new Big(scale).plus(new Big(1)))).round(2, Big.roundDown).round(1, Big.roundUp))
-                .plus(new Big(critWaitShowTime).div(new Big(scale).plus(1))).round(2, Big.roundDown).round(1, Big.roundUp);
+                scalecheck.skill1 = calcWaitTime(json.skill1.freezeTime, json.skill1.waitShowTime, scale).toFixed(2, Big.roundUp);
 
-                scalecheck.skill1 = 
-                scalecheck.skill1.plus((json.skill1.freezeTime.plus(new Big("0.125")).div(new Big(scale).plus(new Big(1)))).round(2, Big.roundDown).round(1, Big.roundUp))
-                .plus(json.skill1.waitShowTime.div(new Big(scale).plus(1))).round(2, Big.roundDown).round(1, Big.roundUp);
-
-                scalecheck.skill2 = 
-                scalecheck.skill2.plus((json.skill2.freezeTime.plus(new Big("0.125")).div(new Big(scale).plus(new Big(1)))).round(2, Big.roundDown).round(1, Big.roundUp))
-                .plus(json.skill2.waitShowTime.div(new Big(scale).plus(1))).round(2, Big.roundDown).round(1, Big.roundUp);
+                scalecheck.skill2 = calcWaitTime(json.skill2.freezeTime, json.skill2.waitShowTime, scale).toFixed(2, Big.roundUp);
                 scalechecklist.push(scalecheck);
             }
             json.scalecheck = scalechecklist;

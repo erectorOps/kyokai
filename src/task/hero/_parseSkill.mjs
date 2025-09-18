@@ -1,6 +1,6 @@
 import Big from 'big.js';
 
-import { timeErrorMsg } from './_util.mjs';
+import { calcWaitTime, timeErrorMsg } from './_util.mjs';
 
 const parseBuff = (buff, lv, info) => {
   if (buff["@_get_counter"] && buff["@_get_counter"] != "0") {
@@ -872,9 +872,8 @@ export const parseSkill = (sid, lv, kf) => {
   };
 
   if (s['@_freeze_time']) {
-    const time = new Big(s['@_freeze_time']).plus("0.125").plus(new Big(waitShowTime));
-    result.time = time.toFixed(3, Big.roundHalfEven);
-    result.time2 = time.round(2, Big.roundDown).toFixed(1, Big.roundUp);
+    result.time = calcWaitTime(s['@_freeze_time'], waitShowTime).toFixed(2, Big.roundUp);
+    result.time2 = calcWaitTime(s['@_freeze_time'], waitShowTime).toFixed(2, Big.roundUp);
     result.freezeTime = new Big(s['@_freeze_time']);
     result.waitShowTime = new Big(waitShowTime);
   }
