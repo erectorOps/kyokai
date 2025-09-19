@@ -230,65 +230,17 @@ export class HeroContents {
               json.atkskill.crit_time2 = calcWaitTime(freezeTime, critWaitShowTime, 0).toFixed(2, Big.roundUp);
               json.atkskill.crit_waitShowTime = toBig(critWaitShowTime);
             }
-            let scalechecklist = [];
-            const scales = 
-            ["0", "0.1", "0.15", "0.2", "0.25", "0.30", "0.35", "0.40", "0.45", "0.50", 
+
+            const scales = ["0", "0.1", "0.15", "0.2", "0.25", "0.30", "0.35", "0.40", "0.45", "0.50", 
               "0.55", "0.60", "0.65", "0.70", "0.75", "0.80", "0.85", "0.90", "0.95", "1", 
               "1.05", "1.10" ,"1.15", "1.2", "1.25"];
-            for (const scale of scales) {
-              const scalecheck = { attack: new Big(0), crit: new Big(0), skill1: new Big(0), skill2: new Big(0) };
 
-                scalecheck.name = new Big(scale).mul(100).toFixed(0) + "%";
-
-                scalecheck.attack = calcWaitTime(freezeTime, waitShowTime, scale);
-                scalecheck.crit = calcWaitTime(freezeTime, critWaitShowTime, scale);
-
-                scalecheck.skill1 = calcWaitTime(json.skill1.freezeTime, json.skill1.waitShowTime, scale);
-
-                scalecheck.skill2 = calcWaitTime(json.skill2.freezeTime, json.skill2.waitShowTime, scale);
-
-                const timeline = [];
-                let totalTime = new Big(0);
-                json.first_skill_order.split("").forEach((v, i) => {
-                  if (v.trim() === "1") {
-                    totalTime = totalTime.plus(scalecheck.skill1);
-                    timeline.push(totalTime.toFixed(1, Big.roundHalfEven));
-                  } else if (v.trim() === "2") {
-                    totalTime = totalTime.plus(scalecheck.skill2);
-                    timeline.push(totalTime.toFixed(1, Big.roundHalfEven));
-                  } else if (v.trim() === "0") {
-                    totalTime = totalTime.plus(scalecheck.attack);
-                    timeline.push(totalTime.toFixed(1, Big.roundHalfEven));
-                  } else {
-                    timeline.push("----");
-                  }
-                });
-                scalecheck.first_skill_order = timeline;
-                const timeline2 = [];
-                json.loop_skill_order.split("").forEach((v, i) => {
-                  if (v.trim() === "1") {
-                    totalTime = totalTime.plus(scalecheck.skill1);
-                    timeline2.push(totalTime.toFixed(1, Big.roundHalfEven));
-                  } else if (v.trim() === "2") {
-                    totalTime = totalTime.plus(scalecheck.skill2);
-                    timeline2.push(totalTime.toFixed(1, Big.roundHalfEven));
-                  } else if (v.trim() === "0") {
-                    totalTime = totalTime.plus(scalecheck.attack);
-                    timeline2.push(totalTime.toFixed(1, Big.roundHalfEven));
-                  } else {
-                    timeline2.push("----");
-                  }
-                });
-                scalecheck.attack = scalecheck.attack.toFixed(2, Big.roundUp);
-                scalecheck.crit = scalecheck.crit.toFixed(2, Big.roundUp);
-                scalecheck.skill1 = scalecheck.skill1.toFixed(2, Big.roundUp);
-                scalecheck.skill2 = scalecheck.skill2.toFixed(2, Big.roundUp);
-
-                scalecheck.loop_skill_order = timeline2;
-                scalechecklist.push(scalecheck);
-            }
+            const scalechecklist = scales.map(scale => {
+              const newScale = new ScaleCheck();
+              newScale.build(scale, json);
+              return newScale;
+            });
             json.scalecheck = scalechecklist;
-        
           }
       
 
@@ -356,4 +308,88 @@ export class HeroContents {
         }
         return heroFuncs;
     }
+}
+
+class ScaleCheck  {
+  constructor() {
+    this.name = "";
+    this.attack = new Big(0);
+    this.crit = new Big(0);
+    this.skill1 = new Big(0);
+    this.skill2 = new Big(0);
+    this.first_skill_order = [];
+    this.loop_skill_order = [];
+    this.attackText = "";
+    this.critText = "";
+    this.skill1Text = "";
+    this.skill2Text = "";
+    this.connectionDiff = "";
+  }
+
+  build(scale, json) {
+    this.name = new Big(scale).mul(100).toFixed(0) + "%";
+    this.attack = calcWaitTime(json.atkskill.freezeTime, json.atkskill.waitShowTime, scale);
+    this.crit = calcWaitTime(json.atkskill.freezeTime, json.atkskill.crit_waitShowTime, scale);
+    this.skill1 = calcWaitTime(json.skill1.freezeTime, json.skill1.waitShowTime, scale);
+    this.skill2 = calcWaitTime(json.skill2.freezeTime, json.skill2.waitShowTime, scale);
+
+    this.attackText = this.getAttackText();
+    this.critText = this.getCritText();
+    this.skill1Text = this.getSkill1Text();
+    this.skill2Text = this.getSkill2Text();
+
+    const result = this.makeTimeline(json.first_skill_order);
+    this.first_skill_order = result.timeline;
+
+    const loop_result = this.makeTimeline(json.loop_skill_order, result.totalTime);
+    this.loop_skill_order = loop_result.timeline;
+
+    const firstLastTime = new Big(this.first_skill_order[this.first_skill_order.length - 1]);
+    const loopFirstTime = new Big(this.loop_skill_order[0]);
+    const connectionDiff = loopFirstTime.minus(firstLastTime).toFixed(1, Big.roundHalfEven);
+    this.connectionDiff = `+${connectionDiff}s`;
+  }
+
+  getAttackText() {
+    return this.attack.toFixed(2, Big.roundUp);
+  }
+
+  getCritText() {
+    return this.crit.toFixed(2, Big.roundUp);
+  }
+
+  getSkill1Text() {
+    return this.skill1.toFixed(2, Big.roundUp);
+  }
+
+  getSkill2Text() {
+    return this.skill2.toFixed(2, Big.roundUp);
+  }
+
+  makeTimeline(order, totalTime) {
+    const timeline = [];
+    if (totalTime === undefined) {
+      totalTime = new Big(0);
+    }
+    order.split("").forEach((v, i) => {
+      if (v.trim() === "1") {
+        timeline.push(totalTime.toFixed(1, Big.roundHalfEven));
+        totalTime = totalTime.plus(this.skill1);
+      } else if (v.trim() === "2") {
+        timeline.push(totalTime.toFixed(1, Big.roundHalfEven));
+        totalTime = totalTime.plus(this.skill2);
+      } else if (v.trim() === "0") {
+        timeline.push(totalTime.toFixed(1, Big.roundHalfEven));
+        totalTime = totalTime.plus(this.attack);
+      } else {
+        if (i > 0) {
+          const diff = totalTime.minus(new Big(timeline[timeline.length - 1])).toFixed(1, Big.roundHalfEven);
+          timeline.push(`+${diff}s`);
+        } else {
+          timeline.push("----");
+        }
+      }
+    });
+    return {timeline: timeline, totalTime: totalTime};
+  }
 }

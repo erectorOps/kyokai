@@ -43,74 +43,93 @@
 
     <% 
       const allScaleData  = page.scalecheck;
+      const scales = allScaleData.map(data => data.name);
+      const min = 0;
+      const max = scales.length - 1;
     %>
 
-    <div class="scale-selector">
-      <% allScaleData.forEach(data => { %>
-        <button class="filter-button" data-target="<%= data.name %>"><%= data.name %></button>
-      <% }); %>
+    <div class="scale-selector-container">
+      <div class="value-display-wrapper">
+        <span class="label">行動速度: </span>
+        <span class="slider-value" id="current-scale-value">
+          <%= scales[0] %>
+        </span>
+      </div>
+      <input type="range" min="<%= min %>" max="<%= max %>" value="0" step="1" class="slider" id="scale-slider">
     </div>
 
     <div class="table-scroll">
-        <% for (let i = 0; i < page['first_skill_order'].length; i++) { %>
-          <% let c = page['first_skill_order'][i]; %>
-          <% if (c === '/') { %>
-            <span class="dli-arrow-right"></span>
-          <% } else if (c === '0') { %>
-            <span class="attack-wrapper">
-              <span class="attack">攻撃</span>
-              <% allScaleData.forEach(data => { %>
-                <span class="time-text" data-name="<%= data.name %>"><%= data.first_skill_order[i] %>s</span>
-              <% }); %>
-            </span>
-          <% } else if (c === '1') { %>
-            <span class="skill-wrapper">
-              <span class="skill">ｽｷﾙ1</span>
-              <% allScaleData.forEach(data => { %>
-                <span class="time-text" data-name="<%= data.name %>"><%= data.first_skill_order[i] %>s</span>
-              <% }); %>
-            </span>
-          <% } else if (c === '2') { %>
-            <span class="skill-wrapper">
-              <span class="skill">ｽｷﾙ2</span>
-              <% allScaleData.forEach(data => { %>
-                <span class="time-text" data-name="<%= data.name %>"><%= data.first_skill_order[i] %>s</span>
-              <% }); %>
-            </span>
-          <% } %> 
-        <% } %>
-        <span class="dli-arrow-right"></span>
-        <div class="loop">
-            <span class="loop-text">LOOP</span>
-            <% for (let i = 0; i < page['loop_skill_order'].length; i++) { %>
-              <% let c = page['loop_skill_order'][i]; %>
+      <% allScaleData.forEach(scaleData => { %>
+        <div class="timeline-container" data-name="<%= scaleData.name %>">
+          <div class="first-section-wrapper">
+            <% const firstOrder = page['first_skill_order'].split(''); %>
+            <% const firstTimeline = scaleData.first_skill_order; %>
+            <% firstOrder.forEach((c, i) => { %>
               <% if (c === '/') { %>
-                <span class="dli-arrow-right"></span>
+                <div class="dli-arrow-wrapper">
+                  <span class="dli-arrow-right"></span>
+                  <span class="timeline-diff-time">
+                      <%= firstTimeline[i] %>
+                  </span>
+                </div>
               <% } else if (c === '0') { %>
-                <span class="attack-wrapper">
-                  <span class="attack">攻撃</span>
-                  <% allScaleData.forEach(data => { %>
-                    <span class="time-text" data-name="<%= data.name %>"><%= data.loop_skill_order[i] %>s</span>
-                  <% }); %>
-                </span>
+              <span class="attack-wrapper">
+                <span class="attack">攻撃</span>
+                <span class="time-text"><%= firstTimeline[i] %>s</span>
+              </span>
               <% } else if (c === '1') { %>
                 <span class="skill-wrapper">
                   <span class="skill">ｽｷﾙ1</span>
-                  <% allScaleData.forEach(data => { %>
-                    <span class="time-text" data-name="<%= data.name %>"><%= data.loop_skill_order[i] %>s</span>
-                  <% }); %>
+                  <span class="time-text"><%= firstTimeline[i] %>s</span>
                 </span>
               <% } else if (c === '2') { %>
                 <span class="skill-wrapper">
                   <span class="skill">ｽｷﾙ2</span>
-                  <% allScaleData.forEach(data => { %>
-                    <span class="time-text" data-name="<%= data.name %>"><%= data.loop_skill_order[i] %>s</span>
-                  <% }); %>
+                  <span class="time-text"><%= firstTimeline[i] %>s</span>
+                </span>
+              <% } %>
+            <% }); %>
+            <div class="dli-arrow-wrapper">
+              <span class="dli-arrow-right"></span>
+              <span class="timeline-diff-time">
+                  <%= scaleData.connectionDiff %>
+              </span>
+            </div>
+          </div>
+          <div class="loop">
+            <span class="loop-text">LOOP</span>
+            <% const loopOrder = page['loop_skill_order'].split(''); %>
+            <% const loopTimeline = scaleData.loop_skill_order; %>
+            <% loopOrder.forEach((c, i) => { %>
+              <% if (c === '/') { %>
+                <div class="dli-arrow-wrapper">
+                  <span class="dli-arrow-right"></span>
+                  <span class="timeline-diff-time">
+                      <%= loopTimeline[i] %>
+                  </span>
+                </div>
+              <% } else if (c === '0') { %>
+                <span class="attack-wrapper">
+                  <span class="attack">攻撃</span>
+                  <span class="time-text"><%= loopTimeline[i] %>s</span>
+                </span>
+              <% } else if (c === '1') { %>
+                <span class="skill-wrapper">
+                  <span class="skill">ｽｷﾙ1</span>
+                  <span class="time-text"><%= loopTimeline[i] %>s</span>
+                </span>
+              <% } else if (c === '2') { %>
+                <span class="skill-wrapper">
+                  <span class="skill">ｽｷﾙ2</span>
+                  <span class="time-text"><%= loopTimeline[i] %>s</span>
                 </span>
               <% } %> 
-            <% } %>            
+            <% }); %>
+          </div>
         </div>
+      <% }); %>
     </div>
+    <p class="s-paragraph">※硬直時間は完璧でないので参考程度に。スキル使用後に行動速度UPする効果は反映していません。</p>
 
     <h3 class="s-header--3">奥義</h3>
     <% if (page.passive3) { %>
@@ -183,7 +202,7 @@
     <% if (page.passive3) { %>
     </details>
     <% } %>
-    <p class="s-paragraph">※硬直時間は完璧でないので参考程度に。また行動速度0%で計算しています。硬直時間/(1+行動速度)で求められます。</p>
+    <p class="s-paragraph">※パッシブ等の行動速度UPを考慮していない行動速度0%のときの硬直時間です。</p>
 
     <h3 class="s-header--3">パッシブ</h3>
     <h4 class="s-header--4">奥義レベル3で開放</h4>
@@ -272,33 +291,26 @@
 </div>
 <script>
   document.addEventListener("DOMContentLoaded", () => {
-    const scaleSelector = document.querySelector('.scale-selector');
-    const timeTexts = document.querySelectorAll('.time-text');
-    const buttons = scaleSelector.querySelectorAll('button');
+    const scaleSlider = document.getElementById('scale-slider');
+    const scaleValueDisplay = document.getElementById('current-scale-value');
+    const timelineContainers  =document.querySelectorAll('.timeline-container');
+    const scales = <%- JSON.stringify(page.scalecheck.map(data => data.name)) %>;
 
-    const initialActive = scaleSelector.querySelector('button');
-    updateActiveScale(initialActive);
+    updateActiveScale(scales[scaleSlider.value]);
 
-    scaleSelector.addEventListener('click', (event) => {
-      if (event.target.tagName === 'BUTTON') {
-        updateActiveScale(event.target);
-      }
+    scaleSlider.addEventListener('input', () => {
+      const selectedValue = scales[scaleSlider.value];
+      scaleValueDisplay.textContent = selectedValue;
+      updateActiveScale(selectedValue);
     });
 
-    function updateActiveScale(buttonElement) {
-      const targetName = buttonElement.dataset.target;
-      timeTexts.forEach(text => {
-        text.classList.remove('active');
-      });
-
-      buttons.forEach(btn => {
-        btn.classList.remove('is_active');
-      });
-
-      buttonElement.classList.add('is_active');
-
-      document.querySelectorAll(`.time-text[data-name="${targetName}"]`).forEach(text => {
-        text.classList.add('active');
+    function updateActiveScale(targetName) {
+      timelineContainers.forEach(container => {
+        if (container.dataset.name === targetName) {
+          container.classList.add('active');
+        } else {
+          container.classList.remove('active');
+        }
       });
     }
   });

@@ -1,0 +1,135 @@
+// _modules.scss
+
+/* Timelines */
+.attack {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #f76163;
+    border-radius:50%;
+    background-color: #ffa2a2;
+    text-align: center;
+    line-height: 38px;
+}
+
+.attack-wrapper,
+.skill-wrapper {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #6161f7;
+    border-radius:50%;
+    background-color: #90d6ef;
+    text-align: center;
+    line-height: 38px;
+}
+
+.special {
+    width: 48px;
+    height: 48px;
+    border: 5px solid orange;
+    border-radius:50%;
+    background-color: #f7e58c;
+    text-align: center;
+    line-height: 38px;
+}
+
+.timeline-container {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 10px 0;
+    display: none;
+}
+
+.timeline-container.active {
+    display: flex;
+}
+
+.time-text,
+.timeline-diff-time {
+    font-size: 1.3rem;
+    color: #333;
+    margin-top: 5px;
+}
+
+.dli-arrow-wrapper {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    max-width: 50px;
+}
+
+.dli-arrow-right {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.timeline-diff-time {
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.loop {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    border: 3px solid #de6308;
+    border-radius: 10px;
+    padding: 5px 10px;
+    position: relative;
+    min-width: 80px;
+    height: 100px;
+}
+
+.first-section-wrapper {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.loop-text::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2215%22%20height%3D%2210%22%20viewBox%3D%220%2C%200%2C%2015%2C%2010%22%3E%3Cpath%20d%3D%22M0%200%20L0%2010%20L15%2010%20Z%22%20fill%3D%22%23de6208%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+    background-position: left 0 bottom 0;
+    background-repeat: no-repeat;
+    background-size: 15px 10px;
+    position: absolute;
+    margin: 0;
+    transform: translateX(-17px) translateY(4px);
+}
+
+.loop-text {
+    position:absolute;
+    top: 0;
+    right: 0;
+    font-size: 1em;
+    margin: 0;
+    padding: 0 3px 0 17px;
+    color: #de6308;
+    font-weight: bold;
+    transform: translateY(-14px) translateX(-1em);
+    background-color: white;
+    line-height: 17px;
+}

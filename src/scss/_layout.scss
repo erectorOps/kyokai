@@ -1,0 +1,63 @@
+// _layout.scss
+.style-wrapper {
+    color: #313131;
+    padding: 5px 10px 15px;
+    display: block;
+    word-break: break-all;
+    background-color: #fff;
+    max-width: 1440px;
+    margin:auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.table-scroll {
+    overflow-x: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.target-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: -1px;
+    margin-right: -1px;
+
+    @include media(tb) {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    @include media(pc) {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    @include media(xl) {
+        grid-template-columns: repeat(8, 1fr);
+    }
+
+
+    > li { 
+        text-align: center;
+        line-height: inherit;
+        border-right: 1px solid #b9b49e;
+        border-bottom: 1px solid #b9b49e;
+        padding: 4px 2px;
+    }
+}
