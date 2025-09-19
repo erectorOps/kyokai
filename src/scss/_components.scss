@@ -1,4 +1,5 @@
 // _components.scss
+@use "settings" as s;
 
 /* Tables */
 .freeze-table tr:nth-child(even) {
@@ -240,7 +241,7 @@
     list-style: none;
     grid-auto-flow: dense;
 
-    @include media(tb) {
+    @include s.media(tb) {
         grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     }
 
