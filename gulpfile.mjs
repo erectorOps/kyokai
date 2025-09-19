@@ -31,13 +31,15 @@ function testCategory(cb) {
 
 export const test = gulp.series(testCategory);
 
+const watcher = new Watch(kf);
+
 export default gulp.series(
   // clean,
-  gulp.parallel(cssSass, heroContents.createFuncs(), heroList.createFunc() ,imgFunc, jsFunc),
-  gulp.parallel(new Watch(kf).createFuncs())
+  gulp.parallel(cssSass, heroContents.createFuncs.bind(heroContents), heroList.createFunc() ,imgFunc, jsFunc),
+  gulp.parallel(watcher.createFuncs())
 )
  
 export const build = gulp.series(
   // clean,
-  gulp.parallel(cssSass, heroContents.createFuncs(), heroList.createFunc() ,imgFunc, jsFunc),
+  gulp.parallel(cssSass, heroContents.createFuncs.bind(heroContents), heroList.createFunc() ,imgFunc, jsFunc),
 );

@@ -32,7 +32,7 @@ const createWatchFiles = (kf) => {
         const heroList = new HeroList(kf);
         gulp.watch(srcPath.scss, gulp.series(cssSass))
         gulp.watch(srcPath.img, gulp.series(imgFunc, browserSyncReload))
-        gulp.watch(srcPath.hero, gulp.series(gulp.parallel(heroContents.createFuncs()), browserSyncReload))
+        gulp.watch(srcPath.hero, gulp.series(gulp.parallel(heroContents.createFuncs.bind(heroContents)), browserSyncReload))
         gulp.watch(srcPath.herolist, gulp.series(heroList.createFunc(), browserSyncReload))
         gulp.watch(srcPath.js, gulp.series(jsFunc, browserSyncReload))
     }
