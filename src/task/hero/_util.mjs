@@ -61,6 +61,32 @@ export const abiNameConvTable = {
   mp_recovery: "MP回復"
 }
 
+export const statisticConvArray = [
+  "無",
+  "HP",
+  "物理傷害",
+  "魔法傷害",
+  "物理防禦",
+  "魔法防禦",
+  "命中",
+  "格檔",
+  "物理爆擊",
+  "魔法爆擊",
+  "結束回復HP",
+  "結束回復MP",
+  "傷害吸取HP",
+  "治癒力",
+  "MP回復",
+  "MP消耗降低",
+  "胸圍",
+  "技能傷害百分比",
+  "技能傷害加成值",
+  "奧義傷害百分比",
+  "奧義傷害加成值",
+  "普攻傷害百分比",
+  "普攻傷害加成值"
+]
+
 export const statisticConvTable = {
   // 無,
   hp: "HP",

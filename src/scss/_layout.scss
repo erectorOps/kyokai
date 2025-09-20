@@ -63,3 +63,108 @@
         padding: 4px 2px;
     }
 }
+
+// ==========================================================================
+// #ガントチャート
+// ==========================================================================
+
+// モバイルファーストのレイアウト
+.gantt-chart {
+  max-width: 935px;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  border: none;
+}
+
+.gantt-header {
+  display: none;
+}
+
+.gantt-rows-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.gantt-item-wrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.gantt-info {
+  padding-right: 0;
+  width: 100%;
+  flex-basis: auto;
+  order: 1;
+}
+
+.gantt-chart-bar {
+  margin-top: 5px;
+  width: 100%;
+  max-width: 100%;
+  flex-basis: auto;
+  order: 3;
+}
+
+// PC向けのレイアウト
+@include s.media(sp) {
+  .gantt-chart {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+
+  .gantt-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .gantt-item-wrapper {
+    flex-direction: row;
+    padding: 0;
+    margin-bottom: 8px;
+    border: none;
+    box-shadow: none;
+  }
+
+  .gantt-rows-container {
+    flex-direction: row;
+  }
+
+  .gantt-info-header,
+  .gantt-info {
+    flex-basis: 320px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding-right: 15px;
+  }
+
+  .gantt-info {
+    order: 0;
+  }
+
+  .gantt-chart-bar {
+    order: 1;
+    margin-top: 0;
+    width: unset;
+  }
+
+  .gantt-chart-header-container,
+  .gantt-chart-bar {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 600px;
+
+  }
+}

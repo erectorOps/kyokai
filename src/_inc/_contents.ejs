@@ -129,8 +129,47 @@
         </div>
       <% }); %>
     </div>
-    <p class="s-paragraph">※硬直時間は完璧でないので参考程度に。スキル使用後に行動速度UPする効果は反映していません。</p>
+    
+    <h4 class="s-header--4">補足</h4>
+    <p class="s-paragraph">硬直時間は完璧でないので参考程度に。<br>
+      このタイムラインでは行動速度は常に一定で、スキルに行動速度UP効果があったとしても反映していません
+    </p>
 
+    <h3 class="s-header--3">MP増加イメージ</h3>
+    <div class="gantt-chart">
+      <div class="gantt-header">
+        <div class="gantt-info-header">
+          <div class="row-info">
+            <div class="row-label">経過秒</div>
+            <div class="row-note">内訳</div>
+          </div>
+        </div>
+        <div class="gantt-chart-header-container">
+          <div class="gantt-chart-header">
+            <div class="header-label">0%</div>
+            <div class="header-label">25%</div>
+            <div class="header-label">50%</div>
+            <div class="header-label">75%</div>
+            <div class="header-label">100%</div>
+            <div class="header-tick t0"></div>
+            <div class="header-tick t25"></div>
+            <div class="header-tick t50"></div>
+            <div class="header-tick t75"></div>
+            <div class="header-tick t100"></div>
+          </div>
+        </div>
+      </div>
+      <div class="gantt-rows-container">
+        </div>
+    </div>
+    <h4 class="s-header--4">補足</h4>
+    <p class="s-paragraph">
+      この表は「MPが100%に到達するタイミング」を示していますが、実際のオート操作では
+      <strong>直前にスキルや通常攻撃をした場合、その硬直が解けるまで奥義を撃ってくれません。</strong><br>
+      （例：1.8秒にスキル使用 → 2秒でMP満タン → しかし硬直中のため奥義発動は遅延）<br>
+      手動操作で奥義ボタンを連打すれば、この硬直をキャンセルして即発動が可能です。<br>
+      ※キャラクターによって異なるが1秒ほどで硬直が解けます。
+    </p>
     <h3 class="s-header--3">奥義</h3>
     <% if (page.passive3) { %>
       <table class="s-table">
@@ -202,7 +241,8 @@
     <% if (page.passive3) { %>
     </details>
     <% } %>
-    <p class="s-paragraph">※パッシブ等の行動速度UPを考慮していない行動速度0%のときの硬直時間です。</p>
+    <h4 class="s-header--4">補足</h4>
+    <p class="s-paragraph">パッシブ等の行動速度UPを考慮していない行動速度0%のときの硬直時間です。</p>
 
     <h3 class="s-header--3">パッシブ</h3>
     <h4 class="s-header--4">奥義レベル3で開放</h4>
@@ -314,4 +354,85 @@
       });
     }
   });
+</script>
+<script>
+  const ganttRowsContainer = document.querySelector('.gantt-rows-container');
+  const data = <%- JSON.stringify(page.mp_gantt) %>;
+  
+  // [
+  //       { time: 0, comment: 'これはとても長いコメントです。途中で切れてしまうと困るので、複数行に表示されるようにしたいです。これで解決ですね。', start: 0, duration: 250, label: 'MP+125' },
+  //       { time: 0, comment: '殲滅0秒のMP回復', start: 250, duration: 250, label: 'MP回復' },
+  //       { time: 1.5, comment: '次のスキル準備', start: 600, duration: 150, label: 'スキル準備' }
+  //     ]; 
+  /**
+   * ガントチャートに1行のデータを追加する関数
+   * @param {object} item - データのオブジェクト
+   * @param {number} item.time - 発生時間 (秒)
+   * @param {string} item.comment - 備考コメント
+   * @param {number} item.start - 開始位置 (0-1000)
+   * @param {number} item.duration - 期間 (0-1000)
+   * @param {string} item.label - タスクバー内のテキスト
+   */
+  function addGanttRow(item) {
+    const itemWrapper = document.createElement('div');
+    itemWrapper.classList.add('gantt-item-wrapper');
+
+    // 情報セクションを作成
+    const infoDiv = document.createElement('div');
+    infoDiv.classList.add('gantt-info');
+    const rowInfo = document.createElement('div');
+    rowInfo.classList.add('row-info');
+    const rowLabel = document.createElement('div');
+    rowLabel.classList.add('row-label');
+    rowLabel.textContent = `${item.time}秒`;
+    const rowNote = document.createElement('div');
+    rowNote.classList.add('row-note');
+    rowNote.textContent = item.comment;
+    rowInfo.appendChild(rowLabel);
+    rowInfo.appendChild(rowNote);
+    infoDiv.appendChild(rowInfo);
+    itemWrapper.appendChild(infoDiv);
+
+    // ガントチャートバーセクションを作成
+    const chartDiv = document.createElement('div');
+    chartDiv.classList.add('gantt-chart-bar');
+    
+    // タスクバー専用の目盛りを作成
+    const taskRuler = document.createElement('div');
+    taskRuler.classList.add('task-ruler');
+    taskRuler.innerHTML = `
+      <div class="header-label">0%</div>
+      <div class="header-label">25%</div>
+      <div class="header-label">50%</div>
+      <div class="header-label">75%</div>
+      <div class="header-label">100%</div>
+      <div class="header-tick t0"></div>
+      <div class="header-tick t25"></div>
+      <div class="header-tick t50"></div>
+      <div class="header-tick t75"></div>
+      <div class="header-tick t100"></div>
+    `;
+    chartDiv.appendChild(taskRuler);
+
+    const taskContainer = document.createElement('div');
+    taskContainer.classList.add('task-container');
+    const taskBar = document.createElement('div');
+    taskBar.classList.add('task-bar');
+    taskBar.style.width = `${item.duration / 10}%`;
+    taskBar.style.left = `${item.start / 10}%`;
+    taskBar.textContent = item.label;
+    if (item.label.includes('MP+')) {
+      taskBar.classList.add('mp-charge');
+    }
+    taskContainer.appendChild(taskBar);
+    chartDiv.appendChild(taskContainer);
+    itemWrapper.appendChild(chartDiv);
+
+    ganttRowsContainer.appendChild(itemWrapper);
+  }
+
+  // データの配列をループしてガントチャートを生成
+  data.forEach(item => {
+    addGanttRow(item);
+  }); 
 </script>

@@ -2,6 +2,8 @@ import Big from 'big.js';
 
 import { calcWaitTime, timeErrorMsg } from './_util.mjs';
 
+const mp_charge_array = [];
+
 const parseBuff = (buff, lv, info) => {
   if (buff["@_get_counter"] && buff["@_get_counter"] != "0") {
     //console.log("Error: get_counterのあるバフをパースしようとしてる [buff id="+buff["@_id"] + "]");
@@ -168,6 +170,8 @@ const parseBuff = (buff, lv, info) => {
         } else {
           text += "MP";
         }
+        if (info.target == "自身" || info.target === "我方全體" || (info.target === "技能對象" && (info.skillTarget === "自身" || info.skillTarget === "我方全體")))
+          mp_charge_array.push({mp_charge_time: parseInt(info.duration), mp_charge_value: val2.plus(val3.mul(lv)).toNumber(), mp_charge_if: info.if});
         text += parseAddSub(true);
           break;
 
@@ -804,6 +808,8 @@ export const parseSkill = (sid, lv, kf) => {
 
   let speed_value = 0;
 
+  mp_charge_array.length = 0;
+
   for (const postFix of [
     ['A', "{5}", "{6}"],  //  バフ属性名の末尾, バフ効果量挿入文字列, バフ効果時間挿入文字列
     ['B', "{7}", "{8}"], 
@@ -817,7 +823,7 @@ export const parseSkill = (sid, lv, kf) => {
       text = text.replace(postFix[2], buffDur);
       const buff = kf.BuffSetting.find(item => item['@_id'] === buffId);
       if (buff !== undefined) {
-        text = text.replace(postFix[1], parseBuff(buff, lv, {id: buffId, duration: buffDur, if: buffIf, target: buffTarget}));
+        text = text.replace(postFix[1], parseBuff(buff, lv, {id: buffId, duration: buffDur, if: buffIf, target: buffTarget, skillTarget: s["@_target"]}));
         if (buff['@_effect_type'] === '速度上升或下降') {
           speed_value += (buff["@_effect_val1"] !== undefined ? parseFloat(buff["@_effect_val1"]) : 0) 
             + (buff["@_counter_effect_val1"] !== undefined ? parseFloat(buff["@_counter_effect_val1"]) : 0);
@@ -843,7 +849,7 @@ export const parseSkill = (sid, lv, kf) => {
             text = text.replace(postFix[2], buffDur);
             const buff = kf.BuffSetting.find(item => item['@_id'] === buffId);
             if (buff !== undefined) {
-              text = text.replace(postFix[1], parseBuff(buff, lv, {id: buffId, duration: buffDur, if: buffIf, target: buffTarget}));
+              text = text.replace(postFix[1], parseBuff(buff, lv, {id: buffId, duration: buffDur, if: buffIf, target: buffTarget, skillTarget: s["@_target"]}));
             }
           }
       }
@@ -868,7 +874,14 @@ export const parseSkill = (sid, lv, kf) => {
     time2: "",
     icon: s['@_icon'],
     text: text.replace(/&#xD;/ig, "").replace(/&#xA;/ig, "<br>"),
-    name: s[`@_name`].replace(/&#x[AD];/ig, "").replace(/<ruby=(.+?)>(.+?)<\/ruby>/ig, "<ruby>$2<rt>$1</rt></ruby>")
+    name: s[`@_name`].replace(/&#x[AD];/ig, "").replace(/<ruby=(.+?)>(.+?)<\/ruby>/ig, "<ruby>$2<rt>$1</rt></ruby>"),
+    mp_charge_array: mp_charge_array.map(item => { 
+      return {
+        mp_charge_time: item.mp_charge_time,
+        mp_charge_value: item.mp_charge_value,
+        mp_charge_if: item.mp_charge_if
+      };
+    }),
   };
 
   if (s['@_freeze_time']) {

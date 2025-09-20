@@ -1,19 +1,21 @@
 @charset "utf-8";
 @use "sass:map";
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
-$mediatypes: (
-    'sp': 'screen and (min-width: 568px)',
-    'tb': 'screen and (min-width: 768px)',
-    'pc': 'screen and (min-width:1000px)',
-    'xl': 'screen and (min-width:1200px)'
+$breakpoints: (
+  'sp': 568px,
+  'tb': 768px,
+  'pc': 1000px,
+  'xl': '1200px'
 ) !default;
 
-@mixin media($mediatype) {
-    @media #{map.get($mediatypes, $mediatype)} {
-        @content;
+@mixin media($size) {
+  @if map.has-key($breakpoints, $size) {
+    @media (min-width: map.get($breakpoints, $size)) {
+      @content;
     }
+  }
 }
+
 
 :root {
     --link-color: #0066c0;
