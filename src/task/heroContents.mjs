@@ -509,6 +509,8 @@ export class HeroContents {
       root: includeRoot
     });
 
+    await fs.mkdir(distPath.hero, { recursive: true });
+
     return Promise.all(heroList.map(async hero => {
       const id = hero['@_id'];
 
