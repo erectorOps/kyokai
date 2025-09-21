@@ -154,8 +154,8 @@ a img {
   max-width: 935px;
   margin: 20px auto;
   background-color: #fff;
-  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: none;
+          box-shadow: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -192,10 +192,10 @@ a img {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px #b9b49e solid;
   border-radius: 5px;
-  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
 }
 
@@ -222,8 +222,10 @@ a img {
 
 @media (min-width: 568px) {
   .gantt-chart {
-    padding: 10px;
-    border: 1px solid #ddd;
+    padding: 10px 20px;
+    border: 1px #b9b49e solid;
+    -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
   }
   .gantt-header {
     width: 100%;
@@ -262,6 +264,9 @@ a img {
     -ms-flex-negative: 0;
         flex-shrink: 0;
     padding-right: 15px;
+  }
+  .gantt-info-header {
+    font-weight: bold;
   }
   .gantt-info {
     -webkit-box-ordinal-group: 1;
@@ -1010,13 +1015,6 @@ li img.s-img {
   white-space: nowrap;
   overflow-x: auto;
   padding: 10px 0;
-  display: none;
-}
-
-.timeline-container.active {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .time-text,
@@ -1201,16 +1199,14 @@ li img.s-img {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   width: 60px;
-  font-size: 0.9em;
-  color: #333;
+  text-align: right;
+  padding-right: 25px;
 }
 
 .row-note {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  font-size: 0.9em;
-  color: #666;
   white-space: normal;
   overflow: visible;
   text-overflow: initial;
