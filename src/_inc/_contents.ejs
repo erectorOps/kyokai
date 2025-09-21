@@ -42,8 +42,7 @@
     <h3 class="s-header--3">行動タイムライン</h3>
 
     <% 
-      const allScaleData  = page.scalecheck;
-      const scales = allScaleData.map(data => data.name);
+      const scales = page.scalecheck.map(data => data.name);
       const min = 0;
       const max = scales.length - 1;
     %>
@@ -59,75 +58,65 @@
     </div>
 
     <div class="table-scroll">
-      <% allScaleData.forEach(scaleData => { %>
-        <div class="timeline-container" data-name="<%= scaleData.name %>">
+        <div class="timeline-container">
           <div class="first-section-wrapper">
             <% const firstOrder = page['first_skill_order'].split(''); %>
-            <% const firstTimeline = scaleData.first_skill_order; %>
             <% firstOrder.forEach((c, i) => { %>
               <% if (c === '/') { %>
                 <div class="dli-arrow-wrapper">
                   <span class="dli-arrow-right"></span>
-                  <span class="timeline-diff-time">
-                      <%= firstTimeline[i] %>
-                  </span>
+                  <span class="timeline-diff-time"></span>
                 </div>
               <% } else if (c === '0') { %>
               <span class="attack-wrapper">
                 <span class="attack">攻撃</span>
-                <span class="time-text"><%= firstTimeline[i] %>s</span>
+                <span class="time-text"></span>
               </span>
               <% } else if (c === '1') { %>
                 <span class="skill-wrapper">
                   <span class="skill">ｽｷﾙ1</span>
-                  <span class="time-text"><%= firstTimeline[i] %>s</span>
+                  <span class="time-text"></span>
                 </span>
               <% } else if (c === '2') { %>
                 <span class="skill-wrapper">
                   <span class="skill">ｽｷﾙ2</span>
-                  <span class="time-text"><%= firstTimeline[i] %>s</span>
+                  <span class="time-text"></span>
                 </span>
               <% } %>
             <% }); %>
             <div class="dli-arrow-wrapper">
               <span class="dli-arrow-right"></span>
-              <span class="timeline-diff-time">
-                  <%= scaleData.connectionDiff %>
-              </span>
+              <span class="timeline-diff-time"></span>
             </div>
           </div>
           <div class="loop">
             <span class="loop-text">LOOP</span>
             <% const loopOrder = page['loop_skill_order'].split(''); %>
-            <% const loopTimeline = scaleData.loop_skill_order; %>
             <% loopOrder.forEach((c, i) => { %>
               <% if (c === '/') { %>
                 <div class="dli-arrow-wrapper">
                   <span class="dli-arrow-right"></span>
-                  <span class="timeline-diff-time">
-                      <%= loopTimeline[i] %>
-                  </span>
+                  <span class="timeline-diff-time"></span>
                 </div>
               <% } else if (c === '0') { %>
                 <span class="attack-wrapper">
                   <span class="attack">攻撃</span>
-                  <span class="time-text"><%= loopTimeline[i] %>s</span>
+                  <span class="time-text"></span>
                 </span>
               <% } else if (c === '1') { %>
                 <span class="skill-wrapper">
                   <span class="skill">ｽｷﾙ1</span>
-                  <span class="time-text"><%= loopTimeline[i] %>s</span>
+                  <span class="time-text"></span>
                 </span>
               <% } else if (c === '2') { %>
                 <span class="skill-wrapper">
                   <span class="skill">ｽｷﾙ2</span>
-                  <span class="time-text"><%= loopTimeline[i] %>s</span>
+                  <span class="time-text"></span>
                 </span>
               <% } %> 
             <% }); %>
           </div>
         </div>
-      <% }); %>
     </div>
     
     <h4 class="s-header--4">補足</h4>
@@ -333,25 +322,24 @@
   document.addEventListener("DOMContentLoaded", () => {
     const scaleSlider = document.getElementById('scale-slider');
     const scaleValueDisplay = document.getElementById('current-scale-value');
-    const timelineContainers  =document.querySelectorAll('.timeline-container');
-    const scales = <%- JSON.stringify(page.scalecheck.map(data => data.name)) %>;
+    const timelineContainer = document.querySelector('.timeline-container');
+    const timelineTexts = timelineContainer.querySelectorAll('.time-text, .timeline-diff-time');
+    const allScaleData = <%- JSON.stringify(page.scalecheck) %>;
 
-    updateActiveScale(scales[scaleSlider.value]);
+    updateActiveScale(allScaleData[scaleSlider.value]);
 
     scaleSlider.addEventListener('input', () => {
-      const selectedValue = scales[scaleSlider.value];
-      scaleValueDisplay.textContent = selectedValue;
-      updateActiveScale(selectedValue);
+      const selectedScale = allScaleData[scaleSlider.value];
+      scaleValueDisplay.textContent = selectedScale.name;
+      updateActiveScale(selectedScale);
     });
 
-    function updateActiveScale(targetName) {
-      timelineContainers.forEach(container => {
-        if (container.dataset.name === targetName) {
-          container.classList.add('active');
-        } else {
-          container.classList.remove('active');
-        }
-      });
+    function updateActiveScaleOne(element, newData) {
+      element.textContent = newData;
+    }
+
+    function updateActiveScale(scaleData) {
+      timelineTexts.forEach((element, i) => updateActiveScaleOne(element, scaleData.mergedTimeline[i]));
     }
   });
 </script>

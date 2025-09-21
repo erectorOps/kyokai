@@ -533,13 +533,7 @@ class ScaleCheck  {
     this.crit = new Big(0);
     this.skill1 = new Big(0);
     this.skill2 = new Big(0);
-    this.first_skill_order = [];
-    this.loop_skill_order = [];
-    this.attackText = "";
-    this.critText = "";
-    this.skill1Text = "";
-    this.skill2Text = "";
-    this.connectionDiff = "";
+    this.mergedTimeline = [];
   }
 
   build(scale, json) {
@@ -549,21 +543,30 @@ class ScaleCheck  {
     this.skill1 = calcWaitTime(json.skill1.freezeTime, json.skill1.waitShowTime, scale);
     this.skill2 = calcWaitTime(json.skill2.freezeTime, json.skill2.waitShowTime, scale);
 
-    this.attackText = this.getAttackText();
-    this.critText = this.getCritText();
-    this.skill1Text = this.getSkill1Text();
-    this.skill2Text = this.getSkill2Text();
+    const first_result = this.makeTimeline(json.first_skill_order);
+    const first_timeline = first_result.timeline;
+    const loop_result = this.makeTimeline(json.loop_skill_order, first_result.totalTime);
+    const loop_timeline = loop_result.timeline;
 
-    const result = this.makeTimeline(json.first_skill_order);
-    this.first_skill_order = result.timeline;
-
-    const loop_result = this.makeTimeline(json.loop_skill_order, result.totalTime);
-    this.loop_skill_order = loop_result.timeline;
-
-    const firstLastTime = new Big(this.first_skill_order[this.first_skill_order.length - 1]);
-    const loopFirstTime = new Big(this.loop_skill_order[0]);
+    const firstLastTime = new Big(first_timeline[first_timeline.length - 1]);
+    const loopFirstTime = new Big(loop_timeline[0]);
     const connectionDiff = loopFirstTime.minus(firstLastTime).toFixed(1, Big.roundHalfEven);
-    this.connectionDiff = `+${connectionDiff}s`;
+    this.mergedTimeline = [
+      ...first_timeline.map(item => {
+        if (!item.endsWith('s')) { return item + 's'; }
+        return item;
+      }), 
+      `+${connectionDiff}s`, 
+      ...loop_timeline.map(item => {
+        if (!item.endsWith('s')) { return item + 's'; }
+        return item;
+      })
+    ];
+
+    this.attack = this.getAttackText();
+    this.crit = this.getCritText();
+    this.skill1 = this.getSkill1Text();
+    this.skill2 = this.getSkill2Text();
   }
 
   getAttackText() {
