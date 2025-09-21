@@ -134,172 +134,186 @@
 %>
         </tbody>
     </table>
-    <script>
-        $(function() {
-
-            function switchTarget($container, fromRange, toRange) {
-                const $ul = $container.parent();
-
-                // 0個選択 (全て状態) の場合
-                if (!toRange) {
-                    $ul.find('li[data-range]').show();
-                    return;
-                }
-
-                // 引き継ぎ: fromRange の選択を toRange に移す
-                if (fromRange) {
-                    $ul.find('li[data-range="' + fromRange + '"]').each(function() {
-                        if ($(this).attr('data-check') === "1") {
-                            const name = $(this).data('name');
-                            $ul.find('li[data-range="' + toRange + '"][data-name="' + name + '"]')
-                                    .attr('data-check', "1");
-                        }
-                    });
-
-                    // 元のをリセット
-                    $ul.find('li[data-range="' + fromRange + '"]').attr('data-check', "0");
-                }
-
-                // 表示切り替え
-                $ul.find('li[data-range]').each(function() {
-                    const liRange = $(this).data('range');
-                    if (liRange === toRange) {
-                        $(this).show();
-                    } else {
-                        $(this).hide();
-                        $(this).attr('data-check', "0");
-                    }
-                })
-            }
-
-            function hero_search() {
-                const conditions = {};
-
-                // --- フィルター条件の収集 ---
-                $(".filter_container").each(function() {
-                    const current_key = $(this).data("filter");
-                    $(this).find("li[data-check='1']").each(function() {
-                        if (!conditions[current_key]) conditions[current_key] = [];
-
-                        const vals = String($(this).data("val")).split(",");
-
-                        if (current_key === "support" || current_key === "sk_type") {
-                            // ボタンごとの集合 [[0], [1,2], [3,4,5]]
-                            conditions[current_key].push(vals);
-                        } else {
-                            // 通常 [0, 1, 2, 3, 4]
-                            conditions[current_key].push(...vals);
-                        }
-                    })
-                });
-
-                // --- OR 判定関数 ---
-                const matchOR = (dataArray, conditionArray) => dataArray.some(v => conditionArray.includes(v));
-
-                // --- AND 判定関数 (ボタン内 OR x ボタン間 AND)---
-                const matchAND = (dataArray, conditionGroups) =>
-                    conditionGroups.every(group => matchOR(dataArray, group));
-
-                let total_count = 0;
-
-                $(".hero_container").each(function() {
-                    const container_val = $(this).data("val");
-                    let disp_count = 0;
-
-                    $(this).find("li").each(function() {
-                        let disp_bool = true;
-
-                        for (const type in conditions) {
-                            const current_data = String($(this).data(type)).split(',');
-
-                            if (type === "gacha_type" || type === "ub_type") {
-                                // OR 条件
-                                if (!matchOR(current_data, conditions[type])) {
-                                    disp_bool = false;
-                                    break;
-                                }
-                            } 
-                            else if (type == "support" || type == "sk_type") {
-                                // AND 条件 (ボタン内 OR x ボタン間 AND)
-                                if (!matchAND(current_data, conditions[type])) {
-                                    disp_bool = false;
-                                    break;
-                                }
-                            }
-                            else {
-                                // 完全一致
-                                if (!conditions[type].includes(current_data[0])) {
-                                    disp_bool = false;
-                                    break;
-                                }
-                            }
-                        }
-
-                        $(this).attr("data-disp", disp_bool ? 1 : 0);
-                        if (disp_bool) disp_count++;
-                    });
-
-                    if (container_val != undefined) {
-                        const container_tab = $(this).data("tab") || "";
-                        const $hero_tr = $(".hero_tr" + (container_tab ? `[data-tab='${container_tab}']` : "") + `[data-val='${container_val}']`);
-                        $hero_tr.attr("data-disp_val", disp_count ? 1 : 0);
-                    }
-
-                    total_count += disp_count;
-                });
-
-                $(".no_result").toggle(total_count === 0);
-            }
-
-            function tabSwitch($tab) {
-                const current_check = $tab.attr("data-check");
-                if (current_check == 0) {
-                    $tab.attr("data-check", 1);
-                    $tab.siblings().attr("data-check", 0);
-
-                    const current_tab = $tab.data("tab");
-
-                    $(".hero_tr").each(function() {
-                        if ($(this).data("tab") === current_tab) {
-                            $(this).attr("data-disp_tab", 1);
-                        } else {
-                            $(this).attr("data-disp_tab", 0);
-                        }
-                    });
-                }
-            }
-
-            // --- Event bindings ---
-
-            $('.target-button').on('click', function() {
-                const $container = $(this).closest('.target-container');
-                const $buttons = $container.find('.target-button');
-                const $current = $buttons.filter('.active');
-                const fromRange = $current.data('range');
-                const toRange = $(this).data('range');
-
-                if ($current.is($(this))) {
-                    $current.removeClass('active');
-                    switchTarget($container, fromRange, null);
-                } else {
-                    $(this).addClass('active').siblings().removeClass('active');
-                    switchTarget($container, fromRange, toRange);
-                }
-
-                hero_search();
-            });
-
-            $(".filter_container > li").click(function() {
-                const current_check = $(this).attr("data-check");
-                $(this).attr("data-check", current_check == 0 ? 1 : 0);
-                hero_search();
-            });
-
-            $(".tab_container > li").click(function() {
-                tabSwitch($(this));
-            });
-
-            $(".tab_container > li:first-child").trigger("click");
-        });
-    </script>
 </div>
+
+<script>
+
+function switchTarget(container, fromRange, toRange) {
+    const ul = container.parentElement;
+    const lis = ul.querySelectorAll('li[data-range]');
+
+    // 0個選択 (全て状態) の場合
+    if (!toRange) {
+        lis.forEach(li => {
+            li.style.display = ''; // show
+        });
+        return;
+    }
+
+    // 引き継ぎ: fromRange の選択を toRange に移す
+    if (fromRange) {
+        ul.querySelectorAll(`li[data-range="${fromRange}"]`).forEach(li => {
+            if (li.getAttribute('data-check') === "1") {
+                const name = li.dataset.name;
+                const targetLi = ul.querySelector(`li[data-range="${toRange}"][data-name="${name}"]`);
+                if (targetLi) {
+                    targetLi.setAttribute('data-check', "1");
+                }
+            }
+        });
+
+        // 元のをリセット
+        ul.querySelectorAll(`li[data-range="${fromRange}"]`).forEach(li => {
+            li.setAttribute('data-check', "0");
+        });
+    }
+
+    // 表示切り替え
+    lis.forEach(li => {
+        const liRange = li.dataset.range;
+        if (liRange === toRange) {
+            li.style.display = '';
+        } else {
+            li.style.display = 'none';
+            li.setAttribute('data-check', "0");
+        }
+    });
+}
+
+function hero_search() {
+    const conditions = {};
+
+    // --- フィルター条件の収集 ---
+    document.querySelectorAll(".filter_container").forEach(container => {
+        const currentKey = container.dataset.filter;
+        container.querySelectorAll("li[data-check='1']").forEach(li => {
+            if (!conditions[currentKey]) conditions[currentKey] = [];
+            const vals = li.dataset.val.split(",");
+
+            if (currentKey === "support" || currentKey === "sk_type") {
+                // ボタンごとの集合 [[0], [1,2], [3,4,5]]
+                conditions[currentKey].push(vals);
+            } else {
+                // 通常 [0, 1, 2, 3, 4]
+                conditions[currentKey].push(...vals);
+            }
+        });
+    });
+
+    // --- OR 判定関数 ---
+    const matchOR = (dataArray, conditionArray) => dataArray.some(v => conditionArray.includes(v));
+
+    // --- AND 判定関数 (ボタン内 OR x ボタン間 AND)---
+    const matchAND = (dataArray, conditionGroups) =>
+        conditionGroups.every(group => matchOR(dataArray, group));
+
+    let total_count = 0;
+
+    document.querySelectorAll(".hero_container").forEach(container => {
+        const containerVal = container.dataset.val;
+        let disp_count = 0;
+
+        container.querySelectorAll("li").forEach(li => {
+            let disp_bool = true;
+
+            for (const type in conditions) {
+                const currentData = li.dataset[type].split(',');
+
+                if (type === "gacha_type" || type === "ub_type") {
+                    if (!matchOR(currentData, conditions[type])) {
+                        disp_bool = false;
+                        break;
+                    }
+                } else if (type === "support" || type === "sk_type") {
+                    if (!matchAND(currentData, conditions[type])) {
+                        disp_bool = false;
+                        break;
+                    }
+                } else {
+                    if (!conditions[type].includes(currentData[0])) {
+                        disp_bool = false;
+                        break;
+                    }
+                }
+            }
+
+            li.setAttribute("data-disp", disp_bool ? 1 : 0);
+            if (disp_bool) disp_count++;
+        });
+
+        if (containerVal !== undefined) {
+            const containerTab = container.dataset.tab || "";
+            const heroTrSelector = `.hero_tr${containerTab ? `[data-tab='${containerTab}']` : ""}[data-val='${containerVal}']`;
+            const heroTr = document.querySelector(heroTrSelector);
+            if (heroTr) {
+                heroTr.setAttribute("data-disp_val", disp_count ? 1 : 0);
+            }
+        }
+        total_count += disp_count;
+    });
+
+    document.querySelector(".no_result").style.display = total_count === 0 ? 'block' : 'none';
+}
+
+/**
+ * @param {HTMLElement} tab
+ */
+function tabSwitch(tab) {
+    const current_check = tab.getAttribute("data-check");
+    if (current_check == 0) {
+        tab.setAttribute("data-check", 1);
+        tab.parentElement.querySelectorAll('li').forEach(sibling => {
+            if (sibling !== tab) {
+                sibling.setAttribute("data-check", 0);
+            }
+        });
+
+        const current_tab = tab.dataset.tab;
+        document.querySelectorAll(".hero_tr").forEach(tr => {
+            if (tr.dataset.tab === current_tab) {
+                tr.setAttribute("data-disp_tab", 1);
+            } else {
+                tr.setAttribute("data-disp_tab", 0);
+            }
+        });
+    }
+}
+
+// --- Event bindings ---
+document.querySelectorAll('.target-button').forEach(button => {
+    button.addEventListener('click', function() {
+        const container = this.closest('.target-container');
+        const buttons = container.querySelectorAll('.target-button');
+        const current = container.querySelector('.target-button.active');
+        const fromRange = current ? current.dataset.range : null;
+        const toRange = this.dataset.range;
+
+        if (current && current === this) {
+            current.classList.remove('active');
+            switchTarget(container, fromRange, null);
+        } else {
+            buttons.forEach(btn => btn.classList.remove('active'));
+            this.classList.add('active');
+            switchTarget(container, fromRange, toRange);
+        }
+
+        hero_search();
+    });
+});
+
+document.querySelectorAll('.filter_container > li').forEach(li => {
+    li.addEventListener('click', function() {
+        const current_check = this.getAttribute("data-check");
+        this.setAttribute("data-check", current_check == 0 ? 1 : 0);
+        hero_search();
+    });
+});
+
+document.querySelectorAll(".tab_container > li").forEach(li => {
+    li.addEventListener("click", function() {
+        tabSwitch(this);
+    });
+});
+
+document.querySelector(".tab_container > li:first-child").click();
+</script>

@@ -3,43 +3,19 @@ import ejs from 'ejs';
 import { Big } from 'big.js';
 import { promises as fs } from 'fs';
 import path from 'path';
+import { minify } from 'html-minifier';
 
 import { getAtkSpeed, getPosition, abiNameConvTable, statisticConvArray, statisticConvTable, timeErrorMsg, parseIntOnlyString, calcWaitTime, toBig } from './hero/_util.mjs';
 import { calcPassive } from './hero/_calcPassive.mjs';
 import { parseSkill } from './hero/_parseSkill.mjs';
 import { srcBase, srcPath, distPath } from './_config.mjs';
+import { ScaleCheck } from './hero/_scaleCheck.mjs';
 import log from 'fancy-log';
-import { Exception } from 'sass';
+import { MpGantt } from './hero/_mpGantt.mjs';
+
 
 const paramNameList = ["hp","atk","matk", "def", "mdef", "atk_crit", "matk_crit", "hit", "block", "end_hp_recovery", "end_mp_recovery", "dmg_suck_hp", "healing_power", "mp_recovery", "mp_cost_down"];
 const convNameList = ["HP", "物理攻撃", "魔法攻撃", "物理防御", "魔法防御", "物理クリティカル", "魔法クリティカル","命中", "ブロック", "HP回復", "MP回復", "HP吸収", "治癒", "MPチャージ", "MP消費減少"];
-
-const mpChargedWeapons = [
-  { id: "4361", mp_recovery: 29, mp_charge_time: 3, mp_charge_value: 300, chara_id: 2162, equip_type: "專武" }, // ハワイアンバーガーセット
-  { id: "4362", mp_recovery: 0, mp_charge_time: 3, mp_charge_value: 200, chara_id: 2168, equip_type: "專武" }, // にじげんファン
-//  { id: "4363", mp_recovery: 0, mp_charge_time: 0, mp_charge_value: 0, chara_id: 2169, equip_type: "專武" }, // にじげんサクション
-  { id: "4364", mp_recovery: 29, mp_charge_time: 3, mp_charge_value: 250, chara_id: 2170, equip_type: "專武" }, // にじげんチョーク
-  { id: "4365", mp_recovery: 29, mp_charge_time: 20, mp_charge_value: 50, chara_id: 2214, equip_type: "專武" }, // 脱力の実
-//  { id: "4366", mp_recovery: 0, mp_charge_time: 0, mp_charge_value: 0, chara_id: 2215, equip_type: "專武" }, // イルミナ・ソード
-  { id: "4367", mp_recovery: 0, mp_charge_time: 3, mp_charge_value: 200, chara_id: 2216, equip_type: "專武" }, // 首領のカトラス
-//  { id: "4368", mp_recovery: 0, mp_charge_time: 0, mp_charge_value: 0, chara_id: 2217, equip_type: "專武" }, // 呪殺のタライ
-  { id: "4369", mp_recovery: 29, mp_charge_time: 3, mp_charge_value: 250, chara_id: 2218, equip_type: "專武" }, // 仙蜜草の袋
-//  { id: "4370", mp_recovery: 0, mp_charge_time: 0, mp_charge_value: 0, chara_id: 2239, equip_type: "專武" }, // 平天＆渾鉄棍
-//  { id: "4371", mp_recovery: 29, mp_charge_time: 0, mp_charge_value: 0, chara_id: 2251, equip_type: "專武" }, // カジノボーイ・バニーズ
-
-  // ここから殲滅シリーズ
-  { id: "4311", mp_recovery: 0, mp_charge_time: 3, mp_charge_value: 200, equip_type: "斬", atk_attr: "物理" }, // 殲滅の剣
-  { id: "4312", mp_recovery: 0, mp_charge_time: 3, mp_charge_value: 200, equip_type: "斬", atk_attr: "魔法" }, // 殲滅のチャクラム
-  { id: "4313", mp_recovery: 0, mp_charge_time: 3, mp_charge_value: 200, equip_type: "突", atk_attr: "物理" }, // 殲滅の槍
-  { id: "4314", mp_recovery: 0, mp_charge_time: 3, mp_charge_value: 200, equip_type: "突", atk_attr: "魔法" }, // 殲滅のワンド
-  { id: "4315", mp_recovery: 0, mp_charge_time: 3, mp_charge_value: 200, equip_type: "打", atk_attr: "物理" }, // 殲滅の篭手
-  { id: "4316", mp_recovery: 29, mp_charge_time: 3, mp_charge_value: 200, equip_type: "打", atk_attr: "魔法" }, // 殲滅のロッド
-  { id: "4317", mp_recovery: 0, mp_charge_time: 3, mp_charge_value: 200, equip_type: "射", atk_attr: "物理" }, // 殲滅のクロスボウ
-  { id: "4318", mp_recovery: 0, mp_charge_time: 3, mp_charge_value: 200, equip_type: "射", atk_attr: "魔法" }, // 殲滅の弾丸
-  { id: "4319", mp_recovery: 0, mp_charge_time: 3, mp_charge_value: 200, equip_type: "投", atk_attr: "物理" }, // 殲滅の斧
-  { id: "4320", mp_recovery: 20, mp_charge_time: 3, mp_charge_value: 200, equip_type: "投", atk_attr: "魔法" }, // 殲滅の魔榴弾
-
-]
 
 export class HeroContents {
   constructor(kf) {
@@ -62,197 +38,6 @@ export class HeroContents {
         result[convNameList[i]][lv-1] = `${cv}`;
       }
     }
-  }
-
-  getWeaponMPRecovery(json) {
-    const null_value = { mp_recovery: 0, mp_charge_time: 0, mp_charge_value: 0 };
-
-    for (const w of mpChargedWeapons) {
-      if (w.chara_id === json.id) {
-        return { mp_recovery: w.mp_recovery, mp_charge_time: w.mp_charge_time, mp_charge_value: w.mp_charge_value };
-      }
-      else if (w.equip_type === json.equip_type && w.atk_attr === json.atk_attr) {
-        return { mp_recovery: w.mp_recovery, mp_charge_time: w.mp_charge_time, mp_charge_value: w.mp_charge_value };
-      }
-    }
-
-    return null_value;
-  }
-
-  makeMpGantt(json) {
-
-    const skill_order = json.first_skill_order.split("/");
-
-    const scheduledEvents = [];
-
-    const kf = this.kf;
-    const weapon = this.getWeaponMPRecovery(json);
-
-    // 攻撃orスキルを実行した際のMPチャージ量を計算
-    // (キャラクターのMPチャージ) + (使用武器のMPチャージ)
-
-
-    const finalMpRecovery = parseInt(json.mp_recovery) + weapon.mp_recovery;
-
-    // MP継続回復(殲滅など武器の効果)
-    for (let i = 0; i <= weapon.mp_charge_time; i++) {
-      scheduledEvents.push({time: i, mpChange: weapon.mp_charge_value, comment: `${(weapon.equip_type == "専武" ? "専用" : "殲滅")}武器のMP継続回復`});
-    }
-
-    // バニティアのMP回復(1秒後)
-    if (json.id !== "2119") {
-      scheduledEvents.push({ time: 1, mpChange: 210, comment: 'バニティアの味方全体MP回復' });
-    }
-
-    const attackEvent = [];
-    const skillEvent = [];
-
-    // パッシブのMP回復の計算
-    const executePassiveSkill = (passiveSkill, name) => {
-      // パッシブスキルのMPチャージ効果をループ処理で登録
-      passiveSkill.mp_charge_array.forEach(chargeEvent => {
-        const chargeTime = chargeEvent.mp_charge_time;
-        const chargeValue = chargeEvent.mp_charge_value;
-        const chargeIf = chargeEvent.mp_charge_if;
-
-        // バトル開始時発動だけ 0秒から mp_charge_time 秒後まで、毎秒効果を登録
-        // 多分ないけど「最初から」も登録
-        // ループの開始を i = 0 とすることで、0秒からの発動を保証
-        if (chargeIf === "戰鬥開場" || chargeIf === "第一擊觸發") {
-          for (let i = 0; i <= chargeTime; i++) {
-            scheduledEvents.push({
-              time: i,
-              mpChange: chargeValue,
-              comment: `${name}によるMP回復（${i}秒目）`,
-            });
-          }
-        }
-        // 自身のスキル発動後
-        else if (chargeIf.indexOf("自身施放技能") !== -1) {
-          for (let i = 0; i < chargeTime + 1; i++) {
-            skillEvent.push((t) => ({
-              time: t + i, 
-              mpChange: chargeValue, 
-              comment: `${name}による自身のスキル使用後MP回復`
-            }));
-          }
-        }
-        // 味方のスキル発動後
-        else if (chargeIf.indexOf("我方施放技能") !== -1) {
-          for (let i = 0; i < chargeTime + 1; i++) {
-            skillEvent.push((t) => ({
-              time: t + i,
-              mpChange: chargeValue * 6,
-              comment: `${name}による味方のスキル使用時MP回復(6人使用想定)`
-            }));
-          }
-        }
-        // 自身の通常攻撃後
-        else if (chargeIf.indexOf("自身施放普通攻擊") !== -1) {
-          for (let i = 0; i < chargeTime + 1; i++) {
-            attackEvent.push((t) => ({
-              time: t + i,
-              mpChange: chargeValue,
-              comment: `${name}による自身の通常攻撃時MP回復`
-            }));
-          }
-        }
-      });
-    };
-
-    executePassiveSkill(json.passive1, "パッシブ1");
-    executePassiveSkill(json.passive2, "パッシブ2");
-
-    if (json.passive3) {
-      executePassiveSkill(json.passive3, "パッシブ3");
-    }
-
-    // アクティブスキルのMP回復計算
-    const allTimelines = [];
-
-    json.scalecheck.forEach(scale => {
-      const currentScheduledEvents = structuredClone(scheduledEvents);
-      let currentTime = 0;
-
-      const executeSkill = (skill, name, ct) => {
-        skill.mp_charge_array.forEach(chargeEvent => {
-          const chargeTime = chargeEvent.mp_charge_time;
-          const chargeValue = chargeEvent.mp_charge_value;
-          const chargeIf = chargeEvent.mp_charge_if;
-
-          if (chargeIf === "擊倒敵人") 
-            return;
-
-          if (chargeTime === 0 | chargeTime === 1) {
-            currentScheduledEvents.push({
-              time: ct + 1,
-              mpChange: chargeValue,
-              comment: `${name}のMP回復`,
-            });
-          } else {
-            for (let i = 1; i <= chargeTime; i++) {
-              currentScheduledEvents.push({
-                time: ct + i,
-                mpChange: chargeValue,
-                comment: `${name}のMP継続回復`,
-              });
-            }
-          }
-        });
-      };
-
-      skill_order.forEach((actIndex, i) => {
-        
-        if (actIndex === "0") {
-          currentScheduledEvents.push({time: currentTime, mpChange: finalMpRecovery, comment: `攻撃によるMPチャージ`});
-          attackEvent.forEach(func => currentScheduledEvents.push(func(currentTime)))
-          currentTime += parseFloat(scale.attack);
-        }
-        else if (actIndex === "1") {
-          currentScheduledEvents.push({time: currentTime, mpChange: finalMpRecovery, comment: `スキル1によるMPチャージ`});
-          skillEvent.forEach(func => currentScheduledEvents.push(func(currentTime)));
-          executeSkill(json.awake_skill1 ?? json.skill1, "スキル1", currentTime);
-          currentTime += parseFloat(scale.skill1);
-        }
-        else if (actIndex === "2") {
-          currentScheduledEvents.push({time: currentTime, mpChange: finalMpRecovery, comment: `スキル2によるMPチャージ`});
-          skillEvent.forEach(func => currentScheduledEvents.push(func(currentTime)));
-          executeSkill(json.awake_skill2 ?? json.skill2, "スキル2", currentTime);
-          currentTime += parseFloat(scale.skill2);
-        }
-      });
-
-      // 時間順にソート
-      currentScheduledEvents.sort((a, b) => a.time - b.time);
-
-
-      // シミュレート
-      let currentMp = 0;
-      const finalTimeline = [];
-      const maxMp = 1000;
-
-      for (const event of currentScheduledEvents) {
-        if (currentMp >= maxMp) {
-          break;
-        }
-
-        const startMp = currentMp;
-        currentMp += event.mpChange;
-        finalTimeline.push({
-          time: parseFloat(event.time.toFixed(1)),
-          comment: event.comment,
-          start: startMp,
-          duration: event.mpChange,
-          label: `MP+${event.mpChange}`
-        });
-      }
-
-      allTimelines.push({
-        name: scale.name,
-        timeline: finalTimeline
-      });
-    });
-    return allTimelines;
   }
 
   processHeroData(hero) {
@@ -503,7 +288,7 @@ export class HeroContents {
     const limit3Entity = kf.HeroLimitOverSetting.find(item => item['@_group_id'] === group && item['@_over_times'] === "3");
     json.need_items = limit3Entity.key_item_id.filter(x => x !== "0");
 
-    json.mp_gantt = this.makeMpGantt(json);
+    json.mp_gantt = MpGantt.generateTimelines(json);
     
     return json;
   }
@@ -525,102 +310,21 @@ export class HeroContents {
 
     return Promise.all(heroList.map(async hero => {
       const id = hero['@_id'];
-
       const json = this.processHeroData(hero);
-
       const html = renderFunc({json: json});
 
-      await fs.writeFile(path.join(distPath.hero, `${id}.html`), html, "utf-8");
+      const minifiedHtml = minify(html, {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true,
+        minifyCSS: true,
+        minifyJS: true
+      });
+
+      await fs.writeFile(path.join(distPath.hero, `${id}.html`), minifiedHtml, "utf-8");
       log(`Created ${id}.html`);
     }));
-  }
-}
-
-
-
-class ScaleCheck  {
-  constructor() {
-    this.name = "";
-    this.attack = new Big(0);
-    this.crit = new Big(0);
-    this.skill1 = new Big(0);
-    this.skill2 = new Big(0);
-    this.mergedTimeline = [];
-  }
-
-  build(scale, json) {
-    this.name = new Big(scale).mul(100).toFixed(0) + "%";
-    this.attack = calcWaitTime(json.atkskill.freezeTime, json.atkskill.waitShowTime, scale);
-    this.crit = calcWaitTime(json.atkskill.freezeTime, json.atkskill.crit_waitShowTime, scale);
-    this.skill1 = calcWaitTime(json.skill1.freezeTime, json.skill1.waitShowTime, scale);
-    this.skill2 = calcWaitTime(json.skill2.freezeTime, json.skill2.waitShowTime, scale);
-
-    const first_result = this.makeTimeline(json.first_skill_order);
-    const first_timeline = first_result.timeline;
-    const loop_result = this.makeTimeline(json.loop_skill_order, first_result.totalTime);
-    const loop_timeline = loop_result.timeline;
-
-    const firstLastTime = new Big(first_timeline[first_timeline.length - 1]);
-    const loopFirstTime = new Big(loop_timeline[0]);
-    const connectionDiff = loopFirstTime.minus(firstLastTime).toFixed(1, Big.roundHalfEven);
-    this.mergedTimeline = [
-      ...first_timeline.map(item => {
-        if (!item.endsWith('s')) { return item + 's'; }
-        return item;
-      }), 
-      `+${connectionDiff}s`, 
-      ...loop_timeline.map(item => {
-        if (!item.endsWith('s')) { return item + 's'; }
-        return item;
-      })
-    ];
-
-    this.attack = this.getAttackText();
-    this.crit = this.getCritText();
-    this.skill1 = this.getSkill1Text();
-    this.skill2 = this.getSkill2Text();
-  }
-
-  getAttackText() {
-    return this.attack.toFixed(2, Big.roundUp);
-  }
-
-  getCritText() {
-    return this.crit.toFixed(2, Big.roundUp);
-  }
-
-  getSkill1Text() {
-    return this.skill1.toFixed(2, Big.roundUp);
-  }
-
-  getSkill2Text() {
-    return this.skill2.toFixed(2, Big.roundUp);
-  }
-
-  makeTimeline(order, totalTime) {
-    const timeline = [];
-    if (totalTime === undefined) {
-      totalTime = new Big(0);
-    }
-    order.split("").forEach((v, i) => {
-      if (v.trim() === "1") {
-        timeline.push(totalTime.toFixed(1, Big.roundHalfEven));
-        totalTime = totalTime.plus(this.skill1);
-      } else if (v.trim() === "2") {
-        timeline.push(totalTime.toFixed(1, Big.roundHalfEven));
-        totalTime = totalTime.plus(this.skill2);
-      } else if (v.trim() === "0") {
-        timeline.push(totalTime.toFixed(1, Big.roundHalfEven));
-        totalTime = totalTime.plus(this.attack);
-      } else {
-        if (i > 0) {
-          const diff = totalTime.minus(new Big(timeline[timeline.length - 1])).toFixed(1, Big.roundHalfEven);
-          timeline.push(`+${diff}s`);
-        } else {
-          timeline.push("----");
-        }
-      }
-    });
-    return {timeline: timeline, totalTime: totalTime};
   }
 }
