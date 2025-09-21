@@ -73,7 +73,7 @@
   max-width: 935px;
   margin: 20px auto;
   background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: none;
   display: flex;
   flex-wrap: wrap;
   padding: 0;
@@ -96,9 +96,9 @@
   width: 100%;
   flex-direction: column;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px #b9b49e solid;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
 }
 
@@ -120,8 +120,9 @@
 // PC向けのレイアウト
 @include s.media(sp) {
   .gantt-chart {
-    padding: 10px;
-    border: 1px solid #ddd;
+    padding: 10px 20px;
+    border: 1px #b9b49e solid;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
   }
 
   .gantt-header {
@@ -148,6 +149,10 @@
     flex-grow: 0;
     flex-shrink: 0;
     padding-right: 15px;
+  }
+
+  .gantt-info-header {
+    font-weight: bold;
   }
 
   .gantt-info {

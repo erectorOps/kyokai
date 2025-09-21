@@ -129,7 +129,7 @@
       <div class="gantt-header">
         <div class="gantt-info-header">
           <div class="row-info">
-            <div class="row-label">経過秒</div>
+            <div class="row-label">経過</div>
             <div class="row-note">内訳</div>
           </div>
         </div>
@@ -319,39 +319,26 @@
   <% } %>
 </div>
 <script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const scaleSlider = document.getElementById('scale-slider');
-    const scaleValueDisplay = document.getElementById('current-scale-value');
-    const timelineContainer = document.querySelector('.timeline-container');
-    const timelineTexts = timelineContainer.querySelectorAll('.time-text, .timeline-diff-time');
-    const allScaleData = <%- JSON.stringify(page.scalecheck) %>;
+  const scaleSlider = document.getElementById('scale-slider');
+  const scaleValueDisplay = document.getElementById('current-scale-value');
+  const timelineContainer = document.querySelector('.timeline-container');
+  const timelineTexts = timelineContainer.querySelectorAll('.time-text, .timeline-diff-time');
+  const allScaleData = <%- JSON.stringify(page.scalecheck) %>;
 
-    updateActiveScale(allScaleData[scaleSlider.value]);
+  updateActiveScale(allScaleData[scaleSlider.value]);
 
-    scaleSlider.addEventListener('input', () => {
-      const selectedScale = allScaleData[scaleSlider.value];
-      scaleValueDisplay.textContent = selectedScale.name;
-      updateActiveScale(selectedScale);
-    });
+  function updateActiveScaleOne(element, newData) {
+    element.textContent = newData;
+  }
 
-    function updateActiveScaleOne(element, newData) {
-      element.textContent = newData;
-    }
+  function updateActiveScale(scaleData) {
+    scaleValueDisplay.textContent = scaleData.name;
+    timelineTexts.forEach((element, i) => updateActiveScaleOne(element, scaleData.mergedTimeline[i]));
+  }
 
-    function updateActiveScale(scaleData) {
-      timelineTexts.forEach((element, i) => updateActiveScaleOne(element, scaleData.mergedTimeline[i]));
-    }
-  });
-</script>
-<script>
   const ganttRowsContainer = document.querySelector('.gantt-rows-container');
-  const data = <%- JSON.stringify(page.mp_gantt) %>;
+  const allTimelines = <%- JSON.stringify(page.mp_gantt) %>;
   
-  // [
-  //       { time: 0, comment: 'これはとても長いコメントです。途中で切れてしまうと困るので、複数行に表示されるようにしたいです。これで解決ですね。', start: 0, duration: 250, label: 'MP+125' },
-  //       { time: 0, comment: '殲滅0秒のMP回復', start: 250, duration: 250, label: 'MP回復' },
-  //       { time: 1.5, comment: '次のスキル準備', start: 600, duration: 150, label: 'スキル準備' }
-  //     ]; 
   /**
    * ガントチャートに1行のデータを追加する関数
    * @param {object} item - データのオブジェクト
@@ -419,8 +406,24 @@
     ganttRowsContainer.appendChild(itemWrapper);
   }
 
-  // データの配列をループしてガントチャートを生成
-  data.forEach(item => {
-    addGanttRow(item);
-  }); 
+  function renderGanttChart(timelineData) {
+    ganttRowsContainer.innerHTML = '';
+    timelineData.forEach(item => addGanttRow(item));
+  }
+
+  function handleSliderChange() {
+    const selectedTimeline = allTimelines[scaleSlider.value];
+    if (selectedTimeline) {
+      renderGanttChart(selectedTimeline.timeline);
+    }
+  }
+
+  // Initial rendering of the chart
+  handleSliderChange();
+
+  scaleSlider.addEventListener('input', () => {
+    const selectedScale = allScaleData[scaleSlider.value];
+    updateActiveScale(selectedScale);
+    handleSliderChange();
+  });
 </script>

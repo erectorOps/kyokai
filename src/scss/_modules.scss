@@ -178,14 +178,12 @@
 .row-label {
   flex-shrink: 0;
   width: 60px;
-  font-size: 0.9em;
-  color: #333;
+  text-align: right;
+  padding-right: 25px;
 }
 
 .row-note {
   flex-grow: 1;
-  font-size: 0.9em;
-  color: #666;
   white-space: normal;
   overflow: visible;
   text-overflow: initial;

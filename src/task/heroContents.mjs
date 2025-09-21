@@ -168,79 +168,91 @@ export class HeroContents {
     }
 
     // アクティブスキルのMP回復計算
-    
-    let currentTime = 0;
+    const allTimelines = [];
 
-    const executeSkill = (skill, name) => {
-      skill.mp_charge_array.forEach(chargeEvent => {
-        const chargeTime = chargeEvent.mp_charge_time;
-        const chargeValue = chargeEvent.mp_charge_value;
-        if (chargeTime === 0 | chargeTime === 1) {
-          scheduledEvents.push({
-            time: currentTime + 1,
-            mpChange: chargeValue,
-            comment: `${name}のMP回復`,
-          });
-        } else {
-          for (let i = 1; i <= chargeTime; i++) {
-            scheduledEvents.push({
-              time: currentTime + i,
+    json.scalecheck.forEach(scale => {
+      const currentScheduledEvents = structuredClone(scheduledEvents);
+      let currentTime = 0;
+
+      const executeSkill = (skill, name, ct) => {
+        skill.mp_charge_array.forEach(chargeEvent => {
+          const chargeTime = chargeEvent.mp_charge_time;
+          const chargeValue = chargeEvent.mp_charge_value;
+          const chargeIf = chargeEvent.mp_charge_if;
+
+          if (chargeIf === "擊倒敵人") 
+            return;
+
+          if (chargeTime === 0 | chargeTime === 1) {
+            currentScheduledEvents.push({
+              time: ct + 1,
               mpChange: chargeValue,
-              comment: `${name}のMP継続回復`,
+              comment: `${name}のMP回復`,
             });
+          } else {
+            for (let i = 1; i <= chargeTime; i++) {
+              currentScheduledEvents.push({
+                time: ct + i,
+                mpChange: chargeValue,
+                comment: `${name}のMP継続回復`,
+              });
+            }
           }
+        });
+      };
+
+      skill_order.forEach((actIndex, i) => {
+        
+        if (actIndex === "0") {
+          currentScheduledEvents.push({time: currentTime, mpChange: finalMpRecovery, comment: `攻撃によるMPチャージ`});
+          attackEvent.forEach(func => currentScheduledEvents.push(func(currentTime)))
+          currentTime += parseFloat(scale.attack);
+        }
+        else if (actIndex === "1") {
+          currentScheduledEvents.push({time: currentTime, mpChange: finalMpRecovery, comment: `スキル1によるMPチャージ`});
+          skillEvent.forEach(func => currentScheduledEvents.push(func(currentTime)));
+          executeSkill(json.awake_skill1 ?? json.skill1, "スキル1", currentTime);
+          currentTime += parseFloat(scale.skill1);
+        }
+        else if (actIndex === "2") {
+          currentScheduledEvents.push({time: currentTime, mpChange: finalMpRecovery, comment: `スキル2によるMPチャージ`});
+          skillEvent.forEach(func => currentScheduledEvents.push(func(currentTime)));
+          executeSkill(json.awake_skill2 ?? json.skill2, "スキル2", currentTime);
+          currentTime += parseFloat(scale.skill2);
         }
       });
-      currentTime += parseFloat(skill.time);
-    };
 
-    skill_order.forEach((actIndex, i) => {
-      
-      if (actIndex === "0") {
-        scheduledEvents.push({time: currentTime, mpChange: finalMpRecovery, comment: `攻撃によるMPチャージ`});
-        attackEvent.forEach(func => scheduledEvents.push(func(currentTime)))
-        currentTime += parseFloat(json.atkskill.time);
-      }
-      else if (actIndex === "1") {
-        scheduledEvents.push({time: currentTime, mpChange: finalMpRecovery, comment: `スキル1によるMPチャージ`});
-        skillEvent.forEach(func => scheduledEvents.push(func(currentTime)));
-        executeSkill(json.awake_skill1 ?? json.skill1, "スキル1");
-      }
-      else if (actIndex === "2") {
-        scheduledEvents.push({time: currentTime, mpChange: finalMpRecovery, comment: `スキル2によるMPチャージ`});
-        skillEvent.forEach(func => scheduledEvents.push(func(currentTime)));
-        executeSkill(json.awake_skill2 ?? json.skill2, "スキル2");
-      }
-    });
+      // 時間順にソート
+      currentScheduledEvents.sort((a, b) => a.time - b.time);
 
 
+      // シミュレート
+      let currentMp = 0;
+      const finalTimeline = [];
+      const maxMp = 1000;
 
-    // 時間順にソート
-    scheduledEvents.sort((a, b) => a.time - b.time);
+      for (const event of currentScheduledEvents) {
+        if (currentMp >= maxMp) {
+          break;
+        }
 
-
-    // シミュレート
-    let currentMp = 0;
-    const finalTimeline = [];
-    const maxMp = 1000;
-
-    for (const event of scheduledEvents) {
-      if (currentMp >= maxMp) {
-        break;
+        const startMp = currentMp;
+        currentMp += event.mpChange;
+        finalTimeline.push({
+          time: parseFloat(event.time.toFixed(1)),
+          comment: event.comment,
+          start: startMp,
+          duration: event.mpChange,
+          label: `MP+${event.mpChange}`
+        });
       }
 
-      const startMp = currentMp;
-      currentMp += event.mpChange;
-      finalTimeline.push({
-        time: parseFloat(event.time.toFixed(1)),
-        comment: event.comment,
-        start: startMp,
-        duration: event.mpChange,
-        label: `MP+${event.mpChange}`
+      allTimelines.push({
+        name: scale.name,
+        timeline: finalTimeline
       });
-    }
-
-    return finalTimeline;
+    });
+    return allTimelines;
   }
 
   processHeroData(hero) {
