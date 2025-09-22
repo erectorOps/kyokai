@@ -293,6 +293,39 @@ export class HeroContents {
     return json;
   }
 
+  async createOne(id) {
+    const kf = this.kf;
+    const heroList = kf.HeroSetting.filter(item => item['@_id'] !== undefined && parseInt(item['@_id']) == id);
+    const templatePath = path.join(srcBase, "hero", "hero.ejs");
+    const template = await fs.readFile(path.join(srcBase, "hero", "hero.ejs"), "utf-8");
+    const includeRoot = path.join(srcBase, "_inc");
+    const renderFunc = ejs.compile(template, {
+      filename: templatePath,
+      async: false,
+      root: includeRoot
+    });
+    await fs.mkdir(distPath.hero, { recursive: true });
+
+    return Promise.all(heroList.map(async hero => {
+      const id = hero['@_id'];
+      const json = this.processHeroData(hero);
+      const html = renderFunc({json: json});
+
+      const minifiedHtml = minify(html, {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true,
+        minifyCSS: true,
+        minifyJS: true
+      });
+
+      await fs.writeFile(path.join(distPath.hero, `${id}.html`), minifiedHtml, "utf-8");
+      log(`Created ${id}.html`);
+    }));
+  }
+
   async createFuncs() {
     const kf = this.kf;
     const heroList = kf.HeroSetting.filter(item => item['@_id'] !== undefined && parseInt(item['@_id']) < 10000);

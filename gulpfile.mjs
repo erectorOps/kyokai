@@ -1,5 +1,6 @@
  // gulpプラグインの読み込み
 import gulp from 'gulp';
+import minimist from 'minimist';
 import { cssSass } from './src/task/sass.mjs';
 import { imgFunc } from './src/task/image.mjs';
 import { jsFunc } from './src/task/js.mjs';
@@ -32,6 +33,29 @@ function testCategory(cb) {
 export const test = gulp.series(testCategory);
 
 const watcher = new Watch(kf);
+
+const knownOptions = {
+  string: 'env',
+  default: { env: 'development'}
+};
+
+const options = minimist(process.argv.slice(2), knownOptions);
+
+
+const checkId = (cb) => {
+  const id = options.id;
+  if (!id) {
+    log.error('`gulp page` タスクには `--id` オプションが必要です。');
+    process.exit(1);
+  }
+  cb();
+}
+
+export const page = gulp.series(
+  checkId,
+  gulp.parallel(cssSass, heroContents.createOne.bind(heroContents, options.id), imgFunc, jsFunc),
+  gulp.parallel(watcher.createOne(options.id))
+)
 
 export default gulp.series(
   // clean,

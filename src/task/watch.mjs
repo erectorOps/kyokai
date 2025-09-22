@@ -38,10 +38,25 @@ const createWatchFiles = (kf) => {
     }
 }
 
+const createWatchOne = (kf, id) => {
+    return () => {
+        const heroContents = new HeroContents(kf);
+        const heroList = new HeroList(kf);
+        gulp.watch(srcPath.scss, gulp.series(cssSass))
+        gulp.watch(srcPath.img, gulp.series(imgFunc, browserSyncReload))
+        gulp.watch(srcPath.hero, gulp.series(gulp.parallel(heroContents.createOne.bind(heroContents, id)), browserSyncReload));
+        gulp.watch(srcPath.js, gulp.series(jsFunc, browserSyncReload))
+    }
+}
+
 export class Watch {
 
     constructor(kf) {
         this.kf = kf;
+    }
+
+    createOne(id) {
+        return [createWatchOne(this.kf, id), browserSyncFunc];
     }
 
     createFuncs() {

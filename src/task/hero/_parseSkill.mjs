@@ -4,6 +4,23 @@ import { calcWaitTime, timeErrorMsg } from './_util.mjs';
 
 const mp_charge_array = [];
 
+const checkMp = (buff, lv, info) => {
+  if (buff["@_get_counter"] && buff["@_get_counter"] != "0") {
+    //console.log("Error: get_counterのあるバフをパースしようとしてる [buff id="+buff["@_id"] + "]");
+    return "Error: get_counterのあるバフをパースしようとしてる [buff id="+buff["@_id"] + "]";
+  }
+
+  const type = buff['@_effect_type'];
+  const val1 = buff['@_effect_val1'] ? new Big(buff['@_effect_val1']).round(2, Big.roundHalfEven) : new Big(0);
+  const val2 = buff['@_effect_val2'] ? new Big(buff['@_effect_val2']).round(2, Big.roundHalfEven) :new Big(0);
+  const val3 = buff['@_effect_val3'] ? new Big(buff['@_effect_val3']).round(2, Big.roundHalfEven) :new Big(0);
+
+  if (type === "MP回復") {
+    if (info.target == "自身" || info.target === "我方全體" || (info.target === "技能對象" && (info.skillTarget === "自身" || info.skillTarget === "我方全體")))
+      mp_charge_array.push({mp_charge_time: parseInt(info.duration), mp_charge_value: val2.plus(val3.mul(lv)).toNumber(), mp_charge_if: info.if});
+  }
+};
+
 const parseBuff = (buff, lv, info) => {
   if (buff["@_get_counter"] && buff["@_get_counter"] != "0") {
     //console.log("Error: get_counterのあるバフをパースしようとしてる [buff id="+buff["@_id"] + "]");
@@ -170,8 +187,6 @@ const parseBuff = (buff, lv, info) => {
         } else {
           text += "MP";
         }
-        if (info.target == "自身" || info.target === "我方全體" || (info.target === "技能對象" && (info.skillTarget === "自身" || info.skillTarget === "我方全體")))
-          mp_charge_array.push({mp_charge_time: parseInt(info.duration), mp_charge_value: val2.plus(val3.mul(lv)).toNumber(), mp_charge_if: info.if});
         text += parseAddSub(true);
           break;
 
@@ -828,6 +843,8 @@ export const parseSkill = (sid, lv, kf) => {
           speed_value += (buff["@_effect_val1"] !== undefined ? parseFloat(buff["@_effect_val1"]) : 0) 
             + (buff["@_counter_effect_val1"] !== undefined ? parseFloat(buff["@_counter_effect_val1"]) : 0);
         }
+
+        checkMp(buff, lv, {id: buffId, duration: buffDur, if: buffIf, target: buffTarget, skillTarget: s["@_target"]});
       }
     }
   }

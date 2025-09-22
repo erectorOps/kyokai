@@ -108,6 +108,22 @@ export class MpGantt {
             events.push(new MpAddEvent(1, 210, 'バニティアの味方全体MP回復'));
         }
 
+        // パッシブスキルによるイベントを生成
+        const passives = [this._json.passive1, this._json.passive2, this._json.passive3];
+        passives.forEach((passive, i) => {
+            if (passive) {
+                const passiveName = `パッシブ${i + 1}`;
+                passive.mp_charge_array.forEach(chargeEvent => {
+                    const { mp_charge_time: time, mp_charge_value: value, mp_charge_if: condition } = chargeEvent;
+                    if (condition === "戰鬥開場" || condition === "第一擊觸發") {
+                        for (let j = 0; j <= time; j++) {
+                            events.push(new MpAddEvent(j, value, `${passiveName}によるMP回復（${j}秒目）`));
+                        }
+                    }
+                });
+            }
+        });
+
         return events;
     }
 
@@ -125,11 +141,7 @@ export class MpGantt {
                 const passiveName = `パッシブ${i + 1}`;
                 passive.mp_charge_array.forEach(chargeEvent => {
                     const { mp_charge_time: time, mp_charge_value: value, mp_charge_if: condition } = chargeEvent;
-                    if (condition === "戰鬥開場" || condition === "第一擊觸發") {
-                        for (let i = 0; i <= time; i++) {
-                            currentEvents.push(new MpAddEvent(i, value, `${passiveName}によるMP回復（${i}秒目）`));
-                        }
-                    } else if (condition.indexOf("自身施放技能") !== -1) {
+                    if (condition.indexOf("自身施放技能") !== -1) {
                         for (let i = 0; i < time + 1; i++) {
                             skillEvents.push((t) => new MpAddEvent(i + t, value, `${passiveName}による自身のスキル使用後MP回復`));
                         }
