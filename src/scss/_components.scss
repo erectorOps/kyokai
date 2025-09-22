@@ -409,8 +409,10 @@
 
 .no_result {
     display: none;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
 }
-
 
 /* Details */
 details {
