@@ -3701,10 +3701,10 @@
   <StringSetting id="65072" text="聖属性防御" />
   <StringSetting id="65073" text="魔属性防御" />
   <StringSetting id="65074" text="想属性防御" />
-  <StringSetting id="65075" text="流血" />
-  <StringSetting id="65076" text="流血耐性" />
+  <StringSetting id="65075" text="出血" />
+  <StringSetting id="65076" text="出血耐性" />
   <StringSetting id="65077" text="反撃" />
-  <StringSetting id="65078" text="受到傷害上升或下降" />
+  <StringSetting id="65078" text="ダメージ耐性" />
   <StringSetting id="65079" text="造成傷害上升或下降" />
   <StringSetting id="65080" text="狀態效果時間上升或下降" />
   <StringSetting id="65081" text="Buff效果時間上升或下降" />
@@ -3715,6 +3715,19 @@
   <StringSetting id="65086" text="物理防禦值護盾" />
   <StringSetting id="65087" text="魔法防禦值護盾" />
   <StringSetting id="65088" text="綜合防禦值護盾" />
+  <StringSetting id="65089" text="物理防禦值反射" />
+  <StringSetting id="65090" text="魔法防禦值反射" />
+  <StringSetting id="65091" text="綜合防禦值反射" />
+  <StringSetting id="65092" text="條件狀態" />
+  <StringSetting id="65093" text="普攻追加傷害" />
+  <StringSetting id="65094" text="技能追加傷害" />
+  <StringSetting id="65095" text="風属性ダメージ耐性" />
+  <StringSetting id="65096" text="水属性ダメージ耐性" />
+  <StringSetting id="65097" text="火属性ダメージ耐性" />
+  <StringSetting id="65098" text=" 聖属性ダメージ耐性" />
+  <StringSetting id="65099" text="魔属性ダメージ耐性" />
+  <StringSetting id="65100" text="想属性ダメージ耐性" />
+  <StringSetting id="65101" text="通常攻撃ダメージ耐性" />
   <StringSetting id="66001" text="Lv{0}" />
   <StringSetting id="66002" text="EXP {0}/{1}" />
   <StringSetting id="66003" text="ミッション" />
@@ -4254,8 +4267,8 @@
   <StringSetting id="85032" text="晶石×{0}を消費し、投票数を倍にしますか？" />
   <StringSetting id="85033" text="{0} 投票ランキング報酬" />
   <StringSetting id="85034" text="{0}" />
-  <StringSetting id="85035" text="{0} {1} 投票目標達成報酬" />
-  <StringSetting id="85036" text="{0} {1} 投票目標{2}次達成報酬" />
+  <StringSetting id="85035" text="{0}個別投票報酬" />
+  <StringSetting id="85036" text="「{0}」開催期間中に、&#xA;{1}へ{2}枚投票した報酬" />
   <StringSetting id="85037" text="投票予測" />
   <StringSetting id="85038" text="投票予測と投票報酬一覧" />
   <StringSetting id="85039" text="今回の投票で最も有力な3人のキャラクターを予測してください。予測したキャラクターがランキングに入ると、限定報酬を獲得できます。" />
@@ -4273,6 +4286,8 @@
   <StringSetting id="85051" text="予測成功報酬" />
   <StringSetting id="85052" text="■投票方法&#xA;開催期間中、AP×1を消費するたびに、&#xA;コスチューム追加投票に参加できるアイテム「投票チケット」を獲得できます。&#xA;&#xA;「投票チケット」1枚につき、各「コスチューム」に1票投票できます。&#xA;さらに、投票時に晶石を使用して、投票数を2倍にできます。&#xA;ぜひご参加、ご利用ください！&#xA;&#xA;※晶石を使用する場合、「投票チケット」10枚につき5晶石が消費されます。&#xA;　（10枚未満でも5晶石が消費されます）&#xA;※開催期間が終了すると、追加投票に投票できません。&#xA;※開催期間終了後、残った交換アイテムは、1：100の比率で「レゴル」に自動変換されます。&#xA;※聖騎士の実装、召喚やイベントの開催の詳細は後日お知らせいたします。&#xA;※対応にはお時間をいただく場合があります。&#xA;&#xA;■開催期間&#xA;・投票期間：2024/12/12（木）定期メンテナンス後～2024/12/26（木）11:00&#xA;・結果発表：2024/12/26（木）定期メンテナンス後&#xA;&#xA;※各コスチュームの順位、獲得票数は結果発表まで非公開です" />
   <StringSetting id="85053" text=" " />
+  <StringSetting id="85054" text="個別結果" />
+  <StringSetting id="85055" text="投票ランキング" />
   <StringSetting id="86001" text="シチュスゴロク" />
   <StringSetting id="86002" text="周回報酬" />
   <StringSetting id="86003" text="ダイスを振って駒を移動させ、マスに応じた報酬を獲得できます！&#xA;さらに、「おまけ」付きの枠で報酬を得ると、聖騎士の「蓄音水晶」も手に入れることができます！&#xA;※「蓄音水晶」はFANZINE聖騎士の特別ボイスを解放できるアイテムです。" />
@@ -4487,32 +4502,12 @@
   <StringSetting id="95303" text="データエラー①が発生しました。ゲームを再起動してください" />
   <StringSetting id="95304" text="データエラー②が発生しました。ゲームを再起動してください" />
   <StringSetting id="95305" text="獲得できる報酬はありません" />
-  <StringSetting id="95401" text="本日造成最大傷害" />
-  <StringSetting id="95402" text="造成傷害值" />
-  <StringSetting id="95403" text="HP{0}%掉落({1}個)" />
-  <StringSetting id="95404" text="造成{0}傷害(隨機{1}個)" />
-  <StringSetting id="95405" text="寶藏獵人提示訊息" />
-  <StringSetting id="95406" text="debuff效果一覽" />
-  <StringSetting id="95407" text="最大傷害" />
-  <StringSetting id="95408" text="造成{0}%HP以上傷害" />
-  <StringSetting id="95409" text="討伐獎勵" />
-  <StringSetting id="95410" text="造成HP傷害" />
-  <StringSetting id="95411" text="造成{0}%HP以下傷害" />
-  <StringSetting id="95412" text="{0}效果增加{1}%傷害" />
-  <StringSetting id="95413" text="每有1個負面狀態增加{0}%傷害" />
-  <StringSetting id="95414" text="活動未開放" />
-  <StringSetting id="95415" text="缺少BOSS資料" />
-  <StringSetting id="95416" text="沒有挑戰次數" />
-  <StringSetting id="95417" text="驗證失敗" />
-  <StringSetting id="95418" text="找不到玩家" />
-  <StringSetting id="95419" text="系統錯誤" />
-  <StringSetting id="95420" text="挑戰次數已滿" />
-  <StringSetting id="95421" text="商品不存在" />
-  <StringSetting id="95422" text="石頭不足" />
-  <StringSetting id="95423" text="無法SKIP" />
-  <StringSetting id="95424" text="{0} 傷害獎勵" />
-  <StringSetting id="95425" text="{0} 造成{1}傷害獎勵" />
-  <StringSetting id="95426" text="是否要對難度{1}的HP{0}%進行SKIP" />
+  <StringSetting id="95402" text="{0}ポイント達成報酬" />
+  <StringSetting id="95404" text="ダメージ{0}以上（1日ランダムで{1}つ）" />
+  <StringSetting id="95406" text="敵弱体化効果一覧" />
+  <StringSetting id="95412" text="「{0}」：敵のGUARDを{1}%減少" />
+  <StringSetting id="95413" text="その他の異常状態・デバフ：敵のGUARDを{0}％減少" />
+  <StringSetting id="95426" text="獲得可能アイテム一覧" />
   <StringSetting id="95501" text="總派出隊伍" />
   <StringSetting id="95502" text="敵人{0}　{1}" />
   <StringSetting id="95503" text="特殊效果限制" />

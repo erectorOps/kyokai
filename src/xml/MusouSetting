@@ -70,4 +70,14 @@
     <stage_buff_second>0</stage_buff_second>
     <stage_buff_second>0</stage_buff_second>
   </MusouSetting>
+  <MusouSetting id="700008" name="身をやつし" bg="battle101101bg/101101" battle_map="101101/101101" atk_cnt_limit="3" monster_group="8" boss_time="30" monster_point="1" boss_point="10" time_point="0" b_need_point="30" a_need_point="100" s_need_point="200" ss_need_point="300" c_get_point="600" b_get_point="800" a_get_point="1000" s_get_point="1200" ss_get_point="1500">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+  </MusouSetting>
 </root>

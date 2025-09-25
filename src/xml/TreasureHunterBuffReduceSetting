@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <root>
-  <TreasureHunterBuffReduceSetting id="1" group="1" effect_type="流血" buff_reduce="1" />
-  <TreasureHunterBuffReduceSetting id="2" group="1" effect_type="目盲" buff_reduce="1" />
-  <TreasureHunterBuffReduceSetting id="3" group="1" effect_type="麻痺" buff_reduce="1" />
-  <TreasureHunterBuffReduceSetting id="4" group="1" buff_reduce="1" />
+  <TreasureHunterBuffReduceSetting id="1" group="1" effect_type="詛咒" buff_reduce="10" />
+  <TreasureHunterBuffReduceSetting id="2" group="1" effect_type="麻痺" buff_reduce="5" />
+  <TreasureHunterBuffReduceSetting id="3" group="1" buff_reduce="2" />
 </root>

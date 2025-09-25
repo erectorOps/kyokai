@@ -255,4 +255,21 @@
     <stage_id>0</stage_id>
     <stage_id>0</stage_id>
   </DungeonSetting>
+  <DungeonSetting id="16" type="EX" start_time="2025/10/01 03:00:00" end_time="2025/11/01 02:59:59" rank_id="515" stage_buff_group="601500" star_id="1000019" award_bonus_scale="0">
+    <stage_id>151</stage_id>
+    <stage_id>152</stage_id>
+    <stage_id>153</stage_id>
+    <stage_id>154</stage_id>
+    <stage_id>155</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+  </DungeonSetting>
 </root>

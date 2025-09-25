@@ -113,7 +113,8 @@
   <SystemSetting def="限界戰次數商品群組" val="2301" />
   <SystemSetting def="無雙模式次數商品群組" val="2601" />
   <SystemSetting def="頭目連戰次數商品群組" val="2701" />
-  <SystemSetting def="寶藏獵人次數商品群組" val="2701" />
+  <SystemSetting def="寶藏獵人次數商品群組" val="2901" />
+  <SystemSetting def="遠征加速商品編號" val="1601" />
   <SystemSetting def="每日登入禮ID" val="1" />
   <SystemSetting def="每日登入禮重製天數" val="7" />
   <SystemSetting def="簽到簿補簽開關" val="true" />
@@ -378,7 +379,7 @@
   <SystemSetting def="飾品2格開放需求英雄等級" val="41" />
   <SystemSetting def="飾品4格開放需求英雄等級" val="51" />
   <SystemSetting def="飾品5格開放需求英雄等級" val="61" />
-  <SystemSetting def="新角色影片名稱" val="PS8_hero_2251.mp4" />
+  <SystemSetting def="新角色影片名稱" val="PS8_hero_2252.mp4" />
   <SystemSetting def="新角色影片更換時間" />
   <SystemSetting def="新角色影片更換名稱" />
   <SystemSetting def="特典序號圖示" val="item001/redemption_icon" />
@@ -490,4 +491,11 @@
   <SystemSetting def="重置加值消耗道具ID" />
   <SystemSetting def="重置加值消耗道具數量" />
   <SystemSetting def="愚人節招募ID" val="9999999" />
+  <SystemSetting def="遠征同時可派出隊伍數量" val="3" />
+  <SystemSetting def="遠征基礎COST" val="10" />
+  <SystemSetting def="遠征屬性克制增傷倍率" val="10" />
+  <SystemSetting def="遠征屬性非克制減傷倍率" val="0" />
+  <SystemSetting def="遠征屬性被克制減傷倍率" val="10" />
+  <SystemSetting def="整隊同屬性增傷倍率" val="10" />
+  <SystemSetting def="整隊同攻擊類型增傷倍率" val="10" />
 </root>

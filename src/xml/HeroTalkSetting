@@ -12605,56 +12605,61 @@
   <HeroTalkSetting id="2251" talk_type="角色背景2" pre_gp_lv="2" pre_item_id="0" talk_text="エレインは、かつて人工の獣人として改造手術を受けた者だった。&#xA;片腕に魔獣の腕を取り付けたのだ。&#xA;&#xA;だが、腕がエレインの人間の部分を乗っ取りはじめ、エレインは人間を失っていく。&#xA;果てには人の言語も失い、もうすぐ魔獣に呑み込まれるところでエルロンの領主が窮地を救い、魔獣化を食い止め、人間に戻したのだ。&#xA;&#xA;以来、主人公に対して深い恩を感じ、お返しをしたいと思いつづけてきた。&#xA;&#xA;去年、ラクティス王国に二人で旅行した時にも、少しは恩を返せた。&#xA;でも、まだ足りない。&#xA;&#xA;まだ返したい。&#xA;そしてまたいっしょに旅行したい――。&#xA;&#xA;報恩のチャンスはすぐにやってきた。&#xA;支配人の招待で、エルロンの領主がカジノ・ラプエリアに赴くことになったのだ。&#xA;&#xA;護衛に！　とエレインは立候補。&#xA;見事叶えられる。&#xA;&#xA;旅は楽しいものだった。&#xA;カジノでも厚遇を得て、１日目が終わる。&#xA;&#xA;だが、翌日――。&#xA;いっしょに赴いたリュッカたちが倒れ、いっしょに行くのはエレインだけになる。&#xA;&#xA;しかも、プライベートルームではアシュレイが接客するはずだったのだが、大富豪ボロゴフスキーが集団を率いて突然の来訪。&#xA;&#xA;急遽、スタッフは接客に走らされることになる。&#xA;エルロン領主専属のスタッフを用意できない状態となり、カジノ側は大いにお詫びする。&#xA;&#xA;（せっかくだから、領主様に楽しんでほしい……）&#xA;&#xA;そこで名乗り出たのが、エレインだった。&#xA;" />
   <HeroTalkSetting id="2251" talk_type="角色背景3" pre_gp_lv="3" pre_item_id="0" talk_text="シャンパンタワーは衒示的消費。&#xA;つまり、ホストに通う女性が「あたしはお金あるのよ～、ホホホホ」と誇示するものである。&#xA;&#xA;しかし、エレインの場合は違う。&#xA;シャンパンは女神の力。&#xA;女神のエネルギーがシャンパンとなって降り注ぎ、戦う者を鼓舞する。" />
   <HeroTalkSetting id="2251" talk_type="角色背景4" pre_gp_lv="4" pre_item_id="0" talk_text="ウサギは神の使いと言われる。&#xA;エレインのウサギも女神様の使いである。&#xA;使いにめったなものは食べさせられない。&#xA;&#xA;屋敷の中庭で取れた人参を出す？&#xA;まさか。&#xA;では、どこのものを？&#xA;&#xA;人参はエルロン礼拝殿の領地で収穫されたものである。&#xA;ちなみにビアンカが収穫したらしい……。" />
-  <HeroTalkSetting id="2252" talk_type="召喚自我介紹" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2252/K2252_0001" />
-  <HeroTalkSetting id="2252" talk_type="登入_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2252/K2252_0002" />
-  <HeroTalkSetting id="2252" talk_type="觸摸1_副官" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2252/K2252_0003" />
-  <HeroTalkSetting id="2252" talk_type="觸摸2_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2252/K2252_0004" />
-  <HeroTalkSetting id="2252" talk_type="觸摸3_副官" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2252/K2252_0005" />
-  <HeroTalkSetting id="2252" talk_type="放置_副官" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2252/K2252_0006" />
-  <HeroTalkSetting id="2252" talk_type="出戰" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2252/K2252_0007" />
-  <HeroTalkSetting id="2252" talk_type="開場" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2252/K2252_0008" />
-  <HeroTalkSetting id="2252" talk_type="技能1" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2252/K2252_0009" />
-  <HeroTalkSetting id="2252" talk_type="技能2" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2252/K2252_0010" />
-  <HeroTalkSetting id="2252" talk_type="奧義1" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_voice="2252/K2252_0011" />
-  <HeroTalkSetting id="2252" talk_type="奧義2" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_voice="2252/K2252_0012" />
-  <HeroTalkSetting id="2252" talk_type="勝利" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_voice="2252/K2252_0013" />
-  <HeroTalkSetting id="2252" talk_type="戰敗" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2252/K2252_0014" />
-  <HeroTalkSetting id="2252" talk_type="一般強化1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2252/K2252_0015" />
-  <HeroTalkSetting id="2252" talk_type="一般強化2" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2252/K2252_0016" />
-  <HeroTalkSetting id="2252" talk_type="一般強化3" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2252/K2252_0017" />
-  <HeroTalkSetting id="2252" talk_type="最高階強化" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2252/K2252_0018" />
-  <HeroTalkSetting id="2252" talk_type="好感1" pre_gp_lv="1" pre_item_id="0" talk_face="01" talk_voice="2252/K2252_0019" />
-  <HeroTalkSetting id="2252" talk_type="好感2" pre_gp_lv="2" pre_item_id="0" talk_face="01" talk_voice="2252/K2252_0020" />
-  <HeroTalkSetting id="2252" talk_type="好感3" pre_gp_lv="3" pre_item_id="0" talk_face="02" talk_voice="2252/K2252_0021" />
-  <HeroTalkSetting id="2252" talk_type="好感4" pre_gp_lv="4" pre_item_id="0" talk_face="02" talk_voice="2252/K2252_0022" />
-  <HeroTalkSetting id="2252" talk_type="好感5" pre_gp_lv="4" pre_item_id="0" talk_face="03" talk_voice="2252/K2252_0023" />
-  <HeroTalkSetting id="2252" talk_type="胸部低好感" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2252/K2252_0024" />
-  <HeroTalkSetting id="2252" talk_type="胸部中好感" pre_gp_lv="1" pre_item_id="0" talk_face="01" talk_voice="2252/K2252_0025" />
-  <HeroTalkSetting id="2252" talk_type="胸部高好感" pre_gp_lv="2" pre_item_id="0" talk_face="02" talk_voice="2252/K2252_0026" />
-  <HeroTalkSetting id="2252" talk_type="贈禮1" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2252/K2252_0027" />
-  <HeroTalkSetting id="2252" talk_type="贈禮2" pre_gp_lv="3" pre_item_id="0" talk_face="02" talk_voice="2252/K2252_0028" />
-  <HeroTalkSetting id="2252" talk_type="派駐對話1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2252/K2252_0029" />
-  <HeroTalkSetting id="2252" talk_type="派駐對話2" pre_gp_lv="3" pre_item_id="0" talk_face="01" talk_voice="2252/K2252_0030" />
-  <HeroTalkSetting id="2252" talk_type="遊戲標題" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2252/K2252_0031" />
-  <HeroTalkSetting id="2252" talk_type="肯定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2252/K2252_0032" />
-  <HeroTalkSetting id="2252" talk_type="否定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2252/K2252_0033" />
-  <HeroTalkSetting id="2252" talk_type="思考" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2252/K2252_0034" />
-  <HeroTalkSetting id="2252" talk_type="疑念" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2252/K2252_0035" />
-  <HeroTalkSetting id="2252" talk_type="唸る" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2252/K2252_0036" />
-  <HeroTalkSetting id="2252" talk_type="驚愕" pre_gp_lv="0" pre_item_id="0" talk_face="08" talk_voice="2252/K2252_0037" />
-  <HeroTalkSetting id="2252" talk_type="ムカッ" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2252/K2252_0038" />
-  <HeroTalkSetting id="2252" talk_type="怒る" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_voice="2252/K2252_0039" />
-  <HeroTalkSetting id="2252" talk_type="焦り" pre_gp_lv="0" pre_item_id="0" talk_face="07" talk_voice="2252/K2252_0040" />
-  <HeroTalkSetting id="2252" talk_type="ダメージ時" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2252/K2252_0041" />
-  <HeroTalkSetting id="2252" talk_type="ため息" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2252/K2252_0042" />
-  <HeroTalkSetting id="2252" talk_type="自責" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2252/K2252_0043" />
-  <HeroTalkSetting id="2252" talk_type="喜び" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2252/K2252_0044" />
-  <HeroTalkSetting id="2252" talk_type="笑い" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_voice="2252/K2252_0045" />
-  <HeroTalkSetting id="2252" talk_type="照れ" pre_gp_lv="0" pre_item_id="0" talk_face="09" talk_voice="2252/K2252_0046" />
-  <HeroTalkSetting id="2252" talk_type="角色背景1" pre_gp_lv="1" pre_item_id="0" />
-  <HeroTalkSetting id="2252" talk_type="角色背景2" pre_gp_lv="2" pre_item_id="0" />
-  <HeroTalkSetting id="2252" talk_type="角色背景3" pre_gp_lv="3" pre_item_id="0" />
-  <HeroTalkSetting id="2252" talk_type="角色背景4" pre_gp_lv="4" pre_item_id="0" />
+  <HeroTalkSetting id="2252" talk_type="召喚自我介紹" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="むっ！　道場破りかっ？　わたしが代表者のサーカだ。お相手――って貴殿か……。何をしている？" talk_voice="2252/K2252_0001" />
+  <HeroTalkSetting id="2252" talk_type="登入_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="やっと来たな。さっそく稽古をしようじゃないか" talk_voice="2252/K2252_0002" />
+  <HeroTalkSetting id="2252" talk_type="觸摸1_副官" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="家を飛び出した時は何も考えてなかったが、まさか空腹で倒れるとは……。貴殿には世話になった。世話になった分、しっかり働かせてもらうぞ" talk_voice="2252/K2252_0003" />
+  <HeroTalkSetting id="2252" talk_type="觸摸2_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="明念一刀流には一撃の威力を極めようとする考えがある。なんでも、鬼を斬るための刀法だった名残らしい。鬼なんていないのにな" talk_voice="2252/K2252_0004" />
+  <HeroTalkSetting id="2252" talk_type="觸摸3_副官" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="なんで上覧試合に出たいのかって？　想像してみろ。実力者たちが道場の威信をかけて戦う。これ以上かっこいいことなんてないだろっ？" talk_voice="2252/K2252_0005" />
+  <HeroTalkSetting id="2252" talk_type="放置_副官" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="フン……フン……先に始めてるぞ……" talk_voice="2252/K2252_0006" />
+  <HeroTalkSetting id="2252" talk_type="出戰" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="憧れの場所にわたしは立つ！" talk_voice="2252/K2252_0007" />
+  <HeroTalkSetting id="2252" talk_type="開場" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="斬られたい奴は前に出ろっ！" talk_voice="2252/K2252_0008" />
+  <HeroTalkSetting id="2252" talk_type="技能1" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="ぶった斬る！" talk_voice="2252/K2252_0009" />
+  <HeroTalkSetting id="2252" talk_type="技能2" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="ただ相手を斬るのみっ！" talk_voice="2252/K2252_0010" />
+  <HeroTalkSetting id="2252" talk_type="奧義1" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_text="二つの流派を、今一つに――影留乱流　羅刹閃戟塵" talk_voice="2252/K2252_0011" />
+  <HeroTalkSetting id="2252" talk_type="奧義2" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_text="影留乱流　羅刹閃戟塵" talk_voice="2252/K2252_0012" />
+  <HeroTalkSetting id="2252" talk_type="勝利" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_text="これがわたしの力だっ!!" talk_voice="2252/K2252_0013" />
+  <HeroTalkSetting id="2252" talk_type="戰敗" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="修行が足りない……か……" talk_voice="2252/K2252_0014" />
+  <HeroTalkSetting id="2252" talk_type="一般強化1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="あん？" talk_voice="2252/K2252_0015" />
+  <HeroTalkSetting id="2252" talk_type="一般強化2" pre_gp_lv="0" pre_item_id="0" talk_face="08" talk_text="なんだっ……！" talk_voice="2252/K2252_0016" />
+  <HeroTalkSetting id="2252" talk_type="一般強化3" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="刀が軽いっ……！" talk_voice="2252/K2252_0017" />
+  <HeroTalkSetting id="2252" talk_type="最高階強化" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="よしっ！　今なら月も斬り伏せる!!" talk_voice="2252/K2252_0018" />
+  <HeroTalkSetting id="2252" talk_type="好感1" pre_gp_lv="1" pre_item_id="0" talk_face="01" talk_text="稽古中だ。話はあとにしてくれ" talk_voice="2252/K2252_0019" />
+  <HeroTalkSetting id="2252" talk_type="好感2" pre_gp_lv="2" pre_item_id="0" talk_face="01" talk_text="型を見てくれるのか？" talk_voice="2252/K2252_0020" />
+  <HeroTalkSetting id="2252" talk_type="好感3" pre_gp_lv="3" pre_item_id="0" talk_face="02" talk_text="見てるだけでは詰まらないだろう？　いっしょにやらないか？" talk_voice="2252/K2252_0021" />
+  <HeroTalkSetting id="2252" talk_type="好感4" pre_gp_lv="4" pre_item_id="0" talk_face="02" talk_text="買い物か？　なら、わたしも行こう。任せろ。借金取りが来ても、守ってやる" talk_voice="2252/K2252_0022" />
+  <HeroTalkSetting id="2252" talk_type="好感5" pre_gp_lv="4" pre_item_id="0" talk_face="03" talk_text="むにゅっ♪　どうだ？　今日は剣じゃなくて、別の稽古をしないか？　今なら道場にも誰にもいない。わたしの準備は出来ているぞ？" talk_voice="2252/K2252_0023" />
+  <HeroTalkSetting id="2252" talk_type="胸部低好感" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="よし、どっちの手がいい？　決まっているだろう？　落とす手だ……" talk_voice="2252/K2252_0024" />
+  <HeroTalkSetting id="2252" talk_type="胸部中好感" pre_gp_lv="1" pre_item_id="0" talk_face="01" talk_text="んっ……飽きもせず……ほんとに好きだな……" talk_voice="2252/K2252_0025" />
+  <HeroTalkSetting id="2252" talk_type="胸部高好感" pre_gp_lv="2" pre_item_id="0" talk_face="09" talk_text="あん……しかたない奴だ……ほら、さらしも取ってじかに触ってくれ……" talk_voice="2252/K2252_0026" />
+  <HeroTalkSetting id="2252" talk_type="贈禮1" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="か、かたじけない……" talk_voice="2252/K2252_0027" />
+  <HeroTalkSetting id="2252" talk_type="贈禮2" pre_gp_lv="3" pre_item_id="0" talk_face="03" talk_text="こ、これは……家宝にしよう……！" talk_voice="2252/K2252_0028" />
+  <HeroTalkSetting id="2252" talk_type="派駐對話1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="ひとつ武者修行と行こうか！" talk_voice="2252/K2252_0029" />
+  <HeroTalkSetting id="2252" talk_type="派駐對話2" pre_gp_lv="3" pre_item_id="0" talk_face="01" talk_text="行ってくる！" talk_voice="2252/K2252_0030" />
+  <HeroTalkSetting id="2252" talk_type="遊戲標題" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="巨乳ファンタジー・バースト" talk_voice="2252/K2252_0031" />
+  <HeroTalkSetting id="2252" talk_type="肯定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="ああ" talk_voice="2252/K2252_0032" />
+  <HeroTalkSetting id="2252" talk_type="否定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="いや" talk_voice="2252/K2252_0033" />
+  <HeroTalkSetting id="2252" talk_type="思考" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="え～っと……" talk_voice="2252/K2252_0034" />
+  <HeroTalkSetting id="2252" talk_type="疑念" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="何……？" talk_voice="2252/K2252_0035" />
+  <HeroTalkSetting id="2252" talk_type="唸る" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="うう～ん……" talk_voice="2252/K2252_0036" />
+  <HeroTalkSetting id="2252" talk_type="驚愕" pre_gp_lv="0" pre_item_id="0" talk_face="08" talk_text="嘘だろ……" talk_voice="2252/K2252_0037" />
+  <HeroTalkSetting id="2252" talk_type="ムカッ" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="あん!?" talk_voice="2252/K2252_0038" />
+  <HeroTalkSetting id="2252" talk_type="怒る" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_text="てめぇ！" talk_voice="2252/K2252_0039" />
+  <HeroTalkSetting id="2252" talk_type="焦り" pre_gp_lv="0" pre_item_id="0" talk_face="07" talk_text="やばっ！" talk_voice="2252/K2252_0040" />
+  <HeroTalkSetting id="2252" talk_type="ダメージ時" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="ぐあっ！" talk_voice="2252/K2252_0041" />
+  <HeroTalkSetting id="2252" talk_type="ため息" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="はぁ……" talk_voice="2252/K2252_0042" />
+  <HeroTalkSetting id="2252" talk_type="自責" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="何やってんだ……" talk_voice="2252/K2252_0043" />
+  <HeroTalkSetting id="2252" talk_type="喜び" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="よっしゃ～っ！" talk_voice="2252/K2252_0044" />
+  <HeroTalkSetting id="2252" talk_type="笑い" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_text="あははは" talk_voice="2252/K2252_0045" />
+  <HeroTalkSetting id="2252" talk_type="照れ" pre_gp_lv="0" pre_item_id="0" talk_face="09" talk_text="そ、そうか……" talk_voice="2252/K2252_0046" />
+  <HeroTalkSetting id="2252" talk_type="角色背景1" pre_gp_lv="1" pre_item_id="0" talk_text="もし、サーカが、流浪の剣客だったら――。&#xA;&#xA;時は天下泰平。１００年余り続いた戦乱の世も終わり、太平の世が続いていた。&#xA;しかし、将軍家は武威を衰えさせることを許さず、剣術大会を開く。&#xA;&#xA;サーカは剣術大会に出るため、流浪の旅をしていた。&#xA;そんな中、借金取りに襲われる男を見つける。&#xA;サーカは借金取りを撃退し……。" />
+  <HeroTalkSetting id="2252" talk_type="角色背景2" pre_gp_lv="2" pre_item_id="0" talk_text="主人公は借金取りに襲われていた。&#xA;借金取りの目当ては、主人公の道場と上覧試合への参加資格だった。&#xA;戦えない主人公は絶体絶命に陥る。&#xA;しかし、窮地の主人公をサーカが救う。&#xA;腕自慢の用心棒をあっという間にのしてしまったのだ。&#xA;主人公はあまりの腕前に驚愕する。&#xA;しかし、サーカは用心棒を倒すと、倒れてしまう。&#xA;&#xA;主人公はサーカに助けられた恩を返すため、屋敷に運び込むのだった。" />
+  <HeroTalkSetting id="2252" talk_type="角色背景3" pre_gp_lv="3" pre_item_id="0" talk_text="サーカは、敵の動きを読み、敵の攻撃を無力化する影留乱流とどんな態勢、状況からでも必殺の一撃を繰り出す明念一刀流の剣術を合一させた。&#xA;敵の攻撃を受け流して敵を崩し、崩れたところに必殺の一撃を繰り出す後手必殺の剣を使う。" />
+  <HeroTalkSetting id="2252" talk_type="角色背景4" pre_gp_lv="4" pre_item_id="0" talk_text="サーカの刀は「虎狼」と呼ばれる。&#xA;この刀はサーカが実家の道場を飛び出した時に持ち出したものである。&#xA;実はサーカの父の愛刀であり、サーカの父は愛刀に娘の安否を祈っていたらしい。" />
+  <HeroTalkSetting id="2252" talk_type="追加語音1" pre_gp_lv="0" pre_item_id="217" talk_face="02" talk_text="おお、貴殿か。なにか用か？　用なら少し待ってくれ。刀の手入れをしていてな……。ククク……綺麗な刀文だ。吸い込まれるような深い透明感。しかし、触れれば斬れる。見ていて飽きない……。はぁ……" talk_voice="2252/K2252_0047" />
+  <HeroTalkSetting id="2252" talk_type="追加語音2" pre_gp_lv="0" pre_item_id="218" talk_face="04" talk_text="ふぅ……待たせてしまったな。さあ、稽古を始めよう。存分に打ち込んでくるがいい。……はぁ……たまには雑念を消すことは出来ないのか？　さっきから目が胸しか見ていないぞ……" talk_voice="2252/K2252_0048" />
+  <HeroTalkSetting id="2252" talk_type="追加語音3" pre_gp_lv="0" pre_item_id="219" talk_face="09" talk_text="くっ……見られていると思うとかえって気になって……体が熱く……。お、おい。いい加減にしてくれっ！　責任を取ってもらうぞ！　さあ、チンポを出せっ！　オマンコを気持ちよくしてもらうぞっ！" talk_voice="2252/K2252_0049" />
+  <HeroTalkSetting id="2252" talk_type="追加語音4" pre_gp_lv="0" pre_item_id="220" talk_face="09" talk_text="はぁ、はぁ……太くて硬い……♪　最初からその気だったのだろう？　貴殿のたくましいチンポでわたしのオマンコをぐちょぐちょに掻き回して、精液を注ぎ込む気だったのだろう？　いいぞ、存分に注ぎ込んでくれっ！" talk_voice="2252/K2252_0050" />
+  <HeroTalkSetting id="2252" talk_type="追加語音5" pre_gp_lv="0" pre_item_id="221" talk_face="09" talk_text="あっ、あっ、太いチンポでっ……オマンコがかき回されているっ……♪。気持ちいい……♪　いいぞっ、もっと突いてくれっ！　貴殿の極太チンポで、発情マンコを掻き回して、濃厚なチンポ汁を注ぎ込んでくれぇっ♪♪" talk_voice="2252/K2252_0051" />
   <HeroTalkSetting id="2253" talk_type="召喚自我介紹" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2253/K2253_0001" />
   <HeroTalkSetting id="2253" talk_type="登入_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2253/K2253_0002" />
   <HeroTalkSetting id="2253" talk_type="觸摸1_副官" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2253/K2253_0003" />

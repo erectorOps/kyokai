@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <ExpeditionSpecialHeroSetting group_id="1" hero_id="2001" reduce_cold_time="10" reduce_expedition_time="10" add_hero_damage="0" add_party_damage="0" add_point="0" add_strength_point="0" />
+  <ExpeditionSpecialHeroSetting group_id="1" hero_id="2002" reduce_cold_time="0" reduce_expedition_time="0" add_hero_damage="10" add_party_damage="0" add_point="0" add_strength_point="0" />
+  <ExpeditionSpecialHeroSetting group_id="1" hero_id="2003" reduce_cold_time="0" reduce_expedition_time="0" add_hero_damage="0" add_party_damage="10" add_point="10" add_strength_point="10" />
+</root>

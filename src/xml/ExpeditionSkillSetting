@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <ExpeditionSkillSetting id="1" icon="skill001/skill0003_5" name="基礎傷害上升" cost="5" expedition_skill_type="基礎傷害上升" effect_value1="10" />
+  <ExpeditionSkillSetting id="2" icon="skill001/skill0003_5" name="提高上限" cost="5" expedition_skill_type="提高上限" effect_value1="10" />
+  <ExpeditionSkillSetting id="3" icon="skill001/skill0003_5" name="提高下限" cost="5" expedition_skill_type="提高下限" effect_value1="10" />
+  <ExpeditionSkillSetting id="4" icon="skill001/skill0003_5" name="大幅提高上限但大幅拉低下限" cost="5" expedition_skill_type="大幅提高上限但大幅拉低下限" effect_value1="20" effect_value2="10" />
+  <ExpeditionSkillSetting id="5" icon="skill001/skill0003_5" name="魔法破甲" cost="5" expedition_skill_type="魔法破甲" effect_value1="10" />
+  <ExpeditionSkillSetting id="6" icon="skill001/skill0003_5" name="物理破甲" cost="5" expedition_skill_type="物理破甲" effect_value1="10" />
+</root>

@@ -1746,7 +1746,7 @@
     <param>activity-banner-2000/期間活動_ヴェルン建国祭_320x88</param>
     <param>一般活動</param>
     <param>Year2023</param>
-    <param>50010170/50510170</param>
+    <param>50010170/50510170/53040170</param>
     <param />
     <param />
     <param>6.01</param>
@@ -1754,7 +1754,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1001" group_func="章節設定" order="1">
     <param>第1節</param>
-    <param>50010110/50510110</param>
+    <param>50010110/50510110/53040110</param>
     <param />
     <param />
     <param>3001010</param>
@@ -1766,7 +1766,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1001" group_func="章節設定" order="2">
     <param>第2節</param>
-    <param>50010120/50510120</param>
+    <param>50010120/50510120/53040120</param>
     <param />
     <param />
     <param>3001020</param>
@@ -1778,7 +1778,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1001" group_func="章節設定" order="3">
     <param>第3節</param>
-    <param>50010130/50510130</param>
+    <param>50010130/50510130/53040130</param>
     <param />
     <param />
     <param>3001030</param>
@@ -1790,7 +1790,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1001" group_func="章節設定" order="4">
     <param>第4節</param>
-    <param>50010140/50510140</param>
+    <param>50010140/50510140/53040140</param>
     <param />
     <param />
     <param>3001040</param>
@@ -1802,7 +1802,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1001" group_func="章節設定" order="5">
     <param>第5節</param>
-    <param>50010150/50510150</param>
+    <param>50010150/50510150/53040150</param>
     <param />
     <param />
     <param>3001050</param>
@@ -1814,7 +1814,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1001" group_func="章節設定" order="6">
     <param>第6節</param>
-    <param>50010160/50510160</param>
+    <param>50010160/50510160/53040160</param>
     <param />
     <param />
     <param>3001060</param>
@@ -1826,7 +1826,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1001" group_func="章節設定" order="7">
     <param>第7節</param>
-    <param>50010170/50510170</param>
+    <param>50010170/50510170/53040170</param>
     <param />
     <param />
     <param>3001070</param>
@@ -10470,6 +10470,54 @@
     <param />
     <param />
     <param>5083210</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1080" group_func="標題設定" order="1">
+    <param>活動</param>
+    <param>身をやつし</param>
+    <param>activity-banner-2105/活動_身をやつし_320x88</param>
+    <param>BOSSRUSH</param>
+    <param>Year2025</param>
+    <param>52050110</param>
+    <param />
+    <param />
+    <param>16.03</param>
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1080" group_func="章節設定" order="1">
+    <param>第1節</param>
+    <param>52050110</param>
+    <param />
+    <param />
+    <param>5084010</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1080" group_func="章節設定" order="2">
+    <param>第2節</param>
+    <param>52050112</param>
+    <param />
+    <param />
+    <param>5084020</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1080" group_func="章節設定" order="3">
+    <param>第3節</param>
+    <param>52050114</param>
+    <param />
+    <param />
+    <param>5084030</param>
     <param />
     <param />
     <param />
