@@ -53,17 +53,17 @@ const checkId = (cb) => {
 
 export const page = gulp.series(
   checkId,
-  gulp.parallel(cssSass, heroContents.createOne.bind(heroContents, options.id), imgFunc, jsFunc),
+  gulp.parallel(cssSass, heroContents.createOne.bind(heroContents, options.id), imgFunc),
   gulp.parallel(watcher.createOne(options.id))
 )
 
 export default gulp.series(
   // clean,
-  gulp.parallel(cssSass, heroContents.createFuncs.bind(heroContents), heroList.createFunc() ,imgFunc, jsFunc),
+  gulp.parallel(cssSass, heroContents.createFuncs.bind(heroContents), heroList.createFunc() ,imgFunc),
   gulp.parallel(watcher.createFuncs())
 )
  
 export const build = gulp.series(
   // clean,
-  gulp.parallel(cssSass, heroContents.createFuncs.bind(heroContents), heroList.createFunc() ,imgFunc, jsFunc),
+  gulp.parallel(cssSass, heroContents.createFuncs.bind(heroContents), heroList.createFunc() ,imgFunc),
 );

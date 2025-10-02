@@ -4,7 +4,7 @@ import browserSync from "browser-sync"; //変更を即座にブラウザへ反�
 
 import { HeroContents } from './heroContents.mjs';
 import { HeroList } from './heroList.mjs';
-import { jsFunc } from './js.mjs';
+//import { jsFunc } from './js.mjs';
 import { imgFunc } from './image.mjs';
 import { cssSass } from './sass.mjs';
 
@@ -34,7 +34,7 @@ const createWatchFiles = (kf) => {
         gulp.watch(srcPath.img, gulp.series(imgFunc, browserSyncReload))
         gulp.watch(srcPath.hero, gulp.series(gulp.parallel(heroContents.createFuncs.bind(heroContents)), browserSyncReload))
         gulp.watch(srcPath.herolist, gulp.series(heroList.createFunc(), browserSyncReload))
-        gulp.watch(srcPath.js, gulp.series(jsFunc, browserSyncReload))
+        //gulp.watch(srcPath.js, gulp.series(jsFunc, browserSyncReload))
     }
 }
 
@@ -45,7 +45,7 @@ const createWatchOne = (kf, id) => {
         gulp.watch(srcPath.scss, gulp.series(cssSass))
         gulp.watch(srcPath.img, gulp.series(imgFunc, browserSyncReload))
         gulp.watch(srcPath.hero, gulp.series(gulp.parallel(heroContents.createOne.bind(heroContents, id)), browserSyncReload));
-        gulp.watch(srcPath.js, gulp.series(jsFunc, browserSyncReload))
+        //gulp.watch(srcPath.js, gulp.series(jsFunc, browserSyncReload))
     }
 }
 
