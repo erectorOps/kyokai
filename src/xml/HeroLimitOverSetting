@@ -18132,4 +18132,76 @@
     <support_buff_id>324</support_buff_id>
     <support_buff_id>394</support_buff_id>
   </HeroLimitOverSetting>
+  <HeroLimitOverSetting group_id="2256" over_times="0" money_cost="10000" hp="382" atk="62" matk="0" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="0" block="15" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="4" mp_cost_down="0">
+    <key_item_id>7005</key_item_id>
+    <key_item_id>7044</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>30</key_item_num>
+    <key_item_num>30</key_item_num>
+    <key_item_num>0</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>341</support_buff_id>
+    <support_buff_id>0</support_buff_id>
+  </HeroLimitOverSetting>
+  <HeroLimitOverSetting group_id="2256" over_times="1" money_cost="50000" hp="439" atk="72" matk="0" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="13" block="17" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <key_item_id>7006</key_item_id>
+    <key_item_id>7045</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>30</key_item_num>
+    <key_item_num>30</key_item_num>
+    <key_item_num>100</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>342</support_buff_id>
+    <support_buff_id>351</support_buff_id>
+  </HeroLimitOverSetting>
+  <HeroLimitOverSetting group_id="2256" over_times="2" money_cost="100000" hp="516" atk="84" matk="0" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="0" block="20" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="5" mp_cost_down="0">
+    <key_item_id>7006</key_item_id>
+    <key_item_id>7045</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>40</key_item_num>
+    <key_item_num>40</key_item_num>
+    <key_item_num>200</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>343</support_buff_id>
+    <support_buff_id>352</support_buff_id>
+  </HeroLimitOverSetting>
+  <HeroLimitOverSetting group_id="2256" over_times="3" money_cost="200000" hp="573" atk="93" matk="0" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="17" block="23" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <key_item_id>7037</key_item_id>
+    <key_item_id>7046</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>60</key_item_num>
+    <key_item_num>60</key_item_num>
+    <key_item_num>300</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>344</support_buff_id>
+    <support_buff_id>353</support_buff_id>
+  </HeroLimitOverSetting>
+  <HeroLimitOverSetting group_id="2256" over_times="4" money_cost="500000" hp="1083" atk="192" matk="0" def="68" mdef="58" atk_crit="0" matk_crit="0" hit="0" block="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="19" mp_recovery="0" mp_cost_down="0">
+    <key_item_id>7037</key_item_id>
+    <key_item_id>7046</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>7000</key_item_id>
+    <key_item_num>100</key_item_num>
+    <key_item_num>100</key_item_num>
+    <key_item_num>1000</key_item_num>
+    <key_item_num>30</key_item_num>
+    <support_buff_id>344</support_buff_id>
+    <support_buff_id>354</support_buff_id>
+  </HeroLimitOverSetting>
+  <HeroLimitOverSetting group_id="2256" over_times="5" money_cost="0" hp="0" atk="0" matk="0" def="0" mdef="0" atk_crit="0" matk_crit="0" hit="0" block="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <key_item_id>0</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_id>0</key_item_id>
+    <key_item_num>0</key_item_num>
+    <key_item_num>0</key_item_num>
+    <key_item_num>0</key_item_num>
+    <key_item_num>0</key_item_num>
+    <support_buff_id>344</support_buff_id>
+    <support_buff_id>354</support_buff_id>
+  </HeroLimitOverSetting>
 </root>

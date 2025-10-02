@@ -2667,6 +2667,8 @@
   <StringSetting id="40515" text="所持数" />
   <StringSetting id="40516" text="{0}個まで" />
   <StringSetting id="40517" text="{0}箱目" />
+  <StringSetting id="40518" text="ボックスが空になりました。次のボックスへ進むと、より多くの報酬を獲得できます。" />
+  <StringSetting id="40519" text="キーアイテムを獲得しました。次のボックスへ進むことができます。" />
   <StringSetting id="41000" text="エラー" />
   <StringSetting id="41001" text="しばらくしてからお試しください" />
   <StringSetting id="41002" text="対象の発言がありません" />
@@ -3841,6 +3843,7 @@
   <StringSetting id="71018" text="最大討伐 スコア&lt;size=24&gt;&lt;color=#D70000&gt;{0}&lt;/color&gt;&lt;/size&gt;以上" />
   <StringSetting id="71019" text="最大討伐 スコア &lt;size=24&gt;&lt;color=#D70000&gt;{0}&lt;/color&gt;&lt;/size&gt;未満" />
   <StringSetting id="71020" text="⇒ポイント×&lt;size=24&gt;&lt;color=#D70000&gt;{0}&lt;/color&gt;&lt;/size&gt; 獲得" />
+  <StringSetting id="71021" text="ストーリーを全クリアすると&#xA;無限討伐戦が解放されます" />
   <StringSetting id="72001" text="チーム1" />
   <StringSetting id="72002" text="チーム2" />
   <StringSetting id="72003" text="チーム3" />

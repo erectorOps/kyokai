@@ -211,4 +211,6 @@
   <StageWorldSetting id="5204" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2204" name="【人気上位特典実装記念】クエスト" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="5304" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2304" name="《復刻》ヴェルン建国記念祭" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="5205" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2205" name="身をやつし" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5206" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2206" name="この歌を捧ぐ" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5306" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2306" name="《復刻》裁きの刃" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
 </root>
