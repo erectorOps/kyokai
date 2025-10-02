@@ -750,12 +750,40 @@ const parseBuff = (buff, lv, info) => {
           text += `スキル発動時追撃(${attackText})状態を付与`;
           break;
       }
+      case '觸發狀態': {
+        //text += parseTrigger(buff,info);
+        break;
+      }
       default:
           console.log("Unknown buff effect type = "+type);
           break;
   }
   if (buff['@_cant_remove'] === 'true') {
     //text += "(消去不可)";
+  }
+  return text;
+}
+
+function parseTrigger(buff, info) {
+  const name = buff['@_name'];
+  const type = buff['@_trigger_condition'];
+  const val1 = parseInt(buff['@_trigger_effect_val1']);
+  const val2 = buff['@_trigger_effect_val2'];
+
+  const debuff = buff['@_debuff'] === "true";
+  const span = `<span class=\"value ${debuff ? "down" : "up"}\">`;
+  const spanHeal = "<span class=\"value heal\">";
+  const spanN = "<span class=\"value\">";
+  const spanEnd = "</span>";
+  let text = "";
+
+  switch (type) {
+    case '隊友發動傷害技能後': {
+      const trigger_skill = info.kf.SkillSetting.find(item => item['@_id'] === val2);
+      const trigger_skill_name = trigger_skill['@_name'];
+      const cooltime = trigger_skill['@_cool_time'];
+      text += `行動不可、MPチャージ${span}${100-val1}%${spanEnd}DOWN、味方がダメージスキル発動時"${trigger_skill_name}"で追撃発動、${cooltime}秒に最大で1回`;
+    }
   }
   return text;
 }
@@ -838,7 +866,7 @@ export const parseSkill = (sid, lv, kf) => {
       text = text.replace(postFix[2], buffDur);
       const buff = kf.BuffSetting.find(item => item['@_id'] === buffId);
       if (buff !== undefined) {
-        text = text.replace(postFix[1], parseBuff(buff, lv, {id: buffId, duration: buffDur, if: buffIf, target: buffTarget, skillTarget: s["@_target"]}));
+        text = text.replace(postFix[1], parseBuff(buff, lv, {id: buffId, duration: buffDur, if: buffIf, target: buffTarget, skillTarget: s["@_target"], kf: kf}));
         if (buff['@_effect_type'] === '速度上升或下降') {
           speed_value += (buff["@_effect_val1"] !== undefined ? parseFloat(buff["@_effect_val1"]) : 0) 
             + (buff["@_counter_effect_val1"] !== undefined ? parseFloat(buff["@_counter_effect_val1"]) : 0);
@@ -866,7 +894,7 @@ export const parseSkill = (sid, lv, kf) => {
             text = text.replace(postFix[2], buffDur);
             const buff = kf.BuffSetting.find(item => item['@_id'] === buffId);
             if (buff !== undefined) {
-              text = text.replace(postFix[1], parseBuff(buff, lv, {id: buffId, duration: buffDur, if: buffIf, target: buffTarget, skillTarget: s["@_target"]}));
+              text = text.replace(postFix[1], parseBuff(buff, lv, {id: buffId, duration: buffDur, if: buffIf, target: buffTarget, skillTarget: s["@_target"], kf: kf}));
             }
           }
       }
