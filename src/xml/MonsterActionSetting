@@ -918,6 +918,14 @@
   <MonsterActionSetting id="52031" info="自身が「中毒」状態の場合" type="自身有指定狀態" value="中毒" skill_id="4009305" />
   <MonsterActionSetting id="52031" info="自身が「火傷」状態の場合" type="自身有指定狀態" value="燒傷" skill_id="4009306" />
   <MonsterActionSetting id="52031" info="自身が「凍結」状態の場合" type="自身有指定狀態" value="凍結" skill_id="4009307" />
+  <MonsterActionSetting id="40095" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4009501" />
+  <MonsterActionSetting id="40095" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4009502" />
+  <MonsterActionSetting id="40095" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4009503" />
+  <MonsterActionSetting id="40095" info="自身が「出血」状態の場合" type="自身有指定狀態" value="流血" skill_id="4009504" />
+  <MonsterActionSetting id="40096" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4009601" />
+  <MonsterActionSetting id="40096" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4009602" />
+  <MonsterActionSetting id="40096" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4009603" />
+  <MonsterActionSetting id="40096" info="自身が「出血」状態の場合" type="自身有指定狀態" value="流血" skill_id="4009604" />
   <MonsterActionSetting id="41001" type="剩餘時間低於" value="90" skill_id="4100101" />
   <MonsterActionSetting id="41001" type="剩餘時間低於" value="60" skill_id="4100102" />
   <MonsterActionSetting id="41001" type="剩餘時間低於" value="30" skill_id="4100103" />

@@ -80,7 +80,7 @@
     <button_show>0</button_show>
     <button_show>0</button_show>
   </ArriveSetting>
-  <ArriveSetting id="2009" sort="6" name="競擊戰模式" icon="arrive-treasure/1" type="競擊戰模式" activity_mode_id="0" hero_group_id="0" hero_face="未指定" stage_hero_group_id="0" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="0" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="0" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="0" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" end_time="2025/10/09 11:00:00" close_time="2025/10/09 11:00:00" show="true">
+  <ArriveSetting id="2009" sort="4" name="競擊戰模式" icon="arrive-limit/4" type="競擊戰模式" activity_mode_id="0" hero_group_id="0" hero_face="未指定" stage_hero_group_id="0" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="0" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="0" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="0" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" end_time="2025/10/23 11:00:00" close_time="2025/10/23 11:00:00" show="true">
     <button_show>0</button_show>
     <button_show>0</button_show>
     <button_show>0</button_show>
@@ -710,17 +710,27 @@
     <button_show>0</button_show>
     <button_show>0</button_show>
   </ArriveSetting>
-  <ArriveSetting id="2205" sort="5" name="身をやつし" icon="arrive-2105/event_103" type="無雙模式" activity_mode_id="700008" hero_group_id="2252" hero_face="未指定" stage_hero_group_id="2252" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5205" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="250" contribution_reward="220501" ranking_reward="220501" activity_treasure_id="0" contribution_buff_special_id="220501" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" end_time="2025/10/02 11:00:00" close_time="2025/10/09 11:00:00" show="true">
+  <ArriveSetting id="2205" sort="0" name="身をやつし" icon="arrive-2105/event_103" type="無雙模式" activity_mode_id="700008" hero_group_id="2252" hero_face="未指定" stage_hero_group_id="2252" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5205" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="250" contribution_reward="220501" ranking_reward="220501" activity_treasure_id="0" contribution_buff_special_id="220501" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" end_time="2025/10/02 11:00:00" close_time="2025/10/09 11:00:00" show="true">
     <button_show>3</button_show>
     <button_show>2</button_show>
     <button_show>0</button_show>
   </ArriveSetting>
-  <ArriveSetting id="2206" sort="3" name="この歌を捧ぐ" icon="arrive-2106/event_104" type="頭目連戰模式" activity_mode_id="900114" hero_group_id="2256" hero_face="未指定" stage_hero_group_id="2256" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5206" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="252" contribution_reward="220601" ranking_reward="220601" activity_treasure_id="0" contribution_buff_special_id="220601" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" end_time="2025/10/09 11:00:00" close_time="2025/10/16 11:00:00" show="true">
+  <ArriveSetting id="2206" sort="5" name="この歌を捧ぐ" icon="arrive-2106/event_104" type="頭目連戰模式" activity_mode_id="900114" hero_group_id="2256" hero_face="未指定" stage_hero_group_id="2256" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5206" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="252" contribution_reward="220601" ranking_reward="220601" activity_treasure_id="0" contribution_buff_special_id="220601" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" end_time="2025/10/09 11:00:00" close_time="2025/10/16 11:00:00" show="true">
     <button_show>3</button_show>
     <button_show>2</button_show>
     <button_show>0</button_show>
   </ArriveSetting>
-  <ArriveSetting id="2306" sort="4" name="《復刻》裁きの刃" icon="arrive-2106/event_105" type="活動" activity_mode_id="900115" hero_group_id="2073" hero_face="未指定" stage_hero_group_id="2074" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5306" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="253" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="0" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" end_time="2025/10/09 11:00:00" close_time="2025/10/16 11:00:00" show="true">
+  <ArriveSetting id="2306" sort="6" name="《復刻》裁きの刃" icon="arrive-2106/event_105" type="活動" activity_mode_id="900115" hero_group_id="2073" hero_face="未指定" stage_hero_group_id="2074" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5306" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="253" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="0" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" end_time="2025/10/09 11:00:00" close_time="2025/10/16 11:00:00" show="true">
+    <button_show>0</button_show>
+    <button_show>0</button_show>
+    <button_show>0</button_show>
+  </ArriveSetting>
+  <ArriveSetting id="2207" sort="3" name="わたしたち、ズッ友だから" icon="arrive-2107/event_106" type="活動" activity_mode_id="900116" hero_group_id="2253" hero_face="未指定" stage_hero_group_id="2254" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5207" stage_world_id_b="0" activity_lottery_id="0" shop_id="5207" activity_draw_id="254" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="220701" ap_bonus_hero_special_id="0" normal_boss_id="52071" hard_boss_id="52072" very_hard_boss_id="52073" boss_cost_item_id="1708" mini_game_id="0" end_time="2025/10/23 11:00:00" close_time="2025/10/30 11:00:00" show="true">
+    <button_show>1</button_show>
+    <button_show>0</button_show>
+    <button_show>0</button_show>
+  </ArriveSetting>
+  <ArriveSetting id="2307" sort="2" name="コスチューム追加投票" icon="arrive-2107/vote" type="投票" activity_mode_id="208" hero_group_id="0" hero_face="未指定" stage_hero_group_id="0" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="0" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="0" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="0" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" end_time="2025/10/23 11:00:00" close_time="2025/10/30 11:00:00" show="true">
     <button_show>0</button_show>
     <button_show>0</button_show>
     <button_show>0</button_show>

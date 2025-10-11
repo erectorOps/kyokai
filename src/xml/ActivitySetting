@@ -684,6 +684,44 @@
     <reward_num>0</reward_num>
     <reward_num>0</reward_num>
   </ActivitySetting>
+  <ActivitySetting id="208" name="コスチューム追加投票" show="true" menu_show="false" sort="3" icon="activity001/PS8_主介面_活動列表_一番くじ" bg="vote008/人気投票特典_1640x1000" pre_stage_site="0" start_time="2025/10/09 11:00:00" end_time="2025/10/23 11:00:00" dur_day="0" activity_type="投票" activity_val1="1:1707" activity_val2="1" activity_val4="203" activity_val5="false">
+    <hero_info>2245</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
   <ActivitySetting id="302" name="Fanzine導入" show="true" menu_show="false" sort="0" pre_stage_site="0" end_time="2024/05/30 11:00:00" dur_day="0" activity_type="登入劇情" activity_val1="5032010" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -3458,6 +3496,44 @@
     <reward_num>0</reward_num>
     <reward_num>0</reward_num>
   </ActivitySetting>
+  <ActivitySetting id="2317" name="「人気聖騎士総選挙特典コスチューム追加投票」ログインスタンプ" show="true" menu_show="false" sort="7" icon="activity-sign/ログインスタンプ" pre_stage_site="0" start_time="2025/10/09 11:00:00" end_time="2025/10/23 11:00:00" dur_day="0" activity_type="每月簽到" activity_val1="activity_sign_vote2" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>7</need_target>
+    <need_target>14</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>3</reward_type>
+    <reward_type>2</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>3390</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>1</reward_num>
+    <reward_num>1000</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
   <ActivitySetting id="3105" name="戰力統計" show="true" menu_show="true" sort="3" icon="activity001/PS8_主介面_活動列表_戦力アップ報酬" pre_stage_site="0" dur_day="0" activity_type="戰力" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -5244,7 +5320,7 @@
     <reward_num>0</reward_num>
     <reward_num>0</reward_num>
   </ActivitySetting>
-  <ActivitySetting id="49990" name="2周年競撃戦" show="false" menu_show="false" sort="0" icon="arrive-limit/7-banner" bg="eventbg/limitbg16/limitmain-2year-bg" pre_stage_site="0" start_time="2025/09/11 11:00:00" end_time="2025/09/25 11:00:00" dur_day="0" activity_type="限界" activity_val1="3" activity_val5="false">
+  <ActivitySetting id="40047" name="第47回競撃戦" show="false" menu_show="false" sort="0" icon="arrive-limit/4-banner" bg="eventbg/limitbg16/limitmain-47-bg" pre_stage_site="0" start_time="2025/10/09 11:00:00" end_time="2025/10/23 11:00:00" dur_day="0" activity_type="限界" activity_val1="3" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -12008,6 +12084,44 @@
     <reward_num>0</reward_num>
     <reward_num>0</reward_num>
   </ActivitySetting>
+  <ActivitySetting id="60143" name="【わたしたち、ズッ友だから】ログインボーナス" show="true" menu_show="false" sort="10" bg="activitylogin142/登入獎勵_わたしたち、ズッ友だから_1640x1000" pre_stage_site="0" end_time="2025/10/23 11:00:00" dur_day="0" activity_type="活動簽到" activity_val1="60143" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
   <ActivitySetting id="600002" name="活躍度任務" show="true" menu_show="false" sort="6" pre_stage_site="0" end_time="2023/10/12 11:00:00" dur_day="0" activity_type="活躍度" activity_val1="600002" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -15467,6 +15581,44 @@
     <reward_num>0</reward_num>
   </ActivitySetting>
   <ActivitySetting id="600091" name="活躍度任務" show="true" menu_show="false" sort="6" pre_stage_site="0" start_time="2025/10/02 11:00:00" end_time="2025/10/09 11:00:00" dur_day="0" activity_type="活躍度" activity_val1="600091" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
+  <ActivitySetting id="600092" name="活躍度任務" show="true" menu_show="false" sort="6" pre_stage_site="0" start_time="2025/10/09 11:00:00" end_time="2025/10/23 11:00:00" dur_day="0" activity_type="活躍度" activity_val1="600092" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -20711,6 +20863,44 @@
     <reward_num>0</reward_num>
   </ActivitySetting>
   <ActivitySetting id="900115" name="《復刻》裁きの刃" show="false" menu_show="false" sort="0" pre_stage_site="0" end_time="2025/10/09 11:00:00" dur_day="0" activity_type="活動事件" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
+  <ActivitySetting id="900116" name="わたしたち、ズッ友だから" show="false" menu_show="false" sort="0" pre_stage_site="0" end_time="2025/10/23 11:00:00" dur_day="0" activity_type="活動事件" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
