@@ -307,4 +307,9 @@
   <StageSiteBuffSetting group_id="60150501" buff_id="60150501" dur="0" buff_obj="我方" buff_obj_attr="火" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" info_text="火属性聖騎士の火属性攻撃+30%。" />
   <StageSiteBuffSetting group_id="60150502" buff_id="60150502" dur="0" buff_obj="我方" buff_obj_attr="想" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" info_text="想属性聖騎士の想属性攻撃+30%。" />
   <StageSiteBuffSetting group_id="60150503" buff_id="60150503" dur="0" buff_obj="我方" buff_obj_attr="水" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" info_text="水属性聖騎士の水属性攻撃+30%。" />
+  <StageSiteBuffSetting group_id="5208001" buff_id="5064001" dur="9999" buff_obj="我方" buff_obj_attr="魔" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="前" buff_obj_atk="無" info_text="魔属性前列聖騎士のダメージ+30%。" />
+  <StageSiteBuffSetting group_id="5208002" buff_id="5064001" dur="9999" buff_obj="我方" buff_obj_attr="魔" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="中" buff_obj_atk="無" info_text="魔属性中列聖騎士のダメージ+30%。" />
+  <StageSiteBuffSetting group_id="5208003" buff_id="5064001" dur="9999" buff_obj="我方" buff_obj_attr="魔" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="後" buff_obj_atk="無" info_text="魔属性後列聖騎士のダメージ+30%。" />
+  <StageSiteBuffSetting group_id="5208004" buff_id="5064002" dur="9999" buff_obj="我方" buff_obj_attr="魔" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="物理" info_text="魔属性物理聖騎士の物理攻撃+20%。" />
+  <StageSiteBuffSetting group_id="5208005" buff_id="5064003" dur="9999" buff_obj="我方" buff_obj_attr="魔" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="魔法" info_text="魔属性魔法聖騎士の魔法攻撃+20%。" />
 </root>
