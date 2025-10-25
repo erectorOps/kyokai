@@ -926,6 +926,21 @@
   <MonsterActionSetting id="40096" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4009602" />
   <MonsterActionSetting id="40096" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4009603" />
   <MonsterActionSetting id="40096" info="自身が「出血」状態の場合" type="自身有指定狀態" value="流血" skill_id="4009604" />
+  <MonsterActionSetting id="45002" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4500201" />
+  <MonsterActionSetting id="45002" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4500202" />
+  <MonsterActionSetting id="45002" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4500203" />
+  <MonsterActionSetting id="52093" info="残りHP75%" type="自身血量低於" value="0.75" skill_id="10004305" />
+  <MonsterActionSetting id="52093" info="残りHP40%" type="自身血量低於" value="0.4" skill_id="10004306" />
+  <MonsterActionSetting id="52093" info="残りHP30%" type="自身血量低於" value="0.3" skill_id="10004308" />
+  <MonsterActionSetting id="52093" info="残りHP10%" type="自身血量低於" value="0.1" skill_id="10004307" />
+  <MonsterActionSetting id="52092" info="残りHP75%" type="自身血量低於" value="0.75" skill_id="10004205" />
+  <MonsterActionSetting id="52092" info="残りHP40%" type="自身血量低於" value="0.4" skill_id="10004206" />
+  <MonsterActionSetting id="52092" info="残りHP30%" type="自身血量低於" value="0.3" skill_id="10004208" />
+  <MonsterActionSetting id="52092" info="残りHP10%" type="自身血量低於" value="0.1" skill_id="10004207" />
+  <MonsterActionSetting id="52091" info="残りHP75%" type="自身血量低於" value="0.75" skill_id="10004105" />
+  <MonsterActionSetting id="52091" info="残りHP40%" type="自身血量低於" value="0.4" skill_id="10004106" />
+  <MonsterActionSetting id="52091" info="残りHP30%" type="自身血量低於" value="0.3" skill_id="10004108" />
+  <MonsterActionSetting id="52091" info="残りHP10%" type="自身血量低於" value="0.1" skill_id="10004107" />
   <MonsterActionSetting id="41001" type="剩餘時間低於" value="90" skill_id="4100101" />
   <MonsterActionSetting id="41001" type="剩餘時間低於" value="60" skill_id="4100102" />
   <MonsterActionSetting id="41001" type="剩餘時間低於" value="30" skill_id="4100103" />

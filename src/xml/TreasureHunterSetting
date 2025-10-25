@@ -2,6 +2,8 @@
 <root>
   <TreasureHunterSetting id="45001" name="第1回異策戦" hero_group_id="2251">
     <stage_site_id>1</stage_site_id>
+  </TreasureHunterSetting>
+  <TreasureHunterSetting id="45002" name="第2回異策戦" hero_group_id="2258">
     <stage_site_id>2</stage_site_id>
   </TreasureHunterSetting>
 </root>

@@ -40,4 +40,44 @@
     <dmg_reward_num>0</dmg_reward_num>
     <dmg_reward_num>0</dmg_reward_num>
   </TreasureHunterStageSiteSetting>
+  <TreasureHunterStageSiteSetting id="2" name="悪玉" icon="arrive-treasure/treasure-02" battle_map="100106/100106" background="area1001/100106" hero_rare_limit="無限制" limit_sec="120" monster_id="2" buff_reduce_id="2" hero_add_special_value_id="0" point_reward_id="4500201" total_damage_ranking_reward_id="4500203" max_damage_ranking_reward_id="4500202">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <reward_need_dmg>5000000</reward_need_dmg>
+    <reward_need_dmg>10000000</reward_need_dmg>
+    <reward_need_dmg>20000000</reward_need_dmg>
+    <reward_need_dmg>50000000</reward_need_dmg>
+    <reward_need_dmg>100000000</reward_need_dmg>
+    <reward_need_dmg>0</reward_need_dmg>
+    <reward_need_dmg>0</reward_need_dmg>
+    <reward_need_dmg>0</reward_need_dmg>
+    <reward_need_dmg>0</reward_need_dmg>
+    <reward_need_dmg>0</reward_need_dmg>
+    <dmg_reward_id>4500111</dmg_reward_id>
+    <dmg_reward_id>4500112</dmg_reward_id>
+    <dmg_reward_id>4500113</dmg_reward_id>
+    <dmg_reward_id>4500114</dmg_reward_id>
+    <dmg_reward_id>4500115</dmg_reward_id>
+    <dmg_reward_id>0</dmg_reward_id>
+    <dmg_reward_id>0</dmg_reward_id>
+    <dmg_reward_id>0</dmg_reward_id>
+    <dmg_reward_id>0</dmg_reward_id>
+    <dmg_reward_id>0</dmg_reward_id>
+    <dmg_reward_num>1</dmg_reward_num>
+    <dmg_reward_num>1</dmg_reward_num>
+    <dmg_reward_num>1</dmg_reward_num>
+    <dmg_reward_num>1</dmg_reward_num>
+    <dmg_reward_num>1</dmg_reward_num>
+    <dmg_reward_num>0</dmg_reward_num>
+    <dmg_reward_num>0</dmg_reward_num>
+    <dmg_reward_num>0</dmg_reward_num>
+    <dmg_reward_num>0</dmg_reward_num>
+    <dmg_reward_num>0</dmg_reward_num>
+  </TreasureHunterStageSiteSetting>
 </root>

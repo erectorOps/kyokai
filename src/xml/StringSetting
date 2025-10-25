@@ -2653,6 +2653,7 @@
   <StringSetting id="40146" text="BP【お便り】" />
   <StringSetting id="40147" text="ミッション" />
   <StringSetting id="40148" text="マップ" />
+  <StringSetting id="40149" text="【{0}】BP報酬" />
   <StringSetting id="40501" text="抽選設定" />
   <StringSetting id="40502" text="抽選回数" />
   <StringSetting id="40503" text="抽選演出" />
@@ -3491,7 +3492,7 @@
   <StringSetting id="60067" text="獲得失敗" />
   <StringSetting id="60068" text="報酬を獲得済みです" />
   <StringSetting id="60069" text="ランキング" />
-  <StringSetting id="60070" text="ランキング1位～10位：称号「雷槍に認められし者」を獲得できます。&#xA;ランキング1位～100位：称号「プディング職人 」を獲得できます。" />
+  <StringSetting id="60070" text="ランキング1位～10位：称号「黒猫だぞ、にゃおん」を獲得できます。&#xA;ランキング1位～100位：称号「ちゅぱっと行ってくる！」を獲得できます。" />
   <StringSetting id="60071" text="プレイヤー情報がありません" />
   <StringSetting id="60072" text="攻撃でHP-{0}" />
   <StringSetting id="60073" text="{0}秒後に更新可能" />
@@ -3629,6 +3630,7 @@
   <StringSetting id="64002" text="毎週の購入回数" />
   <StringSetting id="64003" text="毎月の購入回数" />
   <StringSetting id="64004" text="毎日の購入回数" />
+  <StringSetting id="64999" text="なし" />
   <StringSetting id="65000" text="最大HP" />
   <StringSetting id="65001" text="物理攻撃" />
   <StringSetting id="65002" text="魔法攻撃" />
@@ -4048,6 +4050,7 @@
   <StringSetting id="79020" text="SR" />
   <StringSetting id="79021" text="SSR" />
   <StringSetting id="79022" text="合成結果" />
+  <StringSetting id="79023" text="変換結果" />
   <StringSetting id="79300" text="小" />
   <StringSetting id="79301" text="中" />
   <StringSetting id="79302" text="大" />

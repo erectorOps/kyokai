@@ -35,127 +35,97 @@
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="8" page="お得" banner_type="活動" small_banner_img="activity-banner-2107/人気投票特典_320x88" big_banner_img="activity-banner-2107/人気投票特典_804x434">
+  <BannerSetting id="8" page="お得" banner_type="活動" small_banner_img="activity-banner-2109/人氣投票結果_320x88" big_banner_img="activity-banner-2109/人氣投票結果_804x434">
     <function_val>208</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="9" page="お得" banner_type="活動" small_banner_img="activity-banner-2108/活動_戦火のなかで_320x88" big_banner_img="activity-banner-2108/活動_戦火のなかで_804x434">
-    <function_val>900117</function_val>
+  <BannerSetting id="9" page="お得" banner_type="活動" small_banner_img="activity-banner-2109/活動_双狂のハロウィン_320x88" big_banner_img="activity-banner-2109/活動_双狂のハロウィン_804x434">
+    <function_val>900119</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="10" page="お得" banner_type="活動" small_banner_img="activity-banner-2108/活動_大淫鬼ハロウィン(復刻)_320x88" big_banner_img="activity-banner-2108/活動_大淫鬼ハロウィン(復刻)_804x434">
-    <function_val>900118</function_val>
-    <function_val>0</function_val>
-    <function_val>0</function_val>
-  </BannerSetting>
-  <BannerSetting id="11" page="お得" banner_type="活動" small_banner_img="activity-banner-2107/活動_わたしたち、ズッ友だから_320x88" big_banner_img="activity-banner-2107/活動_わたしたち、ズッ友だから_804x434">
-    <function_val>900116</function_val>
-    <function_val>0</function_val>
-    <function_val>0</function_val>
-  </BannerSetting>
-  <BannerSetting id="12" page="お得" banner_type="限界戰" small_banner_img="activity-banner-2107/活動_競撃戦・水_320x88" big_banner_img="activity-banner-2107/活動_競撃戦・水_804x434">
+  <BannerSetting id="10" page="お得" banner_type="限界戰" small_banner_img="activity-banner-2109/活動_異策戦・聖_320x88" big_banner_img="activity-banner-2109/活動_異策戦・聖_804x434">
     <function_val>0</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="13" page="召喚" banner_type="募集" small_banner_img="activity-banner-2108/召喚_戦火のなかで_320x88" big_banner_img="activity-banner-2108/召喚_戦火のなかで_804x434">
-    <function_val>256</function_val>
+  <BannerSetting id="11" page="召喚" banner_type="募集" small_banner_img="activity-banner-2109/召喚_2周年人気聖騎士総選挙初獲得召喚_320x88" big_banner_img="activity-banner-2109/召喚_2周年人気聖騎士総選挙初獲得召喚_804x434">
+    <function_val>260</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="14" page="召喚" banner_type="募集" small_banner_img="activity-banner-2108/召喚_大淫鬼ハロウィン(復刻)_320x88" big_banner_img="activity-banner-2108/召喚_大淫鬼ハロウィン(復刻)_804x434">
-    <function_val>257</function_val>
+  <BannerSetting id="12" page="召喚" banner_type="募集" small_banner_img="activity-banner-2109/召喚_2周年人気聖騎士総選挙ピックアップ召喚_320x88" big_banner_img="activity-banner-2109/召喚_2周年人気聖騎士総選挙ピックアップ召喚_804x434">
+    <function_val>259</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="15" page="召喚" banner_type="募集" small_banner_img="activity-banner-2107/召喚_わたしたち、ズッ友だから_320x88" big_banner_img="activity-banner-2107/召喚_わたしたち、ズッ友だから_804x434">
-    <function_val>254</function_val>
+  <BannerSetting id="13" page="召喚" banner_type="募集" small_banner_img="activity-banner-2109/召喚_双狂のハロウィン_320x88" big_banner_img="activity-banner-2109/召喚_双狂のハロウィン_804x434">
+    <function_val>258</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="16" page="召喚" banner_type="募集" small_banner_img="activity-banner-2107/屬性pickup召喚_競撃戦応援_320x88" big_banner_img="activity-banner-2107/屬性pickup召喚_競撃戦応援_804x434">
-    <function_val>255</function_val>
+  <BannerSetting id="14" page="お得" banner_type="商品" small_banner_img="activity-banner-2109/活動SET_双狂のハロウィン_召喚チケットセット_320x88" big_banner_img="activity-banner-2109/活動SET_双狂のハロウィン_召喚チケットセット_804x434">
+    <function_val>kyoweb_event85_1</function_val>
+    <function_val>kyoweb_event85_2</function_val>
+    <function_val>0</function_val>
+  </BannerSetting>
+  <BannerSetting id="15" page="お得" banner_type="商品" small_banner_img="activity-banner-2109/活動SET_2周年人気聖騎士総選挙_召喚チケットセット_320x88" big_banner_img="activity-banner-2109/活動SET_2周年人気聖騎士総選挙_召喚チケットセット_804x434">
+    <function_val>kyoweb_event85_3</function_val>
+    <function_val>kyoweb_event85_4</function_val>
+    <function_val>0</function_val>
+  </BannerSetting>
+  <BannerSetting id="16" page="お得" banner_type="商品" small_banner_img="activity-banner-2109/活動SET_双狂のハロウィン_イベントセット_320x88" big_banner_img="activity-banner-2109/活動SET_双狂のハロウィン_イベントセット_804x434">
+    <function_val>kyoweb_event85_5</function_val>
+    <function_val>kyoweb_event85_6</function_val>
+    <function_val>0</function_val>
+  </BannerSetting>
+  <BannerSetting id="17" page="お得" banner_type="商品" small_banner_img="activity-banner-2109/活動SET_双狂のハロウィン_晶石セット_320x88" big_banner_img="activity-banner-2109/活動SET_双狂のハロウィン_晶石セット_804x434">
+    <function_val>kyoweb_event85_7</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="17" page="お得" banner_type="商品" small_banner_img="activity-banner-2108/活動SET_戦火のなかで_召喚チケットセット_320x88" big_banner_img="activity-banner-2108/活動SET_戦火のなかで_召喚チケットセット_804x434">
-    <function_val>kyoweb_event84_1</function_val>
-    <function_val>kyoweb_event84_2</function_val>
-    <function_val>0</function_val>
-  </BannerSetting>
-  <BannerSetting id="18" page="お得" banner_type="商品" small_banner_img="activity-banner-2108/活動SET_大淫鬼ハロウィン(復刻)_召喚チケットセット_320x88" big_banner_img="activity-banner-2108/活動SET_大淫鬼ハロウィン(復刻)_召喚チケットセット_804x434">
-    <function_val>kyoweb_event84_3</function_val>
-    <function_val>kyoweb_event84_4</function_val>
-    <function_val>0</function_val>
-  </BannerSetting>
-  <BannerSetting id="19" page="お得" banner_type="商品" small_banner_img="activity-banner-2108/活動SET_戦火のなかで_育成応援セット_320x88" big_banner_img="activity-banner-2108/活動SET_戦火のなかで_育成応援セット_804x434">
-    <function_val>kyoweb_event84_5</function_val>
-    <function_val>kyoweb_event84_6</function_val>
-    <function_val>0</function_val>
-  </BannerSetting>
-  <BannerSetting id="20" page="お得" banner_type="商品" small_banner_img="activity-banner-2107/活動SET_わたしたち、ズッ友だから_召喚チケットセット_320x88" big_banner_img="activity-banner-2107/活動SET_わたしたち、ズッ友だから_召喚チケットセット_804x434">
-    <function_val>kyoweb_event83_1</function_val>
-    <function_val>kyoweb_event83_2</function_val>
-    <function_val>0</function_val>
-  </BannerSetting>
-  <BannerSetting id="21" page="お得" banner_type="商品" small_banner_img="activity-banner-2107/活動SET_わたしたち、ズッ友だから_イベントセット_320x88" big_banner_img="activity-banner-2107/活動SET_わたしたち、ズッ友だから_イベントセット_804x434">
-    <function_val>kyoweb_event83_3</function_val>
-    <function_val>kyoweb_event83_4</function_val>
-    <function_val>0</function_val>
-  </BannerSetting>
-  <BannerSetting id="22" page="お得" banner_type="商品" small_banner_img="activity-banner-2107/活動SET_競撃戦・水_攻略応援セット_320x88" big_banner_img="activity-banner-2107/活動SET_競撃戦・水_攻略応援セット_804x434">
-    <function_val>kyoweb_keigeki_water10_1</function_val>
-    <function_val>kyoweb_keigeki_water10_2</function_val>
-    <function_val>0</function_val>
-  </BannerSetting>
-  <BannerSetting id="23" page="お得" banner_type="活動" small_banner_img="activity-banner-2108/活動PASS_戦火のなかで_320x88" big_banner_img="activity-banner-2108/活動PASS_戦火のなかで_804x434">
-    <function_val>600093</function_val>
+  <BannerSetting id="18" page="お得" banner_type="活動" small_banner_img="activity-banner-2109/活動PASS_双狂のハロウィン_320x88" big_banner_img="activity-banner-2109/活動PASS_双狂のハロウィン_804x434">
+    <function_val>600094</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="24" page="お得" banner_type="活動" small_banner_img="activity-banner-2107/活動PASS_わたしたち、ズッ友だから_320x88" big_banner_img="activity-banner-2107/活動PASS_わたしたち、ズッ友だから_804x434">
-    <function_val>600092</function_val>
-    <function_val>0</function_val>
-    <function_val>0</function_val>
-  </BannerSetting>
-  <BannerSetting id="25" page="お得" banner_type="戰鬥通行證" small_banner_img="activity-banner-2102/季PASS_シーズンパス_320x88" big_banner_img="activity-banner-2102/季PASS_シーズンパス_804x434">
+  <BannerSetting id="19" page="お得" banner_type="戰鬥通行證" small_banner_img="activity-banner-2102/季PASS_シーズンパス_320x88" big_banner_img="activity-banner-2102/季PASS_シーズンパス_804x434">
     <function_val>0</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="26" page="お得" banner_type="VIP月卡" small_banner_img="activity-banner-2025/ぶるんぶるんパス_320x88" big_banner_img="activity-banner-2025/ぶるんぶるんパス_804x434">
+  <BannerSetting id="20" page="お得" banner_type="VIP月卡" small_banner_img="activity-banner-2025/ぶるんぶるんパス_320x88" big_banner_img="activity-banner-2025/ぶるんぶるんパス_804x434">
     <function_val>0</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="27" page="お得" banner_type="成長基金" small_banner_img="activity-banner-2057/公告_ランクアップ応援プラン1_320x88" big_banner_img="activity-banner-2057/公告_ランクアップ応援プラン1_804x434">
+  <BannerSetting id="21" page="お得" banner_type="成長基金" small_banner_img="activity-banner-2057/公告_ランクアップ応援プラン1_320x88" big_banner_img="activity-banner-2057/公告_ランクアップ応援プラン1_804x434">
     <function_val>level_quest1</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="28" page="お得" banner_type="成長基金" small_banner_img="activity-banner-2057/公告_ランクアップ応援プラン2_320x88" big_banner_img="activity-banner-2057/公告_ランクアップ応援プラン2_804x434">
+  <BannerSetting id="22" page="お得" banner_type="成長基金" small_banner_img="activity-banner-2057/公告_ランクアップ応援プラン2_320x88" big_banner_img="activity-banner-2057/公告_ランクアップ応援プラン2_804x434">
     <function_val>level_quest2</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="29" page="お得" banner_type="商品" small_banner_img="banner001/公告_7日パス_320x88" big_banner_img="banner-pass/公告_7日パス_804x434">
+  <BannerSetting id="23" page="お得" banner_type="商品" small_banner_img="banner001/公告_7日パス_320x88" big_banner_img="banner-pass/公告_7日パス_804x434">
     <function_val>kyoWEB_week_pass</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="30" page="お得" banner_type="商品" small_banner_img="banner001/公告_30日パス_320x88" big_banner_img="banner-pass/公告_30日パス_804x434">
+  <BannerSetting id="24" page="お得" banner_type="商品" small_banner_img="banner001/公告_30日パス_320x88" big_banner_img="banner-pass/公告_30日パス_804x434">
     <function_val>kyoWEB_monthly_pass</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="31" page="お得" banner_type="商品" small_banner_img="banner001/公告_30日ゴールドパス_320x88" big_banner_img="banner-pass/公告_30日ゴールドパス_804x434">
+  <BannerSetting id="25" page="お得" banner_type="商品" small_banner_img="banner001/公告_30日ゴールドパス_320x88" big_banner_img="banner-pass/公告_30日ゴールドパス_804x434">
     <function_val>kyoWEB_gold_monthly_pass</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="32" page="召喚" banner_type="募集" small_banner_img="banner001/初心者応援召喚_320x88" big_banner_img="activity-banner/初心者半額ガチャ_804x434">
+  <BannerSetting id="26" page="召喚" banner_type="募集" small_banner_img="banner001/初心者応援召喚_320x88" big_banner_img="activity-banner/初心者半額ガチャ_804x434">
     <function_val>5</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
