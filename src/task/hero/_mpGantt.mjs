@@ -11,6 +11,8 @@ const mpChargedWeapons = [
 //  { id: "4370", mp_recovery: 0, mp_charge_time: 0, mp_charge_value: 0, chara_id: 2239, equip_type: "專武" }, // 平天＆渾鉄棍
 //  { id: "4371", mp_recovery: 29, mp_charge_time: 0, mp_charge_value: 0, chara_id: 2251, equip_type: "專武" }, // カジノボーイ・バニーズ
 
+  { id: "4219", mp_recovery: 0, mp_charge_time: 10, mp_charge_value: 25, equip_type: "投", atk_attr: "魔法", chara_id: 2201, name: "コズミッククリスタル"}, // コズミッククリスタル ニーナの場合は殲滅がパッシブと重複するので性能の低いこちらを優先
+
   // ここから殲滅シリーズ
   { id: "4311", mp_recovery: 0, mp_charge_time: 3, mp_charge_value: 200, equip_type: "斬", atk_attr: "物理" }, // 殲滅の剣
   { id: "4312", mp_recovery: 0, mp_charge_time: 3, mp_charge_value: 200, equip_type: "斬", atk_attr: "魔法" }, // 殲滅のチャクラム
@@ -22,6 +24,13 @@ const mpChargedWeapons = [
   { id: "4318", mp_recovery: 0, mp_charge_time: 3, mp_charge_value: 200, equip_type: "射", atk_attr: "魔法" }, // 殲滅の弾丸
   { id: "4319", mp_recovery: 0, mp_charge_time: 3, mp_charge_value: 200, equip_type: "投", atk_attr: "物理" }, // 殲滅の斧
   { id: "4320", mp_recovery: 20, mp_charge_time: 3, mp_charge_value: 200, equip_type: "投", atk_attr: "魔法" }, // 殲滅の魔榴弾
+
+  //{ id: "4211", mp_recovery: 0, mp_charge_time: 10, mp_charge_value: 25, equip_type: "打", atk_attr: "魔法" }, // 討滅の剣
+  //{ id: "4219", mp_recovery: 0, mp_charge_time: 10, mp_charge_value: 25, equip_type: "投", atk_attr: "魔法" }, // コズミッククリスタル
+  
+  //{ id: "4123", mp_recovery: 0, mp_charge_time: 5, mp_charge_value: 100, equip_type: "突", atk_attr: "物理" }, // 討滅の槍
+  //{ id: "4126", mp_recovery: 0, mp_charge_time: 5, mp_charge_value: 100, equip_type: "打", atk_attr: "魔法" }, // 討滅のロッド
+
 ]
 
 class MpAddEvent {
@@ -100,7 +109,7 @@ export class MpGantt {
             events.push(new MpAddEvent(
                 i,
                 this._weapon.mp_charge_value,
-                `${(this._weapon.equip_type === "專武" ? "専用" : "殲滅")}武器のMP継続回復`
+                `${(this._weapon.equip_type === "專武" ? "専用" : this._weapon.name !== undefined ? this._weapon.name : "殲滅")}武器のMP継続回復`
             ));
         }
         // バニティアのMP回復
