@@ -11,7 +11,7 @@ const mpChargedWeapons = [
 //  { id: "4370", mp_recovery: 0, mp_charge_time: 0, mp_charge_value: 0, chara_id: 2239, equip_type: "專武" }, // 平天＆渾鉄棍
 //  { id: "4371", mp_recovery: 29, mp_charge_time: 0, mp_charge_value: 0, chara_id: 2251, equip_type: "專武" }, // カジノボーイ・バニーズ
 
-  { id: "4219", mp_recovery: 0, mp_charge_time: 10, mp_charge_value: 25, equip_type: "投", atk_attr: "魔法", chara_id: 2201, name: "コズミッククリスタル"}, // コズミッククリスタル ニーナの場合は殲滅がパッシブと重複するので性能の低いこちらを優先
+  { id: "4219", mp_recovery: 0, mp_charge_time: 10, mp_charge_value: 25, equip_type: "投", atk_attr: "魔法", chara_id: 2201, name: "ｺｽﾞﾐｯｸｸﾘｽﾀﾙ"}, // コズミッククリスタル ニーナの場合は殲滅がパッシブと重複するので性能の低いこちらを優先
 
   // ここから殲滅シリーズ
   { id: "4311", mp_recovery: 0, mp_charge_time: 3, mp_charge_value: 200, equip_type: "斬", atk_attr: "物理" }, // 殲滅の剣
@@ -78,10 +78,10 @@ export class MpGantt {
         const null_value = { mp_recovery: 0, mp_charge_time: 0, mp_charge_value: 0 };
         for (const w of mpChargedWeapons) {
             if (w.chara_id === this._json.id) {
-                return { mp_recovery: w.mp_recovery, mp_charge_time: w.mp_charge_time, mp_charge_value: w.mp_charge_value };
+                return { ...w };
             }
             if (w.equip_type === this._json.equip_type && w.atk_attr === this._json.atk_attr) {
-                return { mp_recovery: w.mp_recovery, mp_charge_time: w.mp_charge_time, mp_charge_value: w.mp_charge_value };
+                return { ...w };
             }
         }
         return null_value;
