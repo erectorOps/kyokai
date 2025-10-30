@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <root>
-  <RankAwardGroupSetting id="110" serial_no="1" ranking="1" money="0" coin_per_hour="0" free_point="0" guild_icon="100701">
-    <title_id>900901</title_id>
+  <RankAwardGroupSetting id="110" serial_no="1" ranking="1" money="0" coin_per_hour="0" free_point="0" guild_icon="100801">
+    <title_id>901001</title_id>
     <title_id>0</title_id>
     <title_id>0</title_id>
     <item_id>0</item_id>
@@ -15,8 +15,8 @@
     <item_num>0</item_num>
     <item_num>0</item_num>
   </RankAwardGroupSetting>
-  <RankAwardGroupSetting id="110" serial_no="2" ranking="2" money="0" coin_per_hour="0" free_point="0" guild_icon="100702">
-    <title_id>900902</title_id>
+  <RankAwardGroupSetting id="110" serial_no="2" ranking="2" money="0" coin_per_hour="0" free_point="0" guild_icon="100802">
+    <title_id>901002</title_id>
     <title_id>0</title_id>
     <title_id>0</title_id>
     <item_id>0</item_id>
@@ -30,8 +30,8 @@
     <item_num>0</item_num>
     <item_num>0</item_num>
   </RankAwardGroupSetting>
-  <RankAwardGroupSetting id="110" serial_no="3" ranking="3" money="0" coin_per_hour="0" free_point="0" guild_icon="100703">
-    <title_id>900903</title_id>
+  <RankAwardGroupSetting id="110" serial_no="3" ranking="3" money="0" coin_per_hour="0" free_point="0" guild_icon="100803">
+    <title_id>901003</title_id>
     <title_id>0</title_id>
     <title_id>0</title_id>
     <item_id>0</item_id>
@@ -45,8 +45,8 @@
     <item_num>0</item_num>
     <item_num>0</item_num>
   </RankAwardGroupSetting>
-  <RankAwardGroupSetting id="110" serial_no="4" ranking="10" money="0" coin_per_hour="0" free_point="0" guild_icon="100704">
-    <title_id>900904</title_id>
+  <RankAwardGroupSetting id="110" serial_no="4" ranking="10" money="0" coin_per_hour="0" free_point="0" guild_icon="100804">
+    <title_id>901004</title_id>
     <title_id>0</title_id>
     <title_id>0</title_id>
     <item_id>0</item_id>
@@ -60,8 +60,8 @@
     <item_num>0</item_num>
     <item_num>0</item_num>
   </RankAwardGroupSetting>
-  <RankAwardGroupSetting id="110" serial_no="5" ranking="100" money="0" coin_per_hour="0" free_point="0" guild_icon="100705">
-    <title_id>900905</title_id>
+  <RankAwardGroupSetting id="110" serial_no="5" ranking="100" money="0" coin_per_hour="0" free_point="0" guild_icon="100805">
+    <title_id>901005</title_id>
     <title_id>0</title_id>
     <title_id>0</title_id>
     <item_id>0</item_id>
@@ -1937,6 +1937,81 @@
   </RankAwardGroupSetting>
   <RankAwardGroupSetting id="515" serial_no="5" ranking="100" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
     <title_id>601505</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>3390</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>1</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="516" serial_no="1" ranking="1" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
+    <title_id>601601</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>3390</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>1</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="516" serial_no="2" ranking="2" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
+    <title_id>601602</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>3390</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>1</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="516" serial_no="3" ranking="3" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
+    <title_id>601603</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>3390</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>1</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="516" serial_no="4" ranking="10" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
+    <title_id>601604</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>3390</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>1</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="516" serial_no="5" ranking="100" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
+    <title_id>601605</title_id>
     <title_id>0</title_id>
     <title_id>0</title_id>
     <item_id>3390</item_id>

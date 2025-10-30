@@ -735,6 +735,7 @@
   <StringSetting id="9124" text="報酬受取済" />
   <StringSetting id="9125" text="アンケートの回答期間外です" />
   <StringSetting id="9126" text="アンケートに回答していません" />
+  <StringSetting id="9127" text="レゴル一括受取" />
   <StringSetting id="10000" text="召喚順" />
   <StringSetting id="10001" text="レアリティ" />
   <StringSetting id="10002" text="アビリティ" />
@@ -2207,6 +2208,7 @@
   <StringSetting id="31130" text="クーポン取得へ" />
   <StringSetting id="31131" text="クーポン祭対象商品" />
   <StringSetting id="31132" text="下記「クーポン取得」ボタンからクーポンを事前に取得し、クーポン利用設定にすれば適用されます。&#xA;&#xA;注意事項&#xA;※クーポン適用せず商品を購入した場合、再適用や返金は対応致しかねますのでご注意ください。" />
+  <StringSetting id="31133" text="未受け取りのサブスク報酬が残っているため、&#xA;引き続き受け取りを行います。" />
   <StringSetting id="31501" text="次のページ" />
   <StringSetting id="31502" text="閉じる" />
   <StringSetting id="31503" text="チュートリアルをスキップしますか？" />
@@ -4588,6 +4590,36 @@
   <StringSetting id="95601" text="Lv" />
   <StringSetting id="95602" text="傷害上限" />
   <StringSetting id="95603" text="傷害下限" />
+  <StringSetting id="95701" text="FY祭奠活動" />
+  <StringSetting id="95702" text="FY祭奠任務" />
+  <StringSetting id="95703" text="FY祭奠獎勵" />
+  <StringSetting id="95704" text="FY祭奠轉蛋" />
+  <StringSetting id="95705" text="FY祭奠商品" />
+  <StringSetting id="95706" text="ルール" />
+  <StringSetting id="95707" text="DMMポイント抽選！" />
+  <StringSetting id="95708" text="合計" />
+  <StringSetting id="95709" text="祭奠獎勵一覽" />
+  <StringSetting id="95710" text="全て受取" />
+  <StringSetting id="95711" text="受取" />
+  <StringSetting id="95712" text="{0}張數" />
+  <StringSetting id="95713" text="自分" />
+  <StringSetting id="95714" text="FY祭獎勵" />
+  <StringSetting id="95715" text="{0}張數的獎勵" />
+  <StringSetting id="95716" text="DMMポイント抽選" />
+  <StringSetting id="95717" text="挑戰" />
+  <StringSetting id="95718" text="{0}累計至{1}張" />
+  <StringSetting id="95719" text="活動期間消費任意DMM點數" />
+  <StringSetting id="95720" text="活動期間在PS5消費任意DMM點數" />
+  <StringSetting id="95721" text="活動期間在PS7消費任意DMM點數" />
+  <StringSetting id="95722" text="挑戰1、2達成" />
+  <StringSetting id="95723" text="挑戰內容" />
+  <StringSetting id="95724" text="特典" />
+  <StringSetting id="95725" text="達成狀態" />
+  <StringSetting id="95726" text="特別" />
+  <StringSetting id="95727" text="活動規則" />
+  <StringSetting id="95728" text="活動規則內容" />
+  <StringSetting id="95729" text="PS5網址" />
+  <StringSetting id="95730" text="PS7網址" />
   <StringSetting id="100001" text="Easy" />
   <StringSetting id="100002" text="Normal" />
   <StringSetting id="100003" text="Hard" />

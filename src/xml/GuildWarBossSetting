@@ -8736,312 +8736,564 @@
     <dead_drop_item_prob>1</dead_drop_item_prob>
     <dead_drop_item_prob>0</dead_drop_item_prob>
   </GuildWarBossSetting>
-  <GuildWarBossSetting id="210" cycle="1" battle_map="100101/100101" lv="1" monster_id="80101" score_add_scale="0.02" battle_money_reward="1000" battle_guild_coin_reward="10">
+  <GuildWarBossSetting id="210" cycle="1" battle_map="100601/100601" lv="3" monster_id="81001" score_add_scale="0" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
     <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
     <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-  </GuildWarBossSetting>
-  <GuildWarBossSetting id="210" cycle="2" battle_map="100101/100101" lv="5" monster_id="80101" score_add_scale="0.05" battle_money_reward="1200" battle_guild_coin_reward="12">
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
     <dead_drop_item_prob>0</dead_drop_item_prob>
   </GuildWarBossSetting>
-  <GuildWarBossSetting id="210" cycle="3" battle_map="100101/100101" lv="10" monster_id="80101" score_add_scale="0.1" battle_money_reward="1400" battle_guild_coin_reward="14">
+  <GuildWarBossSetting id="210" cycle="2" battle_map="100601/100601" lv="6" monster_id="81001" score_add_scale="0.1" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
     <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
     <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-  </GuildWarBossSetting>
-  <GuildWarBossSetting id="210" cycle="4" battle_map="100102/100102" lv="15" monster_id="80101" score_add_scale="0.15" battle_money_reward="1600" battle_guild_coin_reward="16">
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
     <dead_drop_item_prob>0</dead_drop_item_prob>
   </GuildWarBossSetting>
-  <GuildWarBossSetting id="210" cycle="5" battle_map="100102/100102" lv="20" monster_id="80101" score_add_scale="0.2" battle_money_reward="1800" battle_guild_coin_reward="18">
+  <GuildWarBossSetting id="210" cycle="3" battle_map="100601/100601" lv="9" monster_id="81001" score_add_scale="0.2" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
     <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
     <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-  </GuildWarBossSetting>
-  <GuildWarBossSetting id="210" cycle="6" battle_map="100102/100102" lv="25" monster_id="80101" score_add_scale="0.28" battle_money_reward="2000" battle_guild_coin_reward="20">
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
     <dead_drop_item_prob>0</dead_drop_item_prob>
   </GuildWarBossSetting>
-  <GuildWarBossSetting id="210" cycle="7" battle_map="100102/100102" lv="30" monster_id="80101" score_add_scale="0.33" battle_money_reward="2200" battle_guild_coin_reward="22">
+  <GuildWarBossSetting id="210" cycle="4" battle_map="100601/100601" lv="12" monster_id="81001" score_add_scale="0.3" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
     <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
     <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-  </GuildWarBossSetting>
-  <GuildWarBossSetting id="210" cycle="8" battle_map="100102/100102" lv="35" monster_id="80102" score_add_scale="0.38" battle_money_reward="2400" battle_guild_coin_reward="24">
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
     <dead_drop_item_prob>0</dead_drop_item_prob>
   </GuildWarBossSetting>
-  <GuildWarBossSetting id="210" cycle="9" battle_map="100102/100102" lv="40" monster_id="80102" score_add_scale="0.43" battle_money_reward="2600" battle_guild_coin_reward="26">
+  <GuildWarBossSetting id="210" cycle="5" battle_map="100601/100601" lv="15" monster_id="81001" score_add_scale="0.4" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
     <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
     <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-  </GuildWarBossSetting>
-  <GuildWarBossSetting id="210" cycle="10" battle_map="100102/100102" lv="45" monster_id="80102" score_add_scale="0.51" battle_money_reward="2800" battle_guild_coin_reward="28">
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
     <dead_drop_item_prob>0</dead_drop_item_prob>
   </GuildWarBossSetting>
-  <GuildWarBossSetting id="210" cycle="11" battle_map="100102/100102" lv="50" monster_id="80102" score_add_scale="0.56" battle_money_reward="3000" battle_guild_coin_reward="30">
+  <GuildWarBossSetting id="210" cycle="6" battle_map="100601/100601" lv="18" monster_id="81001" score_add_scale="0.5" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
     <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
     <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-  </GuildWarBossSetting>
-  <GuildWarBossSetting id="210" cycle="12" battle_map="100102/100102" lv="55" monster_id="80102" score_add_scale="0.61" battle_money_reward="3200" battle_guild_coin_reward="32">
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
     <dead_drop_item_prob>0</dead_drop_item_prob>
   </GuildWarBossSetting>
-  <GuildWarBossSetting id="210" cycle="13" battle_map="100102/100102" lv="60" monster_id="80102" score_add_scale="0.66" battle_money_reward="3400" battle_guild_coin_reward="34">
+  <GuildWarBossSetting id="210" cycle="7" battle_map="100601/100601" lv="21" monster_id="81001" score_add_scale="0.6" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
     <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
     <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-  </GuildWarBossSetting>
-  <GuildWarBossSetting id="210" cycle="14" battle_map="100102/100102" lv="65" monster_id="80102" score_add_scale="0.74" battle_money_reward="3600" battle_guild_coin_reward="36">
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
     <dead_drop_item_prob>0</dead_drop_item_prob>
   </GuildWarBossSetting>
-  <GuildWarBossSetting id="210" cycle="15" battle_map="100103/100103" lv="70" monster_id="80103" score_add_scale="0.8" battle_money_reward="3800" battle_guild_coin_reward="38">
+  <GuildWarBossSetting id="210" cycle="8" battle_map="100601/100601" lv="24" monster_id="81001" score_add_scale="0.7" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
     <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
     <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-  </GuildWarBossSetting>
-  <GuildWarBossSetting id="210" cycle="16" battle_map="100103/100103" lv="75" monster_id="80103" score_add_scale="0.9" battle_money_reward="4000" battle_guild_coin_reward="40">
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
     <dead_drop_item_prob>0</dead_drop_item_prob>
   </GuildWarBossSetting>
-  <GuildWarBossSetting id="210" cycle="17" battle_map="100103/100103" lv="80" monster_id="80103" score_add_scale="1" battle_money_reward="5000" battle_guild_coin_reward="42">
+  <GuildWarBossSetting id="210" cycle="9" battle_map="100601/100601" lv="27" monster_id="81001" score_add_scale="0.8" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
     <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
     <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-  </GuildWarBossSetting>
-  <GuildWarBossSetting id="210" cycle="18" battle_map="100103/100103" lv="85" monster_id="80103" score_add_scale="1.1" battle_money_reward="6000" battle_guild_coin_reward="44">
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
     <dead_drop_item_prob>0</dead_drop_item_prob>
   </GuildWarBossSetting>
-  <GuildWarBossSetting id="210" cycle="19" battle_map="100103/100103" lv="90" monster_id="80103" score_add_scale="1.2" battle_money_reward="7000" battle_guild_coin_reward="46">
+  <GuildWarBossSetting id="210" cycle="10" battle_map="100601/100601" lv="30" monster_id="81001" score_add_scale="0.9" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
     <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
     <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-  </GuildWarBossSetting>
-  <GuildWarBossSetting id="210" cycle="20" battle_map="100103/100103" lv="95" monster_id="80103" score_add_scale="1.3" battle_money_reward="8000" battle_guild_coin_reward="48">
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
     <dead_drop_item_prob>0</dead_drop_item_prob>
   </GuildWarBossSetting>
-  <GuildWarBossSetting id="210" cycle="21" battle_map="100103/100103" lv="100" monster_id="80103" score_add_scale="1.4" battle_money_reward="9000" battle_guild_coin_reward="50">
+  <GuildWarBossSetting id="210" cycle="11" battle_map="100602/100602" lv="33" monster_id="81002" score_add_scale="1" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
     <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
-    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
     <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
-    <dead_drop_item_prob>0</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
     <dead_drop_item_prob>0</dead_drop_item_prob>
   </GuildWarBossSetting>
-  <GuildWarBossSetting id="210" cycle="22" battle_map="100103/100103" lv="101" monster_id="80103" score_add_scale="1.4" battle_money_reward="10000" battle_guild_coin_reward="50">
+  <GuildWarBossSetting id="210" cycle="12" battle_map="100602/100602" lv="36" monster_id="81002" score_add_scale="1.1" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
     <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="13" battle_map="100602/100602" lv="39" monster_id="81002" score_add_scale="1.2" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
     <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="14" battle_map="100602/100602" lv="42" monster_id="81002" score_add_scale="1.3" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
     <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="15" battle_map="100602/100602" lv="45" monster_id="81002" score_add_scale="1.4" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="16" battle_map="100602/100602" lv="48" monster_id="81002" score_add_scale="1.5" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="17" battle_map="100602/100602" lv="51" monster_id="81002" score_add_scale="1.6" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="18" battle_map="100602/100602" lv="54" monster_id="81002" score_add_scale="1.7" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="19" battle_map="100602/100602" lv="57" monster_id="81002" score_add_scale="1.8" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="20" battle_map="100602/100602" lv="60" monster_id="81002" score_add_scale="1.9" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="21" battle_map="100603/100603" lv="63" monster_id="81003" score_add_scale="2" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="22" battle_map="100603/100603" lv="66" monster_id="81003" score_add_scale="2.1" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="23" battle_map="100603/100603" lv="69" monster_id="81003" score_add_scale="2.2" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="24" battle_map="100603/100603" lv="72" monster_id="81003" score_add_scale="2.3" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="25" battle_map="100603/100603" lv="75" monster_id="81003" score_add_scale="2.4" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="26" battle_map="100603/100603" lv="78" monster_id="81003" score_add_scale="2.5" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="27" battle_map="100603/100603" lv="81" monster_id="81003" score_add_scale="2.6" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="28" battle_map="100603/100603" lv="84" monster_id="81003" score_add_scale="2.7" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="29" battle_map="100603/100603" lv="87" monster_id="81003" score_add_scale="2.8" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="30" battle_map="100603/100603" lv="90" monster_id="81003" score_add_scale="2.9" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>72</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>100</dead_drop_item_num>
+    <dead_drop_item_num>1000</dead_drop_item_num>
+    <dead_drop_item_num>1000000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="31" battle_map="100603/100603" lv="93" monster_id="81004" score_add_scale="3" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
     <dead_drop_item_id>0</dead_drop_item_id>
     <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
-    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_num>50</dead_drop_item_num>
+    <dead_drop_item_num>50000</dead_drop_item_num>
     <dead_drop_item_num>0</dead_drop_item_num>
     <dead_drop_item_prob>0</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
     <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="32" battle_map="100603/100603" lv="96" monster_id="81004" score_add_scale="3.1" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_num>50</dead_drop_item_num>
+    <dead_drop_item_num>50000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
     <dead_drop_item_prob>0</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="33" battle_map="100603/100603" lv="99" monster_id="81004" score_add_scale="3.2" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_num>50</dead_drop_item_num>
+    <dead_drop_item_num>50000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="34" battle_map="100603/100603" lv="102" monster_id="81004" score_add_scale="3.3" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_num>50</dead_drop_item_num>
+    <dead_drop_item_num>50000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="35" battle_map="100603/100603" lv="105" monster_id="81004" score_add_scale="3.4" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_num>50</dead_drop_item_num>
+    <dead_drop_item_num>50000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="36" battle_map="100603/100603" lv="108" monster_id="81004" score_add_scale="3.5" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_num>50</dead_drop_item_num>
+    <dead_drop_item_num>50000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="37" battle_map="100603/100603" lv="111" monster_id="81004" score_add_scale="3.6" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_num>50</dead_drop_item_num>
+    <dead_drop_item_num>50000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="38" battle_map="100603/100603" lv="114" monster_id="81004" score_add_scale="3.7" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_num>50</dead_drop_item_num>
+    <dead_drop_item_num>50000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="39" battle_map="100603/100603" lv="117" monster_id="81004" score_add_scale="3.8" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_num>50</dead_drop_item_num>
+    <dead_drop_item_num>50000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+  </GuildWarBossSetting>
+  <GuildWarBossSetting id="210" cycle="40" battle_map="100603/100603" lv="120" monster_id="81004" score_add_scale="3.9" battle_money_reward="100000" battle_guild_coin_reward="100">
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_id>1717</dead_drop_item_id>
+    <dead_drop_item_id>71</dead_drop_item_id>
+    <dead_drop_item_id>0</dead_drop_item_id>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_num>50</dead_drop_item_num>
+    <dead_drop_item_num>50000</dead_drop_item_num>
+    <dead_drop_item_num>0</dead_drop_item_num>
+    <dead_drop_item_prob>0</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
+    <dead_drop_item_prob>1</dead_drop_item_prob>
     <dead_drop_item_prob>0</dead_drop_item_prob>
   </GuildWarBossSetting>
   <GuildWarBossSetting id="211" cycle="1" battle_map="100101/100101" lv="1" monster_id="80101" score_add_scale="0.02" battle_money_reward="1000" battle_guild_coin_reward="10">

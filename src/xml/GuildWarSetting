@@ -210,7 +210,7 @@
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
   </GuildWarSetting>
-  <GuildWarSetting id="210" name="10月" background="battle100101bg/100103" open="false" start_time="2025/10/01 10:00:00" end_time="2025/10/10 23:59:59" coin_item_id="0" battle_dmg_buff_hero_group="0" battle_anti_dmg_buff_hero_group="0" battle_guild_coin_buff_hero_group="0">
+  <GuildWarSetting id="210" name="10月" background="battle100601bg/100601" open="true" start_time="2025/11/03 03:00:00" end_time="2025/11/10 03:00:00" coin_item_id="1717" battle_dmg_buff_hero_group="2063" battle_anti_dmg_buff_hero_group="2043" battle_guild_coin_buff_hero_group="2042">
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
