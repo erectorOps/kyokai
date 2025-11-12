@@ -221,4 +221,6 @@
   <StageWorldSetting id="5309" opposite_stage_world_id1="5209" opposite_stage_world_id2="0" arrive_id="2209" name="双狂のハロウィン（Hard）" world_type="活動_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="5210" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2210" name="物資調達" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="5310" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2310" name="《復刻》悪玉ハロウィン" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5211" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2211" name="【ポップフェス】特別クエスト" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5311" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2311" name="【いいおπの日】特別クエスト" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
 </root>

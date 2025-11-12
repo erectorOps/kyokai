@@ -1748,6 +1748,44 @@
     <reward_num>0</reward_num>
     <reward_num>0</reward_num>
   </ActivitySetting>
+  <ActivitySetting id="527" name="AP消費特典" show="true" menu_show="true" sort="9" icon="activity001/PS8_主介面_FY祭_累計消耗" bg="activity5/AP消費特典_FY祭_804x434" pre_stage_site="0" end_time="2025/11/27 11:00:00" dur_day="0" activity_type="消費" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
   <ActivitySetting id="901" name="７日ミッション" show="true" menu_show="false" sort="1" icon="activity001/PS8_主介面_活動列表_スタートダッシュミッション" bg="activitytraining001/PS8_新手衝刺任務_裁切檔07_R18" bg_normal="activitytraining001/PS8_新手衝刺任務_裁切檔07_一般" pre_stage_site="0" dur_day="0" activity_type="培訓" activity_val1="初心者" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -2394,6 +2432,44 @@
     <reward_num>0</reward_num>
     <reward_num>0</reward_num>
   </ActivitySetting>
+  <ActivitySetting id="918" name="ポップフェス記念ミッション" show="true" menu_show="false" sort="7" icon="activity001/PS8_0.5周年任務" bg="activitytraining001/PS8_FY祭" pre_stage_site="0" start_time="2025/11/06 11:00:00" end_time="2025/11/27 11:00:00" dur_day="0" activity_type="培訓" activity_val1="ポップフェス" activity_val2="ポップフェス開催中" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>5</need_target>
+    <need_target>10</need_target>
+    <need_target>15</need_target>
+    <need_target>20</need_target>
+    <need_target>25</need_target>
+    <need_target>30</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>2</reward_type>
+    <reward_type>3</reward_type>
+    <reward_type>2</reward_type>
+    <reward_type>3</reward_type>
+    <reward_type>2</reward_type>
+    <reward_type>3</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>52</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>53</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>53</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>1000</reward_num>
+    <reward_num>1</reward_num>
+    <reward_num>1000</reward_num>
+    <reward_num>1</reward_num>
+    <reward_num>1000</reward_num>
+    <reward_num>1</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
   <ActivitySetting id="601" name="カムバック" show="true" menu_show="false" sort="0" pre_stage_site="0" end_time="2024/3/20 11:00:00" dur_day="0" activity_type="回歸活動" activity_val1="30" activity_val2="21" activity_val3="99999" activity_val4="72" activity_val5="6999">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -2775,6 +2851,44 @@
     <reward_num>0</reward_num>
   </ActivitySetting>
   <ActivitySetting id="611" name="新規&amp;復帰" show="true" menu_show="false" sort="0" icon="new-return-call-1/新規復得活動_Btn" pre_stage_site="0" start_time="2025/09/04 00:00:00" end_time="2025/10/02 00:00:00" dur_day="0" activity_type="新手回歸招集" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
+  <ActivitySetting id="612" name="新規&amp;復帰" show="true" menu_show="false" sort="0" icon="new-return-call-1/新規復得活動_Btn" pre_stage_site="0" start_time="2025/11/06 11:00:00" end_time="2025/11/27 11:00:00" dur_day="0" activity_type="新手回歸招集" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -3497,6 +3611,44 @@
     <reward_num>0</reward_num>
   </ActivitySetting>
   <ActivitySetting id="2317" name="「人気聖騎士総選挙特典コスチューム追加投票」ログインスタンプ" show="true" menu_show="false" sort="7" icon="activity-sign/ログインスタンプ" pre_stage_site="0" start_time="2025/10/09 11:00:00" end_time="2025/10/23 11:00:00" dur_day="0" activity_type="每月簽到" activity_val1="activity_sign_vote2" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>7</need_target>
+    <need_target>14</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>3</reward_type>
+    <reward_type>2</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>3390</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>1</reward_num>
+    <reward_num>1000</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
+  <ActivitySetting id="2318" name="【ポップフェス】ログインスタンプ" show="true" menu_show="false" sort="7" icon="activity-sign/ログインスタンプ" pre_stage_site="0" start_time="2025/11/06 11:00:00" end_time="2025/11/20 11:00:00" dur_day="0" activity_type="每月簽到" activity_val1="activity_sign_iioppai2025" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -5321,6 +5473,44 @@
     <reward_num>0</reward_num>
   </ActivitySetting>
   <ActivitySetting id="40047" name="第47回競撃戦" show="false" menu_show="false" sort="0" icon="arrive-limit/4-banner" bg="eventbg/limitbg16/limitmain-47-bg" pre_stage_site="0" start_time="2025/10/09 11:00:00" end_time="2025/10/23 11:00:00" dur_day="0" activity_type="限界" activity_val1="3" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
+  <ActivitySetting id="40048" name="第48回競撃戦" show="false" menu_show="false" sort="0" icon="arrive-limit/2-banner" bg="eventbg/limitbg16/limitmain-48-bg" pre_stage_site="0" start_time="2025/11/06 11:00:00" end_time="2025/11/20 11:00:00" dur_day="0" activity_type="限界" activity_val1="3" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -12388,6 +12578,44 @@
     <reward_num>0</reward_num>
     <reward_num>0</reward_num>
   </ActivitySetting>
+  <ActivitySetting id="60149" name="【ポップフェス】ログインボーナス" show="true" menu_show="false" sort="10" bg="activitylogin148/登入獎勵_POPFES_1640x1000" pre_stage_site="0" end_time="2025/11/27 11:00:00" dur_day="0" activity_type="活動簽到" activity_val1="60149" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
   <ActivitySetting id="600002" name="活躍度任務" show="true" menu_show="false" sort="6" pre_stage_site="0" end_time="2023/10/12 11:00:00" dur_day="0" activity_type="活躍度" activity_val1="600002" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -15999,6 +16227,44 @@
     <reward_num>0</reward_num>
   </ActivitySetting>
   <ActivitySetting id="600095" name="活躍度任務" show="true" menu_show="false" sort="6" pre_stage_site="0" start_time="2025/10/30 11:00:00" end_time="2025/11/10 11:00:00" dur_day="0" activity_type="活躍度" activity_val1="600095" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
+  <ActivitySetting id="600096" name="活躍度任務" show="true" menu_show="false" sort="6" pre_stage_site="0" start_time="2025/11/06 11:00:00" end_time="2025/11/27 11:00:00" dur_day="0" activity_type="活躍度" activity_val1="600096" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -21471,6 +21737,120 @@
     <reward_num>0</reward_num>
   </ActivitySetting>
   <ActivitySetting id="900121" name="《復刻》悪玉ハロウィン" show="false" menu_show="false" sort="0" pre_stage_site="0" end_time="2025/11/06 11:00:00" dur_day="0" activity_type="活動事件" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
+  <ActivitySetting id="900122" name="【ポップフェス】特別クエスト" show="false" menu_show="false" sort="0" pre_stage_site="0" end_time="2025/11/27 11:00:00" dur_day="0" activity_type="活動事件" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
+  <ActivitySetting id="900123" name="【いいおπの日】特別クエスト" show="false" menu_show="false" sort="0" pre_stage_site="0" end_time="2025/11/15 00:00:00" dur_day="0" activity_type="活動事件" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
+  <ActivitySetting id="909999" name="ポップフェス" show="false" menu_show="false" sort="0" pre_stage_site="0" start_time="2025/11/06 11:00:00" end_time="2025/11/27 11:00:00" dur_day="0" activity_type="FY祭" activity_val1="1730" activity_val2="2211" activity_val3="909999" activity_val4="264" activity_val5="2211" activity_val6="1733:1">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>

@@ -2081,7 +2081,7 @@
   <StringSetting id="29256" text="期間限定" />
   <StringSetting id="29258" text="おπの月" />
   <StringSetting id="29259" text="一周年記念" />
-  <StringSetting id="29260" text="2周年" />
+  <StringSetting id="29260" text="ポップフェス" />
   <StringSetting id="30001" text="BOSS" />
   <StringSetting id="30002" text="出撃履歴" />
   <StringSetting id="30003" text="討伐履歴" />
@@ -3494,7 +3494,7 @@
   <StringSetting id="60067" text="獲得失敗" />
   <StringSetting id="60068" text="報酬を獲得済みです" />
   <StringSetting id="60069" text="ランキング" />
-  <StringSetting id="60070" text="ランキング1位～10位：称号「黒猫だぞ、にゃおん」を獲得できます。&#xA;ランキング1位～100位：称号「ちゅぱっと行ってくる！」を獲得できます。" />
+  <StringSetting id="60070" text="ランキング1位～10位：称号「ファンタジー・ポップフェスTOP10」を獲得できます。&#xA;ランキング1位～100位：称号「ファンタジー・ポップフェスTOP100」を獲得できます。" />
   <StringSetting id="60071" text="プレイヤー情報がありません" />
   <StringSetting id="60072" text="攻撃でHP-{0}" />
   <StringSetting id="60073" text="{0}秒後に更新可能" />
@@ -3627,6 +3627,7 @@
   <StringSetting id="63014" text="復帰ミッション" />
   <StringSetting id="63016" text="特別ミッション" />
   <StringSetting id="63017" text="ビンゴラリー" />
+  <StringSetting id="63018" text="ポップフェス" />
   <StringSetting id="64000" text="1回のみ" />
   <StringSetting id="64001" text="毎日の購入回数" />
   <StringSetting id="64002" text="毎週の購入回数" />
@@ -4590,36 +4591,51 @@
   <StringSetting id="95601" text="Lv" />
   <StringSetting id="95602" text="傷害上限" />
   <StringSetting id="95603" text="傷害下限" />
-  <StringSetting id="95701" text="FY祭奠活動" />
-  <StringSetting id="95702" text="FY祭奠任務" />
-  <StringSetting id="95703" text="FY祭奠獎勵" />
-  <StringSetting id="95704" text="FY祭奠轉蛋" />
-  <StringSetting id="95705" text="FY祭奠商品" />
-  <StringSetting id="95706" text="ルール" />
+  <StringSetting id="95701" text="イベント" />
+  <StringSetting id="95702" text="ミッション" />
+  <StringSetting id="95703" text="累計報酬" />
+  <StringSetting id="95704" text="召喚" />
+  <StringSetting id="95705" text="ショップ" />
+  <StringSetting id="95706" text="詳細説明" />
   <StringSetting id="95707" text="DMMポイント抽選！" />
   <StringSetting id="95708" text="合計" />
-  <StringSetting id="95709" text="祭奠獎勵一覽" />
-  <StringSetting id="95710" text="全て受取" />
+  <StringSetting id="95709" text="報酬一覧" />
+  <StringSetting id="95710" text="一括受取" />
   <StringSetting id="95711" text="受取" />
-  <StringSetting id="95712" text="{0}張數" />
-  <StringSetting id="95713" text="自分" />
-  <StringSetting id="95714" text="FY祭獎勵" />
-  <StringSetting id="95715" text="{0}張數的獎勵" />
+  <StringSetting id="95712" text="ポップチケット" />
+  <StringSetting id="95713" text="累計枚数" />
+  <StringSetting id="95714" text="累計チケット報酬" />
+  <StringSetting id="95715" text="{0}枚達成報酬" />
   <StringSetting id="95716" text="DMMポイント抽選" />
-  <StringSetting id="95717" text="挑戰" />
-  <StringSetting id="95718" text="{0}累計至{1}張" />
-  <StringSetting id="95719" text="活動期間消費任意DMM點數" />
-  <StringSetting id="95720" text="活動期間在PS5消費任意DMM點數" />
-  <StringSetting id="95721" text="活動期間在PS7消費任意DMM點數" />
-  <StringSetting id="95722" text="挑戰1、2達成" />
-  <StringSetting id="95723" text="挑戰內容" />
+  <StringSetting id="95717" text="挑戦" />
+  <StringSetting id="95718" text="{0}累計{1}枚を獲得&#xA;※3タイトル合算" />
+  <StringSetting id="95719" text="イベント期間中に『巨乳ファンタジーバースト』で&#xA;DMMポイントを任意額消費（サブスク商品は対象外）" />
+  <StringSetting id="95720" text="イベント期間中に『エデンズリッター グレンツェ』で&#xA;DMMポイントを任意額消費（サブスク商品は対象外）" />
+  <StringSetting id="95721" text="イベント期間中に『リベリオン ギルガメッシュ』で&#xA;DMMポイントを任意額消費（サブスク商品は対象外）" />
+  <StringSetting id="95722" text="挑戦1＆2達成で&#xA;【ポップフェス】限定SSR確定召喚チケットをゲット！" />
+  <StringSetting id="95723" text="挑戦内容" />
   <StringSetting id="95724" text="特典" />
-  <StringSetting id="95725" text="達成狀態" />
+  <StringSetting id="95725" text="達成状況" />
   <StringSetting id="95726" text="特別" />
-  <StringSetting id="95727" text="活動規則" />
-  <StringSetting id="95728" text="活動規則內容" />
-  <StringSetting id="95729" text="PS5網址" />
-  <StringSetting id="95730" text="PS7網址" />
+  <StringSetting id="95727" text="詳細説明" />
+  <StringSetting id="95728" text="『巨乳ファンタジーバースト』・『エデンズリッターグレンツェ』・『リベリオンギルガメッシュ』の3タイトル合同で贈る、スペシャルコラボイベント「ファンタジー・ポップ フェス」開催！&#xA;ファンタジーとポップが交差する特別な祭典を、どうぞお楽しみください。&#xA;&#xA;■参加タイトル紹介&#xA;〇エデンズリッター グレンツェ&#xA;圧倒的！ダークファンタジーRPG。&#xA;大人気シリーズ『エデンズリッター』がオンラインRPGとして進化！&#xA;かわいくデフォルメされたヒロインたちが動きまくってバトル！&#xA;ダークさと可愛さが織りなす世界は、今もなお熱狂を生み続ける。&#xA;&#xA;〇リベリオン ギルガメッシュ&#xA;魔族に支配された世界で人類の救世主となり、&#xA;すべての女性から愛されるために冒険を始めるファンタジーRPGゲーム。&#xA;救世と愛欲の物語が、ファンタジーポップに弾ける！&#xA;&#xA;■イベント内容&#xA;『巨乳ファンタジーバースト』を含む3タイトル合同で、スペシャルキャンペーンを開催！&#xA;3タイトルを横断してプレイすると、イベントレイドおよびフェスミッションから大量の【ポップチケット】を獲得できます。&#xA;&#xA;集めた【ポップチケット】の合計枚数（3タイトル合算）に応じて、各タイトルで豪華ゲーム内報酬を入手可能。&#xA;さらに、3タイトル合計で最大600連以上のガチャチャンスを獲得！&#xA;加えて、特別挑戦を達成すると、総額100万DMMポイント（最大10万DMMポイント）が当たる抽選に参加できます。&#xA;&#xA;■DMMポイント抽選特別挑戦&#xA;挑戦1：3タイトルで集めた【ポップチケット】合計が20000に到達 →  抽選権利1口&#xA;挑戦2：イベント期間中に『巨乳ファンタジーバースト』でDMMポイントを任意額消費（サブスク商品は対象外） → 抽選権利1口&#xA;挑戦3：イベント期間中に『エデンズリッターグレンツェ』でDMMポイントを任意額消費（サブスク商品は対象外） → 抽選権利1口&#xA;挑戦4：イベント期間中に『リベリオンギルガメッシュ』でDMMポイントを任意額消費（サブスク商品は対象外） → 抽選権利1口&#xA;&#xA;すべての抽選権利を獲得すると、当選確率は最大4倍に！&#xA;さらに、挑戦1＆2の達成で「【ポップフェス】限定SSR確定召喚チケット」をプレゼント！&#xA;&#xA;開催期間：11/6（木）～11/27（木）11:00" />
+  <StringSetting id="95729" text="https://eg-patch.funyoursjapan.pink/website/grenze_x_official.html" />
+  <StringSetting id="95730" text="https://rebgil.funyoursjapan.pink/res/rebgil_x_official.html" />
+  <StringSetting id="95731" text="移動" />
+  <StringSetting id="95732" text="特別挑戦1＆2達成報酬" />
+  <StringSetting id="95800" text="想屬性塔" />
+  <StringSetting id="95801" text="風屬性塔" />
+  <StringSetting id="95802" text="水屬性塔" />
+  <StringSetting id="95803" text="火屬性塔" />
+  <StringSetting id="95804" text="聖屬性塔" />
+  <StringSetting id="95805" text="魔屬性塔" />
+  <StringSetting id="95806" text="屬性塔" />
+  <StringSetting id="95807" text="★3評価" />
+  <StringSetting id="95808" text="報酬" />
+  <StringSetting id="95809" text="★3報酬" />
+  <StringSetting id="95810" text="出戰角色已使用" />
+  <StringSetting id="95811" text="角色屬性錯誤" />
+  <StringSetting id="95812" text="找不到隊伍" />
   <StringSetting id="100001" text="Easy" />
   <StringSetting id="100002" text="Normal" />
   <StringSetting id="100003" text="Hard" />

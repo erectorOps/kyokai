@@ -1056,4 +1056,70 @@
     <quest_id>0</quest_id>
     <quest_id>0</quest_id>
   </ActivityTrainSetting>
+  <ActivityTrainSetting id="918" day="0" name="一週目">
+    <quest_id>93401</quest_id>
+    <quest_id>93402</quest_id>
+    <quest_id>93403</quest_id>
+    <quest_id>93404</quest_id>
+    <quest_id>93405</quest_id>
+    <quest_id>93406</quest_id>
+    <quest_id>93407</quest_id>
+    <quest_id>93408</quest_id>
+    <quest_id>93409</quest_id>
+    <quest_id>93410</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+  </ActivityTrainSetting>
+  <ActivityTrainSetting id="918" day="8" name="二週目">
+    <quest_id>93411</quest_id>
+    <quest_id>93412</quest_id>
+    <quest_id>93413</quest_id>
+    <quest_id>93414</quest_id>
+    <quest_id>93415</quest_id>
+    <quest_id>93416</quest_id>
+    <quest_id>93417</quest_id>
+    <quest_id>93418</quest_id>
+    <quest_id>93419</quest_id>
+    <quest_id>93420</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+  </ActivityTrainSetting>
+  <ActivityTrainSetting id="918" day="15" name="三週目">
+    <quest_id>93421</quest_id>
+    <quest_id>93422</quest_id>
+    <quest_id>93423</quest_id>
+    <quest_id>93424</quest_id>
+    <quest_id>93425</quest_id>
+    <quest_id>93426</quest_id>
+    <quest_id>93427</quest_id>
+    <quest_id>93428</quest_id>
+    <quest_id>93429</quest_id>
+    <quest_id>93430</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+  </ActivityTrainSetting>
 </root>

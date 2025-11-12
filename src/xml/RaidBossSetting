@@ -2100,4 +2100,79 @@
     <first_pass_reward_num>0</first_pass_reward_num>
     <first_pass_reward_num>0</first_pass_reward_num>
   </RaidBossSetting>
+  <RaidBossSetting id="52111" name="バフォメット・EASY" arrive_id="2211" pre_stage_id="0" pre_id="0" need_battlepower="0" ticket_id="1734" cost_ticket_num="2" bp_cost="2" raid_dur="1" monster_id="52111" recommend_lv="15" difficulty="easy" contribution_rate="0.02" bg="battle100101bg/100101" battle_map="100101/100101" max_help_num="20" need_min_dmg="0" guarantee_contribution="5000" rainbow_id="9657" gold_id="9656" silver_id="9655" copper_id="0" find_rainbow_num="1" find_gold_num="0" find_silver_num="0" find_copper_num="0" help_rainbow_num="1" help_gold_num="0" help_silver_num="0" help_copper_num="0" kill_rainbow_num="1" kill_gold_num="0" kill_silver_num="0" kill_copper_num="0" one_rainbow_num="1" one_gold_num="2" one_silver_num="5" one_copper_num="0" two_rainbow_num="1" two_gold_num="1" two_silver_num="5" two_copper_num="0" three_rainbow_num="1" three_gold_num="1" three_silver_num="5" three_copper_num="0" fourth_part_end_ranking="8" fourth_part_rainbow_num="1" fourth_part_gold_num="0" fourth_part_silver_num="5" fourth_part_copper_num="0" fifth_part_end_ranking="20" fifth_part_rainbow_num="1" fifth_part_gold_num="0" fifth_part_silver_num="4" fifth_part_copper_num="0" join_rainbow_num="0" join_gold_num="0" join_silver_num="0" join_copper_num="0">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <first_pass_reward_type>2</first_pass_reward_type>
+    <first_pass_reward_type>1</first_pass_reward_type>
+    <first_pass_reward_type>3</first_pass_reward_type>
+    <first_pass_reward_type>0</first_pass_reward_type>
+    <first_pass_reward_type>0</first_pass_reward_type>
+    <first_pass_reward_id>0</first_pass_reward_id>
+    <first_pass_reward_id>0</first_pass_reward_id>
+    <first_pass_reward_id>10</first_pass_reward_id>
+    <first_pass_reward_id>0</first_pass_reward_id>
+    <first_pass_reward_id>0</first_pass_reward_id>
+    <first_pass_reward_num>100</first_pass_reward_num>
+    <first_pass_reward_num>10000</first_pass_reward_num>
+    <first_pass_reward_num>50</first_pass_reward_num>
+    <first_pass_reward_num>0</first_pass_reward_num>
+    <first_pass_reward_num>0</first_pass_reward_num>
+  </RaidBossSetting>
+  <RaidBossSetting id="52112" name="バフォメット・NORMAL" arrive_id="2211" pre_stage_id="0" pre_id="52111" need_battlepower="10000" ticket_id="1734" cost_ticket_num="2" bp_cost="2" raid_dur="1" monster_id="52112" recommend_lv="40" difficulty="normal" contribution_rate="0.013333333" bg="battle100201bg/100202" battle_map="100202/100202" max_help_num="20" need_min_dmg="0" guarantee_contribution="10000" rainbow_id="9657" gold_id="9656" silver_id="9655" copper_id="0" find_rainbow_num="1" find_gold_num="1" find_silver_num="0" find_copper_num="0" help_rainbow_num="1" help_gold_num="1" help_silver_num="0" help_copper_num="0" kill_rainbow_num="1" kill_gold_num="1" kill_silver_num="0" kill_copper_num="0" one_rainbow_num="3" one_gold_num="5" one_silver_num="5" one_copper_num="0" two_rainbow_num="2" two_gold_num="4" two_silver_num="5" two_copper_num="0" three_rainbow_num="2" three_gold_num="4" three_silver_num="5" three_copper_num="0" fourth_part_end_ranking="8" fourth_part_rainbow_num="2" fourth_part_gold_num="3" fourth_part_silver_num="5" fourth_part_copper_num="0" fifth_part_end_ranking="20" fifth_part_rainbow_num="1" fifth_part_gold_num="2" fifth_part_silver_num="5" fifth_part_copper_num="0" join_rainbow_num="0" join_gold_num="0" join_silver_num="0" join_copper_num="0">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <first_pass_reward_type>2</first_pass_reward_type>
+    <first_pass_reward_type>1</first_pass_reward_type>
+    <first_pass_reward_type>3</first_pass_reward_type>
+    <first_pass_reward_type>0</first_pass_reward_type>
+    <first_pass_reward_type>0</first_pass_reward_type>
+    <first_pass_reward_id>0</first_pass_reward_id>
+    <first_pass_reward_id>0</first_pass_reward_id>
+    <first_pass_reward_id>10</first_pass_reward_id>
+    <first_pass_reward_id>0</first_pass_reward_id>
+    <first_pass_reward_id>0</first_pass_reward_id>
+    <first_pass_reward_num>100</first_pass_reward_num>
+    <first_pass_reward_num>10000</first_pass_reward_num>
+    <first_pass_reward_num>50</first_pass_reward_num>
+    <first_pass_reward_num>0</first_pass_reward_num>
+    <first_pass_reward_num>0</first_pass_reward_num>
+  </RaidBossSetting>
+  <RaidBossSetting id="52113" name="バフォメット・HARD" arrive_id="2211" pre_stage_id="0" pre_id="52112" need_battlepower="20000" ticket_id="1734" cost_ticket_num="2" bp_cost="2" raid_dur="1" monster_id="52113" recommend_lv="70" difficulty="hard" contribution_rate="0.0075" bg="battle100501bg/100503" battle_map="100503/100503" max_help_num="20" need_min_dmg="0" guarantee_contribution="25000" rainbow_id="9657" gold_id="9656" silver_id="9655" copper_id="0" find_rainbow_num="1" find_gold_num="1" find_silver_num="0" find_copper_num="0" help_rainbow_num="2" help_gold_num="1" help_silver_num="0" help_copper_num="0" kill_rainbow_num="1" kill_gold_num="1" kill_silver_num="0" kill_copper_num="0" one_rainbow_num="6" one_gold_num="8" one_silver_num="5" one_copper_num="0" two_rainbow_num="5" two_gold_num="8" two_silver_num="5" two_copper_num="0" three_rainbow_num="5" three_gold_num="8" three_silver_num="5" three_copper_num="0" fourth_part_end_ranking="8" fourth_part_rainbow_num="4" fourth_part_gold_num="7" fourth_part_silver_num="5" fourth_part_copper_num="0" fifth_part_end_ranking="20" fifth_part_rainbow_num="3" fifth_part_gold_num="5" fifth_part_silver_num="5" fifth_part_copper_num="0" join_rainbow_num="0" join_gold_num="0" join_silver_num="0" join_copper_num="0">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <first_pass_reward_type>2</first_pass_reward_type>
+    <first_pass_reward_type>1</first_pass_reward_type>
+    <first_pass_reward_type>3</first_pass_reward_type>
+    <first_pass_reward_type>0</first_pass_reward_type>
+    <first_pass_reward_type>0</first_pass_reward_type>
+    <first_pass_reward_id>0</first_pass_reward_id>
+    <first_pass_reward_id>0</first_pass_reward_id>
+    <first_pass_reward_id>10</first_pass_reward_id>
+    <first_pass_reward_id>0</first_pass_reward_id>
+    <first_pass_reward_id>0</first_pass_reward_id>
+    <first_pass_reward_num>100</first_pass_reward_num>
+    <first_pass_reward_num>10000</first_pass_reward_num>
+    <first_pass_reward_num>50</first_pass_reward_num>
+    <first_pass_reward_num>0</first_pass_reward_num>
+    <first_pass_reward_num>0</first_pass_reward_num>
+  </RaidBossSetting>
 </root>
