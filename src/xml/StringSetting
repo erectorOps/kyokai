@@ -591,7 +591,7 @@
   <StringSetting id="8032" text="ハウスへ移動" />
   <StringSetting id="8033" text="発動対象がいません&#xA;発動順を最後に変更しました" />
   <StringSetting id="8034" text="戦闘から撤退すると、報酬を獲得できません&#xA;撤退しますか？" />
-  <StringSetting id="8035" text="戦闘から撤退しました" />
+  <StringSetting id="8035" text="戦闘から撤退" />
   <StringSetting id="8036" text="ホーム" />
   <StringSetting id="8037" text="召喚者リスト" />
   <StringSetting id="8038" text="戦闘情報" />
@@ -1862,7 +1862,7 @@
   <StringSetting id="21232" text="残り時間" />
   <StringSetting id="21233" text="寄付" />
   <StringSetting id="21234" text="リクエストが終了しました" />
-  <StringSetting id="21235" text="同盟戦開催中です 脱退できません" />
+  <StringSetting id="21235" text="同盟戦開催期間中のため、同盟の脱退・加入はできません" />
   <StringSetting id="21236" text="{0}後に同盟を設立できます" />
   <StringSetting id="21237" text="{0}後に同盟に加入できます" />
   <StringSetting id="21238" text="同盟に加入できません" />

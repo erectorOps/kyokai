@@ -96,8 +96,8 @@
   <SystemSetting def="投裝備套組擴充商品群組" val="1151" />
   <SystemSetting def="共通裝備套組擴充商品群組" val="1156" />
   <SystemSetting def="資源收集重置商品群組" val="501" />
-  <SystemSetting def="資源收集重置優惠開始時間" val="2025/09/05 03:00:00" />
-  <SystemSetting def="資源收集重置優惠結束時間" val="2025/09/12 03:00:00" />
+  <SystemSetting def="資源收集重置優惠開始時間" val="2025/11/14 03:00:00" />
+  <SystemSetting def="資源收集重置優惠結束時間" val="2025/11/21 03:00:00" />
   <SystemSetting def="資源收集重置優惠商品群組" val="502" />
   <SystemSetting def="資源收集重置優惠額度" val="50" />
   <SystemSetting def="遊戲幣購買商品群組" val="701" />
@@ -379,7 +379,7 @@
   <SystemSetting def="飾品2格開放需求英雄等級" val="41" />
   <SystemSetting def="飾品4格開放需求英雄等級" val="51" />
   <SystemSetting def="飾品5格開放需求英雄等級" val="61" />
-  <SystemSetting def="新角色影片名稱" val="PS8_hero_2263.mp4" />
+  <SystemSetting def="新角色影片名稱" val="PS8_hero_2265&amp;2266.mp4" />
   <SystemSetting def="新角色影片更換時間" />
   <SystemSetting def="新角色影片更換名稱" />
   <SystemSetting def="特典序號圖示" val="item001/redemption_icon" />

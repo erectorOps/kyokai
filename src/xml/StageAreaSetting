@@ -2541,7 +2541,14 @@
     <bonus_cycle>0</bonus_cycle>
     <bonus_cycle>0</bonus_cycle>
   </StageAreaSetting>
-  <StageAreaSetting id="521101" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="【ポップフェス】特別クエスト" bg="eventbg/eventbg37/event_112-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+  <StageAreaSetting id="521101" open="true" pre_stage_site="0" opposite_stage_area_id1="541101" opposite_stage_area_id2="0" name="【ポップフェス】特別クエスト" bg="eventbg/eventbg37/event_112-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </StageAreaSetting>
+  <StageAreaSetting id="541101" open="true" pre_stage_site="52110150" opposite_stage_area_id1="521101" opposite_stage_area_id2="0" name="【ポップフェス】特別クエストEX" bg="eventbg/eventbg37/event_112-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
     <open_cycle>0</open_cycle>
     <open_cycle>0</open_cycle>
     <bonus_cycle>0</bonus_cycle>
@@ -2549,6 +2556,13 @@
     <bonus_cycle>0</bonus_cycle>
   </StageAreaSetting>
   <StageAreaSetting id="531101" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="【いいおπの日】特別クエスト" bg="eventbg/eventbg37/event_113-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </StageAreaSetting>
+  <StageAreaSetting id="521201" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="恵めよ、さらば与えられん" bg="eventbg/eventbg37/event_114-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
     <open_cycle>0</open_cycle>
     <open_cycle>0</open_cycle>
     <bonus_cycle>0</bonus_cycle>

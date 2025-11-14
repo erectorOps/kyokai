@@ -35,12 +35,12 @@
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="8" page="お得" banner_type="冒險" small_banner_img="activity-banner-2111/活動_POPFES第一弾_320x88" big_banner_img="activity-banner-2111/活動_POPFES第一弾_804x434">
+  <BannerSetting id="8" page="お得" banner_type="冒險" small_banner_img="activity-banner-2112/活動_POPFES第二弾_320x88" big_banner_img="activity-banner-2112/活動_POPFES第二弾_804x434">
     <function_val>0</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="9" page="お得" banner_type="公會戰" small_banner_img="activity-banner-2110/活動_同盟戦_320x88" big_banner_img="activity-banner-2110/活動_同盟戦_804x434" start_time="2025/11/03 03:00:00" end_time="2025/11/17 03:00:00">
+  <BannerSetting id="9" page="お得" banner_type="冒險" small_banner_img="activity-banner-2111/活動_POPFES第一弾_320x88" big_banner_img="activity-banner-2111/活動_POPFES第一弾_804x434">
     <function_val>0</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
@@ -50,147 +50,162 @@
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="11" page="お得" banner_type="活動" small_banner_img="activity-banner-2111/活動_POPFES_320x88" big_banner_img="activity-banner-2111/活動_POPFES_804x434">
+  <BannerSetting id="11" page="お得" banner_type="活動" small_banner_img="activity-banner-2112/活動_恵めよ、さらば与えられん_320x88" big_banner_img="activity-banner-2112/活動_恵めよ、さらば与えられん_804x434">
+    <function_val>900124</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </BannerSetting>
+  <BannerSetting id="12" page="お得" banner_type="活動" small_banner_img="activity-banner-2111/活動_POPFES_320x88" big_banner_img="activity-banner-2111/活動_POPFES_804x434">
     <function_val>900122</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="12" page="お得" banner_type="限界戰" small_banner_img="activity-banner-2111/活動_競撃戦・想_320x88" big_banner_img="activity-banner-2111/活動_競撃戦・想_804x434">
+  <BannerSetting id="13" page="お得" banner_type="限界戰" small_banner_img="activity-banner-2111/活動_競撃戦・想_320x88" big_banner_img="activity-banner-2111/活動_競撃戦・想_804x434">
     <function_val>0</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="13" page="召喚" banner_type="募集" small_banner_img="activity-banner-2111/召喚_POPFES_SSR確定10連召喚初獲得_320x88" big_banner_img="activity-banner-2111/召喚_POPFES_SSR確定10連召喚初獲得_804x434">
+  <BannerSetting id="14" page="召喚" banner_type="募集" small_banner_img="activity-banner-2111/召喚_POPFES_SSR確定10連召喚初獲得_320x88" big_banner_img="activity-banner-2111/召喚_POPFES_SSR確定10連召喚初獲得_804x434">
     <function_val>267</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="14" page="召喚" banner_type="募集" small_banner_img="activity-banner-2111/召喚_いいおπの日_320x88" big_banner_img="activity-banner-2111/召喚_いいおπの日_804x434" start_time="2025/11/08 00:00:00" end_time="2025/11/15 00:00:00">
+  <BannerSetting id="15" page="召喚" banner_type="募集" small_banner_img="activity-banner-2111/召喚_いいおπの日_320x88" big_banner_img="activity-banner-2111/召喚_いいおπの日_804x434" start_time="2025/11/08 00:00:00" end_time="2025/11/15 00:00:00">
     <function_val>268</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="15" page="召喚" banner_type="募集" small_banner_img="activity-banner-2111/召喚_POPFES_320x88" big_banner_img="activity-banner-2111/召喚_POPFES_804x434">
+  <BannerSetting id="16" page="召喚" banner_type="募集" small_banner_img="activity-banner-2112/召喚_恵めよ、さらば与えられん_320x88" big_banner_img="activity-banner-2112/召喚_恵めよ、さらば与えられん_804x434">
+    <function_val>271</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </BannerSetting>
+  <BannerSetting id="17" page="召喚" banner_type="募集" small_banner_img="activity-banner-2111/召喚_POPFES_320x88" big_banner_img="activity-banner-2111/召喚_POPFES_804x434">
     <function_val>264</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="16" page="召喚" banner_type="募集" small_banner_img="activity-banner-2111/召喚_POPFES_厳選ピックアップ召喚_320x88" big_banner_img="activity-banner-2111/召喚_POPFES_厳選ピックアップ召喚_804x434">
+  <BannerSetting id="18" page="召喚" banner_type="募集" small_banner_img="activity-banner-2111/召喚_POPFES_厳選ピックアップ召喚_320x88" big_banner_img="activity-banner-2111/召喚_POPFES_厳選ピックアップ召喚_804x434">
     <function_val>265</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="17" page="召喚" banner_type="募集" small_banner_img="activity-banner-2111/召喚_POPFES_記念召喚_320x88" big_banner_img="activity-banner-2111/召喚_POPFES_記念召喚_804x434">
+  <BannerSetting id="19" page="召喚" banner_type="募集" small_banner_img="activity-banner-2111/召喚_POPFES_記念召喚_320x88" big_banner_img="activity-banner-2111/召喚_POPFES_記念召喚_804x434">
     <function_val>266</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="18" page="召喚" banner_type="募集" small_banner_img="activity-banner-2111/屬性pickup召喚_競撃戦応援_320x88" big_banner_img="activity-banner-2111/屬性pickup召喚_競撃戦応援_804x434">
+  <BannerSetting id="20" page="召喚" banner_type="募集" small_banner_img="activity-banner-2111/屬性pickup召喚_競撃戦応援_320x88" big_banner_img="activity-banner-2111/屬性pickup召喚_競撃戦応援_804x434">
     <function_val>269</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="19" page="お得" banner_type="商品" small_banner_img="activity-banner-2111/活動SET_いいおπの日_召喚チケットセット_320x88" big_banner_img="activity-banner-2111/活動SET_いいおπの日_召喚チケットセット_804x434" start_time="2025/11/08 00:00:00" end_time="2025/11/15 00:00:00">
+  <BannerSetting id="21" page="お得" banner_type="商品" small_banner_img="activity-banner-2111/活動SET_いいおπの日_召喚チケットセット_320x88" big_banner_img="activity-banner-2111/活動SET_いいおπの日_召喚チケットセット_804x434" start_time="2025/11/08 00:00:00" end_time="2025/11/15 00:00:00">
     <function_val>kyoweb_iioppai2025_1</function_val>
     <function_val>kyoweb_iioppai2025_2</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="20" page="お得" banner_type="商品" small_banner_img="activity-banner-2111/活動SET_いいおπの日_特別セット_320x88" big_banner_img="activity-banner-2111/活動SET_いいおπの日_特別セット_804x434" start_time="2025/11/08 00:00:00" end_time="2025/11/15 00:00:00">
+  <BannerSetting id="22" page="お得" banner_type="商品" small_banner_img="activity-banner-2111/活動SET_いいおπの日_特別セット_320x88" big_banner_img="activity-banner-2111/活動SET_いいおπの日_特別セット_804x434" start_time="2025/11/08 00:00:00" end_time="2025/11/15 00:00:00">
     <function_val>kyoweb_iioppai2025_3</function_val>
     <function_val>kyoweb_iioppai2025_4</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="21" page="お得" banner_type="商品" small_banner_img="activity-banner-2111/活動SET_いいおπの日_聖騎士育成応援セット_320x88" big_banner_img="activity-banner-2111/活動SET_いいおπの日_聖騎士育成応援セット_804x434" start_time="2025/11/08 00:00:00" end_time="2025/11/15 00:00:00">
+  <BannerSetting id="23" page="お得" banner_type="商品" small_banner_img="activity-banner-2111/活動SET_いいおπの日_聖騎士育成応援セット_320x88" big_banner_img="activity-banner-2111/活動SET_いいおπの日_聖騎士育成応援セット_804x434" start_time="2025/11/08 00:00:00" end_time="2025/11/15 00:00:00">
     <function_val>kyoweb_iioppai2025_5</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="22" page="お得" banner_type="商品" small_banner_img="activity-banner-2111/活動SET_いいおπの日_ログインミッション_320x88" big_banner_img="activity-banner-2111/活動SET_いいおπの日_ログインミッション_804x434" start_time="2025/11/08 00:00:00" end_time="2025/11/15 00:00:00">
+  <BannerSetting id="24" page="お得" banner_type="商品" small_banner_img="activity-banner-2111/活動SET_いいおπの日_ログインミッション_320x88" big_banner_img="activity-banner-2111/活動SET_いいおπの日_ログインミッション_804x434" start_time="2025/11/08 00:00:00" end_time="2025/11/15 00:00:00">
     <function_val>kyoweb_iioppai2025_6</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="23" page="お得" banner_type="商品" small_banner_img="activity-banner-2111/活動SET_POPFES_召喚チケットセット_320x88" big_banner_img="activity-banner-2111/活動SET_POPFES_召喚チケットセット_804x434">
+  <BannerSetting id="25" page="お得" banner_type="商品" small_banner_img="activity-banner-2112/活動SET_恵めよ、さらば与えられん_召喚チケットセット_320x88" big_banner_img="activity-banner-2112/活動SET_恵めよ、さらば与えられん_召喚チケットセット_804x434">
+    <function_val>kyoweb_event87_1</function_val>
+    <function_val>kyoweb_event87_2</function_val>
+    <function_val>0</function_val>
+  </BannerSetting>
+  <BannerSetting id="26" page="お得" banner_type="商品" small_banner_img="activity-banner-2112/活動SET_恵めよ、さらば与えられん_イベントセット_320x88" big_banner_img="activity-banner-2112/活動SET_恵めよ、さらば与えられん_イベントセット_804x434">
+    <function_val>kyoweb_event87_3</function_val>
+    <function_val>kyoweb_event87_4</function_val>
+    <function_val>0</function_val>
+  </BannerSetting>
+  <BannerSetting id="27" page="お得" banner_type="商品" small_banner_img="activity-banner-2111/活動SET_POPFES_召喚チケットセット_320x88" big_banner_img="activity-banner-2111/活動SET_POPFES_召喚チケットセット_804x434">
     <function_val>kyoweb_fyfes_01</function_val>
     <function_val>kyoweb_fyfes_02</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="24" page="お得" banner_type="商品" small_banner_img="activity-banner-2111/活動SET_POPFES_ワンコインセット_320x88" big_banner_img="activity-banner-2111/活動SET_POPFES_ワンコインセット_804x434">
+  <BannerSetting id="28" page="お得" banner_type="商品" small_banner_img="activity-banner-2111/活動SET_POPFES_ワンコインセット_320x88" big_banner_img="activity-banner-2111/活動SET_POPFES_ワンコインセット_804x434">
     <function_val>kyoweb_fytes_500yen_dailyt</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="25" page="お得" banner_type="商品" small_banner_img="activity-banner-2111/活動SET_POPFES_晶石セット_320x88" big_banner_img="activity-banner-2111/活動SET_POPFES_晶石セット_804x434">
+  <BannerSetting id="29" page="お得" banner_type="商品" small_banner_img="activity-banner-2111/活動SET_POPFES_晶石セット_320x88" big_banner_img="activity-banner-2111/活動SET_POPFES_晶石セット_804x434">
     <function_val>kyoweb_fyfes_03</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="26" page="お得" banner_type="商品" small_banner_img="activity-banner-2111/活動SET_POPFES_運試しセット_320x88" big_banner_img="activity-banner-2111/活動SET_POPFES_運試しセット_804x434">
+  <BannerSetting id="30" page="お得" banner_type="商品" small_banner_img="activity-banner-2111/活動SET_POPFES_運試しセット_320x88" big_banner_img="activity-banner-2111/活動SET_POPFES_運試しセット_804x434">
     <function_val>kyoweb_fyfes_04</function_val>
     <function_val>kyoweb_fyfes_05</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="27" page="お得" banner_type="商品" small_banner_img="activity-banner-2111/活動SET_POPFES_SSR初獲得セット_320x88" big_banner_img="activity-banner-2111/活動SET_POPFES_SSR初獲得セット_804x434">
+  <BannerSetting id="31" page="お得" banner_type="商品" small_banner_img="activity-banner-2111/活動SET_POPFES_SSR初獲得セット_320x88" big_banner_img="activity-banner-2111/活動SET_POPFES_SSR初獲得セット_804x434">
     <function_val>kyoweb_fyfes_06</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="28" page="お得" banner_type="商品" small_banner_img="activity-banner-2111/活動SET_競撃戦・想_攻略応援セット_320x88" big_banner_img="activity-banner-2111/活動SET_競撃戦・想_攻略応援セット_804x434">
+  <BannerSetting id="32" page="お得" banner_type="商品" small_banner_img="activity-banner-2111/活動SET_競撃戦・想_攻略応援セット_320x88" big_banner_img="activity-banner-2111/活動SET_競撃戦・想_攻略応援セット_804x434">
     <function_val>kyoweb_keigeki_dream8_1</function_val>
     <function_val>kyoweb_keigeki_dream8_2</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="29" page="お得" banner_type="商品" small_banner_img="activity-banner-2110/活動SET_同盟戦・聖_召喚チケットセット_320x88" big_banner_img="activity-banner-2110/活動SET_同盟戦・聖_召喚チケットセット_804x434">
-    <function_val>kyoweb_event86_1</function_val>
-    <function_val>kyoweb_event86_2</function_val>
+  <BannerSetting id="33" page="お得" banner_type="活動" small_banner_img="activity-banner-2112/活動PASS_恵めよ、さらば与えられん_320x88" big_banner_img="activity-banner-2112/活動PASS_恵めよ、さらば与えられん_804x434">
+    <function_val>600097</function_val>
+    <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="30" page="お得" banner_type="商品" small_banner_img="activity-banner-2110/活動SET_同盟戦・聖_育成応援セット_320x88" big_banner_img="activity-banner-2110/活動SET_同盟戦・聖_育成応援セット_804x434">
-    <function_val>kyoweb_event86_7</function_val>
-    <function_val>kyoweb_event86_8</function_val>
-    <function_val>0</function_val>
-  </BannerSetting>
-  <BannerSetting id="31" page="お得" banner_type="活動" small_banner_img="activity-banner-2111/活動PASS_POPFES_320x88" big_banner_img="activity-banner-2111/活動PASS_POPFES_804x434">
+  <BannerSetting id="34" page="お得" banner_type="活動" small_banner_img="activity-banner-2111/活動PASS_POPFES_320x88" big_banner_img="activity-banner-2111/活動PASS_POPFES_804x434">
     <function_val>600096</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="32" page="お得" banner_type="戰鬥通行證" small_banner_img="activity-banner-2102/季PASS_シーズンパス_320x88" big_banner_img="activity-banner-2102/季PASS_シーズンパス_804x434">
+  <BannerSetting id="35" page="お得" banner_type="戰鬥通行證" small_banner_img="activity-banner-2102/季PASS_シーズンパス_320x88" big_banner_img="activity-banner-2102/季PASS_シーズンパス_804x434">
     <function_val>0</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="33" page="お得" banner_type="VIP月卡" small_banner_img="activity-banner-2025/ぶるんぶるんパス_320x88" big_banner_img="activity-banner-2025/ぶるんぶるんパス_804x434">
+  <BannerSetting id="36" page="お得" banner_type="VIP月卡" small_banner_img="activity-banner-2025/ぶるんぶるんパス_320x88" big_banner_img="activity-banner-2025/ぶるんぶるんパス_804x434">
     <function_val>0</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="34" page="お得" banner_type="成長基金" small_banner_img="activity-banner-2057/公告_ランクアップ応援プラン1_320x88" big_banner_img="activity-banner-2057/公告_ランクアップ応援プラン1_804x434">
+  <BannerSetting id="37" page="お得" banner_type="成長基金" small_banner_img="activity-banner-2057/公告_ランクアップ応援プラン1_320x88" big_banner_img="activity-banner-2057/公告_ランクアップ応援プラン1_804x434">
     <function_val>level_quest1</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="35" page="お得" banner_type="成長基金" small_banner_img="activity-banner-2057/公告_ランクアップ応援プラン2_320x88" big_banner_img="activity-banner-2057/公告_ランクアップ応援プラン2_804x434">
+  <BannerSetting id="38" page="お得" banner_type="成長基金" small_banner_img="activity-banner-2057/公告_ランクアップ応援プラン2_320x88" big_banner_img="activity-banner-2057/公告_ランクアップ応援プラン2_804x434">
     <function_val>level_quest2</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="36" page="お得" banner_type="商品" small_banner_img="banner001/公告_7日パス_320x88" big_banner_img="banner-pass/公告_7日パス_804x434">
+  <BannerSetting id="39" page="お得" banner_type="商品" small_banner_img="banner001/公告_7日パス_320x88" big_banner_img="banner-pass/公告_7日パス_804x434">
     <function_val>kyoWEB_week_pass</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="37" page="お得" banner_type="商品" small_banner_img="banner001/公告_30日パス_320x88" big_banner_img="banner-pass/公告_30日パス_804x434">
+  <BannerSetting id="40" page="お得" banner_type="商品" small_banner_img="banner001/公告_30日パス_320x88" big_banner_img="banner-pass/公告_30日パス_804x434">
     <function_val>kyoWEB_monthly_pass</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="38" page="お得" banner_type="商品" small_banner_img="banner001/公告_30日ゴールドパス_320x88" big_banner_img="banner-pass/公告_30日ゴールドパス_804x434">
+  <BannerSetting id="41" page="お得" banner_type="商品" small_banner_img="banner001/公告_30日ゴールドパス_320x88" big_banner_img="banner-pass/公告_30日ゴールドパス_804x434">
     <function_val>kyoWEB_gold_monthly_pass</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="39" page="召喚" banner_type="募集" small_banner_img="banner001/初心者応援召喚_320x88" big_banner_img="activity-banner/初心者半額ガチャ_804x434">
+  <BannerSetting id="42" page="召喚" banner_type="募集" small_banner_img="banner001/初心者応援召喚_320x88" big_banner_img="activity-banner/初心者半額ガチャ_804x434">
     <function_val>5</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>

@@ -96,7 +96,7 @@
     <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
     <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
   </DrawBtnSetting>
-  <DrawBtnSetting id="9012" shop_id="9011" ensure_prob_id="9012" new_hero_ensure_prob_id="0" name="10回" set_open="true" daily_first_free="false" daily_first_free_add="0" draw_num="10" limit_type="無限制" limit_num="0" discount_num="0" discount_price_type="無償商城點" discount_collect_item="0" discount_price_num="0" price_type="道具" collect_item="10" price_num="3000" instead_item="0" free_notice_word="每日{0}回無料" sticker_number="0" can_use_discount_item="false" giveaway_item_special_id="0">
+  <DrawBtnSetting id="9012" shop_id="9011" ensure_prob_id="9012" new_hero_ensure_prob_id="0" name="10回" set_open="true" daily_first_free="true" daily_first_free_add="0" draw_num="10" limit_type="無限制" limit_num="0" discount_num="0" discount_price_type="無償商城點" discount_collect_item="0" discount_price_num="0" price_type="道具" collect_item="10" price_num="3000" instead_item="0" free_notice_word="每日{0}回無料" sticker_number="0" can_use_discount_item="false" giveaway_item_special_id="0">
     <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
     <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
     <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
@@ -10597,6 +10597,54 @@
     <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
   </DrawBtnSetting>
   <DrawBtnSetting id="128711" shop_id="128711" ensure_prob_id="100611" new_hero_ensure_prob_id="0" name="1回" set_open="true" daily_first_free="false" daily_first_free_add="0" draw_num="1" limit_type="永久" limit_num="1" discount_num="0" discount_price_type="無償商城點" discount_collect_item="0" discount_price_num="0" price_type="道具" collect_item="1733" price_num="1" instead_item="0" sticker_number="0" can_use_discount_item="false" giveaway_item_special_id="0">
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+  </DrawBtnSetting>
+  <DrawBtnSetting id="128811" shop_id="128811" ensure_prob_id="0" new_hero_ensure_prob_id="0" name="1回" set_open="true" daily_first_free="false" daily_first_free_add="0" draw_num="1" limit_type="每日" limit_num="1" discount_num="0" discount_price_type="無償商城點" discount_collect_item="0" discount_price_num="0" price_type="有償商城點" collect_item="0" price_num="100" instead_item="0" notice_word="毎日{0}回" sticker_number="0" can_use_discount_item="false" giveaway_item_special_id="0">
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+  </DrawBtnSetting>
+  <DrawBtnSetting id="128812" shop_id="128812" ensure_prob_id="100613" new_hero_ensure_prob_id="0" name="10回" set_open="true" daily_first_free="false" daily_first_free_add="0" draw_num="10" limit_type="無限制" limit_num="0" discount_num="1" discount_price_type="有償商城點" discount_collect_item="0" discount_price_num="1500" price_type="有償商城點" collect_item="0" price_num="3000" instead_item="0" discount_notice_word="残り{0}回" sticker_number="1" can_use_discount_item="true" giveaway_item_special_id="0">
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+  </DrawBtnSetting>
+  <DrawBtnSetting id="128813" shop_id="128813" ensure_prob_id="0" new_hero_ensure_prob_id="0" name="1回" set_open="true" daily_first_free="false" daily_first_free_add="0" draw_num="1" limit_type="無限制" limit_num="0" discount_num="0" discount_price_type="無償商城點" discount_collect_item="0" discount_price_num="0" price_type="無償商城點" collect_item="0" price_num="300" instead_item="1735" sticker_number="0" can_use_discount_item="false" giveaway_item_special_id="0">
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+    <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
+  </DrawBtnSetting>
+  <DrawBtnSetting id="128814" shop_id="128814" ensure_prob_id="100613" new_hero_ensure_prob_id="0" name="10回" set_open="true" daily_first_free="false" daily_first_free_add="0" draw_num="10" limit_type="無限制" limit_num="0" discount_num="0" discount_price_type="無償商城點" discount_collect_item="0" discount_price_num="0" price_type="無償商城點" collect_item="0" price_num="3000" instead_item="1736" sticker_number="0" can_use_discount_item="true" giveaway_item_special_id="0">
     <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
     <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
     <bonus_ensure_prob_id>0</bonus_ensure_prob_id>
