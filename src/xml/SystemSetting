@@ -379,7 +379,7 @@
   <SystemSetting def="飾品2格開放需求英雄等級" val="41" />
   <SystemSetting def="飾品4格開放需求英雄等級" val="51" />
   <SystemSetting def="飾品5格開放需求英雄等級" val="61" />
-  <SystemSetting def="新角色影片名稱" val="PS8_hero_2265&amp;2266.mp4" />
+  <SystemSetting def="新角色影片名稱" val="PS8_hero_2262.mp4" />
   <SystemSetting def="新角色影片更換時間" />
   <SystemSetting def="新角色影片更換名稱" />
   <SystemSetting def="特典序號圖示" val="item001/redemption_icon" />
@@ -424,7 +424,7 @@
   <SystemSetting def="劇情提示開關" val="false" />
   <SystemSetting def="劇情提示章節名稱" val="序章" />
   <SystemSetting def="巨乳日" val="8/18/28" />
-  <SystemSetting def="巨乳日補償" val="2025-08-09 00:00:00" />
+  <SystemSetting def="巨乳日補償" val="2025-11-22 00:00:00" />
   <SystemSetting def="巨乳日轉換道具ID" val="18" />
   <SystemSetting def="巨乳日轉道道具到期時間" val="-1" />
   <SystemSetting def="巨乳日轉換AP比率" val="1" />
@@ -486,8 +486,8 @@
   <SystemSetting def="儲值表特殊頁籤開始時間" val="2025-11-06 11:00:00" />
   <SystemSetting def="儲值表特殊頁籤結束時間" val="2025-11-27 11:00:00" />
   <SystemSetting def="RAID救援額外增加箱數" val="1" />
-  <SystemSetting def="RAID救援額外增加箱數開始時間" val="2025-04-24 11:00:00" />
-  <SystemSetting def="RAID救援額外增加箱數結束時間" val="2025-05-08 11:00:00" />
+  <SystemSetting def="RAID救援額外增加箱數開始時間" val="2025-11-20 11:00:00" />
+  <SystemSetting def="RAID救援額外增加箱數結束時間" val="2025-11-27 11:00:00" />
   <SystemSetting def="重置加值消耗道具ID" />
   <SystemSetting def="重置加值消耗道具數量" />
   <SystemSetting def="愚人節招募ID" val="9999999" />

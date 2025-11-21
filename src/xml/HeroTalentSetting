@@ -20482,4 +20482,81 @@
     <talent>2267114</talent>
     <talent>2267115</talent>
   </HeroTalentSetting>
+  <HeroTalentSetting id="2262" name="ボーナス_MP回復" icon="Talent001/BOUNS_MpRecovery" describe="アビリティ5つ解放で、MP回復 +1" grade="1" need_lv="0" hp="0" atk="0" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="1" mp_cost_down="0">
+    <talent>2262011</talent>
+    <talent>2262012</talent>
+    <talent>2262013</talent>
+    <talent>2262014</talent>
+    <talent>2262015</talent>
+  </HeroTalentSetting>
+  <HeroTalentSetting id="2262" name="ボーナス_命中" icon="Talent001/BOUNS_Hit" describe="アビリティ5つ解放で、命中 +3" grade="2" need_lv="31" hp="0" atk="0" matk="0" def="0" mdef="0" hit="3" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <talent>2262021</talent>
+    <talent>2262022</talent>
+    <talent>2262023</talent>
+    <talent>2262024</talent>
+    <talent>2262025</talent>
+  </HeroTalentSetting>
+  <HeroTalentSetting id="2262" name="ボーナス_MP回復" icon="Talent001/BOUNS_MpRecovery" describe="アビリティ5つ解放で、MP回復 +2" grade="3" need_lv="31" hp="0" atk="0" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="2" mp_cost_down="0">
+    <talent>2262031</talent>
+    <talent>2262032</talent>
+    <talent>2262033</talent>
+    <talent>2262034</talent>
+    <talent>2262035</talent>
+  </HeroTalentSetting>
+  <HeroTalentSetting id="2262" name="ボーナス_命中" icon="Talent001/BOUNS_Hit" describe="アビリティ5つ解放で、命中 +4" grade="4" need_lv="41" hp="0" atk="0" matk="0" def="0" mdef="0" hit="4" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <talent>2262041</talent>
+    <talent>2262042</talent>
+    <talent>2262043</talent>
+    <talent>2262044</talent>
+    <talent>2262045</talent>
+  </HeroTalentSetting>
+  <HeroTalentSetting id="2262" name="ボーナス_MP回復" icon="Talent001/BOUNS_MpRecovery" describe="アビリティ5つ解放で、MP回復 +2" grade="5" need_lv="41" hp="0" atk="0" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="2" mp_cost_down="0">
+    <talent>2262051</talent>
+    <talent>2262052</talent>
+    <talent>2262053</talent>
+    <talent>2262054</talent>
+    <talent>2262055</talent>
+  </HeroTalentSetting>
+  <HeroTalentSetting id="2262" name="ボーナス_命中" icon="Talent001/BOUNS_Hit" describe="アビリティ5つ解放で、命中 +5" grade="6" need_lv="51" hp="0" atk="0" matk="0" def="0" mdef="0" hit="5" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <talent>2262061</talent>
+    <talent>2262062</talent>
+    <talent>2262063</talent>
+    <talent>2262064</talent>
+    <talent>2262065</talent>
+  </HeroTalentSetting>
+  <HeroTalentSetting id="2262" name="ボーナス_MP回復" icon="Talent001/BOUNS_MpRecovery" describe="アビリティ5つ解放で、MP回復 +2" grade="7" need_lv="61" hp="0" atk="0" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="2" mp_cost_down="0">
+    <talent>2262071</talent>
+    <talent>2262072</talent>
+    <talent>2262073</talent>
+    <talent>2262074</talent>
+    <talent>2262075</talent>
+  </HeroTalentSetting>
+  <HeroTalentSetting id="2262" name="ボーナス_命中" icon="Talent001/BOUNS_Hit" describe="アビリティ5つ解放で、命中 +5" grade="8" need_lv="71" hp="0" atk="0" matk="0" def="0" mdef="0" hit="5" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <talent>2262081</talent>
+    <talent>2262082</talent>
+    <talent>2262083</talent>
+    <talent>2262084</talent>
+    <talent>2262085</talent>
+  </HeroTalentSetting>
+  <HeroTalentSetting id="2262" name="ボーナス_MP回復" icon="Talent001/BOUNS_MpRecovery" describe="アビリティ5つ解放で、MP回復 +3" grade="9" need_lv="81" hp="0" atk="0" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="3" mp_cost_down="0">
+    <talent>2262091</talent>
+    <talent>2262092</talent>
+    <talent>2262093</talent>
+    <talent>2262094</talent>
+    <talent>2262095</talent>
+  </HeroTalentSetting>
+  <HeroTalentSetting id="2262" name="ボーナス_命中" icon="Talent001/BOUNS_Hit" describe="アビリティ5つ解放で、命中 +6" grade="10" need_lv="81" hp="0" atk="0" matk="0" def="0" mdef="0" hit="6" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="0" mp_cost_down="0">
+    <talent>2262101</talent>
+    <talent>2262102</talent>
+    <talent>2262103</talent>
+    <talent>2262104</talent>
+    <talent>2262105</talent>
+  </HeroTalentSetting>
+  <HeroTalentSetting id="2262" name="ボーナス_MP回復" icon="Talent001/BOUNS_MpRecovery" describe="アビリティ5つ解放で、MP回復 +3" grade="11" need_lv="91" hp="0" atk="0" matk="0" def="0" mdef="0" hit="0" block="0" atk_crit="0" matk_crit="0" end_hp_recovery="0" end_mp_recovery="0" dmg_suck_hp="0" healing_power="0" mp_recovery="3" mp_cost_down="0">
+    <talent>2262111</talent>
+    <talent>2262112</talent>
+    <talent>2262113</talent>
+    <talent>2262114</talent>
+    <talent>2262115</talent>
+  </HeroTalentSetting>
 </root>

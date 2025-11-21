@@ -6,4 +6,7 @@
   <TreasureHunterBuffReduceSetting id="4" group="2" effect_type="驅散" buff_reduce="20" />
   <TreasureHunterBuffReduceSetting id="5" group="2" effect_type="目盲" buff_reduce="10" />
   <TreasureHunterBuffReduceSetting id="6" group="2" buff_reduce="1" />
+  <TreasureHunterBuffReduceSetting id="7" group="3" effect_type="驅散" buff_reduce="20" />
+  <TreasureHunterBuffReduceSetting id="8" group="3" effect_type="麻痺" buff_reduce="10" />
+  <TreasureHunterBuffReduceSetting id="9" group="3" buff_reduce="1" />
 </root>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <root>
-  <ExploreSetting id="101" area="商都ヴェルン" group="101" icon="explore001/探索_bg_1_01_02_001_1_00" map="battle100101bg/100101" pre_stage_site="0" pre_level="0" time="180" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="10101" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="101" area="商都ヴェルン" group="101" icon="explore001/探索_bg_1_01_02_001_1_00" map="battle100101bg/100101" pre_stage_site="0" pre_level="0" time="180" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="10101" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -14,7 +14,7 @@
     <item_group>10101</item_group>
     <item_group>10101</item_group>
   </ExploreSetting>
-  <ExploreSetting id="102" area="商都ヴェルン" group="101" icon="explore001/探索_bg_1_01_02_001_1_00" map="battle100101bg/100101" pre_stage_site="0" pre_level="0" time="360" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="10111" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="102" area="商都ヴェルン" group="101" icon="explore001/探索_bg_1_01_02_001_1_00" map="battle100101bg/100101" pre_stage_site="0" pre_level="0" time="360" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="10111" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -28,7 +28,7 @@
     <item_group>10111</item_group>
     <item_group>10111</item_group>
   </ExploreSetting>
-  <ExploreSetting id="103" area="商都ヴェルン" group="101" icon="explore001/探索_bg_1_01_02_001_1_00" map="battle100101bg/100101" pre_stage_site="0" pre_level="0" time="720" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="10121" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="103" area="商都ヴェルン" group="101" icon="explore001/探索_bg_1_01_02_001_1_00" map="battle100101bg/100101" pre_stage_site="0" pre_level="0" time="720" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="10121" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -42,7 +42,7 @@
     <item_group>10121</item_group>
     <item_group>10121</item_group>
   </ExploreSetting>
-  <ExploreSetting id="104" area="商都ヴェルン" group="101" icon="explore001/探索_bg_1_01_02_001_1_00" map="battle100101bg/100101" pre_stage_site="0" pre_level="0" time="180" cost_type="指定道具" cost_target="1101" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="10131" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="104" area="商都ヴェルン" group="101" icon="explore001/探索_bg_1_01_02_001_1_00" map="battle100101bg/100101" pre_stage_site="0" pre_level="0" time="180" cost_type="指定道具" cost_target="1101" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="10131" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -56,7 +56,7 @@
     <item_group>10131</item_group>
     <item_group>10131</item_group>
   </ExploreSetting>
-  <ExploreSetting id="105" area="商都ヴェルン" group="101" icon="explore001/探索_bg_1_01_02_001_1_00" map="battle100101bg/100101" pre_stage_site="0" pre_level="0" time="360" cost_type="指定道具" cost_target="1101" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="10141" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="105" area="商都ヴェルン" group="101" icon="explore001/探索_bg_1_01_02_001_1_00" map="battle100101bg/100101" pre_stage_site="0" pre_level="0" time="360" cost_type="指定道具" cost_target="1101" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="10141" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -70,7 +70,7 @@
     <item_group>10141</item_group>
     <item_group>10141</item_group>
   </ExploreSetting>
-  <ExploreSetting id="106" area="商都ヴェルン" group="101" icon="explore001/探索_bg_1_01_02_001_1_00" map="battle100101bg/100101" pre_stage_site="0" pre_level="0" time="720" cost_type="指定道具" cost_target="1101" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="10151" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="106" area="商都ヴェルン" group="101" icon="explore001/探索_bg_1_01_02_001_1_00" map="battle100101bg/100101" pre_stage_site="0" pre_level="0" time="720" cost_type="指定道具" cost_target="1101" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="10151" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -84,7 +84,7 @@
     <item_group>10151</item_group>
     <item_group>10151</item_group>
   </ExploreSetting>
-  <ExploreSetting id="201" area="牧都ラクティス" group="201" icon="explore001/探索_bg_1_01_06_001_1_00" map="battle100104bg/100104" pre_stage_site="0" pre_level="20" time="180" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="20101" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="201" area="牧都ラクティス" group="201" icon="explore001/探索_bg_1_01_06_001_1_00" map="battle100104bg/100104" pre_stage_site="0" pre_level="20" time="180" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="20101" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -98,7 +98,7 @@
     <item_group>20101</item_group>
     <item_group>20101</item_group>
   </ExploreSetting>
-  <ExploreSetting id="202" area="牧都ラクティス" group="201" icon="explore001/探索_bg_1_01_06_001_1_00" map="battle100104bg/100104" pre_stage_site="0" pre_level="20" time="360" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="20111" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="202" area="牧都ラクティス" group="201" icon="explore001/探索_bg_1_01_06_001_1_00" map="battle100104bg/100104" pre_stage_site="0" pre_level="20" time="360" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="20111" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -112,7 +112,7 @@
     <item_group>20111</item_group>
     <item_group>20111</item_group>
   </ExploreSetting>
-  <ExploreSetting id="203" area="牧都ラクティス" group="201" icon="explore001/探索_bg_1_01_06_001_1_00" map="battle100104bg/100104" pre_stage_site="0" pre_level="20" time="720" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="20121" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="203" area="牧都ラクティス" group="201" icon="explore001/探索_bg_1_01_06_001_1_00" map="battle100104bg/100104" pre_stage_site="0" pre_level="20" time="720" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="20121" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -126,7 +126,7 @@
     <item_group>20121</item_group>
     <item_group>20121</item_group>
   </ExploreSetting>
-  <ExploreSetting id="204" area="牧都ラクティス" group="201" icon="explore001/探索_bg_1_01_06_001_1_00" map="battle100104bg/100104" pre_stage_site="0" pre_level="20" time="180" cost_type="指定道具" cost_target="1102" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="20131" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="204" area="牧都ラクティス" group="201" icon="explore001/探索_bg_1_01_06_001_1_00" map="battle100104bg/100104" pre_stage_site="0" pre_level="20" time="180" cost_type="指定道具" cost_target="1102" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="20131" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -140,7 +140,7 @@
     <item_group>20131</item_group>
     <item_group>20131</item_group>
   </ExploreSetting>
-  <ExploreSetting id="205" area="牧都ラクティス" group="201" icon="explore001/探索_bg_1_01_06_001_1_00" map="battle100104bg/100104" pre_stage_site="0" pre_level="20" time="360" cost_type="指定道具" cost_target="1102" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="20141" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="205" area="牧都ラクティス" group="201" icon="explore001/探索_bg_1_01_06_001_1_00" map="battle100104bg/100104" pre_stage_site="0" pre_level="20" time="360" cost_type="指定道具" cost_target="1102" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="20141" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -154,7 +154,7 @@
     <item_group>20141</item_group>
     <item_group>20141</item_group>
   </ExploreSetting>
-  <ExploreSetting id="206" area="牧都ラクティス" group="201" icon="explore001/探索_bg_1_01_06_001_1_00" map="battle100104bg/100104" pre_stage_site="0" pre_level="20" time="720" cost_type="指定道具" cost_target="1102" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="20151" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="206" area="牧都ラクティス" group="201" icon="explore001/探索_bg_1_01_06_001_1_00" map="battle100104bg/100104" pre_stage_site="0" pre_level="20" time="720" cost_type="指定道具" cost_target="1102" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="20151" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -168,7 +168,7 @@
     <item_group>20151</item_group>
     <item_group>20151</item_group>
   </ExploreSetting>
-  <ExploreSetting id="301" area="農都ファエ" group="301" icon="explore001/探索_bg_1_01_07_001_1_00" map="battle100701bg/100701" pre_stage_site="0" pre_level="30" time="180" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="30101" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="301" area="農都ファエ" group="301" icon="explore001/探索_bg_1_01_07_001_1_00" map="battle100701bg/100701" pre_stage_site="0" pre_level="30" time="180" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="30101" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -182,7 +182,7 @@
     <item_group>30101</item_group>
     <item_group>30101</item_group>
   </ExploreSetting>
-  <ExploreSetting id="302" area="農都ファエ" group="301" icon="explore001/探索_bg_1_01_07_001_1_00" map="battle100701bg/100701" pre_stage_site="0" pre_level="30" time="360" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="30111" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="302" area="農都ファエ" group="301" icon="explore001/探索_bg_1_01_07_001_1_00" map="battle100701bg/100701" pre_stage_site="0" pre_level="30" time="360" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="30111" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -196,7 +196,7 @@
     <item_group>30111</item_group>
     <item_group>30111</item_group>
   </ExploreSetting>
-  <ExploreSetting id="303" area="農都ファエ" group="301" icon="explore001/探索_bg_1_01_07_001_1_00" map="battle100701bg/100701" pre_stage_site="0" pre_level="30" time="720" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="30121" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="303" area="農都ファエ" group="301" icon="explore001/探索_bg_1_01_07_001_1_00" map="battle100701bg/100701" pre_stage_site="0" pre_level="30" time="720" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="30121" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -210,7 +210,7 @@
     <item_group>30121</item_group>
     <item_group>30121</item_group>
   </ExploreSetting>
-  <ExploreSetting id="304" area="農都ファエ" group="301" icon="explore001/探索_bg_1_01_07_001_1_00" map="battle100701bg/100701" pre_stage_site="0" pre_level="30" time="180" cost_type="指定道具" cost_target="1103" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="30131" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="304" area="農都ファエ" group="301" icon="explore001/探索_bg_1_01_07_001_1_00" map="battle100701bg/100701" pre_stage_site="0" pre_level="30" time="180" cost_type="指定道具" cost_target="1103" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="30131" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -224,7 +224,7 @@
     <item_group>30131</item_group>
     <item_group>30131</item_group>
   </ExploreSetting>
-  <ExploreSetting id="305" area="農都ファエ" group="301" icon="explore001/探索_bg_1_01_07_001_1_00" map="battle100701bg/100701" pre_stage_site="0" pre_level="30" time="360" cost_type="指定道具" cost_target="1103" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="30141" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="305" area="農都ファエ" group="301" icon="explore001/探索_bg_1_01_07_001_1_00" map="battle100701bg/100701" pre_stage_site="0" pre_level="30" time="360" cost_type="指定道具" cost_target="1103" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="30141" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -238,7 +238,7 @@
     <item_group>30141</item_group>
     <item_group>30141</item_group>
   </ExploreSetting>
-  <ExploreSetting id="306" area="農都ファエ" group="301" icon="explore001/探索_bg_1_01_07_001_1_00" map="battle100701bg/100701" pre_stage_site="0" pre_level="30" time="720" cost_type="指定道具" cost_target="1103" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="30151" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="306" area="農都ファエ" group="301" icon="explore001/探索_bg_1_01_07_001_1_00" map="battle100701bg/100701" pre_stage_site="0" pre_level="30" time="720" cost_type="指定道具" cost_target="1103" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="30151" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -252,7 +252,7 @@
     <item_group>30151</item_group>
     <item_group>30151</item_group>
   </ExploreSetting>
-  <ExploreSetting id="401" area="鉱都ガルカ" group="401" icon="explore001/探索_bg_1_01_05_001_1_00" map="battle100301bg/100301" pre_stage_site="0" pre_level="40" time="180" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="40101" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="401" area="鉱都ガルカ" group="401" icon="explore001/探索_bg_1_01_05_001_1_00" map="battle100301bg/100301" pre_stage_site="0" pre_level="40" time="180" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="40101" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -266,7 +266,7 @@
     <item_group>40101</item_group>
     <item_group>40101</item_group>
   </ExploreSetting>
-  <ExploreSetting id="402" area="鉱都ガルカ" group="401" icon="explore001/探索_bg_1_01_05_001_1_00" map="battle100301bg/100301" pre_stage_site="0" pre_level="40" time="360" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="40111" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="402" area="鉱都ガルカ" group="401" icon="explore001/探索_bg_1_01_05_001_1_00" map="battle100301bg/100301" pre_stage_site="0" pre_level="40" time="360" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="40111" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -280,7 +280,7 @@
     <item_group>40111</item_group>
     <item_group>40111</item_group>
   </ExploreSetting>
-  <ExploreSetting id="403" area="鉱都ガルカ" group="401" icon="explore001/探索_bg_1_01_05_001_1_00" map="battle100301bg/100301" pre_stage_site="0" pre_level="40" time="720" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="40121" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="403" area="鉱都ガルカ" group="401" icon="explore001/探索_bg_1_01_05_001_1_00" map="battle100301bg/100301" pre_stage_site="0" pre_level="40" time="720" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="40121" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -294,7 +294,7 @@
     <item_group>40121</item_group>
     <item_group>40121</item_group>
   </ExploreSetting>
-  <ExploreSetting id="404" area="鉱都ガルカ" group="401" icon="explore001/探索_bg_1_01_05_001_1_00" map="battle100301bg/100301" pre_stage_site="0" pre_level="40" time="180" cost_type="指定道具" cost_target="1104" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="40131" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="404" area="鉱都ガルカ" group="401" icon="explore001/探索_bg_1_01_05_001_1_00" map="battle100301bg/100301" pre_stage_site="0" pre_level="40" time="180" cost_type="指定道具" cost_target="1104" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="40131" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -308,7 +308,7 @@
     <item_group>40131</item_group>
     <item_group>40131</item_group>
   </ExploreSetting>
-  <ExploreSetting id="405" area="鉱都ガルカ" group="401" icon="explore001/探索_bg_1_01_05_001_1_00" map="battle100301bg/100301" pre_stage_site="0" pre_level="40" time="360" cost_type="指定道具" cost_target="1104" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="40141" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="405" area="鉱都ガルカ" group="401" icon="explore001/探索_bg_1_01_05_001_1_00" map="battle100301bg/100301" pre_stage_site="0" pre_level="40" time="360" cost_type="指定道具" cost_target="1104" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="40141" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -322,7 +322,7 @@
     <item_group>40141</item_group>
     <item_group>40141</item_group>
   </ExploreSetting>
-  <ExploreSetting id="406" area="鉱都ガルカ" group="401" icon="explore001/探索_bg_1_01_05_001_1_00" map="battle100301bg/100301" pre_stage_site="0" pre_level="40" time="720" cost_type="指定道具" cost_target="1104" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="40151" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="406" area="鉱都ガルカ" group="401" icon="explore001/探索_bg_1_01_05_001_1_00" map="battle100301bg/100301" pre_stage_site="0" pre_level="40" time="720" cost_type="指定道具" cost_target="1104" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="40151" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -336,7 +336,7 @@
     <item_group>40151</item_group>
     <item_group>40151</item_group>
   </ExploreSetting>
-  <ExploreSetting id="501" area="聖都ノルン" group="501" icon="explore001/探索_bg_1_01_04_001_1_00" map="battle100201bg/100201" pre_stage_site="0" pre_level="50" time="180" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="50101" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="501" area="聖都ノルン" group="501" icon="explore001/探索_bg_1_01_04_001_1_00" map="battle100201bg/100201" pre_stage_site="0" pre_level="50" time="180" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="50101" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -350,7 +350,7 @@
     <item_group>50101</item_group>
     <item_group>50101</item_group>
   </ExploreSetting>
-  <ExploreSetting id="502" area="聖都ノルン" group="501" icon="explore001/探索_bg_1_01_04_001_1_00" map="battle100201bg/100201" pre_stage_site="0" pre_level="50" time="360" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="50111" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="502" area="聖都ノルン" group="501" icon="explore001/探索_bg_1_01_04_001_1_00" map="battle100201bg/100201" pre_stage_site="0" pre_level="50" time="360" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="50111" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -364,7 +364,7 @@
     <item_group>50111</item_group>
     <item_group>50111</item_group>
   </ExploreSetting>
-  <ExploreSetting id="503" area="聖都ノルン" group="501" icon="explore001/探索_bg_1_01_04_001_1_00" map="battle100201bg/100201" pre_stage_site="0" pre_level="50" time="720" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="50121" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="503" area="聖都ノルン" group="501" icon="explore001/探索_bg_1_01_04_001_1_00" map="battle100201bg/100201" pre_stage_site="0" pre_level="50" time="720" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="50121" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -378,7 +378,7 @@
     <item_group>50121</item_group>
     <item_group>50121</item_group>
   </ExploreSetting>
-  <ExploreSetting id="504" area="聖都ノルン" group="501" icon="explore001/探索_bg_1_01_04_001_1_00" map="battle100201bg/100201" pre_stage_site="0" pre_level="50" time="180" cost_type="指定道具" cost_target="1105" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="50131" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="504" area="聖都ノルン" group="501" icon="explore001/探索_bg_1_01_04_001_1_00" map="battle100201bg/100201" pre_stage_site="0" pre_level="50" time="180" cost_type="指定道具" cost_target="1105" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="50131" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -392,7 +392,7 @@
     <item_group>50131</item_group>
     <item_group>50131</item_group>
   </ExploreSetting>
-  <ExploreSetting id="505" area="聖都ノルン" group="501" icon="explore001/探索_bg_1_01_04_001_1_00" map="battle100201bg/100201" pre_stage_site="0" pre_level="50" time="360" cost_type="指定道具" cost_target="1105" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="50141" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="505" area="聖都ノルン" group="501" icon="explore001/探索_bg_1_01_04_001_1_00" map="battle100201bg/100201" pre_stage_site="0" pre_level="50" time="360" cost_type="指定道具" cost_target="1105" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="50141" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -406,7 +406,7 @@
     <item_group>50141</item_group>
     <item_group>50141</item_group>
   </ExploreSetting>
-  <ExploreSetting id="506" area="聖都ノルン" group="501" icon="explore001/探索_bg_1_01_04_001_1_00" map="battle100201bg/100201" pre_stage_site="0" pre_level="50" time="720" cost_type="指定道具" cost_target="1105" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="50151" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="506" area="聖都ノルン" group="501" icon="explore001/探索_bg_1_01_04_001_1_00" map="battle100201bg/100201" pre_stage_site="0" pre_level="50" time="720" cost_type="指定道具" cost_target="1105" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="50151" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -420,7 +420,7 @@
     <item_group>50151</item_group>
     <item_group>50151</item_group>
   </ExploreSetting>
-  <ExploreSetting id="601" area="武都ディミニオン" group="601" icon="explore001/探索_bg_1_01_03_001_1_00" map="battle100301bg/100303" pre_stage_site="0" pre_level="60" time="180" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="60101" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="601" area="武都ディミニオン" group="601" icon="explore001/探索_bg_1_01_03_001_1_00" map="battle100301bg/100303" pre_stage_site="0" pre_level="60" time="180" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="60101" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -434,7 +434,7 @@
     <item_group>60101</item_group>
     <item_group>60101</item_group>
   </ExploreSetting>
-  <ExploreSetting id="602" area="武都ディミニオン" group="601" icon="explore001/探索_bg_1_01_03_001_1_00" map="battle100301bg/100303" pre_stage_site="0" pre_level="60" time="360" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="60111" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="602" area="武都ディミニオン" group="601" icon="explore001/探索_bg_1_01_03_001_1_00" map="battle100301bg/100303" pre_stage_site="0" pre_level="60" time="360" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="60111" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -448,7 +448,7 @@
     <item_group>60111</item_group>
     <item_group>60111</item_group>
   </ExploreSetting>
-  <ExploreSetting id="603" area="武都ディミニオン" group="601" icon="explore001/探索_bg_1_01_03_001_1_00" map="battle100301bg/100303" pre_stage_site="0" pre_level="60" time="720" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="60121" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="603" area="武都ディミニオン" group="601" icon="explore001/探索_bg_1_01_03_001_1_00" map="battle100301bg/100303" pre_stage_site="0" pre_level="60" time="720" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="60121" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -462,7 +462,7 @@
     <item_group>60121</item_group>
     <item_group>60121</item_group>
   </ExploreSetting>
-  <ExploreSetting id="604" area="武都ディミニオン" group="601" icon="explore001/探索_bg_1_01_03_001_1_00" map="battle100301bg/100303" pre_stage_site="0" pre_level="60" time="180" cost_type="指定道具" cost_target="1106" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="60131" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="604" area="武都ディミニオン" group="601" icon="explore001/探索_bg_1_01_03_001_1_00" map="battle100301bg/100303" pre_stage_site="0" pre_level="60" time="180" cost_type="指定道具" cost_target="1106" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="60131" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -476,7 +476,7 @@
     <item_group>60131</item_group>
     <item_group>60131</item_group>
   </ExploreSetting>
-  <ExploreSetting id="605" area="武都ディミニオン" group="601" icon="explore001/探索_bg_1_01_03_001_1_00" map="battle100301bg/100303" pre_stage_site="0" pre_level="60" time="360" cost_type="指定道具" cost_target="1106" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="60141" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="605" area="武都ディミニオン" group="601" icon="explore001/探索_bg_1_01_03_001_1_00" map="battle100301bg/100303" pre_stage_site="0" pre_level="60" time="360" cost_type="指定道具" cost_target="1106" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="60141" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -490,7 +490,7 @@
     <item_group>60141</item_group>
     <item_group>60141</item_group>
   </ExploreSetting>
-  <ExploreSetting id="606" area="武都ディミニオン" group="601" icon="explore001/探索_bg_1_01_03_001_1_00" map="battle100301bg/100303" pre_stage_site="0" pre_level="60" time="720" cost_type="指定道具" cost_target="1106" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="60151" hero_convert_item_prob="0" hero_convert_item_count="0">
+  <ExploreSetting id="606" area="武都ディミニオン" group="601" icon="explore001/探索_bg_1_01_03_001_1_00" map="battle100301bg/100303" pre_stage_site="0" pre_level="60" time="720" cost_type="指定道具" cost_target="1106" cost_num="1" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="60151" hero_convert_item_prob="0" hero_convert_item_count="0">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -504,7 +504,7 @@
     <item_group>60151</item_group>
     <item_group>60151</item_group>
   </ExploreSetting>
-  <ExploreSetting id="701" area="限定エリア" group="701" icon="explore001/期間限定派遣地域_308x68" map="battle101101bg/101101" pre_stage_site="0" pre_level="10" start_time="2025 11/13  11:00:00" end_time="2025 11/20  11:00:00" time="180" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="70101" hero_convert_item_prob="0.05" hero_convert_item_count="1">
+  <ExploreSetting id="701" area="限定エリア" group="701" icon="explore001/期間限定派遣地域_308x68" map="battle101101bg/101101" pre_stage_site="0" pre_level="10" start_time="2025 11/13  11:00:00" end_time="2025 11/20  11:00:00" time="180" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="70101" hero_convert_item_prob="0.05" hero_convert_item_count="1">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -518,7 +518,7 @@
     <item_group>70101</item_group>
     <item_group>70101</item_group>
   </ExploreSetting>
-  <ExploreSetting id="702" area="限定エリア" group="701" icon="explore001/期間限定派遣地域_308x68" map="battle101101bg/101101" pre_stage_site="0" pre_level="10" start_time="2025 11/13  11:00:00" end_time="2025 11/20  11:00:00" time="360" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="70111" hero_convert_item_prob="0.1" hero_convert_item_count="1">
+  <ExploreSetting id="702" area="限定エリア" group="701" icon="explore001/期間限定派遣地域_308x68" map="battle101101bg/101101" pre_stage_site="0" pre_level="10" start_time="2025 11/13  11:00:00" end_time="2025 11/20  11:00:00" time="360" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="70111" hero_convert_item_prob="0.1" hero_convert_item_count="1">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -532,7 +532,7 @@
     <item_group>70111</item_group>
     <item_group>70111</item_group>
   </ExploreSetting>
-  <ExploreSetting id="703" area="限定エリア" group="701" icon="explore001/期間限定派遣地域_308x68" map="battle101101bg/101101" pre_stage_site="0" pre_level="10" start_time="2025 11/13  11:00:00" end_time="2025 11/20  11:00:00" time="720" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="70121" hero_convert_item_prob="0.2" hero_convert_item_count="1">
+  <ExploreSetting id="703" area="限定エリア" group="701" icon="explore001/期間限定派遣地域_308x68" map="battle101101bg/101101" pre_stage_site="0" pre_level="10" start_time="2025 11/13  11:00:00" end_time="2025 11/20  11:00:00" time="720" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="70121" hero_convert_item_prob="0.2" hero_convert_item_count="1">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -546,49 +546,7 @@
     <item_group>70121</item_group>
     <item_group>70121</item_group>
   </ExploreSetting>
-  <ExploreSetting id="711" area="2周年限定エリア" group="711" icon="explore001/期間限定派遣地域_308x68" map="battle101101bg/101101" pre_stage_site="0" pre_level="10" start_time="2025 09/11  11:00:00" end_time="2025 09/18  11:00:00" time="180" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="70101" hero_convert_item_prob="0.05" hero_convert_item_count="1">
-    <item>0</item>
-    <item>0</item>
-    <prob>0</prob>
-    <prob>0</prob>
-    <num>0</num>
-    <num>0</num>
-    <explore_value>0</explore_value>
-    <explore_value>1</explore_value>
-    <explore_value>2</explore_value>
-    <item_group>70101</item_group>
-    <item_group>70101</item_group>
-    <item_group>70101</item_group>
-  </ExploreSetting>
-  <ExploreSetting id="712" area="2周年限定エリア" group="711" icon="explore001/期間限定派遣地域_308x68" map="battle101101bg/101101" pre_stage_site="0" pre_level="10" start_time="2025 09/11  11:00:00" end_time="2025 09/18  11:00:00" time="360" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="70111" hero_convert_item_prob="0.1" hero_convert_item_count="1">
-    <item>0</item>
-    <item>0</item>
-    <prob>0</prob>
-    <prob>0</prob>
-    <num>0</num>
-    <num>0</num>
-    <explore_value>0</explore_value>
-    <explore_value>1</explore_value>
-    <explore_value>2</explore_value>
-    <item_group>70111</item_group>
-    <item_group>70111</item_group>
-    <item_group>70111</item_group>
-  </ExploreSetting>
-  <ExploreSetting id="713" area="2周年限定エリア" group="711" icon="explore001/期間限定派遣地域_308x68" map="battle101101bg/101101" pre_stage_site="0" pre_level="10" start_time="2025 09/11  11:00:00" end_time="2025 09/18  11:00:00" time="720" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="70121" hero_convert_item_prob="0.2" hero_convert_item_count="1">
-    <item>0</item>
-    <item>0</item>
-    <prob>0</prob>
-    <prob>0</prob>
-    <num>0</num>
-    <num>0</num>
-    <explore_value>0</explore_value>
-    <explore_value>1</explore_value>
-    <explore_value>2</explore_value>
-    <item_group>70121</item_group>
-    <item_group>70121</item_group>
-    <item_group>70121</item_group>
-  </ExploreSetting>
-  <ExploreSetting id="721" area="ハロウィンエリア" group="721" icon="explore001/萬聖期間限定派遣地域_308x68" map="battle100501bg/100503" pre_stage_site="0" pre_level="10" start_time="2024 10/24  11:00:00" end_time="2024 11/07  11:00:00" time="180" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="70101" hero_convert_item_prob="0.05" hero_convert_item_count="1">
+  <ExploreSetting id="711" area="2周年限定エリア" group="711" icon="explore001/期間限定派遣地域_308x68" map="battle101101bg/101101" pre_stage_site="0" pre_level="10" start_time="2025 09/11  11:00:00" end_time="2025 09/18  11:00:00" time="180" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="70101" hero_convert_item_prob="0.05" hero_convert_item_count="1">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -602,7 +560,7 @@
     <item_group>70101</item_group>
     <item_group>70101</item_group>
   </ExploreSetting>
-  <ExploreSetting id="722" area="ハロウィンエリア" group="721" icon="explore001/萬聖期間限定派遣地域_308x68" map="battle100501bg/100503" pre_stage_site="0" pre_level="10" start_time="2024 10/24  11:00:00" end_time="2024 11/07  11:00:00" time="360" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="70111" hero_convert_item_prob="0.1" hero_convert_item_count="1">
+  <ExploreSetting id="712" area="2周年限定エリア" group="711" icon="explore001/期間限定派遣地域_308x68" map="battle101101bg/101101" pre_stage_site="0" pre_level="10" start_time="2025 09/11  11:00:00" end_time="2025 09/18  11:00:00" time="360" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="70111" hero_convert_item_prob="0.1" hero_convert_item_count="1">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -616,7 +574,7 @@
     <item_group>70111</item_group>
     <item_group>70111</item_group>
   </ExploreSetting>
-  <ExploreSetting id="723" area="ハロウィンエリア" group="721" icon="explore001/萬聖期間限定派遣地域_308x68" map="battle100501bg/100503" pre_stage_site="0" pre_level="10" start_time="2024 10/24  11:00:00" end_time="2024 11/07  11:00:00" time="720" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="70121" hero_convert_item_prob="0.2" hero_convert_item_count="1">
+  <ExploreSetting id="713" area="2周年限定エリア" group="711" icon="explore001/期間限定派遣地域_308x68" map="battle101101bg/101101" pre_stage_site="0" pre_level="10" start_time="2025 09/11  11:00:00" end_time="2025 09/18  11:00:00" time="720" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="70121" hero_convert_item_prob="0.2" hero_convert_item_count="1">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -630,7 +588,49 @@
     <item_group>70121</item_group>
     <item_group>70121</item_group>
   </ExploreSetting>
-  <ExploreSetting id="901" area="パス限定エリア" group="901" icon="explore001/期間限定派遣地域_308x68" map="battle101101bg/101101" pre_stage_site="0" pre_level="10" time="180" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="90101" hero_convert_item_prob="0.05" hero_convert_item_count="1">
+  <ExploreSetting id="721" area="ハロウィンエリア" group="721" icon="explore001/萬聖期間限定派遣地域_308x68" map="battle100501bg/100503" pre_stage_site="0" pre_level="10" start_time="2024 10/24  11:00:00" end_time="2024 11/07  11:00:00" time="180" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="70101" hero_convert_item_prob="0.05" hero_convert_item_count="1">
+    <item>0</item>
+    <item>0</item>
+    <prob>0</prob>
+    <prob>0</prob>
+    <num>0</num>
+    <num>0</num>
+    <explore_value>0</explore_value>
+    <explore_value>1</explore_value>
+    <explore_value>2</explore_value>
+    <item_group>70101</item_group>
+    <item_group>70101</item_group>
+    <item_group>70101</item_group>
+  </ExploreSetting>
+  <ExploreSetting id="722" area="ハロウィンエリア" group="721" icon="explore001/萬聖期間限定派遣地域_308x68" map="battle100501bg/100503" pre_stage_site="0" pre_level="10" start_time="2024 10/24  11:00:00" end_time="2024 11/07  11:00:00" time="360" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="70111" hero_convert_item_prob="0.1" hero_convert_item_count="1">
+    <item>0</item>
+    <item>0</item>
+    <prob>0</prob>
+    <prob>0</prob>
+    <num>0</num>
+    <num>0</num>
+    <explore_value>0</explore_value>
+    <explore_value>1</explore_value>
+    <explore_value>2</explore_value>
+    <item_group>70111</item_group>
+    <item_group>70111</item_group>
+    <item_group>70111</item_group>
+  </ExploreSetting>
+  <ExploreSetting id="723" area="ハロウィンエリア" group="721" icon="explore001/萬聖期間限定派遣地域_308x68" map="battle100501bg/100503" pre_stage_site="0" pre_level="10" start_time="2024 10/24  11:00:00" end_time="2024 11/07  11:00:00" time="720" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="70121" hero_convert_item_prob="0.2" hero_convert_item_count="1">
+    <item>0</item>
+    <item>0</item>
+    <prob>0</prob>
+    <prob>0</prob>
+    <num>0</num>
+    <num>0</num>
+    <explore_value>0</explore_value>
+    <explore_value>1</explore_value>
+    <explore_value>2</explore_value>
+    <item_group>70121</item_group>
+    <item_group>70121</item_group>
+    <item_group>70121</item_group>
+  </ExploreSetting>
+  <ExploreSetting id="901" area="パス限定エリア" group="901" icon="explore001/期間限定派遣地域_308x68" map="battle101101bg/101101" pre_stage_site="0" pre_level="10" time="180" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="90101" hero_convert_item_prob="0.05" hero_convert_item_count="1">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -644,7 +644,7 @@
     <item_group>90101</item_group>
     <item_group>90101</item_group>
   </ExploreSetting>
-  <ExploreSetting id="902" area="パス限定エリア" group="901" icon="explore001/期間限定派遣地域_308x68" map="battle101101bg/101101" pre_stage_site="0" pre_level="10" time="360" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="90111" hero_convert_item_prob="0.1" hero_convert_item_count="1">
+  <ExploreSetting id="902" area="パス限定エリア" group="901" icon="explore001/期間限定派遣地域_308x68" map="battle101101bg/101101" pre_stage_site="0" pre_level="10" time="360" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="90111" hero_convert_item_prob="0.1" hero_convert_item_count="1">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -658,7 +658,7 @@
     <item_group>90111</item_group>
     <item_group>90111</item_group>
   </ExploreSetting>
-  <ExploreSetting id="903" area="パス限定エリア" group="901" icon="explore001/期間限定派遣地域_308x68" map="battle101101bg/101101" pre_stage_site="0" pre_level="10" time="720" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="90121" hero_convert_item_prob="0.2" hero_convert_item_count="1">
+  <ExploreSetting id="903" area="パス限定エリア" group="901" icon="explore001/期間限定派遣地域_308x68" map="battle101101bg/101101" pre_stage_site="0" pre_level="10" time="720" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="90121" hero_convert_item_prob="0.2" hero_convert_item_count="1">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -672,7 +672,7 @@
     <item_group>90121</item_group>
     <item_group>90121</item_group>
   </ExploreSetting>
-  <ExploreSetting id="801" area="お正月期間限定エリア" group="801" icon="explore001/期間限定派遣地域_308x68" map="battle101101bg/101101" pre_stage_site="0" pre_level="10" start_time="2025 01/01  00:00:00" end_time="2025 01/16  11:00:00" time="180" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="80101" hero_convert_item_prob="0.05" hero_convert_item_count="1">
+  <ExploreSetting id="801" area="お正月期間限定エリア" group="801" icon="explore001/期間限定派遣地域_308x68" map="battle101101bg/101101" pre_stage_site="0" pre_level="10" start_time="2025 01/01  00:00:00" end_time="2025 01/16  11:00:00" time="180" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="80101" hero_convert_item_prob="0.05" hero_convert_item_count="1">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -686,7 +686,7 @@
     <item_group>80101</item_group>
     <item_group>80101</item_group>
   </ExploreSetting>
-  <ExploreSetting id="802" area="お正月期間限定エリア" group="801" icon="explore001/期間限定派遣地域_308x68" map="battle101101bg/101101" pre_stage_site="0" pre_level="10" start_time="2025 01/01  00:00:00" end_time="2025 01/16  11:00:00" time="360" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="80111" hero_convert_item_prob="0.1" hero_convert_item_count="1">
+  <ExploreSetting id="802" area="お正月期間限定エリア" group="801" icon="explore001/期間限定派遣地域_308x68" map="battle101101bg/101101" pre_stage_site="0" pre_level="10" start_time="2025 01/01  00:00:00" end_time="2025 01/16  11:00:00" time="360" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="80111" hero_convert_item_prob="0.1" hero_convert_item_count="1">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>
@@ -700,7 +700,7 @@
     <item_group>80111</item_group>
     <item_group>80111</item_group>
   </ExploreSetting>
-  <ExploreSetting id="803" area="お正月期間限定エリア" group="801" icon="explore001/期間限定派遣地域_308x68" map="battle101101bg/101101" pre_stage_site="0" pre_level="10" start_time="2025 01/01  00:00:00" end_time="2025 01/16  11:00:00" time="720" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 09/11  11:00:00" award_bonus_end_time="2025 09/18  11:00:00" max_item_group="80121" hero_convert_item_prob="0.2" hero_convert_item_count="1">
+  <ExploreSetting id="803" area="お正月期間限定エリア" group="801" icon="explore001/期間限定派遣地域_308x68" map="battle101101bg/101101" pre_stage_site="0" pre_level="10" start_time="2025 01/01  00:00:00" end_time="2025 01/16  11:00:00" time="720" cost_type="無" cost_target="0" cost_num="0" exp_bonus="0" explore_bonus="100" hero_group="0" award_bonus_scale="1" award_bonus_start_time="2025 11/20  11:00:00" award_bonus_end_time="2025 11/27  11:00:00" max_item_group="80121" hero_convert_item_prob="0.2" hero_convert_item_count="1">
     <item>0</item>
     <item>0</item>
     <prob>0</prob>

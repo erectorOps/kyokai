@@ -2323,6 +2323,7 @@
   <SpecialValueSetting id="4" group_id="221201" tar_type="英雄" tar_id="2037" tar_prob="1737" tar_num="4" />
   <SpecialValueSetting id="5" group_id="221201" tar_type="英雄" tar_id="2027" tar_prob="1737" tar_num="3" />
   <SpecialValueSetting id="6" group_id="221201" tar_type="英雄" tar_id="2012" tar_prob="1737" tar_num="3" />
+  <SpecialValueSetting id="1" group_id="221301" tar_type="英雄" tar_id="2262" tar_prob="0" tar_num="30" />
   <SpecialValueSetting id="1" group_id="60007" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="300" />
   <SpecialValueSetting id="2" group_id="60007" tar_type="道具" tar_id="3404" tar_prob="0" tar_num="10" />
   <SpecialValueSetting id="3" group_id="60007" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="200" />
@@ -7235,6 +7236,32 @@
   <SpecialValueSetting id="4" group_id="92266" tar_type="道具" tar_id="7047" tar_prob="1" tar_num="21" />
   <SpecialValueSetting id="5" group_id="92266" tar_type="道具" tar_id="7048" tar_prob="1" tar_num="21" />
   <SpecialValueSetting id="6" group_id="92266" tar_type="道具" tar_id="7014" tar_prob="1" tar_num="70" />
+  <SpecialValueSetting id="1" group_id="9526" tar_type="商城幣" tar_id="0" tar_prob="10" tar_num="1000" />
+  <SpecialValueSetting id="2" group_id="9526" tar_type="商城幣" tar_id="0" tar_prob="15" tar_num="500" />
+  <SpecialValueSetting id="3" group_id="9526" tar_type="商城幣" tar_id="0" tar_prob="25" tar_num="300" />
+  <SpecialValueSetting id="4" group_id="9526" tar_type="AP" tar_id="0" tar_prob="10" tar_num="900" />
+  <SpecialValueSetting id="5" group_id="9526" tar_type="AP" tar_id="0" tar_prob="15" tar_num="600" />
+  <SpecialValueSetting id="6" group_id="9526" tar_type="AP" tar_id="0" tar_prob="25" tar_num="300" />
+  <SpecialValueSetting id="1" group_id="92262" tar_type="道具" tar_id="3404" tar_prob="1" tar_num="110" />
+  <SpecialValueSetting id="2" group_id="92262" tar_type="道具" tar_id="7005" tar_prob="1" tar_num="21" />
+  <SpecialValueSetting id="3" group_id="92262" tar_type="道具" tar_id="7006" tar_prob="1" tar_num="21" />
+  <SpecialValueSetting id="4" group_id="92262" tar_type="道具" tar_id="7015" tar_prob="1" tar_num="21" />
+  <SpecialValueSetting id="5" group_id="92262" tar_type="道具" tar_id="7021" tar_prob="1" tar_num="21" />
+  <SpecialValueSetting id="6" group_id="92262" tar_type="道具" tar_id="7014" tar_prob="1" tar_num="70" />
+  <SpecialValueSetting id="1" group_id="60151" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="500" />
+  <SpecialValueSetting id="2" group_id="60151" tar_type="道具" tar_id="3404" tar_prob="0" tar_num="10" />
+  <SpecialValueSetting id="3" group_id="60151" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="200" />
+  <SpecialValueSetting id="4" group_id="60151" tar_type="AP" tar_id="0" tar_prob="0" tar_num="200" />
+  <SpecialValueSetting id="5" group_id="60151" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="300" />
+  <SpecialValueSetting id="6" group_id="60151" tar_type="道具" tar_id="3604" tar_prob="0" tar_num="10" />
+  <SpecialValueSetting id="7" group_id="60151" tar_type="道具" tar_id="3004" tar_prob="0" tar_num="10" />
+  <SpecialValueSetting id="1" group_id="60152" tar_type="道具" tar_id="10991" tar_prob="0" tar_num="1" />
+  <SpecialValueSetting id="2" group_id="60152" tar_type="道具" tar_id="3404" tar_prob="0" tar_num="10" />
+  <SpecialValueSetting id="3" group_id="60152" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="300" />
+  <SpecialValueSetting id="4" group_id="60152" tar_type="AP" tar_id="0" tar_prob="0" tar_num="200" />
+  <SpecialValueSetting id="5" group_id="60152" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="400" />
+  <SpecialValueSetting id="6" group_id="60152" tar_type="道具" tar_id="3604" tar_prob="0" tar_num="10" />
+  <SpecialValueSetting id="7" group_id="60152" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="300" />
   <SpecialValueSetting id="1" group_id="80101" tar_type="道具" tar_id="7035" tar_prob="0" tar_num="30" />
   <SpecialValueSetting id="2" group_id="80101" tar_type="商城幣" tar_id="0" tar_prob="0" tar_num="1000" />
   <SpecialValueSetting id="3" group_id="80101" tar_type="道具" tar_id="80601" tar_prob="0" tar_num="1" />

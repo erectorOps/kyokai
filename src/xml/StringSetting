@@ -441,7 +441,7 @@
   <StringSetting id="5435" text="閲覧" />
   <StringSetting id="5436" text="聖騎士スキル強化" />
   <StringSetting id="5437" text="育成ブースト" />
-  <StringSetting id="5438" text="育成ブースト期間：{0}~{1}" />
+  <StringSetting id="5438" text="育成ブースト期間：{0} まで" />
   <StringSetting id="5439" text="yyyy-MM-dd HH:mm" />
   <StringSetting id="5440" text="LvUP +{0:P0}" />
   <StringSetting id="5441" text="Lv突破 {0:P0}OFF" />
@@ -3408,7 +3408,7 @@
   <StringSetting id="59069" text="未挑戦" />
   <StringSetting id="59070" text="装備情報" />
   <StringSetting id="59071" text="この編成をコピーしますか？" />
-  <StringSetting id="59072" text="コピー完了" />
+  <StringSetting id="59072" text="コピーしました" />
   <StringSetting id="59073" text="チームに離脱した聖騎士がいます&#xA;離脱した聖騎士は編成されません" />
   <StringSetting id="59074" text="RANK {0}" />
   <StringSetting id="59075" text="{0}&#xA;ポイント" />
