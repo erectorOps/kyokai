@@ -77,12 +77,16 @@ export class MpGantt {
     static _getWeaponMPRecovery() {
         const null_value = { mp_recovery: 0, mp_charge_time: 0, mp_charge_value: 0 };
         for (const w of mpChargedWeapons) {
-            if (w.chara_id === this._json.id) {
+            
+            if (w.chara_id === undefined) {
+                if (w.equip_type === this._json.equip_type && w.atk_attr === this._json.atk_attr) {
+                    return { ...w };
+                }                
+            }
+            else if (w.chara_id === this._json.id) {
                 return { ...w };
             }
-            if (w.equip_type === this._json.equip_type && w.atk_attr === this._json.atk_attr) {
-                return { ...w };
-            }
+
         }
         return null_value;
     }
