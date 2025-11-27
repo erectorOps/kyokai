@@ -13420,56 +13420,56 @@
   <HeroTalkSetting id="2267" talk_type="角色背景2" pre_gp_lv="2" pre_item_id="0" talk_text="風を操る聖騎士リンは、ディミニオンの海岸線で日々魔獣を倒している。&#xA;&#xA;久々に休暇をもらえることになり、仲間に別れを告げてヴェルン王国へ向かう。&#xA;目的はエルロンの領主。&#xA;しばらくぶりに会いたい。&#xA;&#xA;でも、ヴェルンはもうすぐ収穫祭。&#xA;今年の収穫祭はルドリスで開かれる。&#xA;エルロンの領主もそこに向かっているはずだ。&#xA;&#xA;途中、リンはリンドルム神殿に立ち寄る。&#xA;軽く参拝するつもりだったのだが、先に参拝しているやつがいた。&#xA;&#xA;妙に胸のでかいやつだった。&#xA;リンは近づいていき――。&#xA;" />
   <HeroTalkSetting id="2267" talk_type="角色背景3" pre_gp_lv="3" pre_item_id="0" talk_text="風は武器である。&#xA;ある意味、兵器である。&#xA;&#xA;普通の微風ならば、花が当たっても武器にはならない。&#xA;だが、それが超高速の暴風ならば――？&#xA;&#xA;花は武器となり、花びらといっしょに相手の命を散らす――。" />
   <HeroTalkSetting id="2267" talk_type="角色背景4" pre_gp_lv="4" pre_item_id="0" talk_text="リンの衣装も花籠も、元々別の女のものだった。&#xA;だが、流行り病に罹り、リンが急遽ピンチヒッターで衣装を着ることになる。&#xA;&#xA;非常にスタンダードなデザインだが、そこはボロゴフスキー卿が主催する収穫祭。&#xA;普通の者につくらせるはずがない。&#xA;&#xA;実は王都の有名な仕立屋が仕立てている。&#xA;靴も、もちろん王都の有名な靴屋がこしらえている。" />
-  <HeroTalkSetting id="2268" talk_type="召喚自我介紹" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2268/K2268_0001" />
-  <HeroTalkSetting id="2268" talk_type="登入_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2268/K2268_0002" />
-  <HeroTalkSetting id="2268" talk_type="觸摸1_副官" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2268/K2268_0003" />
-  <HeroTalkSetting id="2268" talk_type="觸摸2_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2268/K2268_0004" />
-  <HeroTalkSetting id="2268" talk_type="觸摸3_副官" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2268/K2268_0005" />
-  <HeroTalkSetting id="2268" talk_type="放置_副官" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2268/K2268_0006" />
-  <HeroTalkSetting id="2268" talk_type="出戰" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2268/K2268_0007" />
-  <HeroTalkSetting id="2268" talk_type="開場" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2268/K2268_0008" />
-  <HeroTalkSetting id="2268" talk_type="技能1" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2268/K2268_0009" />
-  <HeroTalkSetting id="2268" talk_type="技能2" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2268/K2268_0010" />
-  <HeroTalkSetting id="2268" talk_type="奧義1" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_voice="2268/K2268_0011" />
-  <HeroTalkSetting id="2268" talk_type="奧義2" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_voice="2268/K2268_0012" />
-  <HeroTalkSetting id="2268" talk_type="勝利" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_voice="2268/K2268_0013" />
-  <HeroTalkSetting id="2268" talk_type="戰敗" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2268/K2268_0014" />
-  <HeroTalkSetting id="2268" talk_type="一般強化1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2268/K2268_0015" />
-  <HeroTalkSetting id="2268" talk_type="一般強化2" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2268/K2268_0016" />
-  <HeroTalkSetting id="2268" talk_type="一般強化3" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2268/K2268_0017" />
-  <HeroTalkSetting id="2268" talk_type="最高階強化" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2268/K2268_0018" />
-  <HeroTalkSetting id="2268" talk_type="好感1" pre_gp_lv="1" pre_item_id="0" talk_face="01" talk_voice="2268/K2268_0019" />
-  <HeroTalkSetting id="2268" talk_type="好感2" pre_gp_lv="2" pre_item_id="0" talk_face="01" talk_voice="2268/K2268_0020" />
-  <HeroTalkSetting id="2268" talk_type="好感3" pre_gp_lv="3" pre_item_id="0" talk_face="02" talk_voice="2268/K2268_0021" />
-  <HeroTalkSetting id="2268" talk_type="好感4" pre_gp_lv="4" pre_item_id="0" talk_face="02" talk_voice="2268/K2268_0022" />
-  <HeroTalkSetting id="2268" talk_type="好感5" pre_gp_lv="4" pre_item_id="0" talk_face="03" talk_voice="2268/K2268_0023" />
-  <HeroTalkSetting id="2268" talk_type="胸部低好感" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2268/K2268_0024" />
-  <HeroTalkSetting id="2268" talk_type="胸部中好感" pre_gp_lv="1" pre_item_id="0" talk_face="01" talk_voice="2268/K2268_0025" />
-  <HeroTalkSetting id="2268" talk_type="胸部高好感" pre_gp_lv="2" pre_item_id="0" talk_face="02" talk_voice="2268/K2268_0026" />
-  <HeroTalkSetting id="2268" talk_type="贈禮1" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2268/K2268_0027" />
-  <HeroTalkSetting id="2268" talk_type="贈禮2" pre_gp_lv="3" pre_item_id="0" talk_face="02" talk_voice="2268/K2268_0028" />
-  <HeroTalkSetting id="2268" talk_type="派駐對話1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2268/K2268_0029" />
-  <HeroTalkSetting id="2268" talk_type="派駐對話2" pre_gp_lv="3" pre_item_id="0" talk_face="01" talk_voice="2268/K2268_0030" />
-  <HeroTalkSetting id="2268" talk_type="遊戲標題" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2268/K2268_0031" />
-  <HeroTalkSetting id="2268" talk_type="肯定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2268/K2268_0032" />
-  <HeroTalkSetting id="2268" talk_type="否定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2268/K2268_0033" />
-  <HeroTalkSetting id="2268" talk_type="思考" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2268/K2268_0034" />
-  <HeroTalkSetting id="2268" talk_type="疑念" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2268/K2268_0035" />
-  <HeroTalkSetting id="2268" talk_type="唸る" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2268/K2268_0036" />
-  <HeroTalkSetting id="2268" talk_type="驚愕" pre_gp_lv="0" pre_item_id="0" talk_face="08" talk_voice="2268/K2268_0037" />
-  <HeroTalkSetting id="2268" talk_type="ムカッ" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2268/K2268_0038" />
-  <HeroTalkSetting id="2268" talk_type="怒る" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_voice="2268/K2268_0039" />
-  <HeroTalkSetting id="2268" talk_type="焦り" pre_gp_lv="0" pre_item_id="0" talk_face="07" talk_voice="2268/K2268_0040" />
-  <HeroTalkSetting id="2268" talk_type="ダメージ時" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2268/K2268_0041" />
-  <HeroTalkSetting id="2268" talk_type="ため息" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2268/K2268_0042" />
-  <HeroTalkSetting id="2268" talk_type="自責" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2268/K2268_0043" />
-  <HeroTalkSetting id="2268" talk_type="喜び" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2268/K2268_0044" />
-  <HeroTalkSetting id="2268" talk_type="笑い" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_voice="2268/K2268_0045" />
-  <HeroTalkSetting id="2268" talk_type="照れ" pre_gp_lv="0" pre_item_id="0" talk_face="09" talk_voice="2268/K2268_0046" />
-  <HeroTalkSetting id="2268" talk_type="角色背景1" pre_gp_lv="1" pre_item_id="0" />
-  <HeroTalkSetting id="2268" talk_type="角色背景2" pre_gp_lv="2" pre_item_id="0" />
-  <HeroTalkSetting id="2268" talk_type="角色背景3" pre_gp_lv="3" pre_item_id="0" />
-  <HeroTalkSetting id="2268" talk_type="角色背景4" pre_gp_lv="4" pre_item_id="0" />
+  <HeroTalkSetting id="2268" talk_type="召喚自我介紹" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="ご無沙汰しております、桜邪です。護の国から参ったところです。麗鬼様の件では本当にお世話になりました" talk_voice="2268/K2268_0001" />
+  <HeroTalkSetting id="2268" talk_type="登入_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="御用で？" talk_voice="2268/K2268_0002" />
+  <HeroTalkSetting id="2268" talk_type="觸摸1_副官" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="蘭邪は４番目の妹なのです。１人目も２人目も３人目も、角を失って死にました" talk_voice="2268/K2268_0003" />
+  <HeroTalkSetting id="2268" talk_type="觸摸2_副官" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="暗い話ですみません……。わたしは気の利いたことを言うのが苦手で……。敵をぶん殴る仕事しかしてこなかったものですから……" talk_voice="2268/K2268_0004" />
+  <HeroTalkSetting id="2268" talk_type="觸摸3_副官" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="麗鬼様はとても優しくしてくださいます。蘭邪のことを話した時にも、すぐにわらわの船を使うがよい、すぐ出航するがよいと。命を捧げるべき主君です" talk_voice="2268/K2268_0005" />
+  <HeroTalkSetting id="2268" talk_type="放置_副官" pre_gp_lv="0" pre_item_id="0" talk_face="07" talk_text="あやとりをしていたら、糸が絡まってしまった……" talk_voice="2268/K2268_0006" />
+  <HeroTalkSetting id="2268" talk_type="出戰" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="ディミニオンのやつらか？" talk_voice="2268/K2268_0007" />
+  <HeroTalkSetting id="2268" talk_type="開場" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="ここからは通さぬ！" talk_voice="2268/K2268_0008" />
+  <HeroTalkSetting id="2268" talk_type="技能1" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_text="たわけが！" talk_voice="2268/K2268_0009" />
+  <HeroTalkSetting id="2268" talk_type="技能2" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="力よ……！" talk_voice="2268/K2268_0010" />
+  <HeroTalkSetting id="2268" talk_type="奧義1" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_text="喰らえ、麗鬼様の敵！――阿修羅天落！" talk_voice="2268/K2268_0011" />
+  <HeroTalkSetting id="2268" talk_type="奧義2" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_text="阿修羅天落！" talk_voice="2268/K2268_0012" />
+  <HeroTalkSetting id="2268" talk_type="勝利" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_text="麗鬼様に指一本触れさせはせん！" talk_voice="2268/K2268_0013" />
+  <HeroTalkSetting id="2268" talk_type="戰敗" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="その手があったか……" talk_voice="2268/K2268_0014" />
+  <HeroTalkSetting id="2268" talk_type="一般強化1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="今、手元が……" talk_voice="2268/K2268_0015" />
+  <HeroTalkSetting id="2268" talk_type="一般強化2" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="持ち手の部分が妙だな" talk_voice="2268/K2268_0016" />
+  <HeroTalkSetting id="2268" talk_type="一般強化3" pre_gp_lv="0" pre_item_id="0" talk_face="07" talk_text="まさか……" talk_voice="2268/K2268_0017" />
+  <HeroTalkSetting id="2268" talk_type="最高階強化" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_text="うおおっ、女神の力が！" talk_voice="2268/K2268_0018" />
+  <HeroTalkSetting id="2268" talk_type="好感1" pre_gp_lv="1" pre_item_id="0" talk_face="01" talk_text="お出かけですか？" talk_voice="2268/K2268_0019" />
+  <HeroTalkSetting id="2268" talk_type="好感2" pre_gp_lv="2" pre_item_id="0" talk_face="01" talk_text="お気をつけて" talk_voice="2268/K2268_0020" />
+  <HeroTalkSetting id="2268" talk_type="好感3" pre_gp_lv="3" pre_item_id="0" talk_face="02" talk_text="お供いたします。領主様を一人きりにさせるわけにはまいりませんので。麗鬼様からもご命令を受けております" talk_voice="2268/K2268_0021" />
+  <HeroTalkSetting id="2268" talk_type="好感4" pre_gp_lv="4" pre_item_id="0" talk_face="07" talk_text="す、すみません、近かったですか？　わたしは……近くてもよいのですが……あ～っ！　今のは風の戯れ言！　聞かなかったことに！" talk_voice="2268/K2268_0022" />
+  <HeroTalkSetting id="2268" talk_type="好感5" pre_gp_lv="4" pre_item_id="0" talk_face="09" talk_text="ご、護衛の仕事はぴったりくっつくことでございますので……むぎゅう……はぁ……幸せ……" talk_voice="2268/K2268_0023" />
+  <HeroTalkSetting id="2268" talk_type="胸部低好感" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="すわっ！　そのようなことをされる方とは……" talk_voice="2268/K2268_0024" />
+  <HeroTalkSetting id="2268" talk_type="胸部中好感" pre_gp_lv="1" pre_item_id="0" talk_face="09" talk_text="んぁっ……こ、困るのです……" talk_voice="2268/K2268_0025" />
+  <HeroTalkSetting id="2268" talk_type="胸部高好感" pre_gp_lv="2" pre_item_id="0" talk_face="09" talk_text="あん……そ、その……こっちの胸も……" talk_voice="2268/K2268_0026" />
+  <HeroTalkSetting id="2268" talk_type="贈禮1" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="麗鬼様に……え？　違う？" talk_voice="2268/K2268_0027" />
+  <HeroTalkSetting id="2268" talk_type="贈禮2" pre_gp_lv="3" pre_item_id="0" talk_face="07" talk_text="わ、わたしにですか!?" talk_voice="2268/K2268_0028" />
+  <HeroTalkSetting id="2268" talk_type="派駐對話1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="たとえ護の国でも参ります" talk_voice="2268/K2268_0029" />
+  <HeroTalkSetting id="2268" talk_type="派駐對話2" pre_gp_lv="3" pre_item_id="0" talk_face="01" talk_text="殴ってこなくても平気で？" talk_voice="2268/K2268_0030" />
+  <HeroTalkSetting id="2268" talk_type="遊戲標題" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="巨乳ファンタジー・バースト" talk_voice="2268/K2268_0031" />
+  <HeroTalkSetting id="2268" talk_type="肯定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="ええ" talk_voice="2268/K2268_0032" />
+  <HeroTalkSetting id="2268" talk_type="否定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="いえ" talk_voice="2268/K2268_0033" />
+  <HeroTalkSetting id="2268" talk_type="思考" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="ううむ……" talk_voice="2268/K2268_0034" />
+  <HeroTalkSetting id="2268" talk_type="疑念" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="どうも引っかかる……" talk_voice="2268/K2268_0035" />
+  <HeroTalkSetting id="2268" talk_type="唸る" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="ぬかった……" talk_voice="2268/K2268_0036" />
+  <HeroTalkSetting id="2268" talk_type="驚愕" pre_gp_lv="0" pre_item_id="0" talk_face="08" talk_text="やられた！" talk_voice="2268/K2268_0037" />
+  <HeroTalkSetting id="2268" talk_type="ムカッ" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="平手が欲しいのか？" talk_voice="2268/K2268_0038" />
+  <HeroTalkSetting id="2268" talk_type="怒る" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_text="許さん！" talk_voice="2268/K2268_0039" />
+  <HeroTalkSetting id="2268" talk_type="焦り" pre_gp_lv="0" pre_item_id="0" talk_face="07" talk_text="麗鬼様！" talk_voice="2268/K2268_0040" />
+  <HeroTalkSetting id="2268" talk_type="ダメージ時" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="倒されはせぬぞ……" talk_voice="2268/K2268_0041" />
+  <HeroTalkSetting id="2268" talk_type="ため息" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="何とか守り通したが……" talk_voice="2268/K2268_0042" />
+  <HeroTalkSetting id="2268" talk_type="自責" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="護衛としてなさけない……" talk_voice="2268/K2268_0043" />
+  <HeroTalkSetting id="2268" talk_type="喜び" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="やったぞ、蘭邪！" talk_voice="2268/K2268_0044" />
+  <HeroTalkSetting id="2268" talk_type="笑い" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_text="はははは" talk_voice="2268/K2268_0045" />
+  <HeroTalkSetting id="2268" talk_type="照れ" pre_gp_lv="0" pre_item_id="0" talk_face="09" talk_text="あ、赤くはなって、おりません" talk_voice="2268/K2268_0046" />
+  <HeroTalkSetting id="2268" talk_type="角色背景1" pre_gp_lv="1" pre_item_id="0" talk_text="鬼族の爆乳女戦士。&#xA;&#xA;なぜなのだ……。&#xA;&#xA;護の国の王族麗鬼に仕える武人、桜邪。&#xA;彼女を襲ったのは、家族の悲劇だった。&#xA;&#xA;妹の蘭邪の角が、１本なくなってしまったのだ。&#xA;それは恐ろしい病の罹患を告げていた……。" />
+  <HeroTalkSetting id="2268" talk_type="角色背景2" pre_gp_lv="2" pre_item_id="0" talk_text="かつて、バロス島では原始４種族と呼ばれる種族が繁栄していた。&#xA;サキュバス。&#xA;古エルフ。&#xA;天翼の民。&#xA;そして、竜族――。&#xA;&#xA;そのうちの竜族がバロス島から海を渡り、アトランディア大陸に住み着いて国をなしたのが、鬼族である。&#xA;&#xA;バロス島の原始４種族には、繁殖力の問題――つまり人口増加の問題があった。そのためどの種族もバロス島で一大勢力とはなれず、後にやってきた繁殖力の強いエルフや人間に駆逐されて少数民族に堕してしまった。&#xA;&#xA;だが、鬼族は繁殖力の問題を克服。自らの国を持ち、護の国を築くまでになった。&#xA;その代わり、１つの代償を引き受けることになった。&#xA;&#xA;喪角病――角を失う病気である。&#xA;&#xA;鬼族は、通常複数の角を持っている。&#xA;そのうちの１本が突然失われる病気で、失ってから３週間後に高熱で死ぬ。&#xA;&#xA;竜族にこの病気はない。&#xA;&#xA;鬼族が喪角病に罹る可能性があるのは、１３歳から１８歳の間。それ以外の年齢で罹患することはない。&#xA;&#xA;だが、罹れば３週間後には死が待っている。&#xA;&#xA;ヴェルン王国に咲くアルドラナの花の花粉を、角があったところに塗り付けると翌日には角が復活を始めて確実に復活すると言われている。実際に治った例が報告されている。&#xA;&#xA;だが、発病して３週間以内に護の国に渡ってアルドラナの花の花粉を得るというのはあまりにも難易度が高く、たいていは死ぬ。&#xA;&#xA;桜邪は喪角病に罹患していない。&#xA;だが、３人の妹たちは全員罹患した。皆、１３歳の時に罹患して、死んだ。&#xA;&#xA;最後に残った４番目の妹、蘭邪は喪角病に罹らずに１３歳を過ぎた。&#xA;ああ。&#xA;これで蘭邪は大丈夫だ。&#xA;&#xA;そう安心していた最中だった。&#xA;最後の１８歳で、蘭邪が罹患してしまったのだ。&#xA;&#xA;自分はまた妹の柩を見送ることになるのか。高熱に苦しむ妹、冷たくなっていく妹をまた見送ることになるのか。&#xA;&#xA;苦悩に引き裂かれそうになった桜邪に救いの手をさしのべてくれたのは、桜邪がお仕えする護の王族、麗鬼だった。&#xA;&#xA;桜邪が麗鬼に仕えるようになったのは、８年前である。&#xA;&#xA;護の宮廷では、宮中（宮殿中庭）で聖騎士技比べというものが行われる。聖騎士の実力コンテスト、実力競技会である。&#xA;&#xA;聖騎士技比べには、王族も立ち会い、観覧する。&#xA;桜邪が参加した時、麗鬼も観覧していた。その場で麗鬼に言われたのだ。&#xA;&#xA;「おい、おまえ、わらわの護衛をせよ」&#xA;&#xA;以来、麗鬼を主君として仕えてきたが、その麗鬼が救いの手をさしのべてくれたのだ。&#xA;&#xA;今すぐ蘭邪を連れて海を渡れ。わらわの船を使え――。&#xA;" />
+  <HeroTalkSetting id="2268" talk_type="角色背景3" pre_gp_lv="3" pre_item_id="0" talk_text="その手は食わぬと人は言う。だが、食えぬ手は鬼族にある。&#xA;人は一人にあらず。&#xA;戦いは手とともにあり。&#xA;桜邪が棍棒で殴ると、呼応して鬼の手も殴りかかる。&#xA;遠い敵には鬼の手が先に仕掛け、桜邪が追撃を仕掛ける。&#xA;敵側はきっと思うに違いない。その手は喰らいたくない――。" />
+  <HeroTalkSetting id="2268" talk_type="角色背景4" pre_gp_lv="4" pre_item_id="0" talk_text="桜邪の棍棒は、実はガルカの名匠、ゼミニスクが鍛えたものである。&#xA;元々、桜邪は違う棍棒を持っていた。&#xA;だが、麗鬼の護衛になった時に今の棍棒を与えられた。&#xA;それが、ゼミニスクが鍛えたものだった。&#xA;桜邪は、護衛就任時にガルカに渡り、ゼミニスクに会っているのである。&#xA;" />
   <HeroTalkSetting id="2269" talk_type="召喚自我介紹" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2269/K2269_0001" />
   <HeroTalkSetting id="2269" talk_type="登入_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2269/K2269_0002" />
   <HeroTalkSetting id="2269" talk_type="觸摸1_副官" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2269/K2269_0003" />

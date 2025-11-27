@@ -37224,7 +37224,7 @@
     <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
     <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
   </DrawSetting>
-  <DrawSetting id="264" name="【ポップフェス】イベント召喚" end_time="2025-11-27 11:00:00" draw_type="活動" set_order="8" reset_type="不重置" collaborate="無" draw_tab_icon="banner001/召喚_POPFES_320x88" shop_btn_title="【ポップフェス】イベント召喚" draw_target_type="角色" prob_id="100599" draw_target_val="0" sum_ensure_num="0" sum_ensure_prob_id="0" sum_ensure_text="10連でSR以上確定！" set_open="true" check_button_open="false" activity_id="0" info_title="【ポップフェス】イベント召喚" info_text="10連召喚で必ずSR聖騎士1体確定" set_arrive="false" exchange_point_item_id="10199" draw_coin_item_id="10" draw_coin_item_num="100" pick_up_hero_special_value_id="0" sticker_special_value_id="90001" pick_up_hero_rare="不使用" pick_up_hero_rare_convert_item_num="0" pick_up_hero_rare_convert_item_num_by_shop="0">
+  <DrawSetting id="264" name="【ポップフェス】イベント召喚" end_time="2025-11-27 11:00:00" draw_type="活動" set_order="10" reset_type="不重置" collaborate="無" draw_tab_icon="banner001/召喚_POPFES_320x88" shop_btn_title="【ポップフェス】イベント召喚" draw_target_type="角色" prob_id="100599" draw_target_val="0" sum_ensure_num="0" sum_ensure_prob_id="0" sum_ensure_text="10連でSR以上確定！" set_open="true" check_button_open="false" activity_id="0" info_title="【ポップフェス】イベント召喚" info_text="10連召喚で必ずSR聖騎士1体確定" set_arrive="false" exchange_point_item_id="10199" draw_coin_item_id="10" draw_coin_item_num="100" pick_up_hero_special_value_id="0" sticker_special_value_id="90001" pick_up_hero_rare="不使用" pick_up_hero_rare_convert_item_num="0" pick_up_hero_rare_convert_item_num_by_shop="0">
     <shop_bg>draw-pool272/251106-1</shop_bg>
     <shop_hero>0</shop_hero>
     <shop_hero>0</shop_hero>
@@ -37365,7 +37365,7 @@
     <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
     <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
   </DrawSetting>
-  <DrawSetting id="265" name="【ポップフェス】厳選ピックアップ" end_time="2025-11-27 11:00:00" draw_type="特殊" set_order="9" reset_type="不重置" collaborate="無" draw_tab_icon="banner001/召喚_POPFES_厳選ピックアップ召喚_320x88" shop_btn_title="【ポップフェス】厳選ピックアップ" draw_target_type="角色" prob_id="100601" draw_target_val="0" sum_ensure_num="0" sum_ensure_prob_id="0" sum_ensure_text="10連でSR以上確定！" set_open="true" check_button_open="false" activity_id="0" info_title="【ポップフェス】厳選ピックアップ" info_text="10連召喚で必ずSR聖騎士1体確定" set_arrive="false" exchange_point_item_id="0" draw_coin_item_id="10" draw_coin_item_num="100" pick_up_hero_special_value_id="0" sticker_special_value_id="90001" pick_up_hero_rare="SSR" pick_up_hero_rare_convert_item_num="50" pick_up_hero_rare_convert_item_num_by_shop="0">
+  <DrawSetting id="265" name="【ポップフェス】厳選ピックアップ" end_time="2025-11-27 11:00:00" draw_type="特殊" set_order="11" reset_type="不重置" collaborate="無" draw_tab_icon="banner001/召喚_POPFES_厳選ピックアップ召喚_320x88" shop_btn_title="【ポップフェス】厳選ピックアップ" draw_target_type="角色" prob_id="100601" draw_target_val="0" sum_ensure_num="0" sum_ensure_prob_id="0" sum_ensure_text="10連でSR以上確定！" set_open="true" check_button_open="false" activity_id="0" info_title="【ポップフェス】厳選ピックアップ" info_text="10連召喚で必ずSR聖騎士1体確定" set_arrive="false" exchange_point_item_id="0" draw_coin_item_id="10" draw_coin_item_num="100" pick_up_hero_special_value_id="0" sticker_special_value_id="90001" pick_up_hero_rare="SSR" pick_up_hero_rare_convert_item_num="50" pick_up_hero_rare_convert_item_num_by_shop="0">
     <shop_bg>draw-pool273/251106-2</shop_bg>
     <shop_hero>0</shop_hero>
     <shop_hero>0</shop_hero>
@@ -37506,7 +37506,7 @@
     <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
     <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
   </DrawSetting>
-  <DrawSetting id="266" name="【ポップフェス】記念召喚" end_time="2025-11-27 11:00:00" draw_type="特殊" set_order="5" reset_type="不重置" collaborate="無" draw_tab_icon="banner001/召喚_POPFES_記念召喚_320x88" shop_btn_title="【ポップフェス】記念召喚" draw_target_type="角色" prob_id="100603" draw_target_val="0" sum_ensure_num="0" sum_ensure_prob_id="0" sum_ensure_text="10連でSR以上確定！" set_open="true" check_button_open="false" activity_id="0" info_title="【ポップフェス】記念召喚" info_text="10連召喚で必ずSR聖騎士1体確定" set_arrive="false" exchange_point_item_id="0" draw_coin_item_id="0" draw_coin_item_num="0" pick_up_hero_special_value_id="0" sticker_special_value_id="0" pick_up_hero_rare="不使用" pick_up_hero_rare_convert_item_num="0" pick_up_hero_rare_convert_item_num_by_shop="0">
+  <DrawSetting id="266" name="【ポップフェス】記念召喚" end_time="2025-11-27 11:00:00" draw_type="特殊" set_order="8" reset_type="不重置" collaborate="無" draw_tab_icon="banner001/召喚_POPFES_記念召喚_320x88" shop_btn_title="【ポップフェス】記念召喚" draw_target_type="角色" prob_id="100603" draw_target_val="0" sum_ensure_num="0" sum_ensure_prob_id="0" sum_ensure_text="10連でSR以上確定！" set_open="true" check_button_open="false" activity_id="0" info_title="【ポップフェス】記念召喚" info_text="10連召喚で必ずSR聖騎士1体確定" set_arrive="false" exchange_point_item_id="0" draw_coin_item_id="0" draw_coin_item_num="0" pick_up_hero_special_value_id="0" sticker_special_value_id="0" pick_up_hero_rare="不使用" pick_up_hero_rare_convert_item_num="0" pick_up_hero_rare_convert_item_num_by_shop="0">
     <shop_bg>draw-pool274/251106-3</shop_bg>
     <shop_hero>0</shop_hero>
     <shop_hero>0</shop_hero>
@@ -37647,7 +37647,7 @@
     <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
     <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
   </DrawSetting>
-  <DrawSetting id="267" name="【ポップフェス】SSR10連確定初獲得召喚" end_time="2025-11-27 11:00:00" draw_type="特殊" set_order="2" reset_type="不重置" collaborate="無" draw_tab_icon="banner001/召喚_POPFES_SSR確定10連召喚初獲得_320x88" shop_btn_title="【ポップフェス】SSR10連確定初獲得召喚" draw_target_type="角色" prob_id="100605" draw_target_val="0" sum_ensure_num="0" sum_ensure_prob_id="0" sum_ensure_text="10連SSR確定！" set_open="true" check_button_open="false" activity_id="0" info_title="【ポップフェス】SSR10連確定初獲得召喚" info_text="未所持のSSR聖騎士10体を必ず召喚できる！！" set_arrive="false" exchange_point_item_id="0" draw_coin_item_id="0" draw_coin_item_num="0" pick_up_hero_special_value_id="0" sticker_special_value_id="0" pick_up_hero_rare="不使用" pick_up_hero_rare_convert_item_num="0" pick_up_hero_rare_convert_item_num_by_shop="0">
+  <DrawSetting id="267" name="【ポップフェス】SSR10連確定初獲得召喚" end_time="2025-11-27 11:00:00" draw_type="特殊" set_order="5" reset_type="不重置" collaborate="無" draw_tab_icon="banner001/召喚_POPFES_SSR確定10連召喚初獲得_320x88" shop_btn_title="【ポップフェス】SSR10連確定初獲得召喚" draw_target_type="角色" prob_id="100605" draw_target_val="0" sum_ensure_num="0" sum_ensure_prob_id="0" sum_ensure_text="10連SSR確定！" set_open="true" check_button_open="false" activity_id="0" info_title="【ポップフェス】SSR10連確定初獲得召喚" info_text="未所持のSSR聖騎士10体を必ず召喚できる！！" set_arrive="false" exchange_point_item_id="0" draw_coin_item_id="0" draw_coin_item_num="0" pick_up_hero_special_value_id="0" sticker_special_value_id="0" pick_up_hero_rare="不使用" pick_up_hero_rare_convert_item_num="0" pick_up_hero_rare_convert_item_num_by_shop="0">
     <shop_bg>draw-pool275/251106-4</shop_bg>
     <shop_hero>0</shop_hero>
     <shop_hero>0</shop_hero>
@@ -37788,7 +37788,7 @@
     <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
     <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
   </DrawSetting>
-  <DrawSetting id="268" name="【いいおπの日】ピックアップ召喚" start_time="2025-11-08 00:00:00" end_time="2025-11-15 00:00:00" draw_type="活動" set_order="7" reset_type="不重置" collaborate="無" draw_tab_icon="banner001/召喚_いいおπの日2025_320x88" shop_btn_title="【いいおπの日】ピックアップ召喚" draw_target_type="角色" prob_id="100607" draw_target_val="0" sum_ensure_num="0" sum_ensure_prob_id="0" sum_ensure_text="10連でSR以上確定！" set_open="true" check_button_open="false" activity_id="0" info_title="【いいおπの日】ピックアップ召喚" info_text="10連召喚で必ずSR聖騎士1体確定" set_arrive="false" exchange_point_item_id="10200" draw_coin_item_id="10" draw_coin_item_num="100" pick_up_hero_special_value_id="0" sticker_special_value_id="90001" pick_up_hero_rare="不使用" pick_up_hero_rare_convert_item_num="0" pick_up_hero_rare_convert_item_num_by_shop="0">
+  <DrawSetting id="268" name="【いいおπの日】ピックアップ召喚" start_time="2025-11-08 00:00:00" end_time="2025-11-15 00:00:00" draw_type="活動" set_order="0" reset_type="不重置" collaborate="無" draw_tab_icon="banner001/召喚_いいおπの日2025_320x88" shop_btn_title="【いいおπの日】ピックアップ召喚" draw_target_type="角色" prob_id="100607" draw_target_val="0" sum_ensure_num="0" sum_ensure_prob_id="0" sum_ensure_text="10連でSR以上確定！" set_open="true" check_button_open="false" activity_id="0" info_title="【いいおπの日】ピックアップ召喚" info_text="10連召喚で必ずSR聖騎士1体確定" set_arrive="false" exchange_point_item_id="10200" draw_coin_item_id="10" draw_coin_item_num="100" pick_up_hero_special_value_id="0" sticker_special_value_id="90001" pick_up_hero_rare="不使用" pick_up_hero_rare_convert_item_num="0" pick_up_hero_rare_convert_item_num_by_shop="0">
     <shop_bg>draw-pool278/251108-1</shop_bg>
     <shop_hero>0</shop_hero>
     <shop_hero>0</shop_hero>
@@ -37929,7 +37929,7 @@
     <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
     <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
   </DrawSetting>
-  <DrawSetting id="269" name="【競撃戦・想】攻略応援ピックアップ召喚" end_time="2025-11-20 11:00:00" draw_type="活動" set_order="10" reset_type="不重置" collaborate="無" draw_tab_icon="banner001/屬性pickup召喚_競撃戦応援_想8_320x88" shop_btn_title="【競撃戦・想】攻略応援ピックアップ召喚" draw_target_type="角色" prob_id="100609" draw_target_val="0" sum_ensure_num="0" sum_ensure_prob_id="0" sum_ensure_text="10連でSR以上確定！" set_open="true" check_button_open="false" activity_id="0" info_title="【競撃戦・想】攻略応援ピックアップ召喚" info_text="10連召喚で必ずSR聖騎士1体確定" set_arrive="false" exchange_point_item_id="10201" draw_coin_item_id="10" draw_coin_item_num="100" pick_up_hero_special_value_id="0" sticker_special_value_id="90001" pick_up_hero_rare="不使用" pick_up_hero_rare_convert_item_num="0" pick_up_hero_rare_convert_item_num_by_shop="0">
+  <DrawSetting id="269" name="【競撃戦・想】攻略応援ピックアップ召喚" end_time="2025-11-20 11:00:00" draw_type="活動" set_order="0" reset_type="不重置" collaborate="無" draw_tab_icon="banner001/屬性pickup召喚_競撃戦応援_想8_320x88" shop_btn_title="【競撃戦・想】攻略応援ピックアップ召喚" draw_target_type="角色" prob_id="100609" draw_target_val="0" sum_ensure_num="0" sum_ensure_prob_id="0" sum_ensure_text="10連でSR以上確定！" set_open="true" check_button_open="false" activity_id="0" info_title="【競撃戦・想】攻略応援ピックアップ召喚" info_text="10連召喚で必ずSR聖騎士1体確定" set_arrive="false" exchange_point_item_id="10201" draw_coin_item_id="10" draw_coin_item_num="100" pick_up_hero_special_value_id="0" sticker_special_value_id="90001" pick_up_hero_rare="不使用" pick_up_hero_rare_convert_item_num="0" pick_up_hero_rare_convert_item_num_by_shop="0">
     <shop_bg>draw-pool276/251106-5</shop_bg>
     <shop_hero>0</shop_hero>
     <shop_hero>0</shop_hero>
@@ -38211,7 +38211,7 @@
     <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
     <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
   </DrawSetting>
-  <DrawSetting id="271" name="【恵めよ、さらば与えられん】イベント召喚" end_time="2025-11-27 11:00:00" draw_type="活動" set_order="6" reset_type="不重置" collaborate="無" draw_tab_icon="banner001/召喚_恵めよ、さらば与えられん_320x88" shop_btn_title="【恵めよ、さらば与えられん】イベント召喚" draw_target_type="角色" prob_id="100612" draw_target_val="0" sum_ensure_num="0" sum_ensure_prob_id="0" sum_ensure_text="10連でSR以上確定！" set_open="true" check_button_open="false" activity_id="0" info_title="【恵めよ、さらば与えられん】イベント召喚" info_text="10連召喚で必ずSR聖騎士1体確定" set_arrive="false" exchange_point_item_id="10202" draw_coin_item_id="10" draw_coin_item_num="100" pick_up_hero_special_value_id="0" sticker_special_value_id="90001" pick_up_hero_rare="不使用" pick_up_hero_rare_convert_item_num="0" pick_up_hero_rare_convert_item_num_by_shop="0">
+  <DrawSetting id="271" name="【恵めよ、さらば与えられん】イベント召喚" end_time="2025-11-27 11:00:00" draw_type="活動" set_order="9" reset_type="不重置" collaborate="無" draw_tab_icon="banner001/召喚_恵めよ、さらば与えられん_320x88" shop_btn_title="【恵めよ、さらば与えられん】イベント召喚" draw_target_type="角色" prob_id="100612" draw_target_val="0" sum_ensure_num="0" sum_ensure_prob_id="0" sum_ensure_text="10連でSR以上確定！" set_open="true" check_button_open="false" activity_id="0" info_title="【恵めよ、さらば与えられん】イベント召喚" info_text="10連召喚で必ずSR聖騎士1体確定" set_arrive="false" exchange_point_item_id="10202" draw_coin_item_id="10" draw_coin_item_num="100" pick_up_hero_special_value_id="0" sticker_special_value_id="90001" pick_up_hero_rare="不使用" pick_up_hero_rare_convert_item_num="0" pick_up_hero_rare_convert_item_num_by_shop="0">
     <shop_bg>draw-pool279/251113-1</shop_bg>
     <shop_hero>0</shop_hero>
     <shop_hero>0</shop_hero>
@@ -38352,7 +38352,7 @@
     <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
     <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
   </DrawSetting>
-  <DrawSetting id="272" name="【無念無想の境地】イベント召喚" end_time="2025-11-27 11:00:00" draw_type="活動" set_order="3" reset_type="不重置" collaborate="無" draw_tab_icon="banner001/召喚_無念無想の境地_320x88" shop_btn_title="【無念無想の境地】イベント召喚" draw_target_type="角色" prob_id="100614" draw_target_val="0" sum_ensure_num="0" sum_ensure_prob_id="0" sum_ensure_text="10連でSR以上確定！" set_open="true" check_button_open="false" activity_id="0" info_title="【無念無想の境地】イベント召喚" info_text="10連召喚で必ずSR聖騎士1体確定" set_arrive="false" exchange_point_item_id="10203" draw_coin_item_id="10" draw_coin_item_num="100" pick_up_hero_special_value_id="0" sticker_special_value_id="90001" pick_up_hero_rare="不使用" pick_up_hero_rare_convert_item_num="0" pick_up_hero_rare_convert_item_num_by_shop="0">
+  <DrawSetting id="272" name="【無念無想の境地】イベント召喚" end_time="2025-11-27 11:00:00" draw_type="活動" set_order="6" reset_type="不重置" collaborate="無" draw_tab_icon="banner001/召喚_無念無想の境地_320x88" shop_btn_title="【無念無想の境地】イベント召喚" draw_target_type="角色" prob_id="100614" draw_target_val="0" sum_ensure_num="0" sum_ensure_prob_id="0" sum_ensure_text="10連でSR以上確定！" set_open="true" check_button_open="false" activity_id="0" info_title="【無念無想の境地】イベント召喚" info_text="10連召喚で必ずSR聖騎士1体確定" set_arrive="false" exchange_point_item_id="10203" draw_coin_item_id="10" draw_coin_item_num="100" pick_up_hero_special_value_id="0" sticker_special_value_id="90001" pick_up_hero_rare="不使用" pick_up_hero_rare_convert_item_num="0" pick_up_hero_rare_convert_item_num_by_shop="0">
     <shop_bg>draw-pool280/251120-1</shop_bg>
     <shop_hero>0</shop_hero>
     <shop_hero>0</shop_hero>
@@ -38493,7 +38493,7 @@
     <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
     <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
   </DrawSetting>
-  <DrawSetting id="273" name="【《復刻》エルロンの収穫祭】召喚交換所" end_time="2025-11-27 11:00:00" draw_type="活動" set_order="4" reset_type="不重置" collaborate="無" draw_tab_icon="banner001/召喚_エルロンの収穫祭(復刻)_320x88" shop_btn_title="【《復刻》エルロンの収穫祭】召喚交換所" draw_target_type="角色" prob_id="100616" draw_target_val="0" sum_ensure_num="0" sum_ensure_prob_id="0" sum_ensure_text="10連でSR以上確定！" set_open="true" check_button_open="false" activity_id="0" info_title="【《復刻》エルロンの収穫祭】召喚交換所" info_text="10連召喚で必ずSR聖騎士1体確定" set_arrive="false" exchange_point_item_id="10204" draw_coin_item_id="10" draw_coin_item_num="100" pick_up_hero_special_value_id="0" sticker_special_value_id="90001" pick_up_hero_rare="不使用" pick_up_hero_rare_convert_item_num="0" pick_up_hero_rare_convert_item_num_by_shop="0">
+  <DrawSetting id="273" name="【《復刻》エルロンの収穫祭】イベント召喚" end_time="2025-11-27 11:00:00" draw_type="活動" set_order="7" reset_type="不重置" collaborate="無" draw_tab_icon="banner001/召喚_エルロンの収穫祭(復刻)_320x88" shop_btn_title="【《復刻》エルロンの収穫祭】イベント召喚" draw_target_type="角色" prob_id="100616" draw_target_val="0" sum_ensure_num="0" sum_ensure_prob_id="0" sum_ensure_text="10連でSR以上確定！" set_open="true" check_button_open="false" activity_id="0" info_title="【《復刻》エルロンの収穫祭】イベント召喚" info_text="10連召喚で必ずSR聖騎士1体確定" set_arrive="false" exchange_point_item_id="10204" draw_coin_item_id="10" draw_coin_item_num="100" pick_up_hero_special_value_id="0" sticker_special_value_id="90001" pick_up_hero_rare="不使用" pick_up_hero_rare_convert_item_num="0" pick_up_hero_rare_convert_item_num_by_shop="0">
     <shop_bg>draw-pool281/251120-2</shop_bg>
     <shop_hero>0</shop_hero>
     <shop_hero>0</shop_hero>
@@ -38605,6 +38605,429 @@
     <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
     <pick_up_hero_convert_item_num_by_shop>100</pick_up_hero_convert_item_num_by_shop>
     <pick_up_hero_convert_item_num_by_shop>100</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+  </DrawSetting>
+  <DrawSetting id="274" name="【バーストフェス】イベント召喚" end_time="2025-12-04 11:00:00" draw_type="活動" set_order="2" reset_type="不重置" collaborate="無" draw_tab_icon="banner001/活動_バーストフェス10_320x88" shop_btn_title="【バーストフェス】イベント召喚" draw_target_type="角色" prob_id="100618" draw_target_val="0" sum_ensure_num="0" sum_ensure_prob_id="0" sum_ensure_text="10連でSR以上確定！" set_open="true" check_button_open="false" activity_id="0" info_title="【バーストフェス】イベント召喚" info_text="10連召喚で必ずSR聖騎士1体確定" set_arrive="false" exchange_point_item_id="10205" draw_coin_item_id="10" draw_coin_item_num="100" pick_up_hero_special_value_id="0" sticker_special_value_id="90001" pick_up_hero_rare="不使用" pick_up_hero_rare_convert_item_num="0" pick_up_hero_rare_convert_item_num_by_shop="0">
+    <shop_bg>draw-pool282/251127-1</shop_bg>
+    <shop_hero>0</shop_hero>
+    <shop_hero>0</shop_hero>
+    <shop_hero>0</shop_hero>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <btn_id>129111</btn_id>
+    <btn_id>129112</btn_id>
+    <btn_id>129113</btn_id>
+    <btn_id>129114</btn_id>
+    <btn_id>0</btn_id>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <pick_up_hero>2268</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero_convert_item_num>50</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num_by_shop>100</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+  </DrawSetting>
+  <DrawSetting id="275" name="【《復刻》踊りの女神に微笑みを】イベント召喚" end_time="2025-12-04 11:00:00" draw_type="活動" set_order="3" reset_type="不重置" collaborate="無" draw_tab_icon="banner001/召喚_踊りの女神に微笑みを(復刻)_320x88" shop_btn_title="【《復刻》踊りの女神に微笑みを】イベント召喚" draw_target_type="角色" prob_id="100620" draw_target_val="0" sum_ensure_num="0" sum_ensure_prob_id="0" sum_ensure_text="10連でSR以上確定！" set_open="true" check_button_open="false" activity_id="0" info_title="【《復刻》踊りの女神に微笑みを】イベント召喚" info_text="10連召喚で必ずSR聖騎士1体確定" set_arrive="false" exchange_point_item_id="10206" draw_coin_item_id="10" draw_coin_item_num="100" pick_up_hero_special_value_id="0" sticker_special_value_id="90001" pick_up_hero_rare="不使用" pick_up_hero_rare_convert_item_num="0" pick_up_hero_rare_convert_item_num_by_shop="0">
+    <shop_bg>draw-pool283/251127-2</shop_bg>
+    <shop_hero>0</shop_hero>
+    <shop_hero>0</shop_hero>
+    <shop_hero>0</shop_hero>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <btn_id>129211</btn_id>
+    <btn_id>129212</btn_id>
+    <btn_id>129213</btn_id>
+    <btn_id>129214</btn_id>
+    <btn_id>0</btn_id>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <pick_up_hero>2089</pick_up_hero>
+    <pick_up_hero>2090</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero_convert_item_num>50</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>50</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num_by_shop>100</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>100</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
+  </DrawSetting>
+  <DrawSetting id="276" name="【覚醒解放記念】ピックアップ召喚" end_time="2025-12-04 11:00:00" draw_type="特殊" set_order="4" reset_type="不重置" collaborate="無" draw_tab_icon="banner001/召喚_覚醒解放記念_ピックアップ召喚3_320x88" shop_btn_title="【覚醒解放記念】ピックアップ召喚" draw_target_type="角色" prob_id="100622" draw_target_val="0" sum_ensure_num="0" sum_ensure_prob_id="0" sum_ensure_text="10連でSR以上確定！" set_open="true" check_button_open="false" activity_id="0" info_title="【覚醒解放記念】ピックアップ召喚" info_text="10連召喚で必ずSR聖騎士1体確定" set_arrive="false" exchange_point_item_id="10207" draw_coin_item_id="10" draw_coin_item_num="100" pick_up_hero_special_value_id="0" sticker_special_value_id="90001" pick_up_hero_rare="不使用" pick_up_hero_rare_convert_item_num="0" pick_up_hero_rare_convert_item_num_by_shop="0">
+    <shop_bg>draw-pool284/251127-3</shop_bg>
+    <shop_hero>0</shop_hero>
+    <shop_hero>0</shop_hero>
+    <shop_hero>0</shop_hero>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <bonus_prob_id>0</bonus_prob_id>
+    <btn_id>129311</btn_id>
+    <btn_id>129312</btn_id>
+    <btn_id>129313</btn_id>
+    <btn_id>129314</btn_id>
+    <btn_id>0</btn_id>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_num>0</bonus_num>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_id>0</bonus_item_id>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <bonus_item_num>0</bonus_item_num>
+    <pick_up_hero>2076</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero>0</pick_up_hero>
+    <pick_up_hero_convert_item_num>50</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num>0</pick_up_hero_convert_item_num>
+    <pick_up_hero_convert_item_num_by_shop>100</pick_up_hero_convert_item_num_by_shop>
+    <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
     <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
     <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
     <pick_up_hero_convert_item_num_by_shop>0</pick_up_hero_convert_item_num_by_shop>
