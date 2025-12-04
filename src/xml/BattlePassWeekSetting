@@ -1296,4 +1296,148 @@
     <quest_id>0</quest_id>
     <quest_id>0</quest_id>
   </BattlePassWeekSetting>
+  <BattlePassWeekSetting id="600010" week="1" name="1週目">
+    <quest_id>93010001</quest_id>
+    <quest_id>93010002</quest_id>
+    <quest_id>93010003</quest_id>
+    <quest_id>93010004</quest_id>
+    <quest_id>93000005</quest_id>
+    <quest_id>93000006</quest_id>
+    <quest_id>93000007</quest_id>
+    <quest_id>93000008</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+  </BattlePassWeekSetting>
+  <BattlePassWeekSetting id="600010" week="2" name="2週目">
+    <quest_id>93000011</quest_id>
+    <quest_id>93000012</quest_id>
+    <quest_id>93000013</quest_id>
+    <quest_id>93000014</quest_id>
+    <quest_id>93000015</quest_id>
+    <quest_id>93000016</quest_id>
+    <quest_id>93000017</quest_id>
+    <quest_id>93000018</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+  </BattlePassWeekSetting>
+  <BattlePassWeekSetting id="600010" week="3" name="3週目">
+    <quest_id>93000021</quest_id>
+    <quest_id>93000022</quest_id>
+    <quest_id>93000023</quest_id>
+    <quest_id>93000024</quest_id>
+    <quest_id>93000025</quest_id>
+    <quest_id>93000026</quest_id>
+    <quest_id>93000027</quest_id>
+    <quest_id>93000028</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+  </BattlePassWeekSetting>
+  <BattlePassWeekSetting id="600010" week="4" name="4週目">
+    <quest_id>93000031</quest_id>
+    <quest_id>93000032</quest_id>
+    <quest_id>93000033</quest_id>
+    <quest_id>93000034</quest_id>
+    <quest_id>93000035</quest_id>
+    <quest_id>93000036</quest_id>
+    <quest_id>93000037</quest_id>
+    <quest_id>93000038</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+  </BattlePassWeekSetting>
+  <BattlePassWeekSetting id="600010" week="5" name="5週目">
+    <quest_id>93000041</quest_id>
+    <quest_id>93000042</quest_id>
+    <quest_id>93000043</quest_id>
+    <quest_id>93000044</quest_id>
+    <quest_id>93000045</quest_id>
+    <quest_id>93000046</quest_id>
+    <quest_id>93000047</quest_id>
+    <quest_id>93000048</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+  </BattlePassWeekSetting>
+  <BattlePassWeekSetting id="600010" week="6" name="6週目">
+    <quest_id>93000051</quest_id>
+    <quest_id>93000052</quest_id>
+    <quest_id>93000053</quest_id>
+    <quest_id>93000054</quest_id>
+    <quest_id>93000055</quest_id>
+    <quest_id>93000056</quest_id>
+    <quest_id>93000057</quest_id>
+    <quest_id>93000058</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+  </BattlePassWeekSetting>
+  <BattlePassWeekSetting id="600010" week="7" name="7週目">
+    <quest_id>93000061</quest_id>
+    <quest_id>93000062</quest_id>
+    <quest_id>93000063</quest_id>
+    <quest_id>93000064</quest_id>
+    <quest_id>93000065</quest_id>
+    <quest_id>93000066</quest_id>
+    <quest_id>93000067</quest_id>
+    <quest_id>93000068</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+  </BattlePassWeekSetting>
+  <BattlePassWeekSetting id="600010" week="8" name="8週目">
+    <quest_id>93000071</quest_id>
+    <quest_id>93000072</quest_id>
+    <quest_id>93000073</quest_id>
+    <quest_id>93000074</quest_id>
+    <quest_id>93000075</quest_id>
+    <quest_id>93000076</quest_id>
+    <quest_id>93000077</quest_id>
+    <quest_id>93000078</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+  </BattlePassWeekSetting>
+  <BattlePassWeekSetting id="600010" week="9" name="9週目">
+    <quest_id>93000081</quest_id>
+    <quest_id>93000082</quest_id>
+    <quest_id>93000083</quest_id>
+    <quest_id>93000084</quest_id>
+    <quest_id>93000085</quest_id>
+    <quest_id>93000086</quest_id>
+    <quest_id>93000087</quest_id>
+    <quest_id>93000088</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+  </BattlePassWeekSetting>
+  <BattlePassWeekSetting id="600010" week="10" name="10週目">
+    <quest_id>93000091</quest_id>
+    <quest_id>93000092</quest_id>
+    <quest_id>93000093</quest_id>
+    <quest_id>93000094</quest_id>
+    <quest_id>93000095</quest_id>
+    <quest_id>93000096</quest_id>
+    <quest_id>93000097</quest_id>
+    <quest_id>93000098</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+  </BattlePassWeekSetting>
+  <BattlePassWeekSetting id="600010" week="11" name="11週目">
+    <quest_id>93000101</quest_id>
+    <quest_id>93000102</quest_id>
+    <quest_id>93000103</quest_id>
+    <quest_id>93000104</quest_id>
+    <quest_id>93000105</quest_id>
+    <quest_id>93000106</quest_id>
+    <quest_id>93000107</quest_id>
+    <quest_id>93000108</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+  </BattlePassWeekSetting>
+  <BattlePassWeekSetting id="600010" week="12" name="12週目">
+    <quest_id>93000111</quest_id>
+    <quest_id>93000112</quest_id>
+    <quest_id>93000113</quest_id>
+    <quest_id>93000114</quest_id>
+    <quest_id>93000115</quest_id>
+    <quest_id>93000116</quest_id>
+    <quest_id>93000117</quest_id>
+    <quest_id>93000118</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+  </BattlePassWeekSetting>
 </root>

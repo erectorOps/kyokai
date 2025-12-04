@@ -13520,56 +13520,56 @@
   <HeroTalkSetting id="2269" talk_type="角色背景2" pre_gp_lv="2" pre_item_id="0" />
   <HeroTalkSetting id="2269" talk_type="角色背景3" pre_gp_lv="3" pre_item_id="0" />
   <HeroTalkSetting id="2269" talk_type="角色背景4" pre_gp_lv="4" pre_item_id="0" />
-  <HeroTalkSetting id="2270" talk_type="召喚自我介紹" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2270/K2270_0001" />
-  <HeroTalkSetting id="2270" talk_type="登入_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2270/K2270_0002" />
-  <HeroTalkSetting id="2270" talk_type="觸摸1_副官" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2270/K2270_0003" />
-  <HeroTalkSetting id="2270" talk_type="觸摸2_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2270/K2270_0004" />
-  <HeroTalkSetting id="2270" talk_type="觸摸3_副官" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2270/K2270_0005" />
-  <HeroTalkSetting id="2270" talk_type="放置_副官" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2270/K2270_0006" />
-  <HeroTalkSetting id="2270" talk_type="出戰" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2270/K2270_0007" />
-  <HeroTalkSetting id="2270" talk_type="開場" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2270/K2270_0008" />
-  <HeroTalkSetting id="2270" talk_type="技能1" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2270/K2270_0009" />
-  <HeroTalkSetting id="2270" talk_type="技能2" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2270/K2270_0010" />
-  <HeroTalkSetting id="2270" talk_type="奧義1" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_voice="2270/K2270_0011" />
-  <HeroTalkSetting id="2270" talk_type="奧義2" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_voice="2270/K2270_0012" />
-  <HeroTalkSetting id="2270" talk_type="勝利" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_voice="2270/K2270_0013" />
-  <HeroTalkSetting id="2270" talk_type="戰敗" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2270/K2270_0014" />
-  <HeroTalkSetting id="2270" talk_type="一般強化1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2270/K2270_0015" />
-  <HeroTalkSetting id="2270" talk_type="一般強化2" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2270/K2270_0016" />
-  <HeroTalkSetting id="2270" talk_type="一般強化3" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2270/K2270_0017" />
-  <HeroTalkSetting id="2270" talk_type="最高階強化" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2270/K2270_0018" />
-  <HeroTalkSetting id="2270" talk_type="好感1" pre_gp_lv="1" pre_item_id="0" talk_face="01" talk_voice="2270/K2270_0019" />
-  <HeroTalkSetting id="2270" talk_type="好感2" pre_gp_lv="2" pre_item_id="0" talk_face="01" talk_voice="2270/K2270_0020" />
-  <HeroTalkSetting id="2270" talk_type="好感3" pre_gp_lv="3" pre_item_id="0" talk_face="02" talk_voice="2270/K2270_0021" />
-  <HeroTalkSetting id="2270" talk_type="好感4" pre_gp_lv="4" pre_item_id="0" talk_face="02" talk_voice="2270/K2270_0022" />
-  <HeroTalkSetting id="2270" talk_type="好感5" pre_gp_lv="4" pre_item_id="0" talk_face="03" talk_voice="2270/K2270_0023" />
-  <HeroTalkSetting id="2270" talk_type="胸部低好感" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2270/K2270_0024" />
-  <HeroTalkSetting id="2270" talk_type="胸部中好感" pre_gp_lv="1" pre_item_id="0" talk_face="01" talk_voice="2270/K2270_0025" />
-  <HeroTalkSetting id="2270" talk_type="胸部高好感" pre_gp_lv="2" pre_item_id="0" talk_face="02" talk_voice="2270/K2270_0026" />
-  <HeroTalkSetting id="2270" talk_type="贈禮1" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2270/K2270_0027" />
-  <HeroTalkSetting id="2270" talk_type="贈禮2" pre_gp_lv="3" pre_item_id="0" talk_face="02" talk_voice="2270/K2270_0028" />
-  <HeroTalkSetting id="2270" talk_type="派駐對話1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2270/K2270_0029" />
-  <HeroTalkSetting id="2270" talk_type="派駐對話2" pre_gp_lv="3" pre_item_id="0" talk_face="01" talk_voice="2270/K2270_0030" />
-  <HeroTalkSetting id="2270" talk_type="遊戲標題" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2270/K2270_0031" />
-  <HeroTalkSetting id="2270" talk_type="肯定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2270/K2270_0032" />
-  <HeroTalkSetting id="2270" talk_type="否定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2270/K2270_0033" />
-  <HeroTalkSetting id="2270" talk_type="思考" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2270/K2270_0034" />
-  <HeroTalkSetting id="2270" talk_type="疑念" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2270/K2270_0035" />
-  <HeroTalkSetting id="2270" talk_type="唸る" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2270/K2270_0036" />
-  <HeroTalkSetting id="2270" talk_type="驚愕" pre_gp_lv="0" pre_item_id="0" talk_face="08" talk_voice="2270/K2270_0037" />
-  <HeroTalkSetting id="2270" talk_type="ムカッ" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2270/K2270_0038" />
-  <HeroTalkSetting id="2270" talk_type="怒る" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_voice="2270/K2270_0039" />
-  <HeroTalkSetting id="2270" talk_type="焦り" pre_gp_lv="0" pre_item_id="0" talk_face="07" talk_voice="2270/K2270_0040" />
-  <HeroTalkSetting id="2270" talk_type="ダメージ時" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2270/K2270_0041" />
-  <HeroTalkSetting id="2270" talk_type="ため息" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2270/K2270_0042" />
-  <HeroTalkSetting id="2270" talk_type="自責" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2270/K2270_0043" />
-  <HeroTalkSetting id="2270" talk_type="喜び" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2270/K2270_0044" />
-  <HeroTalkSetting id="2270" talk_type="笑い" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_voice="2270/K2270_0045" />
-  <HeroTalkSetting id="2270" talk_type="照れ" pre_gp_lv="0" pre_item_id="0" talk_face="09" talk_voice="2270/K2270_0046" />
-  <HeroTalkSetting id="2270" talk_type="角色背景1" pre_gp_lv="1" pre_item_id="0" />
-  <HeroTalkSetting id="2270" talk_type="角色背景2" pre_gp_lv="2" pre_item_id="0" />
-  <HeroTalkSetting id="2270" talk_type="角色背景3" pre_gp_lv="3" pre_item_id="0" />
-  <HeroTalkSetting id="2270" talk_type="角色背景4" pre_gp_lv="4" pre_item_id="0" />
+  <HeroTalkSetting id="2270" talk_type="召喚自我介紹" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="あ……えっと、蘭邪……あの……今、護の国から、来たの……角の時、ありが、とう……" talk_voice="2270/K2270_0001" />
+  <HeroTalkSetting id="2270" talk_type="登入_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="角……戻ったの……" talk_voice="2270/K2270_0002" />
+  <HeroTalkSetting id="2270" talk_type="觸摸1_副官" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="お姉様、４人いたの……一番上のお姉様が桜邪お姉様で……あと３人はみんな死んじゃったの……" talk_voice="2270/K2270_0003" />
+  <HeroTalkSetting id="2270" talk_type="觸摸2_副官" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="みんな１３歳の時に角が失くなって、それから熱を出しちゃって、みんな死んじゃったの……" talk_voice="2270/K2270_0004" />
+  <HeroTalkSetting id="2270" talk_type="觸摸3_副官" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="えっと……花びらは……いつでも出せるの……得意なの……手の形しかできないけど、何でも守れるの……" talk_voice="2270/K2270_0005" />
+  <HeroTalkSetting id="2270" talk_type="放置_副官" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="鬼の手で、一人でジャンケンしてた……" talk_voice="2270/K2270_0006" />
+  <HeroTalkSetting id="2270" talk_type="出戰" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="行ってくるね……" talk_voice="2270/K2270_0007" />
+  <HeroTalkSetting id="2270" talk_type="開場" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="握手……" talk_voice="2270/K2270_0008" />
+  <HeroTalkSetting id="2270" talk_type="技能1" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="防ぐ……" talk_voice="2270/K2270_0009" />
+  <HeroTalkSetting id="2270" talk_type="技能2" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="あっち行って……" talk_voice="2270/K2270_0010" />
+  <HeroTalkSetting id="2270" talk_type="奧義1" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_text="みんな、守る――釈提桓因・転輪聖王" talk_voice="2270/K2270_0011" />
+  <HeroTalkSetting id="2270" talk_type="奧義2" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_text="釈提桓因・転輪聖王" talk_voice="2270/K2270_0012" />
+  <HeroTalkSetting id="2270" talk_type="勝利" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_text="守れた……" talk_voice="2270/K2270_0013" />
+  <HeroTalkSetting id="2270" talk_type="戰敗" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="ごめんなさい……" talk_voice="2270/K2270_0014" />
+  <HeroTalkSetting id="2270" talk_type="一般強化1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="むずむずする……" talk_voice="2270/K2270_0015" />
+  <HeroTalkSetting id="2270" talk_type="一般強化2" pre_gp_lv="0" pre_item_id="0" talk_face="07" talk_text="また病気かな……" talk_voice="2270/K2270_0016" />
+  <HeroTalkSetting id="2270" talk_type="一般強化3" pre_gp_lv="0" pre_item_id="0" talk_face="08" talk_text="あれれ？" talk_voice="2270/K2270_0017" />
+  <HeroTalkSetting id="2270" talk_type="最高階強化" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="あ……女神様だ……" talk_voice="2270/K2270_0018" />
+  <HeroTalkSetting id="2270" talk_type="好感1" pre_gp_lv="1" pre_item_id="0" talk_face="07" talk_text="あ、えっと……" talk_voice="2270/K2270_0019" />
+  <HeroTalkSetting id="2270" talk_type="好感2" pre_gp_lv="2" pre_item_id="0" talk_face="01" talk_text="えっと……こんにちは……" talk_voice="2270/K2270_0020" />
+  <HeroTalkSetting id="2270" talk_type="好感3" pre_gp_lv="3" pre_item_id="0" talk_face="02" talk_text="あ……お出かけ……？" talk_voice="2270/K2270_0021" />
+  <HeroTalkSetting id="2270" talk_type="好感4" pre_gp_lv="4" pre_item_id="0" talk_face="02" talk_text="あ、えっと……いっしょに行ってもいい……？" talk_voice="2270/K2270_0022" />
+  <HeroTalkSetting id="2270" talk_type="好感5" pre_gp_lv="4" pre_item_id="0" talk_face="09" talk_text="あ、えっとご飯、いっしょに食べに行きたい……えっと、二人きりが、いい……" talk_voice="2270/K2270_0023" />
+  <HeroTalkSetting id="2270" talk_type="胸部低好感" pre_gp_lv="0" pre_item_id="0" talk_face="08" talk_text="あ……その……びっくり……" talk_voice="2270/K2270_0024" />
+  <HeroTalkSetting id="2270" talk_type="胸部中好感" pre_gp_lv="1" pre_item_id="0" talk_face="01" talk_text="えっと……おっきい……？" talk_voice="2270/K2270_0025" />
+  <HeroTalkSetting id="2270" talk_type="胸部高好感" pre_gp_lv="2" pre_item_id="0" talk_face="09" talk_text="あん……も、もう少しさわっても……いい……" talk_voice="2270/K2270_0026" />
+  <HeroTalkSetting id="2270" talk_type="贈禮1" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="あ……え……えっと……" talk_voice="2270/K2270_0027" />
+  <HeroTalkSetting id="2270" talk_type="贈禮2" pre_gp_lv="3" pre_item_id="0" talk_face="02" talk_text="えっと……プレゼント……？" talk_voice="2270/K2270_0028" />
+  <HeroTalkSetting id="2270" talk_type="派駐對話1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="うん、行ってくる……" talk_voice="2270/K2270_0029" />
+  <HeroTalkSetting id="2270" talk_type="派駐對話2" pre_gp_lv="3" pre_item_id="0" talk_face="01" talk_text="どこ……？" talk_voice="2270/K2270_0030" />
+  <HeroTalkSetting id="2270" talk_type="遊戲標題" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="巨乳ファンタジー・バースト" talk_voice="2270/K2270_0031" />
+  <HeroTalkSetting id="2270" talk_type="肯定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="あ、うん……" talk_voice="2270/K2270_0032" />
+  <HeroTalkSetting id="2270" talk_type="否定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="うん……" talk_voice="2270/K2270_0033" />
+  <HeroTalkSetting id="2270" talk_type="思考" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="えっと……" talk_voice="2270/K2270_0034" />
+  <HeroTalkSetting id="2270" talk_type="疑念" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="ええと……" talk_voice="2270/K2270_0035" />
+  <HeroTalkSetting id="2270" talk_type="唸る" pre_gp_lv="0" pre_item_id="0" talk_face="07" talk_text="うわ……" talk_voice="2270/K2270_0036" />
+  <HeroTalkSetting id="2270" talk_type="驚愕" pre_gp_lv="0" pre_item_id="0" talk_face="08" talk_text="わぁっ！" talk_voice="2270/K2270_0037" />
+  <HeroTalkSetting id="2270" talk_type="ムカッ" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="じと……" talk_voice="2270/K2270_0038" />
+  <HeroTalkSetting id="2270" talk_type="怒る" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_text="じと～～～～っ！" talk_voice="2270/K2270_0039" />
+  <HeroTalkSetting id="2270" talk_type="焦り" pre_gp_lv="0" pre_item_id="0" talk_face="07" talk_text="わわ……" talk_voice="2270/K2270_0040" />
+  <HeroTalkSetting id="2270" talk_type="ダメージ時" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="はひゅん……" talk_voice="2270/K2270_0041" />
+  <HeroTalkSetting id="2270" talk_type="ため息" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="ひゅう……" talk_voice="2270/K2270_0042" />
+  <HeroTalkSetting id="2270" talk_type="自責" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="ほげ……" talk_voice="2270/K2270_0043" />
+  <HeroTalkSetting id="2270" talk_type="喜び" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="はひゃ～～っ♪" talk_voice="2270/K2270_0044" />
+  <HeroTalkSetting id="2270" talk_type="笑い" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_text="えへへへ" talk_voice="2270/K2270_0045" />
+  <HeroTalkSetting id="2270" talk_type="照れ" pre_gp_lv="0" pre_item_id="0" talk_face="09" talk_text="こ、困る……" talk_voice="2270/K2270_0046" />
+  <HeroTalkSetting id="2270" talk_type="角色背景1" pre_gp_lv="1" pre_item_id="0" talk_text="守りの乳鬼娘。&#xA;&#xA;護の国に戻った、鬼族の娘蘭邪。&#xA;無事喪角病から回復し、治った角を見せたいなあと思うものの、エルロンは遠い。&#xA;でも、会いたい。&#xA;思い切って蘭邪はだめ元で……。" />
+  <HeroTalkSetting id="2270" talk_type="角色背景2" pre_gp_lv="2" pre_item_id="0" talk_text="護の国の武家の娘。&#xA;姉は、護の王族麗鬼に仕える桜邪。&#xA;&#xA;蘭邪の家系は、代々、棒の娘と盾の娘を輩出してきた。&#xA;棒の娘は、棍棒などで敵を攻撃する。&#xA;盾の娘は、盾に類したもので敵から主君を守る。&#xA;&#xA;蘭邪には元々４人の姉がいた。&#xA;だが、一番上の桜邪を除いて、残り３人は皆、１３歳の時、鬼族特有の病気である喪角病（そうかくびょう）で死んでしまった。&#xA;&#xA;１人目の姉のことはあまり覚えていない。どうして柩の中に入っているのだろう、どうしてこんなところで寝ているんだろうと思ったことだけは覚えている。&#xA;&#xA;２人目の姉については、両親が泣きまくっていたことを覚えている。&#xA;&#xA;３人目の姉とはよく遊んでいたが、角がなくなって、それからいきなり熱を出して、１日で死んでしまった。&#xA;遺骨ならぬ遺角は、今もお墓に納められている。&#xA;&#xA;喪角病は、１３～１８歳で発病する。罹患しないまま、１９歳を迎えれば、二度と罹ることはない。&#xA;自分は１８歳。&#xA;大丈夫なのかな……？&#xA;&#xA;そう思っていたら、最後の年齢で罹ってしまった。" />
+  <HeroTalkSetting id="2270" talk_type="角色背景3" pre_gp_lv="3" pre_item_id="0" talk_text="蘭邪は、盾の娘である。&#xA;子供の頃から、花びらが好きだった。&#xA;花びらを集めて人形にしたりしていた。&#xA;&#xA;今では花びらから手を２つつくりだし、敵の攻撃を防ぐことができる。&#xA;姉が打撲攻撃系なので、自分も強くなって、お姉様を守りたい、いっしょに麗鬼様をお守りできたらなぁ……と思っている。" />
+  <HeroTalkSetting id="2270" talk_type="角色背景4" pre_gp_lv="4" pre_item_id="0" talk_text="蘭邪は桜邪と違い、武器を使用しない。&#xA;徒手空拳である。&#xA;しかし、手がでかすぎる。&#xA;オッパイ目当てに言い寄る男は多いが、すべてでかい手に引っぱたかれて星になっている。" />
   <HeroTalkSetting id="2271" talk_type="召喚自我介紹" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2271/K2271_0001" />
   <HeroTalkSetting id="2271" talk_type="登入_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2271/K2271_0002" />
   <HeroTalkSetting id="2271" talk_type="觸摸1_副官" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2271/K2271_0003" />

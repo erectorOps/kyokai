@@ -988,6 +988,14 @@
   <MonsterActionSetting id="45003" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4500301" />
   <MonsterActionSetting id="45003" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4500302" />
   <MonsterActionSetting id="45003" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4500303" />
+  <MonsterActionSetting id="40099" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4009901" />
+  <MonsterActionSetting id="4009" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4009902" />
+  <MonsterActionSetting id="40099" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4009903" />
+  <MonsterActionSetting id="40099" info="自身が「火傷」状態の場合" type="自身有指定狀態" value="燒傷" skill_id="4009904" />
+  <MonsterActionSetting id="40100" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4010001" />
+  <MonsterActionSetting id="40100" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4010002" />
+  <MonsterActionSetting id="40100" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4010003" />
+  <MonsterActionSetting id="40100" info="自身が「火傷」状態の場合" type="自身有指定狀態" value="燒傷" skill_id="4010004" />
   <MonsterActionSetting id="41001" type="剩餘時間低於" value="90" skill_id="4100101" />
   <MonsterActionSetting id="41001" type="剩餘時間低於" value="60" skill_id="4100102" />
   <MonsterActionSetting id="41001" type="剩餘時間低於" value="30" skill_id="4100103" />

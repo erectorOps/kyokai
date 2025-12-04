@@ -35,127 +35,97 @@
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="8" page="お得" banner_type="冒險" small_banner_img="activity-banner-2114/活動_BLACKFRIDAY_320x88" big_banner_img="activity-banner-2114/活動_BLACKFRIDAY_804x434">
+  <BannerSetting id="8" page="お得" banner_type="冒險" small_banner_img="activity-banner-2115/活動_公式Discord開設記念_320x88" big_banner_img="activity-banner-2115/活動_公式Discord開設記念_804x434">
     <function_val>0</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="9" page="お得" banner_type="冒險" small_banner_img="activity-banner-2114/活動_バーストフェス_キャンペーン開催中_320x88" big_banner_img="activity-banner-2114/活動_バーストフェス_キャンペーン開催中_804x434">
+  <BannerSetting id="9" page="お得" banner_type="活動" small_banner_img="activity-banner-2115/活動_桜邪と蘭邪(疾走イベント)_320x88" big_banner_img="activity-banner-2115/活動_桜邪と蘭邪(疾走イベント)_804x434">
+    <function_val>900128</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </BannerSetting>
+  <BannerSetting id="10" page="お得" banner_type="限界戰" small_banner_img="activity-banner-2115/活動_競撃戦・風_320x88" big_banner_img="activity-banner-2115/活動_競撃戦・風_804x434">
     <function_val>0</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="10" page="お得" banner_type="冒險" small_banner_img="activity-banner-2114/活動_覚醒解放_320x88" big_banner_img="activity-banner-2114/活動_覚醒解放_804x434">
+  <BannerSetting id="11" page="召喚" banner_type="募集" small_banner_img="activity-banner-2115/召喚_桜邪と蘭邪(疾走イベント)_320x88" big_banner_img="activity-banner-2115/召喚_桜邪と蘭邪(疾走イベント)_804x434">
+    <function_val>277</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </BannerSetting>
+  <BannerSetting id="12" page="召喚" banner_type="募集" small_banner_img="activity-banner-2115/屬性pickup召喚_競撃戦応援_320x88" big_banner_img="activity-banner-2115/屬性pickup召喚_競撃戦応援_804x434">
+    <function_val>278</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </BannerSetting>
+  <BannerSetting id="13" page="お得" banner_type="商品" small_banner_img="activity-banner-2115/活動SET_公式Discord開設記念_ログインミッション_320x88" big_banner_img="activity-banner-2115/活動SET_公式Discord開設記念_ログインミッション_804x434">
+    <function_val>kyoweb_event90_7</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </BannerSetting>
+  <BannerSetting id="14" page="お得" banner_type="商品" small_banner_img="activity-banner-2115/活動SET_公式Discord開設記念_特別セット_320x88" big_banner_img="activity-banner-2115/活動SET_公式Discord開設記念_特別セット_804x434">
+    <function_val>kyoweb_event90_8</function_val>
+    <function_val>kyoweb_event90_9</function_val>
+    <function_val>0</function_val>
+  </BannerSetting>
+  <BannerSetting id="15" page="お得" banner_type="商品" small_banner_img="activity-banner-2115/活動SET_桜邪と蘭邪(疾走イベント)_召喚チケットセット_320x88" big_banner_img="activity-banner-2115/活動SET_桜邪と蘭邪(疾走イベント)_召喚チケットセット_804x434">
+    <function_val>kyoweb_event90_1</function_val>
+    <function_val>kyoweb_event90_2</function_val>
+    <function_val>0</function_val>
+  </BannerSetting>
+  <BannerSetting id="16" page="お得" banner_type="商品" small_banner_img="activity-banner-2115/活動SET_桜邪と蘭邪(疾走イベント)_育成応援セット_320x88" big_banner_img="activity-banner-2115/活動SET_桜邪と蘭邪(疾走イベント)_育成応援セット_804x434">
+    <function_val>kyoweb_event90_3</function_val>
+    <function_val>kyoweb_event90_4</function_val>
+    <function_val>0</function_val>
+  </BannerSetting>
+  <BannerSetting id="17" page="お得" banner_type="商品" small_banner_img="activity-banner-2115/活動SET_競撃戦・風_攻略応援セット_320x88" big_banner_img="activity-banner-2115/活動SET_競撃戦・風_攻略応援セット_804x434">
+    <function_val>kyoweb_event90_5</function_val>
+    <function_val>kyoweb_event90_6</function_val>
+    <function_val>0</function_val>
+  </BannerSetting>
+  <BannerSetting id="18" page="お得" banner_type="活動" small_banner_img="activity-banner-2115/活動PASS_桜邪と蘭邪(疾走イベント)_320x88" big_banner_img="activity-banner-2115/活動PASS_桜邪と蘭邪(疾走イベント)_804x434">
+    <function_val>600100</function_val>
+    <function_val>0</function_val>
+    <function_val>0</function_val>
+  </BannerSetting>
+  <BannerSetting id="19" page="お得" banner_type="戰鬥通行證" small_banner_img="activity-banner-2115/季PASS_シーズンパス_320x88" big_banner_img="activity-banner-2115/季PASS_シーズンパス_804x434">
     <function_val>0</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="11" page="お得" banner_type="活動" small_banner_img="activity-banner-2114/活動_桜邪と蘭邪_320x88" big_banner_img="activity-banner-2114/活動_桜邪と蘭邪_804x434">
-    <function_val>900126</function_val>
-    <function_val>0</function_val>
-    <function_val>0</function_val>
-  </BannerSetting>
-  <BannerSetting id="12" page="お得" banner_type="活動" small_banner_img="activity-banner-2114/活動_踊りの女神に微笑みを(復刻)_320x88" big_banner_img="activity-banner-2114/活動_踊りの女神に微笑みを(復刻)_804x434">
-    <function_val>900127</function_val>
-    <function_val>0</function_val>
-    <function_val>0</function_val>
-  </BannerSetting>
-  <BannerSetting id="13" page="お得" banner_type="限界戰" small_banner_img="activity-banner-2113/活動_異策戦・水_320x88" big_banner_img="activity-banner-2113/活動_異策戦・水_804x434">
+  <BannerSetting id="20" page="お得" banner_type="VIP月卡" small_banner_img="activity-banner-2025/ぶるんぶるんパス_320x88" big_banner_img="activity-banner-2025/ぶるんぶるんパス_804x434">
     <function_val>0</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="14" page="召喚" banner_type="募集" small_banner_img="activity-banner-2114/召喚_バーストフェス_320x88" big_banner_img="activity-banner-2114/召喚_バーストフェス_804x434">
-    <function_val>274</function_val>
-    <function_val>0</function_val>
-    <function_val>0</function_val>
-  </BannerSetting>
-  <BannerSetting id="15" page="召喚" banner_type="募集" small_banner_img="activity-banner-2114/召喚_踊りの女神に微笑みを(復刻)_320x88" big_banner_img="activity-banner-2114/召喚_踊りの女神に微笑みを(復刻)_804x434">
-    <function_val>275</function_val>
-    <function_val>0</function_val>
-    <function_val>0</function_val>
-  </BannerSetting>
-  <BannerSetting id="16" page="召喚" banner_type="募集" small_banner_img="activity-banner-2114/召喚_覚醒解放記念_ピックアップ召喚_320x88" big_banner_img="activity-banner-2114/召喚_覚醒解放記念_ピックアップ召喚_804x434">
-    <function_val>276</function_val>
-    <function_val>0</function_val>
-    <function_val>0</function_val>
-  </BannerSetting>
-  <BannerSetting id="17" page="お得" banner_type="商品" small_banner_img="activity-banner-2114/活動SET_バーストフェス_召喚チケットセット_320x88" big_banner_img="activity-banner-2114/活動SET_バーストフェス_召喚チケットセット_804x434">
-    <function_val>kyoweb_event89_1</function_val>
-    <function_val>kyoweb_event89_2</function_val>
-    <function_val>0</function_val>
-  </BannerSetting>
-  <BannerSetting id="18" page="お得" banner_type="商品" small_banner_img="activity-banner-2114/活動SET_踊りの女神に微笑みを(復刻)_召喚チケットセット_320x88" big_banner_img="activity-banner-2114/活動SET_踊りの女神に微笑みを(復刻)_召喚チケットセット_804x434">
-    <function_val>kyoweb_event89_3</function_val>
-    <function_val>kyoweb_event89_4</function_val>
-    <function_val>0</function_val>
-  </BannerSetting>
-  <BannerSetting id="19" page="お得" banner_type="商品" small_banner_img="activity-banner-2114/活動SET_覚醒解放記念_召喚チケットセット_320x88" big_banner_img="activity-banner-2114/活動SET_覚醒解放記念_召喚チケットセット_804x434">
-    <function_val>kyoweb_event89_5</function_val>
-    <function_val>kyoweb_event89_6</function_val>
-    <function_val>0</function_val>
-  </BannerSetting>
-  <BannerSetting id="20" page="お得" banner_type="商品" small_banner_img="activity-banner-2114/活動SET_BLACKFRIDAY_晶石セット_320x88" big_banner_img="activity-banner-2114/活動SET_BLACKFRIDAY_晶石セット_804x434">
-    <function_val>kyoweb_bf2025_1</function_val>
-    <function_val>0</function_val>
-    <function_val>0</function_val>
-  </BannerSetting>
-  <BannerSetting id="21" page="お得" banner_type="商品" small_banner_img="activity-banner-2114/活動SET_バーストフェス_育成応援セット_320x88" big_banner_img="activity-banner-2114/活動SET_バーストフェス_育成応援セット_804x434">
-    <function_val>kyoweb_event89_7</function_val>
-    <function_val>kyoweb_event89_8</function_val>
-    <function_val>0</function_val>
-  </BannerSetting>
-  <BannerSetting id="22" page="お得" banner_type="商品" small_banner_img="activity-banner-2114/活動SET_バーストフェス_APセット_320x88" big_banner_img="activity-banner-2114/活動SET_バーストフェス_APセット_804x434">
-    <function_val>kyoweb_event89_9</function_val>
-    <function_val>0</function_val>
-    <function_val>0</function_val>
-  </BannerSetting>
-  <BannerSetting id="23" page="お得" banner_type="商品" small_banner_img="activity-banner-2114/活動SET_覚醒解放記念_お得セット_320x88" big_banner_img="activity-banner-2114/活動SET_覚醒解放記念_お得セット_804x434">
-    <function_val>kyoweb_event89_10</function_val>
-    <function_val>kyoweb_event89_11</function_val>
-    <function_val>0</function_val>
-  </BannerSetting>
-  <BannerSetting id="24" page="お得" banner_type="活動" small_banner_img="activity-banner-2114/活動PASS_桜邪と蘭邪_320x88" big_banner_img="activity-banner-2114/活動PASS_桜邪と蘭邪_804x434">
-    <function_val>600099</function_val>
-    <function_val>0</function_val>
-    <function_val>0</function_val>
-  </BannerSetting>
-  <BannerSetting id="25" page="お得" banner_type="戰鬥通行證" small_banner_img="activity-banner-2102/季PASS_シーズンパス_320x88" big_banner_img="activity-banner-2102/季PASS_シーズンパス_804x434">
-    <function_val>0</function_val>
-    <function_val>0</function_val>
-    <function_val>0</function_val>
-  </BannerSetting>
-  <BannerSetting id="26" page="お得" banner_type="VIP月卡" small_banner_img="activity-banner-2025/ぶるんぶるんパス_320x88" big_banner_img="activity-banner-2025/ぶるんぶるんパス_804x434">
-    <function_val>0</function_val>
-    <function_val>0</function_val>
-    <function_val>0</function_val>
-  </BannerSetting>
-  <BannerSetting id="27" page="お得" banner_type="成長基金" small_banner_img="activity-banner-2057/公告_ランクアップ応援プラン1_320x88" big_banner_img="activity-banner-2057/公告_ランクアップ応援プラン1_804x434">
+  <BannerSetting id="21" page="お得" banner_type="成長基金" small_banner_img="activity-banner-2057/公告_ランクアップ応援プラン1_320x88" big_banner_img="activity-banner-2057/公告_ランクアップ応援プラン1_804x434">
     <function_val>level_quest1</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="28" page="お得" banner_type="成長基金" small_banner_img="activity-banner-2057/公告_ランクアップ応援プラン2_320x88" big_banner_img="activity-banner-2057/公告_ランクアップ応援プラン2_804x434">
+  <BannerSetting id="22" page="お得" banner_type="成長基金" small_banner_img="activity-banner-2057/公告_ランクアップ応援プラン2_320x88" big_banner_img="activity-banner-2057/公告_ランクアップ応援プラン2_804x434">
     <function_val>level_quest2</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="29" page="お得" banner_type="商品" small_banner_img="banner001/公告_7日パス_320x88" big_banner_img="banner-pass/公告_7日パス_804x434">
+  <BannerSetting id="23" page="お得" banner_type="商品" small_banner_img="banner001/公告_7日パス_320x88" big_banner_img="banner-pass/公告_7日パス_804x434">
     <function_val>kyoWEB_week_pass</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="30" page="お得" banner_type="商品" small_banner_img="banner001/公告_30日パス_320x88" big_banner_img="banner-pass/公告_30日パス_804x434">
+  <BannerSetting id="24" page="お得" banner_type="商品" small_banner_img="banner001/公告_30日パス_320x88" big_banner_img="banner-pass/公告_30日パス_804x434">
     <function_val>kyoWEB_monthly_pass</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="31" page="お得" banner_type="商品" small_banner_img="banner001/公告_30日ゴールドパス_320x88" big_banner_img="banner-pass/公告_30日ゴールドパス_804x434">
+  <BannerSetting id="25" page="お得" banner_type="商品" small_banner_img="banner001/公告_30日ゴールドパス_320x88" big_banner_img="banner-pass/公告_30日ゴールドパス_804x434">
     <function_val>kyoWEB_gold_monthly_pass</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>
   </BannerSetting>
-  <BannerSetting id="32" page="召喚" banner_type="募集" small_banner_img="banner001/初心者応援召喚_320x88" big_banner_img="activity-banner/初心者半額ガチャ_804x434">
+  <BannerSetting id="26" page="召喚" banner_type="募集" small_banner_img="banner001/初心者応援召喚_320x88" big_banner_img="activity-banner/初心者半額ガチャ_804x434">
     <function_val>5</function_val>
     <function_val>0</function_val>
     <function_val>0</function_val>

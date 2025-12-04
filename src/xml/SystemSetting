@@ -379,7 +379,7 @@
   <SystemSetting def="飾品2格開放需求英雄等級" val="41" />
   <SystemSetting def="飾品4格開放需求英雄等級" val="51" />
   <SystemSetting def="飾品5格開放需求英雄等級" val="61" />
-  <SystemSetting def="新角色影片名稱" val="PS8_hero_2268.mp4" />
+  <SystemSetting def="新角色影片名稱" val="PS8_hero_2270_1.mp4" />
   <SystemSetting def="新角色影片更換時間" />
   <SystemSetting def="新角色影片更換名稱" />
   <SystemSetting def="特典序號圖示" val="item001/redemption_icon" />
@@ -502,6 +502,6 @@
   <SystemSetting def="FY祭刷新時間" val="30" />
   <SystemSetting def="屬性塔重置週期" val="無" />
   <SystemSetting def="屬性塔角色使用次數上限" val="1" />
-  <SystemSetting def="公式Discord網址" />
+  <SystemSetting def="公式Discord網址" val="https://discord.gg/K7MrNz9b" />
   <SystemSetting def="黑色星期五交換所ID" val="2025" />
 </root>
