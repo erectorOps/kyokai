@@ -33,7 +33,7 @@ export class HeroContents {
           result[convNameList[i]] = new Array(10).fill(0);
         }
         if (name === "atk_crit" || name === "matk_crit") {
-          cv = `${cv * 0.05}%`;
+          cv = `${Math.floor(cv * 0.05 * 100) / 100}%`;
         }
         result[convNameList[i]][lv-1] = `${cv}`;
       }
@@ -307,7 +307,7 @@ export class HeroContents {
       if (!stat_name.includes("クリティカル")) {
         stat_value = parseInt(stat_value);
       } else {
-        stat_value = stat_value + "%";
+        stat_value = `${Math.floor(stat_value * 0.05 * 100) / 100}%`;
       }
       statistics_values.push(stat_value+"");
 
