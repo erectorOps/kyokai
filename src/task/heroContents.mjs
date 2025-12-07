@@ -304,7 +304,9 @@ export class HeroContents {
       const stat_name = statisticConvNameArray[main_index]
       statistics.push(stat_name);
       let stat_value = calcStatisticValue(weaponEntity['@_main_statistic_value'], weaponEntity['@_main_statistic_grow'], maxLv);
-      if (!stat_name.includes("クリティカル")) {
+      if (stat_name.includes("ダメージ割合")) {
+        stat_value = `${parseInt(stat_value)}%`;
+      } else if (!stat_name.includes("クリティカル")) {
         stat_value = parseInt(stat_value);
       } else {
         stat_value = `${Math.floor(stat_value * 0.05 * 100) / 100}%`;
@@ -321,7 +323,9 @@ export class HeroContents {
         const sec_name = statisticConvNameArray[weaponEntity.secondary_statistic[i]];
         statistics.push(sec_name);
         let sec_value = calcStatisticValue(weaponEntity.secondary_statistic_value[i], weaponEntity.secondary_statistic_grow[i], maxLv);
-        if (!sec_name.includes("クリティカル")) {
+        if (stat_name.includes("ダメージ割合")) {
+          stat_value = `${parseInt(stat_value)}%`;
+        } else if (!sec_name.includes("クリティカル")) {
           sec_value = parseInt(sec_value);
         } else {
           sec_value = sec_value + "%";
