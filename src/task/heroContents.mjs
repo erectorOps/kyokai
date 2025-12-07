@@ -5,7 +5,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { minify } from 'html-minifier';
 
-import { getAtkSpeed, getPosition, abiNameConvTable, statisticConvArray, statisticConvTable, timeErrorMsg, parseIntOnlyString, calcWaitTime, toBig } from './hero/_util.mjs';
+import { getAtkSpeed, getPosition, abiNameConvTable, statisticConvArray, statisticConvNameArray, statisticConvTable, timeErrorMsg, parseIntOnlyString, calcWaitTime, toBig, calcStatisticValue } from './hero/_util.mjs';
 import { calcPassive } from './hero/_calcPassive.mjs';
 import { parseSkill } from './hero/_parseSkill.mjs';
 import { srcBase, srcPath, distPath } from './_config.mjs';
@@ -289,6 +289,61 @@ export class HeroContents {
     json.need_items = limit3Entity.key_item_id.filter(x => x !== "0");
 
     json.mp_gantt = MpGantt.generateTimelines(json);
+
+    // unique weapon
+    const weaponEntity = kf.EquipSetting.find(item => item['@_type'] === "專武" && item['@_can_equip_hero_ids'].split(',').includes(id));
+    if (weaponEntity) {
+
+      // likely lv 90 cap
+      const maxLv = parseInt(weaponEntity['@_rank_limit']) * 10 + parseInt(weaponEntity['@_equip_lv_max']);
+
+      const statistics = [];
+      const statistics_values = [];
+
+      const main_index = statisticConvArray.indexOf(weaponEntity['@_main_statistic']);
+      const stat_name = statisticConvNameArray[main_index]
+      statistics.push(stat_name);
+      let stat_value = calcStatisticValue(weaponEntity['@_main_statistic_value'], weaponEntity['@_main_statistic_grow'], maxLv);
+      if (!stat_name.includes("クリティカル")) {
+        stat_value = parseInt(stat_value);
+      } else {
+        stat_value = stat_value + "%";
+      }
+      statistics_values.push(stat_value+"");
+
+
+
+      const len = weaponEntity.secondary_statistic.length;
+      for (let i = 0; i < len; i++) {
+        if (weaponEntity.secondary_statistic[i] === "0") {
+          continue;
+        }
+        const sec_name = statisticConvNameArray[weaponEntity.secondary_statistic[i]];
+        statistics.push(sec_name);
+        let sec_value = calcStatisticValue(weaponEntity.secondary_statistic_value[i], weaponEntity.secondary_statistic_grow[i], maxLv);
+        if (!sec_name.includes("クリティカル")) {
+          sec_value = parseInt(sec_value);
+        } else {
+          sec_value = sec_value + "%";
+        }
+        statistics_values.push(sec_value+"");
+      }
+
+      const itemEntity = kf.ItemSetting.find(item => item['@_id'] === weaponEntity['@_id']);
+
+      const weapon = {
+        name: itemEntity['@_name'],
+        icon: itemEntity['@_icon'],
+        description: itemEntity['@_description'],
+        level: maxLv,
+        statistics: statistics,
+        statistics_values: statistics_values,
+        skill: parseSkill(weaponEntity.skill_id[4], weaponEntity.skill_lv[4], kf)
+      };
+
+      json.weapon = weapon;
+
+    }
     
     return json;
   }

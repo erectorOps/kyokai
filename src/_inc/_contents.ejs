@@ -257,6 +257,36 @@
       </tbody>
     </table>    
     <% } %>
+
+    <% if (page.weapon) { %>
+
+    <h3 class="s-header--3">専用武器</h3>
+    <table class="s-table">
+    <% const statistics_len = page.weapon.statistics.length; %>
+      <tbody>
+        <tr><th width="100%" colspan="<%= statistics_len %>"><div class="s-name"><img class="s-icon" alt="専用武器アイコン" src="../img/<%= page.weapon.icon %>.png"><%- page.weapon.name %> (Lv.<%= page.weapon.level %>)</div></th></tr>
+        <tr><td class="center" colspan="<%= statistics_len %>"><%- page.weapon.description %></td></tr>
+        <tr>
+        <% 
+          const statistics_split_width = (100 / statistics_len).toFixed(2) + "%";
+          for (let i = 0; i < statistics_len; i++) {
+        %>
+          <th width="<%= statistics_split_width %>"><%= page.weapon.statistics[i] %></th>
+        <% } %>
+        </tr>
+        <tr>
+        <% 
+          for (let i = 0; i < statistics_len; i++) { %>
+          <td class="center"><%= page.weapon.statistics_values[i] %></td>
+        <% } %>
+        </tr>
+        <tr><th width="100%" colspan="<%= statistics_len %>"><div class="s-name">武器スキル：<%- page.weapon.skill.name %></div></th></tr>
+        <tr><td class="center" colspan="<%= statistics_len %>"><%- page.weapon.skill.text %></td></tr>
+      </tbody>
+    </table>
+    
+    <% } %>
+
     <h3 class="s-header--3">絆ボーナス</h3>
     <table class="s-table">
       <tbody>

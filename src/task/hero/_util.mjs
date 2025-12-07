@@ -48,6 +48,10 @@ export const calcWaitTime = (freeze_time, wait_show_time, atk_speed) => {
   //return (freeze_time + 0.125 + wait_show_time) / (1 + atk_speed + c)
 }
 
+export const calcStatisticValue = (base, growth, level) => {
+  return parseFloat(base) + parseFloat(growth) * (level - 1);
+}
+
 export const abiNameConvTable = {
   hp: "HP",
   atk: "物理攻擊",
@@ -85,6 +89,27 @@ export const statisticConvArray = [
   "奧義傷害加成值",
   "普攻傷害百分比",
   "普攻傷害加成值"
+]
+
+export const statisticConvNameArray = [
+  "なし",
+  "HP",
+  "物理攻撃", 
+  "魔法攻撃", 
+  "物理防御", 
+  "魔法防御",
+  "命中", 
+  "ブロック", 
+  "物理クリティカル", 
+  "魔法クリティカル", "HP回復", "MP回復", "HP吸収", "治癒", 
+  "MPチャージ", "MP消費減少",
+  "バスト",
+  "スキルダメージ割合",
+  "スキルダメージ追加値",
+  "奥義ダメージ割合",
+  "奥義ダメージ追加値",
+  "通常攻撃ダメージ割合",
+  "通常攻撃ダメージ追加値"
 ]
 
 export const statisticConvTable = {
