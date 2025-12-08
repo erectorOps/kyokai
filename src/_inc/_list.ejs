@@ -139,6 +139,10 @@
 
 <script>
 
+// ★表示タブ状態保存用のキー名
+const SESSION_KEY_TAB = 'hero_list_active_tab';
+const SESSION_KEY_FILTER = 'hero_list_active_filters';
+
 function switchTarget(container, fromRange, toRange) {
     const ul = container.parentElement;
     const lis = ul.querySelectorAll('li[data-range]');
@@ -178,6 +182,26 @@ function switchTarget(container, fromRange, toRange) {
             li.style.display = 'none';
             li.setAttribute('data-check', "0");
         }
+    });
+}
+
+function saveFilterState() {
+    const filterState = {};
+    document.querySelectorAll(".filter_container").forEach(container => {
+        const key = container.dataset.filter;
+        filterState[key] = [];
+        container.querySelectorAll("li[data-check='1']").forEach(li => {
+            filterState[key].push(li.dataset.val);
+        });
+    });
+    sessionStorage.setItem(SESSION_KEY_FILTER, JSON.stringify(filterState));
+}
+
+function clearState() {
+    sessionStorage.removeItem(SESSION_KEY_FILTER);
+    sessionStorage.removeItem(SESSION_KEY_TAB);
+    document.querySelectorAll(".filter_container li").forEach(li => {
+        li.setAttribute("data-check", "0");
     });
 }
 
@@ -254,6 +278,8 @@ function hero_search() {
     });
 
     document.querySelector(".no_result").style.display = total_count === 0 ? 'block' : 'none';
+
+    saveFilterState();
 }
 
 /**
@@ -263,6 +289,10 @@ function tabSwitch(tab) {
     const current_check = tab.getAttribute("data-check");
     if (current_check == 0) {
         tab.setAttribute("data-check", 1);
+
+        const tabValue = tab.dataset.tab;
+        sessionStorage.setItem(SESSION_KEY_TAB, tabValue);
+
         tab.parentElement.querySelectorAll('li').forEach(sibling => {
             if (sibling !== tab) {
                 sibling.setAttribute("data-check", 0);
@@ -313,8 +343,75 @@ document.querySelectorAll('.filter_container > li').forEach(li => {
 document.querySelectorAll(".tab_container > li").forEach(li => {
     li.addEventListener("click", function() {
         tabSwitch(this);
+        hero_search();
     });
 });
 
-document.querySelector(".tab_container > li:first-child").click();
+function restoreStateFromSession() {
+    // --- フィルター状態の復元 ---
+    const savedFilterJSON = sessionStorage.getItem(SESSION_KEY_FILTER);
+    if (savedFilterJSON) {
+        try {
+            const savedFilters = JSON.parse(savedFilterJSON);
+
+            // 全てのフィルターを初期化 (data-check="0"に戻す)
+            document.querySelectorAll(".filter_container li").forEach(li => {
+                li.setAttribute("data-check", "0");
+            });
+            // 保存された状態を復元 (data-check="1"に復元)
+            document.querySelectorAll(".filter_container").forEach(container => {
+                const key = container.dataset.filter;
+                if (savedFilters[key] && savedFilters[key].length > 0) {
+                    savedFilters[key].forEach(val => {
+                        const liToActivate = container.querySelector(`li[data-val='${val}']`);
+                        if (liToActivate) {
+                            liToActivate.setAttribute("data-check", "1");
+                        }
+                    });
+                }
+            });
+        } catch (e) {
+            console.error("Failed to parse saved filter state:", e);
+        }
+    }
+
+    // --- タブ状態の復元 ---
+    const savedTabValue = sessionStorage.getItem(SESSION_KEY_TAB);
+    let targetTab = null;
+    if (savedTabValue) {
+        targetTab = document.querySelector(`.tab_container > li[data-tab='${savedTabValue}']`);
+    }
+    // データがない場合も、必ず最初のタブをクリックして初期化を完了させる
+    const finalTarget = targetTab || document.querySelector(".tab_container > li:first-child");
+    if (finalTarget) {
+        finalTarget.click();
+    }
+
+    // ★重要: タブまたはフィルターの復元が完了した後、必ず hero_search() を実行して表示を更新する
+    // (タブクリック時にも hero_search は走るが、フィルター復元のみの場合のために必要)
+    hero_search();
+}
+
+window.addEventListener('pageshow', (event) => {
+    if (event.persisted) {
+        return; // persistedの場合は既に復元されているので何もしない
+    }
+
+    const navigationType = performance.getEntriesByType("navigation")[0].type;
+    const isBackforward = navigationType === "back_forward";
+
+    if (isBackforward) {
+        // ブラウザバック (BFCache失敗) の場合は状態を復元
+        restoreStateFromSession();
+    } else {
+        // それ以外 (通常リロードや新規推移) は復元しない
+        clearState();
+
+        const firstTab = document.querySelector(".tab_container > li:first-child");
+        if (firstTab) {
+            firstTab.click();
+        }
+        hero_search();
+    }
+});
 </script>
