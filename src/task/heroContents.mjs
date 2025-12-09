@@ -108,7 +108,18 @@ export class HeroContents {
     const maxLimitEntity = kf.HeroLimitOverSetting.find(item => item['@_group_id'] === group && item['@_over_times'] === "5");
     json.support = maxLimitEntity.support_buff_id.filter(item => item !== '0').map(item => {
       const buff = kf.BuffSetting.find(y => y['@_id'] === item);
-      return buff['@_effect_text'].replace(/\{1\}/, buff['@_effect_val2']).replace(/<color=(#[A-F0-9]+?)>/ig, `<span class="value up">`).replace(/<\/color>/ig, "</span>");
+      let effectText = buff['@_effect_text'];
+      let effectValue = buff['@_effect_val2'];
+      if (buff['@_effect_type'].endsWith("爆擊上升或下降")) {
+        const n = parseFloat(effectValue);
+        if (!isNaN(n)) {
+          effectValue = `${Math.floor(n * 0.05 * 100) / 100}%`;
+        }
+      }
+      effectText = effectText.replace(/\{1\}/, effectValue)
+        .replace(/<color=(#[A-F0-9]+?)>/ig, `<span class="value up">`)
+      effectText = effectText.replace(/<\/color>/ig, "</span>");
+      return effectText;
     }).reduce((p, c) => p.length > 0 ? p + " / " + c : c, "");
 
     //console.log("id = " + json.id + " name = " + json.name);
