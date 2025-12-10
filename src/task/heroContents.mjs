@@ -334,7 +334,7 @@ export class HeroContents {
         const sec_name = statisticConvNameArray[weaponEntity.secondary_statistic[i]];
         statistics.push(sec_name);
         let sec_value = calcStatisticValue(weaponEntity.secondary_statistic_value[i], weaponEntity.secondary_statistic_grow[i], maxLv);
-        if (stat_name.includes("ダメージ割合")) {
+        if (sec_name.includes("ダメージ割合")) {
           stat_value = `${parseInt(stat_value)}%`;
         } else if (!sec_name.includes("クリティカル")) {
           sec_value = parseInt(sec_value);
