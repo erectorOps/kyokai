@@ -1,59 +1,49 @@
-<% const ub_buttons = [
-    ["単体攻撃", "単体攻撃"],
-    ["複数攻撃", "複数攻撃"],
-    ["6人攻撃", "六人攻撃"],
-    ["全体攻撃", "全体攻撃"],
-    ["バブのみ", "バフのみ"],
+<%
+// ----------------------------------------------------
+// 1. Gulpから渡された変数の取得
+// ----------------------------------------------------
+// t: 翻訳関数 (t('key'))
+// ub_buttons: 修正されたボタンリスト [キー, データ値, 範囲]
+const t = page.t; 
+const ub_buttons = page.ub_buttons; // Gulpタスクでub_buttonsとして渡すことを想定
+const def = page.def; // defもGulpタスクから渡すことを想定
 
-    ["👥HP回復", "HP回復"],
-    ["👥MP回復", "MP回復"],
-    ["👥攻撃⬆", "物理攻撃UP,魔法攻撃UP"],
-    ["👥クリ⬆", "物理クリティカルUP,魔法クリティカルUP"],
-    ["👥速度⬆", "行動速度UP"],
-    ["👥属性攻撃⬆", "属性攻撃UP"],
-    ["👥回数付ダメ⬆", "回数付ダメージUP,回数付物理ダメージUP,回数付魔法ダメージUP"],
-    ["👥ダメ⬆", "ダメージUP"],
-    ["👥デバフ耐性", "デバフ耐性"],
-
-    ["👤MP回復", "自身MP回復"],
-    ["👤攻撃⬆", "自身物理攻撃UP,自身魔法攻撃UP"],
-    ["👤クリ⬆", "自身物理クリティカルUP,自身魔法クリティカルUP"],
-    ["👤速度⬆", "自身行動速度UP"],
-    ["👤属性攻撃⬆", "自身属性攻撃UP"],
-    ["👤回数付ダメ⬆", "自身回数付ダメージUP,自身回数付物理ダメージUP,自身回数付魔法ダメージUP"],
-    ["👤ダメ⬆", "自身ダメージUP,自身条件付ダメージUP"],
-
-    ["👹挑発", "挑発"],
-    ["👹防御⬇", "物理防御DOWN,魔法防御DOWN"],
-    ["👹速度⬇", "行動速度DOWN"],
-    ["👹被ダメ⬆", "被ダメージUP"],
-    ["👹状態付与", "毒,火傷,凍結,出血,沈黙,解消,麻痺,睡眠,石化,眩暈,混乱,魅了,呪い,盲目,恐怖,解消"],
-
-]; 
+// ----------------------------------------------------
+// 2. アイコン取得ヘルパー関数 (EJS内で定義)
+// ----------------------------------------------------
+const getIcon = (range) => {
+    if (range === 'self') return '👤';
+    if (range === 'all') return '👥';
+    if (range === 'enemy') return '👹';
+    return '';
+};
 %>
+
 <ul class="filter_container" data-filter="ub_type" data-count="<%= ub_buttons.length %>">
     <div class="target-container target-cell" id="ub-target-container">
-        <span class="target-label">対象:</span>
+        <span class="target-label"><%- t('filter.target') %></span>
         <div class="target-selector">
-            <button class="target-button" data-range="self">👤自身</button>
-            <button class="target-button" data-range="all">👥味方</button>
-            <button class="target-button" data-range="enemy">👹敵</button>
+            <button class="target-button" data-range="self">👤<%- t('filter.target.self') %></button>
+            <button class="target-button" data-range="all">👥<%- t('filter.target.ally') %></button>
+            <button class="target-button" data-range="enemy">👹<%- t('filter.target.enemy') %></button>
         </div>
     </div>
     <% for (const button of ub_buttons) {
-        const val = button[1].split(",").map(x => def[x]).join(",");
-        let range = "";
-        if (button[0].includes("👤")) {
-            range = 'self';
-        } else if (button[0].includes("👥")) {
-            range = 'all';
-        } else if (button[0].includes("👹")) {
-            range = 'enemy';
-        }
+        const key = button[0];    // 例: "ub_type.hp_recovery"
+        const data_key_string = button[1]; // 例: "HP回復" または "物理攻撃UP,魔法攻撃UP"
 
-        const name = button[0].replace(/👤|👥|👹/g, '');
+        // ページサイズ削減のためdefのキーを短いコードにマッピングし、カンマで結合
+        const val = data_key_string.split(",").map(x => def[x]).join(","); 
+        const range = button[2];  // "all", "self", "enemy", ""
 
-        const label = button[0]
+        // 翻訳キーから、現在の言語のラベルを取得
+        const name = t(key);
+
+        // アイコンを取得
+        const icon = getIcon(range);
+
+        // アイコンと翻訳済みラベルを結合し、昇順/降順マークをHTMLに変換
+        const label = icon + name
         .replace(/⬆/g, '<span class="arrow-mark up">⬆</span>')
         .replace(/⬇/g, '<span class="arrow-mark down">⬇</span>');
     %>

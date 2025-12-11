@@ -6,7 +6,7 @@ import { minify } from 'html-minifier';
 import through2 from 'through2';
 
 import { getAtkSpeed, getPositionKey } from './hero/_util.mjs';
-import { srcBase, srcPath, distBase, def } from './_config.mjs';
+import { srcBase, srcPath, distBase, def, sk_buttons, ub_buttons } from './_config.mjs';
 import { PreSkillCategorize } from './preSkillCategorize.mjs';
 import log from 'fancy-log';
 
@@ -63,6 +63,8 @@ export class HeroList {
                 keywords: t('index._inc._list.page_keywords'), // ★ 翻訳キーに置き換え
                 heros: [],
                 def: def,
+                sk_buttons: sk_buttons,
+                ub_buttons: ub_buttons,
                 lang: lang, // ★ 言語コードをEJSに渡す
                 t: t // ★ 翻訳関数をEJSに渡す
             };
