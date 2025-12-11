@@ -8,10 +8,16 @@ export const getAtkSpeed = (value) => {
     else { return "遅い"; }
 }
   
-export const getPosition = (value) => {
+export const getPositionJa = (value) => {
     if (value <= 250) { return "前列"; }
     else if (value <= 450) { return "中列"; }
     else { return "後列"; }
+}
+
+export const getPositionKey = (value) => {
+    if (value <= 250) { return "position_front"; }
+    else if (value <= 450) { return "position_middle"; }
+    else { return "position_back"; }
 }
 
 export const parseIntOnlyString = (value) => {

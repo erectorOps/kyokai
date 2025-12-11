@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script>
+        // 1. ブラウザの優先言語を取得
+        const lang = (navigator.language || navigator.userLanguage).toLowerCase();
+        
+        // 2. サポートしている言語リスト
+        const supportedLangs = ['ja', 'en']; // ここにサポートする全ての言語を追加
+        
+        // 3. 優先言語にマッチするロケールコードを決定
+        let targetLang = 'ja'; // デフォルト言語 (ja に設定)
+
+        for (const supported of supportedLangs) {
+            // 例: ブラウザ言語が "en-us" の場合、"en" にマッチさせる
+            if (lang.startsWith(supported)) {
+                targetLang = supported;
+                break;
+            }
+        }
+
+        // 4. 対応する言語のトップページにリダイレクト
+        // index.{lang}.html (例: index.ja.html) へリダイレクト
+        window.location.replace(`/index.${targetLang}.html`);
+        
+    </script>
+</head>
+<body>
+    <p>Please wait while we redirect you to the correct language version...</p>
+</body>
+</html>

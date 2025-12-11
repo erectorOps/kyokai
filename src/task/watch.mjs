@@ -32,19 +32,18 @@ const createWatchFiles = (kf) => {
         const heroList = new HeroList(kf);
         gulp.watch(srcPath.scss, gulp.series(cssSass))
         gulp.watch(srcPath.img, gulp.series(imgFunc, browserSyncReload))
-        gulp.watch(srcPath.hero, gulp.series(gulp.parallel(heroContents.createFuncs.bind(heroContents)), browserSyncReload))
-        gulp.watch(srcPath.herolist, gulp.series(heroList.createFunc(), browserSyncReload))
+        gulp.watch(srcPath.hero, gulp.series(gulp.parallel(...heroContents.createMultiLangTasks()), browserSyncReload))
+        gulp.watch(srcPath.herolist, gulp.series(gulp.parallel(...heroList.createMultiLangTasks()), browserSyncReload))
         //gulp.watch(srcPath.js, gulp.series(jsFunc, browserSyncReload))
     }
 }
 
-const createWatchOne = (kf, id) => {
+const createWatchOne = (kf, id, lang) => {
     return () => {
         const heroContents = new HeroContents(kf);
-        const heroList = new HeroList(kf);
         gulp.watch(srcPath.scss, gulp.series(cssSass))
         gulp.watch(srcPath.img, gulp.series(imgFunc, browserSyncReload))
-        gulp.watch(srcPath.hero, gulp.series(gulp.parallel(heroContents.createOne.bind(heroContents, id)), browserSyncReload));
+        gulp.watch(srcPath.hero, gulp.series(gulp.parallel(heroContents.createOne.bind(heroContents, id, lang)), browserSyncReload));
         //gulp.watch(srcPath.js, gulp.series(jsFunc, browserSyncReload))
     }
 }
@@ -55,8 +54,8 @@ export class Watch {
         this.kf = kf;
     }
 
-    createOne(id) {
-        return [createWatchOne(this.kf, id), browserSyncFunc];
+    createOne(id, lang) {
+        return [createWatchOne(this.kf, id, lang), browserSyncFunc];
     }
 
     createFuncs() {

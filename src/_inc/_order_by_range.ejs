@@ -3,7 +3,7 @@
     <% let item = page.heros[i]; %>
     <% let cur_pos = item.position; %>
 <tr class="hero_tr" data-val="<%= cur_pos %>" data-tab="隊列順" data-disp_tab="0" data-disp_val="1">
-    <th><%= item.position %></th>
+    <th><%- t(item.position) %></th>
 </tr>
 <tr class="hero_tr" data-val="<%= cur_pos %>" data-tab="隊列順" data-disp_tab="0" data-disp_val="1">
     <td>

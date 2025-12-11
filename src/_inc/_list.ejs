@@ -1,8 +1,8 @@
 <div id="wrapper" class="style-wrapper">
-    <h2 class="s-header--2">聖騎士一覧</h2>
+    <h2 class="s-header--2"><%- t("paladins") %></h2>
     <table class="filter_table s-table">
         <tbody>
-            <tr><th>レア</th>
+            <tr><th><%- t("rarity") %></th>
             <td>
                 <ul class="filter_container" data-filter="rare" data-count="3">
                     <li data-val="SSR" data-check="0"><div>SSR</div></li>
@@ -10,33 +10,33 @@
                     <li data-val="R" data-check="0"><div>R</div></li>
                 </ul>
             </td></tr>
-            <tr><th>役割</th>
+            <tr><th><%- t("role") %></th>
             <td>
                 <ul class="filter_container" data-filter="role_set" data-count="3">
-                    <li data-val="タンク" data-check="0"><div>タンク</div></li>
-                    <li data-val="アタック" data-check="0"><div>アタック</div></li>
-                    <li data-val="サポート" data-check="0"><div>サポート</div></li>
+                    <li data-val="タンク" data-check="0"><div><%- t("tank") %></div></li>
+                    <li data-val="アタック" data-check="0"><div><%- t("attack") %></div></li>
+                    <li data-val="サポート" data-check="0"><div><%- t("support") %></div></li>
                 </ul>
             </td></tr>           
-            <tr><th>属性</th>
+            <tr><th><%- t("attribute") %></th>
             <td>
                 <ul class="filter_container" data-filter="attr" data-count="6">
-                    <li data-val="火" data-check="0"><div>火</div></li>
-                    <li data-val="水" data-check="0"><div>水</div></li>
-                    <li data-val="風" data-check="0"><div>風</div></li>
-                    <li data-val="聖" data-check="0"><div>聖</div></li>
-                    <li data-val="魔" data-check="0"><div>魔</div></li>
-                    <li data-val="想" data-check="0"><div>想</div></li>
+                    <li data-val="火" data-check="0"><div><%- t("fire") %></div></li>
+                    <li data-val="水" data-check="0"><div><%- t("water") %></div></li>
+                    <li data-val="風" data-check="0"><div><%- t("wind") %></div></li>
+                    <li data-val="聖" data-check="0"><div><%- t("holy") %></div></li>
+                    <li data-val="魔" data-check="0"><div><%- t("magic") %></div></li>
+                    <li data-val="想" data-check="0"><div><%- t("mind") %></div></li>
                 </ul>
             </td></tr>
-            <tr><th>攻撃タイプ</th>
+            <tr><th><%- t("attack-type") %></th>
             <td>
                 <ul class="filter_container" data-filter="atk_attr" data-count="2">
-                    <li data-val="物理" data-check="0"><div>物理攻撃</div></li>
-                    <li data-val="魔法" data-check="0"><div>魔法攻撃</div></li>
+                    <li data-val="物理" data-check="0"><div><%- t("physical-attack") %></div></li>
+                    <li data-val="魔法" data-check="0"><div><%- t("magic-attack") %></div></li>
                 </ul>
             </td></tr>
-            <tr><th>奥義</th>
+            <tr><th><%- t("ultimate") %></th>
             <td>
 <%-
     include('./_ub_buttons.ejs', {
@@ -45,7 +45,7 @@
 %>
             </td>
             </tr>
-            <tr><th>スキル</th>
+            <tr><th><%- t("skills") %></th>
             <td>
 <%-
     include('./_sk_buttons.ejs', { 
@@ -54,54 +54,54 @@
 %>
             </td>
             </tr>
-            <tr><th>武器</th>
+            <tr><th><%- t("weapon") %></th>
             <td>
                 <ul class="filter_container" data-filter="equip_type" data-count="5">
-                    <li data-val="斬" data-check="0"><div>斬</div></li>
-                    <li data-val="打" data-check="0"><div>打</div></li>
-                    <li data-val="突" data-check="0"><div>突</div></li>
-                    <li data-val="射" data-check="0"><div>射</div></li>
-                    <li data-val="投" data-check="0"><div>投</div></li>
+                    <li data-val="斬" data-check="0"><div><%- t("slash") %></div></li>
+                    <li data-val="打" data-check="0"><div><%- t("blunt") %></div></li>
+                    <li data-val="突" data-check="0"><div><%- t("pierce") %></div></li>
+                    <li data-val="射" data-check="0"><div><%- t("ranged") %></div></li>
+                    <li data-val="投" data-check="0"><div><%- t("throw") %></div></li>
                 </ul>
             </td></tr>
-            <tr><th>サポート</th>
+            <tr><th><%- t("support-bonus") %></th>
             <td>
                 <ul class="filter_container" data-filter="support" data-count="6">
                     <li data-val="最大HP" data-check="0"><div>HP+</div></li>
-                    <li data-val="物理攻撃,魔法攻撃" data-check="0"><div>攻撃+</div></li>
-                    <li data-val="物理防御,魔法防御" data-check="0"><div>防御+</div></li>
-                    <li data-val="物理クリティカル,魔法クリティカル" data-check="0"><div>クリ+</div></li>
-                    <li data-val="命中" data-check="0"><div>命中+</div></li>
-                    <li data-val="ブロック" data-check="0"><div>ブロック+</div></li>
+                    <li data-val="物理攻撃,魔法攻撃" data-check="0"><div><%- t("support-any-attack-plus") %></div></li>
+                    <li data-val="物理防御,魔法防御" data-check="0"><div><%- t("support-any-defence-plus") %></div></li>
+                    <li data-val="物理クリティカル,魔法クリティカル" data-check="0"><div><%- t("support-any-critical-plus") %></div></li>
+                    <li data-val="命中" data-check="0"><div><%- t("support-hit-plus") %></div></li>
+                    <li data-val="ブロック" data-check="0"><div><%- t("support-block-plus") %></div></li>
                 </ul>
             </td>
             </tr>
-            <tr><th>行動速度</th>
+            <tr><th><%- t("action-speed") %></th>
             <td>
                 <ul class="filter_container" data-filter="atk_speed" data-count="5">
-                    <li data-val="早い" data-check="0"><div>早い</div></li>
-                    <li data-val="やや早い" data-check="0"><div>やや早い</div></li>
-                    <li data-val="普通" data-check="0"><div>普通</div></li>
-                    <li data-val="やや遅い" data-check="0"><div>やや遅い</div></li>
-                    <li data-val="遅い" data-check="0"><div>遅い</div></li>
+                    <li data-val="早い" data-check="0"><div><%- t("speed-fast") %></div></li>
+                    <li data-val="やや早い" data-check="0"><div><%- t("speed-slightly-fast") %></div></li>
+                    <li data-val="普通" data-check="0"><div><%- t("speed-normal") %></div></li>
+                    <li data-val="やや遅い" data-check="0"><div><%- t("speed-slightly-slow") %></div></li>
+                    <li data-val="遅い" data-check="0"><div><%- t("speed-slow") %></div></li>
                 </ul>
             </td></tr>
-            <tr><th>召喚</th>
+            <tr><th><%- t("summon-category") %></th>
             <td>
                 <ul class="filter_container" data-filter="gacha_type" data-count="10">
-                    <li data-val="恒常" data-check="0"><div>恒常</div></li>
-                    <li data-val="イベント" data-check="0"><div>限定イベ</div></li>
-                    <li data-val="バーストフェス" data-check="0"><div>バーストフェス</div></li>
-                    <li data-val="無限討伐戦" data-check="0"><div>無限討伐戦</div></li>
-                    <li data-val="疾走討伐戦" data-check="0"><div>疾走討伐戦</div></li>
-                    <li data-val="試練の塔" data-check="0"><div>試練の塔</div></li>
-                    <li data-val="同盟戦" data-check="0"><div>同盟戦</div></li>
-                    <li data-val="Fanzine" data-check="0"><div>Fanzine</div></li>
-                    <li data-val="シーズンパス" data-check="0"><div>シーズンパス</div></li>
-                    <li data-val="報酬" data-check="0"><div>イベ配布など</div></li>
+                    <li data-val="恒常" data-check="0"><div><%- t("summon-permanent") %></div></li>
+                    <li data-val="イベント" data-check="0"><div><%- t("summon-event") %></div></li>
+                    <li data-val="バーストフェス" data-check="0"><div><%- t("summon-burst-fes") %></div></li>
+                    <li data-val="無限討伐戦" data-check="0"><div><%- t("summon-infinity-battle") %></div></li>
+                    <li data-val="疾走討伐戦" data-check="0"><div><%- t("summon-rush-battle") %></div></li>
+                    <li data-val="試練の塔" data-check="0"><div><%- t("summon-tower") %></div></li>
+                    <li data-val="同盟戦" data-check="0"><div><%- t("summon-guild-war") %></div></li>
+                    <li data-val="Fanzine" data-check="0"><div><%- t("summon-fanzine") %></div></li>
+                    <li data-val="シーズンパス" data-check="0"><div><%- t("summon-season-pass") %></div></li>
+                    <li data-val="報酬" data-check="0"><div><%- t("summon-event-freebies") %></div></li>
                 </ul>
             </td></tr>
-            <tr><th>実装年</th>
+            <tr><th><%- t("release-year") %></th>
             <td>
                 <ul class="filter_container" data-filter="added_year" data-count="3">
                     <li data-val="2025" data-check="0"><div>2025</div></li>
@@ -113,10 +113,10 @@
     </table>
 
     <ul class="tab_container" data-length="4">
-        <li data-tab="レア" data-check="1">レア別</li>
-        <li data-tab="実装順" data-check="0">実装順</li>
-        <li data-tab="隊列順" data-check="0">隊列順</li>
-        <li data-tab="Tier順" data-check="0">Tier順</li>
+        <li data-tab="レア" data-check="1"><%- t("tab-rarity") %></li>
+        <li data-tab="実装順" data-check="0"><%- t("tab-release-date") %></li>
+        <li data-tab="隊列順" data-check="0"><%- t("tab-range") %></li>
+        <li data-tab="Tier順" data-check="0"><%- t("tab-tier") %></li>
     </ul>
     <table class="s-table">
         <tbody>

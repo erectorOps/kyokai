@@ -5,10 +5,15 @@ import rename from 'gulp-rename'; //ファイル出力時にファイル名を�
 import { minify } from 'html-minifier';
 import through2 from 'through2';
 
-import { getAtkSpeed, getPosition } from './hero/_util.mjs';
+import { getAtkSpeed, getPositionKey } from './hero/_util.mjs';
 import { srcBase, srcPath, distBase, def } from './_config.mjs';
 import { PreSkillCategorize } from './preSkillCategorize.mjs';
 import log from 'fancy-log';
+
+import fs from 'fs';
+import path from 'path';
+
+const languages = ['ja', 'en'];
 
 function removeCommaSeparatedItem(str, itemToRemove) {
     const arr = str.split(",");
@@ -32,21 +37,34 @@ export class HeroList {
         this.kf = kf;
     }
 
-    createFunc() {
+    createMultiLangTasks() {
+        return languages.map(lang => {
+            return this.createLangTask(lang);
+        });
+    }
+
+    createLangTask(lang) {
         const kf = this.kf;
+
+        const localePath = path.resolve(process.cwd(), 'src', 'locales', `${lang}.json`);
+        const localeData = JSON.parse(fs.readFileSync(localePath, 'utf-8'));
+
+        const t = (key) => localeData[key] || `[Missing Key: ${key}]`;
+
         return () => {
             const heroList = kf.HeroSetting.filter(item => item['@_id'] !== undefined && parseInt(item['@_id']) < 10000);
-
             const categorize = (new PreSkillCategorize(kf)).categorize();
 
 
 
             let jsonRoot = {
-                title: "聖騎士一覧",
-                description: "聖騎士一覧",
-                keywords: "聖騎士一覧",
+                title: t('index._inc._list.page_title'), // ★ 翻訳キーに置き換え
+                description: t('index._inc._list.page_desc'), // ★ 翻訳キーに置き換え
+                keywords: t('index._inc._list.page_keywords'), // ★ 翻訳キーに置き換え
                 heros: [],
-                def: def
+                def: def,
+                lang: lang, // ★ 言語コードをEJSに渡す
+                t: t // ★ 翻訳関数をEJSに渡す
             };
             
             for(const hero of heroList) {
@@ -134,7 +152,7 @@ export class HeroList {
                 if (atkSkill) {
                 json.atk_speed = getAtkSpeed(parseFloat(atkSkill['@_freeze_time']));
                 json.range = parseInt(atkSkill['@_range']);
-                json.position = getPosition(parseInt(json.range));
+                json.position = getPositionKey(parseInt(json.range));
                 }
             
                 jsonRoot.heros.push(json);
@@ -145,7 +163,7 @@ export class HeroList {
             .pipe(rename(
             {
                 basename: 'index',
-                extname: '.html'
+                extname: `.${lang}.html`
             }
             ))
             .pipe(through2.obj(function (file, encoding, callback) {

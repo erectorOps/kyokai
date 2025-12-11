@@ -5,7 +5,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { minify } from 'html-minifier';
 
-import { getAtkSpeed, getPosition, abiNameConvTable, statisticConvArray, statisticConvNameArray, statisticConvTable, timeErrorMsg, parseIntOnlyString, calcWaitTime, toBig, calcStatisticValue } from './hero/_util.mjs';
+import { getAtkSpeed, getPositionJa, abiNameConvTable, statisticConvArray, statisticConvNameArray, statisticConvTable, timeErrorMsg, parseIntOnlyString, calcWaitTime, toBig, calcStatisticValue } from './hero/_util.mjs';
 import { calcPassive } from './hero/_calcPassive.mjs';
 import { parseSkill } from './hero/_parseSkill.mjs';
 import { srcBase, srcPath, distPath } from './_config.mjs';
@@ -13,6 +13,7 @@ import { ScaleCheck } from './hero/_scaleCheck.mjs';
 import log from 'fancy-log';
 import { MpGantt } from './hero/_mpGantt.mjs';
 
+const languages = ['ja', 'en'];
 
 const paramNameList = ["hp","atk","matk", "def", "mdef", "atk_crit", "matk_crit", "hit", "block", "end_hp_recovery", "end_mp_recovery", "dmg_suck_hp", "healing_power", "mp_recovery", "mp_cost_down"];
 const convNameList = ["HP", "物理攻撃", "魔法攻撃", "物理防御", "魔法防御", "物理クリティカル", "魔法クリティカル","命中", "ブロック", "HP回復", "MP回復", "HP吸収", "治癒", "MPチャージ", "MP消費減少"];
@@ -212,7 +213,7 @@ export class HeroContents {
     if (atkSkill) {
       json.atk_speed = getAtkSpeed(parseFloat(atkSkill['@_freeze_time']));
       json.range = atkSkill['@_range'];
-      json.position = getPosition(parseInt(json.range));
+      json.position = getPositionJa(parseInt(json.range));
 
       const freezeTime = atkSkill['@_freeze_time'];
       const waitShowTime = kf.SkillEffectSetting.find(item => item['@_Id'] === atkSkill['@_effect_id'])?.['@_WaitShowTime'] ?? 0;
@@ -314,17 +315,8 @@ export class HeroContents {
       const main_index = statisticConvArray.indexOf(weaponEntity['@_main_statistic']);
       const stat_name = statisticConvNameArray[main_index]
       statistics.push(stat_name);
-      let stat_value = calcStatisticValue(weaponEntity['@_main_statistic_value'], weaponEntity['@_main_statistic_grow'], maxLv);
-      if (stat_name.includes("ダメージ割合")) {
-        stat_value = `${parseInt(stat_value)}%`;
-      } else if (!stat_name.includes("クリティカル")) {
-        stat_value = parseInt(stat_value);
-      } else {
-        stat_value = `${Math.floor(stat_value * 0.05 * 100) / 100}%`;
-      }
+      const stat_value = this.formatStatisticValue(stat_name, weaponEntity['@_main_statistic_value'], weaponEntity['@_main_statistic_grow'], maxLv);
       statistics_values.push(stat_value+"");
-
-
 
       const len = weaponEntity.secondary_statistic.length;
       for (let i = 0; i < len; i++) {
@@ -333,14 +325,7 @@ export class HeroContents {
         }
         const sec_name = statisticConvNameArray[weaponEntity.secondary_statistic[i]];
         statistics.push(sec_name);
-        let sec_value = calcStatisticValue(weaponEntity.secondary_statistic_value[i], weaponEntity.secondary_statistic_grow[i], maxLv);
-        if (sec_name.includes("ダメージ割合")) {
-          stat_value = `${parseInt(stat_value)}%`;
-        } else if (!sec_name.includes("クリティカル")) {
-          sec_value = parseInt(sec_value);
-        } else {
-          sec_value = sec_value + "%";
-        }
+        const sec_value = this.formatStatisticValue(sec_name, weaponEntity.secondary_statistic_value[i], weaponEntity.secondary_statistic_grow[i], maxLv);
         statistics_values.push(sec_value+"");
       }
 
@@ -363,8 +348,30 @@ export class HeroContents {
     return json;
   }
 
-  async createOne(id) {
+  formatStatisticValue(statistic_name, statistic_value, statistic_grow, maxLv) {
+    const value = calcStatisticValue(statistic_value, statistic_grow, maxLv);
+    if (statistic_name.includes("ダメージ割合")) {
+      return `${parseInt(value)}%`;
+    } else if (!statistic_name.includes("クリティカル")) {
+      return parseInt(value);
+    } else {
+      return `${Math.floor(value * 0.05 * 100) / 100}%`;
+    }
+  }
+
+  async createOne(id, lang) {
+    const localePath = path.resolve(process.cwd(), 'locales', `${lang}.json`);
+    const localeData = JSON.parse(await fs.readFile(localePath, 'utf8'));
+    const t = (key) => localeData[key] || `[Missing Key: ${key} (${lang})]`;
+
     const kf = this.kf;
+
+    const h = kf.HeroSetting.find(item => item['@_id'] !== undefined && parseInt(item['@_id']) == id);
+    if (!h) {
+      log.error(`Hero with ID ${id} not found.`);
+      return;
+    }
+
     const heroList = kf.HeroSetting.filter(item => item['@_id'] !== undefined && parseInt(item['@_id']) == id);
     const templatePath = path.join(srcBase, "hero", "hero.ejs");
     const template = await fs.readFile(path.join(srcBase, "hero", "hero.ejs"), "utf-8");
@@ -379,6 +386,8 @@ export class HeroContents {
     return Promise.all(heroList.map(async hero => {
       const id = hero['@_id'];
       const json = this.processHeroData(hero);
+      json.lang = lang;
+      json.t = t;
       const html = renderFunc({json: json});
 
       const minifiedHtml = minify(html, {
@@ -391,43 +400,57 @@ export class HeroContents {
         minifyJS: true
       });
 
-      await fs.writeFile(path.join(distPath.hero, `${id}.html`), minifiedHtml, "utf-8");
-      log(`Created ${id}.html`);
+      await fs.writeFile(path.join(distPath.hero, `${id}.${lang}.html`), minifiedHtml, "utf-8");
+      log(`Created ${id}.${lang}.html`);
     }));
   }
 
-  async createFuncs() {
-    const kf = this.kf;
-    const heroList = kf.HeroSetting.filter(item => item['@_id'] !== undefined && parseInt(item['@_id']) < 10000);
-    const templatePath = path.join(srcBase, "hero", "hero.ejs");
-    const template = await fs.readFile(path.join(srcBase, "hero", "hero.ejs"), "utf-8");
-    const includeRoot = path.join(srcBase, "_inc");
+  createMultiLangTasks() {
+    return languages.map(lang => {
+      const task = async () => {
+        log(`Starting hero contents build for language: ${lang}`);
 
-    const renderFunc = ejs.compile(template, {
-      filename: templatePath,
-      async: false,
-      root: includeRoot
+        const localePath = path.resolve(process.cwd(), 'src', 'locales', `${lang}.json`);
+        const localeData = JSON.parse(await fs.readFile(localePath, 'utf-8'));
+
+        const t = (key) => localeData[key] || `[Missing Key: ${key}]`;
+
+        const kf = this.kf;
+        const heroList = kf.HeroSetting.filter(item => item['@_id'] !== undefined && parseInt(item['@_id']) < 10000);
+        const templatePath = path.join(srcBase, "hero", "hero.ejs");
+        const template = await fs.readFile(path.join(srcBase, "hero", "hero.ejs"), "utf-8");
+        const includeRoot = path.join(srcBase, "_inc");
+
+        const renderFunc = ejs.compile(template, {
+          filename: templatePath,
+          async: false,
+          root: includeRoot
+        });
+
+        await fs.mkdir(distPath.hero, { recursive: true });
+
+        return Promise.all(heroList.map(async hero => {
+          const id = hero['@_id'];
+          const json = this.processHeroData(hero);
+          json.lang = lang;
+          json.t = t;
+          const html = renderFunc({json: json});
+
+          const minifiedHtml = minify(html, {
+            collapseWhitespace: true,
+            removeComments: true,
+            removeRedundantAttributes: true,
+            removeStyleLinkTypeAttributes: true,
+            useShortDoctype: true,
+            minifyCSS: true,
+            minifyJS: true
+          });
+
+          await fs.writeFile(path.join(distPath.hero, `${id}.${lang}.html`), minifiedHtml, "utf-8");
+          log(`Created ${id}.${lang}.html`);
+        }));
+      };
+      return task.bind(this);
     });
-
-    await fs.mkdir(distPath.hero, { recursive: true });
-
-    return Promise.all(heroList.map(async hero => {
-      const id = hero['@_id'];
-      const json = this.processHeroData(hero);
-      const html = renderFunc({json: json});
-
-      const minifiedHtml = minify(html, {
-        collapseWhitespace: true,
-        removeComments: true,
-        removeRedundantAttributes: true,
-        removeStyleLinkTypeAttributes: true,
-        useShortDoctype: true,
-        minifyCSS: true,
-        minifyJS: true
-      });
-
-      await fs.writeFile(path.join(distPath.hero, `${id}.html`), minifiedHtml, "utf-8");
-      log(`Created ${id}.html`);
-    }));
   }
 }
