@@ -272,6 +272,10 @@ class SkillCheck {
         return this.is_buff((info) => info.target.indexOf(party) != -1 && info.debuff == false && info.type == "負面狀態抗性" && info.buff['@_effect_val1'] === "1");
     }
 
+    isDebuffTimeAdjust() {
+        return this.is_buff((info) => info.target.indexOf("自身") != -1 && info.type == "Debuff持續時間延長或縮短");
+    }
+
     isProvokeResistance() {
         return this.is_buff((info) => info.target.indexOf("自身") != -1 && info.type == "嘲諷抗性");
     }
@@ -770,6 +774,10 @@ export class PreSkillCategorize {
         }
         if (actives.some(v => v.isDebuffCure())) {
             type.push(def["デバフ解除"]);
+        }
+
+        if (actives.some(v => v.isDebuffTimeAdjust())) {
+            type.push(def["デバフ時間短縮"]);
         }
 
         if (actives.some(v => v.isProvoke())) {
