@@ -360,7 +360,7 @@ export class HeroContents {
   }
 
   async createOne(id, lang) {
-    const langUtil = new LangUtil(lang, `${id}.html`);
+    const langUtil = new LangUtil(lang, `./${id}.html`);
 
     const t = await LangUtil.loadT(lang);
 
@@ -430,7 +430,7 @@ export class HeroContents {
 
         return Promise.all(heroList.map(async hero => {
           const id = hero['@_id'];
-          const langUtil = new LangUtil(lang, `${id}.html`);
+          const langUtil = new LangUtil(lang, `./${id}.html`);
           const json = this.processHeroData(hero);
           json.parent_title = t('breadcrumb-list_title');
           json.lang = lang;

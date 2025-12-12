@@ -47,7 +47,7 @@ export class HeroList {
     createLangTask(lang) {
         const kf = this.kf;
 
-        const langUtil = new LangUtil(lang, '/index.html');
+        const langUtil = new LangUtil(lang, './index.html');
         const t = LangUtil.loadTSync(lang);
 
         return () => {
