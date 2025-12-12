@@ -2538,7 +2538,7 @@
     <param>activity-banner-2013/活動_聖夜祭にクッキーを_320x88</param>
     <param>一般活動</param>
     <param>Year2023</param>
-    <param>50130160/50660110</param>
+    <param>50130110/50660110/53160110</param>
     <param />
     <param />
     <param>8.04</param>
@@ -2546,7 +2546,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1012" group_func="章節設定" order="1">
     <param>第1節</param>
-    <param>50130110/50660110</param>
+    <param>50130110/50660110/53160110</param>
     <param />
     <param />
     <param>5013010</param>
@@ -2558,7 +2558,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1012" group_func="章節設定" order="2">
     <param>第2節</param>
-    <param>50130120/50660120</param>
+    <param>50130120/50660120/53160113</param>
     <param />
     <param />
     <param>5013020</param>
@@ -2570,7 +2570,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1012" group_func="章節設定" order="3">
     <param>第3節</param>
-    <param>50130130/50660130</param>
+    <param>50130130/50660130/53160116</param>
     <param />
     <param />
     <param>5013030</param>
@@ -2582,7 +2582,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1012" group_func="章節設定" order="4">
     <param>第4節</param>
-    <param>50130140/50660140</param>
+    <param>50130140/50660140/53160119</param>
     <param />
     <param />
     <param>5013040</param>
@@ -2594,7 +2594,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1012" group_func="章節設定" order="5">
     <param>第5節</param>
-    <param>50130150/50660150</param>
+    <param>50130150/50660150/53160123</param>
     <param />
     <param />
     <param>5013050</param>
@@ -2606,7 +2606,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1012" group_func="章節設定" order="6">
     <param>第6節</param>
-    <param>50130160/50660160</param>
+    <param>50130160/50660160/53160127</param>
     <param />
     <param />
     <param>5013060</param>
@@ -11394,6 +11394,66 @@
     <param />
     <param />
     <param>5091110</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1088" group_func="標題設定" order="1">
+    <param>活動</param>
+    <param>ハンバーガーレストラン・ラプエリアへようこそ</param>
+    <param>activity-banner-2116/活動_物資調達_320x88</param>
+    <param>一般活動</param>
+    <param>Year2025</param>
+    <param>52160110</param>
+    <param />
+    <param />
+    <param>16.11</param>
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1088" group_func="章節設定" order="1">
+    <param>第1節</param>
+    <param>52160110</param>
+    <param />
+    <param />
+    <param>5092010</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1088" group_func="章節設定" order="2">
+    <param>第2節</param>
+    <param>52160112</param>
+    <param />
+    <param />
+    <param>5092020</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1088" group_func="章節設定" order="3">
+    <param>第3節</param>
+    <param>52160114</param>
+    <param />
+    <param />
+    <param>5092030</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1088" group_func="章節設定" order="4">
+    <param>第4節</param>
+    <param>52160116</param>
+    <param />
+    <param />
+    <param>5092040</param>
     <param />
     <param />
     <param />

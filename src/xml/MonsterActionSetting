@@ -996,6 +996,22 @@
   <MonsterActionSetting id="40100" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4010002" />
   <MonsterActionSetting id="40100" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4010003" />
   <MonsterActionSetting id="40100" info="自身が「火傷」状態の場合" type="自身有指定狀態" value="燒傷" skill_id="4010004" />
+  <MonsterActionSetting id="81101" info="残り90秒" type="剩餘時間低於" value="90" skill_id="8110101" />
+  <MonsterActionSetting id="81101" info="残り60秒" type="剩餘時間低於" value="60" skill_id="8110102" />
+  <MonsterActionSetting id="81101" info="残り30秒" type="剩餘時間低於" value="30" skill_id="8110103" />
+  <MonsterActionSetting id="81101" info="残りHP50%" type="自身血量低於" value="0.5" skill_id="8110104" />
+  <MonsterActionSetting id="81102" info="残り90秒" type="剩餘時間低於" value="90" skill_id="8110201" />
+  <MonsterActionSetting id="81102" info="残り60秒" type="剩餘時間低於" value="60" skill_id="8110202" />
+  <MonsterActionSetting id="81102" info="残り30秒" type="剩餘時間低於" value="30" skill_id="8110203" />
+  <MonsterActionSetting id="81102" info="残りHP50%" type="自身血量低於" value="0.5" skill_id="8110204" />
+  <MonsterActionSetting id="81103" info="残り90秒" type="剩餘時間低於" value="90" skill_id="8110301" />
+  <MonsterActionSetting id="81103" info="残り60秒" type="剩餘時間低於" value="60" skill_id="8110302" />
+  <MonsterActionSetting id="81103" info="残り30秒" type="剩餘時間低於" value="30" skill_id="8110303" />
+  <MonsterActionSetting id="81103" info="残りHP50%" type="自身血量低於" value="0.5" skill_id="8110304" />
+  <MonsterActionSetting id="81104" info="残り90秒" type="剩餘時間低於" value="90" skill_id="8110401" />
+  <MonsterActionSetting id="81104" info="残り60秒" type="剩餘時間低於" value="60" skill_id="8110402" />
+  <MonsterActionSetting id="81104" info="残り30秒" type="剩餘時間低於" value="30" skill_id="8110403" />
+  <MonsterActionSetting id="81104" info="残りHP50%" type="自身血量低於" value="0.5" skill_id="8110404" />
   <MonsterActionSetting id="41001" type="剩餘時間低於" value="90" skill_id="4100101" />
   <MonsterActionSetting id="41001" type="剩餘時間低於" value="60" skill_id="4100102" />
   <MonsterActionSetting id="41001" type="剩餘時間低於" value="30" skill_id="4100103" />

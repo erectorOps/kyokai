@@ -419,7 +419,7 @@
   <StringSetting id="5413" text="チーム" />
   <StringSetting id="5414" text="必要なアイテムはありません" />
   <StringSetting id="5415" text="アビリティ未解放" />
-  <StringSetting id="5416" text="お気に入りのみ" />
+  <StringSetting id="5416" text="お気に入り" />
   <StringSetting id="5417" text="非表示" />
   <StringSetting id="5418" text="Lv上限が &lt;color=#D70000&gt;Lv{0}&lt;/color&gt; まで解放" />
   <StringSetting id="5419" text="攻擊" />
@@ -517,6 +517,9 @@
   <StringSetting id="5511" text="DEBUFF" />
   <StringSetting id="5512" text="BUFF" />
   <StringSetting id="5513" text="特殊" />
+  <StringSetting id="5514" text="覚醒可能" />
+  <StringSetting id="5515" text="覚醒済み" />
+  <StringSetting id="5516" text="覺醒" />
   <StringSetting id="6000" text="Lv突破" />
   <StringSetting id="6001" text="Lv" />
   <StringSetting id="6002" text="戦力" />
@@ -1096,7 +1099,7 @@
   <StringSetting id="14002" text="メイン" />
   <StringSetting id="14003" text="イベント" />
   <StringSetting id="14004" text="聖騎士" />
-  <StringSetting id="14005" text="迷宮" />
+  <StringSetting id="14005" text="挑戦" />
   <StringSetting id="14006" text="消費アイテムは&lt;color=#930000&gt;『全て獲得』&lt;/color&gt;で獲得できません&#xA;所持数が上限に達したアイテムはお便りに送信されます" />
   <StringSetting id="14007" text="残り時間" />
   <StringSetting id="14008" text="進捗" />
@@ -2083,6 +2086,7 @@
   <StringSetting id="29258" text="おπの月" />
   <StringSetting id="29259" text="一周年記念" />
   <StringSetting id="29260" text="BLACK FRIDAY" />
+  <StringSetting id="29261" text="特殊頁籤2" />
   <StringSetting id="30001" text="BOSS" />
   <StringSetting id="30002" text="出撃履歴" />
   <StringSetting id="30003" text="討伐履歴" />
@@ -3623,7 +3627,7 @@
   <StringSetting id="63006" text="BATTLE PASSランダム" />
   <StringSetting id="63007" text="特訓" />
   <StringSetting id="63008" text="迷宮デイリー" />
-  <StringSetting id="63009" text="迷宮" />
+  <StringSetting id="63009" text="挑戦" />
   <StringSetting id="63010" text="特別" />
   <StringSetting id="63014" text="復帰ミッション" />
   <StringSetting id="63016" text="特別ミッション" />
@@ -4470,6 +4474,7 @@
   <StringSetting id="94015" text="&lt;size=24&gt;{0}&lt;/size&gt;&#xA;{1}" />
   <StringSetting id="94101" text="巨乳スクラッチくじ" />
   <StringSetting id="94111" text="START" />
+  <StringSetting id="94112" text="次へ" />
   <StringSetting id="95001" text="お宝探し" />
   <StringSetting id="95002" text="報酬一覧" />
   <StringSetting id="95003" text="{0}枚目" />
@@ -4624,19 +4629,25 @@
   <StringSetting id="95730" text="https://rebgil.funyoursjapan.pink/res/rebgil_x_official.html" />
   <StringSetting id="95731" text="移動" />
   <StringSetting id="95732" text="特別挑戦1＆2達成報酬" />
-  <StringSetting id="95800" text="想屬性塔" />
-  <StringSetting id="95801" text="風屬性塔" />
-  <StringSetting id="95802" text="水屬性塔" />
-  <StringSetting id="95803" text="火屬性塔" />
-  <StringSetting id="95804" text="聖屬性塔" />
-  <StringSetting id="95805" text="魔屬性塔" />
-  <StringSetting id="95806" text="屬性塔" />
+  <StringSetting id="95800" text="想の極み" />
+  <StringSetting id="95801" text="風の極み" />
+  <StringSetting id="95802" text="水の極み" />
+  <StringSetting id="95803" text="火の極み" />
+  <StringSetting id="95804" text="聖の極み" />
+  <StringSetting id="95805" text="魔の極み" />
+  <StringSetting id="95806" text="極みの塔" />
   <StringSetting id="95807" text="★3評価" />
   <StringSetting id="95808" text="報酬" />
   <StringSetting id="95809" text="★3報酬" />
-  <StringSetting id="95810" text="出戰角色已使用" />
-  <StringSetting id="95811" text="角色屬性錯誤" />
-  <StringSetting id="95812" text="找不到隊伍" />
+  <StringSetting id="95810" text="すでに挑戦済みの聖騎士がチームにいます" />
+  <StringSetting id="95811" text="挑戦できない聖騎士がチームにいます" />
+  <StringSetting id="95812" text="チームが存在しません" />
+  <StringSetting id="95813" text="極みの塔・火" />
+  <StringSetting id="95814" text="極みの塔・風" />
+  <StringSetting id="95815" text="極みの塔・水" />
+  <StringSetting id="95816" text="極みの塔・想" />
+  <StringSetting id="95817" text="極みの塔・聖" />
+  <StringSetting id="95818" text="極みの塔・魔" />
   <StringSetting id="100001" text="Easy" />
   <StringSetting id="100002" text="Normal" />
   <StringSetting id="100003" text="Hard" />

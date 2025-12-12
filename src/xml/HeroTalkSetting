@@ -13720,56 +13720,61 @@
   <HeroTalkSetting id="2273" talk_type="角色背景2" pre_gp_lv="2" pre_item_id="0" />
   <HeroTalkSetting id="2273" talk_type="角色背景3" pre_gp_lv="3" pre_item_id="0" />
   <HeroTalkSetting id="2273" talk_type="角色背景4" pre_gp_lv="4" pre_item_id="0" />
-  <HeroTalkSetting id="2274" talk_type="召喚自我介紹" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2274/K2274_0001" />
-  <HeroTalkSetting id="2274" talk_type="登入_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2274/K2274_0002" />
-  <HeroTalkSetting id="2274" talk_type="觸摸1_副官" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2274/K2274_0003" />
-  <HeroTalkSetting id="2274" talk_type="觸摸2_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2274/K2274_0004" />
-  <HeroTalkSetting id="2274" talk_type="觸摸3_副官" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2274/K2274_0005" />
-  <HeroTalkSetting id="2274" talk_type="放置_副官" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2274/K2274_0006" />
-  <HeroTalkSetting id="2274" talk_type="出戰" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2274/K2274_0007" />
-  <HeroTalkSetting id="2274" talk_type="開場" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2274/K2274_0008" />
-  <HeroTalkSetting id="2274" talk_type="技能1" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2274/K2274_0009" />
-  <HeroTalkSetting id="2274" talk_type="技能2" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2274/K2274_0010" />
-  <HeroTalkSetting id="2274" talk_type="奧義1" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_voice="2274/K2274_0011" />
-  <HeroTalkSetting id="2274" talk_type="奧義2" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_voice="2274/K2274_0012" />
-  <HeroTalkSetting id="2274" talk_type="勝利" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_voice="2274/K2274_0013" />
-  <HeroTalkSetting id="2274" talk_type="戰敗" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2274/K2274_0014" />
-  <HeroTalkSetting id="2274" talk_type="一般強化1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2274/K2274_0015" />
-  <HeroTalkSetting id="2274" talk_type="一般強化2" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2274/K2274_0016" />
-  <HeroTalkSetting id="2274" talk_type="一般強化3" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2274/K2274_0017" />
-  <HeroTalkSetting id="2274" talk_type="最高階強化" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2274/K2274_0018" />
-  <HeroTalkSetting id="2274" talk_type="好感1" pre_gp_lv="1" pre_item_id="0" talk_face="01" talk_voice="2274/K2274_0019" />
-  <HeroTalkSetting id="2274" talk_type="好感2" pre_gp_lv="2" pre_item_id="0" talk_face="01" talk_voice="2274/K2274_0020" />
-  <HeroTalkSetting id="2274" talk_type="好感3" pre_gp_lv="3" pre_item_id="0" talk_face="02" talk_voice="2274/K2274_0021" />
-  <HeroTalkSetting id="2274" talk_type="好感4" pre_gp_lv="4" pre_item_id="0" talk_face="02" talk_voice="2274/K2274_0022" />
-  <HeroTalkSetting id="2274" talk_type="好感5" pre_gp_lv="4" pre_item_id="0" talk_face="03" talk_voice="2274/K2274_0023" />
-  <HeroTalkSetting id="2274" talk_type="胸部低好感" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2274/K2274_0024" />
-  <HeroTalkSetting id="2274" talk_type="胸部中好感" pre_gp_lv="1" pre_item_id="0" talk_face="01" talk_voice="2274/K2274_0025" />
-  <HeroTalkSetting id="2274" talk_type="胸部高好感" pre_gp_lv="2" pre_item_id="0" talk_face="02" talk_voice="2274/K2274_0026" />
-  <HeroTalkSetting id="2274" talk_type="贈禮1" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2274/K2274_0027" />
-  <HeroTalkSetting id="2274" talk_type="贈禮2" pre_gp_lv="3" pre_item_id="0" talk_face="02" talk_voice="2274/K2274_0028" />
-  <HeroTalkSetting id="2274" talk_type="派駐對話1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2274/K2274_0029" />
-  <HeroTalkSetting id="2274" talk_type="派駐對話2" pre_gp_lv="3" pre_item_id="0" talk_face="01" talk_voice="2274/K2274_0030" />
-  <HeroTalkSetting id="2274" talk_type="遊戲標題" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2274/K2274_0031" />
-  <HeroTalkSetting id="2274" talk_type="肯定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2274/K2274_0032" />
-  <HeroTalkSetting id="2274" talk_type="否定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2274/K2274_0033" />
-  <HeroTalkSetting id="2274" talk_type="思考" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2274/K2274_0034" />
-  <HeroTalkSetting id="2274" talk_type="疑念" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2274/K2274_0035" />
-  <HeroTalkSetting id="2274" talk_type="唸る" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2274/K2274_0036" />
-  <HeroTalkSetting id="2274" talk_type="驚愕" pre_gp_lv="0" pre_item_id="0" talk_face="08" talk_voice="2274/K2274_0037" />
-  <HeroTalkSetting id="2274" talk_type="ムカッ" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2274/K2274_0038" />
-  <HeroTalkSetting id="2274" talk_type="怒る" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_voice="2274/K2274_0039" />
-  <HeroTalkSetting id="2274" talk_type="焦り" pre_gp_lv="0" pre_item_id="0" talk_face="07" talk_voice="2274/K2274_0040" />
-  <HeroTalkSetting id="2274" talk_type="ダメージ時" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2274/K2274_0041" />
-  <HeroTalkSetting id="2274" talk_type="ため息" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2274/K2274_0042" />
-  <HeroTalkSetting id="2274" talk_type="自責" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_voice="2274/K2274_0043" />
-  <HeroTalkSetting id="2274" talk_type="喜び" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_voice="2274/K2274_0044" />
-  <HeroTalkSetting id="2274" talk_type="笑い" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_voice="2274/K2274_0045" />
-  <HeroTalkSetting id="2274" talk_type="照れ" pre_gp_lv="0" pre_item_id="0" talk_face="09" talk_voice="2274/K2274_0046" />
-  <HeroTalkSetting id="2274" talk_type="角色背景1" pre_gp_lv="1" pre_item_id="0" />
-  <HeroTalkSetting id="2274" talk_type="角色背景2" pre_gp_lv="2" pre_item_id="0" />
-  <HeroTalkSetting id="2274" talk_type="角色背景3" pre_gp_lv="3" pre_item_id="0" />
-  <HeroTalkSetting id="2274" talk_type="角色背景4" pre_gp_lv="4" pre_item_id="0" />
+  <HeroTalkSetting id="2274" talk_type="召喚自我介紹" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_text="ホールスタッフのアシュレイです。マネージャーさんと一緒にお仕事できるだなんて……感激です、嬉しい！　よろしくお願いします！" talk_voice="2274/K2274_0001" />
+  <HeroTalkSetting id="2274" talk_type="登入_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="おはようございますマネージャーさん。今日も一日、頑張りましょう" talk_voice="2274/K2274_0002" />
+  <HeroTalkSetting id="2274" talk_type="觸摸1_副官" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="はい。ドリンクの補充ですね、すぐに入ります。消耗品の残量もチェックして、そちらも補充しておきます" talk_voice="2274/K2274_0003" />
+  <HeroTalkSetting id="2274" talk_type="觸摸2_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="片付けと清掃、テーブルセット終わりました、バッシング完了です。戻るついでにレジ前も整頓しておきました" talk_voice="2274/K2274_0004" />
+  <HeroTalkSetting id="2274" talk_type="觸摸3_副官" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="ピークタイムが近いのでウェイトエリアの椅子や雑誌の整理しておきました。お待たせしている間も、気持ちよく過ごしていただきたいですね" talk_voice="2274/K2274_0005" />
+  <HeroTalkSetting id="2274" talk_type="放置_副官" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="アイドルタイムはマネージャーさんの声が聞けなくて寂しいです" talk_voice="2274/K2274_0006" />
+  <HeroTalkSetting id="2274" talk_type="出戰" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_text="ハンバーガーレストラン・ラプエリア、オープンです！" talk_voice="2274/K2274_0007" />
+  <HeroTalkSetting id="2274" talk_type="開場" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="いらっしゃいませ、お席までご案内いたします" talk_voice="2274/K2274_0008" />
+  <HeroTalkSetting id="2274" talk_type="技能1" pre_gp_lv="0" pre_item_id="0" talk_face="08" talk_text="お呼びでしょうかっ" talk_voice="2274/K2274_0009" />
+  <HeroTalkSetting id="2274" talk_type="技能2" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="ごゆっくりどうぞ" talk_voice="2274/K2274_0010" />
+  <HeroTalkSetting id="2274" talk_type="奧義1" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_text="お待たせはいたしません！――ピークタイム・スラローム♪" talk_voice="2274/K2274_0011" />
+  <HeroTalkSetting id="2274" talk_type="奧義2" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_text="ピークタイム・スラローム♪" talk_voice="2274/K2274_0012" />
+  <HeroTalkSetting id="2274" talk_type="勝利" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_text="またのご来店をお待ちしております" talk_voice="2274/K2274_0013" />
+  <HeroTalkSetting id="2274" talk_type="戰敗" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="本日はご迷惑をおかけして、誠に申し訳ございませんでした……" talk_voice="2274/K2274_0014" />
+  <HeroTalkSetting id="2274" talk_type="一般強化1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="ピークタイムも乗りきれます" talk_voice="2274/K2274_0015" />
+  <HeroTalkSetting id="2274" talk_type="一般強化2" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="どんなトラブルもお任せください" talk_voice="2274/K2274_0016" />
+  <HeroTalkSetting id="2274" talk_type="一般強化3" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="どこへだってお届けできちゃいそうです！" talk_voice="2274/K2274_0017" />
+  <HeroTalkSetting id="2274" talk_type="最高階強化" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="今のわたしなら、この気持ちも届けられます！" talk_voice="2274/K2274_0018" />
+  <HeroTalkSetting id="2274" talk_type="好感1" pre_gp_lv="1" pre_item_id="0" talk_face="01" talk_text="今日からよろしくお願いします、マネージャーさん" talk_voice="2274/K2274_0019" />
+  <HeroTalkSetting id="2274" talk_type="好感2" pre_gp_lv="2" pre_item_id="0" talk_face="01" talk_text="マネージャーさんの声が届いて皆さんの動きが変わりました！" talk_voice="2274/K2274_0020" />
+  <HeroTalkSetting id="2274" talk_type="好感3" pre_gp_lv="3" pre_item_id="0" talk_face="02" talk_text="マネージャーさんの言葉のひとつひとつがわたしを成長させてくださいます" talk_voice="2274/K2274_0021" />
+  <HeroTalkSetting id="2274" talk_type="好感4" pre_gp_lv="4" pre_item_id="0" talk_face="03" talk_text="マネージャーさんの視線だけで、たくさんのことがわかるようになりました。今は……んふふふ♪" talk_voice="2274/K2274_0022" />
+  <HeroTalkSetting id="2274" talk_type="好感5" pre_gp_lv="4" pre_item_id="0" talk_face="09" talk_text="また見てますね、お疲れですか？　すぐに“元気”になれるふかふかセット、お届けしますね♪　むにゅん♪　むにゅん♪" talk_voice="2274/K2274_0023" />
+  <HeroTalkSetting id="2274" talk_type="胸部低好感" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="お仕事に集中してください" talk_voice="2274/K2274_0024" />
+  <HeroTalkSetting id="2274" talk_type="胸部中好感" pre_gp_lv="1" pre_item_id="0" talk_face="01" talk_text="お仕事中です。あとでサービスしますから♪" talk_voice="2274/K2274_0025" />
+  <HeroTalkSetting id="2274" talk_type="胸部高好感" pre_gp_lv="2" pre_item_id="0" talk_face="09" talk_text="あん♪　お仕事が終わってから♪　待てませんか？　なら、バックヤードへどうぞ♪" talk_voice="2274/K2274_0026" />
+  <HeroTalkSetting id="2274" talk_type="贈禮1" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="差し入れですか？" talk_voice="2274/K2274_0027" />
+  <HeroTalkSetting id="2274" talk_type="贈禮2" pre_gp_lv="3" pre_item_id="0" talk_face="02" talk_text="お気遣いありがとうございます♪" talk_voice="2274/K2274_0028" />
+  <HeroTalkSetting id="2274" talk_type="派駐對話1" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="追加のドリンク、声をかけてきますね" talk_voice="2274/K2274_0029" />
+  <HeroTalkSetting id="2274" talk_type="派駐對話2" pre_gp_lv="3" pre_item_id="0" talk_face="01" talk_text="バーガーとドリンクのセットもお勧めしてきます" talk_voice="2274/K2274_0030" />
+  <HeroTalkSetting id="2274" talk_type="遊戲標題" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="巨乳ファンタジー・バースト" talk_voice="2274/K2274_0031" />
+  <HeroTalkSetting id="2274" talk_type="肯定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="はいっ" talk_voice="2274/K2274_0032" />
+  <HeroTalkSetting id="2274" talk_type="否定" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="いいえ" talk_voice="2274/K2274_0033" />
+  <HeroTalkSetting id="2274" talk_type="思考" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="うん……" talk_voice="2274/K2274_0034" />
+  <HeroTalkSetting id="2274" talk_type="疑念" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_text="本当ですか？" talk_voice="2274/K2274_0035" />
+  <HeroTalkSetting id="2274" talk_type="唸る" pre_gp_lv="0" pre_item_id="0" talk_face="07" talk_text="しまった……" talk_voice="2274/K2274_0036" />
+  <HeroTalkSetting id="2274" talk_type="驚愕" pre_gp_lv="0" pre_item_id="0" talk_face="08" talk_text="え～っ！" talk_voice="2274/K2274_0037" />
+  <HeroTalkSetting id="2274" talk_type="ムカッ" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_text="もう一度よろしいですか？" talk_voice="2274/K2274_0038" />
+  <HeroTalkSetting id="2274" talk_type="怒る" pre_gp_lv="0" pre_item_id="0" talk_face="05" talk_text="ご退店ください！" talk_voice="2274/K2274_0039" />
+  <HeroTalkSetting id="2274" talk_type="焦り" pre_gp_lv="0" pre_item_id="0" talk_face="07" talk_text="しょ、少々お待ちください" talk_voice="2274/K2274_0040" />
+  <HeroTalkSetting id="2274" talk_type="ダメージ時" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="問題ありません……" talk_voice="2274/K2274_0041" />
+  <HeroTalkSetting id="2274" talk_type="ため息" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="失敗しました……" talk_voice="2274/K2274_0042" />
+  <HeroTalkSetting id="2274" talk_type="自責" pre_gp_lv="0" pre_item_id="0" talk_face="06" talk_text="同じミスを……" talk_voice="2274/K2274_0043" />
+  <HeroTalkSetting id="2274" talk_type="喜び" pre_gp_lv="0" pre_item_id="0" talk_face="02" talk_text="やりました♪" talk_voice="2274/K2274_0044" />
+  <HeroTalkSetting id="2274" talk_type="笑い" pre_gp_lv="0" pre_item_id="0" talk_face="03" talk_text="ふふふっ" talk_voice="2274/K2274_0045" />
+  <HeroTalkSetting id="2274" talk_type="照れ" pre_gp_lv="0" pre_item_id="0" talk_face="09" talk_text="気になりますか……？" talk_voice="2274/K2274_0046" />
+  <HeroTalkSetting id="2274" talk_type="角色背景1" pre_gp_lv="1" pre_item_id="0" talk_text="もし、アシュレイが、ウェイトレスだったら――。&#xA;&#xA;人気ハンバーガーレストラン・ラプエリア。&#xA;その店内を、アシュレイは軽やかにローラースケートで滑走する。&#xA;憧れの人の役に立ちたい――その一心で。&#xA;彼女の想いが、店長不在の危機を任された主人公を救う。" />
+  <HeroTalkSetting id="2274" talk_type="角色背景2" pre_gp_lv="2" pre_item_id="0" talk_text="ローラースケートを履いたスタッフが、忙しなくホールを行き交う。&#xA;――ハンバーガーレストラン・ラプエリア。&#xA;華麗にホールを滑走するスタッフたちが、食事の場を賑やかに彩る人気レストランだ。&#xA;しかし今、ラプエリアは不安に揺れていた。&#xA;店長が倒れ、リーダー不在となってしまったのだ。&#xA;そんななか、偶然居合わせたエリアマネージャーの主人公が、急遽現場指揮を取ることに。&#xA;ピークを無事乗り切るため、奮闘する主人公。&#xA;そんな主人公を救ったのは、ホールスタッフのアシュレイだった。&#xA;&#xA;『あなたの役に立ちたい。あの時の恩を返したい』&#xA;&#xA;アシュレイの想いは、苦境を乗り越える力となり――" />
+  <HeroTalkSetting id="2274" talk_type="角色背景3" pre_gp_lv="3" pre_item_id="0" talk_text="ローラスケートで給仕を行うには相当な技術が必要だ。&#xA;中でも最も大切なのは“バランスの維持”と“ブレーキング”である。&#xA;どちらもお客様の安全とサービスに関わり、店舗運営の根幹にもなっている。&#xA;そのうえで、お客様の目を楽しませるパフォーマンス力がスタッフには要求される。&#xA;ホールで揺れるオッパイは、並々ならぬ努力に支えられているのだ。" />
+  <HeroTalkSetting id="2274" talk_type="角色背景4" pre_gp_lv="4" pre_item_id="0" talk_text="クワッドスケートとも呼ばれる４輪のローラースケート。&#xA;インラインスケートに速度は劣るが、横方向に高い安定性を誇る。&#xA;トゥストップと呼ばれる爪先のブレーキは、回転時にも使われる。&#xA;小回りが利き、ダンスやタイトなターンに適したローラースケートである。&#xA;幅広くオッパイの表情を楽しみたい場合は、このクワッドスケートを選ぶといい。&#xA;ちなみに、柔らかいウィール（車輪）を使うと滑走時の音を抑えることができる。" />
+  <HeroTalkSetting id="2274" talk_type="追加語音1" pre_gp_lv="0" pre_item_id="232" talk_face="02" talk_text="今日も一日お疲れ様でした。マネージャーさんがいてくださって、毎日が本当に充実していて……楽しいです" talk_voice="2274/K2274_0047" />
+  <HeroTalkSetting id="2274" talk_type="追加語音2" pre_gp_lv="0" pre_item_id="233" talk_face="03" talk_text="くす♪　閉店後のラストオーダー、パイズリ♪　ですね。お仕事の間もオッパイをご覧になってたでしょ？　ですからわかります♪" talk_voice="2274/K2274_0048" />
+  <HeroTalkSetting id="2274" talk_type="追加語音3" pre_gp_lv="0" pre_item_id="234" talk_face="09" talk_text="オーダーしただけでもう硬くなりました。パイズリ……の前にまずはどんなオッパイか、確かめて？　もみ、もみぃ♪　たぷたぷたっぷ♪　むにゅむにゅう♪" talk_voice="2274/K2274_0049" />
+  <HeroTalkSetting id="2274" talk_type="追加語音4" pre_gp_lv="0" pre_item_id="235" talk_face="09" talk_text="このオッパイでマネージャさんのおチンポ、挟んで、包んで……むにゅぅ、ンッ……パイズリ♪　オッパイで、もにゅもにゅ♪　揉むのがいい？　たぷたぷズリズリ、しごくのがいい？" talk_voice="2274/K2274_0050" />
+  <HeroTalkSetting id="2274" talk_type="追加語音5" pre_gp_lv="0" pre_item_id="236" talk_face="09" talk_text="おチンポが熱い、はぁ、はぁ、わたしもマネージャーさんの精液、オーダーしていいですか？　いっぱい来て、顔まで来て、はぁ、はあ、はあ、射精して、あっ、あっ、ンンッ……！" talk_voice="2274/K2274_0051" />
   <HeroTalkSetting id="2275" talk_type="召喚自我介紹" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2275/K2275_0001" />
   <HeroTalkSetting id="2275" talk_type="登入_副官" pre_gp_lv="0" pre_item_id="0" talk_face="01" talk_voice="2275/K2275_0002" />
   <HeroTalkSetting id="2275" talk_type="觸摸1_副官" pre_gp_lv="0" pre_item_id="0" talk_face="04" talk_voice="2275/K2275_0003" />
