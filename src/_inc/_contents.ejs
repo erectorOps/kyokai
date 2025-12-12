@@ -1,45 +1,38 @@
-<div id="breadcrumb">
-  <div id="breadcrumb-in">
-    <div><a href="<%= baseUrl %>">巨乳解体トップ</a><span class="arrow"></span></div>
-    <div><a href="<%= baseUrl %>"><%= page['parent_title'] %></a><span class="arrow"></span></div>
-    <div><span id="bread_now"><%- page['name'] %></span></div>
-  </div>
-</div>
 <div id="wrapper" class="style-wrapper">
-  <h2 class="s-header--2"><%- page['name'] %>の性能</h2>
+  <h2 class="s-header--2"><%- page['name'] %><%- t("overview") %></h2>
   <table class="s-table">
         <tbody>
             <tr>
                 <th colspan="3" width="100%" class="r-th"><div class="r-text"><%- page['name'] %></div><img src="../img/r/<%= page.id %>.png" class="r-img" alt="<%= page.altname %>の画像"></th>
             </tr>
 
-            <tr><th width="25%">レアリティ</th><td colspan="2"><%= page['rare'] %></td></tr>
-            <tr><th width="25%">レベル</th><td colspan="2"><%= page['lv'] %></td></tr>
-            <tr><th width="25%">属性</th><td colspan="2"><%= page['attr'] %></td></tr>
-            <tr><th width="25%">攻撃</th><td colspan="2"><%= page['atk_attr'] %></td></tr>
-            <tr><th width="25%">武器</th><td colspan="2"><%= page['equip_type'] %></td></tr>
-            <tr><th width="25%">隊列</th><td colspan="2"><%= page['position'] %> (射程：<%= page['range'] %>)</td></tr>
-            <tr><th width="25%">役割</th><td colspan="2"><%= page['role_set'] %></td></tr>
-            <tr><th width="25%">行動速度</th><td colspan="2"><%= page['atk_speed'] %></td></tr>
-            <tr><th width="25%">サポート</th><td colspan="2"><%- page['support'] %></td></tr>
-            <tr><th width="25%">サポートボーナス</th><td colspan="2"><%= page['feature'] %></td></tr>
+            <tr><th width="25%"><%- t("stats-rarity") %></th><td colspan="2"><%= page['rare'] %></td></tr>
+            <tr><th width="25%"><%- t("stats-level") %></th><td colspan="2"><%= page['lv'] %></td></tr>
+            <tr><th width="25%"><%- t("stats-attribute") %></th><td colspan="2"><%= page['attr'] %></td></tr>
+            <tr><th width="25%"><%- t("stats-attack-attribute") %></th><td colspan="2"><%= page['atk_attr'] %></td></tr>
+            <tr><th width="25%"><%- t("stats-weapon-type") %></th><td colspan="2"><%= page['equip_type'] %></td></tr>
+            <tr><th width="25%"><%- t("stats-formation") %></th><td colspan="2"><%= page['position'] %> (<%- t("stats-range") %><%= page['range'] %>)</td></tr>
+            <tr><th width="25%"><%- t("stats-role") %></th><td colspan="2"><%= page['role_set'] %></td></tr>
+            <tr><th width="25%"><%- t("stats-action-speed") %></th><td colspan="2"><%= page['atk_speed'] %></td></tr>
+            <tr><th width="25%"><%- t("stats-support") %></th><td colspan="2"><%- page['support'] %></td></tr>
+            <tr><th width="25%"><%- t("stats-support-bonus") %></th><td colspan="2"><%= page['feature'] %></td></tr>
 
 
-            <tr><th width="33%">HP</th><th width="33%">治癒</th><th width="33%">HP回復</th></tr>
+            <tr><th width="33%">HP</th><th width="33%"><%- t("stats-healing") %></th><th width="33%"><%- t("stats-hp-recovery") %></th></tr>
             <tr><td class="center"><%= page['hp'] %></td><td class="center"><%= page['healing_power'] %></td><td class="center"><%= page['end_hp_recovery'] %></td></tr>
-            <tr><th>物理攻撃</th><th>物理クリ</th><th>MP回復</th></tr>
+            <tr><th><%- t("stats-physical-attack") %></th><th><%- t("stats-physical-critical") %></th><th><%- t("stats-mp-recovery") %></th></tr>
             <tr><td class="center"><%= page['atk'] %></td><td class="center"><%= page['atk_crit'] + "%" %></td><td class="center"><%= page['end_mp_recovery'] %></td></tr>
-            <tr><th>魔法攻撃</th><th>魔法クリ</th><th>HP吸収</th></tr>
+            <tr><th><%- t("stats-magic-attack") %></th><th><%- t("stats-magic-critical") %></th><th><%- t("stats-hp-drain") %></th></tr>
             <tr><td class="center"><%= page['matk'] %></td><td class="center"><%= page['matk_crit'] + "%" %></td><td class="center"><%= page['dmg_suck_hp'] %></td></tr>
-            <tr><th>物理防御</th><th>魔法防御</th><th>MPチャージ</th></tr>
+            <tr><th><%- t("stats-physical-defense") %></th><th><%- t("stats-magic-defense") %></th><th><%- t("stats-mp-charge") %></th></tr>
             <tr><td class="center"><%= page['def'] %></td><td class="center"><%= page['mdef'] %></td><td class="center"><%= page['mp_recovery'] %></td></tr>
-            <tr><th>命中</th><th>ブロック</th><th>MP消費減少</th></tr>
+            <tr><th><%- t("stats-accuracy") %></th><th><%- t("stats-block") %></th><th><%- t("stats-mp-cost-reduction") %></th></tr>
             <tr><td class="center"><%= page['hit'] %></td><td class="center"><%= page['block'] %></td><td class="center"><%= page['mp_cost_down'] %></td></tr>
             </tbody>
         </tbody>
     </table>
 
-    <h3 class="s-header--3">行動タイムライン</h3>
+    <h3 class="s-header--3"><%- t("action-timeline") %></h3>
 
     <% 
       const scales = page.scalecheck.map(data => data.name);
@@ -49,7 +42,7 @@
 
     <div class="scale-selector-container">
       <div class="value-display-wrapper">
-        <span class="label">行動速度: </span>
+        <span class="label"><%- t("slider-label-action-speed") %>: </span>
         <span class="slider-value" id="current-scale-value">
           <%= scales[0] %>
         </span>
@@ -69,17 +62,17 @@
                 </div>
               <% } else if (c === '0') { %>
               <span class="attack-wrapper">
-                <span class="attack">攻撃</span>
+                <span class="attack"><%- t("timeline-icon-attack") %></span>
                 <span class="time-text"></span>
               </span>
               <% } else if (c === '1') { %>
                 <span class="skill-wrapper">
-                  <span class="skill">ｽｷﾙ1</span>
+                  <span class="skill"><%- t("timeline-icon-skill1") %></span>
                   <span class="time-text"></span>
                 </span>
               <% } else if (c === '2') { %>
                 <span class="skill-wrapper">
-                  <span class="skill">ｽｷﾙ2</span>
+                  <span class="skill"><%- t("timeline-icon-skill2") %></span>
                   <span class="time-text"></span>
                 </span>
               <% } %>
@@ -100,17 +93,17 @@
                 </div>
               <% } else if (c === '0') { %>
                 <span class="attack-wrapper">
-                  <span class="attack">攻撃</span>
+                  <span class="attack"><%- t("timeline-icon-attack") %></span>
                   <span class="time-text"></span>
                 </span>
               <% } else if (c === '1') { %>
                 <span class="skill-wrapper">
-                  <span class="skill">ｽｷﾙ1</span>
+                  <span class="skill"><%- t("timeline-icon-skill1") %></span>
                   <span class="time-text"></span>
                 </span>
               <% } else if (c === '2') { %>
                 <span class="skill-wrapper">
-                  <span class="skill">ｽｷﾙ2</span>
+                  <span class="skill"><%- t("timeline-icon-skill2") %></span>
                   <span class="time-text"></span>
                 </span>
               <% } %> 
@@ -119,18 +112,16 @@
         </div>
     </div>
     
-    <h4 class="s-header--4">補足</h4>
-    <p class="s-paragraph">硬直時間は完璧でないので参考程度に。<br>
-      このタイムラインでは行動速度は常に一定で、スキルに行動速度UP効果があったとしても反映していません
-    </p>
+    <h4 class="s-header--4"><%- t("supplement") %></h4>
+    <p class="s-paragraph"><%- t("action-timeline-supplement-descriotion") %></p>
 
-    <h3 class="s-header--3">MP増加イメージ</h3>
+    <h3 class="s-header--3"><%- t("mp-increase-sim") %></h3>
     <div class="gantt-chart">
       <div class="gantt-header">
         <div class="gantt-info-header">
           <div class="row-info">
-            <div class="row-label">経過</div>
-            <div class="row-note">内訳</div>
+            <div class="row-label"><%- t("progress") %></div>
+            <div class="row-note"><%- t("breakdown") %></div>
           </div>
         </div>
         <div class="gantt-chart-header-container">
@@ -151,15 +142,11 @@
       <div class="gantt-rows-container">
         </div>
     </div>
-    <h4 class="s-header--4">補足</h4>
+    <h4 class="s-header--4"><%- t("supplement") %></h4>
     <p class="s-paragraph">
-      この表は「MPが100%に到達するタイミング」を示しています。<br>
-      ただしオート戦闘では、<strong>行動硬直のため、奥義を放てない場合があります。</strong><br>
-      （例：1.8秒にスキル使用 → 2秒でMP満タン → 硬直中で遅延）<br>
-      手動操作で奥義ボタンを押すと硬直をキャンセルして即座に発動できます。<br>
-      ※キャラクターの行動速度が遅い場合、硬直解除まで2秒程度かかることもあります。
+      <%- t("mp-increase-sim-notes") %>
     </p>
-    <h3 class="s-header--3">奥義</h3>
+    <h3 class="s-header--3"><%- t("ultimate") %></h3>
     <% if (page.passive3) { %>
       <table class="s-table">
         <tbody>
@@ -170,8 +157,8 @@
         </tbody>
       </table>  
       <details>
-        <summary>覚醒前の奥義はこちら</summary>
-        <h4 class="s-header--4">覚醒前</h4>
+        <summary><%- t("before-awakening-here") %></summary>
+        <h4 class="s-header--4"><%- t("before-awakening-ultimate") %></h4>
     <% } %>
     <table class="s-table">
       <tbody>
@@ -185,42 +172,42 @@
     </details>
     <% } %>
 
-    <h3 class="s-header--3">スキル</h3>
+    <h3 class="s-header--3"><%- t("skills") %></h3>
     <% if (page.passive3) { %>
       <table class="s-table">
         <tbody>
           <tr><th width="100%"><div class="s-name"><img class="s-icon" alt="通常攻撃アイコン" src="../img/<%= page.atkskill.icon %>.png"><%= page.atkskill.name %></div></th></tr>
-          <tr><td class="center">【硬直時間】<%= page.atkskill.time2 %>s<br>【硬直時間(クリティカル)】<%= page.atkskill.crit_time2 %>s</td></tr>
+          <tr><td class="center"><%- t("prefix-freeze-time") %><%= page.atkskill.time2 %>s<br><%- t("prefix-freeze-time-critical") %><%= page.atkskill.crit_time2 %>s</td></tr>
           <tr><th><div class="s-name"><img class="s-icon" alt="スキル1アイコン" src="../img/<%= page.awake_skill1.icon %>.png"><%- page.awake_skill1.name %></div></th></tr>
-          <tr><td class="center"><div class="s-name">【硬直時間】<%=page.awake_skill1.time2 %>s</div><%- page.awake_skill1.text %></td></tr>
+          <tr><td class="center"><div class="s-name"><%- t("prefix-freeze-time") %><%=page.awake_skill1.time2 %>s</div><%- page.awake_skill1.text %></td></tr>
           <tr><th><div class="s-name"><img class="s-icon" alt="スキル2" src="../img/<%= page.awake_skill2.icon %>.png"><%- page.skill2.name %></div></th></tr>
-          <tr><td class="center"><div>【硬直時間】<%=page.awake_skill2.time2 %>s</div><%- page.awake_skill2.text %></td></tr>
+          <tr><td class="center"><div><%- t("prefix-freeze-time") %><%=page.awake_skill2.time2 %>s</div><%- page.awake_skill2.text %></td></tr>
         </tbody>
       </table>
       <details>
-        <summary>覚醒前のスキルはこちら</summary>
-        <h4 class="s-header--4">覚醒前</h4>
+        <summary><%- t("before-awakening-skills-here") %></summary>
+        <h4 class="s-header--4"><%- t("before-awakening-skills") %></h4>
     <% } %>
       <table class="s-table">
         <tbody>
           <tr><th width="100%"><div class="s-name"><img class="s-icon" alt="覚醒前通常攻撃アイコン" src="../img/<%= page.atkskill.icon %>.png"><%= page.atkskill.name %></div></th></tr>
-          <tr><td class="center">【硬直時間】<%= page.atkskill.time2 %>s
+          <tr><td class="center"><%- t("prefix-freeze-time") %><%= page.atkskill.time2 %>s
             <% if (page.atkskill.time_error_msg) { %>
               <span class="time_error_msg">※<%= page.atkskill.time_error_msg %></span>
             <% } %>
-            <br>【硬直時間(クリティカル)】<%= page.atkskill.crit_time2 %>s
+            <br><%- t("prefix-freeze-time-critical") %><%= page.atkskill.crit_time2 %>s
             <% if (page.atkskill.crit_error_msg) { %>
               <span class="time_error_msg">※<%= page.atkskill.crit_error_msg %></span>
             <% } %>
           </td></tr>
           <tr><th><div class="s-name"><img class="s-icon" alt="覚醒前スキル1アイコン" src="../img/<%= page.skill1.icon %>.png"><%- page.skill1.name %></div></th></tr>
-          <tr><td class="center"><div>【硬直時間】<%=page.skill1.time2 %>s
+          <tr><td class="center"><div><%- t("prefix-freeze-time") %><%=page.skill1.time2 %>s
           <% if (page.skill1.time_error_msg) { %>
             <span class="time_error_msg">※<%= page.skill1.time_error_msg %></span>
           <% } %>
           </div><%- page.skill1.text %></td></tr>
           <tr><th><div class="s-name"><img class="s-icon" alt="覚醒前スキル2アイコン" src="../img/<%= page.skill2.icon %>.png"><%- page.skill2.name %></div></th></tr>
-          <tr><td class="center"><div>【硬直時間】<%=page.skill2.time2 %>s
+          <tr><td class="center"><div><%- t("prefix-freeze-time") %><%=page.skill2.time2 %>s
           <% if (page.skill2.time_error_msg) { %>
             <span class="time_error_msg">※<%= page.skill2.time_error_msg %></span>
           <% } %>
@@ -230,18 +217,18 @@
     <% if (page.passive3) { %>
     </details>
     <% } %>
-    <h4 class="s-header--4">補足</h4>
-    <p class="s-paragraph">パッシブ等の行動速度UPを考慮していない行動速度0%のときの硬直時間です。</p>
+    <h4 class="s-header--4"><%- t("supplement") %></h4>
+    <p class="s-paragraph"><%- t("passive-notes") %></p>
 
-    <h3 class="s-header--3">パッシブ</h3>
-    <h4 class="s-header--4">奥義レベル3で開放</h4>
+    <h3 class="s-header--3"><%- t("passive-skills") %></h3>
+    <h4 class="s-header--4"><%- t("unlock-ultimate-level3") %></h4>
     <table class="s-table">
       <tbody>
         <tr><th width="100%"><div class="s-name"><img class="s-icon" alt="パッシブ1アイコン" src="../img/<%= page.passive1.icon %>.png"><%- page.passive1.name %></div></th></tr>
         <tr><td class="center"><%- page.passive1.text %></td></tr>
       </tbody>
     </table>
-    <h4 class="s-header--4">奥義レベル5で開放</h4>
+    <h4 class="s-header--4"><%- t("unlock-ultimate-level5") %></h4>
     <table class="s-table">
       <tbody>
         <tr><th width="100%"><div class="s-name"><img class="s-icon" alt="パッシブ2アイコン" src="../img/<%= page.passive2.icon %>.png"><%- page.passive2.name %></div></th></tr>
@@ -249,7 +236,7 @@
       </tbody>
     </table>
     <% if (page.passive3) { %>
-    <h4 class="s-header--4">覚醒で開放</h4>
+    <h4 class="s-header--4"><%- t("unlocked-by-awakening") %></h4>
     <table class="s-table">
       <tbody>
           <tr><th width="100%"><div class="s-name"><img class="s-icon" alt="パッシブEXアイコン" src="../img/<%= page.passive3.icon %>.png"><%- page.passive3.name %></div></th></tr>
@@ -260,7 +247,7 @@
 
     <% if (page.weapon) { %>
 
-    <h3 class="s-header--3">専用武器</h3>
+    <h3 class="s-header--3"><%- t("exclusive-weapon") %></h3>
     <table class="s-table">
     <% const statistics_len = page.weapon.statistics.length; %>
       <tbody>
@@ -280,14 +267,14 @@
           <td class="center"><%= page.weapon.statistics_values[i] %></td>
         <% } %>
         </tr>
-        <tr><th width="100%" colspan="<%= statistics_len %>"><div class="s-name">武器スキル：<%- page.weapon.skill.name %></div></th></tr>
+        <tr><th width="100%" colspan="<%= statistics_len %>"><div class="s-name"><%- t("weapon-specific-skill") %><%- page.weapon.skill.name %></div></th></tr>
         <tr><td class="center" colspan="<%= statistics_len %>"><%- page.weapon.skill.text %></td></tr>
       </tbody>
     </table>
     
     <% } %>
 
-    <h3 class="s-header--3">絆ボーナス</h3>
+    <h3 class="s-header--3"><%- t("bond-bonus") %></h3>
     <table class="s-table">
       <tbody>
         <% for (const gp_key in page.gp_text) { %>
@@ -306,42 +293,42 @@
         <% } %>
       </tbody>
     </table>
-    <h3 class="s-header--3">備考</h3>
+    <h3 class="s-header--3"><%- t("notes") %></h3>
     <table class="s-table">
       <tbody>
-          <tr><th width="25%">イラスト</th><td><%= page['drawer'] %></td></tr>
-          <tr><th width="25%">ボイス</th><td><%= page['voicer'] %></td></tr>
-          <tr><th width="25%">役割</th><td><%= page['role_set'] %></td></tr>
-          <tr><th width="25%">スキル</th><td><%= page['skill_set'] %></td></tr>
-          <tr><th width="25%">身長</th><td><%= page['height'] %></td></tr>
-          <tr><th width="25%">体型</th><td><%= page['measurements'] %></td></tr>
-          <tr><th width="25%">実装日</th><td><%= page['added_date'] %></td></tr>
-          <tr><th width="25%">入手方法</th><td><%- page['obtain'].replace(/,/ig, "<br>") %></td></tr>
-          <tr><th width="25%">主な限界素材</th><td>
+          <tr><th width="25%"><%- t("illustrator") %></th><td><%= page['drawer'] %></td></tr>
+          <tr><th width="25%"><%- t("voice-actor") %></th><td><%= page['voicer'] %></td></tr>
+          <tr><th width="25%"><%- t("role") %></th><td><%= page['role_set'] %></td></tr>
+          <tr><th width="25%"><%- t("skills") %></th><td><%= page['skill_set'] %></td></tr>
+          <tr><th width="25%"><%- t("height") %></th><td><%= page['height'] %></td></tr>
+          <tr><th width="25%"><%- t("body-type") %></th><td><%= page['measurements'] %></td></tr>
+          <tr><th width="25%"><%- t("release-date") %></th><td><%= page['added_date'] %></td></tr>
+          <tr><th width="25%"><%- t("how-to-get") %></th><td><%- page['obtain'].replace(/,/ig, "<br>") %></td></tr>
+          <tr><th width="25%"><%- t("main-limit-break-materials") %></th><td>
             <% for (const item of page.need_items) { %>
               <img class="s-icon" alt="限界素材アイコン" src="../img/item001/<%= item %>.png">
             <% } %>
           </td></tr>
           <% if (page['bug_report']) { %>
-          <tr><th width="25%">バグ報告</th><td><%= page['bug_report'] %></td></tr>
+          <tr><th width="25%"><%- t("bug-report") %></th><td><%= page['bug_report'] %></td></tr>
           <% } %>
           </tbody>
       </tbody>
   </table>
-  <p class="s-paragraph">※各項目は聖騎士Lv、スキル、アビリティ、奥義、絆、覚醒、を最大育成し、パッシブ効果を加えた能力値です。</p>
+  <p class="s-paragraph"><%- t("status-note") %></p>
   <% if (page['merit']) { %>
-    <h2 class="s-header--2"><%- page['name'] %>の評価</h2>
+    <h2 class="s-header--2"><%- page['name'] %><%- t("name-of-evaluation") %></h2>
     <table class="s-table rank-table">
-      <tr><th class="rank-th">評価</th></tr>
-      <tr><td class="<%= page['rank_class'] %>"><span class="rank"><%= page['rank_text'] %></span>ランク</td></tr>
+      <tr><th class="rank-th"><%- t("evaluation") %></th></tr>
+      <tr><td class="<%= page['rank_class'] %>"><span class="rank"><%= page['rank_text'] %></span><%- t("rank") %></td></tr>
     </table>
-    <h3 class="s-header--3"><%- page['name'] %>の強み・弱み</h3>
+    <h3 class="s-header--3"><%- page['name'] %><%- t("merit-and-demerit") %></h3>
     <table class="s-table">
-      <tr><th class="rank-th"><%- page['name'] %>の<span style="color:red">強み</span></th></tr>
+      <tr><th class="rank-th"><%- page['name'] %>の<span style="color:red"><%- t("merit") %></span></th></tr>
       <% for (const merit of page['merit']) { %>
       <tr><td><%- merit.replace(/,/ig, "<br>") %></td></tr>
       <% } %>
-      <tr><th class="rank-th"><%- page['name'] %>の<span style="color:blue">弱み</span></th></tr>
+      <tr><th class="rank-th"><%- page['name'] %>の<span style="color:blue"><%- t("demerit") %></span></th></tr>
       <% for (const demerit of page['demerit']) { %>
         <tr><td><%- demerit.replace(/,/ig, "<br>") %></td></tr>
       <% } %>
@@ -389,7 +376,7 @@
     rowInfo.classList.add('row-info');
     const rowLabel = document.createElement('div');
     rowLabel.classList.add('row-label');
-    rowLabel.textContent = `${item.time}秒`;
+    rowLabel.textContent = `${item.time}<%- t("sec") %>`;
     const rowNote = document.createElement('div');
     rowNote.classList.add('row-note');
     rowNote.textContent = item.comment;

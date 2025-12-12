@@ -21,4 +21,56 @@
 
   <link rel="stylesheet" type="text/css" href="<%= baseUrl %>/css/style.css">
 </head>
+<%
+const currentLang = page.lang;
+const supportedLangs = page.supportedLangs;
+const langUtil = page.langUtil; 
+const t = page.t; 
+const isDetailPage = page.isDetailPage || false; 
+%>
 <body>
+<div id="top-nav-row">
+    
+    <div id="breadcrumb">
+        <div id="breadcrumb-in">
+            
+            <% if (isDetailPage) { %>
+                
+                <div>
+                    <a href="<%= parentUrl %>"><%- page.parent_title %></a>
+                    <span class="arrow"></span>
+                </div>
+                
+                <div><span id="bread_now"><%- page['name'] %></span></div>
+                
+            <% } else { %>
+                
+                <div>
+                    <span id="bread_now"><%- t('breadcrumb-list_title') %></span>
+                </div>
+                
+            <% } %>
+        </div>
+    </div>
+    
+    <nav class="lang-switcher">
+        <ul>
+            <% supportedLangs.forEach(lang => { %>
+                <% if (lang.code !== currentLang) { %>
+                    <li>
+                        <a href="<%= langUtil.getSwitchLink(lang.code) %>" lang="<%= lang.code %>" title="<%= lang.name %>">
+                            <span class="flag-icon flag-<%= lang.code %>"></span>
+                            <span class="lang-text"><%= lang.name %></span>
+                        </a>
+                    </li>
+                <% } else { %>
+                    <li class="active-lang">
+                        <span class="flag-icon flag-<%= lang.code %>"></span>
+                        <span class="lang-text"><%= lang.name %></span>
+                    </li>
+                <% } %>
+            <% }); %>
+        </ul>
+    </nav>
+    
+</div>

@@ -13,7 +13,7 @@ import log from 'fancy-log';
 import fs from 'fs';
 import path from 'path';
 
-const languages = ['ja', 'en'];
+import { languages, supportedLangs, LangUtil } from './_lang.mjs';
 
 function removeCommaSeparatedItem(str, itemToRemove) {
     const arr = str.split(",");
@@ -38,6 +38,7 @@ export class HeroList {
     }
 
     createMultiLangTasks() {
+
         return languages.map(lang => {
             return this.createLangTask(lang);
         });
@@ -46,10 +47,8 @@ export class HeroList {
     createLangTask(lang) {
         const kf = this.kf;
 
-        const localePath = path.resolve(process.cwd(), 'src', 'locales', `${lang}.json`);
-        const localeData = JSON.parse(fs.readFileSync(localePath, 'utf-8'));
-
-        const t = (key) => localeData[key] || `[Missing Key: ${key}]`;
+        const langUtil = new LangUtil(lang, '/index.html');
+        const t = LangUtil.loadTSync(lang);
 
         return () => {
             const heroList = kf.HeroSetting.filter(item => item['@_id'] !== undefined && parseInt(item['@_id']) < 10000);
@@ -66,7 +65,9 @@ export class HeroList {
                 sk_buttons: sk_buttons,
                 ub_buttons: ub_buttons,
                 lang: lang, // ★ 言語コードをEJSに渡す
-                t: t // ★ 翻訳関数をEJSに渡す
+                t: t, // ★ 翻訳関数をEJSに渡す
+                supportedLangs: supportedLangs,
+                langUtil: langUtil
             };
             
             for(const hero of heroList) {

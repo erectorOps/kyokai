@@ -12,8 +12,8 @@ import { srcBase, srcPath, distPath } from './_config.mjs';
 import { ScaleCheck } from './hero/_scaleCheck.mjs';
 import log from 'fancy-log';
 import { MpGantt } from './hero/_mpGantt.mjs';
+import { LangUtil, supportedLangs, languages } from './_lang.mjs';
 
-const languages = ['ja', 'en'];
 
 const paramNameList = ["hp","atk","matk", "def", "mdef", "atk_crit", "matk_crit", "hit", "block", "end_hp_recovery", "end_mp_recovery", "dmg_suck_hp", "healing_power", "mp_recovery", "mp_cost_down"];
 const convNameList = ["HP", "物理攻撃", "魔法攻撃", "物理防御", "魔法防御", "物理クリティカル", "魔法クリティカル","命中", "ブロック", "HP回復", "MP回復", "HP吸収", "治癒", "MPチャージ", "MP消費減少"];
@@ -53,10 +53,10 @@ export class HeroContents {
     const gachaTypeEntity = kf.hero_add.find(item => item['@_id'] === id);
 
     const json = {
-      parent_title: "聖騎士一覧",
       title: name,
       description: name,
       keywords: name,
+      isDetailPage: true,
       // ----
       id: id,
       name: rubyName,
@@ -360,9 +360,9 @@ export class HeroContents {
   }
 
   async createOne(id, lang) {
-    const localePath = path.resolve(process.cwd(), 'locales', `${lang}.json`);
-    const localeData = JSON.parse(await fs.readFile(localePath, 'utf8'));
-    const t = (key) => localeData[key] || `[Missing Key: ${key} (${lang})]`;
+    const langUtil = new LangUtil(lang, `${id}.html`);
+
+    const t = await LangUtil.loadT(lang);
 
     const kf = this.kf;
 
@@ -388,6 +388,8 @@ export class HeroContents {
       const json = this.processHeroData(hero);
       json.lang = lang;
       json.t = t;
+      json.supportedLangs = supportedLangs;
+      json.langUtil = langUtil;
       const html = renderFunc({json: json});
 
       const minifiedHtml = minify(html, {
@@ -410,10 +412,7 @@ export class HeroContents {
       const task = async () => {
         log(`Starting hero contents build for language: ${lang}`);
 
-        const localePath = path.resolve(process.cwd(), 'src', 'locales', `${lang}.json`);
-        const localeData = JSON.parse(await fs.readFile(localePath, 'utf-8'));
-
-        const t = (key) => localeData[key] || `[Missing Key: ${key}]`;
+        const t = await LangUtil.loadT(lang);
 
         const kf = this.kf;
         const heroList = kf.HeroSetting.filter(item => item['@_id'] !== undefined && parseInt(item['@_id']) < 10000);
@@ -431,9 +430,14 @@ export class HeroContents {
 
         return Promise.all(heroList.map(async hero => {
           const id = hero['@_id'];
+          const langUtil = new LangUtil(lang, `${id}.html`);
           const json = this.processHeroData(hero);
+          json.parent_title = t('breadcrumb-list_title');
           json.lang = lang;
           json.t = t;
+          json.supportedLangs = supportedLangs;
+          json.langUtil = langUtil;
+
           const html = renderFunc({json: json});
 
           const minifiedHtml = minify(html, {

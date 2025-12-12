@@ -527,6 +527,22 @@ summary {
     }
 }
 
+.lang-switcher ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+
+#top-nav-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 5px;
+    background: #f0f0f0;
+    width: 100%;
+}
 
 /* Misc */
 .value {
