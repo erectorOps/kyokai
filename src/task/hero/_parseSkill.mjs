@@ -675,13 +675,13 @@ const parseBuff = (buff, lv, info) => {
       // case 'Debuff效果時間上升或下降':
       //     break;
       case '狀態持續時間延長或縮短':
-        text += `状態異常時間${span}${val2.abs().toString()}秒${val2.lt(0) ? "短縮" : "延長"}${spanEnd}`;
+        text += `状態異常時間${span}${val2.abs().toString()}秒${spanEnd}${val2.lt(0) ? "短縮" : "延長"}`;
         break;
        case 'Buff持續時間延長或縮短':
-        text += `バフ時間${span}${val2.abs().toString()}秒${val2.lt(0) ? "短縮" : "延長"}${spanEnd}`;
+        text += `バフ時間${span}${val2.abs().toString()}秒${spanEnd}${val2.lt(0) ? "短縮" : "延長"}`;
         break;
        case 'Debuff持續時間延長或縮短':
-        text += `デバフ時間${span}${val2.abs().toString()}秒${val2.lt(0) ? "短縮" : "延長"}${spanEnd}`;
+        text += `デバフ時間${span}${val2.abs().toString()}秒${spanEnd}${val2.lt(0) ? "短縮" : "延長"}`;
         break;
       case '物理防禦值護盾':
         text += `物理防御力バリア(${span}${val1.toString()}%`;
