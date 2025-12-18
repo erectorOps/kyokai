@@ -20,11 +20,18 @@ const browserSyncOption = {
     server: distBase
   }
   
+const browserSyncFunc = (startPath) => {
+    const options = {
+        ...browserSyncOption,
+        startPath: startPath || "/"
+    };
+    browserSync.init(options);
+}
 
 /* ローカルサーバー立ち上げ */
-const browserSyncFunc = () => {
-    browserSync.init(browserSyncOption);
-}
+//const browserSyncFunc = () => {
+//    browserSync.init(browserSyncOption);
+//}
 
 const createWatchFiles = (kf) => {
     return () => {
@@ -55,7 +62,9 @@ export class Watch {
     }
 
     createOne(id, lang) {
-        return [createWatchOne(this.kf, id, lang), browserSyncFunc];
+        const path = `/hero/${id}.${lang}.html`;
+        const launchBrowserSync = () => browserSyncFunc(path);
+        return [createWatchOne(this.kf, id, lang), launchBrowserSync];
     }
 
     createFuncs() {

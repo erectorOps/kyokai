@@ -68,7 +68,7 @@ const copyIndexHtml = () => {
 
 export const page = gulp.series(
   checkId,
-  gulp.parallel(cssSass, heroContents.createOne.bind(heroContents, options.id, options.lang), ...heroList.createMultiLangTasks(), imgFunc),
+  gulp.parallel(cssSass, heroContents.createOne.bind(heroContents, options.id, options.lang), imgFunc),
   gulp.parallel(watcher.createOne(options.id, options.lang))
 )
 
