@@ -1368,6 +1368,7 @@
   <StringSetting id="16068" text="Lv{0}" />
   <StringSetting id="16069" text="チーム編成" />
   <StringSetting id="16070" text="Lv" />
+  <StringSetting id="16071" text="極みの塔に一度挑戦した聖騎士は封印され、リセットまで参戦不能となります。&#xA;封印状態は毎週月曜日の3:00にリセットされます。" />
   <StringSetting id="16072" text="聖騎士" />
   <StringSetting id="16073" text="お任せ" />
   <StringSetting id="16074" text="お任せ" />
@@ -1416,6 +1417,7 @@
   <StringSetting id="16117" text="射程が同じ聖騎士は、ドラッグでチーム内の配置を変更できます。" />
   <StringSetting id="16118" text="ボーナス挑戦中のメインチームは変更できません" />
   <StringSetting id="16119" text="助戰角色" />
+  <StringSetting id="16120" text="模擬戦では、勝敗に関わらず、使用した聖騎士は封印状態になりません。&#xA;また、すでに封印されている聖騎士も、模擬戦に使用できます。" />
   <StringSetting id="17000" text="聖騎士" />
   <StringSetting id="17201" text="アクティブ" />
   <StringSetting id="17202" text="称号" />
@@ -2095,7 +2097,7 @@
   <StringSetting id="30006" text="特攻バフ" />
   <StringSetting id="30007" text="未開催" />
   <StringSetting id="30008" text="交換所" />
-  <StringSetting id="30101" text="練習" />
+  <StringSetting id="30101" text="模擬戦" />
   <StringSetting id="30102" text="挑戦" />
   <StringSetting id="30103" text="支援" />
   <StringSetting id="30104" text="本日の挑戦回数が上限に達しました" />
@@ -3499,7 +3501,7 @@
   <StringSetting id="60067" text="獲得失敗" />
   <StringSetting id="60068" text="報酬を獲得済みです" />
   <StringSetting id="60069" text="ランキング" />
-  <StringSetting id="60070" text="ランキング1位～10位：称号「ファンタジー・ポップフェスTOP10」を獲得できます。&#xA;ランキング1位～100位：称号「ファンタジー・ポップフェスTOP100」を獲得できます。" />
+  <StringSetting id="60070" text="ランキング1位～10位：称号「強奪　ダメ、ぜったい！」を獲得できます。&#xA;ランキング1位～100位：称号「恵みの守り手」を獲得できます。" />
   <StringSetting id="60071" text="プレイヤー情報がありません" />
   <StringSetting id="60072" text="攻撃でHP-{0}" />
   <StringSetting id="60073" text="{0}秒後に更新可能" />
@@ -3741,6 +3743,7 @@
   <StringSetting id="65099" text="魔属性ダメージ耐性" />
   <StringSetting id="65100" text="想属性ダメージ耐性" />
   <StringSetting id="65101" text="通常攻撃ダメージ耐性" />
+  <StringSetting id="65102" text="奧義追加傷害" />
   <StringSetting id="66001" text="Lv{0}" />
   <StringSetting id="66002" text="EXP {0}/{1}" />
   <StringSetting id="66003" text="ミッション" />

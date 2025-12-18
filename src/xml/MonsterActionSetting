@@ -1012,6 +1012,18 @@
   <MonsterActionSetting id="81104" info="残り60秒" type="剩餘時間低於" value="60" skill_id="8110402" />
   <MonsterActionSetting id="81104" info="残り30秒" type="剩餘時間低於" value="30" skill_id="8110403" />
   <MonsterActionSetting id="81104" info="残りHP50%" type="自身血量低於" value="0.5" skill_id="8110404" />
+  <MonsterActionSetting id="45004" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4500401" />
+  <MonsterActionSetting id="45004" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4500402" />
+  <MonsterActionSetting id="45004" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4500403" />
+  <MonsterActionSetting id="52171" info="残りHP80%" type="自身血量低於" value="0.8" skill_id="5021101" />
+  <MonsterActionSetting id="52171" info="残りHP50%" type="自身血量低於" value="0.5" skill_id="5021102" />
+  <MonsterActionSetting id="52171" info="残りHP30%" type="自身血量低於" value="0.3" skill_id="5021103" />
+  <MonsterActionSetting id="52172" info="残りHP80%" type="自身血量低於" value="0.8" skill_id="5021201" />
+  <MonsterActionSetting id="52172" info="残りHP50%" type="自身血量低於" value="0.5" skill_id="5021202" />
+  <MonsterActionSetting id="52172" info="残りHP30%" type="自身血量低於" value="0.3" skill_id="5021203" />
+  <MonsterActionSetting id="52173" info="残りHP80%" type="自身血量低於" value="0.8" skill_id="5021301" />
+  <MonsterActionSetting id="52173" info="残りHP50%" type="自身血量低於" value="0.5" skill_id="5021302" />
+  <MonsterActionSetting id="52173" info="残りHP30%" type="自身血量低於" value="0.3" skill_id="5021303" />
   <MonsterActionSetting id="41001" type="剩餘時間低於" value="90" skill_id="4100101" />
   <MonsterActionSetting id="41001" type="剩餘時間低於" value="60" skill_id="4100102" />
   <MonsterActionSetting id="41001" type="剩餘時間低於" value="30" skill_id="4100103" />

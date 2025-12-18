@@ -9,4 +9,7 @@
   <TreasureHunterBuffReduceSetting id="7" group="3" effect_type="驅散" buff_reduce="20" />
   <TreasureHunterBuffReduceSetting id="8" group="3" effect_type="麻痺" buff_reduce="10" />
   <TreasureHunterBuffReduceSetting id="9" group="3" buff_reduce="1" />
+  <TreasureHunterBuffReduceSetting id="10" group="4" effect_type="目盲" buff_reduce="20" />
+  <TreasureHunterBuffReduceSetting id="11" group="4" effect_type="燒傷" buff_reduce="2" />
+  <TreasureHunterBuffReduceSetting id="12" group="4" buff_reduce="1" />
 </root>

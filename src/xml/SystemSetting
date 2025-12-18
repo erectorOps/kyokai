@@ -78,12 +78,12 @@
   <SystemSetting def="基礎道具數限制" val="1000" />
   <SystemSetting def="AP回復商品群組" val="101" />
   <SystemSetting def="AP回復優惠開始時間" val="2025/12/12 03:00:00" />
-  <SystemSetting def="AP回復優惠結束時間" val="2025/12/19 03:00:00" />
+  <SystemSetting def="AP回復優惠結束時間" val="2025/12/26 03:00:00" />
   <SystemSetting def="AP回復優惠商品群組" val="102" />
   <SystemSetting def="AP回復優惠額度" val="50" />
   <SystemSetting def="BP回復商品群組" val="201" />
   <SystemSetting def="BP回復優惠開始時間" val="2025/12/12 03:00:00" />
-  <SystemSetting def="BP回復優惠結束時間" val="2025/12/19 03:00:00" />
+  <SystemSetting def="BP回復優惠結束時間" val="2025/12/26 03:00:00" />
   <SystemSetting def="BP回復優惠商品群組" val="202" />
   <SystemSetting def="BP回復優惠額度" val="50" />
   <SystemSetting def="道具欄位擴充商品群組" val="1101" />
@@ -379,7 +379,7 @@
   <SystemSetting def="飾品2格開放需求英雄等級" val="41" />
   <SystemSetting def="飾品4格開放需求英雄等級" val="51" />
   <SystemSetting def="飾品5格開放需求英雄等級" val="61" />
-  <SystemSetting def="新角色影片名稱" val="PS8_hero_2274.mp4" />
+  <SystemSetting def="新角色影片名稱" val="PS8_hero_2271&amp;2272.mp4" />
   <SystemSetting def="新角色影片更換時間" />
   <SystemSetting def="新角色影片更換名稱" />
   <SystemSetting def="特典序號圖示" val="item001/redemption_icon" />
