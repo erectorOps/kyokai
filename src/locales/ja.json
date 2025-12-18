@@ -16,8 +16,8 @@
   "mind": "想",
   "attribute": "属性",
   "attack-type": "攻撃タイプ",
-  "physical-attack": "物理攻撃",
-  "magic-attack": "魔法攻撃",
+  "physical-attack": "物理",
+  "magic-attack": "魔法",
   "ultimate": "奥義",
   "skills": "スキル",
   "weapon": "武器",
@@ -189,5 +189,14 @@
   "overview": "の性能",
   "name-of-evaluation": "の評価",
   "sec": "秒",
-  "breadcrumb-list_title": "聖騎士一覧"
+  "breadcrumb-list_title": "聖騎士一覧",
+  "crowd-control": "妨害",
+  "debuff": "弱体化",
+  "heal": "回復",
+  "buff": "強化",
+  "dispel": "デバフ解除",
+  "taunt": "挑発",
+  "unavoidable": "必中",
+  "guaranteed-critical": "必クリティカル",
+  "mp-gain": "MP回復"
 }

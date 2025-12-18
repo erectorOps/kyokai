@@ -1,23 +1,99 @@
 import { Big } from 'big.js';
 
 export const getAtkSpeed = (value) => {
-    if (value <= 0.39) { return "早い"; }
-    else if (value <= 0.79) { return "やや早い"; }
-    else if (value <= 1.09) { return "普通"; }
-    else if (value <= 1.29) { return "やや遅い"; }
-    else { return "遅い"; }
-}
-  
-export const getPositionJa = (value) => {
-    if (value <= 250) { return "前列"; }
-    else if (value <= 450) { return "中列"; }
-    else { return "後列"; }
+    if (value <= 0.39) { return "speed-fast"; }
+    else if (value <= 0.79) { return "speed-slightly-fast"; }
+    else if (value <= 1.09) { return "speed-normal"; }
+    else if (value <= 1.29) { return "speed-slightly-slow"; }
+    else { return "speed-slow"; }
 }
 
 export const getPositionKey = (value) => {
     if (value <= 250) { return "position_front"; }
     else if (value <= 450) { return "position_middle"; }
     else { return "position_back"; }
+}
+
+export const getAttrKey = (value) => {
+  switch (value) {
+    case "火": return "fire";
+    case "水": return "water";
+    case "風": return "wind";
+    case "光": return "holy";
+    case "闇": return "magic";
+    case "想": return "mind";
+    default: return "attr_none";
+  }
+}
+
+export const getAtkAttrKey = (value) => {
+  switch (value) {
+    case "物理": return "physical-attack";  
+    case "魔法": return "magic-attack";
+    default: return "atk_attr_none";
+  }
+}
+
+export const getEquipType = (value) => {
+  switch (value) {
+    case "斬": return "weapon";
+    case "打": return "blunt";
+    case "突": return "pierce";
+    case "射": return "ranged";
+    case "投": return "throw";
+    case "專武": return "exclusive-weapon";
+    default: return "equip_type_none";
+  }
+}
+
+export const getRoleKey = (value) => {
+  switch (value) {
+    case "アタック": return "attack";
+    case "タンク": return "tank";
+    case "サポート": return "support";
+    default: return "role_set_none";
+  }
+}
+
+export const getSkillSetKey = (value) => {
+  const list = [];
+  value.split("、").forEach(t => {
+    const trimmedT = t.trim();
+    switch (trimmedT) {
+      case "妨害": 
+        list.push("crowd-control");
+        break; // ★ break を追加
+      case "弱体化": 
+        list.push("debuff");
+        break; // ★ break を追加
+      case "回復": 
+        list.push("heal");
+        break; // ★ break を追加
+      case "強化": 
+        list.push("buff");
+        break; // ★ break を追加
+      case "デバフ解除": 
+        list.push("dispel");
+        break; // ★ break を追加
+      case "挑発": 
+        list.push("taunt");
+        break; // ★ break を追加
+      case "必中": 
+        list.push("unavoidable");
+        break; // ★ break を追加
+      case "必クリティカル": 
+        list.push("guaranteed-critical");
+        break; // ★ break を追加
+      case "MP回復": 
+        list.push("mp-gain");
+        break; // ★ break を追加
+      default: 
+        // どのケースにもマッチしなかった場合
+        list.push("unknown-skill-set");
+        // default には break は必須ではありませんが、付けても問題ありません
+    }
+  });
+  return list;
 }
 
 export const parseIntOnlyString = (value) => {

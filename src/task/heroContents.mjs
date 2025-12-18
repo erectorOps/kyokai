@@ -5,7 +5,8 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { minify } from 'html-minifier';
 
-import { getAtkSpeed, getPositionJa, abiNameConvTable, statisticConvArray, statisticConvNameArray, statisticConvTable, timeErrorMsg, parseIntOnlyString, calcWaitTime, toBig, calcStatisticValue } from './hero/_util.mjs';
+import * as Util from './hero/_util.mjs';
+
 import { calcPassive } from './hero/_calcPassive.mjs';
 import { parseSkill } from './hero/_parseSkill.mjs';
 import { srcBase, srcPath, distPath } from './_config.mjs';
@@ -28,7 +29,7 @@ export class HeroContents {
     const lv = parseInt(cur["@_gp_lv"]);
     for (let i = 0; i < paramNameList.length; i++) {
       const name = paramNameList[i];
-      let cv = parseIntOnlyString(cur["@_" + name]);
+      let cv = Util.parseIntOnlyString(cur["@_" + name]);
       if (!isNaN(cv) && 0 < cv) {
         if (!result[convNameList[i]]) {
           result[convNameList[i]] = new Array(10).fill(0);
@@ -41,7 +42,7 @@ export class HeroContents {
     }
   }
 
-  processHeroData(hero) {
+  processHeroData(hero, lang, t) {
     const kf = this.kf;
     const id = hero['@_id'];
 
@@ -65,15 +66,15 @@ export class HeroContents {
       first_skill_order: hero['@_first_skill_order'],
       loop_skill_order: hero['@_loop_skill_order'],
       introduction: heroGroup['@_introduction'],
-      attr: heroGroup['@_attr'],
-      atk_attr: heroGroup['@_atk_attr'],
-      role_set: hero['@_role_set'],
-      skill_set: hero['@_skill_set'],
+      attr: Util.getAttrKey(heroGroup['@_attr']),
+      atk_attr: Util.getAtkAttrKey(heroGroup['@_atk_attr']),
+      role_set: Util.getRoleKey(hero['@_role_set']),
+      skill_set: Util.getSkillSetKey(hero['@_skill_set']).map(x => t(x)).join(", "),
       drawer: heroGroup['@_drawer'],
       voicer: heroGroup['@_voicer'],
       height: heroGroup['@_height'].replace(/&#x[DA];/ig, ""),
       measurements: heroGroup['@_measurements'].replace(/&#x[DA];/ig, ""),
-      equip_type: hero['@_equip_type'],
+      equip_type: Util.getEquipType(hero['@_equip_type']),
       gacha_type: "",
       added_date: "",
       obtain: "",
@@ -150,12 +151,12 @@ export class HeroContents {
           v += parseInt(heroTalent['@_'+paramName]);
         }
         // アビリティ5種
-        if (abiNameConvTable[paramName]) {
+        if (Util.abiNameConvTable[paramName]) {
 
           for (const talent of heroTalent.talent) {
             let talentEffects = kf.TalentEffectSetting.filter(item => item['@_id'] === talent);
             for (const effect of talentEffects) {
-              if (abiNameConvTable[paramName] === effect['@_enhance_ability']) {
+              if (Util.abiNameConvTable[paramName] === effect['@_enhance_ability']) {
                 v += parseInt(effect['@_enhance_ability_num']);
               }
             }
@@ -170,16 +171,16 @@ export class HeroContents {
       }
 
       // 絆MAXボーナス
-      if (statisticConvTable[paramName]) {
+      if (Util.statisticConvTable[paramName]) {
         const gpTokenId = maxGp["@_gp_token_id"];
         const gpEquip = kf.EquipSetting.find(item => item['@_id'] === gpTokenId);
-        if (gpEquip['@_main_statistic'] === statisticConvTable[paramName]) {
+        if (gpEquip['@_main_statistic'] === Util.statisticConvTable[paramName]) {
           v += parseInt(gpEquip['@_main_statistic_value']);
         }
 
         for (let i = 0; i < gpEquip.secondary_statistic.length; i++) {
           const index = gpEquip.secondary_statistic[i];
-          if (statisticConvArray[index] === statisticConvTable[paramName]) {
+          if (Util.statisticConvArray[index] === Util.statisticConvTable[paramName]) {
             v += parseInt(gpEquip.secondary_statistic_value[i]);
           } 
         }
@@ -211,9 +212,9 @@ export class HeroContents {
     json.skill2 = parseSkill(hero['@_skill2'], Math.min(parseInt(json.lv), 100), kf);
 
     if (atkSkill) {
-      json.atk_speed = getAtkSpeed(parseFloat(atkSkill['@_freeze_time']));
+      json.atk_speed = Util.getAtkSpeed(parseFloat(atkSkill['@_freeze_time']));
       json.range = atkSkill['@_range'];
-      json.position = getPositionJa(parseInt(json.range));
+      json.position = Util.getPositionKey(parseInt(json.range));
 
       const freezeTime = atkSkill['@_freeze_time'];
       const waitShowTime = kf.SkillEffectSetting.find(item => item['@_Id'] === atkSkill['@_effect_id'])?.['@_WaitShowTime'] ?? 0;
@@ -224,21 +225,21 @@ export class HeroContents {
         icon: atkSkill['@_icon'] ?? (atkSkill['@_target_hp_effect'] === "魔法傷害" ? "skill001/skill0004" : "skill001/skill0001"),
         time: "",
         time2: "",
-        time_error_msg: timeErrorMsg(freezeTime, waitShowTime),
+        time_error_msg: Util.timeErrorMsg(freezeTime, waitShowTime),
         crit_time: "",
         crit_time2: "",
-        crit_error_msg: timeErrorMsg(freezeTime, critWaitShowTime)
+        crit_error_msg: Util.timeErrorMsg(freezeTime, critWaitShowTime)
       };
 
       if (freezeTime) {
-        json.atkskill.time = calcWaitTime(freezeTime, waitShowTime, 0).toFixed(2, Big.roundUp);
-        json.atkskill.time2 = calcWaitTime(freezeTime, waitShowTime, 0).toFixed(2, Big.roundUp);
+        json.atkskill.time = Util.calcWaitTime(freezeTime, waitShowTime, 0).toFixed(2, Big.roundUp);
+        json.atkskill.time2 = Util.calcWaitTime(freezeTime, waitShowTime, 0).toFixed(2, Big.roundUp);
 
-        json.atkskill.freezeTime = toBig(freezeTime)
-        json.atkskill.waitShowTime = toBig(waitShowTime);
-        json.atkskill.crit_time = calcWaitTime(freezeTime, critWaitShowTime, 0).toFixed(2, Big.roundUp);
-        json.atkskill.crit_time2 = calcWaitTime(freezeTime, critWaitShowTime, 0).toFixed(2, Big.roundUp);
-        json.atkskill.crit_waitShowTime = toBig(critWaitShowTime);
+        json.atkskill.freezeTime = Util.toBig(freezeTime)
+        json.atkskill.waitShowTime = Util.toBig(waitShowTime);
+        json.atkskill.crit_time = Util.calcWaitTime(freezeTime, critWaitShowTime, 0).toFixed(2, Big.roundUp);
+        json.atkskill.crit_time2 = Util.calcWaitTime(freezeTime, critWaitShowTime, 0).toFixed(2, Big.roundUp);
+        json.atkskill.crit_waitShowTime = Util.toBig(critWaitShowTime);
       }
 
       const scales = ["0", "0.1", "0.15", "0.2", "0.25", "0.30", "0.35", "0.40", "0.45", "0.50", 
@@ -312,8 +313,8 @@ export class HeroContents {
       const statistics = [];
       const statistics_values = [];
 
-      const main_index = statisticConvArray.indexOf(weaponEntity['@_main_statistic']);
-      const stat_name = statisticConvNameArray[main_index]
+      const main_index = Util.statisticConvArray.indexOf(weaponEntity['@_main_statistic']);
+      const stat_name = Util.statisticConvNameArray[main_index]
       statistics.push(stat_name);
       const stat_value = this.formatStatisticValue(stat_name, weaponEntity['@_main_statistic_value'], weaponEntity['@_main_statistic_grow'], maxLv);
       statistics_values.push(stat_value+"");
@@ -323,7 +324,7 @@ export class HeroContents {
         if (weaponEntity.secondary_statistic[i] === "0") {
           continue;
         }
-        const sec_name = statisticConvNameArray[weaponEntity.secondary_statistic[i]];
+        const sec_name = Util.statisticConvNameArray[weaponEntity.secondary_statistic[i]];
         statistics.push(sec_name);
         const sec_value = this.formatStatisticValue(sec_name, weaponEntity.secondary_statistic_value[i], weaponEntity.secondary_statistic_grow[i], maxLv);
         statistics_values.push(sec_value+"");
@@ -349,7 +350,7 @@ export class HeroContents {
   }
 
   formatStatisticValue(statistic_name, statistic_value, statistic_grow, maxLv) {
-    const value = calcStatisticValue(statistic_value, statistic_grow, maxLv);
+    const value = Util.calcStatisticValue(statistic_value, statistic_grow, maxLv);
     if (statistic_name.includes("ダメージ割合")) {
       return `${parseInt(value)}%`;
     } else if (!statistic_name.includes("クリティカル")) {
@@ -385,7 +386,8 @@ export class HeroContents {
 
     return Promise.all(heroList.map(async hero => {
       const id = hero['@_id'];
-      const json = this.processHeroData(hero);
+      const json = this.processHeroData(hero, lang, t);
+      json.parent_title = t('breadcrumb-list_title');
       json.lang = lang;
       json.t = t;
       json.supportedLangs = supportedLangs;
@@ -431,7 +433,7 @@ export class HeroContents {
         return Promise.all(heroList.map(async hero => {
           const id = hero['@_id'];
           const langUtil = new LangUtil(lang, `./${id}.html`);
-          const json = this.processHeroData(hero);
+          const json = this.processHeroData(hero, lang, t);
           json.parent_title = t('breadcrumb-list_title');
           json.lang = lang;
           json.t = t;

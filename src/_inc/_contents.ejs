@@ -8,12 +8,12 @@
 
             <tr><th width="25%"><%- t("stats-rarity") %></th><td colspan="2"><%= page['rare'] %></td></tr>
             <tr><th width="25%"><%- t("stats-level") %></th><td colspan="2"><%= page['lv'] %></td></tr>
-            <tr><th width="25%"><%- t("stats-attribute") %></th><td colspan="2"><%= page['attr'] %></td></tr>
-            <tr><th width="25%"><%- t("stats-attack-attribute") %></th><td colspan="2"><%= page['atk_attr'] %></td></tr>
-            <tr><th width="25%"><%- t("stats-weapon-type") %></th><td colspan="2"><%= page['equip_type'] %></td></tr>
-            <tr><th width="25%"><%- t("stats-formation") %></th><td colspan="2"><%= page['position'] %> (<%- t("stats-range") %><%= page['range'] %>)</td></tr>
-            <tr><th width="25%"><%- t("stats-role") %></th><td colspan="2"><%= page['role_set'] %></td></tr>
-            <tr><th width="25%"><%- t("stats-action-speed") %></th><td colspan="2"><%= page['atk_speed'] %></td></tr>
+            <tr><th width="25%"><%- t("stats-attribute") %></th><td colspan="2"><%= t(page['attr']) %></td></tr>
+            <tr><th width="25%"><%- t("stats-attack-attribute") %></th><td colspan="2"><%= t(page['atk_attr']) %></td></tr>
+            <tr><th width="25%"><%- t("stats-weapon-type") %></th><td colspan="2"><%= t(page['equip_type']) %></td></tr>
+            <tr><th width="25%"><%- t("stats-formation") %></th><td colspan="2"><%= t(page.position) %> (<%- t("stats-range") %><%= page['range'] %>)</td></tr>
+            <tr><th width="25%"><%- t("stats-role") %></th><td colspan="2"><%= t(page['role_set']) %></td></tr>
+            <tr><th width="25%"><%- t("stats-action-speed") %></th><td colspan="2"><%= t(page['atk_speed']) %></td></tr>
             <tr><th width="25%"><%- t("stats-support") %></th><td colspan="2"><%- page['support'] %></td></tr>
             <tr><th width="25%"><%- t("stats-support-bonus") %></th><td colspan="2"><%= page['feature'] %></td></tr>
 
@@ -298,7 +298,7 @@
       <tbody>
           <tr><th width="25%"><%- t("illustrator") %></th><td><%= page['drawer'] %></td></tr>
           <tr><th width="25%"><%- t("voice-actor") %></th><td><%= page['voicer'] %></td></tr>
-          <tr><th width="25%"><%- t("role") %></th><td><%= page['role_set'] %></td></tr>
+          <tr><th width="25%"><%- t("role") %></th><td><%= t(page['role_set']) %></td></tr>
           <tr><th width="25%"><%- t("skills") %></th><td><%= page['skill_set'] %></td></tr>
           <tr><th width="25%"><%- t("height") %></th><td><%= page['height'] %></td></tr>
           <tr><th width="25%"><%- t("body-type") %></th><td><%= page['measurements'] %></td></tr>
