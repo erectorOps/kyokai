@@ -79,7 +79,7 @@ export class MpGantt {
         for (const w of mpChargedWeapons) {
             
             if (w.chara_id === undefined) {
-                if (w.equip_type === this._json.equip_type && w.atk_attr === this._json.atk_attr) {
+                if (w.equip_type === this._json.equip_type_jp && w.atk_attr === this._json.atk_attr_jp) {
                     return { ...w };
                 }                
             }
