@@ -1,0 +1,14 @@
+{
+  "status_name.技能追加傷害": "Skill additional damage",
+  "status_name.觸發狀態": "Trigger Condition",
+  "template.damage_up_base": "{up_down} {damage_prefix} damage to {target_text} by {value_html} for {duration}s.",
+  "text.down": "Decreases",
+  "text.up": "Increases",
+  "text.target_ally_all": "all allies",
+  "text.target_self": "self",
+  "template.pursuit_status": "Inflicts [Tuning] status on {target_text} for {duration}s. While active: Cannot act, {up_down} MP Charge by {value_html}. {trigger}, \"{call_skill_name}\" is triggered (Max 1 time per sec).",
+  "trigger_text.any_ally_atk_after": "After an ally uses an attack skill",
+  "template.chase_normal_attack_on_skill": "Grants {target_text} [Follow-up Attack ({attack_text}) on Skill Activation] for {duration}s.",
+  "template.chase_normal_attack_multi": "Perform {count} Normal Attacks with {damage_percent}% damage.",
+  "text.per_second": "per second"
+}

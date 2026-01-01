@@ -20,6 +20,10 @@ export class LangUtil {
         return path.resolve(process.cwd(), 'src', 'locales', `${lang}.json`);
     }
 
+    static getParserPath(lang) {
+        return path.resolve(process.cwd(), 'src', 'locales', 'parser', `${lang}.json`);
+    }
+
     static async loadT(lang) {
         try {
             const localeData = JSON.parse(await fs.readFile(LangUtil.getLocalePath(lang), 'utf8'));
