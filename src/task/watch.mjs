@@ -68,6 +68,6 @@ export class Watch {
     }
 
     createFuncs() {
-        return [createWatchFiles(this.kf), browserSyncFunc];
+        return [createWatchFiles(this.kf), () => browserSyncFunc("/")];
     }
 }

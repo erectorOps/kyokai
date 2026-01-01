@@ -753,6 +753,13 @@ const parseBuff = (buff, lv, info) => {
           text += `スキル発動時追撃(${attackText})状態を付与`;
           break;
       }
+      case '奧義追加傷害': {
+        let attackText = '';
+        attackText = `ダメージ${spanN}${val1}%${spanEnd}で${val2}回追加ダメージ`;
+
+        text += `奥義発動時追撃(${attackText})状態を付与`;
+        break;
+      }
       case '觸發狀態': {
         //text += parseTrigger(buff,info);
         break;
