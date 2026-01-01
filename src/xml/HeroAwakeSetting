@@ -80,4 +80,24 @@
     <key_item_num>1200</key_item_num>
     <key_item_num>150</key_item_num>
   </HeroAwakeSetting>
+  <HeroAwakeSetting id="2168" open="true" awake_hp="2171" awake_atk="318" awake_matk="0" awake_def="11" awake_mdef="27" awake_hit="15" awake_block="5" awake_atk_crit="0" awake_matk_crit="0" awake_end_hp_recovery="45" awake_end_mp_recovery="26" awake_dmg_suck_hp="0" awake_healing_power="0" awake_mp_recovery="10" awake_mp_cost_down="5" money_cost="1000000">
+    <key_item_id>7054</key_item_id>
+    <key_item_id>7059</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>7049</key_item_id>
+    <key_item_num>150</key_item_num>
+    <key_item_num>120</key_item_num>
+    <key_item_num>1200</key_item_num>
+    <key_item_num>150</key_item_num>
+  </HeroAwakeSetting>
+  <HeroAwakeSetting id="2169" open="true" awake_hp="1458" awake_atk="255" awake_matk="0" awake_def="35" awake_mdef="54" awake_hit="10" awake_block="10" awake_atk_crit="0" awake_matk_crit="0" awake_end_hp_recovery="30" awake_end_mp_recovery="25" awake_dmg_suck_hp="0" awake_healing_power="0" awake_mp_recovery="6" awake_mp_cost_down="5" money_cost="1000000">
+    <key_item_id>7058</key_item_id>
+    <key_item_id>7059</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>7032</key_item_id>
+    <key_item_num>150</key_item_num>
+    <key_item_num>120</key_item_num>
+    <key_item_num>1200</key_item_num>
+    <key_item_num>150</key_item_num>
+  </HeroAwakeSetting>
 </root>

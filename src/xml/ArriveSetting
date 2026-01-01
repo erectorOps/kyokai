@@ -85,7 +85,7 @@
     <button_show>0</button_show>
     <button_show>0</button_show>
   </ArriveSetting>
-  <ArriveSetting id="8000" sort="0" name="競擊戰模式" icon="arrive-limit/4" type="競擊戰模式" activity_mode_id="0" hero_group_id="0" hero_face="未指定" stage_hero_group_id="0" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="0" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="0" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="0" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" start_time="2025/01/30 11:00:00" end_time="2025/02/11 11:00:00" close_time="2025/02/11 11:00:00" show="true">
+  <ArriveSetting id="8000" sort="7" name="競擊戰模式" icon="arrive-limit/1" type="競擊戰模式" activity_mode_id="0" hero_group_id="0" hero_face="未指定" stage_hero_group_id="0" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="0" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="0" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="0" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" start_time="2026/01/01 11:00:00" end_time="2026/01/15 11:00:00" close_time="2026/01/15 11:00:00" show="true">
     <button_show>0</button_show>
     <button_show>0</button_show>
     <button_show>0</button_show>
@@ -795,27 +795,47 @@
     <button_show>0</button_show>
     <button_show>0</button_show>
   </ArriveSetting>
-  <ArriveSetting id="2215" sort="10" name="桜邪と蘭邪" icon="arrive-2115/event_119" type="頭目連戰模式" activity_mode_id="900128" hero_group_id="2270" hero_face="未指定" stage_hero_group_id="2270" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5215" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="277" contribution_reward="221501" ranking_reward="221501" activity_treasure_id="0" contribution_buff_special_id="221501" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" end_time="2025/12/11 11:00:00" close_time="2025/12/18 11:00:00" show="true">
+  <ArriveSetting id="2215" sort="0" name="桜邪と蘭邪" icon="arrive-2115/event_119" type="頭目連戰模式" activity_mode_id="900128" hero_group_id="2270" hero_face="未指定" stage_hero_group_id="2270" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5215" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="277" contribution_reward="221501" ranking_reward="221501" activity_treasure_id="0" contribution_buff_special_id="221501" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" end_time="2025/12/11 11:00:00" close_time="2025/12/18 11:00:00" show="true">
     <button_show>3</button_show>
     <button_show>2</button_show>
     <button_show>0</button_show>
   </ArriveSetting>
-  <ArriveSetting id="2216" sort="8" name="物資調達" icon="arrive-2116/event_120" type="活動" activity_mode_id="900129" hero_group_id="2274" hero_face="未指定" stage_hero_group_id="2274" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5216" stage_world_id_b="0" activity_lottery_id="0" shop_id="2026" activity_draw_id="0" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="0" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" end_time="2025/12/18 11:00:00" close_time="2025/12/25 11:00:00" show="true">
+  <ArriveSetting id="2216" sort="0" name="物資調達" icon="arrive-2116/event_120" type="活動" activity_mode_id="900129" hero_group_id="2274" hero_face="未指定" stage_hero_group_id="2274" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5216" stage_world_id_b="0" activity_lottery_id="0" shop_id="2026" activity_draw_id="0" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="0" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" end_time="2025/12/18 11:00:00" close_time="2025/12/25 11:00:00" show="true">
     <button_show>1</button_show>
     <button_show>0</button_show>
     <button_show>0</button_show>
   </ArriveSetting>
-  <ArriveSetting id="2316" sort="9" name="《復刻》聖夜祭にクッキーを" icon="arrive-2116/event_121" type="活動" activity_mode_id="900130" hero_group_id="2095" hero_face="未指定" stage_hero_group_id="2096" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5316" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="280" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="0" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" end_time="2025/12/18 11:00:00" close_time="2025/12/25 11:00:00" show="true">
+  <ArriveSetting id="2316" sort="0" name="《復刻》聖夜祭にクッキーを" icon="arrive-2116/event_121" type="活動" activity_mode_id="900130" hero_group_id="2095" hero_face="未指定" stage_hero_group_id="2096" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5316" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="280" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="0" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" end_time="2025/12/18 11:00:00" close_time="2025/12/25 11:00:00" show="true">
     <button_show>0</button_show>
     <button_show>0</button_show>
     <button_show>0</button_show>
   </ArriveSetting>
-  <ArriveSetting id="2217" sort="5" name="恵みを守れ" icon="arrive-2117/event_122" type="活動RAID" activity_mode_id="900131" hero_group_id="2271" hero_face="未指定" stage_hero_group_id="2272" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5217" stage_world_id_b="0" activity_lottery_id="0" shop_id="5217" activity_draw_id="282" contribution_reward="221701" ranking_reward="221701" activity_treasure_id="0" contribution_buff_special_id="221701" ap_bonus_hero_special_id="0" normal_boss_id="52171" hard_boss_id="52172" very_hard_boss_id="52173" boss_cost_item_id="1761" mini_game_id="0" end_time="2026/01/01 11:00:00" close_time="2026/01/08 11:00:00" show="true">
+  <ArriveSetting id="2217" sort="10" name="恵みを守れ" icon="arrive-2117/event_122" type="活動RAID" activity_mode_id="900131" hero_group_id="2271" hero_face="未指定" stage_hero_group_id="2272" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5217" stage_world_id_b="0" activity_lottery_id="0" shop_id="5217" activity_draw_id="282" contribution_reward="221701" ranking_reward="221701" activity_treasure_id="0" contribution_buff_special_id="221701" ap_bonus_hero_special_id="0" normal_boss_id="52171" hard_boss_id="52172" very_hard_boss_id="52173" boss_cost_item_id="1761" mini_game_id="0" end_time="2026/01/01 11:00:00" close_time="2026/01/08 11:00:00" show="true">
     <button_show>1</button_show>
     <button_show>3</button_show>
     <button_show>2</button_show>
   </ArriveSetting>
-  <ArriveSetting id="2317" sort="6" name="《復刻》誰ぞ　聖夜の恵み手よ" icon="arrive-2117/event_123" type="活動" activity_mode_id="900132" hero_group_id="2184" hero_face="未指定" stage_hero_group_id="2185" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5317" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="283" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="0" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" end_time="2025/12/25 11:00:00" close_time="2026/01/01 11:00:00" show="true">
+  <ArriveSetting id="2317" sort="11" name="《復刻》誰ぞ　聖夜の恵み手よ" icon="arrive-2117/event_123" type="活動" activity_mode_id="900132" hero_group_id="2184" hero_face="未指定" stage_hero_group_id="2185" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5317" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="283" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="0" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" end_time="2025/12/25 11:00:00" close_time="2026/01/01 11:00:00" show="true">
+    <button_show>0</button_show>
+    <button_show>0</button_show>
+    <button_show>0</button_show>
+  </ArriveSetting>
+  <ArriveSetting id="2218" sort="8" name="【Fanzine】クエスト" icon="arrive-2118/event_124" type="活動" activity_mode_id="900133" hero_group_id="2275" hero_face="未指定" stage_hero_group_id="2275" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5218" stage_world_id_b="0" activity_lottery_id="0" shop_id="5218" activity_draw_id="284" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="221801" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="16" end_time="2026/01/08 11:00:00" close_time="2026/01/15 11:00:00" show="true">
+    <button_show>1</button_show>
+    <button_show>0</button_show>
+    <button_show>0</button_show>
+  </ArriveSetting>
+  <ArriveSetting id="2318" sort="9" name="《復刻》にじげんカノジョコラボ　～ようこそ、異世界へ～" icon="arrive-2118/event_125" type="活動" activity_mode_id="900134" hero_group_id="2168" hero_face="未指定" stage_hero_group_id="2169" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5318" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="285" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="0" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" end_time="2026/01/01 11:00:00" close_time="2026/01/08 11:00:00" show="true">
+    <button_show>0</button_show>
+    <button_show>0</button_show>
+    <button_show>0</button_show>
+  </ArriveSetting>
+  <ArriveSetting id="5219" sort="6" name="怨念の黒馬" icon="arrive-2119/event_126" type="活動" activity_mode_id="900135" hero_group_id="2276" hero_face="未指定" stage_hero_group_id="2277" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5219" stage_world_id_b="0" activity_lottery_id="0" shop_id="5219" activity_draw_id="286" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="221901" ap_bonus_hero_special_id="0" normal_boss_id="52191" hard_boss_id="52192" very_hard_boss_id="52193" boss_cost_item_id="1770" mini_game_id="0" start_time="2026/01/01 00:00:00" end_time="2026/01/15 11:00:00" close_time="2026/01/22 11:00:00" show="true">
+    <button_show>1</button_show>
+    <button_show>0</button_show>
+    <button_show>0</button_show>
+  </ArriveSetting>
+  <ArriveSetting id="2319" sort="5" name="【お正月】特別クエスト" icon="arrive-2119/event_127" type="活動" activity_mode_id="900136" hero_group_id="2278" hero_face="未指定" stage_hero_group_id="2278" stage_hero_face="未指定" stage_hero_group_id_b="0" stage_hero_face_b="未指定" stage_world_id="5319" stage_world_id_b="0" activity_lottery_id="0" shop_id="0" activity_draw_id="0" contribution_reward="0" ranking_reward="0" activity_treasure_id="0" contribution_buff_special_id="0" ap_bonus_hero_special_id="0" normal_boss_id="0" hard_boss_id="0" very_hard_boss_id="0" boss_cost_item_id="0" mini_game_id="0" start_time="2026/01/01 00:00:00" end_time="2026/01/15 11:00:00" close_time="2026/01/15 11:00:00" show="true">
     <button_show>0</button_show>
     <button_show>0</button_show>
     <button_show>0</button_show>

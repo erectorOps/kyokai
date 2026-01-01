@@ -1743,7 +1743,7 @@
   <NewStorySetting group_id="1001" group_func="標題設定" order="1">
     <param>活動</param>
     <param>ヴェルン建国祭</param>
-    <param>activity-banner-2000/期間活動_ヴェルン建国祭_320x88</param>
+    <param>activity-banner-records/期間活動_ヴェルン建国祭_320x88</param>
     <param>一般活動</param>
     <param>Year2023</param>
     <param>50010170/50510170/53040170</param>
@@ -1839,7 +1839,7 @@
   <NewStorySetting group_id="1002" group_func="標題設定" order="1">
     <param>活動</param>
     <param>タコタコ、ビーチパニック!!</param>
-    <param>activity-banner-2000/期間活動_タコタコ、ビーチパニック!!_320x88</param>
+    <param>activity-banner-records/期間活動_タコタコ、ビーチパニック!!_320x88</param>
     <param>一般活動</param>
     <param>Year2023</param>
     <param>50020140/59440140/51980110</param>
@@ -1899,7 +1899,7 @@
   <NewStorySetting group_id="1003" group_func="標題設定" order="1">
     <param>活動</param>
     <param>想望のアルドラナ</param>
-    <param>activity-banner-2000/活動_想望のアルドラナ_320x88</param>
+    <param>activity-banner-records/活動_想望のアルドラナ_320x88</param>
     <param>無雙模式</param>
     <param>Year2023</param>
     <param>50030150/59310150</param>
@@ -1971,7 +1971,7 @@
   <NewStorySetting group_id="1004" group_func="標題設定" order="1">
     <param>活動</param>
     <param>裁きの刃</param>
-    <param>activity-banner-2000/活動_裁きの刃_320x88</param>
+    <param>activity-banner-records/活動_裁きの刃_320x88</param>
     <param>一般活動</param>
     <param>Year2023</param>
     <param>50040140/59280140/53060110</param>
@@ -2031,7 +2031,7 @@
   <NewStorySetting group_id="1005" group_func="標題設定" order="1">
     <param>活動</param>
     <param>美魔女・パーリーピーポー☆</param>
-    <param>activity-banner-2000/活動_美魔女・パーリーピーポー_320x88</param>
+    <param>activity-banner-records/活動_美魔女・パーリーピーポー_320x88</param>
     <param>時間塔模式</param>
     <param>Year2023</param>
     <param>50050140/59290140</param>
@@ -2091,7 +2091,7 @@
   <NewStorySetting group_id="1006" group_func="標題設定" order="1">
     <param>活動</param>
     <param>悪玉ハロウィン</param>
-    <param>activity-banner-2000/活動_悪玉ハロウィン_320x88</param>
+    <param>activity-banner-records/活動_悪玉ハロウィン_320x88</param>
     <param>活動RAID</param>
     <param>Year2023</param>
     <param>50060110/50570110/53100110</param>
@@ -2151,7 +2151,7 @@
   <NewStorySetting group_id="1007" group_func="標題設定" order="1">
     <param>活動</param>
     <param>情熱とともに殴りぬ</param>
-    <param>activity-banner-2000/活動_情熱とともに殴りぬ_320x88</param>
+    <param>activity-banner-records/活動_情熱とともに殴りぬ_320x88</param>
     <param>無雙模式</param>
     <param>Year2023</param>
     <param>50070130</param>
@@ -2199,7 +2199,7 @@
   <NewStorySetting group_id="1008" group_func="標題設定" order="1">
     <param>活動</param>
     <param>血の凶刃</param>
-    <param>banner001/活動_血の凶刃_320x88</param>
+    <param>activity-banner-records/活動_血の凶刃_320x88</param>
     <param>一般活動</param>
     <param>Year2023</param>
     <param>50080170</param>
@@ -2295,7 +2295,7 @@
   <NewStorySetting group_id="1009" group_func="標題設定" order="1">
     <param>活動</param>
     <param>孤高の聖騎士</param>
-    <param>activity-banner-2010/活動_孤高の聖騎士_320x88</param>
+    <param>activity-banner-records/活動_孤高の聖騎士_320x88</param>
     <param>一般活動</param>
     <param>Year2023</param>
     <param>50100160</param>
@@ -2379,7 +2379,7 @@
   <NewStorySetting group_id="1010" group_func="標題設定" order="1">
     <param>活動</param>
     <param>踊りの女神に微笑みを</param>
-    <param>activity-banner-2011/活動_踊りの女神に微笑みを_320x88</param>
+    <param>activity-banner-records/活動_踊りの女神に微笑みを_320x88</param>
     <param>一般活動</param>
     <param>Year2023</param>
     <param>50110140/50600140/53140110</param>
@@ -2451,7 +2451,7 @@
   <NewStorySetting group_id="1011" group_func="標題設定" order="1">
     <param>活動</param>
     <param>奴隷の飴</param>
-    <param>activity-banner-2012/活動_奴隷の飴_320x88</param>
+    <param>activity-banner-records/活動_奴隷の飴_320x88</param>
     <param>時間塔模式</param>
     <param>Year2023</param>
     <param>50120160</param>
@@ -2535,7 +2535,7 @@
   <NewStorySetting group_id="1012" group_func="標題設定" order="1">
     <param>活動</param>
     <param>聖夜祭にクッキーを</param>
-    <param>activity-banner-2013/活動_聖夜祭にクッキーを_320x88</param>
+    <param>activity-banner-records/活動_聖夜祭にクッキーを_320x88</param>
     <param>一般活動</param>
     <param>Year2023</param>
     <param>50130110/50660110/53160110</param>
@@ -2619,7 +2619,7 @@
   <NewStorySetting group_id="1013" group_func="標題設定" order="1">
     <param>活動</param>
     <param>揺れよ、乳</param>
-    <param>activity-banner-2014/活動_揺れよ、乳_320x88</param>
+    <param>activity-banner-records/活動_揺れよ、乳_320x88</param>
     <param>無雙模式</param>
     <param>Year2023</param>
     <param>50140170</param>
@@ -2715,7 +2715,7 @@
   <NewStorySetting group_id="1014" group_func="標題設定" order="1">
     <param>活動</param>
     <param>新春の邪竜</param>
-    <param>activity-banner-2015/活動_新春の邪竜_320x88</param>
+    <param>activity-banner-records/活動_新春の邪竜_320x88</param>
     <param>活動RAID</param>
     <param>Year2024</param>
     <param>50150160/59680110</param>
@@ -2799,7 +2799,7 @@
   <NewStorySetting group_id="1015" group_func="標題設定" order="1">
     <param>活動</param>
     <param>疾風のユニコーン</param>
-    <param>activity-banner-2016/活動_疾風のユニコーン_320x88</param>
+    <param>activity-banner-records/活動_疾風のユニコーン_320x88</param>
     <param>時間塔模式</param>
     <param>Year2024</param>
     <param>50160170</param>
@@ -2895,7 +2895,7 @@
   <NewStorySetting group_id="1016" group_func="標題設定" order="1">
     <param>活動</param>
     <param>審眼の女</param>
-    <param>activity-banner-2018/活動_審眼の女_320x88</param>
+    <param>activity-banner-records/活動_審眼の女_320x88</param>
     <param>一般活動</param>
     <param>Year2024</param>
     <param>50180180</param>
@@ -3003,7 +3003,7 @@
   <NewStorySetting group_id="1017" group_func="標題設定" order="1">
     <param>活動</param>
     <param>エルロンの幽霊</param>
-    <param>activity-banner-2019/活動_エルロンの幽霊_320x88</param>
+    <param>activity-banner-records/活動_エルロンの幽霊_320x88</param>
     <param>無雙模式</param>
     <param>Year2024</param>
     <param>50190140</param>
@@ -3063,7 +3063,7 @@
   <NewStorySetting group_id="1018" group_func="標題設定" order="1">
     <param>活動</param>
     <param>毒と勝利</param>
-    <param>activity-banner-2020/活動_毒と勝利_320x88</param>
+    <param>activity-banner-records/活動_毒と勝利_320x88</param>
     <param>一般活動</param>
     <param>Year2024</param>
     <param>50200193</param>
@@ -3195,7 +3195,7 @@
   <NewStorySetting group_id="1019" group_func="標題設定" order="1">
     <param>活動</param>
     <param>馬に願いを</param>
-    <param>activity-banner-20211/活動_馬に願いを_320x88</param>
+    <param>activity-banner-records/活動_馬に願いを_320x88</param>
     <param>活動RAID</param>
     <param>Year2024</param>
     <param>50210160/59740160</param>
@@ -3279,7 +3279,7 @@
   <NewStorySetting group_id="1020" group_func="標題設定" order="1">
     <param>活動</param>
     <param>ぬいぐるみの孤児</param>
-    <param>activity-banner-2022/活動_ぬいぐるみの孤児_320x88</param>
+    <param>activity-banner-records/活動_ぬいぐるみの孤児_320x88</param>
     <param>時間塔模式</param>
     <param>Year2024</param>
     <param>50220170</param>
@@ -3375,7 +3375,7 @@
   <NewStorySetting group_id="1021" group_func="標題設定" order="1">
     <param>活動</param>
     <param>双剣の門</param>
-    <param>activity-banner-2023/活動_双剣の門_320x88</param>
+    <param>activity-banner-records/活動_双剣の門_320x88</param>
     <param>一般活動</param>
     <param>Year2024</param>
     <param>50230193/59760193</param>
@@ -3507,7 +3507,7 @@
   <NewStorySetting group_id="1022" group_func="標題設定" order="1">
     <param>活動</param>
     <param>お菓子と獣</param>
-    <param>activity-banner-2024/活動_お菓子と獣_320x88</param>
+    <param>activity-banner-records/活動_お菓子と獣_320x88</param>
     <param>無雙模式</param>
     <param>Year2024</param>
     <param>50240170</param>
@@ -3603,7 +3603,7 @@
   <NewStorySetting group_id="1023" group_func="標題設定" order="1">
     <param>活動</param>
     <param>プロジェクト・バニー</param>
-    <param>activity-banner-2025/活動_プロジェクト・バニー_320x88</param>
+    <param>activity-banner-records/活動_プロジェクト・バニー_320x88</param>
     <param>一般活動</param>
     <param>Year2024</param>
     <param>50250180</param>
@@ -3711,7 +3711,7 @@
   <NewStorySetting group_id="1024" group_func="標題設定" order="1">
     <param>活動</param>
     <param>脂肪は正義、否、悪魔</param>
-    <param>activity-banner-2026/活動_脂肪は正義、否、悪魔_320x88</param>
+    <param>activity-banner-records/活動_脂肪は正義、否、悪魔_320x88</param>
     <param>活動RAID</param>
     <param>Year2024</param>
     <param>50260170</param>
@@ -3807,7 +3807,7 @@
   <NewStorySetting group_id="1025" group_func="標題設定" order="1">
     <param>活動</param>
     <param>復活の母乳</param>
-    <param>activity-banner-2027/活動_復活の母乳_320x88</param>
+    <param>activity-banner-records/活動_復活の母乳_320x88</param>
     <param>時間塔模式</param>
     <param>Year2024</param>
     <param>50270196</param>
@@ -3951,7 +3951,7 @@
   <NewStorySetting group_id="1026" group_func="標題設定" order="1">
     <param>活動</param>
     <param>魔女、ふたり</param>
-    <param>activity-banner-2029/活動_魔女、ふたり_320x88</param>
+    <param>activity-banner-records/活動_魔女、ふたり_320x88</param>
     <param>一般活動</param>
     <param>Year2024</param>
     <param>50290190</param>
@@ -4071,7 +4071,7 @@
   <NewStorySetting group_id="1027" group_func="標題設定" order="1">
     <param>活動</param>
     <param>GO! FIGHT! WIN!!</param>
-    <param>activity-banner-2031/活動_GO!FIGHT!WIN!!_320x88</param>
+    <param>activity-banner-records/活動_GO!FIGHT!WIN!!_320x88</param>
     <param>一般活動</param>
     <param>Year2024</param>
     <param>50310180/50880110</param>
@@ -4179,7 +4179,7 @@
   <NewStorySetting group_id="1028" group_func="標題設定" order="1">
     <param>活動</param>
     <param>隣国の魔獣狩り女</param>
-    <param>activity-banner-2033/活動_隣国の魔獣狩り女_320x88</param>
+    <param>activity-banner-records/活動_隣国の魔獣狩り女_320x88</param>
     <param>活動RAID</param>
     <param>Year2024</param>
     <param>50330193</param>
@@ -4311,7 +4311,7 @@
   <NewStorySetting group_id="1029" group_func="標題設定" order="1">
     <param>活動</param>
     <param>Fanzine</param>
-    <param>activity-banner-2032/活動_Fanzine_320x88</param>
+    <param>activity-banner-records/活動_Fanzine01_320x88</param>
     <param>FANZINE</param>
     <param>Year2024</param>
     <param />
@@ -4335,7 +4335,7 @@
   <NewStorySetting group_id="1030" group_func="標題設定" order="1">
     <param>活動</param>
     <param>No more bet</param>
-    <param>activity-banner-2035/活動_No-more-bet_320x88</param>
+    <param>activity-banner-records/活動_No-more-bet_320x88</param>
     <param>一般活動</param>
     <param>Year2024</param>
     <param>50350110</param>
@@ -4503,7 +4503,7 @@
   <NewStorySetting group_id="1031" group_func="標題設定" order="1">
     <param>活動</param>
     <param>花嫁の恵み</param>
-    <param>activity-banner-2038/召喚_花嫁の恵み320x88</param>
+    <param>activity-banner-records/活動_花嫁の恵み_320x88</param>
     <param>活動RAID</param>
     <param>Year2024</param>
     <param>50380110/51910110</param>
@@ -4587,7 +4587,7 @@
   <NewStorySetting group_id="1032" group_func="標題設定" order="1">
     <param>活動</param>
     <param>洞窟に潜むもの</param>
-    <param>activity-banner-2040/活動_洞窟に潜むもの_320x88</param>
+    <param>activity-banner-records/活動_洞窟に潜むもの_320x88</param>
     <param>一般活動</param>
     <param>Year2024</param>
     <param>50400110/51940110</param>
@@ -4743,7 +4743,7 @@
   <NewStorySetting group_id="1033" group_func="標題設定" order="1">
     <param>活動</param>
     <param>天と痴と</param>
-    <param>activity-banner-2041/活動_天と痴と_320x88</param>
+    <param>activity-banner-records/活動_天と痴と_320x88</param>
     <param>無雙模式</param>
     <param>Year2024</param>
     <param>50410110</param>
@@ -4947,7 +4947,7 @@
   <NewStorySetting group_id="1034" group_func="標題設定" order="1">
     <param>活動</param>
     <param>タコ帝国の逆襲</param>
-    <param>activity-banner-2043/活動_タコ帝国の逆襲_320x88</param>
+    <param>activity-banner-records/活動_タコ帝国の逆襲_320x88</param>
     <param>活動RAID</param>
     <param>Year2024</param>
     <param>50430110/51960110</param>
@@ -5055,7 +5055,7 @@
   <NewStorySetting group_id="1035" group_func="標題設定" order="1">
     <param>活動</param>
     <param>太陽と月</param>
-    <param>activity-banner-2045/活動_太陽と月_320x88</param>
+    <param>activity-banner-records/活動_太陽と月_320x88</param>
     <param>一般活動</param>
     <param>Year2024</param>
     <param>50450110</param>
@@ -5283,7 +5283,7 @@
   <NewStorySetting group_id="1036" group_func="標題設定" order="1">
     <param>活動</param>
     <param>風、纏いて</param>
-    <param>activity-banner-2046/活動_風、纏いて_320x88</param>
+    <param>activity-banner-records/活動_風、纏いて_320x88</param>
     <param>時間塔模式</param>
     <param>Year2024</param>
     <param>50460110</param>
@@ -5523,7 +5523,7 @@
   <NewStorySetting group_id="1037" group_func="標題設定" order="1">
     <param>活動</param>
     <param>真夏の大空祭</param>
-    <param>activity-banner-2047/活動_真夏の大空祭_320x88</param>
+    <param>activity-banner-records/活動_真夏の大空祭_320x88</param>
     <param>活動RAID</param>
     <param>Year2024</param>
     <param>50470110/59000110</param>
@@ -5691,7 +5691,7 @@
   <NewStorySetting group_id="1038" group_func="標題設定" order="1">
     <param>活動</param>
     <param>巨大魔獣、襲来</param>
-    <param>activity-banner-2050/活動_巨大魔獣、襲来_320x88</param>
+    <param>activity-banner-records/活動_巨大魔獣、襲来_320x88</param>
     <param>活動RAID</param>
     <param>Year2024</param>
     <param>50500110</param>
@@ -5931,7 +5931,7 @@
   <NewStorySetting group_id="1039" group_func="標題設定" order="1">
     <param>活動</param>
     <param>乳魔に狙われて</param>
-    <param>activity-banner-2052/活動_乳魔に狙われて_320x88</param>
+    <param>activity-banner-records/活動_乳魔に狙われて_320x88</param>
     <param>一般活動</param>
     <param>Year2024</param>
     <param>50520110</param>
@@ -6063,7 +6063,7 @@
   <NewStorySetting group_id="1040" group_func="標題設定" order="1">
     <param>活動</param>
     <param>Fanzine</param>
-    <param>activity-banner-2053/活動_Fanzine_320x88</param>
+    <param>activity-banner-records/活動_Fanzine02_320x88</param>
     <param>FANZINE</param>
     <param>Year2024</param>
     <param>50530110</param>
@@ -6111,10 +6111,10 @@
   <NewStorySetting group_id="1041" group_func="標題設定" order="1">
     <param>活動</param>
     <param>にじげんカノジョコラボ～ようこそ、異世界へ～</param>
-    <param>activity-banner-2054/活動_にじげんカノジョコラボ_320x88</param>
+    <param>activity-banner-records/活動_にじげんカノジョコラボ_320x88</param>
     <param>活動RAID</param>
     <param>Year2024</param>
-    <param>50540110</param>
+    <param>50540110/53180110</param>
     <param />
     <param />
     <param>14.08</param>
@@ -6122,7 +6122,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1041" group_func="章節設定" order="1">
     <param>第1節</param>
-    <param>50540110</param>
+    <param>50540110/53180110</param>
     <param />
     <param />
     <param>5045010</param>
@@ -6134,7 +6134,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1041" group_func="章節設定" order="2">
     <param>第2節</param>
-    <param>50540112</param>
+    <param>50540112/53180112</param>
     <param />
     <param />
     <param>5045020</param>
@@ -6146,7 +6146,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1041" group_func="章節設定" order="3">
     <param>第3節</param>
-    <param>50540114</param>
+    <param>50540114/53180114</param>
     <param />
     <param />
     <param>5045030</param>
@@ -6158,7 +6158,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1041" group_func="章節設定" order="4">
     <param>第4節</param>
-    <param>50540116</param>
+    <param>50540116/53180116</param>
     <param />
     <param />
     <param>5045040</param>
@@ -6170,7 +6170,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1041" group_func="章節設定" order="5">
     <param>第5節</param>
-    <param>50540118</param>
+    <param>50540118/53180118</param>
     <param />
     <param />
     <param>5045050</param>
@@ -6182,7 +6182,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1041" group_func="章節設定" order="6">
     <param>第6節</param>
-    <param>50540120</param>
+    <param>50540120/53180120</param>
     <param />
     <param />
     <param>5045060</param>
@@ -6194,7 +6194,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1041" group_func="章節設定" order="7">
     <param>第7節</param>
-    <param>50540122</param>
+    <param>50540122/53180122</param>
     <param />
     <param />
     <param>5045070</param>
@@ -6206,7 +6206,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1041" group_func="章節設定" order="8">
     <param>第8節</param>
-    <param>50540124</param>
+    <param>50540124/53180124</param>
     <param />
     <param />
     <param>5045080</param>
@@ -6218,7 +6218,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1041" group_func="章節設定" order="9">
     <param>第9節</param>
-    <param>50540126</param>
+    <param>50540126/53180126</param>
     <param />
     <param />
     <param>5045090</param>
@@ -6230,7 +6230,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1041" group_func="章節設定" order="10">
     <param>第10節</param>
-    <param>50540129</param>
+    <param>50540129/53180129</param>
     <param />
     <param />
     <param>5045100</param>
@@ -6242,7 +6242,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1041" group_func="章節設定" order="11">
     <param>第11節</param>
-    <param>50540132</param>
+    <param>50540132/53180132</param>
     <param />
     <param />
     <param>5045110</param>
@@ -6254,7 +6254,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1041" group_func="章節設定" order="12">
     <param>第12節</param>
-    <param>50540135</param>
+    <param>50540135/53180135</param>
     <param />
     <param />
     <param>5045120</param>
@@ -6266,7 +6266,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1041" group_func="章節設定" order="13">
     <param>第13節</param>
-    <param>50540138</param>
+    <param>50540138/53180138</param>
     <param />
     <param />
     <param>5045130</param>
@@ -6278,7 +6278,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1041" group_func="章節設定" order="14">
     <param>第14節</param>
-    <param>50540141</param>
+    <param>50540141/53180141</param>
     <param />
     <param />
     <param>5045140</param>
@@ -6291,7 +6291,7 @@
   <NewStorySetting group_id="1042" group_func="標題設定" order="1">
     <param>活動</param>
     <param>Fanzine</param>
-    <param>activity-banner-2055/活動_Fanzine_320x88</param>
+    <param>activity-banner-records/活動_Fanzine03_320x88</param>
     <param>FANZINE</param>
     <param>Year2024</param>
     <param>50550110</param>
@@ -6339,7 +6339,7 @@
   <NewStorySetting group_id="1043" group_func="標題設定" order="1">
     <param>活動</param>
     <param>大淫鬼ハロウィン</param>
-    <param>activity-banner-2056/活動_大淫鬼ハロウィン_320x88</param>
+    <param>activity-banner-records/活動_大淫鬼ハロウィン_320x88</param>
     <param>一般活動</param>
     <param>Year2024</param>
     <param>50560110/53080110</param>
@@ -6483,7 +6483,7 @@
   <NewStorySetting group_id="1044" group_func="標題設定" order="1">
     <param>活動</param>
     <param>俺の妹は水兵さん</param>
-    <param>activity-banner-2058/活動_俺の妹は水兵さん_320x88</param>
+    <param>activity-banner-records/活動_俺の妹は水兵さん_320x88</param>
     <param>BOSSRUSH</param>
     <param>Year2024</param>
     <param>50580110</param>
@@ -6531,7 +6531,7 @@
   <NewStorySetting group_id="1045" group_func="標題設定" order="1">
     <param>活動</param>
     <param>エルロンの収穫祭</param>
-    <param>activity-banner-2059/活動_エルロンの収穫祭_320x88</param>
+    <param>activity-banner-records/活動_エルロンの収穫祭_320x88</param>
     <param>活動RAID</param>
     <param>Year2024</param>
     <param>50590110/53130110</param>
@@ -6771,7 +6771,7 @@
   <NewStorySetting group_id="1046" group_func="標題設定" order="1">
     <param>活動</param>
     <param>Fanzine</param>
-    <param>activity-banner-2061/活動_Fanzine_320x88</param>
+    <param>activity-banner-records/活動_Fanzine04_320x88</param>
     <param>FANZINE</param>
     <param>Year2024</param>
     <param>50610110</param>
@@ -6819,7 +6819,7 @@
   <NewStorySetting group_id="1047" group_func="標題設定" order="1">
     <param>活動</param>
     <param>誰ぞ　聖夜の恵み手よ</param>
-    <param>activity-banner-2063/活動_誰ぞ聖夜の恵み手よ_320x88</param>
+    <param>activity-banner-records/活動_誰ぞ聖夜の恵み手よ_320x88</param>
     <param>一般活動</param>
     <param>Year2024</param>
     <param>50630110/53170110</param>
@@ -6915,7 +6915,7 @@
   <NewStorySetting group_id="1048" group_func="標題設定" order="1">
     <param>活動</param>
     <param>天使なあの娘はエロが好き</param>
-    <param>activity-banner-2064/活動_天使なあの娘はエロが好き_320x88</param>
+    <param>activity-banner-records/活動_天使なあの娘はエロが好き_320x88</param>
     <param>時間塔模式</param>
     <param>Year2024</param>
     <param>50640110</param>
@@ -6963,7 +6963,7 @@
   <NewStorySetting group_id="1049" group_func="標題設定" order="1">
     <param>活動</param>
     <param>新年、来たりて</param>
-    <param>activity-banner-2065/活動_新年、来たりて_320x88</param>
+    <param>activity-banner-records/活動_新年、来たりて_320x88</param>
     <param>活動RAID</param>
     <param>Year2024</param>
     <param>50650110</param>
@@ -7095,7 +7095,7 @@
   <NewStorySetting group_id="1050" group_func="標題設定" order="1">
     <param>活動</param>
     <param>Fanzine</param>
-    <param>activity-banner-2066/活動_Fanzine_320x88</param>
+    <param>activity-banner-records/活動_Fanzine05_320x88</param>
     <param>FANZINE</param>
     <param>Year2025</param>
     <param>50670110</param>
@@ -7155,7 +7155,7 @@
   <NewStorySetting group_id="1051" group_func="標題設定" order="1">
     <param>活動</param>
     <param>Fanzine</param>
-    <param>activity-banner-2068/活動_Fanzine_320x88</param>
+    <param>activity-banner-records/活動_Fanzine06_320x88</param>
     <param>FANZINE</param>
     <param>Year2025</param>
     <param>50680110</param>
@@ -7215,7 +7215,7 @@
   <NewStorySetting group_id="1052" group_func="標題設定" order="1">
     <param>活動</param>
     <param>３姉妹は崖っぷち</param>
-    <param>activity-banner-2069/活動_３姉妹は崖っぷち_320x88</param>
+    <param>activity-banner-records/活動_３姉妹は崖っぷち_320x88</param>
     <param>一般活動</param>
     <param>Year2025</param>
     <param>50690110</param>
@@ -7359,7 +7359,7 @@
   <NewStorySetting group_id="1053" group_func="標題設定" order="1">
     <param>活動</param>
     <param>Fanzine</param>
-    <param>activity-banner-2071/活動_Fanzine_320x88</param>
+    <param>activity-banner-records/活動_Fanzine07_320x88</param>
     <param>FANZINE</param>
     <param>Year2025</param>
     <param>50710110</param>
@@ -7407,7 +7407,7 @@
   <NewStorySetting group_id="1054" group_func="標題設定" order="1">
     <param>活動</param>
     <param>聖菓のために、我ゆかん</param>
-    <param>activity-banner-2072/活動_聖菓のために、我ゆかん_320x88</param>
+    <param>activity-banner-records/活動_聖菓のために、我ゆかん_320x88</param>
     <param>活動RAID</param>
     <param>Year2025</param>
     <param>50720110</param>
@@ -7611,7 +7611,7 @@
   <NewStorySetting group_id="1055" group_func="標題設定" order="1">
     <param>活動</param>
     <param>活動_オッパイ大好きな俺と、生真面目ナース_320x88</param>
-    <param>activity-banner-2073/活動_オッパイ大好きな俺と、生真面目ナース_320x88</param>
+    <param>activity-banner-records/活動_オッパイ大好きな俺と、生真面目ナース_320x88</param>
     <param>BOSSRUSH</param>
     <param>Year2025</param>
     <param>50730110</param>
@@ -7659,7 +7659,7 @@
   <NewStorySetting group_id="1056" group_func="標題設定" order="1">
     <param>活動</param>
     <param>聖爪の儀</param>
-    <param>activity-banner-2074/活動_聖爪の儀_320x88</param>
+    <param>activity-banner-records/活動_聖爪の儀_320x88</param>
     <param>一般活動</param>
     <param>Year2025</param>
     <param>50740110</param>
@@ -7851,7 +7851,7 @@
   <NewStorySetting group_id="1057" group_func="標題設定" order="1">
     <param>活動</param>
     <param>Fanzine</param>
-    <param>activity-banner-2075/活動_Fanzine_320x88</param>
+    <param>activity-banner-records/活動_Fanzine08_320x88</param>
     <param>FANZINE</param>
     <param>Year2025</param>
     <param>50750110</param>
@@ -7899,7 +7899,7 @@
   <NewStorySetting group_id="1058" group_func="標題設定" order="1">
     <param>活動</param>
     <param>１・５周年イベントストーリー</param>
-    <param>activity-banner-2077/活動_1.5周年_320x88</param>
+    <param>activity-banner-records/活動_1.5周年_320x88</param>
     <param>一般活動</param>
     <param>Year2025</param>
     <param>50750110</param>
@@ -7983,7 +7983,7 @@
   <NewStorySetting group_id="1059" group_func="標題設定" order="1">
     <param>活動</param>
     <param>我が名はアテナ</param>
-    <param>activity-banner-2078/活動_我が名はアテナ_320x88</param>
+    <param>activity-banner-records/活動_我が名はアテナ_320x88</param>
     <param>一般活動</param>
     <param>Year2025</param>
     <param>50780110</param>
@@ -8223,7 +8223,7 @@
   <NewStorySetting group_id="1060" group_func="標題設定" order="1">
     <param>活動</param>
     <param>Fanzine</param>
-    <param>activity-banner-2079/活動_Fanzine_320x88</param>
+    <param>activity-banner-records/活動_Fanzine09_320x88</param>
     <param>FANZINE</param>
     <param>Year2025</param>
     <param>50790110</param>
@@ -8271,7 +8271,7 @@
   <NewStorySetting group_id="1061" group_func="標題設定" order="1">
     <param>活動</param>
     <param>プエリアに、微笑みを</param>
-    <param>activity-banner-2080/活動_プエリアに、微笑みを_320x88</param>
+    <param>activity-banner-records/活動_プエリアに、微笑みを_320x88</param>
     <param>一般活動</param>
     <param>Year2025</param>
     <param>50800111</param>
@@ -8439,7 +8439,7 @@
   <NewStorySetting group_id="1062" group_func="標題設定" order="1">
     <param>活動</param>
     <param>天馬のヴァルキュリア</param>
-    <param>activity-banner-2081/活動_天馬のヴァルキュリア_320x88</param>
+    <param>activity-banner-records/活動_天馬のヴァルキュリア_320x88</param>
     <param>無雙模式</param>
     <param>Year2025</param>
     <param>50810110</param>
@@ -8499,7 +8499,7 @@
   <NewStorySetting group_id="1063" group_func="標題設定" order="1">
     <param>活動</param>
     <param>Fanzine</param>
-    <param>activity-banner-2082/活動_Fanzine_320x88</param>
+    <param>activity-banner-records/活動_Fanzine10_320x88</param>
     <param>FANZINE</param>
     <param>Year2025</param>
     <param>50820110</param>
@@ -8559,7 +8559,7 @@
   <NewStorySetting group_id="1064" group_func="標題設定" order="1">
     <param>活動</param>
     <param>巨乳ファンタジー5コラボ ～ザマスの復讐～</param>
-    <param>activity-banner-2083/活動_巨乳５コラボイベント_320x88</param>
+    <param>activity-banner-records/活動_巨乳５コラボイベント_320x88</param>
     <param>其他</param>
     <param>Year2025</param>
     <param>50830110</param>
@@ -8703,7 +8703,7 @@
   <NewStorySetting group_id="1065" group_func="標題設定" order="1">
     <param>活動</param>
     <param>Fanzine</param>
-    <param>activity-banner-2086/活動_Fanzine_320x88</param>
+    <param>activity-banner-records/活動_Fanzine11_320x88</param>
     <param>FANZINE</param>
     <param>Year2025</param>
     <param>50860110</param>
@@ -8751,7 +8751,7 @@
   <NewStorySetting group_id="1066" group_func="標題設定" order="1">
     <param>活動</param>
     <param>ラシンはラシンにあらず</param>
-    <param>activity-banner-2087/活動_ラシンはラシンにあらず_320x88</param>
+    <param>activity-banner-records/活動_ラシンはラシンにあらず_320x88</param>
     <param>一般活動</param>
     <param>Year2025</param>
     <param>50870111</param>
@@ -8895,7 +8895,7 @@
   <NewStorySetting group_id="1067" group_func="標題設定" order="1">
     <param>活動</param>
     <param>ユラはお仕事募集中</param>
-    <param>activity-banner-2089/活動_ユラはお仕事募集中_320x88</param>
+    <param>activity-banner-records/活動_ユラはお仕事募集中_320x88</param>
     <param>一般活動</param>
     <param>Year2025</param>
     <param>50890111</param>
@@ -9027,7 +9027,7 @@
   <NewStorySetting group_id="1068" group_func="標題設定" order="1">
     <param>活動</param>
     <param>恵みの雨は、降り注ぎ</param>
-    <param>activity-banner-2090/活動_恵みの雨は、降り注ぎ_320x88</param>
+    <param>activity-banner-records/活動_恵みの雨は、降り注ぎ_320x88</param>
     <param>活動RAID</param>
     <param>Year2025</param>
     <param>50900111</param>
@@ -9171,7 +9171,7 @@
   <NewStorySetting group_id="1069" group_func="標題設定" order="1">
     <param>活動</param>
     <param>Fanzine</param>
-    <param>activity-banner-2091/活動_Fanzine_320x88</param>
+    <param>activity-banner-records/活動_Fanzine12_320x88</param>
     <param>FANZINE</param>
     <param>Year2025</param>
     <param>50910111</param>
@@ -9219,7 +9219,7 @@
   <NewStorySetting group_id="1070" group_func="標題設定" order="1">
     <param>活動</param>
     <param>飛来せし巨鳥</param>
-    <param>activity-banner-2093/活動_飛来せし巨鳥_320x88</param>
+    <param>activity-banner-records/活動_飛来せし巨鳥_320x88</param>
     <param>一般活動</param>
     <param>Year2025</param>
     <param>50930110</param>
@@ -9447,7 +9447,7 @@
   <NewStorySetting group_id="1071" group_func="標題設定" order="1">
     <param>活動</param>
     <param>伝説の勇者-御一行様</param>
-    <param>activity-banner-2094/活動_伝説の勇者-御一行様_320x88</param>
+    <param>activity-banner-records/活動_伝説の勇者-御一行様_320x88</param>
     <param>FANZINE</param>
     <param>Year2025</param>
     <param>50940110</param>
@@ -9495,7 +9495,7 @@
   <NewStorySetting group_id="1072" group_func="標題設定" order="1">
     <param>活動</param>
     <param>やかんでゆでたタコのよう</param>
-    <param>activity-banner-2095/活動_やかんでゆでたタコのよう_320x88</param>
+    <param>activity-banner-records/活動_やかんでゆでたタコのよう_320x88</param>
     <param>活動RAID</param>
     <param>Year2025</param>
     <param>50950110</param>
@@ -9651,7 +9651,7 @@
   <NewStorySetting group_id="1073" group_func="標題設定" order="1">
     <param>活動</param>
     <param>この時を、待ちわびて</param>
-    <param>activity-banner-2096/活動_この時を、待ちわびて_320x88</param>
+    <param>activity-banner-records/活動_この時を、待ちわびて_320x88</param>
     <param>一般活動</param>
     <param>Year2025</param>
     <param>50960110</param>
@@ -9747,7 +9747,7 @@
   <NewStorySetting group_id="1074" group_func="標題設定" order="1">
     <param>活動</param>
     <param>Fanzine</param>
-    <param>activity-banner-2097/活動_Fanzine_320x88</param>
+    <param>activity-banner-records/活動_Fanzine13_320x88</param>
     <param>FANZINE</param>
     <param>Year2025</param>
     <param>50970110</param>
@@ -9807,7 +9807,7 @@
   <NewStorySetting group_id="1075" group_func="標題設定" order="1">
     <param>活動</param>
     <param>幻惑の魔術師</param>
-    <param>activity-banner-2098/活動_幻惑の魔術師_320x88</param>
+    <param>activity-banner-records/活動_幻惑の魔術師_320x88</param>
     <param>時間塔模式</param>
     <param>Year2025</param>
     <param>50980110</param>
@@ -9939,7 +9939,7 @@
   <NewStorySetting group_id="1076" group_func="標題設定" order="1">
     <param>活動</param>
     <param>大空祭に迫りし、黒き影</param>
-    <param>activity-banner-2099/活動_大空祭に迫りし、黒き影_320x88</param>
+    <param>activity-banner-records/活動_大空祭に迫りし、黒き影_320x88</param>
     <param>一般活動</param>
     <param>Year2025</param>
     <param>50990110</param>
@@ -10107,7 +10107,7 @@
   <NewStorySetting group_id="1077" group_func="標題設定" order="1">
     <param>活動</param>
     <param>Fanzine</param>
-    <param>activity-banner-2100/活動_Fanzine_320x88</param>
+    <param>activity-banner-records/活動_Fanzine14_320x88</param>
     <param>FANZINE</param>
     <param>Year2025</param>
     <param>51000110</param>
@@ -10215,7 +10215,7 @@
   <NewStorySetting group_id="1079" group_func="標題設定" order="1">
     <param>活動</param>
     <param>追想のプディング</param>
-    <param>activity-banner-2103/活動_追想のプディング_320x88</param>
+    <param>activity-banner-records/活動_追想のプディング_320x88</param>
     <param>一般活動</param>
     <param>Year2025</param>
     <param>52030110</param>
@@ -10479,7 +10479,7 @@
   <NewStorySetting group_id="1080" group_func="標題設定" order="1">
     <param>活動</param>
     <param>身をやつし</param>
-    <param>activity-banner-2105/活動_身をやつし_320x88</param>
+    <param>activity-banner-records/活動_身をやつし_320x88</param>
     <param>無雙模式</param>
     <param>Year2025</param>
     <param>52050110</param>
@@ -10527,7 +10527,7 @@
   <NewStorySetting group_id="1081" group_func="標題設定" order="1">
     <param>活動</param>
     <param>身をやつし</param>
-    <param>activity-banner-2106/活動_この歌を捧ぐ_320x88</param>
+    <param>activity-banner-records/活動_この歌を捧ぐ_320x88</param>
     <param>一般活動</param>
     <param>Year2025</param>
     <param>52060110</param>
@@ -10659,7 +10659,7 @@
   <NewStorySetting group_id="1082" group_func="標題設定" order="1">
     <param>活動</param>
     <param>わたしたち、ズッ友だから</param>
-    <param>activity-banner-2107/活動_わたしたち、ズッ友だから_320x88</param>
+    <param>activity-banner-records/活動_わたしたち、ズッ友だから_320x88</param>
     <param>一般活動</param>
     <param>Year2025</param>
     <param>52070110</param>
@@ -10851,7 +10851,7 @@
   <NewStorySetting group_id="1083" group_func="標題設定" order="1">
     <param>活動</param>
     <param>戦火のなかで</param>
-    <param>activity-banner-2108/活動_戦火のなかで_320x88</param>
+    <param>activity-banner-records/活動_戦火のなかで_320x88</param>
     <param>FANZINE</param>
     <param>Year2025</param>
     <param>52080110</param>
@@ -10899,7 +10899,7 @@
   <NewStorySetting group_id="1084" group_func="標題設定" order="1">
     <param>活動</param>
     <param>双狂のハロウィン</param>
-    <param>activity-banner-2109/活動_双狂のハロウィン_320x88</param>
+    <param>activity-banner-records/活動_双狂のハロウィン_320x88</param>
     <param>一般活動</param>
     <param>Year2025</param>
     <param>52090110</param>
@@ -11031,7 +11031,7 @@
   <NewStorySetting group_id="1085" group_func="標題設定" order="1">
     <param>活動</param>
     <param>恵めよ、さらば与えられん</param>
-    <param>activity-banner-2112/活動_恵めよ、さらば与えられん_320x88</param>
+    <param>activity-banner-records/活動_恵めよ、さらば与えられん_320x88</param>
     <param>一般活動</param>
     <param>Year2025</param>
     <param>52120110</param>
@@ -11211,7 +11211,7 @@
   <NewStorySetting group_id="1086" group_func="標題設定" order="1">
     <param>活動</param>
     <param>無念無想の境地</param>
-    <param>activity-banner-2113/活動_無念無想の境地_320x88</param>
+    <param>activity-banner-records/活動_無念無想の境地_320x88</param>
     <param>無雙模式</param>
     <param>Year2025</param>
     <param>52130110</param>
@@ -11259,7 +11259,7 @@
   <NewStorySetting group_id="1087" group_func="標題設定" order="1">
     <param>活動</param>
     <param>桜邪と蘭邪</param>
-    <param>activity-banner-2114/活動_桜邪と蘭邪_320x88</param>
+    <param>activity-banner-records/活動_桜邪と蘭邪_320x88</param>
     <param>一般活動</param>
     <param>Year2025</param>
     <param>52140110</param>
@@ -11403,7 +11403,7 @@
   <NewStorySetting group_id="1088" group_func="標題設定" order="1">
     <param>活動</param>
     <param>ハンバーガーレストラン・ラプエリアへようこそ</param>
-    <param>activity-banner-2116/活動_物資調達_320x88</param>
+    <param>activity-banner-records/活動_物資調達_320x88</param>
     <param>一般活動</param>
     <param>Year2025</param>
     <param>52160110</param>
@@ -11463,7 +11463,7 @@
   <NewStorySetting group_id="1089" group_func="標題設定" order="1">
     <param>活動</param>
     <param>恵みを守れ</param>
-    <param>activity-banner-2117/活動_恵みを守れ_320x88</param>
+    <param>activity-banner-records/活動_恵みを守れ_320x88</param>
     <param>一般活動</param>
     <param>Year2025</param>
     <param>52170110</param>
@@ -11610,6 +11610,222 @@
     <param />
     <param />
     <param>5093120</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1090" group_func="標題設定" order="1">
+    <param>活動</param>
+    <param>魔法少女　まじかるナターシャ</param>
+    <param>activity-banner-records/活動_Fanzine15_320x88</param>
+    <param>一般活動</param>
+    <param>Year2025</param>
+    <param>52180110</param>
+    <param />
+    <param />
+    <param>16.13</param>
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1090" group_func="章節設定" order="1">
+    <param>第1節</param>
+    <param>52180110</param>
+    <param />
+    <param />
+    <param>5094010</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1090" group_func="章節設定" order="2">
+    <param>第2節</param>
+    <param>52180112</param>
+    <param />
+    <param />
+    <param>5094020</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1090" group_func="章節設定" order="3">
+    <param>第3節</param>
+    <param>52180114</param>
+    <param />
+    <param />
+    <param>5094030</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1091" group_func="標題設定" order="1">
+    <param>活動</param>
+    <param>怨念の黒馬</param>
+    <param>activity-banner-records/活動_怨念の黒馬_320x88</param>
+    <param>一般活動</param>
+    <param>Year2025</param>
+    <param>52190110</param>
+    <param />
+    <param />
+    <param>16.13</param>
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1091" group_func="章節設定" order="1">
+    <param>第1節</param>
+    <param>52190110</param>
+    <param />
+    <param />
+    <param>5095010</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1091" group_func="章節設定" order="2">
+    <param>第2節</param>
+    <param>52190112</param>
+    <param />
+    <param />
+    <param>5095020</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1091" group_func="章節設定" order="3">
+    <param>第3節</param>
+    <param>52190113</param>
+    <param />
+    <param />
+    <param>5095030</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1091" group_func="章節設定" order="4">
+    <param>第4節</param>
+    <param>52190115</param>
+    <param />
+    <param />
+    <param>5095040</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1091" group_func="章節設定" order="5">
+    <param>第5節</param>
+    <param>52190117</param>
+    <param />
+    <param />
+    <param>5095050</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1091" group_func="章節設定" order="6">
+    <param>第6節</param>
+    <param>52190119</param>
+    <param />
+    <param />
+    <param>5095060</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1091" group_func="章節設定" order="7">
+    <param>第7節</param>
+    <param>52190120</param>
+    <param />
+    <param />
+    <param>5095070</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1091" group_func="章節設定" order="8">
+    <param>第8節</param>
+    <param>52190123</param>
+    <param />
+    <param />
+    <param>5095080</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1091" group_func="章節設定" order="9">
+    <param>第9節</param>
+    <param>52190124</param>
+    <param />
+    <param />
+    <param>5095090</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1091" group_func="章節設定" order="10">
+    <param>第10節</param>
+    <param>52190127</param>
+    <param />
+    <param />
+    <param>5095100</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1091" group_func="章節設定" order="11">
+    <param>第11節</param>
+    <param>52190130</param>
+    <param />
+    <param />
+    <param>5095110</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1091" group_func="章節設定" order="12">
+    <param>第12節</param>
+    <param>52190133</param>
+    <param />
+    <param />
+    <param>5095120</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1091" group_func="章節設定" order="13">
+    <param>第13節</param>
+    <param>52190136</param>
+    <param />
+    <param />
+    <param>5095130</param>
     <param />
     <param />
     <param />

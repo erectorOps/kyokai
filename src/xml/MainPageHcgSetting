@@ -9048,7 +9048,7 @@
     <ani_name>null</ani_name>
     <ani_name>null</ani_name>
   </MainPageHcgSetting>
-  <MainPageHcgSetting id="227002" name="蘭邪シーン1" hero_group="2270" pre_gp_lv="2" pre_quest_id="0" icon="mainset-hcg001/2270_2" ani_path="2270_02a/2270_02a">
+  <MainPageHcgSetting id="227002" name="蘭邪シーン1" hero_group="2270" pre_gp_lv="4" pre_quest_id="0" icon="mainset-hcg001/2270_2" ani_path="2270_02a/2270_02a">
     <ani_title>モーション1</ani_title>
     <ani_title>モーション2</ani_title>
     <ani_title>モーション3</ani_title>
@@ -9096,7 +9096,7 @@
     <ani_name>null</ani_name>
     <ani_name>null</ani_name>
   </MainPageHcgSetting>
-  <MainPageHcgSetting id="227402" name="【滑走するウェイトレス】アシュレイシーン2" hero_group="2274" pre_gp_lv="2" pre_quest_id="0" icon="mainset-hcg001/2274_2" ani_path="2274_02a/2274_02a">
+  <MainPageHcgSetting id="227402" name="【滑走するウェイトレス】アシュレイシーン2" hero_group="2274" pre_gp_lv="4" pre_quest_id="0" icon="mainset-hcg001/2274_2" ani_path="2274_02a/2274_02a">
     <ani_title>モーション1</ani_title>
     <ani_title>モーション2</ani_title>
     <ani_title>モーション3</ani_title>
@@ -9120,7 +9120,7 @@
     <ani_name>null</ani_name>
     <ani_name>null</ani_name>
   </MainPageHcgSetting>
-  <MainPageHcgSetting id="227101" name="【2025クリスマス（仮）】アドリエンヌシーン1" hero_group="2271" pre_gp_lv="2" pre_quest_id="0" icon="mainset-hcg001/2271_1" ani_path="2271_01a/2271_01a">
+  <MainPageHcgSetting id="227101" name="【真紅の超乳奏姫】アドリエンヌシーン1" hero_group="2271" pre_gp_lv="2" pre_quest_id="0" icon="mainset-hcg001/2271_1" ani_path="2271_01a/2271_01a">
     <ani_title>モーション1</ani_title>
     <ani_title>モーション2</ani_title>
     <ani_title>モーション3</ani_title>
@@ -9144,7 +9144,7 @@
     <ani_name>null</ani_name>
     <ani_name>null</ani_name>
   </MainPageHcgSetting>
-  <MainPageHcgSetting id="227102" name="【2025クリスマス（仮）】アドリエンヌイシーン1" hero_group="2271" pre_gp_lv="2" pre_quest_id="0" icon="mainset-hcg001/2271_2" ani_path="2271_02a/2271_02a">
+  <MainPageHcgSetting id="227102" name="【真紅の超乳奏姫】アドリエンヌイシーン1" hero_group="2271" pre_gp_lv="4" pre_quest_id="0" icon="mainset-hcg001/2271_2" ani_path="2271_02a/2271_02a">
     <ani_title>モーション1</ani_title>
     <ani_title>モーション2</ani_title>
     <ani_title>モーション3</ani_title>
@@ -9168,7 +9168,7 @@
     <ani_name>null</ani_name>
     <ani_name>null</ani_name>
   </MainPageHcgSetting>
-  <MainPageHcgSetting id="227201" name="【2025クリスマス（仮）】ゲルディンシーン1" hero_group="2272" pre_gp_lv="2" pre_quest_id="0" icon="mainset-hcg001/2272_1" ani_path="2272_01a/2272_01a">
+  <MainPageHcgSetting id="227201" name="【山の爆乳サンタ】ゲルディンシーン1" hero_group="2272" pre_gp_lv="2" pre_quest_id="0" icon="mainset-hcg001/2272_1" ani_path="2272_01a/2272_01a">
     <ani_title>モーション1</ani_title>
     <ani_title>モーション2</ani_title>
     <ani_title>モーション3</ani_title>
@@ -9192,7 +9192,7 @@
     <ani_name>null</ani_name>
     <ani_name>null</ani_name>
   </MainPageHcgSetting>
-  <MainPageHcgSetting id="227202" name="【2025クリスマス（仮）】ゲルディンイシーン1" hero_group="2272" pre_gp_lv="2" pre_quest_id="0" icon="mainset-hcg001/2272_2" ani_path="2272_02a/2272_02a">
+  <MainPageHcgSetting id="227202" name="【山の爆乳サンタ】ゲルディンイシーン1" hero_group="2272" pre_gp_lv="4" pre_quest_id="0" icon="mainset-hcg001/2272_2" ani_path="2272_02a/2272_02a">
     <ani_title>モーション1</ani_title>
     <ani_title>モーション2</ani_title>
     <ani_title>モーション3</ani_title>
@@ -9214,6 +9214,150 @@
     <ani_name>act4_2</ani_name>
     <ani_name>null</ani_name>
     <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+  </MainPageHcgSetting>
+  <MainPageHcgSetting id="227501" name="【魔法少女】まじかるナターシャシーン1" hero_group="2275" pre_gp_lv="2" pre_quest_id="0" icon="mainset-hcg001/2275_1" ani_path="2275_01a/2275_01a">
+    <ani_title>モーション1</ani_title>
+    <ani_title>モーション2</ani_title>
+    <ani_title>モーション3</ani_title>
+    <ani_title>モーション4</ani_title>
+    <ani_title>モーション5</ani_title>
+    <ani_title>モーション6</ani_title>
+    <ani_title>モーション7</ani_title>
+    <ani_title>モーション8</ani_title>
+    <ani_title>モーション9</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_name>act0</ani_name>
+    <ani_name>act1_1</ani_name>
+    <ani_name>act1_2</ani_name>
+    <ani_name>act2</ani_name>
+    <ani_name>act3_1</ani_name>
+    <ani_name>act3_2</ani_name>
+    <ani_name>act4</ani_name>
+    <ani_name>act5_1</ani_name>
+    <ani_name>act5_2</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+  </MainPageHcgSetting>
+  <MainPageHcgSetting id="227502" name="【魔法少女】まじかるナターシャシーン1" hero_group="2275" pre_gp_lv="4" pre_quest_id="0" icon="mainset-hcg001/2275_2" ani_path="2275_02a/2275_02a">
+    <ani_title>モーション1</ani_title>
+    <ani_title>モーション2</ani_title>
+    <ani_title>モーション3</ani_title>
+    <ani_title>モーション4</ani_title>
+    <ani_title>モーション5</ani_title>
+    <ani_title>モーション6</ani_title>
+    <ani_title>モーション7</ani_title>
+    <ani_title>モーション8</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_name>act0_1</ani_name>
+    <ani_name>act0_2</ani_name>
+    <ani_name>act1</ani_name>
+    <ani_name>act2_1</ani_name>
+    <ani_name>act2_2</ani_name>
+    <ani_name>act3</ani_name>
+    <ani_name>act4_1</ani_name>
+    <ani_name>act4_2</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+  </MainPageHcgSetting>
+  <MainPageHcgSetting id="227601" name="【勝ち馬に乗りたい】ボニータシーン1" hero_group="2276" pre_gp_lv="2" pre_quest_id="0" icon="mainset-hcg001/2276_1" ani_path="2276_01a/2276_01a">
+    <ani_title>モーション1</ani_title>
+    <ani_title>モーション2</ani_title>
+    <ani_title>モーション3</ani_title>
+    <ani_title>モーション4</ani_title>
+    <ani_title>モーション5</ani_title>
+    <ani_title>モーション6</ani_title>
+    <ani_title>モーション7</ani_title>
+    <ani_title>モーション8</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_name>act0_1</ani_name>
+    <ani_name>act0_2</ani_name>
+    <ani_name>act1</ani_name>
+    <ani_name>act2_1</ani_name>
+    <ani_name>act2_2</ani_name>
+    <ani_name>act3</ani_name>
+    <ani_name>act4_1</ani_name>
+    <ani_name>act4_2</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+  </MainPageHcgSetting>
+  <MainPageHcgSetting id="227602" name="【勝ち馬に乗りたい】ボニータシーン1" hero_group="2276" pre_gp_lv="4" pre_quest_id="0" icon="mainset-hcg001/2276_2" ani_path="2276_02a/2276_02a">
+    <ani_title>モーション1</ani_title>
+    <ani_title>モーション2</ani_title>
+    <ani_title>モーション3</ani_title>
+    <ani_title>モーション4</ani_title>
+    <ani_title>モーション5</ani_title>
+    <ani_title>モーション6</ani_title>
+    <ani_title>モーション7</ani_title>
+    <ani_title>モーション8</ani_title>
+    <ani_title>モーション9</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_name>act0</ani_name>
+    <ani_name>act1_1</ani_name>
+    <ani_name>act1_2</ani_name>
+    <ani_name>act2</ani_name>
+    <ani_name>act3_1</ani_name>
+    <ani_name>act3_2</ani_name>
+    <ani_name>act4</ani_name>
+    <ani_name>act5_1</ani_name>
+    <ani_name>act5_2</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+  </MainPageHcgSetting>
+  <MainPageHcgSetting id="227701" name="【新春、書き初め】イルーギオシーン1" hero_group="2277" pre_gp_lv="2" pre_quest_id="0" icon="mainset-hcg001/2277_1" ani_path="2277_01a/2277_01a">
+    <ani_title>モーション1</ani_title>
+    <ani_title>モーション2</ani_title>
+    <ani_title>モーション3</ani_title>
+    <ani_title>モーション4</ani_title>
+    <ani_title>モーション5</ani_title>
+    <ani_title>モーション6</ani_title>
+    <ani_title>モーション7</ani_title>
+    <ani_title>モーション8</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_name>act0_1</ani_name>
+    <ani_name>act0_2</ani_name>
+    <ani_name>act1</ani_name>
+    <ani_name>act2_1</ani_name>
+    <ani_name>act2_2</ani_name>
+    <ani_name>act3</ani_name>
+    <ani_name>act4_1</ani_name>
+    <ani_name>act4_2</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+  </MainPageHcgSetting>
+  <MainPageHcgSetting id="227702" name="【新春、書き初め】イルーギオシーン1" hero_group="2277" pre_gp_lv="4" pre_quest_id="0" icon="mainset-hcg001/2277_2" ani_path="2277_02a/2277_02a">
+    <ani_title>モーション1</ani_title>
+    <ani_title>モーション2</ani_title>
+    <ani_title>モーション3</ani_title>
+    <ani_title>モーション4</ani_title>
+    <ani_title>モーション5</ani_title>
+    <ani_title>モーション6</ani_title>
+    <ani_title>モーション7</ani_title>
+    <ani_title>モーション8</ani_title>
+    <ani_title>モーション9</ani_title>
+    <ani_title>モーション10</ani_title>
+    <ani_title>null</ani_title>
+    <ani_name>act0</ani_name>
+    <ani_name>act1_1</ani_name>
+    <ani_name>act1_2</ani_name>
+    <ani_name>act2</ani_name>
+    <ani_name>act3</ani_name>
+    <ani_name>act4_1</ani_name>
+    <ani_name>act4_2</ani_name>
+    <ani_name>act5</ani_name>
+    <ani_name>act6_1</ani_name>
+    <ani_name>act6_2</ani_name>
     <ani_name>null</ani_name>
   </MainPageHcgSetting>
 </root>

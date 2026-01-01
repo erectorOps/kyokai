@@ -1122,4 +1122,48 @@
     <quest_id>0</quest_id>
     <quest_id>0</quest_id>
   </ActivityTrainSetting>
+  <ActivityTrainSetting id="919" day="0" name="前半">
+    <quest_id>93701</quest_id>
+    <quest_id>93702</quest_id>
+    <quest_id>93703</quest_id>
+    <quest_id>93704</quest_id>
+    <quest_id>93705</quest_id>
+    <quest_id>93706</quest_id>
+    <quest_id>93707</quest_id>
+    <quest_id>93708</quest_id>
+    <quest_id>93709</quest_id>
+    <quest_id>93710</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+  </ActivityTrainSetting>
+  <ActivityTrainSetting id="919" day="8" name="後半">
+    <quest_id>93711</quest_id>
+    <quest_id>93712</quest_id>
+    <quest_id>93713</quest_id>
+    <quest_id>93714</quest_id>
+    <quest_id>93715</quest_id>
+    <quest_id>93716</quest_id>
+    <quest_id>93717</quest_id>
+    <quest_id>93718</quest_id>
+    <quest_id>93719</quest_id>
+    <quest_id>93720</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+  </ActivityTrainSetting>
 </root>

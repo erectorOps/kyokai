@@ -1024,6 +1024,14 @@
   <MonsterActionSetting id="52173" info="残りHP80%" type="自身血量低於" value="0.8" skill_id="5021301" />
   <MonsterActionSetting id="52173" info="残りHP50%" type="自身血量低於" value="0.5" skill_id="5021302" />
   <MonsterActionSetting id="52173" info="残りHP30%" type="自身血量低於" value="0.3" skill_id="5021303" />
+  <MonsterActionSetting id="40101" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4010101" />
+  <MonsterActionSetting id="40101" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4010102" />
+  <MonsterActionSetting id="40101" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4010103" />
+  <MonsterActionSetting id="40101" info="自身が「解消」状態の場合" type="自身有指定狀態" value="驅散" skill_id="4010104" />
+  <MonsterActionSetting id="40102" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4010201" />
+  <MonsterActionSetting id="40102" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4010202" />
+  <MonsterActionSetting id="40102" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4010203" />
+  <MonsterActionSetting id="40102" info="自身が「解消」状態の場合" type="自身有指定狀態" value="驅散" skill_id="4010204" />
   <MonsterActionSetting id="41001" type="剩餘時間低於" value="90" skill_id="4100101" />
   <MonsterActionSetting id="41001" type="剩餘時間低於" value="60" skill_id="4100102" />
   <MonsterActionSetting id="41001" type="剩餘時間低於" value="30" skill_id="4100103" />
