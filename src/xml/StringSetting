@@ -1084,6 +1084,7 @@
   <StringSetting id="12212" text="永久スキンの利用制限はすでに解放されています。&#xA;対象聖騎士のスキン体験アイテムを、すべて晶石に変換しますか？&#xA;晶石変換量：{0}" />
   <StringSetting id="12213" text="スキン体験アイテムは晶石に変換されました。" />
   <StringSetting id="12214" text="使用可能なアイテムが優先して表示されます" />
+  <StringSetting id="12215" text="{0}×{1} （{2}）" />
   <StringSetting id="12501" text="レゴル" />
   <StringSetting id="12502" text="ウルティマ" />
   <StringSetting id="12503" text="闘技場ショップ" />
@@ -2473,6 +2474,7 @@
   <StringSetting id="35162" text="2023" />
   <StringSetting id="35163" text="2024" />
   <StringSetting id="35164" text="2025" />
+  <StringSetting id="35165" text="2026" />
   <StringSetting id="36101" text="資源収集" />
   <StringSetting id="36102" text="遺跡" />
   <StringSetting id="36103" text="闘技場1vs1" />
@@ -4652,6 +4654,10 @@
   <StringSetting id="95816" text="極みの塔・想" />
   <StringSetting id="95817" text="極みの塔・聖" />
   <StringSetting id="95818" text="極みの塔・魔" />
+  <StringSetting id="95819" text="{0}×{1}を消費して、 下記の聖騎士の封印状態を解除しますか？" />
+  <StringSetting id="95820" text="一括解封" />
+  <StringSetting id="95821" text="データがありません" />
+  <StringSetting id="95822" text="聖騎士のデータがありません" />
   <StringSetting id="100001" text="Easy" />
   <StringSetting id="100002" text="Normal" />
   <StringSetting id="100003" text="Hard" />

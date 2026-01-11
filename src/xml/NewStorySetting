@@ -2718,7 +2718,7 @@
     <param>activity-banner-records/活動_新春の邪竜_320x88</param>
     <param>活動RAID</param>
     <param>Year2024</param>
-    <param>50150160/59680110</param>
+    <param>50150110/59680110/53200110</param>
     <param />
     <param />
     <param>8.06</param>
@@ -2726,7 +2726,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1014" group_func="章節設定" order="1">
     <param>第1節</param>
-    <param>50150110/59680110</param>
+    <param>50150110/59680110/53200110</param>
     <param />
     <param />
     <param>5015010</param>
@@ -2738,7 +2738,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1014" group_func="章節設定" order="2">
     <param>第2節</param>
-    <param>50150120/59680120</param>
+    <param>50150120/59680120/53200120</param>
     <param />
     <param />
     <param>5015020</param>
@@ -2750,7 +2750,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1014" group_func="章節設定" order="3">
     <param>第3節</param>
-    <param>50150130/59680130</param>
+    <param>50150130/59680130/53200130</param>
     <param />
     <param />
     <param>5015030</param>
@@ -2762,7 +2762,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1014" group_func="章節設定" order="4">
     <param>第4節</param>
-    <param>50150140/59680140</param>
+    <param>50150140/59680140/53200140</param>
     <param />
     <param />
     <param>5015040</param>
@@ -2774,7 +2774,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1014" group_func="章節設定" order="5">
     <param>第5節</param>
-    <param>50150150/59680150</param>
+    <param>50150150/59680150/53200150</param>
     <param />
     <param />
     <param>5015050</param>
@@ -2786,7 +2786,7 @@
   </NewStorySetting>
   <NewStorySetting group_id="1014" group_func="章節設定" order="6">
     <param>第6節</param>
-    <param>50150160/59680160</param>
+    <param>50150160/59680160/53200160</param>
     <param />
     <param />
     <param>5015060</param>
@@ -10167,7 +10167,7 @@
   <NewStorySetting group_id="1078" group_func="標題設定" order="1">
     <param>活動</param>
     <param>妖魔を狩る者</param>
-    <param>activity-banner-2102/活動_物資調達_320x88</param>
+    <param>activity-banner-records/活動_物資調達_320x88</param>
     <param>其他</param>
     <param>Year2025</param>
     <param>51000110</param>
@@ -11669,11 +11669,11 @@
     <param>怨念の黒馬</param>
     <param>activity-banner-records/活動_怨念の黒馬_320x88</param>
     <param>一般活動</param>
-    <param>Year2025</param>
+    <param>Year2026</param>
     <param>52190110</param>
     <param />
     <param />
-    <param>16.13</param>
+    <param>16.14</param>
     <param />
   </NewStorySetting>
   <NewStorySetting group_id="1091" group_func="章節設定" order="1">
@@ -11826,6 +11826,66 @@
     <param />
     <param />
     <param>5095130</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1092" group_func="標題設定" order="1">
+    <param>活動</param>
+    <param>émouvoir</param>
+    <param>activity-banner-records/活動_émouvoir_320x88</param>
+    <param>FANZINE</param>
+    <param>Year2026</param>
+    <param>52200110</param>
+    <param />
+    <param />
+    <param>16.15</param>
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1092" group_func="章節設定" order="1">
+    <param>第1節</param>
+    <param>52200110</param>
+    <param />
+    <param />
+    <param>5096010</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1092" group_func="章節設定" order="2">
+    <param>第2節</param>
+    <param>52200113</param>
+    <param />
+    <param />
+    <param>5096020</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1092" group_func="章節設定" order="3">
+    <param>第3節</param>
+    <param>52200116</param>
+    <param />
+    <param />
+    <param>5096030</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1092" group_func="章節設定" order="4">
+    <param>第4節</param>
+    <param>52200119</param>
+    <param />
+    <param />
+    <param>5096040</param>
     <param />
     <param />
     <param />

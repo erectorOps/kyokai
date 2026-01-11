@@ -238,6 +238,9 @@
   <StageWorldSetting id="5317" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2317" name="《復刻》誰ぞ　聖夜の恵み手よ" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="5218" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2218" name="【Fanzine】クエスト" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="5318" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2318" name="《復刻》にじげんカノジョコラボ" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
-  <StageWorldSetting id="5219" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2219" name="怨念の黒馬" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5219" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="5219" name="怨念の黒馬" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5419" opposite_stage_world_id1="5217" opposite_stage_world_id2="0" arrive_id="5219" name="怨念の黒馬（Hard）" world_type="活動_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="5319" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2319" name="【お正月】特別クエスト" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5220" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2220" name="émouvoir" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5320" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2320" name="《復刻》新春の邪竜" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
 </root>

@@ -2660,7 +2660,14 @@
     <bonus_cycle>0</bonus_cycle>
     <bonus_cycle>0</bonus_cycle>
   </StageAreaSetting>
-  <StageAreaSetting id="521901" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="怨念の黒馬" bg="eventbg/eventbg41/event_126-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+  <StageAreaSetting id="521901" open="true" pre_stage_site="0" opposite_stage_area_id1="541901" opposite_stage_area_id2="0" name="怨念の黒馬" bg="eventbg/eventbg41/event_126-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </StageAreaSetting>
+  <StageAreaSetting id="541901" open="true" pre_stage_site="52190137" opposite_stage_area_id1="521901" opposite_stage_area_id2="0" name="怨念の黒馬（Hard）" bg="eventbg/eventbg40/event_122-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
     <open_cycle>0</open_cycle>
     <open_cycle>0</open_cycle>
     <bonus_cycle>0</bonus_cycle>
@@ -2668,6 +2675,20 @@
     <bonus_cycle>0</bonus_cycle>
   </StageAreaSetting>
   <StageAreaSetting id="531901" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="【お正月】特別クエスト" bg="eventbg/eventbg42/event_127-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </StageAreaSetting>
+  <StageAreaSetting id="522001" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="émouvoir" bg="eventbg/eventbg42/event_128-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </StageAreaSetting>
+  <StageAreaSetting id="532001" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="《復刻》新春の邪竜" bg="eventbg/eventbg42/event_129-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
     <open_cycle>0</open_cycle>
     <open_cycle>0</open_cycle>
     <bonus_cycle>0</bonus_cycle>
