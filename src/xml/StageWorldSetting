@@ -243,4 +243,9 @@
   <StageWorldSetting id="5319" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2319" name="【お正月】特別クエスト" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="5220" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2220" name="émouvoir" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="5320" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2320" name="《復刻》新春の邪竜" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5221" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2221" name="Case　Closed." world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5421" opposite_stage_world_id1="5221" opposite_stage_world_id2="0" arrive_id="2221" name="Case　Closed.（Hard）" world_type="活動_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5321" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2321" name="《復刻》新年、来たりて" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5222" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2222" name="アルドラナよ、咲き誇れ" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5322" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2322" name="《復刻》３姉妹は崖っぷち" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
 </root>
