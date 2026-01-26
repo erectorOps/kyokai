@@ -664,9 +664,17 @@ const parseBuff = (buff, lv, info) => {
           text += "ダメージ";
           text += `<span class=\"value ${debuff ? "down" : "up"}\">`;
           const v = val1.plus(val2.mul(lv));
-          if (v.gt(0)) { text += `${v.abs().toString()}`; } else if (v.lt(0)) { text += `-${v.abs().toString()}`; }
-          text += "%</span>";
-          text += "UP";
+          if (v.gt(0)) { 
+            text += `${v.abs().toString()}`;
+            text += "%</span>";
+            text += "UP";
+          } 
+          else if (v.lt(0)) { 
+            text += `-${v.abs().toString()}`;
+            text += "%</span>";
+            text += "DOWN";
+          }
+
           break;
       // case '狀態效果時間上升或下降':
       //     break;
@@ -762,6 +770,30 @@ const parseBuff = (buff, lv, info) => {
       }
       case '觸發狀態': {
         //text += parseTrigger(buff,info);
+        break;
+      }
+      case '受到一定HIT數傷害上升或下降': {
+        if (val1.gt(1)) {
+          text += `同一攻撃内で${val1}HIT目以降の`
+        }
+        text += `被ダメージを${spanN}${val2}%${spanEnd}`
+        if (val2.gt(0)) {
+          text += "UP"
+        } else {
+          text += "DOWN"
+        }
+        break;
+      }
+      case '受到HIT數攻擊傷害上升或下降': {
+        if (val1.gt(1)) {
+          text += `${val1}HIT以上の攻撃に対して`
+        }
+        text += `被ダメージを${spanN}${val2}%${spanEnd}`
+        if (val2.gt(0)) {
+          text += "UP"
+        } else {
+          text += "DOWN"
+        }
         break;
       }
       default:
