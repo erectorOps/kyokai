@@ -67,6 +67,7 @@
   <SystemSetting def="解放記錄章節英雄道具ID" val="19" />
   <SystemSetting def="素材轉換安定劑道具ID" val="20" />
   <SystemSetting def="特殊突破道具ID" val="7000" />
+  <SystemSetting def="公會戰恢復次數道具ID" val="28" />
   <SystemSetting def="碎片溢出時轉換道具ID" val="11" />
   <SystemSetting def="R級角色碎片溢出轉換比" val="1" />
   <SystemSetting def="SR級角色碎片溢出轉換比" val="5" />
@@ -77,13 +78,13 @@
   <SystemSetting def="基礎角色數限制" val="150" />
   <SystemSetting def="基礎道具數限制" val="1000" />
   <SystemSetting def="AP回復商品群組" val="101" />
-  <SystemSetting def="AP回復優惠開始時間" val="2026/01/01 03:00:00" />
-  <SystemSetting def="AP回復優惠結束時間" val="2026/01/29 03:00:00" />
+  <SystemSetting def="AP回復優惠開始時間" val="2026/03/20 03:00:00" />
+  <SystemSetting def="AP回復優惠結束時間" val="2026/03/27 03:00:00" />
   <SystemSetting def="AP回復優惠商品群組" val="102" />
   <SystemSetting def="AP回復優惠額度" val="50" />
   <SystemSetting def="BP回復商品群組" val="201" />
-  <SystemSetting def="BP回復優惠開始時間" val="2026/01/01 03:00:00" />
-  <SystemSetting def="BP回復優惠結束時間" val="2026/01/29 03:00:00" />
+  <SystemSetting def="BP回復優惠開始時間" val="2026/03/20 03:00:00" />
+  <SystemSetting def="BP回復優惠結束時間" val="2026/03/27 03:00:00" />
   <SystemSetting def="BP回復優惠商品群組" val="202" />
   <SystemSetting def="BP回復優惠額度" val="50" />
   <SystemSetting def="道具欄位擴充商品群組" val="1101" />
@@ -96,8 +97,8 @@
   <SystemSetting def="投裝備套組擴充商品群組" val="1151" />
   <SystemSetting def="共通裝備套組擴充商品群組" val="1156" />
   <SystemSetting def="資源收集重置商品群組" val="501" />
-  <SystemSetting def="資源收集重置優惠開始時間" val="2026/01/01 03:00:00" />
-  <SystemSetting def="資源收集重置優惠結束時間" val="2026/01/16 03:00:00" />
+  <SystemSetting def="資源收集重置優惠開始時間" val="2026/03/13 03:00:00" />
+  <SystemSetting def="資源收集重置優惠結束時間" val="2026/03/27 03:00:00" />
   <SystemSetting def="資源收集重置優惠商品群組" val="502" />
   <SystemSetting def="資源收集重置優惠額度" val="50" />
   <SystemSetting def="遊戲幣購買商品群組" val="701" />
@@ -212,6 +213,8 @@
   <SystemSetting def="創角英雄群組ID" val="42" />
   <SystemSetting def="導引轉蛋ID" val="1" />
   <SystemSetting def="紀錄英雄群組ID" val="2014" />
+  <SystemSetting def="紀錄章節解放所需數量" val="1" />
+  <SystemSetting def="紀錄英雄解放所需數量" val="50" />
   <SystemSetting def="首次戰敗贈送道具特殊數值ID" val="2401" />
   <SystemSetting def="裝備強化贈送道具特殊數值ID" val="101" />
   <SystemSetting def="好感度道具ID1" val="3001" />
@@ -330,6 +333,7 @@
   <SystemSetting def="公會戰測試開關" val="false" />
   <SystemSetting def="公會戰等待時間" val="0" />
   <SystemSetting def="公會戰補償秒數" val="10" />
+  <SystemSetting def="公會戰結算秒數內計算補償" val="5" />
   <SystemSetting def="預設前半稱號ID" val="1" />
   <SystemSetting def="預設後半稱號ID" val="2" />
   <SystemSetting def="預設單獨稱號ID" val="3" />
@@ -379,7 +383,7 @@
   <SystemSetting def="飾品2格開放需求英雄等級" val="41" />
   <SystemSetting def="飾品4格開放需求英雄等級" val="51" />
   <SystemSetting def="飾品5格開放需求英雄等級" val="61" />
-  <SystemSetting def="新角色影片名稱" val="PS8_hero_2283.mp4" />
+  <SystemSetting def="新角色影片名稱" val="PS8_hero_2293.mp4" />
   <SystemSetting def="新角色影片更換時間" />
   <SystemSetting def="新角色影片更換名稱" />
   <SystemSetting def="特典序號圖示" val="item001/redemption_icon" />
@@ -483,13 +487,13 @@
   <SystemSetting def="覺醒需求英雄等級" val="100" />
   <SystemSetting def="覺醒需求英雄Grade" val="10" />
   <SystemSetting def="覺醒需求英雄好感度" val="4" />
-  <SystemSetting def="儲值表特殊頁籤開始時間" val="2025-12-31 00:00:00" />
-  <SystemSetting def="儲值表特殊頁籤結束時間" val="2026-01-15 11:00:00" />
+  <SystemSetting def="儲值表特殊頁籤開始時間" val="2026-03-05 11:00:00" />
+  <SystemSetting def="儲值表特殊頁籤結束時間" val="2026-03-26 11:00:00" />
   <SystemSetting def="儲值表特殊頁籤2開始時間" val="2025-11-20 11:00:00" />
   <SystemSetting def="儲值表特殊頁籤2結束時間" val="2025-11-27 11:00:00" />
   <SystemSetting def="RAID救援額外增加箱數" val="1" />
-  <SystemSetting def="RAID救援額外增加箱數開始時間" val="2025-11-20 11:00:00" />
-  <SystemSetting def="RAID救援額外增加箱數結束時間" val="2025-11-27 11:00:00" />
+  <SystemSetting def="RAID救援額外增加箱數開始時間" val="2026-03-12 11:00:00" />
+  <SystemSetting def="RAID救援額外增加箱數結束時間" val="2026-03-26 11:00:00" />
   <SystemSetting def="重置加值消耗道具ID" />
   <SystemSetting def="重置加值消耗道具數量" />
   <SystemSetting def="愚人節招募ID" val="9999999" />

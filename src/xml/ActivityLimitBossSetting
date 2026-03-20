@@ -1919,4 +1919,80 @@
     <talent_slot>4000180</talent_slot>
     <talent_slot>4000190</talent_slot>
   </ActivityLimitBossSetting>
+  <ActivityLimitBossSetting id="400102" name="聖騎士" icon="arrive-limit/limit-51" recommend_lv="0" battle_map="100701/100701" background="area1007/100701" hero_rare_limit="無限制" monster_id="40103" monster_add_lv="0" base_tp="6" daily_tp="0" max_tp="6" limit_sec="120" total_point_reward="4005101" max_damage_rank_reward="4005102" total_damage_rank_reward="4005103">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <talent_slot>4000110</talent_slot>
+    <talent_slot>4000120</talent_slot>
+    <talent_slot>4000130</talent_slot>
+    <talent_slot>4000140</talent_slot>
+    <talent_slot>4000150</talent_slot>
+    <talent_slot>4000160</talent_slot>
+    <talent_slot>4000170</talent_slot>
+    <talent_slot>4000180</talent_slot>
+    <talent_slot>4000190</talent_slot>
+  </ActivityLimitBossSetting>
+  <ActivityLimitBossSetting id="400103" name="聖騎士(SR限定)" icon="arrive-limit/limit-sr-51" recommend_lv="0" battle_map="100701/100701" background="area1007/100701" hero_rare_limit="SR以下" monster_id="40104" monster_add_lv="0" base_tp="6" daily_tp="0" max_tp="6" limit_sec="120" total_point_reward="4005111" max_damage_rank_reward="4005112" total_damage_rank_reward="0">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <talent_slot>4000110</talent_slot>
+    <talent_slot>4000120</talent_slot>
+    <talent_slot>4000130</talent_slot>
+    <talent_slot>4000140</talent_slot>
+    <talent_slot>4000150</talent_slot>
+    <talent_slot>4000160</talent_slot>
+    <talent_slot>4000170</talent_slot>
+    <talent_slot>4000180</talent_slot>
+    <talent_slot>4000190</talent_slot>
+  </ActivityLimitBossSetting>
+  <ActivityLimitBossSetting id="400104" name="ゴーレム" icon="arrive-limit/limit-52" recommend_lv="0" battle_map="100301/100301" background="area1003/100301" hero_rare_limit="無限制" monster_id="40105" monster_add_lv="0" base_tp="6" daily_tp="0" max_tp="6" limit_sec="120" total_point_reward="4005201" max_damage_rank_reward="4005202" total_damage_rank_reward="4005203">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <talent_slot>4000110</talent_slot>
+    <talent_slot>4000120</talent_slot>
+    <talent_slot>4000130</talent_slot>
+    <talent_slot>4000140</talent_slot>
+    <talent_slot>4000150</talent_slot>
+    <talent_slot>4000160</talent_slot>
+    <talent_slot>4000170</talent_slot>
+    <talent_slot>4000180</talent_slot>
+    <talent_slot>4000190</talent_slot>
+  </ActivityLimitBossSetting>
+  <ActivityLimitBossSetting id="400105" name="ゴーレム(SR限定)" icon="arrive-limit/limit-sr-52" recommend_lv="0" battle_map="100301/100301" background="area1003/100301" hero_rare_limit="SR以下" monster_id="40106" monster_add_lv="0" base_tp="6" daily_tp="0" max_tp="6" limit_sec="120" total_point_reward="4005211" max_damage_rank_reward="4005212" total_damage_rank_reward="0">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <talent_slot>4000110</talent_slot>
+    <talent_slot>4000120</talent_slot>
+    <talent_slot>4000130</talent_slot>
+    <talent_slot>4000140</talent_slot>
+    <talent_slot>4000150</talent_slot>
+    <talent_slot>4000160</talent_slot>
+    <talent_slot>4000170</talent_slot>
+    <talent_slot>4000180</talent_slot>
+    <talent_slot>4000190</talent_slot>
+  </ActivityLimitBossSetting>
 </root>

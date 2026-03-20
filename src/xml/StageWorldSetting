@@ -16,6 +16,7 @@
   <StageWorldSetting id="1013" opposite_stage_world_id1="1113" opposite_stage_world_id2="1213" arrive_id="0" name="第13章" world_bg="area1001/100101" world_type="主線_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="1014" opposite_stage_world_id1="1114" opposite_stage_world_id2="1214" arrive_id="0" name="第14章" world_bg="area1005/100501" world_type="主線_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="1015" opposite_stage_world_id1="1115" opposite_stage_world_id2="1215" arrive_id="0" name="第15章" world_bg="area1005/100501" world_type="主線_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="1016" opposite_stage_world_id1="1116" opposite_stage_world_id2="1216" arrive_id="0" name="第16章" world_bg="area1005/100501" world_type="主線_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="1101" opposite_stage_world_id1="1001" opposite_stage_world_id2="1201" arrive_id="0" name="第1章(Hard)" world_bg="area1005/100502" world_type="主線_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="1102" opposite_stage_world_id1="1002" opposite_stage_world_id2="1202" arrive_id="0" name="第2章(Hard)" world_bg="area1005/100502" world_type="主線_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="1103" opposite_stage_world_id1="1003" opposite_stage_world_id2="1203" arrive_id="0" name="第3章(Hard)" world_bg="area1005/100502" world_type="主線_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
@@ -31,6 +32,7 @@
   <StageWorldSetting id="1113" opposite_stage_world_id1="1013" opposite_stage_world_id2="1213" arrive_id="0" name="第13章(Hard)" world_bg="area1006/100603" world_type="主線_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="1114" opposite_stage_world_id1="1014" opposite_stage_world_id2="1214" arrive_id="0" name="第14章(Hard)" world_bg="area1005/100502" world_type="主線_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="1115" opposite_stage_world_id1="1015" opposite_stage_world_id2="1215" arrive_id="0" name="第15章(Hard)" world_bg="area1005/100502" world_type="主線_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="1116" opposite_stage_world_id1="1016" opposite_stage_world_id2="1216" arrive_id="0" name="第16章(Hard)" world_bg="area1005/100502" world_type="主線_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="1201" opposite_stage_world_id1="1001" opposite_stage_world_id2="1101" arrive_id="0" name="第1章(Very Hard)" world_bg="area1005/100503" world_type="主線_非常困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="1202" opposite_stage_world_id1="1002" opposite_stage_world_id2="1102" arrive_id="0" name="第2章(Very Hard)" world_bg="area1005/100503" world_type="主線_非常困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="1203" opposite_stage_world_id1="1003" opposite_stage_world_id2="1103" arrive_id="0" name="第3章(Very Hard)" world_bg="area1005/100503" world_type="主線_非常困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
@@ -46,6 +48,7 @@
   <StageWorldSetting id="1213" opposite_stage_world_id1="1013" opposite_stage_world_id2="1113" arrive_id="0" name="第13章(Very Hard)" world_bg="area1002/100206" world_type="主線_非常困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="1214" opposite_stage_world_id1="1014" opposite_stage_world_id2="1114" arrive_id="0" name="第14章(Very Hard)" world_bg="area1005/100503" world_type="主線_非常困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="1215" opposite_stage_world_id1="1015" opposite_stage_world_id2="1115" arrive_id="0" name="第15章(Very Hard)" world_bg="area1005/100503" world_type="主線_非常困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="1216" opposite_stage_world_id1="1015" opposite_stage_world_id2="1116" arrive_id="0" name="第16章(Very Hard)" world_bg="area1005/100503" world_type="主線_非常困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="2001" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="0" name="遺跡" world_bg="area1006/100601" world_type="遺跡關卡" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="3001" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="0" name="資源収集" world_bg="area1009/100901" world_type="素材回收" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="5000" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2000" name="【おπの日】特別クエスト" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
@@ -248,4 +251,18 @@
   <StageWorldSetting id="5321" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2321" name="《復刻》新年、来たりて" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="5222" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2222" name="アルドラナよ、咲き誇れ" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="5322" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2322" name="《復刻》３姉妹は崖っぷち" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5223" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2223" name="【Fanzine】クエスト" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5323" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2323" name="【愛妻の日】特別クエスト" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5224" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2224" name="不思議の国のラスウェルと、ハートの女王" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5324" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2324" name="《復刻》聖菓のために、我ゆかん" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5225" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2225" name="カカオ運びし" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5425" opposite_stage_world_id1="5225" opposite_stage_world_id2="0" arrive_id="2225" name="カカオ運びし（Hard）" world_type="活動_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5325" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2325" name="【リリース800日記念】特別クエスト" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5226" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2226" name="【Fanzine】クエスト" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5326" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2326" name="《復刻》馬に願いを" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5227" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2227" name="物資調達" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5327" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2327" name="【2.5周年】特別クエスト" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5228" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2228" name="祝福の白ウサギ" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5328" opposite_stage_world_id1="5228" opposite_stage_world_id2="0" arrive_id="2228" name="祝福の白ウサギ（Hard）" world_type="活動_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5229" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2229" name="試練の塔-祝福の白ウサギ" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
 </root>

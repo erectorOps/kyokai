@@ -240,4 +240,14 @@
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
   </GuildWarSetting>
+  <GuildWarSetting id="303" name="3月" background="battle100101bg/100103" open="true" start_time="2026/03/20 03:00:00" end_time="2026/03/27 03:00:00" coin_item_id="1815" battle_dmg_buff_hero_group="2237" battle_anti_dmg_buff_hero_group="2207" battle_guild_coin_buff_hero_group="2051">
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+  </GuildWarSetting>
 </root>

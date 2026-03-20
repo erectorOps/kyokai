@@ -48,4 +48,12 @@
     <reward_num>300</reward_num>
     <reward_num>0</reward_num>
   </SurveySetting>
+  <SurveySetting id="7" background_pic="survey006/問卷_804x434" url="https://docs.google.com/forms/d/e/1FAIpQLScFcVYWeIBIXE8Z1SybCe2B-SuV06lmX60kPg0BWdQRdvHcWw/viewform?usp=header" start_time="2026/3/18 11:00:00" end_time="2026/3/26 11:00:00">
+    <reward_type>2</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>300</reward_num>
+    <reward_num>0</reward_num>
+  </SurveySetting>
 </root>

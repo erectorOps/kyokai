@@ -239,6 +239,8 @@
   <StringSetting id="5163" text="リセット" />
   <StringSetting id="5164" text="一括解放確認" />
   <StringSetting id="5165" text="以下のアイテムを消費して、一括解放しますか？" />
+  <StringSetting id="5166" text="サポート属性" />
+  <StringSetting id="5167" text="サポート武器" />
   <StringSetting id="5173" text="お気に入りの聖騎士を優先的に表示する" />
   <StringSetting id="5174" text="昇順" />
   <StringSetting id="5175" text="降順" />
@@ -759,6 +761,7 @@
   <StringSetting id="10500" text="レゴル" />
   <StringSetting id="10501" text="晶石" />
   <StringSetting id="10502" text="AP" />
+  <StringSetting id="10503" text="BP" />
   <StringSetting id="10504" text="貢献ポイント" />
   <StringSetting id="10505" text="DMM" />
   <StringSetting id="10510" text="プレイヤーEXP" />
@@ -1183,6 +1186,7 @@
   <StringSetting id="15108" text="閉じる" />
   <StringSetting id="15109" text="提供割合" />
   <StringSetting id="15110" text="聖騎士" />
+  <StringSetting id="15111" text="召喚履歴" />
   <StringSetting id="15112" text="出現率UP" />
   <StringSetting id="15113" text="獲得済みの聖騎士はウルティマに変更されます" />
   <StringSetting id="15114" text="タップして閉じる" />
@@ -1238,8 +1242,10 @@
   <StringSetting id="15164" text="ポイントが不足しています" />
   <StringSetting id="15165" text="{0}【{1}】" />
   <StringSetting id="15166" text="報酬をお便りに送りました" />
+  <StringSetting id="15167" text="※武装召喚は履歴の対象外となります。" />
   <StringSetting id="15168" text="魔法陣を描いてください" />
   <StringSetting id="15169" text="イラスト：{0}" />
+  <StringSetting id="15170" text="該当する履歴はありません。" />
   <StringSetting id="15171" text="出現率{0:P1}" />
   <StringSetting id="15172" text="10回" />
   <StringSetting id="15173" text="一般枠" />
@@ -1300,6 +1306,8 @@
   <StringSetting id="15228" text="ピックアップ対象決定" />
   <StringSetting id="15229" text="設定中" />
   <StringSetting id="15230" text="この3人の聖騎士をピックアップ対象として&#xA;決定してよろしいですか？&#xA;※ピックアップ対象は一度決定すると、&#xA;後から変更することはできません。" />
+  <StringSetting id="15231" text="クーポン割引が{0}倍！" />
+  <StringSetting id="15232" text="適用後{0}%OFF" />
   <StringSetting id="16001" text="編&lt;size=24&gt;成&lt;/size&gt;" />
   <StringSetting id="16003" text="Pスキル" />
   <StringSetting id="16004" text="聖騎士" />
@@ -2064,6 +2072,7 @@
   <StringSetting id="28127" text="購入続きへ" />
   <StringSetting id="28128" text="ウルティマ×{0}のおまけ付き" />
   <StringSetting id="28129" text="所持済み" />
+  <StringSetting id="28130" text="{0}% OFF" />
   <StringSetting id="29001" text="レゴル" />
   <StringSetting id="29002" text="迷宮" />
   <StringSetting id="29003" text="闘技場1vs1" />
@@ -2088,7 +2097,7 @@
   <StringSetting id="29256" text="期間限定" />
   <StringSetting id="29258" text="おπの月" />
   <StringSetting id="29259" text="一周年記念" />
-  <StringSetting id="29260" text="お正月" />
+  <StringSetting id="29260" text="2.5周年記念" />
   <StringSetting id="29261" text="特殊頁籤2" />
   <StringSetting id="30001" text="BOSS" />
   <StringSetting id="30002" text="出撃履歴" />
@@ -2169,6 +2178,11 @@
   <StringSetting id="30169" text="ボスを倒すと報酬がお便りに届きます" />
   <StringSetting id="30170" text="{0}同盟戦討伐報酬" />
   <StringSetting id="30171" text="同盟戦のボスが倒されたため、討伐報酬を配布します" />
+  <StringSetting id="30172" text="同盟戦挑戦回数恢復" />
+  <StringSetting id="30173" text="{0}×{1} を消費し、同盟戦挑戦回数×{2} を回復しますか？" />
+  <StringSetting id="30174" text="同盟戦挑戦回数已恢復" />
+  <StringSetting id="30175" text="アイテムが不足しています" />
+  <StringSetting id="30176" text="同盟戦挑戦回数已滿" />
   <StringSetting id="30501" text="{0}のお知らせ" />
   <StringSetting id="30502" text="{1}日目の報酬：{0}" />
   <StringSetting id="30503" text="{0}" />
@@ -2462,6 +2476,11 @@
   <StringSetting id="35133" text="EX" />
   <StringSetting id="35134" text="最初" />
   <StringSetting id="35135" text="最新" />
+  <StringSetting id="35136" text="閱覽順" />
+  <StringSetting id="35137" text="ストーリー解放" />
+  <StringSetting id="35138" text="以下アイテムを消費して、&#xA;この聖騎士を解放しますか？" />
+  <StringSetting id="35139" text="獲得聖騎士" />
+  <StringSetting id="35140" text="此時尚無法進行解放" />
   <StringSetting id="35141" text="全て" />
   <StringSetting id="35142" text="試練の塔" />
   <StringSetting id="35143" text="無限討伐戦" />
@@ -3172,6 +3191,8 @@
   <StringSetting id="52026" text="次の階層へ向かう" />
   <StringSetting id="52027" text="バフ効果なし" />
   <StringSetting id="52028" text="挑戦クリア報酬" />
+  <StringSetting id="52029" text="{0}人以上" />
+  <StringSetting id="52030" text="＆" />
   <StringSetting id="53001" text="Pスキル" />
   <StringSetting id="53002" text="Pスキル選択" />
   <StringSetting id="53003" text="強化" />
@@ -3503,7 +3524,7 @@
   <StringSetting id="60067" text="獲得失敗" />
   <StringSetting id="60068" text="報酬を獲得済みです" />
   <StringSetting id="60069" text="ランキング" />
-  <StringSetting id="60070" text="ランキング1位～10位：称号「名探偵、ここにあり」を獲得できます。&#xA;ランキング1位～100位：称号「怪盗、ただいま参上」を獲得できます。" />
+  <StringSetting id="60070" text="ランキング1位～10位：称号「ぴょんぴょん♪」を獲得できます。&#xA;ランキング1位～100位：称号「ぴょん♪」を獲得できます。" />
   <StringSetting id="60071" text="プレイヤー情報がありません" />
   <StringSetting id="60072" text="攻撃でHP-{0}" />
   <StringSetting id="60073" text="{0}秒後に更新可能" />
@@ -3753,7 +3774,7 @@
   <StringSetting id="66005" text="Lv購入" />
   <StringSetting id="66006" text="交換所" />
   <StringSetting id="66007" text="アップグレード" />
-  <StringSetting id="66008" text="シーズン期間：2026/03/05 11:00まで" />
+  <StringSetting id="66008" text="シーズン期間：2026/06/04 11:00まで" />
   <StringSetting id="66009" text="開催期間：{0}まで" />
   <StringSetting id="66010" text="デイリー" />
   <StringSetting id="66011" text="ウィークリー" />
@@ -3783,7 +3804,7 @@
   <StringSetting id="66036" text="未解放&#xD;&#xA;{0}以後に解放予定" />
   <StringSetting id="66037" text="{0}　{1}" />
   <StringSetting id="66038" text="ウィークリーミッション「毎週木曜日03：00に更新」（12週目まで）" />
-  <StringSetting id="66039" text="シーズンミッション「2026/03/05 11:00まで」" />
+  <StringSetting id="66039" text="シーズンミッション「2026/06/04 11:00まで」" />
   <StringSetting id="66040" text="ルール" />
   <StringSetting id="66041" text="■シーズンパス&#xA;・シーズンパスは一定期間をシーズンとして開催します。&#xA;・パスレベルをアップさせるとレベルごとに設定された様々な報酬を獲得できます。&#xA;・シーズンが終了するとパスレベルアップとパス報酬が獲得できなくなります。&#xA;&#xA;■パスのグレード&#xA;・パスのグレードはノーマル、スペシャル、プレミアムに分かれています。&#xA;・ノーマル パスは無料で開放されます。&#xA;・スペシャル パス、プレミアム パスはDMMポイントで購入でき、購入後それぞれの追加報酬が獲得できます。&#xA;・シーズン期間中、スペシャル パスやプレミアム パスを購入した場合、購入時点までに開放された追加報酬はすべて獲得できます。&#xA;&#xA;■パスレベルと任務&#xA;・パス任務を達成してパス経験値をためると、パスレベルを上昇させることができます。&#xA;・デイリー任務は毎日3:00に更新されます。&#xA;・ウィークリー任務は毎週木曜日3:00に新しく追加されます（12週目まで）。&#xA;・任務達成進捗から獲得する経験値はEXP獲得量上昇効果を受けません。&#xA;・シーズンの一定期間が経過後、「Lv購入」より晶石を消費してパスレベルを上昇させることができるようになります。" />
   <StringSetting id="66042" text="{0}以後開放" />
@@ -3996,7 +4017,7 @@
   <StringSetting id="74421" text="疾走討伐戦クリア時間ランキング報酬：{0}" />
   <StringSetting id="74422" text="{1}" />
   <StringSetting id="74423" text="※Extraのベストタイムで順位付けします。" />
-  <StringSetting id="74424" text="ストーリーを全クリアすると&#xA;疾走討伐戦が解放されます" />
+  <StringSetting id="74424" text="クエストを全クリアすると&#xA;疾走討伐戦が解放されます" />
   <StringSetting id="74425" text="今日はまだ戦闘したことない&#xA;スキップできない" />
   <StringSetting id="74426" text="毎日1回クリアするとスキップできます&#xA;スキップは当日の最大ポイントで計算されます" />
   <StringSetting id="74451" text="挑戦回数が上限に達しました" />
