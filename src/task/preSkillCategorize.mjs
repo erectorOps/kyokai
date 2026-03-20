@@ -43,21 +43,23 @@ class SkillCheck {
         const list2 = [];
 
         for (const s3 of list) {
-            if (s3['@_change_skill_id'] !== "0") {
-                const s4 = skills.find(item => item['@_id'] === s3['@_change_skill_id']);
-                if (list2.indexOf(s4) < 0 && list.indexOf(s4) < 0) {
+            for (const keyname of ["@_change_skill_id_a", "@_change_skill_id_b", "@_change_skill_id_c"]) {
+                if (s3[keyname] !== "0") {
+                    const s4 = skills.find(item => item['@_id'] === s3[keyname]);
+                    if (s4 && list2.indexOf(s4) < 0 && list.indexOf(s4) < 0) {
 
-                    list2.push(s4);
+                        list2.push(s4);
 
-                    if (s3["@_target_hp_effect"] && 
-                        s3["@_target_hp_scale"] &&
-                        s4["@_target_hp_scale"] &&
-                        s3["@_target_hp_effect"].endsWith("傷害") &&
-                        !isNaN(s3["@_target_hp_scale"]) &&
-                        !isNaN(s4["@_target_hp_scale"]) &&
-                        parseFloat(s3["@_target_hp_scale"]) < parseFloat(s4["@_target_hp_scale"])
-                        ) {
-                            this.DamageUp = true;
+                        if (s3["@_target_hp_effect"] && 
+                            s3["@_target_hp_scale"] &&
+                            s4["@_target_hp_scale"] &&
+                            s3["@_target_hp_effect"].endsWith("傷害") &&
+                            !isNaN(s3["@_target_hp_scale"]) &&
+                            !isNaN(s4["@_target_hp_scale"]) &&
+                            parseFloat(s3["@_target_hp_scale"]) < parseFloat(s4["@_target_hp_scale"])
+                            ) {
+                                this.DamageUp = true;
+                        }
                     }
                 }
             }

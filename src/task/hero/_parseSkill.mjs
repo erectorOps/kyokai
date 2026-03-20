@@ -920,25 +920,27 @@ export const parseSkill = (sid, lv, kf) => {
   }
 
   // パースが難しい部分を独自仕様"{C5}"で補完
-  if (s['@_change_skill_id'] && s['@_change_skill_id'] !== "0") {
-    const c = kf.SkillSetting.find(item => item['@_id'] === s['@_change_skill_id']);
-    if (c) {
-      for (const postFix of [
-        ['A', "{C5}", "{C6}"],
-        ['B', "{C7}", "{C8}"],
-        ['C', "{C12}", "{C13}"],
-        ['D', "{C27}", "{C28}"]]) {
-          const buffId = c['@_buff_id'+postFix[0]];
-          const buffDur = c['@_buff_dur'+postFix[0]];
-          const buffIf = c['@_buff_if'+postFix[0]];
-          const buffTarget = c['@_buff_target'+postFix[0]];
-          if (buffId) {
-            text = text.replace(postFix[2], buffDur);
-            const buff = kf.BuffSetting.find(item => item['@_id'] === buffId);
-            if (buff !== undefined) {
-              text = text.replace(postFix[1], parseBuff(buff, lv, {id: buffId, duration: buffDur, if: buffIf, target: buffTarget, skillTarget: s["@_target"], kf: kf}));
+  for (const keyname of ["@_change_skill_id_a", "@_change_skill_id_b", "@_change_skill_id_c"]) {
+    if (s[keyname] && s[keyname] !== "0") {
+      const c = kf.SkillSetting.find(item => item['@_id'] === s[keyname]);
+      if (c) {
+        for (const postFix of [
+          ['A', "{C5}", "{C6}"],
+          ['B', "{C7}", "{C8}"],
+          ['C', "{C12}", "{C13}"],
+          ['D', "{C27}", "{C28}"]]) {
+            const buffId = c['@_buff_id'+postFix[0]];
+            const buffDur = c['@_buff_dur'+postFix[0]];
+            const buffIf = c['@_buff_if'+postFix[0]];
+            const buffTarget = c['@_buff_target'+postFix[0]];
+            if (buffId) {
+              text = text.replace(postFix[2], buffDur);
+              const buff = kf.BuffSetting.find(item => item['@_id'] === buffId);
+              if (buff !== undefined) {
+                text = text.replace(postFix[1], parseBuff(buff, lv, {id: buffId, duration: buffDur, if: buffIf, target: buffTarget, skillTarget: s["@_target"], kf: kf}));
+              }
             }
-          }
+        }
       }
     }
   }
