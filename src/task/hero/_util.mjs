@@ -19,7 +19,7 @@ export const getAttrKey = (value) => {
     case "火": return "fire";
     case "水": return "water";
     case "風": return "wind";
-    case "光": return "holy";
+    case "聖": return "holy";
     case "魔": return "magic";
     case "想": return "mind";
     default: return "attr_none";
