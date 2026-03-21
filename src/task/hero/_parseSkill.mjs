@@ -183,9 +183,9 @@ const parseBuff = (buff, lv, info) => {
 
       case 'MP回復':
         if (info.duration && info.duration !== "0") {
-          text += "毎秒MP";
+          text += "毎秒MP回復";
         } else {
-          text += "MP";
+          text += "MP回復";
         }
         text += parseAddSub(true);
           break;
