@@ -21,4 +21,7 @@
   <TreasureHunterBuffReduceSetting id="19" group="7" effect_type="麻痺" buff_reduce="20" />
   <TreasureHunterBuffReduceSetting id="20" group="7" effect_type="驅散" buff_reduce="10" />
   <TreasureHunterBuffReduceSetting id="21" group="7" buff_reduce="1" />
+  <TreasureHunterBuffReduceSetting id="22" group="8" effect_type="驅散" buff_reduce="20" />
+  <TreasureHunterBuffReduceSetting id="23" group="8" effect_type="燒傷" buff_reduce="2" />
+  <TreasureHunterBuffReduceSetting id="24" group="8" buff_reduce="1" />
 </root>

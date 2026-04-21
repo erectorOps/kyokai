@@ -1995,4 +1995,42 @@
     <talent_slot>4000180</talent_slot>
     <talent_slot>4000190</talent_slot>
   </ActivityLimitBossSetting>
+  <ActivityLimitBossSetting id="400106" name="ピッグマン" icon="arrive-limit/limit-53" recommend_lv="0" battle_map="100301/100301" background="area1003/100301" hero_rare_limit="無限制" monster_id="40107" monster_add_lv="0" base_tp="6" daily_tp="0" max_tp="6" limit_sec="120" total_point_reward="4005301" max_damage_rank_reward="4005302" total_damage_rank_reward="4005303">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <talent_slot>4000110</talent_slot>
+    <talent_slot>4000120</talent_slot>
+    <talent_slot>4000130</talent_slot>
+    <talent_slot>4000140</talent_slot>
+    <talent_slot>4000150</talent_slot>
+    <talent_slot>4000160</talent_slot>
+    <talent_slot>4000170</talent_slot>
+    <talent_slot>4000180</talent_slot>
+    <talent_slot>4000190</talent_slot>
+  </ActivityLimitBossSetting>
+  <ActivityLimitBossSetting id="400107" name="ピッグマン(SR限定)" icon="arrive-limit/limit-sr-53" recommend_lv="0" battle_map="100301/100301" background="area1003/100301" hero_rare_limit="SR以下" monster_id="40108" monster_add_lv="0" base_tp="6" daily_tp="0" max_tp="6" limit_sec="120" total_point_reward="4005311" max_damage_rank_reward="4005312" total_damage_rank_reward="0">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <talent_slot>4000110</talent_slot>
+    <talent_slot>4000120</talent_slot>
+    <talent_slot>4000130</talent_slot>
+    <talent_slot>4000140</talent_slot>
+    <talent_slot>4000150</talent_slot>
+    <talent_slot>4000160</talent_slot>
+    <talent_slot>4000170</talent_slot>
+    <talent_slot>4000180</talent_slot>
+    <talent_slot>4000190</talent_slot>
+  </ActivityLimitBossSetting>
 </root>

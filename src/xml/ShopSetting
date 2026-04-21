@@ -660,34 +660,46 @@
     <multiple_buy_cost_target>1799</multiple_buy_cost_target>
     <multiple_buy_cost_target>0</multiple_buy_cost_target>
   </ShopSetting>
-  <ShopSetting id="9013" shop_type="活動商店" order="9002" name="同盟戦イベントコイン交換" open="true" open_condition="無" close_time="2026-04-03 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="1815" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
+  <ShopSetting id="9013" shop_type="活動商店" name="同盟戦イベントコイン交換" open="true" open_condition="無" close_time="2026-04-03 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="1815" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
     <multiple_buy_cost_type>0</multiple_buy_cost_type>
     <multiple_buy_cost_type>0</multiple_buy_cost_type>
     <multiple_buy_cost_target>1815</multiple_buy_cost_target>
     <multiple_buy_cost_target>0</multiple_buy_cost_target>
   </ShopSetting>
-  <ShopSetting id="2029" shop_type="活動商店" order="9003" name="調達許可証【赤】交換" open="true" open_condition="無" close_time="2026-03-19 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="1816" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
+  <ShopSetting id="2029" shop_type="活動商店" name="調達許可証【赤】交換" open="true" open_condition="無" close_time="2026-03-19 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="1816" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
     <multiple_buy_cost_type>0</multiple_buy_cost_type>
     <multiple_buy_cost_type>0</multiple_buy_cost_type>
     <multiple_buy_cost_target>1816</multiple_buy_cost_target>
     <multiple_buy_cost_target>0</multiple_buy_cost_target>
   </ShopSetting>
-  <ShopSetting id="2030" shop_type="活動商店" order="9004" name="調達許可証【緑】交換" open="true" open_condition="無" close_time="2026-03-19 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="1817" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
+  <ShopSetting id="2030" shop_type="活動商店" name="調達許可証【緑】交換" open="true" open_condition="無" close_time="2026-03-19 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="1817" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
     <multiple_buy_cost_type>0</multiple_buy_cost_type>
     <multiple_buy_cost_type>0</multiple_buy_cost_type>
     <multiple_buy_cost_target>1817</multiple_buy_cost_target>
     <multiple_buy_cost_target>0</multiple_buy_cost_target>
   </ShopSetting>
-  <ShopSetting id="2031" shop_type="活動商店" order="9005" name="調達許可証【青】交換" open="true" open_condition="無" close_time="2026-03-19 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="1818" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
+  <ShopSetting id="2031" shop_type="活動商店" name="調達許可証【青】交換" open="true" open_condition="無" close_time="2026-03-19 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="1818" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
     <multiple_buy_cost_type>0</multiple_buy_cost_type>
     <multiple_buy_cost_type>0</multiple_buy_cost_type>
     <multiple_buy_cost_target>1818</multiple_buy_cost_target>
     <multiple_buy_cost_target>0</multiple_buy_cost_target>
   </ShopSetting>
-  <ShopSetting id="5228" shop_type="活動商店" order="9001" name="祝福の鈴の音交換" open="true" open_condition="無" close_time="2026-04-02 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="1826" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
+  <ShopSetting id="5228" shop_type="活動商店" name="祝福の鈴の音交換" open="true" open_condition="無" close_time="2026-04-02 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="1826" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
     <multiple_buy_cost_type>0</multiple_buy_cost_type>
     <multiple_buy_cost_type>0</multiple_buy_cost_type>
     <multiple_buy_cost_target>1826</multiple_buy_cost_target>
+    <multiple_buy_cost_target>0</multiple_buy_cost_target>
+  </ShopSetting>
+  <ShopSetting id="5231" shop_type="活動商店" order="9002" name="這い寄る暗殺者交換" open="true" open_condition="無" open_time="2026-04-01 00:00:00" close_time="2026-04-16 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="1835" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
+    <multiple_buy_cost_type>0</multiple_buy_cost_type>
+    <multiple_buy_cost_type>0</multiple_buy_cost_type>
+    <multiple_buy_cost_target>1835</multiple_buy_cost_target>
+    <multiple_buy_cost_target>0</multiple_buy_cost_target>
+  </ShopSetting>
+  <ShopSetting id="5232" shop_type="活動商店" order="9001" name="活力のエール　2026交換" open="true" open_condition="無" close_time="2026-04-30 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="1838" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
+    <multiple_buy_cost_type>0</multiple_buy_cost_type>
+    <multiple_buy_cost_type>0</multiple_buy_cost_type>
+    <multiple_buy_cost_target>1838</multiple_buy_cost_target>
     <multiple_buy_cost_target>0</multiple_buy_cost_target>
   </ShopSetting>
   <ShopSetting id="6002" shop_type="召喚商店" order="6099" name="女神の雫交換" open="true" open_condition="無" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="10001" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
@@ -2106,40 +2118,88 @@
     <multiple_buy_cost_target>10235</multiple_buy_cost_target>
     <multiple_buy_cost_target>0</multiple_buy_cost_target>
   </ShopSetting>
-  <ShopSetting id="6237" shop_type="召喚商店" order="6006" name="競撃の宝玉．水交換" open="true" open_condition="無" close_time="2026/03/19 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="10236" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
+  <ShopSetting id="6237" shop_type="召喚商店" name="競撃の宝玉．水交換" open="true" open_condition="無" close_time="2026/03/19 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="10236" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
     <multiple_buy_cost_type>0</multiple_buy_cost_type>
     <multiple_buy_cost_type>0</multiple_buy_cost_type>
     <multiple_buy_cost_target>10236</multiple_buy_cost_target>
     <multiple_buy_cost_target>0</multiple_buy_cost_target>
   </ShopSetting>
-  <ShopSetting id="6238" shop_type="召喚商店" order="6005" name="結束の印・聖交換" open="true" open_condition="無" close_time="2026/04/03 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="10237" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
+  <ShopSetting id="6238" shop_type="召喚商店" name="結束の印・聖交換" open="true" open_condition="無" close_time="2026/04/03 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="10237" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
     <multiple_buy_cost_type>0</multiple_buy_cost_type>
     <multiple_buy_cost_type>0</multiple_buy_cost_type>
     <multiple_buy_cost_target>10237</multiple_buy_cost_target>
     <multiple_buy_cost_target>0</multiple_buy_cost_target>
   </ShopSetting>
-  <ShopSetting id="6239" shop_type="召喚商店" order="6004" name="ビリヤードボール交換" open="true" open_condition="無" close_time="2026/04/02 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="10238" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
+  <ShopSetting id="6239" shop_type="召喚商店" name="ビリヤードボール交換" open="true" open_condition="無" close_time="2026/04/02 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="10238" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
     <multiple_buy_cost_type>0</multiple_buy_cost_type>
     <multiple_buy_cost_type>0</multiple_buy_cost_type>
     <multiple_buy_cost_target>10238</multiple_buy_cost_target>
     <multiple_buy_cost_target>0</multiple_buy_cost_target>
   </ShopSetting>
-  <ShopSetting id="6240" shop_type="召喚商店" order="6001" name="選定者の囁きI交換" open="true" open_condition="無" close_time="2026/04/02 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="10239" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
+  <ShopSetting id="6240" shop_type="召喚商店" name="選定者の囁きI交換" open="true" open_condition="無" close_time="2026/04/02 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="10239" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
     <multiple_buy_cost_type>0</multiple_buy_cost_type>
     <multiple_buy_cost_type>0</multiple_buy_cost_type>
     <multiple_buy_cost_target>10239</multiple_buy_cost_target>
     <multiple_buy_cost_target>0</multiple_buy_cost_target>
   </ShopSetting>
-  <ShopSetting id="6241" shop_type="召喚商店" order="6002" name="選定者の囁きII交換" open="true" open_condition="無" close_time="2026/04/02 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="10240" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
+  <ShopSetting id="6241" shop_type="召喚商店" name="選定者の囁きII交換" open="true" open_condition="無" close_time="2026/04/02 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="10240" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
     <multiple_buy_cost_type>0</multiple_buy_cost_type>
     <multiple_buy_cost_type>0</multiple_buy_cost_type>
     <multiple_buy_cost_target>10240</multiple_buy_cost_target>
     <multiple_buy_cost_target>0</multiple_buy_cost_target>
   </ShopSetting>
-  <ShopSetting id="6242" shop_type="召喚商店" order="6003" name="白きウサ耳交換" open="true" open_condition="無" close_time="2026/04/09 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="10241" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
+  <ShopSetting id="6242" shop_type="召喚商店" name="白きウサ耳交換" open="true" open_condition="無" close_time="2026/04/09 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="10241" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
     <multiple_buy_cost_type>0</multiple_buy_cost_type>
     <multiple_buy_cost_type>0</multiple_buy_cost_type>
     <multiple_buy_cost_target>10241</multiple_buy_cost_target>
+    <multiple_buy_cost_target>0</multiple_buy_cost_target>
+  </ShopSetting>
+  <ShopSetting id="6243" shop_type="召喚商店" name="黄泉の面交換" open="true" open_condition="無" close_time="2026/04/09 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="10242" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
+    <multiple_buy_cost_type>0</multiple_buy_cost_type>
+    <multiple_buy_cost_type>0</multiple_buy_cost_type>
+    <multiple_buy_cost_target>10242</multiple_buy_cost_target>
+    <multiple_buy_cost_target>0</multiple_buy_cost_target>
+  </ShopSetting>
+  <ShopSetting id="6244" shop_type="召喚商店" name="覚醒者の囁き交換" open="true" open_condition="無" close_time="2026/04/09 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="10243" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
+    <multiple_buy_cost_type>0</multiple_buy_cost_type>
+    <multiple_buy_cost_type>0</multiple_buy_cost_type>
+    <multiple_buy_cost_target>10243</multiple_buy_cost_target>
+    <multiple_buy_cost_target>0</multiple_buy_cost_target>
+  </ShopSetting>
+  <ShopSetting id="6245" shop_type="召喚商店" order="6006" name="競撃の宝玉・想交換" open="true" open_condition="無" close_time="2026/04/16 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="10244" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
+    <multiple_buy_cost_type>0</multiple_buy_cost_type>
+    <multiple_buy_cost_type>0</multiple_buy_cost_type>
+    <multiple_buy_cost_target>10244</multiple_buy_cost_target>
+    <multiple_buy_cost_target>0</multiple_buy_cost_target>
+  </ShopSetting>
+  <ShopSetting id="6246" shop_type="召喚商店" order="6005" name="ターニャの髪飾り交換" open="true" open_condition="無" close_time="2026/04/16 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="10245" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
+    <multiple_buy_cost_type>0</multiple_buy_cost_type>
+    <multiple_buy_cost_type>0</multiple_buy_cost_type>
+    <multiple_buy_cost_target>10245</multiple_buy_cost_target>
+    <multiple_buy_cost_target>0</multiple_buy_cost_target>
+  </ShopSetting>
+  <ShopSetting id="6247" shop_type="召喚商店" order="6004" name="カラフルなポンポン　2026交換" open="true" open_condition="無" close_time="2026/04/30 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="10246" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
+    <multiple_buy_cost_type>0</multiple_buy_cost_type>
+    <multiple_buy_cost_type>0</multiple_buy_cost_type>
+    <multiple_buy_cost_target>10246</multiple_buy_cost_target>
+    <multiple_buy_cost_target>0</multiple_buy_cost_target>
+  </ShopSetting>
+  <ShopSetting id="6248" shop_type="召喚商店" order="6001" name="ゲイルのナイフ交換" open="true" open_condition="無" close_time="2026/04/30 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="10247" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
+    <multiple_buy_cost_type>0</multiple_buy_cost_type>
+    <multiple_buy_cost_type>0</multiple_buy_cost_type>
+    <multiple_buy_cost_target>10247</multiple_buy_cost_target>
+    <multiple_buy_cost_target>0</multiple_buy_cost_target>
+  </ShopSetting>
+  <ShopSetting id="6249" shop_type="召喚商店" order="6002" name="プエリアの涙交換" open="true" open_condition="無" close_time="2026/04/30 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="10248" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
+    <multiple_buy_cost_type>0</multiple_buy_cost_type>
+    <multiple_buy_cost_type>0</multiple_buy_cost_type>
+    <multiple_buy_cost_target>10248</multiple_buy_cost_target>
+    <multiple_buy_cost_target>0</multiple_buy_cost_target>
+  </ShopSetting>
+  <ShopSetting id="6250" shop_type="召喚商店" order="6003" name="極みの挑戦状交換" open="true" open_condition="無" close_time="2026/05/07 11:00:00" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="10249" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">
+    <multiple_buy_cost_type>0</multiple_buy_cost_type>
+    <multiple_buy_cost_type>0</multiple_buy_cost_type>
+    <multiple_buy_cost_target>10249</multiple_buy_cost_target>
     <multiple_buy_cost_target>0</multiple_buy_cost_target>
   </ShopSetting>
   <ShopSetting id="6998" shop_type="召喚商店" name="カムバックメダル交換" open="true" open_condition="無" random_shop_item_cnt="0" random_shop_item_group_id="0" can_multiple_buy="true" auto_refresh_type="無" show_cost_type1="道具" show_cost_val1="10988" show_cost_type2="無" show_cost_val2="0" show_cost_type3="無" show_cost_val3="0">

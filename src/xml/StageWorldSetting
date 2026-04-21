@@ -265,4 +265,11 @@
   <StageWorldSetting id="5228" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2228" name="祝福の白ウサギ" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="5328" opposite_stage_world_id1="5228" opposite_stage_world_id2="0" arrive_id="2228" name="祝福の白ウサギ（Hard）" world_type="活動_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="5229" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2229" name="試練の塔-祝福の白ウサギ" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5230" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2230" name="黄泉の門" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5231" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2231" name="エイプリルフールクエスト" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5331" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2331" name="黄泉の門(疾走討伐戦)" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5232" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2232" name="栄枯盛衰" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5432" opposite_stage_world_id1="5232" opposite_stage_world_id2="0" arrive_id="2232" name="栄枯盛衰（Hard）" world_type="活動_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5233" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2233" name="大鷲の霊獣使い" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5333" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2333" name="《復刻》プエリアに、微笑みを" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
 </root>

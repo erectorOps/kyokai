@@ -2926,4 +2926,53 @@
     <bonus_cycle>0</bonus_cycle>
     <bonus_cycle>0</bonus_cycle>
   </StageAreaSetting>
+  <StageAreaSetting id="523001" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="黄泉の門" bg="eventbg/eventbg48/event_146-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </StageAreaSetting>
+  <StageAreaSetting id="523101" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="エイプリルフールクエスト" bg="eventbg/eventbg48/event_147-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </StageAreaSetting>
+  <StageAreaSetting id="533101" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="黄泉の門(疾走討伐戦)" bg="eventbg/eventbg49/event_148-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </StageAreaSetting>
+  <StageAreaSetting id="523201" open="true" pre_stage_site="0" opposite_stage_area_id1="543201" opposite_stage_area_id2="0" name="栄枯盛衰" bg="eventbg/eventbg49/event_149-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </StageAreaSetting>
+  <StageAreaSetting id="543201" open="true" pre_stage_site="52320134" opposite_stage_area_id1="523201" opposite_stage_area_id2="0" name="栄枯盛衰（Hard）" bg="eventbg/eventbg49/event_149-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </StageAreaSetting>
+  <StageAreaSetting id="523301" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="大鷲の霊獣使い" bg="eventbg/eventbg49/event_150-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </StageAreaSetting>
+  <StageAreaSetting id="533301" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="《復刻》プエリアに、微笑みを" bg="eventbg/eventbg50/event_151-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </StageAreaSetting>
 </root>

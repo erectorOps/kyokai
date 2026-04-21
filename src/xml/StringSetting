@@ -241,6 +241,7 @@
   <StringSetting id="5165" text="以下のアイテムを消費して、一括解放しますか？" />
   <StringSetting id="5166" text="サポート属性" />
   <StringSetting id="5167" text="サポート武器" />
+  <StringSetting id="5168" text="サポート攻撃" />
   <StringSetting id="5173" text="お気に入りの聖騎士を優先的に表示する" />
   <StringSetting id="5174" text="昇順" />
   <StringSetting id="5175" text="降順" />
@@ -3864,6 +3865,13 @@
   <StringSetting id="69023" text="{0}" />
   <StringSetting id="69024" text="チーム情報" />
   <StringSetting id="69025" text="獲得ポイント" />
+  <StringSetting id="69026" text="{0}×{1}を消費して、&#xA;{2}回スキップしますか。" />
+  <StringSetting id="69027" text="全体討伐数" />
+  <StringSetting id="69028" text="全体討伐数" />
+  <StringSetting id="69029" text="全体報酬" />
+  <StringSetting id="69030" text="全体報酬はイベント終了後の&#xA;メンテナンスに配布します。" />
+  <StringSetting id="69031" text="集計中" />
+  <StringSetting id="69032" text="討伐数{0}達成報酬" />
   <StringSetting id="70001" text="ルール" />
   <StringSetting id="70002" text="ガチャ" />
   <StringSetting id="70003" text="ランキング" />
@@ -3881,7 +3889,7 @@
   <StringSetting id="71018" text="最大討伐 スコア&lt;size=24&gt;&lt;color=#D70000&gt;{0}&lt;/color&gt;&lt;/size&gt;以上" />
   <StringSetting id="71019" text="最大討伐 スコア &lt;size=24&gt;&lt;color=#D70000&gt;{0}&lt;/color&gt;&lt;/size&gt;未満" />
   <StringSetting id="71020" text="⇒ポイント×&lt;size=24&gt;&lt;color=#D70000&gt;{0}&lt;/color&gt;&lt;/size&gt; 獲得" />
-  <StringSetting id="71021" text="ストーリーを全クリアすると&#xA;無限討伐戦が解放されます" />
+  <StringSetting id="71021" text="クエストを全クリアすると&#xA;解放されます" />
   <StringSetting id="72001" text="チーム1" />
   <StringSetting id="72002" text="チーム2" />
   <StringSetting id="72003" text="チーム3" />
@@ -4265,8 +4273,8 @@
   <StringSetting id="84047" text="BPが足りません" />
   <StringSetting id="84048" text="パスLv初達成報酬" />
   <StringSetting id="84049" text="パスLv{0}初達成報酬" />
-  <StringSetting id="84050" text="継続特典" />
-  <StringSetting id="84051" text="パスLv{0}継続特典" />
+  <StringSetting id="84050" text="ぶるんぶるんパス継続特典（30日）" />
+  <StringSetting id="84051" text="ぶるんぶるんパスLv{0}継続特典" />
   <StringSetting id="84052" text="ぶるんぶるんパスとは" />
   <StringSetting id="84053" text="●ぶるんぶるんパス&#xA;月額980円でゲーム内の様々な特典を受けられる&#xA;自動更新の月額有料 (サブスクリプション型)サービスです。&#xA;&#xA;サービスの購入方法は、DMMポイントまたはクレジットカードです。&#xA;有効期間は、購入後から30日間または90日間を選択できます。&#xA;解約した場合を除き、自動的に更新され、定期的に料金が発生します。&#xA;&#xA;&#xA;●十大特典&#xA;①ブースト指名枠追加&#xA;パスLvに応じて、ブースト指名の枠が追加されます。&#xA;&#xA;②AP/BP上限アップ&#xA;パスLvに応じて、AP/BPの最大値が上昇します。&#xA;&#xA;③AP受取無料回数追加&#xA;1日1回、AP受取無料回数が追加されます。&#xA;また、パスLvに応じて、APの回復量が上昇します。&#xA;&#xA;④BP一括消費&#xA;1日1回、BPを一括消費すると、報酬を獲得できます。&#xA;また、パスLvに応じて、一括消費可能なBPや獲得できる報酬も増加します。&#xA;&lt;color=#FF0000&gt;※BP一括消費により獲得できる報酬は、Extra救援戦を基準としたものとなります。&lt;/color&gt;&#xA;&#xA;⑤毎日無料召喚回数追加&#xA;1日1回、異界召喚の無料召喚が追加されます。&#xA;&#xA;⑥派遣枠追加/限定派遣エリア解放&#xA;派遣枠が1チーム追加されます。&#xA;また、聖騎士のウルティマを一定の確率で獲得できる&#xA;パス限定エリアも解放されます。&#xA;&#xA;⑦装備（武器/装飾品）の基本枠拡張&#xA;パスLvに応じて基本枠が増加します。&#xA;&#xA;⑧武装召喚週1回10連召喚無料&#xA;週1回、武装召喚の無料10連召喚が追加されます。&#xA;&#xA;⑨パス専属ショップ追加&#xA;「パス専属ショップ」が「交換所」に登場します。&#xA;「ウルティマの結晶」や「10連召喚チケット」などのアイテムを交換できます。&#xA;また、パスLvに応じてラインナップが増加されます。&#xA;※「パス専属ショップ」は毎週月曜日3:00に更新されます。&#xA;&#xA;⑩デイリーミッション即達成&#xA;一部デイリーミッション直接達成できます。&#xA;また、パスLvに応じて1日の使用回数が上昇します。&#xA;　&#xA;○継続購入特典&#xA;継続購入で値引きチケット（20～40％）を獲得できます！&#xA;※有効期間切れ後24時間以内の再購入で継続とします。&#xA;24時間以上を過ぎると継続購入となりません。ご注意ください。&#xA;&#xA;&#xA;●パスLv、パスEXP&#xA;毎日3:00にパスEXP+10増加できます。&#xA;「ぶるんぶるんパス（90日）」を購入すると、&#xA;パスEXP+300(パスLv0→2)を即獲得できます。&#xA;※パスLvに応じて、特典効果が異なります。&#xA;&#xA;なお、有効期限切れ後のEXP減少は以下の通りです。&#xA;7日未満：減少なし&#xA;7日以上、30日未満：毎日パスEXP-15&#xA;30日以上：毎日パスEXP-30&#xA;※EXPの増減は毎日3:00に更新されます。&#xA;&#xA;&#xA;●自動更新、解約（自動更新の停止）&#xA;「ぶるんぶるんパス」を購入すると、手続きなしで契約が自動更新されます。&#xA;&#xA;自動更新を停止する場合は、解約手続き（自動更新の停止）をする必要があります。&#xA;※注意事項画面下部の「解約へ」から行ってください。&#xA;※DMMのID変更、アプリのアンインストールでは、自動で解約されません。&#xA;&#xA;お支払い方法（DMMポイントまたはクレジットカード）の残高不足などにより、&#xA;強制解約される場合もございます。ご注意ください。&#xA;&#xA;有効期間内に解約すると、自動更新されず、次回の料金も発生しません。&#xA;解約した場合でも、有効期限までは引き続きサービスをご利用いただけます。&#xA;&#xA;なお、プレイヤー様のご都合で解約する場合は、&#xA;継続購入特典やパスLvなどの受取、補填は対応しておりません。ご了承ください。&#xA;&#xA;&#xA;●注意事項&#xA;・期間、内容は予告なく変更する場合があります。&#xA;ご了承くださいませ。" />
   <StringSetting id="84054" text="火属性寄り" />
@@ -4276,6 +4284,7 @@
   <StringSetting id="84058" text="魔属性寄り" />
   <StringSetting id="84059" text="想属性寄り" />
   <StringSetting id="84060" text="バランス" />
+  <StringSetting id="84061" text="ぶるんぶるんパス継続特典（90日）" />
   <StringSetting id="85001" text="投票説明" />
   <StringSetting id="85002" text="ミッション" />
   <StringSetting id="85003" text="中間発表" />

@@ -100,4 +100,14 @@
     <key_item_num>1200</key_item_num>
     <key_item_num>150</key_item_num>
   </HeroAwakeSetting>
+  <HeroAwakeSetting id="2078" open="true" awake_hp="2395" awake_atk="0" awake_matk="215" awake_def="18" awake_mdef="23" awake_hit="15" awake_block="5" awake_atk_crit="0" awake_matk_crit="0" awake_end_hp_recovery="46" awake_end_mp_recovery="24" awake_dmg_suck_hp="0" awake_healing_power="0" awake_mp_recovery="7" awake_mp_cost_down="5" money_cost="1000000">
+    <key_item_id>7058</key_item_id>
+    <key_item_id>7059</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>7043</key_item_id>
+    <key_item_num>150</key_item_num>
+    <key_item_num>120</key_item_num>
+    <key_item_num>1200</key_item_num>
+    <key_item_num>150</key_item_num>
+  </HeroAwakeSetting>
 </root>

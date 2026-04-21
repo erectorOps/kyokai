@@ -76,6 +76,44 @@
     <reward_num>0</reward_num>
     <reward_num>0</reward_num>
   </ActivitySetting>
+  <ActivitySetting id="82" name="エイプリルフール" show="false" menu_show="false" sort="3" pre_stage_site="0" start_time="2026/04/01 00:00:00" end_time="2026/04/09 11:00:00" dur_day="0" activity_type="投票" activity_val1="1:1835" activity_val2="1/10" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
   <ActivitySetting id="701" name="お正月開運ルーレット召喚" show="false" menu_show="false" sort="0" pre_stage_site="0" start_time="2024/01/01 00:00:00" end_time="2024/01/11 11:00:00" dur_day="0" activity_type="轉盤" activity_val1="33" activity_val2="1" activity_val3="3" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -1863,6 +1901,44 @@
     <reward_num>0</reward_num>
   </ActivitySetting>
   <ActivitySetting id="529" name="AP消費特典" show="true" menu_show="true" sort="9" icon="activity001/PS8_主介面_活動列表year2.5_累計消耗" bg="activity5/AP消費特典_year2.5_804x434" pre_stage_site="0" end_time="2026/03/26 11:00:00" dur_day="0" activity_type="消費" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
+  <ActivitySetting id="530" name="AP消費特典" show="true" menu_show="true" sort="9" icon="activity001/PS8_主介面_活動列表fes11_累計消耗" bg="activity5/AP消費特典_fes11_804x434" pre_stage_site="0" end_time="2026/04/02 11:00:00" dur_day="0" activity_type="消費" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -4066,6 +4142,44 @@
     <reward_num>0</reward_num>
     <reward_num>0</reward_num>
   </ActivitySetting>
+  <ActivitySetting id="2322" name="【PLAYER版2周年記念】ログインスタンプ" show="true" menu_show="false" sort="7" icon="activity-sign/ログインスタンプ" pre_stage_site="0" start_time="2026/04/09 11:00:00" end_time="2026/04/23 11:00:00" dur_day="0" activity_type="每月簽到" activity_val1="activity_sign_dgp2y" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>7</need_target>
+    <need_target>14</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>3</reward_type>
+    <reward_type>2</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>3390</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>1</reward_num>
+    <reward_num>1000</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
   <ActivitySetting id="3105" name="戰力統計" show="true" menu_show="true" sort="3" icon="activity001/PS8_主介面_活動列表_戦力アップ報酬" pre_stage_site="0" dur_day="0" activity_type="戰力" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -6080,6 +6194,44 @@
     <reward_num>0</reward_num>
     <reward_num>0</reward_num>
   </ActivitySetting>
+  <ActivitySetting id="40053" name="第53回競撃戦" show="false" menu_show="false" sort="0" icon="arrive-limit/5-banner" bg="eventbg/limitbg18/limitmain-53-bg" pre_stage_site="0" start_time="2026/03/26 11:00:00" end_time="2026/04/09 11:00:00" dur_day="0" activity_type="限界" activity_val1="3" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
   <ActivitySetting id="45001" name="第1回異策戦" show="false" menu_show="false" sort="0" icon="arrive-treasure/1-banner" bg="eventbg/treasure01/treasuremain-01-bg" pre_stage_site="0" start_time="2025/09/25 11:00:00" end_time="2025/10/09 11:00:00" dur_day="0" activity_type="寶藏獵人" activity_val1="3" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -6309,6 +6461,44 @@
     <reward_num>0</reward_num>
   </ActivitySetting>
   <ActivitySetting id="45007" name="第7回異策戦" show="false" menu_show="false" sort="0" icon="arrive-treasure/3-banner" bg="eventbg/treasure01/treasuremain-03-bg" pre_stage_site="0" start_time="2026/03/12 11:00:00" end_time="2026/03/26 11:00:00" dur_day="0" activity_type="寶藏獵人" activity_val1="3" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
+  <ActivitySetting id="45008" name="第8回異策戦" show="false" menu_show="false" sort="0" icon="arrive-treasure/4-banner" bg="eventbg/treasure02/treasuremain-04-bg" pre_stage_site="0" start_time="2026/04/09 11:00:00" end_time="2026/04/23 11:00:00" dur_day="0" activity_type="寶藏獵人" activity_val1="3" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -7372,6 +7562,44 @@
     <reward_num>0</reward_num>
     <reward_num>0</reward_num>
   </ActivitySetting>
+  <ActivitySetting id="4028" name="ブースト指名" show="false" menu_show="false" sort="0" pre_stage_site="0" start_time="2026/04/01 03:00:00" end_time="2026/05/01 02:59:59" dur_day="0" activity_type="自選養成優待" activity_val1="0.3" activity_val2="0.3" activity_val3="0.3" activity_val4="1" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
   <ActivitySetting id="50000" name="ログインボーナス" show="true" menu_show="true" sort="11" icon="activity001/PS8_主介面_活動列表_ログインボーナス" pre_stage_site="0" dur_day="0" activity_type="七日簽到" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -7905,6 +8133,44 @@
     <reward_num>0</reward_num>
   </ActivitySetting>
   <ActivitySetting id="910136" name="BOX抽選" show="true" menu_show="false" sort="20" icon="activity001/PS8_主介面_活動列表_一番くじ" pre_stage_site="0" end_time="2025/12/11 11:00:00" dur_day="0" activity_type="抽獎" activity_val1="1745" activity_val2="1" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
+  <ActivitySetting id="910146" name="BOX抽選" show="true" menu_show="false" sort="20" icon="activity001/PS8_主介面_活動列表_一番くじ" pre_stage_site="0" end_time="2026/04/09 11:00:00" dur_day="0" activity_type="抽獎" activity_val1="1832" activity_val2="1" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -14820,6 +15086,196 @@
     <reward_num>0</reward_num>
     <reward_num>0</reward_num>
   </ActivitySetting>
+  <ActivitySetting id="60184" name="【バーストフェス】ログインボーナス" show="true" menu_show="false" sort="10" bg="activitylogin183/登入獎勵_バーストフェス_1640x1000" pre_stage_site="0" end_time="2026/04/02 11:00:00" dur_day="0" activity_type="活動簽到" activity_val1="60184" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
+  <ActivitySetting id="60185" name="【黄泉の門(疾走討伐戦)】ログインボーナス" show="true" menu_show="false" sort="10" bg="activitylogin184/登入獎勵_黄泉の門(疾走イベント)_1640x1000" pre_stage_site="0" end_time="2026/04/09 11:00:00" dur_day="0" activity_type="活動簽到" activity_val1="60185" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
+  <ActivitySetting id="60186" name="【栄枯盛衰】ログインボーナス" show="true" menu_show="false" sort="10" bg="activitylogin185/登入獎勵_栄枯盛衰_1640x1000" pre_stage_site="0" end_time="2026/04/23 11:00:00" dur_day="0" activity_type="活動簽到" activity_val1="60186" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
+  <ActivitySetting id="60188" name="【大鷲の霊獣使い】ログインボーナス" show="true" menu_show="false" sort="10" bg="activitylogin187/登入獎勵_大鷲の霊獣使い(無限討伐戦)_1640x1000" pre_stage_site="0" end_time="2026/04/23 11:00:00" dur_day="0" activity_type="活動簽到" activity_val1="60187" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
+  <ActivitySetting id="60187" name="【《復刻》プエリアに、微笑みを】ログインボーナス" show="true" menu_show="false" sort="10" bg="activitylogin186/登入獎勵_プエリアに、微笑みを(復刻)_1640x1000" pre_stage_site="0" end_time="2026/04/23 11:00:00" dur_day="0" activity_type="活動簽到" activity_val1="60188" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
   <ActivitySetting id="600002" name="活躍度任務" show="true" menu_show="false" sort="6" pre_stage_site="0" end_time="2023/10/12 11:00:00" dur_day="0" activity_type="活躍度" activity_val1="600002" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -19266,6 +19722,158 @@
     <reward_num>0</reward_num>
     <reward_num>0</reward_num>
   </ActivitySetting>
+  <ActivitySetting id="600117" name="活躍度任務" show="true" menu_show="false" sort="6" pre_stage_site="0" start_time="2026/03/26 11:00:00" end_time="2026/04/02 11:00:00" dur_day="0" activity_type="活躍度" activity_val1="600117" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
+  <ActivitySetting id="600118" name="活躍度任務" show="true" menu_show="false" sort="6" pre_stage_site="0" start_time="2026/04/02 11:00:00" end_time="2026/04/09 11:00:00" dur_day="0" activity_type="活躍度" activity_val1="600118" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
+  <ActivitySetting id="600119" name="活躍度任務" show="true" menu_show="false" sort="6" pre_stage_site="0" start_time="2026/04/09 11:00:00" end_time="2026/04/23 11:00:00" dur_day="0" activity_type="活躍度" activity_val1="600119" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
+  <ActivitySetting id="600120" name="活躍度任務" show="true" menu_show="false" sort="6" pre_stage_site="0" start_time="2026/04/16 11:00:00" end_time="2026/04/23 11:00:00" dur_day="0" activity_type="活躍度" activity_val1="600120" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
   <ActivitySetting id="699990" name="活躍度任務" show="true" menu_show="false" sort="6" pre_stage_site="0" start_time="2025/08/01 00:00:00" end_time="2025/08/16 00:00:00" dur_day="0" activity_type="活躍度" activity_val1="699990" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -20103,6 +20711,82 @@
     <reward_num>0</reward_num>
   </ActivitySetting>
   <ActivitySetting id="700010" name="【アルドラナよ、咲き誇れ】無限討伐戦" show="false" menu_show="false" sort="0" pre_stage_site="0" end_time="2026/01/29 11:00:00" dur_day="0" activity_type="無雙" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
+  <ActivitySetting id="700011" name="エイプリルフールクエスト" show="false" menu_show="false" sort="0" pre_stage_site="0" start_time="2026/04/01 00:00:00" end_time="2026/04/09 11:00:00" dur_day="0" activity_type="無雙" activity_val1="1" activity_val2="1835" activity_val3="100" activity_val4="223102" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
+  <ActivitySetting id="700012" name="【大鷲の霊獣使い】無限討伐戦" show="false" menu_show="false" sort="0" pre_stage_site="0" end_time="2026/04/23 11:00:00" dur_day="0" activity_type="無雙" activity_val5="false">
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
@@ -26070,6 +26754,158 @@
   </ActivitySetting>
   <ActivitySetting id="900153" name="試練の塔-祝福の白ウサギ" show="false" menu_show="false" sort="0" bg="eventbg/eventbg48/event_145-bg" pre_stage_site="0" end_time="2026/04/02 11:00:00" dur_day="0" activity_type="爬塔" activity_val2="9000621" activity_val3="9000622" activity_val5="false">
     <hero_info>2293</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
+  <ActivitySetting id="900154" name="黄泉の門" show="false" menu_show="false" sort="0" pre_stage_site="0" end_time="2026/04/02 11:00:00" dur_day="0" activity_type="活動事件" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
+  <ActivitySetting id="900155" name="黄泉の門(疾走討伐戦)" show="false" menu_show="false" sort="0" pre_stage_site="0" end_time="2026/04/09 11:00:00" dur_day="0" activity_type="頭目連戰" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
+  <ActivitySetting id="900156" name="栄枯盛衰" show="false" menu_show="false" sort="0" pre_stage_site="0" end_time="2026/04/23 11:00:00" dur_day="0" activity_type="活動事件" activity_val5="false">
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <hero_info>0</hero_info>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <need_target>0</need_target>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_type>0</reward_type>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_target>0</reward_target>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+    <reward_num>0</reward_num>
+  </ActivitySetting>
+  <ActivitySetting id="900157" name="《復刻》プエリアに、微笑みを" show="false" menu_show="false" sort="0" pre_stage_site="0" end_time="2026/04/23 11:00:00" dur_day="0" activity_type="活動事件" activity_val5="false">
+    <hero_info>0</hero_info>
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>
     <hero_info>0</hero_info>

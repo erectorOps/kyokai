@@ -2139,6 +2139,11 @@
   <StoryHeroSetting id="2284" serial_no="5" title="絆Lv9達成報酬" pre_gp_lv="9" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="200" />
   <StoryHeroSetting id="2284" serial_no="6" title="絆Lv10達成報酬" pre_gp_lv="10" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="200" />
   <StoryHeroSetting id="2285" serial_no="1" title="絆ストーリー1" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2285010" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2285" serial_no="2" title="Hなストーリー1" pre_gp_lv="2" pre_quest_id="0" have_hcg="true" dialog_id="2285060" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2285" serial_no="3" title="Hなストーリー2" pre_gp_lv="4" pre_quest_id="0" have_hcg="true" dialog_id="2285070" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2285" serial_no="4" title="絆Lv5達成報酬" pre_gp_lv="5" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="100" />
+  <StoryHeroSetting id="2285" serial_no="5" title="絆Lv9達成報酬" pre_gp_lv="9" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="200" />
+  <StoryHeroSetting id="2285" serial_no="6" title="絆Lv10達成報酬" pre_gp_lv="10" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="200" />
   <StoryHeroSetting id="2286" serial_no="1" title="絆ストーリー1" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2286010" dialog_id2="0" item_id="72" item_num="100" />
   <StoryHeroSetting id="2286" serial_no="2" title="絆ストーリー2" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2286020" dialog_id2="0" item_id="72" item_num="100" />
   <StoryHeroSetting id="2286" serial_no="3" title="絆ストーリー3" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2286030" dialog_id2="0" item_id="72" item_num="100" />
@@ -2214,4 +2219,60 @@
   <StoryHeroSetting id="2291" serial_no="13" title="絆Lv5達成報酬" pre_gp_lv="5" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="100" />
   <StoryHeroSetting id="2291" serial_no="14" title="絆Lv9達成報酬" pre_gp_lv="9" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="200" />
   <StoryHeroSetting id="2291" serial_no="15" title="絆Lv10達成報酬" pre_gp_lv="10" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="200" />
+  <StoryHeroSetting id="2296" serial_no="1" title="絆ストーリー1" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2296010" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2296" serial_no="2" title="絆ストーリー2" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2296020" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2296" serial_no="3" title="絆ストーリー3" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2296030" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2296" serial_no="4" title="Hなストーリー1" pre_gp_lv="2" pre_quest_id="0" have_hcg="true" dialog_id="2296060" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2296" serial_no="5" title="Hなストーリー2" pre_gp_lv="4" pre_quest_id="0" have_hcg="true" dialog_id="2296070" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2296" serial_no="6" title="絆Lv5達成報酬" pre_gp_lv="5" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="100" />
+  <StoryHeroSetting id="2296" serial_no="7" title="絆Lv9達成報酬" pre_gp_lv="9" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="200" />
+  <StoryHeroSetting id="2296" serial_no="8" title="絆Lv10達成報酬" pre_gp_lv="10" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="200" />
+  <StoryHeroSetting id="2297" serial_no="1" title="絆ストーリー1" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2297010" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2297" serial_no="2" title="絆ストーリー2" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2297020" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2297" serial_no="3" title="絆ストーリー3" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2297030" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2297" serial_no="4" title="絆ストーリー4" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2297040" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2297" serial_no="5" title="絆ストーリー5" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2297050" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2297" serial_no="6" title="絆ストーリー6" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2297060" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2297" serial_no="7" title="Hなストーリー1" pre_gp_lv="2" pre_quest_id="0" have_hcg="true" dialog_id="2297070" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2297" serial_no="8" title="Hなストーリー2" pre_gp_lv="4" pre_quest_id="0" have_hcg="true" dialog_id="2297080" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2297" serial_no="9" title="絆ストーリー7" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2297090" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2297" serial_no="10" title="絆ストーリー8" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2297100" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2297" serial_no="11" title="絆Lv5達成報酬" pre_gp_lv="5" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="100" />
+  <StoryHeroSetting id="2297" serial_no="12" title="絆Lv9達成報酬" pre_gp_lv="9" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="200" />
+  <StoryHeroSetting id="2297" serial_no="13" title="絆Lv10達成報酬" pre_gp_lv="10" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="200" />
+  <StoryHeroSetting id="2298" serial_no="1" title="絆ストーリー1" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2298010" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2298" serial_no="2" title="絆ストーリー2" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2298020" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2298" serial_no="3" title="絆ストーリー3" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2298030" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2298" serial_no="4" title="Hなストーリー1" pre_gp_lv="2" pre_quest_id="0" have_hcg="true" dialog_id="2298060" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2298" serial_no="5" title="Hなストーリー2" pre_gp_lv="4" pre_quest_id="0" have_hcg="true" dialog_id="2298070" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2298" serial_no="6" title="絆Lv5達成報酬" pre_gp_lv="5" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="100" />
+  <StoryHeroSetting id="2298" serial_no="7" title="絆Lv9達成報酬" pre_gp_lv="9" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="200" />
+  <StoryHeroSetting id="2298" serial_no="8" title="絆Lv10達成報酬" pre_gp_lv="10" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="200" />
+  <StoryHeroSetting id="2299" serial_no="1" title="絆ストーリー1" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2299010" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2299" serial_no="2" title="絆ストーリー2" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2299020" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2299" serial_no="3" title="絆ストーリー3" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2299030" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2299" serial_no="4" title="絆ストーリー4" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2299040" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2299" serial_no="5" title="Hなストーリー1" pre_gp_lv="2" pre_quest_id="0" have_hcg="true" dialog_id="2299060" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2299" serial_no="6" title="Hなストーリー2" pre_gp_lv="4" pre_quest_id="0" have_hcg="true" dialog_id="2299070" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2299" serial_no="7" title="絆Lv5達成報酬" pre_gp_lv="5" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="100" />
+  <StoryHeroSetting id="2299" serial_no="8" title="絆Lv9達成報酬" pre_gp_lv="9" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="200" />
+  <StoryHeroSetting id="2299" serial_no="9" title="絆Lv10達成報酬" pre_gp_lv="10" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="200" />
+  <StoryHeroSetting id="2300" serial_no="1" title="絆ストーリー1" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2300010" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2300" serial_no="2" title="絆ストーリー2" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2300020" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2300" serial_no="3" title="絆ストーリー3" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2300030" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2300" serial_no="4" title="絆ストーリー4" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2300040" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2300" serial_no="5" title="Hなストーリー1" pre_gp_lv="2" pre_quest_id="0" have_hcg="true" dialog_id="2300060" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2300" serial_no="6" title="絆Lv5達成報酬" pre_gp_lv="5" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="100" />
+  <StoryHeroSetting id="2300" serial_no="7" title="絆Lv9達成報酬" pre_gp_lv="9" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="200" />
+  <StoryHeroSetting id="2300" serial_no="8" title="絆Lv10達成報酬" pre_gp_lv="10" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="200" />
+  <StoryHeroSetting id="2295" serial_no="1" title="絆ストーリー1" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2295010" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2295" serial_no="2" title="絆ストーリー2" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2295020" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2295" serial_no="3" title="絆ストーリー3" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2295030" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2295" serial_no="4" title="絆ストーリー4" pre_gp_lv="0" pre_quest_id="0" have_hcg="false" dialog_id="2295040" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2295" serial_no="5" title="Hなストーリー1" pre_gp_lv="0" pre_quest_id="0" have_hcg="true" dialog_id="2295060" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2295" serial_no="6" title="Hなストーリー2" pre_gp_lv="2" pre_quest_id="0" have_hcg="true" dialog_id="2295070" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2295" serial_no="7" title="絆ストーリー5" pre_gp_lv="4" pre_quest_id="0" have_hcg="false" dialog_id="2295080" dialog_id2="0" item_id="72" item_num="100" />
+  <StoryHeroSetting id="2295" serial_no="8" title="絆Lv5達成報酬" pre_gp_lv="5" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="100" />
+  <StoryHeroSetting id="2295" serial_no="9" title="絆Lv9達成報酬" pre_gp_lv="9" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="200" />
+  <StoryHeroSetting id="2295" serial_no="10" title="絆Lv10達成報酬" pre_gp_lv="10" pre_quest_id="0" have_hcg="false" dialog_id="0" dialog_id2="0" item_id="12" item_num="200" />
 </root>

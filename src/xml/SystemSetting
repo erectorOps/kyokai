@@ -79,12 +79,12 @@
   <SystemSetting def="基礎道具數限制" val="1000" />
   <SystemSetting def="AP回復商品群組" val="101" />
   <SystemSetting def="AP回復優惠開始時間" val="2026/03/20 03:00:00" />
-  <SystemSetting def="AP回復優惠結束時間" val="2026/03/27 03:00:00" />
+  <SystemSetting def="AP回復優惠結束時間" val="2026/04/03 03:00:00" />
   <SystemSetting def="AP回復優惠商品群組" val="102" />
   <SystemSetting def="AP回復優惠額度" val="50" />
   <SystemSetting def="BP回復商品群組" val="201" />
   <SystemSetting def="BP回復優惠開始時間" val="2026/03/20 03:00:00" />
-  <SystemSetting def="BP回復優惠結束時間" val="2026/03/27 03:00:00" />
+  <SystemSetting def="BP回復優惠結束時間" val="2026/04/03 03:00:00" />
   <SystemSetting def="BP回復優惠商品群組" val="202" />
   <SystemSetting def="BP回復優惠額度" val="50" />
   <SystemSetting def="道具欄位擴充商品群組" val="1101" />
@@ -97,8 +97,8 @@
   <SystemSetting def="投裝備套組擴充商品群組" val="1151" />
   <SystemSetting def="共通裝備套組擴充商品群組" val="1156" />
   <SystemSetting def="資源收集重置商品群組" val="501" />
-  <SystemSetting def="資源收集重置優惠開始時間" val="2026/03/13 03:00:00" />
-  <SystemSetting def="資源收集重置優惠結束時間" val="2026/03/27 03:00:00" />
+  <SystemSetting def="資源收集重置優惠開始時間" val="2026/04/10 03:00:00" />
+  <SystemSetting def="資源收集重置優惠結束時間" val="2026/04/24 03:00:00" />
   <SystemSetting def="資源收集重置優惠商品群組" val="502" />
   <SystemSetting def="資源收集重置優惠額度" val="50" />
   <SystemSetting def="遊戲幣購買商品群組" val="701" />
@@ -383,7 +383,7 @@
   <SystemSetting def="飾品2格開放需求英雄等級" val="41" />
   <SystemSetting def="飾品4格開放需求英雄等級" val="51" />
   <SystemSetting def="飾品5格開放需求英雄等級" val="61" />
-  <SystemSetting def="新角色影片名稱" val="PS8_hero_2293.mp4" />
+  <SystemSetting def="新角色影片名稱" val="PS8_hero_2295.mp4" />
   <SystemSetting def="新角色影片更換時間" />
   <SystemSetting def="新角色影片更換名稱" />
   <SystemSetting def="特典序號圖示" val="item001/redemption_icon" />
@@ -492,8 +492,8 @@
   <SystemSetting def="儲值表特殊頁籤2開始時間" val="2025-11-20 11:00:00" />
   <SystemSetting def="儲值表特殊頁籤2結束時間" val="2025-11-27 11:00:00" />
   <SystemSetting def="RAID救援額外增加箱數" val="1" />
-  <SystemSetting def="RAID救援額外增加箱數開始時間" val="2026-03-12 11:00:00" />
-  <SystemSetting def="RAID救援額外增加箱數結束時間" val="2026-03-26 11:00:00" />
+  <SystemSetting def="RAID救援額外增加箱數開始時間" val="2026-04-09 11:00:00" />
+  <SystemSetting def="RAID救援額外增加箱數結束時間" val="2026-04-23 11:00:00" />
   <SystemSetting def="重置加值消耗道具ID" />
   <SystemSetting def="重置加值消耗道具數量" />
   <SystemSetting def="愚人節招募ID" val="9999999" />
