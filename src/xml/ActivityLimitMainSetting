@@ -270,4 +270,9 @@
     <limit_boss>400107</limit_boss>
     <limit_boss>0</limit_boss>
   </ActivityLimitMainSetting>
+  <ActivityLimitMainSetting id="40054" name="第54回競撃戦" hero_group_id="2301">
+    <limit_boss>400108</limit_boss>
+    <limit_boss>400109</limit_boss>
+    <limit_boss>0</limit_boss>
+  </ActivityLimitMainSetting>
 </root>

@@ -1087,6 +1087,18 @@
   <MonsterActionSetting id="45008" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4500801" />
   <MonsterActionSetting id="45008" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4500802" />
   <MonsterActionSetting id="45008" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4500803" />
+  <MonsterActionSetting id="81301" info="残り90秒" type="剩餘時間低於" value="90" skill_id="8130101" />
+  <MonsterActionSetting id="81301" info="残り60秒" type="剩餘時間低於" value="60" skill_id="8130102" />
+  <MonsterActionSetting id="81301" info="残り30秒" type="剩餘時間低於" value="30" skill_id="8130103" />
+  <MonsterActionSetting id="81302" info="残り90秒" type="剩餘時間低於" value="90" skill_id="8130201" />
+  <MonsterActionSetting id="81302" info="残り60秒" type="剩餘時間低於" value="60" skill_id="8130202" />
+  <MonsterActionSetting id="81302" info="残り30秒" type="剩餘時間低於" value="30" skill_id="8130203" />
+  <MonsterActionSetting id="81303" info="残り90秒" type="剩餘時間低於" value="90" skill_id="8130301" />
+  <MonsterActionSetting id="81303" info="残り60秒" type="剩餘時間低於" value="60" skill_id="8130302" />
+  <MonsterActionSetting id="81303" info="残り30秒" type="剩餘時間低於" value="30" skill_id="8130303" />
+  <MonsterActionSetting id="81304" info="残り90秒" type="剩餘時間低於" value="90" skill_id="8130401" />
+  <MonsterActionSetting id="81304" info="残り60秒" type="剩餘時間低於" value="60" skill_id="8130402" />
+  <MonsterActionSetting id="81304" info="残り30秒" type="剩餘時間低於" value="30" skill_id="8130403" />
   <MonsterActionSetting id="41001" type="剩餘時間低於" value="90" skill_id="4100101" />
   <MonsterActionSetting id="41001" type="剩餘時間低於" value="60" skill_id="4100102" />
   <MonsterActionSetting id="41001" type="剩餘時間低於" value="30" skill_id="4100103" />
@@ -1312,4 +1324,12 @@
   <MonsterActionSetting id="40106" info="自身が「物理防御DOWN」状態の場合" type="自身有指定狀態" value="DEF上升或下降" skill_id="4010604" />
   <MonsterActionSetting id="40106" info="自身が「魔法防御DOWN」状態の場合" type="自身有指定狀態" value="MDEF上升或下降" skill_id="4010605" />
   <MonsterActionSetting id="40106" info="自身が「ブロックDOWN」状態の場合" type="自身有指定狀態" value="迴避上升或下降" skill_id="4010606" />
+  <MonsterActionSetting id="40109" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4010901" />
+  <MonsterActionSetting id="40109" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4010902" />
+  <MonsterActionSetting id="40109" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4010903" />
+  <MonsterActionSetting id="40109" info="自身が「解消」状態の場合" type="自身有指定狀態" value="驅散" skill_id="4010904" />
+  <MonsterActionSetting id="40110" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4011001" />
+  <MonsterActionSetting id="40110" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4011002" />
+  <MonsterActionSetting id="40110" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4011003" />
+  <MonsterActionSetting id="40110" info="自身が「解消」状態の場合" type="自身有指定狀態" value="驅散" skill_id="4011004" />
 </root>

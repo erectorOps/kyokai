@@ -1589,6 +1589,7 @@
   <StringSetting id="18145" text="おπの月&#xD;&#xA;資源収集挑戦回数リセット消費晶石75％OFF&#xD;&#xA;キャンペーン" />
   <StringSetting id="18146" text="{0}の{1}消費-{2}%" />
   <StringSetting id="18147" text="{0}の消耗DOWN" />
+  <StringSetting id="18148" text="挑戦可能回数" />
   <StringSetting id="19001" text="メインストーリー(Normal)" />
   <StringSetting id="19002" text="メインストーリー(Hard)" />
   <StringSetting id="19003" text="資源収集" />
@@ -4528,7 +4529,7 @@
   <StringSetting id="95015" text="ランダム開放数エラー" />
   <StringSetting id="95016" text="大当たり一覧" />
   <StringSetting id="95017" text="{0}枚以降" />
-  <StringSetting id="95018" text="宝のコンパスを消費して枠を開け、眠っている宝を探しましょう！&#xA;さらに、周回ミッションで報酬を得ると、聖騎士の「蓄音水晶」も手に入ります！&#xA;※「蓄音水晶」は、FANZINE聖騎士の特別ボイスを解放できるアイテムです。" />
+  <StringSetting id="95018" text="宝のコンパスを消費して枠を開け、眠っているお宝を探しましょう！&#xA;大当たりを見つけると、残りの報酬を自動で獲得できます！&#xA;※11枚目以降は、すべての枠を開くことで同じマップに再挑戦できます。" />
   <StringSetting id="95101" text="次の一枚" />
   <StringSetting id="95102" text="報酬を獲得" />
   <StringSetting id="95103" text="データがありません" />
@@ -4685,9 +4686,10 @@
   <StringSetting id="95817" text="極みの塔・聖" />
   <StringSetting id="95818" text="極みの塔・魔" />
   <StringSetting id="95819" text="{0}×{1}を消費して、 下記の聖騎士の封印状態を解除しますか？" />
-  <StringSetting id="95820" text="一括解封" />
+  <StringSetting id="95820" text="一括解除" />
   <StringSetting id="95821" text="データがありません" />
   <StringSetting id="95822" text="聖騎士のデータがありません" />
+  <StringSetting id="95823" text="封印解除" />
   <StringSetting id="100001" text="Easy" />
   <StringSetting id="100002" text="Normal" />
   <StringSetting id="100003" text="Hard" />

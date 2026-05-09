@@ -374,4 +374,21 @@
     <stage_id>0</stage_id>
     <stage_id>0</stage_id>
   </DungeonSetting>
+  <DungeonSetting id="23" type="EX" start_time="2026/05/01 03:00:00" end_time="2026/06/01 02:59:59" rank_id="522" stage_buff_group="602200" star_id="1000029" award_bonus_scale="0">
+    <stage_id>221</stage_id>
+    <stage_id>222</stage_id>
+    <stage_id>223</stage_id>
+    <stage_id>224</stage_id>
+    <stage_id>225</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+  </DungeonSetting>
 </root>

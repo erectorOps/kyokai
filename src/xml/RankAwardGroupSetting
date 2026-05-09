@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <root>
-  <RankAwardGroupSetting id="110" serial_no="1" ranking="1" money="0" coin_per_hour="0" free_point="0" guild_icon="101001">
-    <title_id>901201</title_id>
+  <RankAwardGroupSetting id="110" serial_no="1" ranking="1" money="0" coin_per_hour="0" free_point="0" guild_icon="101101">
+    <title_id>901301</title_id>
     <title_id>0</title_id>
     <title_id>0</title_id>
     <item_id>0</item_id>
@@ -15,8 +15,8 @@
     <item_num>0</item_num>
     <item_num>0</item_num>
   </RankAwardGroupSetting>
-  <RankAwardGroupSetting id="110" serial_no="2" ranking="2" money="0" coin_per_hour="0" free_point="0" guild_icon="101002">
-    <title_id>901202</title_id>
+  <RankAwardGroupSetting id="110" serial_no="2" ranking="2" money="0" coin_per_hour="0" free_point="0" guild_icon="101102">
+    <title_id>901302</title_id>
     <title_id>0</title_id>
     <title_id>0</title_id>
     <item_id>0</item_id>
@@ -30,8 +30,8 @@
     <item_num>0</item_num>
     <item_num>0</item_num>
   </RankAwardGroupSetting>
-  <RankAwardGroupSetting id="110" serial_no="3" ranking="3" money="0" coin_per_hour="0" free_point="0" guild_icon="101003">
-    <title_id>901203</title_id>
+  <RankAwardGroupSetting id="110" serial_no="3" ranking="3" money="0" coin_per_hour="0" free_point="0" guild_icon="101103">
+    <title_id>901303</title_id>
     <title_id>0</title_id>
     <title_id>0</title_id>
     <item_id>0</item_id>
@@ -45,8 +45,8 @@
     <item_num>0</item_num>
     <item_num>0</item_num>
   </RankAwardGroupSetting>
-  <RankAwardGroupSetting id="110" serial_no="4" ranking="10" money="0" coin_per_hour="0" free_point="0" guild_icon="101004">
-    <title_id>901204</title_id>
+  <RankAwardGroupSetting id="110" serial_no="4" ranking="10" money="0" coin_per_hour="0" free_point="0" guild_icon="101104">
+    <title_id>901304</title_id>
     <title_id>0</title_id>
     <title_id>0</title_id>
     <item_id>0</item_id>
@@ -60,8 +60,8 @@
     <item_num>0</item_num>
     <item_num>0</item_num>
   </RankAwardGroupSetting>
-  <RankAwardGroupSetting id="110" serial_no="5" ranking="100" money="0" coin_per_hour="0" free_point="0" guild_icon="101005">
-    <title_id>901205</title_id>
+  <RankAwardGroupSetting id="110" serial_no="5" ranking="100" money="0" coin_per_hour="0" free_point="0" guild_icon="101105">
+    <title_id>901305</title_id>
     <title_id>0</title_id>
     <title_id>0</title_id>
     <item_id>0</item_id>
@@ -2387,6 +2387,81 @@
   </RankAwardGroupSetting>
   <RankAwardGroupSetting id="521" serial_no="5" ranking="100" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
     <title_id>602105</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>3390</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>1</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="522" serial_no="1" ranking="1" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
+    <title_id>602201</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>3390</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>1</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="522" serial_no="2" ranking="2" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
+    <title_id>602202</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>3390</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>1</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="522" serial_no="3" ranking="3" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
+    <title_id>602203</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>3390</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>1</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="522" serial_no="4" ranking="10" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
+    <title_id>602204</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>3390</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>1</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="522" serial_no="5" ranking="100" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
+    <title_id>602205</title_id>
     <title_id>0</title_id>
     <title_id>0</title_id>
     <item_id>3390</item_id>
@@ -46246,7 +46321,7 @@
     <item_num>0</item_num>
   </RankAwardGroupSetting>
   <RankAwardGroupSetting id="223301" serial_no="2" ranking="2" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
-    <title_id>223301</title_id>
+    <title_id>223302</title_id>
     <title_id>0</title_id>
     <title_id>0</title_id>
     <item_id>0</item_id>
@@ -46261,7 +46336,7 @@
     <item_num>0</item_num>
   </RankAwardGroupSetting>
   <RankAwardGroupSetting id="223301" serial_no="3" ranking="3" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
-    <title_id>223301</title_id>
+    <title_id>223303</title_id>
     <title_id>0</title_id>
     <title_id>0</title_id>
     <item_id>0</item_id>
@@ -46276,7 +46351,7 @@
     <item_num>0</item_num>
   </RankAwardGroupSetting>
   <RankAwardGroupSetting id="223301" serial_no="4" ranking="10" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
-    <title_id>223301</title_id>
+    <title_id>223304</title_id>
     <title_id>0</title_id>
     <title_id>0</title_id>
     <item_id>0</item_id>
@@ -46291,7 +46366,7 @@
     <item_num>0</item_num>
   </RankAwardGroupSetting>
   <RankAwardGroupSetting id="223301" serial_no="5" ranking="100" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
-    <title_id>223301</title_id>
+    <title_id>223305</title_id>
     <title_id>0</title_id>
     <title_id>0</title_id>
     <item_id>0</item_id>
@@ -46306,7 +46381,712 @@
     <item_num>0</item_num>
   </RankAwardGroupSetting>
   <RankAwardGroupSetting id="223301" serial_no="6" ranking="999999" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
-    <title_id>223301</title_id>
+    <title_id>223306</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005402" serial_no="1" ranking="1" money="0" coin_per_hour="0" free_point="3000" guild_icon="0">
+    <title_id>4005401</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005402" serial_no="2" ranking="2" money="0" coin_per_hour="0" free_point="2500" guild_icon="0">
+    <title_id>4005402</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005402" serial_no="3" ranking="3" money="0" coin_per_hour="0" free_point="2000" guild_icon="0">
+    <title_id>4005403</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005402" serial_no="4" ranking="4" money="0" coin_per_hour="0" free_point="1500" guild_icon="0">
+    <title_id>4005404</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005402" serial_no="5" ranking="5" money="0" coin_per_hour="0" free_point="1500" guild_icon="0">
+    <title_id>4005404</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005402" serial_no="6" ranking="6" money="0" coin_per_hour="0" free_point="1200" guild_icon="0">
+    <title_id>4005404</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005402" serial_no="7" ranking="7" money="0" coin_per_hour="0" free_point="1200" guild_icon="0">
+    <title_id>4005404</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005402" serial_no="8" ranking="8" money="0" coin_per_hour="0" free_point="1200" guild_icon="0">
+    <title_id>4005404</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005402" serial_no="9" ranking="9" money="0" coin_per_hour="0" free_point="1200" guild_icon="0">
+    <title_id>4005404</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005402" serial_no="10" ranking="10" money="0" coin_per_hour="0" free_point="1200" guild_icon="0">
+    <title_id>4005404</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005402" serial_no="11" ranking="50" money="0" coin_per_hour="0" free_point="1000" guild_icon="0">
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005402" serial_no="12" ranking="100" money="0" coin_per_hour="0" free_point="800" guild_icon="0">
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005402" serial_no="13" ranking="500" money="0" coin_per_hour="0" free_point="600" guild_icon="0">
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005402" serial_no="14" ranking="1000" money="0" coin_per_hour="0" free_point="500" guild_icon="0">
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005402" serial_no="15" ranking="5000" money="0" coin_per_hour="0" free_point="400" guild_icon="0">
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005402" serial_no="16" ranking="10000" money="0" coin_per_hour="0" free_point="300" guild_icon="0">
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005402" serial_no="17" ranking="30000" money="0" coin_per_hour="0" free_point="200" guild_icon="0">
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005402" serial_no="18" ranking="999999" money="0" coin_per_hour="0" free_point="100" guild_icon="0">
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005403" serial_no="1" ranking="1" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
+    <title_id>4005411</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005403" serial_no="2" ranking="2" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
+    <title_id>4005412</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005403" serial_no="3" ranking="3" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
+    <title_id>4005413</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005403" serial_no="4" ranking="4" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
+    <title_id>4005414</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005403" serial_no="5" ranking="5" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
+    <title_id>4005414</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005403" serial_no="6" ranking="6" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
+    <title_id>4005414</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005403" serial_no="7" ranking="7" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
+    <title_id>4005414</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005403" serial_no="8" ranking="8" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
+    <title_id>4005414</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005403" serial_no="9" ranking="9" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
+    <title_id>4005414</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005403" serial_no="10" ranking="10" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
+    <title_id>4005414</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005403" serial_no="11" ranking="100" money="0" coin_per_hour="0" free_point="0" guild_icon="0">
+    <title_id>4005415</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005412" serial_no="1" ranking="1" money="0" coin_per_hour="0" free_point="2000" guild_icon="0">
+    <title_id>4005421</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005412" serial_no="2" ranking="2" money="0" coin_per_hour="0" free_point="1500" guild_icon="0">
+    <title_id>4005422</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005412" serial_no="3" ranking="3" money="0" coin_per_hour="0" free_point="1000" guild_icon="0">
+    <title_id>4005423</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005412" serial_no="4" ranking="4" money="0" coin_per_hour="0" free_point="800" guild_icon="0">
+    <title_id>4005424</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005412" serial_no="5" ranking="5" money="0" coin_per_hour="0" free_point="800" guild_icon="0">
+    <title_id>4005424</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005412" serial_no="6" ranking="6" money="0" coin_per_hour="0" free_point="800" guild_icon="0">
+    <title_id>4005424</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005412" serial_no="7" ranking="7" money="0" coin_per_hour="0" free_point="800" guild_icon="0">
+    <title_id>4005424</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005412" serial_no="8" ranking="8" money="0" coin_per_hour="0" free_point="800" guild_icon="0">
+    <title_id>4005424</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005412" serial_no="9" ranking="9" money="0" coin_per_hour="0" free_point="800" guild_icon="0">
+    <title_id>4005424</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005412" serial_no="10" ranking="10" money="0" coin_per_hour="0" free_point="800" guild_icon="0">
+    <title_id>4005424</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005412" serial_no="11" ranking="50" money="0" coin_per_hour="0" free_point="600" guild_icon="0">
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005412" serial_no="12" ranking="100" money="0" coin_per_hour="0" free_point="500" guild_icon="0">
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005412" serial_no="13" ranking="500" money="0" coin_per_hour="0" free_point="400" guild_icon="0">
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005412" serial_no="14" ranking="1000" money="0" coin_per_hour="0" free_point="300" guild_icon="0">
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005412" serial_no="15" ranking="5000" money="0" coin_per_hour="0" free_point="200" guild_icon="0">
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005412" serial_no="16" ranking="10000" money="0" coin_per_hour="0" free_point="100" guild_icon="0">
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005412" serial_no="17" ranking="30000" money="0" coin_per_hour="0" free_point="80" guild_icon="0">
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <title_id>0</title_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_id>0</item_id>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+    <item_num>0</item_num>
+  </RankAwardGroupSetting>
+  <RankAwardGroupSetting id="4005412" serial_no="18" ranking="999999" money="0" coin_per_hour="0" free_point="50" guild_icon="0">
+    <title_id>0</title_id>
     <title_id>0</title_id>
     <title_id>0</title_id>
     <item_id>0</item_id>

@@ -1232,4 +1232,26 @@
     <quest_id>0</quest_id>
     <quest_id>0</quest_id>
   </ActivityTrainSetting>
+  <ActivityTrainSetting id="921" day="0" name="ミッション">
+    <quest_id>93901</quest_id>
+    <quest_id>93902</quest_id>
+    <quest_id>93903</quest_id>
+    <quest_id>93904</quest_id>
+    <quest_id>93905</quest_id>
+    <quest_id>93906</quest_id>
+    <quest_id>93907</quest_id>
+    <quest_id>93908</quest_id>
+    <quest_id>93909</quest_id>
+    <quest_id>93910</quest_id>
+    <quest_id>93911</quest_id>
+    <quest_id>93912</quest_id>
+    <quest_id>93913</quest_id>
+    <quest_id>93914</quest_id>
+    <quest_id>93915</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+  </ActivityTrainSetting>
 </root>

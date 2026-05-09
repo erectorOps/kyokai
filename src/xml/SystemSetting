@@ -11,6 +11,7 @@
   <SystemSetting def="R級角色初始等級上限" val="30" />
   <SystemSetting def="SR級角色初始等級上限" val="40" />
   <SystemSetting def="SSR級角色初始等級上限" val="50" />
+  <SystemSetting def="BBR級角色初始等級上限" val="60" />
   <SystemSetting def="初始突破次數" val="4" />
   <SystemSetting def="最大突破次數" val="5" />
   <SystemSetting def="突破後增加的等級上限" val="10" />
@@ -72,19 +73,20 @@
   <SystemSetting def="R級角色碎片溢出轉換比" val="1" />
   <SystemSetting def="SR級角色碎片溢出轉換比" val="5" />
   <SystemSetting def="SSR級角色碎片溢出轉換比" val="25" />
+  <SystemSetting def="BBR級角色碎片溢出轉換比" val="40" />
   <SystemSetting def="SKIN道具天數轉換比" val="100" />
   <SystemSetting def="自選PU召喚獲得額外碎片數" val="50" />
   <SystemSetting def="自選PU交換所獲得額外碎片數" val="100" />
   <SystemSetting def="基礎角色數限制" val="150" />
   <SystemSetting def="基礎道具數限制" val="1000" />
   <SystemSetting def="AP回復商品群組" val="101" />
-  <SystemSetting def="AP回復優惠開始時間" val="2026/03/20 03:00:00" />
-  <SystemSetting def="AP回復優惠結束時間" val="2026/04/03 03:00:00" />
+  <SystemSetting def="AP回復優惠開始時間" val="2026/05/01 03:00:00" />
+  <SystemSetting def="AP回復優惠結束時間" val="2026/05/08 03:00:00" />
   <SystemSetting def="AP回復優惠商品群組" val="102" />
   <SystemSetting def="AP回復優惠額度" val="50" />
   <SystemSetting def="BP回復商品群組" val="201" />
-  <SystemSetting def="BP回復優惠開始時間" val="2026/03/20 03:00:00" />
-  <SystemSetting def="BP回復優惠結束時間" val="2026/04/03 03:00:00" />
+  <SystemSetting def="BP回復優惠開始時間" val="2026/05/01 03:00:00" />
+  <SystemSetting def="BP回復優惠結束時間" val="2026/05/08 03:00:00" />
   <SystemSetting def="BP回復優惠商品群組" val="202" />
   <SystemSetting def="BP回復優惠額度" val="50" />
   <SystemSetting def="道具欄位擴充商品群組" val="1101" />
@@ -97,8 +99,8 @@
   <SystemSetting def="投裝備套組擴充商品群組" val="1151" />
   <SystemSetting def="共通裝備套組擴充商品群組" val="1156" />
   <SystemSetting def="資源收集重置商品群組" val="501" />
-  <SystemSetting def="資源收集重置優惠開始時間" val="2026/04/10 03:00:00" />
-  <SystemSetting def="資源收集重置優惠結束時間" val="2026/04/24 03:00:00" />
+  <SystemSetting def="資源收集重置優惠開始時間" val="2026/05/10 03:00:00" />
+  <SystemSetting def="資源收集重置優惠結束時間" val="2026/05/24 03:00:00" />
   <SystemSetting def="資源收集重置優惠商品群組" val="502" />
   <SystemSetting def="資源收集重置優惠額度" val="50" />
   <SystemSetting def="遊戲幣購買商品群組" val="701" />
@@ -126,6 +128,7 @@
   <SystemSetting def="UB限制_被動技能1" val="3" />
   <SystemSetting def="UB限制_被動技能2" val="5" />
   <SystemSetting def="UB等級上限" val="5" />
+  <SystemSetting def="BBR_UB等級上限" val="6" />
   <SystemSetting def="覺醒提升UB等級上限" val="1" />
   <SystemSetting def="記憶解放Lv1升2需求量" val="50" />
   <SystemSetting def="記憶解放Lv2升3需求量" val="100" />
@@ -133,6 +136,7 @@
   <SystemSetting def="記憶解放Lv4升5需求量" val="350" />
   <SystemSetting def="記憶解放Lv5升6需求道具ID" val="12" />
   <SystemSetting def="記憶解放Lv5升6需求量" val="5000" />
+  <SystemSetting def="BBR記憶解放Lv5升6需求量" val="500" />
   <SystemSetting def="吸血基礎參數" val="100" />
   <SystemSetting def="吸血敵方等級參數" val="6" />
   <SystemSetting def="物理坦克_五角換算參數_HP" val="0.0015625" />
@@ -364,26 +368,32 @@
   <SystemSetting def="上限突破R火屬性素材特殊數值ID" val="9000001" />
   <SystemSetting def="上限突破SR火屬性素材特殊數值ID" val="9000002" />
   <SystemSetting def="上限突破SSR火屬性素材特殊數值ID" val="9000003" />
+  <SystemSetting def="上限突破BBR火屬性素材特殊數值ID" val="9000003" />
   <SystemSetting def="上限突破R水屬性素材特殊數值ID" val="9000011" />
   <SystemSetting def="上限突破SR水屬性素材特殊數值ID" val="9000012" />
   <SystemSetting def="上限突破SSR水屬性素材特殊數值ID" val="9000013" />
+  <SystemSetting def="上限突破BBR水屬性素材特殊數值ID" val="9000013" />
   <SystemSetting def="上限突破R風屬性素材特殊數值ID" val="9000021" />
   <SystemSetting def="上限突破SR風屬性素材特殊數值ID" val="9000022" />
   <SystemSetting def="上限突破SSR風屬性素材特殊數值ID" val="9000023" />
+  <SystemSetting def="上限突破BBR風屬性素材特殊數值ID" val="9000023" />
   <SystemSetting def="上限突破R聖屬性素材特殊數值ID" val="9000031" />
   <SystemSetting def="上限突破SR聖屬性素材特殊數值ID" val="9000032" />
   <SystemSetting def="上限突破SSR聖屬性素材特殊數值ID" val="9000033" />
+  <SystemSetting def="上限突破BBR聖屬性素材特殊數值ID" val="9000033" />
   <SystemSetting def="上限突破R魔屬性素材特殊數值ID" val="9000041" />
   <SystemSetting def="上限突破SR魔屬性素材特殊數值ID" val="9000042" />
   <SystemSetting def="上限突破SSR魔屬性素材特殊數值ID" val="9000043" />
+  <SystemSetting def="上限突破BBR魔屬性素材特殊數值ID" val="9000043" />
   <SystemSetting def="上限突破R想屬性素材特殊數值ID" val="9000051" />
   <SystemSetting def="上限突破SR想屬性素材特殊數值ID" val="9000052" />
   <SystemSetting def="上限突破SSR想屬性素材特殊數值ID" val="9000053" />
+  <SystemSetting def="上限突破BBR想屬性素材特殊數值ID" val="9000053" />
   <SystemSetting def="裝備開放需求英雄等級" val="31" />
   <SystemSetting def="飾品2格開放需求英雄等級" val="41" />
   <SystemSetting def="飾品4格開放需求英雄等級" val="51" />
   <SystemSetting def="飾品5格開放需求英雄等級" val="61" />
-  <SystemSetting def="新角色影片名稱" val="PS8_hero_2295.mp4" />
+  <SystemSetting def="新角色影片名稱" />
   <SystemSetting def="新角色影片更換時間" />
   <SystemSetting def="新角色影片更換名稱" />
   <SystemSetting def="特典序號圖示" val="item001/redemption_icon" />
@@ -492,8 +502,8 @@
   <SystemSetting def="儲值表特殊頁籤2開始時間" val="2025-11-20 11:00:00" />
   <SystemSetting def="儲值表特殊頁籤2結束時間" val="2025-11-27 11:00:00" />
   <SystemSetting def="RAID救援額外增加箱數" val="1" />
-  <SystemSetting def="RAID救援額外增加箱數開始時間" val="2026-04-09 11:00:00" />
-  <SystemSetting def="RAID救援額外增加箱數結束時間" val="2026-04-23 11:00:00" />
+  <SystemSetting def="RAID救援額外增加箱數開始時間" val="2026-05-07 11:00:00" />
+  <SystemSetting def="RAID救援額外增加箱數結束時間" val="2026-05-21 11:00:00" />
   <SystemSetting def="重置加值消耗道具ID" />
   <SystemSetting def="重置加值消耗道具數量" />
   <SystemSetting def="愚人節招募ID" val="9999999" />
@@ -508,7 +518,7 @@
   <SystemSetting def="FY祭刷新時間" val="30" />
   <SystemSetting def="屬性塔重置週期" val="星期一" />
   <SystemSetting def="屬性塔角色使用次數上限" val="1" />
-  <SystemSetting def="屬性塔重置道具ID" />
+  <SystemSetting def="屬性塔重置道具ID" val="29" />
   <SystemSetting def="公式Discord網址" val="https://discord.gg/XeFK26FtrS" />
   <SystemSetting def="黑色星期五交換所ID" val="2025" />
 </root>
