@@ -419,9 +419,19 @@ class SkillCheck {
 }
 
 
+
 export class PreSkillCategorize {
     constructor(kf) {
         this.kf = kf;
+    }
+
+    getChangeSkillId(skill_id) {
+        const skills = this.kf.SkillSetting;
+        const skill = skills.find(item => item['@_id'] == skill_id);
+        if (!skill) {
+            log.error(`skill not found: ${skill_id}`);
+        }
+        return skill['@_awake_change_skill_id'];
     }
 
     categorize() {
@@ -448,9 +458,9 @@ export class PreSkillCategorize {
             };
 
             if (hero['@_passive_skill3'] && hero['@_passive_skill3'] != "0") {
-                actives.push(new SkillCheck(this.kf, hero['@_skill1'] + "2"));
-                actives.push(new SkillCheck(this.kf, hero['@_skill2'] + "2"));
-                ultimate.push(new SkillCheck(this.kf, hero['@_ub_skill'] + "2"));
+                actives.push(new SkillCheck(this.kf, this.getChangeSkillId(hero['@_skill1'])));
+                actives.push(new SkillCheck(this.kf, this.getChangeSkillId(hero['@_skill2'])));
+                ultimate.push(new SkillCheck(this.kf, this.getChangeSkillId(hero['@_ub_skill'])));
             } else {
                 actives.push(new SkillCheck(this.kf, hero['@_skill1']));
                 actives.push(new SkillCheck(this.kf, hero['@_skill2']));

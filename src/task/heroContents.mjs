@@ -42,6 +42,15 @@ export class HeroContents {
     }
   }
 
+  getChangeSkillId(skill_id) {
+      const skills = this.kf.SkillSetting;
+      const skill = skills.find(item => item['@_id'] == skill_id);
+      if (!skill) {
+          log.error(`skill not found: ${skill_id}`);
+      }
+      return skill['@_awake_change_skill_id'];
+  }
+
   processHeroData(hero, lang, t) {
     const kf = this.kf;
     const id = hero['@_id'];
@@ -276,10 +285,10 @@ export class HeroContents {
       calcPassive(hero['@_passive_skill3'], json, kf);
 
       for (let i = 0; i < 6; i++) {
-        awakeUbSkills.push(parseSkill((ub1+i)+"2", 0, kf));
+        awakeUbSkills.push(parseSkill(this.getChangeSkillId((ub1+i)+""), 0, kf));
       }
-      json.awake_skill1 = parseSkill(hero['@_skill1'] + "2", parseInt(json.lv), kf);
-      json.awake_skill2 = parseSkill(hero['@_skill2'] + "2", parseInt(json.lv), kf);
+      json.awake_skill1 = parseSkill(this.getChangeSkillId(hero['@_skill1']), parseInt(json.lv), kf);
+      json.awake_skill2 = parseSkill(this.getChangeSkillId(hero['@_skill2']), parseInt(json.lv), kf);
     }
     
 
