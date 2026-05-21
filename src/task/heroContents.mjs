@@ -5,7 +5,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { minify } from 'html-minifier';
 import chalk from 'chalk';
-
+import pLimit from 'p-limit';
 import * as Util from './hero/_util.mjs';
 
 import { calcPassive } from './hero/_calcPassive.mjs';
@@ -453,37 +453,43 @@ export class HeroContents {
 
         await fs.mkdir(distPath.hero, { recursive: true });
 
-        return Promise.all(heroList.map(async hero => {
-          const id = hero['@_id'];
-          const langUtil = new LangUtil(lang, `./${id}.html`);
-          const json = this.processHeroData(hero, lang, t);
+        const limit = pLimit(4);
 
-          if (!json) {
-            log(chalk.yellow(`[WARN] Hero ${id} は hero_add が存在しないためビルド対象から除外されました`));
-            return;
-          }
+        return Promise.all(
+          heroList.map(hero =>
+              limit(async () => {
+              const id = hero['@_id'];
+              const langUtil = new LangUtil(lang, `./${id}.html`);
+              const json = this.processHeroData(hero, lang, t);
 
-          json.parent_title = t('breadcrumb-list_title');
-          json.lang = lang;
-          json.t = t;
-          json.supportedLangs = supportedLangs;
-          json.langUtil = langUtil;
+              if (!json) {
+                log(chalk.yellow(`[WARN] Hero ${id} は hero_add が存在しないためビルド対象から除外されました`));
+                return;
+              }
 
-          const html = renderFunc({json: json});
+              json.parent_title = t('breadcrumb-list_title');
+              json.lang = lang;
+              json.t = t;
+              json.supportedLangs = supportedLangs;
+              json.langUtil = langUtil;
 
-          const minifiedHtml = minify(html, {
-            collapseWhitespace: true,
-            removeComments: true,
-            removeRedundantAttributes: true,
-            removeStyleLinkTypeAttributes: true,
-            useShortDoctype: true,
-            minifyCSS: true,
-            minifyJS: true
-          });
+              const html = renderFunc({json: json});
 
-          await fs.writeFile(path.join(distPath.hero, `${id}.${lang}.html`), minifiedHtml, "utf-8");
-          log(`Created ${id}.${lang}.html`);
-        }));
+              const minifiedHtml = minify(html, {
+                collapseWhitespace: true,
+                removeComments: true,
+                removeRedundantAttributes: true,
+                removeStyleLinkTypeAttributes: true,
+                useShortDoctype: true,
+                minifyCSS: true,
+                minifyJS: true
+              });
+
+              await fs.writeFile(path.join(distPath.hero, `${id}.${lang}.html`), minifiedHtml, "utf-8");
+              log(`Created ${id}.${lang}.html`);
+            })
+          )
+        );
       };
       return task.bind(this);
     });
