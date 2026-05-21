@@ -329,6 +329,7 @@
   <StringSetting id="5310" text="Lvが上限に達しました" />
   <StringSetting id="5311" text="Lv{0}/{1}" />
   <StringSetting id="5312" text="APが不足しています&#xA;晶石×{0}を消費して、AP×{1} を回復しますか？" />
+  <StringSetting id="5313" text="現在開催中の期間挑戦はありません" />
   <StringSetting id="5315" text="レゴルが不足しています" />
   <StringSetting id="5316" text="おすすめ強化" />
   <StringSetting id="5317" text="装備獲得" />
@@ -3526,7 +3527,7 @@
   <StringSetting id="60067" text="獲得失敗" />
   <StringSetting id="60068" text="報酬を獲得済みです" />
   <StringSetting id="60069" text="ランキング" />
-  <StringSetting id="60070" text="ランキング1位～10位：称号「ぴょんぴょん♪」を獲得できます。&#xA;ランキング1位～100位：称号「ぴょん♪」を獲得できます。" />
+  <StringSetting id="60070" text="ランキング1位～10位：称号「妖狐のお墨付き」を獲得できます。&#xA;ランキング1位～100位：称号「妖狐憑き」を獲得できます。" />
   <StringSetting id="60071" text="プレイヤー情報がありません" />
   <StringSetting id="60072" text="攻撃でHP-{0}" />
   <StringSetting id="60073" text="{0}秒後に更新可能" />

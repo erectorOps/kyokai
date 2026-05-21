@@ -2120,7 +2120,7 @@
     <select_grow_sp_activity_id>4027</select_grow_sp_activity_id>
     <select_grow_sp_activity_id>4028</select_grow_sp_activity_id>
   </HeroSetting>
-  <HeroSetting id="2214" group="2214" attr="魔" atk_attr="物理" rare="SSR" equip_type="射" name="ベルベル" atk_skill="221461" skill1="221462" skill2="221463" ub_skill="221464" passive_skill1="221481" passive_skill2="221482" passive_skill3="0" first_skill_order="2/1/0" loop_skill_order="0/0/0/0/1/2/0/0" show_skill_order="false" hp_base="2745" atk_base="129" matk_base="215" def_base="57" mdef_base="57" hit_base="60" block_base="50" atk_crit_base="249" matk_crit_base="416" end_hp_recovery_base="137" end_mp_recovery_base="59" dmg_suck_hp_base="0" healing_power_base="100" mp_recovery_base="58" mp_cost_down_base="0" grow_id="2214" talent_id="2214" ubup_item_id="2214" battle_power_base="0" universal_item_id="2214" universal_item_num="50" convert_item_id="0" convert_item_num="0" monster_stage_id="0" arrive_boss_id="0" grow_sp_end_time="2026/05/21 11:00" grow_sp_exp_item_add_scale="0.3" grow_sp_lv_limit_discount_scale="0.3" grow_sp_skill_rein_discount_scale="0.3" role_set="サポート" skill_set="強化、弱体化、妨害、MP回復" show_slot_buff_id="0" show_slot_buff_count="0" show_slot="false" have_effect="false" show_effect="false" ub_show_effect="false">
+  <HeroSetting id="2214" group="2214" attr="魔" atk_attr="物理" rare="SSR" equip_type="射" name="ベルベル" atk_skill="221461" skill1="221462" skill2="221463" ub_skill="221464" passive_skill1="221481" passive_skill2="221482" passive_skill3="0" first_skill_order="2/1/0" loop_skill_order="0/0/0/0/1/2/0/0" show_skill_order="false" hp_base="2745" atk_base="129" matk_base="215" def_base="57" mdef_base="57" hit_base="60" block_base="50" atk_crit_base="249" matk_crit_base="416" end_hp_recovery_base="137" end_mp_recovery_base="59" dmg_suck_hp_base="0" healing_power_base="100" mp_recovery_base="58" mp_cost_down_base="0" grow_id="2214" talent_id="2214" ubup_item_id="2214" battle_power_base="0" universal_item_id="2214" universal_item_num="50" convert_item_id="0" convert_item_num="0" monster_stage_id="0" arrive_boss_id="0" grow_sp_end_time="2026/05/24 00:00" grow_sp_exp_item_add_scale="0.3" grow_sp_lv_limit_discount_scale="0.3" grow_sp_skill_rein_discount_scale="0.3" role_set="サポート" skill_set="強化、弱体化、妨害、MP回復" show_slot_buff_id="0" show_slot_buff_count="0" show_slot="false" have_effect="false" show_effect="false" ub_show_effect="false">
     <exclusive_equip>0</exclusive_equip>
     <exclusive_equip>0</exclusive_equip>
     <exclusive_equip>0</exclusive_equip>
@@ -2140,7 +2140,7 @@
     <select_grow_sp_activity_id>4027</select_grow_sp_activity_id>
     <select_grow_sp_activity_id>4028</select_grow_sp_activity_id>
   </HeroSetting>
-  <HeroSetting id="2216" group="2216" attr="水" atk_attr="物理" rare="SSR" equip_type="斬" name="アルシャール" atk_skill="221661" skill1="221662" skill2="221663" ub_skill="221664" passive_skill1="221681" passive_skill2="221682" passive_skill3="0" first_skill_order="2/1/0" loop_skill_order="0/0/1/0/0/0/2/1/0/0" show_skill_order="false" hp_base="1819" atk_base="299" matk_base="179" def_base="90" mdef_base="110" hit_base="60" block_base="50" atk_crit_base="207" matk_crit_base="124" end_hp_recovery_base="90" end_mp_recovery_base="59" dmg_suck_hp_base="0" healing_power_base="100" mp_recovery_base="60" mp_cost_down_base="0" grow_id="2216" talent_id="2216" ubup_item_id="2216" battle_power_base="0" universal_item_id="2216" universal_item_num="50" convert_item_id="0" convert_item_num="0" monster_stage_id="0" arrive_boss_id="0" grow_sp_end_time="2026/05/21 11:00" grow_sp_exp_item_add_scale="0.3" grow_sp_lv_limit_discount_scale="0.3" grow_sp_skill_rein_discount_scale="0.3" role_set="アタック" skill_set="強化、弱体化、妨害" show_slot_buff_id="0" show_slot_buff_count="0" show_slot="false" have_effect="false" show_effect="false" ub_show_effect="false">
+  <HeroSetting id="2216" group="2216" attr="水" atk_attr="物理" rare="SSR" equip_type="斬" name="アルシャール" atk_skill="221661" skill1="221662" skill2="221663" ub_skill="221664" passive_skill1="221681" passive_skill2="221682" passive_skill3="0" first_skill_order="2/1/0" loop_skill_order="0/0/1/0/0/0/2/1/0/0" show_skill_order="false" hp_base="1819" atk_base="299" matk_base="179" def_base="90" mdef_base="110" hit_base="60" block_base="50" atk_crit_base="207" matk_crit_base="124" end_hp_recovery_base="90" end_mp_recovery_base="59" dmg_suck_hp_base="0" healing_power_base="100" mp_recovery_base="60" mp_cost_down_base="0" grow_id="2216" talent_id="2216" ubup_item_id="2216" battle_power_base="0" universal_item_id="2216" universal_item_num="50" convert_item_id="0" convert_item_num="0" monster_stage_id="0" arrive_boss_id="0" grow_sp_end_time="2026/05/24 00:00" grow_sp_exp_item_add_scale="0.3" grow_sp_lv_limit_discount_scale="0.3" grow_sp_skill_rein_discount_scale="0.3" role_set="アタック" skill_set="強化、弱体化、妨害" show_slot_buff_id="0" show_slot_buff_count="0" show_slot="false" have_effect="false" show_effect="false" ub_show_effect="false">
     <exclusive_equip>0</exclusive_equip>
     <exclusive_equip>0</exclusive_equip>
     <exclusive_equip>0</exclusive_equip>
@@ -2150,7 +2150,7 @@
     <select_grow_sp_activity_id>4027</select_grow_sp_activity_id>
     <select_grow_sp_activity_id>4028</select_grow_sp_activity_id>
   </HeroSetting>
-  <HeroSetting id="2217" group="2217" attr="水" atk_attr="物理" rare="SSR" equip_type="投" name="ネフィリア" atk_skill="221761" skill1="221762" skill2="221763" ub_skill="221764" passive_skill1="221781" passive_skill2="221782" passive_skill3="0" first_skill_order="2/1/0" loop_skill_order="0/0/1/0/0/2/0/0/1/0" show_skill_order="false" hp_base="2092" atk_base="168" matk_base="281" def_base="57" mdef_base="57" hit_base="60" block_base="50" atk_crit_base="75" matk_crit_base="125" end_hp_recovery_base="104" end_mp_recovery_base="59" dmg_suck_hp_base="0" healing_power_base="100" mp_recovery_base="53" mp_cost_down_base="0" grow_id="2217" talent_id="2217" ubup_item_id="2217" battle_power_base="0" universal_item_id="2217" universal_item_num="50" convert_item_id="0" convert_item_num="0" monster_stage_id="0" arrive_boss_id="0" grow_sp_end_time="2026/05/21 11:00" grow_sp_exp_item_add_scale="0.3" grow_sp_lv_limit_discount_scale="0.3" grow_sp_skill_rein_discount_scale="0.3" role_set="アタック" skill_set="弱体化、妨害" show_slot_buff_id="0" show_slot_buff_count="0" show_slot="false" have_effect="false" show_effect="false" ub_show_effect="false">
+  <HeroSetting id="2217" group="2217" attr="水" atk_attr="物理" rare="SSR" equip_type="投" name="ネフィリア" atk_skill="221761" skill1="221762" skill2="221763" ub_skill="221764" passive_skill1="221781" passive_skill2="221782" passive_skill3="0" first_skill_order="2/1/0" loop_skill_order="0/0/1/0/0/2/0/0/1/0" show_skill_order="false" hp_base="2092" atk_base="168" matk_base="281" def_base="57" mdef_base="57" hit_base="60" block_base="50" atk_crit_base="75" matk_crit_base="125" end_hp_recovery_base="104" end_mp_recovery_base="59" dmg_suck_hp_base="0" healing_power_base="100" mp_recovery_base="53" mp_cost_down_base="0" grow_id="2217" talent_id="2217" ubup_item_id="2217" battle_power_base="0" universal_item_id="2217" universal_item_num="50" convert_item_id="0" convert_item_num="0" monster_stage_id="0" arrive_boss_id="0" grow_sp_end_time="2026/05/24 00:00" grow_sp_exp_item_add_scale="0.3" grow_sp_lv_limit_discount_scale="0.3" grow_sp_skill_rein_discount_scale="0.3" role_set="アタック" skill_set="弱体化、妨害" show_slot_buff_id="0" show_slot_buff_count="0" show_slot="false" have_effect="false" show_effect="false" ub_show_effect="false">
     <exclusive_equip>0</exclusive_equip>
     <exclusive_equip>0</exclusive_equip>
     <exclusive_equip>0</exclusive_equip>
@@ -2160,7 +2160,7 @@
     <select_grow_sp_activity_id>4027</select_grow_sp_activity_id>
     <select_grow_sp_activity_id>4028</select_grow_sp_activity_id>
   </HeroSetting>
-  <HeroSetting id="2218" group="2218" attr="想" atk_attr="物理" rare="SSR" equip_type="投" name="ルキシス" atk_skill="221861" skill1="221862" skill2="221863" ub_skill="221864" passive_skill1="221881" passive_skill2="221882" passive_skill3="0" first_skill_order="2/1/0" loop_skill_order="0/0/0/0/1/2/0/0" show_skill_order="false" hp_base="2251" atk_base="174" matk_base="291" def_base="120" mdef_base="80" hit_base="60" block_base="55" atk_crit_base="32" matk_crit_base="53" end_hp_recovery_base="112" end_mp_recovery_base="59" dmg_suck_hp_base="0" healing_power_base="100" mp_recovery_base="63" mp_cost_down_base="0" grow_id="2218" talent_id="2218" ubup_item_id="2218" battle_power_base="0" universal_item_id="2218" universal_item_num="50" convert_item_id="0" convert_item_num="0" monster_stage_id="0" arrive_boss_id="0" grow_sp_end_time="2026/05/21 11:00" grow_sp_exp_item_add_scale="0.3" grow_sp_lv_limit_discount_scale="0.3" grow_sp_skill_rein_discount_scale="0.3" role_set="サポート" skill_set="回復、強化、弱体化、妨害、MP回復" show_slot_buff_id="0" show_slot_buff_count="0" show_slot="false" have_effect="false" show_effect="false" ub_show_effect="false">
+  <HeroSetting id="2218" group="2218" attr="想" atk_attr="物理" rare="SSR" equip_type="投" name="ルキシス" atk_skill="221861" skill1="221862" skill2="221863" ub_skill="221864" passive_skill1="221881" passive_skill2="221882" passive_skill3="0" first_skill_order="2/1/0" loop_skill_order="0/0/0/0/1/2/0/0" show_skill_order="false" hp_base="2251" atk_base="174" matk_base="291" def_base="120" mdef_base="80" hit_base="60" block_base="55" atk_crit_base="32" matk_crit_base="53" end_hp_recovery_base="112" end_mp_recovery_base="59" dmg_suck_hp_base="0" healing_power_base="100" mp_recovery_base="63" mp_cost_down_base="0" grow_id="2218" talent_id="2218" ubup_item_id="2218" battle_power_base="0" universal_item_id="2218" universal_item_num="50" convert_item_id="0" convert_item_num="0" monster_stage_id="0" arrive_boss_id="0" grow_sp_end_time="2026/05/24 00:00" grow_sp_exp_item_add_scale="0.3" grow_sp_lv_limit_discount_scale="0.3" grow_sp_skill_rein_discount_scale="0.3" role_set="サポート" skill_set="回復、強化、弱体化、妨害、MP回復" show_slot_buff_id="0" show_slot_buff_count="0" show_slot="false" have_effect="false" show_effect="false" ub_show_effect="false">
     <exclusive_equip>0</exclusive_equip>
     <exclusive_equip>0</exclusive_equip>
     <exclusive_equip>0</exclusive_equip>
@@ -3000,7 +3000,7 @@
     <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
     <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
   </HeroSetting>
-  <HeroSetting id="2302" group="2302" attr="風" atk_attr="物理" rare="SSR" equip_type="打" name="レスリア" atk_skill="230261" skill1="230262" skill2="230263" ub_skill="230264" passive_skill1="230281" passive_skill2="230282" passive_skill3="0" first_skill_order="2/1/0" loop_skill_order="0/0/0/2/0/1/0/0" show_skill_order="false" hp_base="3103" atk_base="284" matk_base="170" def_base="35" mdef_base="14" hit_base="60" block_base="50" atk_crit_base="207" matk_crit_base="124" end_hp_recovery_base="155" end_mp_recovery_base="59" dmg_suck_hp_base="0" healing_power_base="100" mp_recovery_base="65" mp_cost_down_base="0" grow_id="2302" talent_id="2302" ubup_item_id="2302" battle_power_base="0" universal_item_id="2302" universal_item_num="50" convert_item_id="0" convert_item_num="0" monster_stage_id="0" arrive_boss_id="0" grow_sp_end_time="2026/05/11 11:00" grow_sp_exp_item_add_scale="0.3" grow_sp_lv_limit_discount_scale="0.3" grow_sp_skill_rein_discount_scale="0.3" role_set="サポート" skill_set="回復、強化、MP回復" show_slot_buff_id="0" show_slot_buff_count="0" show_slot="false" have_effect="false" show_effect="false" ub_show_effect="false">
+  <HeroSetting id="2302" group="2302" attr="風" atk_attr="物理" rare="SSR" equip_type="打" name="レスリア" atk_skill="230261" skill1="230262" skill2="230263" ub_skill="230264" passive_skill1="230281" passive_skill2="230282" passive_skill3="0" first_skill_order="2/1/0" loop_skill_order="0/0/0/2/0/1/0/0" show_skill_order="false" hp_base="3103" atk_base="284" matk_base="170" def_base="35" mdef_base="14" hit_base="60" block_base="50" atk_crit_base="207" matk_crit_base="124" end_hp_recovery_base="155" end_mp_recovery_base="59" dmg_suck_hp_base="0" healing_power_base="100" mp_recovery_base="65" mp_cost_down_base="0" grow_id="2302" talent_id="2302" ubup_item_id="2302" battle_power_base="0" universal_item_id="2302" universal_item_num="50" convert_item_id="0" convert_item_num="0" monster_stage_id="0" arrive_boss_id="0" grow_sp_end_time="2026/05/24 00:00" grow_sp_exp_item_add_scale="0.1" grow_sp_lv_limit_discount_scale="0.1" grow_sp_skill_rein_discount_scale="0.1" role_set="サポート" skill_set="回復、強化、MP回復" show_slot_buff_id="0" show_slot_buff_count="0" show_slot="false" have_effect="false" show_effect="false" ub_show_effect="false">
     <exclusive_equip>0</exclusive_equip>
     <exclusive_equip>0</exclusive_equip>
     <exclusive_equip>0</exclusive_equip>
@@ -3011,6 +3011,46 @@
     <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
   </HeroSetting>
   <HeroSetting id="2303" group="2303" attr="聖" atk_attr="物理" rare="SSR" equip_type="斬" name="【メイドのお仕事】シュシュ" atk_skill="230361" skill1="230362" skill2="230363" ub_skill="230364" passive_skill1="230381" passive_skill2="230382" passive_skill3="0" first_skill_order="2/1/0" loop_skill_order="0/1/0/0/2/0/1/0/0" show_skill_order="false" hp_base="2364" atk_base="299" matk_base="179" def_base="35" mdef_base="14" hit_base="60" block_base="50" atk_crit_base="207" matk_crit_base="124" end_hp_recovery_base="118" end_mp_recovery_base="59" dmg_suck_hp_base="0" healing_power_base="100" mp_recovery_base="60" mp_cost_down_base="0" grow_id="2303" talent_id="2303" ubup_item_id="2303" battle_power_base="0" universal_item_id="2303" universal_item_num="50" convert_item_id="0" convert_item_num="0" monster_stage_id="0" arrive_boss_id="0" grow_sp_start_time="2026/05/10 00:00" grow_sp_end_time="2026/05/24 00:00" grow_sp_exp_item_add_scale="0.1" grow_sp_lv_limit_discount_scale="0.1" grow_sp_skill_rein_discount_scale="0.1" role_set="アタック" skill_set="弱体化、妨害" show_slot_buff_id="0" show_slot_buff_count="0" show_slot="false" have_effect="false" show_effect="false" ub_show_effect="false">
+    <exclusive_equip>0</exclusive_equip>
+    <exclusive_equip>0</exclusive_equip>
+    <exclusive_equip>0</exclusive_equip>
+    <exclusive_equip>0</exclusive_equip>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+  </HeroSetting>
+  <HeroSetting id="2304" group="2304" attr="火" atk_attr="物理" rare="SSR" equip_type="射" name="蓮久" atk_skill="230461" skill1="230462" skill2="230463" ub_skill="230464" passive_skill1="230481" passive_skill2="230482" passive_skill3="0" first_skill_order="2/1/0" loop_skill_order="0/1/0/0/2/1/0/0" show_skill_order="false" hp_base="1819" atk_base="232" matk_base="386" def_base="100" mdef_base="100" hit_base="60" block_base="50" atk_crit_base="32" matk_crit_base="53" end_hp_recovery_base="90" end_mp_recovery_base="59" dmg_suck_hp_base="0" healing_power_base="100" mp_recovery_base="68" mp_cost_down_base="0" grow_id="2304" talent_id="2304" ubup_item_id="2304" battle_power_base="0" universal_item_id="2304" universal_item_num="50" convert_item_id="0" convert_item_num="0" monster_stage_id="0" arrive_boss_id="0" grow_sp_end_time="2026/06/04 11:00" grow_sp_exp_item_add_scale="0.3" grow_sp_lv_limit_discount_scale="0.3" grow_sp_skill_rein_discount_scale="0.3" role_set="アタック" skill_set="弱体化、妨害、MP回復" show_slot_buff_id="0" show_slot_buff_count="0" show_slot="false" have_effect="false" show_effect="false" ub_show_effect="false">
+    <exclusive_equip>0</exclusive_equip>
+    <exclusive_equip>0</exclusive_equip>
+    <exclusive_equip>0</exclusive_equip>
+    <exclusive_equip>0</exclusive_equip>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+  </HeroSetting>
+  <HeroSetting id="2305" group="2305" attr="魔" atk_attr="物理" rare="SSR" equip_type="射" name="夕霧" atk_skill="230561" skill1="230562" skill2="230563" ub_skill="230564" passive_skill1="230581" passive_skill2="230582" passive_skill3="0" first_skill_order="2/1/0" loop_skill_order="0/0/0/2/0/1/0/0" show_skill_order="false" hp_base="2191" atk_base="152" matk_base="254" def_base="143" mdef_base="174" hit_base="60" block_base="45" atk_crit_base="32" matk_crit_base="53" end_hp_recovery_base="109" end_mp_recovery_base="59" dmg_suck_hp_base="0" healing_power_base="100" mp_recovery_base="49" mp_cost_down_base="0" grow_id="2305" talent_id="2305" ubup_item_id="2305" battle_power_base="0" universal_item_id="2305" universal_item_num="50" convert_item_id="0" convert_item_num="0" monster_stage_id="0" arrive_boss_id="0" grow_sp_end_time="2026/06/04 11:00" grow_sp_exp_item_add_scale="0.3" grow_sp_lv_limit_discount_scale="0.3" grow_sp_skill_rein_discount_scale="0.3" role_set="サポート" skill_set="弱体化、強化、妨害、MP回復" show_slot_buff_id="0" show_slot_buff_count="0" show_slot="false" have_effect="false" show_effect="false" ub_show_effect="false">
+    <exclusive_equip>0</exclusive_equip>
+    <exclusive_equip>0</exclusive_equip>
+    <exclusive_equip>0</exclusive_equip>
+    <exclusive_equip>0</exclusive_equip>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+  </HeroSetting>
+  <HeroSetting id="2306" group="2306" attr="火" atk_attr="物理" rare="SR" equip_type="投" name="姫菊" atk_skill="230661" skill1="230662" skill2="230663" ub_skill="230664" passive_skill1="230681" passive_skill2="230682" passive_skill3="0" first_skill_order="2/1/0" loop_skill_order="0/1/0/0/0/2/1/0/0" show_skill_order="false" hp_base="1910" atk_base="163" matk_base="273" def_base="45" mdef_base="45" hit_base="60" block_base="50" atk_crit_base="114" matk_crit_base="191" end_hp_recovery_base="95" end_mp_recovery_base="56" dmg_suck_hp_base="0" healing_power_base="82" mp_recovery_base="58" mp_cost_down_base="0" grow_id="2306" talent_id="2306" ubup_item_id="2306" battle_power_base="0" universal_item_id="2306" universal_item_num="10" convert_item_id="0" convert_item_num="0" monster_stage_id="0" arrive_boss_id="0" grow_sp_end_time="2026/05/28 11:00" grow_sp_exp_item_add_scale="0.3" grow_sp_lv_limit_discount_scale="0.3" grow_sp_skill_rein_discount_scale="0.3" role_set="アタック" skill_set="弱体化、妨害" show_slot_buff_id="0" show_slot_buff_count="0" show_slot="false" have_effect="false" show_effect="false" ub_show_effect="false">
+    <exclusive_equip>0</exclusive_equip>
+    <exclusive_equip>0</exclusive_equip>
+    <exclusive_equip>0</exclusive_equip>
+    <exclusive_equip>0</exclusive_equip>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+  </HeroSetting>
+  <HeroSetting id="2309" group="2309" attr="魔" atk_attr="物理" rare="SSR" equip_type="突" name="【悪魔ゴスロリ少女】プリシラ" atk_skill="230961" skill1="230962" skill2="230963" ub_skill="230964" passive_skill1="230981" passive_skill2="230982" passive_skill3="0" first_skill_order="2/1/0" loop_skill_order="0/0/1/0/2/0/1/0" show_skill_order="false" hp_base="1819" atk_base="311" matk_base="186" def_base="80" mdef_base="120" hit_base="60" block_base="50" atk_crit_base="303" matk_crit_base="182" end_hp_recovery_base="90" end_mp_recovery_base="59" dmg_suck_hp_base="0" healing_power_base="100" mp_recovery_base="68" mp_cost_down_base="0" grow_id="2309" talent_id="2309" ubup_item_id="2309" battle_power_base="0" universal_item_id="2309" universal_item_num="50" convert_item_id="0" convert_item_num="0" monster_stage_id="0" arrive_boss_id="0" grow_sp_end_time="2026/05/28 11:00" grow_sp_exp_item_add_scale="0.3" grow_sp_lv_limit_discount_scale="0.3" grow_sp_skill_rein_discount_scale="0.3" role_set="アタック" skill_set="弱体化、妨害、MP回復" show_slot_buff_id="0" show_slot_buff_count="0" show_slot="false" have_effect="false" show_effect="false" ub_show_effect="false">
     <exclusive_equip>0</exclusive_equip>
     <exclusive_equip>0</exclusive_equip>
     <exclusive_equip>0</exclusive_equip>
@@ -27020,6 +27060,16 @@
     <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
     <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
   </HeroSetting>
+  <HeroSetting id="45009" group="5037" attr="想" atk_attr="魔法" rare="SSR" equip_type="斬" name="悪玉" atk_skill="4500961" skill1="4500962" skill2="4500963" ub_skill="4500964" passive_skill1="4500981" passive_skill2="4500982" passive_skill3="0" first_skill_order="2/0/0/1/0/0" loop_skill_order="0/1/0/0/2/0/0/1/0" show_skill_order="true" hp_base="999999999" atk_base="700" matk_base="3000" def_base="3300" mdef_base="3300" hit_base="300" block_base="320" atk_crit_base="10" matk_crit_base="10" end_hp_recovery_base="0" end_mp_recovery_base="70" dmg_suck_hp_base="0" healing_power_base="40" mp_recovery_base="60" mp_cost_down_base="10" grow_id="45009" talent_id="0" ubup_item_id="0" battle_power_base="0" universal_item_id="0" universal_item_num="0" convert_item_id="0" convert_item_num="0" monster_stage_id="0" arrive_boss_id="0" grow_sp_exp_item_add_scale="0" grow_sp_lv_limit_discount_scale="0" grow_sp_skill_rein_discount_scale="0" show_slot_buff_id="0" show_slot_buff_count="0" show_slot="false" have_effect="false" show_effect="false" ub_show_effect="false">
+    <exclusive_equip>0</exclusive_equip>
+    <exclusive_equip>0</exclusive_equip>
+    <exclusive_equip>0</exclusive_equip>
+    <exclusive_equip>0</exclusive_equip>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+  </HeroSetting>
   <HeroSetting id="500801" group="5010" attr="風" atk_attr="物理" rare="R" equip_type="斬" name="犬型魔獣（中型）" atk_skill="501061" skill1="501062" skill2="501063" ub_skill="0" passive_skill1="501081" passive_skill2="5008181" passive_skill3="0" first_skill_order="2/0/1/0/0/0" loop_skill_order="1/0/0/0/2/1/0/0/0" show_skill_order="false" hp_base="800" atk_base="58" matk_base="38" def_base="33" mdef_base="26" hit_base="15" block_base="95" atk_crit_base="102" matk_crit_base="66" end_hp_recovery_base="0" end_mp_recovery_base="20" dmg_suck_hp_base="0" healing_power_base="9" mp_recovery_base="25" mp_cost_down_base="12" grow_id="1015009" talent_id="0" ubup_item_id="0" battle_power_base="0" universal_item_id="0" universal_item_num="0" convert_item_id="0" convert_item_num="0" monster_stage_id="0" arrive_boss_id="0" grow_sp_exp_item_add_scale="0" grow_sp_lv_limit_discount_scale="0" grow_sp_skill_rein_discount_scale="0" show_slot_buff_id="0" show_slot_buff_count="0" show_slot="false" have_effect="false" show_effect="false" ub_show_effect="false">
     <exclusive_equip>0</exclusive_equip>
     <exclusive_equip>0</exclusive_equip>
@@ -28900,6 +28950,16 @@
     <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
     <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
   </HeroSetting>
+  <HeroSetting id="52371" group="5011" attr="風" atk_attr="物理" rare="SSR" equip_type="斬" name="犬型魔獣（大型）" atk_skill="10002161" skill1="10002162" skill2="10002163" ub_skill="10002164" passive_skill1="10002181" passive_skill2="10002182" passive_skill3="0" first_skill_order="2/0/1/0/0/0" loop_skill_order="1/0/0/0/2/1/0/0/0" show_skill_order="true" hp_base="1000000" atk_base="550" matk_base="550" def_base="150" mdef_base="150" hit_base="85" block_base="120" atk_crit_base="100" matk_crit_base="100" end_hp_recovery_base="0" end_mp_recovery_base="20" dmg_suck_hp_base="0" healing_power_base="10" mp_recovery_base="55" mp_cost_down_base="20" grow_id="50511" talent_id="0" ubup_item_id="0" battle_power_base="0" universal_item_id="0" universal_item_num="0" convert_item_id="0" convert_item_num="0" monster_stage_id="0" arrive_boss_id="52371" grow_sp_exp_item_add_scale="0" grow_sp_lv_limit_discount_scale="0" grow_sp_skill_rein_discount_scale="0" show_slot_buff_id="0" show_slot_buff_count="0" show_slot="false" have_effect="false" show_effect="false" ub_show_effect="false">
+    <exclusive_equip>0</exclusive_equip>
+    <exclusive_equip>0</exclusive_equip>
+    <exclusive_equip>0</exclusive_equip>
+    <exclusive_equip>0</exclusive_equip>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+  </HeroSetting>
   <HeroSetting id="50012" group="5031" attr="火" atk_attr="物理" rare="SSR" equip_type="斬" name="野盜（首領）（青）" atk_skill="5001261" skill1="5001262" skill2="5001263" ub_skill="5001264" passive_skill1="5001281" passive_skill2="5001282" passive_skill3="0" first_skill_order="2/1/0/0/0/0/0" loop_skill_order="0/2/1/0/0/0/0/0" show_skill_order="false" hp_base="36840" atk_base="59" matk_base="38" def_base="20" mdef_base="16" hit_base="15" block_base="95" atk_crit_base="102" matk_crit_base="66" end_hp_recovery_base="0" end_mp_recovery_base="19" dmg_suck_hp_base="0" healing_power_base="9" mp_recovery_base="40" mp_cost_down_base="24" grow_id="50011" talent_id="0" ubup_item_id="0" battle_power_base="0" universal_item_id="0" universal_item_num="0" convert_item_id="0" convert_item_num="0" monster_stage_id="0" arrive_boss_id="50012" grow_sp_exp_item_add_scale="0" grow_sp_lv_limit_discount_scale="0" grow_sp_skill_rein_discount_scale="0" show_slot_buff_id="0" show_slot_buff_count="0" show_slot="false" have_effect="false" show_effect="false" ub_show_effect="false">
     <exclusive_equip>0</exclusive_equip>
     <exclusive_equip>0</exclusive_equip>
@@ -29560,6 +29620,16 @@
     <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
     <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
   </HeroSetting>
+  <HeroSetting id="52372" group="5011" attr="風" atk_attr="物理" rare="SSR" equip_type="斬" name="犬型魔獣（大型）" atk_skill="10002261" skill1="10002262" skill2="10002263" ub_skill="10002264" passive_skill1="10002281" passive_skill2="10002282" passive_skill3="0" first_skill_order="2/0/1/0/0/0" loop_skill_order="1/0/0/0/2/1/0/0/0" show_skill_order="true" hp_base="3000000" atk_base="1200" matk_base="1200" def_base="650" mdef_base="650" hit_base="240" block_base="240" atk_crit_base="100" matk_crit_base="100" end_hp_recovery_base="0" end_mp_recovery_base="20" dmg_suck_hp_base="0" healing_power_base="10" mp_recovery_base="65" mp_cost_down_base="30" grow_id="50512" talent_id="0" ubup_item_id="0" battle_power_base="0" universal_item_id="0" universal_item_num="0" convert_item_id="0" convert_item_num="0" monster_stage_id="0" arrive_boss_id="52372" grow_sp_exp_item_add_scale="0" grow_sp_lv_limit_discount_scale="0" grow_sp_skill_rein_discount_scale="0" show_slot_buff_id="0" show_slot_buff_count="0" show_slot="false" have_effect="false" show_effect="false" ub_show_effect="false">
+    <exclusive_equip>0</exclusive_equip>
+    <exclusive_equip>0</exclusive_equip>
+    <exclusive_equip>0</exclusive_equip>
+    <exclusive_equip>0</exclusive_equip>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+  </HeroSetting>
   <HeroSetting id="50013" group="5031" attr="火" atk_attr="物理" rare="SSR" equip_type="斬" name="野盜（首領）（青）" atk_skill="5001361" skill1="5001362" skill2="5001363" ub_skill="5001364" passive_skill1="5001381" passive_skill2="5001382" passive_skill3="0" first_skill_order="2/1/0/0/0/0/0" loop_skill_order="0/2/1/0/0/0/0/0" show_skill_order="false" hp_base="36840" atk_base="59" matk_base="38" def_base="20" mdef_base="16" hit_base="15" block_base="95" atk_crit_base="102" matk_crit_base="66" end_hp_recovery_base="0" end_mp_recovery_base="19" dmg_suck_hp_base="0" healing_power_base="9" mp_recovery_base="40" mp_cost_down_base="24" grow_id="50011" talent_id="0" ubup_item_id="0" battle_power_base="0" universal_item_id="0" universal_item_num="0" convert_item_id="0" convert_item_num="0" monster_stage_id="0" arrive_boss_id="50013" grow_sp_exp_item_add_scale="0" grow_sp_lv_limit_discount_scale="0" grow_sp_skill_rein_discount_scale="0" show_slot_buff_id="0" show_slot_buff_count="0" show_slot="false" have_effect="false" show_effect="false" ub_show_effect="false">
     <exclusive_equip>0</exclusive_equip>
     <exclusive_equip>0</exclusive_equip>
@@ -30211,6 +30281,16 @@
     <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
   </HeroSetting>
   <HeroSetting id="52323" group="5031" attr="風" atk_attr="物理" rare="SSR" equip_type="斬" name="野盜" atk_skill="5001361" skill1="5001362" skill2="5001363" ub_skill="5001364" passive_skill1="5001381" passive_skill2="5001382" passive_skill3="0" first_skill_order="2/1/0/0/0/0/0" loop_skill_order="0/2/1/0/0/0/0/0" show_skill_order="false" hp_base="36840" atk_base="59" matk_base="38" def_base="20" mdef_base="16" hit_base="15" block_base="95" atk_crit_base="102" matk_crit_base="66" end_hp_recovery_base="0" end_mp_recovery_base="19" dmg_suck_hp_base="0" healing_power_base="9" mp_recovery_base="40" mp_cost_down_base="24" grow_id="50011" talent_id="0" ubup_item_id="0" battle_power_base="0" universal_item_id="0" universal_item_num="0" convert_item_id="0" convert_item_num="0" monster_stage_id="0" arrive_boss_id="52323" grow_sp_exp_item_add_scale="0" grow_sp_lv_limit_discount_scale="0" grow_sp_skill_rein_discount_scale="0" show_slot_buff_id="0" show_slot_buff_count="0" show_slot="false" have_effect="false" show_effect="false" ub_show_effect="false">
+    <exclusive_equip>0</exclusive_equip>
+    <exclusive_equip>0</exclusive_equip>
+    <exclusive_equip>0</exclusive_equip>
+    <exclusive_equip>0</exclusive_equip>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+    <select_grow_sp_activity_id>0</select_grow_sp_activity_id>
+  </HeroSetting>
+  <HeroSetting id="52373" group="5011" attr="風" atk_attr="物理" rare="SSR" equip_type="斬" name="犬型魔獣（大型）" atk_skill="10002361" skill1="10002362" skill2="10002363" ub_skill="10002364" passive_skill1="10002381" passive_skill2="10002382" passive_skill3="0" first_skill_order="2/0/1/0/0/0" loop_skill_order="1/0/0/0/2/1/0/0/0" show_skill_order="true" hp_base="8000000" atk_base="2500" matk_base="2500" def_base="2000" mdef_base="2000" hit_base="280" block_base="280" atk_crit_base="100" matk_crit_base="100" end_hp_recovery_base="0" end_mp_recovery_base="20" dmg_suck_hp_base="0" healing_power_base="9" mp_recovery_base="80" mp_cost_down_base="40" grow_id="50513" talent_id="0" ubup_item_id="0" battle_power_base="0" universal_item_id="0" universal_item_num="0" convert_item_id="0" convert_item_num="0" monster_stage_id="0" arrive_boss_id="52373" grow_sp_exp_item_add_scale="0" grow_sp_lv_limit_discount_scale="0" grow_sp_skill_rein_discount_scale="0" show_slot_buff_id="0" show_slot_buff_count="0" show_slot="false" have_effect="false" show_effect="false" ub_show_effect="false">
     <exclusive_equip>0</exclusive_equip>
     <exclusive_equip>0</exclusive_equip>
     <exclusive_equip>0</exclusive_equip>
