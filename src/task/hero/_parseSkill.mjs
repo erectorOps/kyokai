@@ -551,6 +551,11 @@ const parseBuff = (buff, lv, info) => {
         text += parseUpDown();
           break;
 
+      case '普攻傷害上升或下降':
+        text += `通常攻撃ダメージ`;
+        text += parseUpDown();
+          break;
+
       case '技能傷害上升或下降':
         text += "スキルダメージ";
         text += parseUpDown();
@@ -633,11 +638,6 @@ const parseBuff = (buff, lv, info) => {
         text += `敵からの奥義の被ダメージ${parseUpDown()}`;
           break;
 
-      case '普攻傷害上升或下降':
-        text += `通常攻撃ダメージ`;
-        text += parseUpDown();
-          break;
-
       case '普攻傷害加成無效':
         text += "通常攻撃ダメージUP効果無効＆バフ消去";
           break;
@@ -653,6 +653,7 @@ const parseBuff = (buff, lv, info) => {
       // case '反擊':
       //     break;
 
+      // 被ダメ増減
       case '受到傷害上升或下降':
         if (val1.lt(0)) {
           text += `被ダメージ${span}${val1.abs().toString()}%${spanEnd}減少`;
@@ -660,6 +661,8 @@ const parseBuff = (buff, lv, info) => {
           text += `被ダメージ${span}${val1.abs().toString()}%${spanEnd}UP`
         }
           break;
+
+      // 与ダメ増減
       case '造成傷害上升或下降':
           text += "ダメージ";
           text += `<span class=\"value ${debuff ? "down" : "up"}\">`;
@@ -741,23 +744,13 @@ const parseBuff = (buff, lv, info) => {
         break;
       case '普攻追加傷害': {
           let attackText = '';
-          if (val2.eq(1)) {
-            attackText = `ダメージ${spanN}${val1}%${spanEnd}の通常攻撃`;
-          } else {
-            attackText = `ダメージ${spanN}${val1}%${spanEnd}で${val2}回通常攻撃`;
-          }
-
+          attackText = `ダメージ${spanN}${val1}%${spanEnd}で${val2}回追加ダメージ`;
           text += `通常攻撃時追撃(${attackText})状態を付与`;
           break;
       }
       case '技能追加傷害': {
           let attackText = '';
-          if (val2.eq(1)) {
-            attackText = `ダメージ${spanN}${val1}%${spanEnd}の通常攻撃`;
-          } else {
-            attackText = `ダメージ${spanN}${val1}%${spanEnd}で${val2}回通常攻撃`;
-          }
-
+          attackText = `ダメージ${spanN}${val1}%${spanEnd}で${val2}回追加ダメージ`;
           text += `スキル発動時追撃(${attackText})状態を付与`;
           break;
       }
