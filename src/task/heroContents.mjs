@@ -4,6 +4,7 @@ import { Big } from 'big.js';
 import { promises as fs } from 'fs';
 import path from 'path';
 import { minify } from 'html-minifier';
+import chalk from 'chalk';
 
 import * as Util from './hero/_util.mjs';
 
@@ -61,6 +62,10 @@ export class HeroContents {
 
     const heroGroup = kf.HeroGroupSetting.find(item => item['@_id'] === group);
     const gachaTypeEntity = kf.hero_add.find(item => item['@_id'] === id);
+
+    if (!gachaTypeEntity) {
+      return null;
+    }
 
     const json = {
       title: name,
@@ -399,6 +404,12 @@ export class HeroContents {
     return Promise.all(heroList.map(async hero => {
       const id = hero['@_id'];
       const json = this.processHeroData(hero, lang, t);
+
+      if (!json) {
+        log(chalk.yellow(`[WARN] Hero ${id} は hero_add が存在しないためビルド対象から除外されました`));
+        return;
+      }
+
       json.parent_title = t('breadcrumb-list_title');
       json.lang = lang;
       json.t = t;
@@ -446,6 +457,12 @@ export class HeroContents {
           const id = hero['@_id'];
           const langUtil = new LangUtil(lang, `./${id}.html`);
           const json = this.processHeroData(hero, lang, t);
+
+          if (!json) {
+            log(chalk.yellow(`[WARN] Hero ${id} は hero_add が存在しないためビルド対象から除外されました`));
+            return;
+          }
+
           json.parent_title = t('breadcrumb-list_title');
           json.lang = lang;
           json.t = t;

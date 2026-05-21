@@ -9,6 +9,7 @@ import { getAtkSpeed, getPositionKey } from './hero/_util.mjs';
 import { srcBase, srcPath, distBase, def, sk_buttons, ub_buttons } from './_config.mjs';
 import { PreSkillCategorize } from './preSkillCategorize.mjs';
 import log from 'fancy-log';
+import chalk from 'chalk';
 
 import fs from 'fs';
 import path from 'path';
@@ -88,6 +89,10 @@ export class HeroList {
                 const rareOrder = ["SSR", "SR", "R"];
             
                 const gachaTypeEntity = kf.hero_add.find(item => item['@_id'] === id);
+
+                if (!gachaTypeEntity) {
+                    continue;
+                }
  
                 const json = {
                     id: id,

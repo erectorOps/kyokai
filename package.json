@@ -19,6 +19,7 @@
     "bootstrap": "^5.3.0",
     "bootstrap-icons": "^1.11.3",
     "browser-sync": "^3.0.3",
+    "chalk": "^5.6.2",
     "del": "^8.0.0",
     "fancy-log": "^2.0.0",
     "fast-xml-parser": "^5.0.8",
