@@ -119,6 +119,11 @@ export const page = gulp.series(
   gulp.parallel(watcher.createOne(options.id, options.lang))
 )
 
+export const list = gulp.series(
+  gulp.parallel(cssSass,...heroList.createMultiLangTasks(), imgFunc),
+  gulp.parallel(watcher.createFuncs())
+)
+
 export default gulp.series(
   // clean,
   gulp.parallel(
