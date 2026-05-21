@@ -274,9 +274,29 @@ class SkillCheck {
         return this.is_buff((info) => info.target.indexOf(party) != -1 && info.debuff == false && info.type == "負面狀態抗性" && info.buff['@_effect_val1'] === "1");
     }
 
-    isDebuffTimeAdjust() {
-        return this.is_buff((info) => info.target.indexOf("自身") != -1 && info.type == "Debuff持續時間延長或縮短");
+    // 敵のバフ効果時間を短くする (弱体)
+    isEnemyBuffDurationShorten() {
+        return this.is_buff((info) => info.type == "Buff持續時間延長或縮短" && info.debuff == true)
     }
+
+    // 味方のバフ効果時間を延長する (強化)
+    isAllyBuffDurationExtend() {
+        return this.is_buff((info) => info.debuff == false && info.type == "Buff持續時間延長或縮短");
+    }
+
+    // 敵のデバフ効果時間を延長する (弱体)
+    isEnemyDebuffDurationExtend() {
+        return this.is_buff((info) => info.debuff == true && info.type == "Debuff持續時間延長或縮短");
+    }
+
+    // 味方のデバフ効果時間を短くする (強化)
+    isAllyDebuffDurationShorten() {
+        return this.is_buff((info) =>info.debuff == false && info.type == "Debuff持續時間延長或縮短");
+    }
+
+    //isDebuffTimeAdjust() {
+    //    return this.is_buff((info) => info.target.indexOf("自身") != -1 && info.type == "Debuff持續時間延長或縮短");
+    //}
 
     isProvokeResistance() {
         return this.is_buff((info) => info.target.indexOf("自身") != -1 && info.type == "嘲諷抗性");
@@ -787,9 +807,21 @@ export class PreSkillCategorize {
         if (actives.some(v => v.isDebuffCure())) {
             type.push(def["デバフ解除"]);
         }
+        
+        if (actives.some(v => v.isAllyBuffDurationExtend())) {
+            type.push(def["バフ時間延長"]);
+        }
 
-        if (actives.some(v => v.isDebuffTimeAdjust())) {
+        if (actives.some(v => v.isEnemyBuffDurationShorten())) {
+            type.push(def["バフ時間短縮"]);
+        }
+
+        if (actives.some(v => v.isAllyDebuffDurationShorten())) {
             type.push(def["デバフ時間短縮"]);
+        }
+
+        if (actives.some(v => v.isEnemyDebuffDurationExtend()))  {
+            type.push(def["デバフ時間延長"]);
         }
 
         if (actives.some(v => v.isProvoke())) {

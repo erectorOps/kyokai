@@ -111,7 +111,10 @@ export const def = {
     "自身行動速度UP_B": "cb",
     "デバフ時間短縮": "cc",
     "バフ時間短縮": "cd",
-    "状態異常時間短縮": "ce"
+    "状態異常時間短縮": "ce",
+    "デバフ時間延長": "cf",
+    "バフ時間延長": "cg",
+    "状態異常時間延長": "ch"
 };
 
 export const sk_buttons = [
@@ -120,6 +123,7 @@ export const sk_buttons = [
     // --- 汎用 ---
     ["sk_type.w_attack", "W攻撃", ""], 
     ["sk_type.buff_only", "バフのみ", ""],
+    ["sk_type.buff_duration_adjust", "バフ時間延長,バフ時間短縮,デバフ時間延長,デバフ時間短縮", ""],
     
     // --- 👥 味方全体 (all) ---
     ["sk_type.mp_recovery", "MP回復", "all"],
@@ -169,6 +173,7 @@ export const ub_buttons = [
     ["ub_type.six_person_attack", "六人攻撃", ""], // 六人攻撃はdefに「六人攻撃」として存在
     ["ub_type.full_attack", "全体攻撃", ""],
     ["ub_type.buff_only", "バフのみ", ""],
+    ["ub_type.buff_duration_adjust", "バフ時間延長,バフ時間短縮,デバフ時間延長,デバフ時間短縮", ""],
 
     // --- 👥 味方全体 (all) ---
     ["ub_type.hp_recovery", "HP回復", "all"],

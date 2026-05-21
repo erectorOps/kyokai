@@ -686,7 +686,7 @@ const parseBuff = (buff, lv, info) => {
         text += `状態異常時間${span}${val2.abs().toString()}秒${spanEnd}${val2.lt(0) ? "短縮" : "延長"}`;
         break;
        case 'Buff持續時間延長或縮短':
-        text += `バフ時間${span}${val2.abs().toString()}秒${spanEnd}${val2.lt(0) ? "短縮" : "延長"}`;
+        text += `バフ時間${span}${val2.abs().toString()}秒${spanEnd}${val1.lt(0) ? "短縮" : "延長"}`;
         break;
        case 'Debuff持續時間延長或縮短':
         text += `デバフ時間${span}${val2.abs().toString()}秒${spanEnd}${val2.lt(0) ? "短縮" : "延長"}`;
