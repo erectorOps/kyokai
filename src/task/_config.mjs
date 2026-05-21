@@ -114,7 +114,17 @@ export const def = {
     "状態異常時間短縮": "ce",
     "デバフ時間延長": "cf",
     "バフ時間延長": "cg",
-    "状態異常時間延長": "ch"
+    "状態異常時間延長": "ch",
+    "自身スキルで追撃": "ci",
+    "通常ダメで追撃": "cj",
+    "スキルダメで追撃": "ck",
+    "奥義ダメで追撃": "cl",
+    "被通常ダメージUP": "cm",
+    "被スキルダメージUP": "cn",
+    "被奥義ダメージUP": "co",
+    "自身スキルダメで追撃": "cp",
+    "自身通常ダメで追撃": "cq",
+    "自身奥義ダメで追撃": "cr",
 };
 
 export const sk_buttons = [
@@ -124,6 +134,9 @@ export const sk_buttons = [
     ["sk_type.w_attack", "W攻撃", ""], 
     ["sk_type.buff_only", "バフのみ", ""],
     ["sk_type.buff_duration_adjust", "バフ時間延長,バフ時間短縮,デバフ時間延長,デバフ時間短縮", ""],
+    ["sk_type.normal_synergy", "通常ダメで追撃,被通常ダメージUP,自身通常ダメで追撃", ""],
+    ["sk_type.skill_synergy", "自身スキルで追撃,スキルダメで追撃,被スキルダメージUP,自身スキルダメで追撃", ""],
+    ["sk_type.ultimate_synergy", "奥義ダメで追撃,被奥義ダメージUP,自身奥義ダメで追撃", ""],
     
     // --- 👥 味方全体 (all) ---
     ["sk_type.mp_recovery", "MP回復", "all"],
@@ -174,6 +187,9 @@ export const ub_buttons = [
     ["ub_type.full_attack", "全体攻撃", ""],
     ["ub_type.buff_only", "バフのみ", ""],
     ["ub_type.buff_duration_adjust", "バフ時間延長,バフ時間短縮,デバフ時間延長,デバフ時間短縮", ""],
+    ["ub_type.normal_synergy", "通常ダメで追撃,被通常ダメージUP,自身通常ダメで追撃", ""],
+    ["ub_type.skill_synergy", "自身スキルで追撃,スキルダメで追撃,被スキルダメージUP,自身スキルダメで追撃", ""],
+    ["ub_type.ultimate_synergy", "奥義ダメで追撃,被奥義ダメージUP,自身奥義ダメで追撃", ""],
 
     // --- 👥 味方全体 (all) ---
     ["ub_type.hp_recovery", "HP回復", "all"],

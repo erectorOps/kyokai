@@ -298,6 +298,8 @@ class SkillCheck {
     //    return this.is_buff((info) => info.target.indexOf("自身") != -1 && info.type == "Debuff持續時間延長或縮短");
     //}
 
+
+
     isProvokeResistance() {
         return this.is_buff((info) => info.target.indexOf("自身") != -1 && info.type == "嘲諷抗性");
     }
@@ -360,6 +362,22 @@ class SkillCheck {
         return this.is_buff((info) => info.target.indexOf("自身") != -1 && info.type == "恐懼抗性");
     }
 
+    isAdditionalNormalDamage(party = "我方") {
+        return this.is_buff((info) => info.target.indexOf(party) != -1 && info.debuff == false && info.type == "普攻追加傷害");
+    }
+
+    isAdditionalSkillDamage(party = "我方") {
+        return this.is_buff((info) => info.target.indexOf(party) != -1 && info.debuff == false && info.type == "技能追加傷害");
+    }
+
+    isAdditionalUltimateDamage(party = "我方") {
+        return this.is_buff((info) => info.target.indexOf(party) != -1 && info.debuff == false && info.type == "奧義追加傷害");
+    }
+
+    isTriggerAdditionalSkill(party = "我方") {
+        return this.is_buff((info) => info.target.indexOf(party) != -1 && info.debuff == false && info.buff['_trigger_condition'] == "隊友發動傷害技能後")
+    }
+
     // Debuff -----------------------------------------------------------------------
 
     isDecreasesDEF() {
@@ -374,8 +392,21 @@ class SkillCheck {
         return this.is_buff((info) => info.target.indexOf("敵方") != -1 && info.debuff == true && info.type == "速度上升或下降");
     }
 
+    // 無指定/Normal/Skill/Ultimateも含む
     isIncreasesDamageTaken() {
         return this.is_buff((info) => info.target.indexOf("敵方") != -1 && info.debuff == true && info.type.startsWith("受到") && info.type.endsWith("傷害上升或下降"));
+    }
+
+    isIncreasesNormalDamageTaken() {
+        return this.is_buff((info) => info.target.indexOf("敵方") != -1 && info.debuff == true && info.type == "受到普攻傷害上升或下降");
+    }
+
+    isIncreasesSkillDamageTaken() {
+        return this.is_buff((info) => info.target.indexOf("敵方") != -1 && info.debuff == true && info.type == "受到技能傷害上升或下降");
+    }
+
+    isIncreasesUltimateDamageTaken() {
+        return this.is_buff((info) => info.target.indexOf("敵方") != -1 && info.debuff == true && info.type == "受到奧義傷害上升或下降");
     }
 
     isPoison() {
@@ -712,6 +743,22 @@ export class PreSkillCategorize {
             type.push(def["自身回数付魔法ダメージUP"]);
         }
 
+        if (actives.some(v => v.isTriggerAdditionalSkill(self))) {
+            type.push(def["自身スキルで追撃"]);
+        }
+
+        if (skills.some(v => v.isAdditionalNormalDamage(self))) {
+            type.push(def["自身通常ダメで追撃"]);
+        }
+
+        if (skills.some(v => v.isAdditionalSkillDamage(self))) {
+            type.push(def["自身スキルダメで追撃"]);
+        }
+
+        if (skills.some(v => v.isAdditionalUltimateDamage(self))) {
+            type.push(def["自身奥義ダメで追撃"]);
+        }
+
         this._checkResistance(type, skills);
     }
 
@@ -787,6 +834,30 @@ export class PreSkillCategorize {
 
         if (skills.some(v => v.isIncreasesDamageTaken())) {
             type.push(def["被ダメージUP"]);
+        }
+
+        if (skills.some(v => v.isIncreasesNormalDamageTaken())) {
+            type.push(def["被通常ダメージUP"]);
+        }
+
+        if (skills.some(v => v.isIncreasesSkillDamageTaken())) {
+            type.push(def["被スキルダメージUP"]);
+        }
+
+        if (skills.some(v => v.isIncreasesUltimateDamageTaken())) {
+            type.push(def["被奥義ダメージUP"]);
+        }
+
+        if (skills.some(v => v.isAdditionalNormalDamage())) {
+            type.push(def["通常ダメで追撃"]);
+        }
+
+        if (skills.some(v => v.isAdditionalSkillDamage())) {
+            type.push(def["スキルダメで追撃"]);
+        }
+
+        if (skills.some(v => v.isAdditionalUltimateDamage())) {
+            type.push(def["奥義ダメで追撃"]);
         }
 
         this._checkAbnormalState(type, skills);
