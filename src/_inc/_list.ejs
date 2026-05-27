@@ -104,6 +104,7 @@
             <tr><th><%- t("release-year") %></th>
             <td>
                 <ul class="filter_container" data-filter="added_year" data-count="3">
+                    <li data-val="2026" data-check="0"><div>2026</div></li>
                     <li data-val="2025" data-check="0"><div>2025</div></li>
                     <li data-val="2024" data-check="0"><div>2024</div></li>
                     <li data-val="2023" data-check="0"><div>2023</div></li>
@@ -215,7 +216,7 @@ function hero_search() {
             if (!conditions[currentKey]) conditions[currentKey] = [];
             const vals = li.dataset.val.split(",");
 
-            if (currentKey === "support" || currentKey === "sk_type") {
+            if (currentKey === "support" || currentKey === "sk_type" || currentKey === "ub_type") {
                 // ボタンごとの集合 [[0], [1,2], [3,4,5]]
                 conditions[currentKey].push(vals);
             } else {
@@ -244,12 +245,12 @@ function hero_search() {
             for (const type in conditions) {
                 const currentData = li.dataset[type].split(',');
 
-                if (type === "gacha_type" || type === "ub_type") {
+                if (type === "gacha_type") {
                     if (!matchOR(currentData, conditions[type])) {
                         disp_bool = false;
                         break;
                     }
-                } else if (type === "support" || type === "sk_type") {
+                } else if (type === "support" || type === "sk_type" || type === "ub_type") {
                     if (!matchAND(currentData, conditions[type])) {
                         disp_bool = false;
                         break;
