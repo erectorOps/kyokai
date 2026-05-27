@@ -331132,7 +331132,7 @@
     <skip_item_num>0</skip_item_num>
     <skip_item_num>0</skip_item_num>
   </StageSiteSetting>
-  <StageSiteSetting id="52380110" chapter="【 】 その1" name="【】 その1" icon="stage001/100503" pre_stage_site="0" pre_item_id="0" before_dialog="5109010" after_dialog="0" cost_ap="0" atk_cnt_limit="0" restart_cycle="不重置" restart_pass="false" forcibly_launch_hero_group="0" stage_buff_group="0" first_pass_hero_id="0" pass_money_low="0" pass_money_top="0" pass_player_exp="0" pass_hero_exp="0" pass_hero_gp="0" pass_point="0" can_skip="false" skip_hero_exp_item_id="0" skip_hero_exp_item_num="0" skip_hero_gp_item_id="0" skip_hero_gp_item_num="0">
+  <StageSiteSetting id="52380110" chapter="【ボニューマ幹部、プリシラのひみつ】 その1" name="【ボニューマ幹部、プリシラのひみつ】 その1" icon="stage001/100501" pre_stage_site="0" pre_item_id="0" before_dialog="5109010" after_dialog="0" cost_ap="0" atk_cnt_limit="0" restart_cycle="不重置" restart_pass="false" forcibly_launch_hero_group="0" stage_buff_group="0" first_pass_hero_id="0" pass_money_low="0" pass_money_top="0" pass_player_exp="0" pass_hero_exp="0" pass_hero_gp="0" pass_point="0" can_skip="false" skip_hero_exp_item_id="0" skip_hero_exp_item_num="0" skip_hero_gp_item_id="0" skip_hero_gp_item_num="0">
     <monster_id>0</monster_id>
     <monster_id>0</monster_id>
     <monster_id>0</monster_id>
@@ -331208,7 +331208,7 @@
     <skip_item_num>0</skip_item_num>
     <skip_item_num>0</skip_item_num>
   </StageSiteSetting>
-  <StageSiteSetting id="52380111" chapter="【Fanzine】1" name="【Fanzine】1" icon="stage001/100503" pre_stage_site="52380110" pre_item_id="0" before_dialog="0" after_dialog="0" cost_ap="5" atk_cnt_limit="1" restart_cycle="不重置" restart_pass="false" forcibly_launch_hero_group="0" stage_buff_group="0" battle_map="100503/100503" first_pass_hero_id="0" pass_money_low="500" pass_money_top="600" pass_player_exp="50" pass_hero_exp="100" pass_hero_gp="0" pass_point="0" can_skip="false" skip_hero_exp_item_id="0" skip_hero_exp_item_num="0" skip_hero_gp_item_id="0" skip_hero_gp_item_num="0">
+  <StageSiteSetting id="52380111" chapter="【FANZINE】1" name="【FANZINE】1" icon="stage001/100501" pre_stage_site="52380110" pre_item_id="0" before_dialog="0" after_dialog="0" cost_ap="5" atk_cnt_limit="1" restart_cycle="不重置" restart_pass="false" forcibly_launch_hero_group="0" stage_buff_group="0" battle_map="100501/100501" first_pass_hero_id="0" pass_money_low="500" pass_money_top="600" pass_player_exp="50" pass_hero_exp="100" pass_hero_gp="0" pass_point="0" can_skip="false" skip_hero_exp_item_id="0" skip_hero_exp_item_num="0" skip_hero_gp_item_id="0" skip_hero_gp_item_num="0">
     <monster_id>523801011</monster_id>
     <monster_id>523801012</monster_id>
     <monster_id>523801013</monster_id>
@@ -331284,7 +331284,7 @@
     <skip_item_num>0</skip_item_num>
     <skip_item_num>0</skip_item_num>
   </StageSiteSetting>
-  <StageSiteSetting id="52380112" chapter="【 】 その2" name="【 】 その2" icon="stage001/100503" pre_stage_site="52380111" pre_item_id="0" before_dialog="5109020" after_dialog="0" cost_ap="0" atk_cnt_limit="0" restart_cycle="不重置" restart_pass="false" forcibly_launch_hero_group="0" stage_buff_group="0" first_pass_hero_id="0" pass_money_low="0" pass_money_top="0" pass_player_exp="0" pass_hero_exp="0" pass_hero_gp="0" pass_point="0" can_skip="false" skip_hero_exp_item_id="0" skip_hero_exp_item_num="0" skip_hero_gp_item_id="0" skip_hero_gp_item_num="0">
+  <StageSiteSetting id="52380112" chapter="【ボニューマ幹部、プリシラのひみつ】 その2" name="【ボニューマ幹部、プリシラのひみつ】 その2" icon="stage001/100501" pre_stage_site="52380111" pre_item_id="0" before_dialog="5109020" after_dialog="0" cost_ap="0" atk_cnt_limit="0" restart_cycle="不重置" restart_pass="false" forcibly_launch_hero_group="0" stage_buff_group="0" first_pass_hero_id="0" pass_money_low="0" pass_money_top="0" pass_player_exp="0" pass_hero_exp="0" pass_hero_gp="0" pass_point="0" can_skip="false" skip_hero_exp_item_id="0" skip_hero_exp_item_num="0" skip_hero_gp_item_id="0" skip_hero_gp_item_num="0">
     <monster_id>0</monster_id>
     <monster_id>0</monster_id>
     <monster_id>0</monster_id>
@@ -331360,7 +331360,7 @@
     <skip_item_num>0</skip_item_num>
     <skip_item_num>0</skip_item_num>
   </StageSiteSetting>
-  <StageSiteSetting id="52380113" chapter="【Fanzine】2" name="【Fanzine】2" icon="stage001/100503" pre_stage_site="52380112" pre_item_id="0" before_dialog="0" after_dialog="0" cost_ap="5" atk_cnt_limit="1" restart_cycle="不重置" restart_pass="false" forcibly_launch_hero_group="0" stage_buff_group="0" battle_map="100503/100503" first_pass_hero_id="0" pass_money_low="500" pass_money_top="600" pass_player_exp="50" pass_hero_exp="100" pass_hero_gp="0" pass_point="0" can_skip="false" skip_hero_exp_item_id="0" skip_hero_exp_item_num="0" skip_hero_gp_item_id="0" skip_hero_gp_item_num="0">
+  <StageSiteSetting id="52380113" chapter="【FANZINE】2" name="【FANZINE】2" icon="stage001/100501" pre_stage_site="52380112" pre_item_id="0" before_dialog="0" after_dialog="0" cost_ap="5" atk_cnt_limit="1" restart_cycle="不重置" restart_pass="false" forcibly_launch_hero_group="0" stage_buff_group="0" battle_map="100501/100501" first_pass_hero_id="0" pass_money_low="500" pass_money_top="600" pass_player_exp="50" pass_hero_exp="100" pass_hero_gp="0" pass_point="0" can_skip="false" skip_hero_exp_item_id="0" skip_hero_exp_item_num="0" skip_hero_gp_item_id="0" skip_hero_gp_item_num="0">
     <monster_id>523802011</monster_id>
     <monster_id>523802012</monster_id>
     <monster_id>523802013</monster_id>
@@ -331436,7 +331436,7 @@
     <skip_item_num>0</skip_item_num>
     <skip_item_num>0</skip_item_num>
   </StageSiteSetting>
-  <StageSiteSetting id="52380114" chapter="【 】 その3" name="【 】 その3" icon="stage001/100503" pre_stage_site="52380113" pre_item_id="0" before_dialog="5109030" after_dialog="0" cost_ap="0" atk_cnt_limit="0" restart_cycle="不重置" restart_pass="false" forcibly_launch_hero_group="0" stage_buff_group="0" first_pass_hero_id="0" pass_money_low="0" pass_money_top="0" pass_player_exp="0" pass_hero_exp="0" pass_hero_gp="0" pass_point="0" can_skip="false" skip_hero_exp_item_id="0" skip_hero_exp_item_num="0" skip_hero_gp_item_id="0" skip_hero_gp_item_num="0">
+  <StageSiteSetting id="52380114" chapter="【ボニューマ幹部、プリシラのひみつ】 その3" name="【ボニューマ幹部、プリシラのひみつ】 その3" icon="stage001/100503" pre_stage_site="52380113" pre_item_id="0" before_dialog="5109030" after_dialog="0" cost_ap="0" atk_cnt_limit="0" restart_cycle="不重置" restart_pass="false" forcibly_launch_hero_group="0" stage_buff_group="0" first_pass_hero_id="0" pass_money_low="0" pass_money_top="0" pass_player_exp="0" pass_hero_exp="0" pass_hero_gp="0" pass_point="0" can_skip="false" skip_hero_exp_item_id="0" skip_hero_exp_item_num="0" skip_hero_gp_item_id="0" skip_hero_gp_item_num="0">
     <monster_id>0</monster_id>
     <monster_id>0</monster_id>
     <monster_id>0</monster_id>
@@ -331512,7 +331512,7 @@
     <skip_item_num>0</skip_item_num>
     <skip_item_num>0</skip_item_num>
   </StageSiteSetting>
-  <StageSiteSetting id="52380115" chapter="【Fanzine】3" name="【Fanzine】3" icon="stage001/100503" pre_stage_site="52380114" pre_item_id="0" before_dialog="0" after_dialog="0" cost_ap="5" atk_cnt_limit="1" restart_cycle="不重置" restart_pass="false" forcibly_launch_hero_group="0" stage_buff_group="0" battle_map="100503/100503" first_pass_hero_id="0" pass_money_low="500" pass_money_top="600" pass_player_exp="50" pass_hero_exp="100" pass_hero_gp="0" pass_point="0" can_skip="false" skip_hero_exp_item_id="0" skip_hero_exp_item_num="0" skip_hero_gp_item_id="0" skip_hero_gp_item_num="0">
+  <StageSiteSetting id="52380115" chapter="【FANZINE】3" name="【FANZINE】3" icon="stage001/100503" pre_stage_site="52380114" pre_item_id="0" before_dialog="0" after_dialog="0" cost_ap="5" atk_cnt_limit="1" restart_cycle="不重置" restart_pass="false" forcibly_launch_hero_group="0" stage_buff_group="0" battle_map="100503/100503" first_pass_hero_id="0" pass_money_low="500" pass_money_top="600" pass_player_exp="50" pass_hero_exp="100" pass_hero_gp="0" pass_point="0" can_skip="false" skip_hero_exp_item_id="0" skip_hero_exp_item_num="0" skip_hero_gp_item_id="0" skip_hero_gp_item_num="0">
     <monster_id>523803011</monster_id>
     <monster_id>523803012</monster_id>
     <monster_id>523803013</monster_id>
@@ -331588,7 +331588,7 @@
     <skip_item_num>0</skip_item_num>
     <skip_item_num>0</skip_item_num>
   </StageSiteSetting>
-  <StageSiteSetting id="52380116" chapter="【Fanzine】周回" name="【Fanzine】周回" icon="stage001/100503" pre_stage_site="52380115" pre_item_id="0" before_dialog="0" after_dialog="0" cost_ap="20" atk_cnt_limit="0" restart_cycle="不重置" restart_pass="false" forcibly_launch_hero_group="0" stage_buff_group="0" battle_map="100503/100503" first_pass_hero_id="0" pass_money_low="2000" pass_money_top="2400" pass_player_exp="200" pass_hero_exp="400" pass_hero_gp="0" pass_point="0" can_skip="true" skip_hero_exp_item_id="3401" skip_hero_exp_item_num="1" skip_hero_gp_item_id="0" skip_hero_gp_item_num="0">
+  <StageSiteSetting id="52380116" chapter="【ボニューマ幹部、プリシラのひみつ】周回" name="【ボニューマ幹部、プリシラのひみつ】周回" icon="stage001/100503" pre_stage_site="52380115" pre_item_id="0" before_dialog="0" after_dialog="0" cost_ap="20" atk_cnt_limit="0" restart_cycle="不重置" restart_pass="false" forcibly_launch_hero_group="0" stage_buff_group="0" battle_map="100503/100503" first_pass_hero_id="0" pass_money_low="2000" pass_money_top="2400" pass_player_exp="200" pass_hero_exp="400" pass_hero_gp="0" pass_point="0" can_skip="true" skip_hero_exp_item_id="3401" skip_hero_exp_item_num="1" skip_hero_gp_item_id="0" skip_hero_gp_item_num="0">
     <monster_id>523804011</monster_id>
     <monster_id>523804012</monster_id>
     <monster_id>523804013</monster_id>

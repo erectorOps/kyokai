@@ -15444,4 +15444,56 @@
     <param />
     <param />
   </NewStorySetting>
+  <NewStorySetting group_id="1105" group_func="標題設定" order="1">
+    <param>活動</param>
+    <param>ボニューマ幹部、プリシラのひみつ</param>
+    <param>activity-banner-records/活動_Fanzine19_320x88</param>
+    <param>FANZINE</param>
+    <param>Year2026</param>
+    <param>52380110</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1105" group_func="章節設定" order="1">
+    <param>ボニューマ幹部、プリシラのひみつ  第1節</param>
+    <param>52380110</param>
+    <param />
+    <param />
+    <param>5109010</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1105" group_func="章節設定" order="2">
+    <param>ボニューマ幹部、プリシラのひみつ  第2節</param>
+    <param>52380112</param>
+    <param />
+    <param />
+    <param>5109020</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
+  <NewStorySetting group_id="1105" group_func="章節設定" order="3">
+    <param>ボニューマ幹部、プリシラのひみつ  第3節</param>
+    <param>52380114</param>
+    <param />
+    <param />
+    <param>5109030</param>
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+    <param />
+  </NewStorySetting>
 </root>
