@@ -174,27 +174,27 @@ export class HeroList {
                 extname: `.${lang}.html`
             }
             ))
-            // .pipe(through2.obj(function (file, encoding, callback) {
-            //     if (file.isNull()) {
-            //         return callback(null, file);
-            //     }
-            //     if (file.isStream()) {
-            //         return callback(new Error('Streaming not supported'));
-            //     }
-            //     const contents = file.contents.toString();
-            //     const minifiedContents  = minify(contents, {
-            //         collapseWhitespace: true,
-            //         removeComments: true,
-            //         removeRedundantAttributes: true,
-            //         removeStyleLinkTypeAttributes: true,
-            //         useShortDoctype: true,
-            //         minifyCSS: true,
-            //         minifyJS: true
-            //     });
-            //     file.contents = Buffer.from(minifiedContents);
-            //     this.push(file);
-            //     callback();
-            // }))
+            .pipe(through2.obj(function (file, encoding, callback) {
+                if (file.isNull()) {
+                    return callback(null, file);
+                }
+                if (file.isStream()) {
+                    return callback(new Error('Streaming not supported'));
+                }
+                const contents = file.contents.toString();
+                const minifiedContents  = minify(contents, {
+                    collapseWhitespace: true,
+                    removeComments: true,
+                    removeRedundantAttributes: true,
+                    removeStyleLinkTypeAttributes: true,
+                    useShortDoctype: true,
+                    minifyCSS: true,
+                    minifyJS: true
+                });
+                file.contents = Buffer.from(minifiedContents);
+                this.push(file);
+                callback();
+            }))
             .pipe(gulp.dest(distBase));
         };
     }
