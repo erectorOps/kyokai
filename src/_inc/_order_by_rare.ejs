@@ -1,6 +1,6 @@
 
 <% page.heros.sort((a, b) => a.rare_order - b.rare_order); %>
-<% const rareNames = ["SSR", "SR", "R"]; %>
+<% const rareNames = ["BBR", "SSR", "SR", "R"]; %>
 <% for (let i = 0; i < page.heros.length;) { %>
     <% let item = page.heros[i]; %>
     <% let cur_rare = item.rare_order; %>

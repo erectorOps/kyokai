@@ -391,4 +391,38 @@
     <stage_id>0</stage_id>
     <stage_id>0</stage_id>
   </DungeonSetting>
+  <DungeonSetting id="24" type="EX" start_time="2026/06/01 03:00:00" end_time="2026/07/01 02:59:59" rank_id="523" stage_buff_group="602300" star_id="1000031" award_bonus_scale="0">
+    <stage_id>231</stage_id>
+    <stage_id>232</stage_id>
+    <stage_id>233</stage_id>
+    <stage_id>234</stage_id>
+    <stage_id>235</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+  </DungeonSetting>
+  <DungeonSetting id="25" type="EX" start_time="2026/07/01 03:00:00" end_time="2026/08/01 02:59:59" rank_id="524" stage_buff_group="602400" star_id="1000033" award_bonus_scale="0">
+    <stage_id>241</stage_id>
+    <stage_id>242</stage_id>
+    <stage_id>243</stage_id>
+    <stage_id>244</stage_id>
+    <stage_id>245</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+  </DungeonSetting>
 </root>

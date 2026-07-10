@@ -147,7 +147,7 @@
       <%- t("mp-increase-sim-notes") %>
     </p>
     <h3 class="s-header--3"><%- t("ultimate") %></h3>
-    <% if (page.passive3) { %>
+    <% if (page.awaking) { %>
       <table class="s-table">
         <tbody>
           <tr><th width="100%" colspan="2"><div class="s-name"><img class="s-icon" alt="奥義アイコン" src="../img/<%= page.awake_ubskills[page.awake_ubskills.length-1].icon %>.png"><%- page.awake_ubskills[0].name %></div></th></tr>
@@ -168,12 +168,12 @@
         <% } %>
       </tbody>
     </table>
-    <% if (page.passive3) { %>
+    <% if (page.awaking) { %>
     </details>
     <% } %>
 
     <h3 class="s-header--3"><%- t("skills") %></h3>
-    <% if (page.passive3) { %>
+    <% if (page.awaking) { %>
       <table class="s-table">
         <tbody>
           <tr><th width="100%"><div class="s-name"><img class="s-icon" alt="通常攻撃アイコン" src="../img/<%= page.atkskill.icon %>.png"><%= page.atkskill.name %></div></th></tr>
@@ -214,13 +214,21 @@
           </div><%- page.skill2.text %></td></tr>
         </tbody>
       </table>
-    <% if (page.passive3) { %>
+    <% if (page.awaking) { %>
     </details>
     <% } %>
     <h4 class="s-header--4"><%- t("supplement") %></h4>
     <p class="s-paragraph"><%- t("passive-notes") %></p>
 
     <h3 class="s-header--3"><%- t("passive-skills") %></h3>
+    <% if (!page.awaking && page.passive3) { %>
+    <table class="s-table">
+      <tbody>
+          <tr><th width="100%"><div class="s-name"><img class="s-icon" alt="パッシブEXアイコン" src="../img/<%= page.passive3.icon %>.png"><%- page.passive3.name %></div></th></tr>
+          <tr><td class="center"><%- page.passive3.text %></td></tr>
+      </tbody>
+    </table>    
+    <% } %>
     <h4 class="s-header--4"><%- t("unlock-ultimate-level3") %></h4>
     <table class="s-table">
       <tbody>
@@ -235,7 +243,7 @@
         <tr><td class="center"><%- page.passive2.text %></td></tr>
       </tbody>
     </table>
-    <% if (page.passive3) { %>
+    <% if (page.awaking) { %>
     <h4 class="s-header--4"><%- t("unlocked-by-awakening") %></h4>
     <table class="s-table">
       <tbody>
@@ -244,6 +252,7 @@
       </tbody>
     </table>    
     <% } %>
+
 
     <% if (page.weapon) { %>
 

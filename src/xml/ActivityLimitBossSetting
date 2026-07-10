@@ -2071,4 +2071,80 @@
     <talent_slot>4000180</talent_slot>
     <talent_slot>4000190</talent_slot>
   </ActivityLimitBossSetting>
+  <ActivityLimitBossSetting id="400110" name="犬型魔獣" icon="arrive-limit/limit-55" recommend_lv="0" battle_map="100101/100101" background="area1001/100101" hero_rare_limit="無限制" monster_id="40111" monster_add_lv="0" base_tp="6" daily_tp="0" max_tp="6" limit_sec="120" total_point_reward="4005501" max_damage_rank_reward="4005502" total_damage_rank_reward="4005503">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <talent_slot>4000110</talent_slot>
+    <talent_slot>4000120</talent_slot>
+    <talent_slot>4000130</talent_slot>
+    <talent_slot>4000140</talent_slot>
+    <talent_slot>4000150</talent_slot>
+    <talent_slot>4000160</talent_slot>
+    <talent_slot>4000170</talent_slot>
+    <talent_slot>4000180</talent_slot>
+    <talent_slot>4000190</talent_slot>
+  </ActivityLimitBossSetting>
+  <ActivityLimitBossSetting id="400111" name="犬型魔獣(SR限定)" icon="arrive-limit/limit-sr-55" recommend_lv="0" battle_map="100101/100101" background="area1001/100101" hero_rare_limit="SR以下" monster_id="40112" monster_add_lv="0" base_tp="6" daily_tp="0" max_tp="6" limit_sec="120" total_point_reward="4005511" max_damage_rank_reward="4005512" total_damage_rank_reward="0">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <talent_slot>4000110</talent_slot>
+    <talent_slot>4000120</talent_slot>
+    <talent_slot>4000130</talent_slot>
+    <talent_slot>4000140</talent_slot>
+    <talent_slot>4000150</talent_slot>
+    <talent_slot>4000160</talent_slot>
+    <talent_slot>4000170</talent_slot>
+    <talent_slot>4000180</talent_slot>
+    <talent_slot>4000190</talent_slot>
+  </ActivityLimitBossSetting>
+  <ActivityLimitBossSetting id="400112" name="暗殺者" icon="arrive-limit/limit-56" recommend_lv="0" battle_map="100301/100301" background="area1003/100301" hero_rare_limit="無限制" monster_id="40113" monster_add_lv="0" base_tp="6" daily_tp="0" max_tp="6" limit_sec="120" total_point_reward="4005601" max_damage_rank_reward="4005602" total_damage_rank_reward="4005603">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <talent_slot>4000110</talent_slot>
+    <talent_slot>4000120</talent_slot>
+    <talent_slot>4000130</talent_slot>
+    <talent_slot>4000140</talent_slot>
+    <talent_slot>4000150</talent_slot>
+    <talent_slot>4000160</talent_slot>
+    <talent_slot>4000170</talent_slot>
+    <talent_slot>4000180</talent_slot>
+    <talent_slot>4000190</talent_slot>
+  </ActivityLimitBossSetting>
+  <ActivityLimitBossSetting id="400113" name="暗殺者(SR限定)" icon="arrive-limit/limit-sr-56" recommend_lv="0" battle_map="100301/100301" background="area1003/100301" hero_rare_limit="SR以下" monster_id="40114" monster_add_lv="0" base_tp="6" daily_tp="0" max_tp="6" limit_sec="120" total_point_reward="4005611" max_damage_rank_reward="4005612" total_damage_rank_reward="0">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <talent_slot>4000110</talent_slot>
+    <talent_slot>4000120</talent_slot>
+    <talent_slot>4000130</talent_slot>
+    <talent_slot>4000140</talent_slot>
+    <talent_slot>4000150</talent_slot>
+    <talent_slot>4000160</talent_slot>
+    <talent_slot>4000170</talent_slot>
+    <talent_slot>4000180</talent_slot>
+    <talent_slot>4000190</talent_slot>
+  </ActivityLimitBossSetting>
 </root>

@@ -86,7 +86,7 @@ export class HeroList {
                 const skill2 = kf.SkillSetting.find(item => item['@_id'] === hero['@_skill2']);
                 const skill2Effect = kf.SkillEffectSetting.find(item => item['@_Id'] === skill2['@_effect_id']);
             
-                const rareOrder = ["SSR", "SR", "R"];
+                const rareOrder = ["BBR", "SSR", "SR", "R"];
             
                 const gachaTypeEntity = kf.hero_add.find(item => item['@_id'] === id);
 
@@ -123,7 +123,7 @@ export class HeroList {
                     ub_type: categorize[id] ? categorize[id].ub_type : "",
                     sk_type: categorize[id] ? categorize[id].sk_type : "",
                   //  sk_type: gachaTypeEntity?.['@_sk_type'] ?? "",
-                    rank: gachaTypeEntity?.review?.['@_rank'] ?? "未"
+                    rank: gachaTypeEntity?.review?.['@_rank'] ?? "未",
                 };
 
                 if (gachaTypeEntity) {

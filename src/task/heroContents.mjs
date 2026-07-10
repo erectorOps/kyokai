@@ -99,7 +99,8 @@ export class HeroContents {
       gp_text: {},
       need_items: [],
       mp_gantt: [],
-      mp_recovery: new Big(0)
+      mp_recovery: new Big(0),
+      awaking: false
     };
 
     if (gachaTypeEntity) {
@@ -289,11 +290,14 @@ export class HeroContents {
       json.passive3 = parseSkill(hero['@_passive_skill3'], 0, kf);
       calcPassive(hero['@_passive_skill3'], json, kf);
 
-      for (let i = 0; i < 6; i++) {
-        awakeUbSkills.push(parseSkill(this.getChangeSkillId((ub1+i)+""), 0, kf));
+      if (hero['@_rare'] != "BBR") {
+        for (let i = 0; i < 6; i++) {
+          awakeUbSkills.push(parseSkill(this.getChangeSkillId((ub1+i)+""), 0, kf));
+        }
+        json.awake_skill1 = parseSkill(this.getChangeSkillId(hero['@_skill1']), parseInt(json.lv), kf);
+        json.awake_skill2 = parseSkill(this.getChangeSkillId(hero['@_skill2']), parseInt(json.lv), kf);
+        json.awaking = true
       }
-      json.awake_skill1 = parseSkill(this.getChangeSkillId(hero['@_skill1']), parseInt(json.lv), kf);
-      json.awake_skill2 = parseSkill(this.getChangeSkillId(hero['@_skill2']), parseInt(json.lv), kf);
     }
     
 
@@ -315,8 +319,9 @@ export class HeroContents {
     }
     json.gp_text = gptext;
 
-    const limit3Entity = kf.HeroLimitOverSetting.find(item => item['@_group_id'] === group && item['@_over_times'] === "3");
-    json.need_items = limit3Entity.key_item_id.filter(x => x !== "0");
+    const limit3Entity = kf.HeroAwakeSetting.find(item => item['@_id'] === id);
+
+    json.need_items = limit3Entity ? limit3Entity.key_item_id.filter(x => x !== "0") : [];
 
     json.mp_gantt = MpGantt.generateTimelines(json);
 

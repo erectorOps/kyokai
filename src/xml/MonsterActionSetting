@@ -1099,6 +1099,25 @@
   <MonsterActionSetting id="81304" info="残り90秒" type="剩餘時間低於" value="90" skill_id="8130401" />
   <MonsterActionSetting id="81304" info="残り60秒" type="剩餘時間低於" value="60" skill_id="8130402" />
   <MonsterActionSetting id="81304" info="残り30秒" type="剩餘時間低於" value="30" skill_id="8130403" />
+  <MonsterActionSetting id="40111" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4011101" />
+  <MonsterActionSetting id="40111" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4011102" />
+  <MonsterActionSetting id="40111" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4011103" />
+  <MonsterActionSetting id="40111" info="自身が「出血」状態の場合" type="自身有指定狀態" value="流血" skill_id="4011104" />
+  <MonsterActionSetting id="40112" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4011201" />
+  <MonsterActionSetting id="40112" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4011202" />
+  <MonsterActionSetting id="40112" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4011203" />
+  <MonsterActionSetting id="40112" info="自身が「出血」状態の場合" type="自身有指定狀態" value="流血" skill_id="4011204" />
+  <MonsterActionSetting id="45010" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4501001" />
+  <MonsterActionSetting id="45010" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4501002" />
+  <MonsterActionSetting id="45010" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4501003" />
+  <MonsterActionSetting id="40113" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4011301" />
+  <MonsterActionSetting id="40113" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4011302" />
+  <MonsterActionSetting id="40113" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4011303" />
+  <MonsterActionSetting id="40113" info="自身が「盲目」状態の場合" type="自身有指定狀態" value="目盲" skill_id="4011304" />
+  <MonsterActionSetting id="40114" info="残り90秒" type="剩餘時間低於" value="90" skill_id="4011401" />
+  <MonsterActionSetting id="40114" info="残り60秒" type="剩餘時間低於" value="60" skill_id="4011402" />
+  <MonsterActionSetting id="40114" info="残り30秒" type="剩餘時間低於" value="30" skill_id="4011403" />
+  <MonsterActionSetting id="40114" info="自身が「盲目」状態の場合" type="自身有指定狀態" value="目盲" skill_id="4011404" />
   <MonsterActionSetting id="41001" type="剩餘時間低於" value="90" skill_id="4100101" />
   <MonsterActionSetting id="41001" type="剩餘時間低於" value="60" skill_id="4100102" />
   <MonsterActionSetting id="41001" type="剩餘時間低於" value="30" skill_id="4100103" />

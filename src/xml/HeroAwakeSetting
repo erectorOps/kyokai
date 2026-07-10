@@ -120,4 +120,34 @@
     <key_item_num>1200</key_item_num>
     <key_item_num>150</key_item_num>
   </HeroAwakeSetting>
+  <HeroAwakeSetting id="2214" open="true" awake_hp="2540" awake_atk="0" awake_matk="183" awake_def="24" awake_mdef="19" awake_hit="5" awake_block="15" awake_atk_crit="0" awake_matk_crit="0" awake_end_hp_recovery="63" awake_end_mp_recovery="25" awake_dmg_suck_hp="0" awake_healing_power="0" awake_mp_recovery="6" awake_mp_cost_down="5" money_cost="1000000">
+    <key_item_id>7056</key_item_id>
+    <key_item_id>7059</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>7029</key_item_id>
+    <key_item_num>150</key_item_num>
+    <key_item_num>120</key_item_num>
+    <key_item_num>1200</key_item_num>
+    <key_item_num>150</key_item_num>
+  </HeroAwakeSetting>
+  <HeroAwakeSetting id="2216" open="true" awake_hp="1683" awake_atk="255" awake_matk="0" awake_def="31" awake_mdef="66" awake_hit="10" awake_block="10" awake_atk_crit="0" awake_matk_crit="0" awake_end_hp_recovery="32" awake_end_mp_recovery="25" awake_dmg_suck_hp="0" awake_healing_power="0" awake_mp_recovery="9" awake_mp_cost_down="5" money_cost="1000000">
+    <key_item_id>7054</key_item_id>
+    <key_item_id>7059</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>7027</key_item_id>
+    <key_item_num>150</key_item_num>
+    <key_item_num>120</key_item_num>
+    <key_item_num>1200</key_item_num>
+    <key_item_num>150</key_item_num>
+  </HeroAwakeSetting>
+  <HeroAwakeSetting id="2215" open="true" awake_hp="1315" awake_atk="260" awake_matk="0" awake_def="90" awake_mdef="76" awake_hit="15" awake_block="5" awake_atk_crit="0" awake_matk_crit="0" awake_end_hp_recovery="27" awake_end_mp_recovery="24" awake_dmg_suck_hp="0" awake_healing_power="0" awake_mp_recovery="7" awake_mp_cost_down="5" money_cost="1000000">
+    <key_item_id>7057</key_item_id>
+    <key_item_id>7059</key_item_id>
+    <key_item_id>7014</key_item_id>
+    <key_item_id>7049</key_item_id>
+    <key_item_num>150</key_item_num>
+    <key_item_num>120</key_item_num>
+    <key_item_num>1200</key_item_num>
+    <key_item_num>150</key_item_num>
+  </HeroAwakeSetting>
 </root>

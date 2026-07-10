@@ -282,5 +282,17 @@
   <StageWorldSetting id="5337" opposite_stage_world_id1="5237" opposite_stage_world_id2="5437" arrive_id="2237" name="妖狐の住まう国-後半" world_type="活動_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="5437" opposite_stage_world_id1="5237" opposite_stage_world_id2="5337" arrive_id="2237" name="妖狐の住まう国（Hard）" world_type="活動_非常困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="5238" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2238" name="【Fanzine】クエスト" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5239" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2239" name="試練の塔-妖狐の住まう国" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5240" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2240" name="【Fanzine】クエスト" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5340" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2340" name="【リリース1000日記念】特別クエスト" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5241" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2241" name="物資調達" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5341" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2341" name="《復刻》花嫁の恵み" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5242" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2242" name="神託の花嫁ら" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5442" opposite_stage_world_id1="5242" opposite_stage_world_id2="0" arrive_id="2242" name="神託の花嫁ら（Hard）" world_type="活動_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5243" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2243" name="魂を震わせて" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5343" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2343" name="《復刻》恵みの雨は、降り注ぎ" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5244" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2244" name="物資調達" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5245" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2245" name="誉れあり竜族よ" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5345" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2345" name="《復刻》タコタコ、ビーチパニック!!" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="99991" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="99991" name="測試木樁" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
 </root>

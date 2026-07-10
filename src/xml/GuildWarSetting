@@ -240,6 +240,26 @@
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
   </GuildWarSetting>
+  <GuildWarSetting id="301" name="1月" background="battle100101bg/100103" open="false" start_time="2026/01/01 10:00:00" end_time="2026/01/10 23:59:59" coin_item_id="0" battle_dmg_buff_hero_group="0" battle_anti_dmg_buff_hero_group="0" battle_guild_coin_buff_hero_group="0">
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+  </GuildWarSetting>
+  <GuildWarSetting id="302" name="2月" background="battle100101bg/100103" open="false" start_time="2026/02/01 10:00:00" end_time="2026/02/10 23:59:59" coin_item_id="0" battle_dmg_buff_hero_group="0" battle_anti_dmg_buff_hero_group="0" battle_guild_coin_buff_hero_group="0">
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+  </GuildWarSetting>
   <GuildWarSetting id="303" name="3月" background="battle100101bg/100103" open="true" start_time="2026/03/20 03:00:00" end_time="2026/03/27 03:00:00" coin_item_id="1815" battle_dmg_buff_hero_group="2237" battle_anti_dmg_buff_hero_group="2207" battle_guild_coin_buff_hero_group="2051">
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
@@ -250,7 +270,37 @@
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
   </GuildWarSetting>
+  <GuildWarSetting id="304" name="4月" background="battle100101bg/100103" open="false" start_time="2026/04/01 03:00:00" end_time="2026/04/10 03:00:00" coin_item_id="0" battle_dmg_buff_hero_group="0" battle_anti_dmg_buff_hero_group="0" battle_guild_coin_buff_hero_group="0">
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+  </GuildWarSetting>
   <GuildWarSetting id="305" name="5月" background="battle100101bg/100103" open="true" start_time="2026/05/04 03:00:00" end_time="2026/05/11 03:00:00" coin_item_id="1859" battle_dmg_buff_hero_group="2073" battle_anti_dmg_buff_hero_group="2108" battle_guild_coin_buff_hero_group="2055">
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+  </GuildWarSetting>
+  <GuildWarSetting id="306" name="6月" background="battle100101bg/100103" open="false" start_time="2026/06/01 03:00:00" end_time="2026/06/10 03:00:00" coin_item_id="0" battle_dmg_buff_hero_group="0" battle_anti_dmg_buff_hero_group="0" battle_guild_coin_buff_hero_group="0">
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+    <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
+  </GuildWarSetting>
+  <GuildWarSetting id="307" name="7月" background="battle100101bg/100103" open="true" start_time="2026/07/06 03:00:00" end_time="2026/07/13 03:00:00" coin_item_id="1901" battle_dmg_buff_hero_group="2237" battle_anti_dmg_buff_hero_group="2207" battle_guild_coin_buff_hero_group="2051">
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>
     <dead_drop_prob_buff_hero_group>0</dead_drop_prob_buff_hero_group>

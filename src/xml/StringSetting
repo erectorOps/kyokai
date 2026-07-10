@@ -57,6 +57,7 @@
   <StringSetting id="3101" text="パッシブスキル" />
   <StringSetting id="3102" text="パッシブスキル" />
   <StringSetting id="3103" text="パッシブスキル" />
+  <StringSetting id="3199" text="ユニークスキル" />
   <StringSetting id="3401" text="競撃戦スキル" />
   <StringSetting id="3501" text="アクティブスキル" />
   <StringSetting id="3551" text="パッシブスキル" />
@@ -524,6 +525,11 @@
   <StringSetting id="5514" text="覚醒可能" />
   <StringSetting id="5515" text="覚醒済み" />
   <StringSetting id="5516" text="覺醒" />
+  <StringSetting id="5517" text="Lv{0}に達する" />
+  <StringSetting id="5518" text="Grade{0}に達する" />
+  <StringSetting id="5519" text="絆Lv{0}以上に達する" />
+  <StringSetting id="5520" text="ユニーク" />
+  <StringSetting id="5521" text="加算一覧" />
   <StringSetting id="6000" text="Lv突破" />
   <StringSetting id="6001" text="Lv" />
   <StringSetting id="6002" text="戦力" />
@@ -2100,7 +2106,7 @@
   <StringSetting id="29256" text="期間限定" />
   <StringSetting id="29258" text="おπの月" />
   <StringSetting id="29259" text="一周年記念" />
-  <StringSetting id="29260" text="2.5周年記念" />
+  <StringSetting id="29260" text="1000日記念" />
   <StringSetting id="29261" text="特殊頁籤2" />
   <StringSetting id="30001" text="BOSS" />
   <StringSetting id="30002" text="出撃履歴" />
@@ -2844,9 +2850,9 @@
   <StringSetting id="42405" text="挑戦" />
   <StringSetting id="42406" text="闘技場3vs3の防衛に成功しました" />
   <StringSetting id="42407" text="挑戦回数の購入" />
-  <StringSetting id="42408" text="晶石×{0} を消費して、&#xA;1vs1の挑戦回数を購入しますか？" />
+  <StringSetting id="42408" text="晶石×{0} を消費して、&#xA;1vs1の挑戦回数×{1}を購入しますか？" />
   <StringSetting id="42409" text="挑戦回数の購入" />
-  <StringSetting id="42410" text="晶石×{0} を消費して、&#xA;3vs3の挑戦回数を購入しますか？" />
+  <StringSetting id="42410" text="晶石×{0} を消費して、&#xA;3vs3の挑戦回数×{1}を購入しますか？" />
   <StringSetting id="42411" text="挑戦回数が上限に達しています" />
   <StringSetting id="42412" text="挑戦回数が上限に達しています" />
   <StringSetting id="42413" text="晶石が不足しています" />
@@ -3187,7 +3193,7 @@
   <StringSetting id="52018" text="{0}が不足しています" />
   <StringSetting id="52019" text="{0}を消費して、挑戦しますか？(所持数{1})" />
   <StringSetting id="52021" text="挑戦条件" />
-  <StringSetting id="52022" text="ストーリーを全クリアすると&#xA;試練の塔が解放されます" />
+  <StringSetting id="52022" text="クエストを全クリアすると&#xA;試練の塔が解放されます" />
   <StringSetting id="52023" text="クリア記録はありません" />
   <StringSetting id="52024" text="試練の塔" />
   <StringSetting id="52025" text="夢創の塔" />
@@ -3370,6 +3376,7 @@
   <StringSetting id="58001" text="R" />
   <StringSetting id="58002" text="SR" />
   <StringSetting id="58003" text="SSR" />
+  <StringSetting id="58004" text="BBR" />
   <StringSetting id="59001" text="競撃戦" />
   <StringSetting id="59002" text="ランキング" />
   <StringSetting id="59003" text="ランキング" />
@@ -3527,7 +3534,7 @@
   <StringSetting id="60067" text="獲得失敗" />
   <StringSetting id="60068" text="報酬を獲得済みです" />
   <StringSetting id="60069" text="ランキング" />
-  <StringSetting id="60070" text="ランキング1位～10位：称号「妖狐のお墨付き」を獲得できます。&#xA;ランキング1位～100位：称号「妖狐憑き」を獲得できます。" />
+  <StringSetting id="60070" text="ランキング1位～10位：称号「暗殺者の花婿」を獲得できます。&#xA;ランキング1位～100位：称号「エルフの花婿」を獲得できます。" />
   <StringSetting id="60071" text="プレイヤー情報がありません" />
   <StringSetting id="60072" text="攻撃でHP-{0}" />
   <StringSetting id="60073" text="{0}秒後に更新可能" />
@@ -3777,7 +3784,7 @@
   <StringSetting id="66005" text="Lv購入" />
   <StringSetting id="66006" text="交換所" />
   <StringSetting id="66007" text="アップグレード" />
-  <StringSetting id="66008" text="シーズン期間：2026/06/04 11:00まで" />
+  <StringSetting id="66008" text="シーズン期間：2026/09/03 11:00まで" />
   <StringSetting id="66009" text="開催期間：{0}まで" />
   <StringSetting id="66010" text="デイリー" />
   <StringSetting id="66011" text="ウィークリー" />
@@ -3807,7 +3814,7 @@
   <StringSetting id="66036" text="未解放&#xD;&#xA;{0}以後に解放予定" />
   <StringSetting id="66037" text="{0}　{1}" />
   <StringSetting id="66038" text="ウィークリーミッション「毎週木曜日03：00に更新」（12週目まで）" />
-  <StringSetting id="66039" text="シーズンミッション「2026/06/04 11:00まで」" />
+  <StringSetting id="66039" text="シーズンミッション「2026/09/03 11:00まで」" />
   <StringSetting id="66040" text="ルール" />
   <StringSetting id="66041" text="■シーズンパス&#xA;・シーズンパスは一定期間をシーズンとして開催します。&#xA;・パスレベルをアップさせるとレベルごとに設定された様々な報酬を獲得できます。&#xA;・シーズンが終了するとパスレベルアップとパス報酬が獲得できなくなります。&#xA;&#xA;■パスのグレード&#xA;・パスのグレードはノーマル、スペシャル、プレミアムに分かれています。&#xA;・ノーマル パスは無料で開放されます。&#xA;・スペシャル パス、プレミアム パスはDMMポイントで購入でき、購入後それぞれの追加報酬が獲得できます。&#xA;・シーズン期間中、スペシャル パスやプレミアム パスを購入した場合、購入時点までに開放された追加報酬はすべて獲得できます。&#xA;&#xA;■パスレベルと任務&#xA;・パス任務を達成してパス経験値をためると、パスレベルを上昇させることができます。&#xA;・デイリー任務は毎日3:00に更新されます。&#xA;・ウィークリー任務は毎週木曜日3:00に新しく追加されます（12週目まで）。&#xA;・任務達成進捗から獲得する経験値はEXP獲得量上昇効果を受けません。&#xA;・シーズンの一定期間が経過後、「Lv購入」より晶石を消費してパスレベルを上昇させることができるようになります。" />
   <StringSetting id="66042" text="{0}以後開放" />
@@ -4543,10 +4550,10 @@
   <StringSetting id="95110" text="タッチ" />
   <StringSetting id="95111" text="残り回数：{0}" />
   <StringSetting id="95112" text="スタート" />
-  <StringSetting id="95201" text="加值強化" />
+  <StringSetting id="95201" text="能力強化" />
   <StringSetting id="95202" text="強化" />
   <StringSetting id="95203" text="重置" />
-  <StringSetting id="95204" text="{0}&#xA;確認要消耗{1}進行強化？" />
+  <StringSetting id="95204" text="{0} → {1}&#xA;{2}を消費して強化しますか？" />
   <StringSetting id="95205" text="是否要重置加值？&#xA;將退回加值的素材" />
   <StringSetting id="95206" text="角色不存在" />
   <StringSetting id="95207" text="無法強化" />
@@ -4554,6 +4561,9 @@
   <StringSetting id="95209" text="素材不足" />
   <StringSetting id="95210" text="系統錯誤" />
   <StringSetting id="95211" text="無法重置" />
+  <StringSetting id="95212" text="各能力は最大{0}回まで強化できます。" />
+  <StringSetting id="95213" text="強化回数：{0}" />
+  <StringSetting id="95214" text="{0}強化" />
   <StringSetting id="95301" text="{0}ポイントで解放" />
   <StringSetting id="95302" text="期間が終了しました" />
   <StringSetting id="95303" text="データエラー①が発生しました。ゲームを再起動してください" />
@@ -4719,5 +4729,4 @@
   <StringSetting id="100107" text="Lv" />
   <StringSetting id="100108" text="？？？" />
   <StringSetting id="100109" text="{0}" />
-  <StringSetting id="999999" text="test" />
 </root>

@@ -27,4 +27,10 @@
   <TreasureHunterBuffReduceSetting id="25" group="9" effect_type="魅惑" buff_reduce="20" />
   <TreasureHunterBuffReduceSetting id="26" group="9" effect_type="恐懼" buff_reduce="10" />
   <TreasureHunterBuffReduceSetting id="27" group="9" buff_reduce="1" />
+  <TreasureHunterBuffReduceSetting id="28" group="10" effect_type="暈眩" buff_reduce="20" />
+  <TreasureHunterBuffReduceSetting id="29" group="10" effect_type="麻痺" buff_reduce="10" />
+  <TreasureHunterBuffReduceSetting id="30" group="10" buff_reduce="1" />
+  <TreasureHunterBuffReduceSetting id="31" group="11" effect_type="沉默" buff_reduce="20" />
+  <TreasureHunterBuffReduceSetting id="32" group="11" effect_type="燒傷" buff_reduce="2" />
+  <TreasureHunterBuffReduceSetting id="33" group="11" buff_reduce="1" />
 </root>

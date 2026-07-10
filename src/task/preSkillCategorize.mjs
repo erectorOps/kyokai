@@ -9,11 +9,15 @@ class SkillCheck {
         const skills = kf.SkillSetting;
         let s1 = skills.find(item => item['@_id'] === sid);
 
-        if (s1['@_awake_change_skill_id'] !== "0") {
+        if (!s1) {
+            console.log("year");
+        }
+
+        if (s1['@_awake_change_skill_id'] && s1['@_awake_change_skill_id'] !== "0") {
             s1 = skills.find(item => item['@_id'] === s1['@_awake_change_skill_id']);
         }
 
-        if (s1['@_guild_war_skill_id'] !== "0") {
+        if (s1['@_guild_war_skill_id'] && s1['@_guild_war_skill_id'] !== "0") {
             s1 = skills.find(item => item['@_id'] === s1['@_guild_war_skill_id']);
         }
 
@@ -27,10 +31,10 @@ class SkillCheck {
                 for (let i = 1; i < groups.length; i++) {
                     let s2 = groups[i];
 
-                    if (s2['@_awake_change_skill_id'] !== "0") {
+                    if (s2['@_awake_change_skill_id'] && s2['@_awake_change_skill_id'] !== "0") {
                         s2 = skills.find(item => item['@_id'] === s2['@_awake_change_skill_id']);
                     }
-                    if (s2['@_guild_war_skill_id'] !== "0") {
+                    if (s2['@_guild_war_skill_id'] && s2['@_guild_war_skill_id'] !== "0") {
                         s2 = skills.find(item => item['@_id'] === s2['@_guild_war_skill_id']);
                     }
                     if (list.indexOf(s2) < 0) {
@@ -508,7 +512,7 @@ export class PreSkillCategorize {
                 ub_type: []
             };
 
-            if (hero['@_passive_skill3'] && hero['@_passive_skill3'] != "0") {
+            if (hero['@_rare'] != "BBR" && hero['@_passive_skill3'] && hero['@_passive_skill3'] != "0") {
                 actives.push(new SkillCheck(this.kf, this.getChangeSkillId(hero['@_skill1'])));
                 actives.push(new SkillCheck(this.kf, this.getChangeSkillId(hero['@_skill2'])));
                 ultimate.push(new SkillCheck(this.kf, this.getChangeSkillId(hero['@_ub_skill'])));
