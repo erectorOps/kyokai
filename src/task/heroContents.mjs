@@ -282,7 +282,9 @@ export class HeroContents {
     const awakeUbSkills = [];
     const ub1 = parseInt(hero['@_ub_skill']);
 
-    for (let i = 0; i < 5; i++) {
+    // BBRは覚醒済みSSRと同様に奥義Lv.6まである(覚醒用の差し替えではなく連番のスキルIDで6段階ある)
+    const ubLevels = hero['@_rare'] === "BBR" ? 6 : 5;
+    for (let i = 0; i < ubLevels; i++) {
       ubskills.push(parseSkill((ub1+i)+"", 0, kf));
     }
 

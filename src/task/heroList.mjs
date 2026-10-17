@@ -124,6 +124,8 @@ export class HeroList {
                     sk_type: categorize[id] ? categorize[id].sk_type : "",
                   //  sk_type: gachaTypeEntity?.['@_sk_type'] ?? "",
                     rank: gachaTypeEntity?.review?.['@_rank'] ?? "未",
+                    // 3つめのパッシブがあれば覚醒済み(SSRの覚醒解放分と、最初から覚醒相当のBBR)
+                    awake: hero['@_passive_skill3'] && hero['@_passive_skill3'] !== "0" ? "1" : "0",
                 };
 
                 if (gachaTypeEntity) {
