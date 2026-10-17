@@ -319,9 +319,14 @@ export class HeroContents {
     }
     json.gp_text = gptext;
 
-    const limit3Entity = kf.HeroAwakeSetting.find(item => item['@_id'] === id);
-
-    json.need_items = limit3Entity ? limit3Entity.key_item_id.filter(x => x !== "0") : [];
+    // 主な限界素材(3回目の限界突破素材)。HeroLimitOverSettingから素材IDが削除されたため、
+    // 属性別の結晶(SpecialValueSetting group 2000～2002)とkey_item_type別の騎士遺物(group 2010～2012)のティア表から引く。
+    // 旧データの3回目素材はRが中ティア、それ以外が最上位ティア＋超越水晶だった
+    const attrIndex = ["火", "水", "風", "魔", "聖", "想"].indexOf(hero['@_attr']) + 1;
+    const relicIndex = ["魂", "吐息", "角", "甲羅", "小枝", "羽", "牙", "封蝋", "女神像", "秘薬"].indexOf(hero['@_key_item_type']) + 1;
+    const tier = hero['@_rare'] === "R" ? 1 : 2;
+    const findTierItem = (groupId, index) => kf.SpecialValueSetting.find(item => item['@_group_id'] === String(groupId) && item['@_id'] === String(index))?.['@_tar_id'];
+    json.need_items = [findTierItem(2000 + tier, attrIndex), findTierItem(2010 + tier, relicIndex), "7014"].filter(x => x && x !== "0");
 
     json.mp_gantt = MpGantt.generateTimelines(json);
 
