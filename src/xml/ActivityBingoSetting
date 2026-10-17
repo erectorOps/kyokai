@@ -1,57 +1,76 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <root>
   <ActivityBingoSetting id="900066">
-    <quest_id>506809</quest_id>
-    <quest_id>506810</quest_id>
-    <quest_id>506811</quest_id>
-    <quest_id>506812</quest_id>
-    <quest_id>506813</quest_id>
-    <quest_id>506814</quest_id>
-    <quest_id>506815</quest_id>
-    <quest_id>506816</quest_id>
-    <quest_id>506817</quest_id>
-    <quest_id>506818</quest_id>
-    <quest_id>506819</quest_id>
-    <quest_id>506820</quest_id>
-    <quest_id>506821</quest_id>
-    <quest_id>506822</quest_id>
-    <quest_id>506823</quest_id>
-    <quest_id>506824</quest_id>
-    <quest_id>506825</quest_id>
-    <quest_id>506826</quest_id>
-    <quest_id>506827</quest_id>
-    <quest_id>506828</quest_id>
-    <quest_id>506829</quest_id>
-    <quest_id>506830</quest_id>
-    <quest_id>506831</quest_id>
-    <quest_id>506832</quest_id>
-    <quest_id>506833</quest_id>
+    <quest_id>1</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <open_time>0001-01-01 00:00:00</open_time>
+    <open_time>0001-01-01 00:00:00</open_time>
+    <open_time>0001-01-01 00:00:00</open_time>
+    <open_time>0001-01-01 00:00:00</open_time>
+    <open_time>0001-01-01 00:00:00</open_time>
+    <link_reward_id>1</link_reward_id>
+    <link_reward_id>0</link_reward_id>
+    <link_reward_id>0</link_reward_id>
+    <link_reward_id>0</link_reward_id>
+    <link_reward_id>0</link_reward_id>
+    <link_count_reward_id>2</link_count_reward_id>
+    <link_count_reward_id>0</link_count_reward_id>
+    <link_count_reward_id>0</link_count_reward_id>
+    <link_count_reward_id>0</link_count_reward_id>
+    <link_count_reward_id>0</link_count_reward_id>
+    <bg>bingo-1/Bingo_Image</bg>
   </ActivityBingoSetting>
   <ActivityBingoSetting id="900133">
-    <quest_id>521820</quest_id>
-    <quest_id>521821</quest_id>
-    <quest_id>521822</quest_id>
-    <quest_id>521823</quest_id>
-    <quest_id>521824</quest_id>
-    <quest_id>521825</quest_id>
-    <quest_id>521826</quest_id>
-    <quest_id>521827</quest_id>
-    <quest_id>521828</quest_id>
-    <quest_id>521829</quest_id>
-    <quest_id>521830</quest_id>
-    <quest_id>521831</quest_id>
-    <quest_id>521832</quest_id>
-    <quest_id>521833</quest_id>
-    <quest_id>521834</quest_id>
-    <quest_id>521835</quest_id>
-    <quest_id>521836</quest_id>
-    <quest_id>521837</quest_id>
-    <quest_id>521838</quest_id>
-    <quest_id>521839</quest_id>
-    <quest_id>521840</quest_id>
-    <quest_id>521841</quest_id>
-    <quest_id>521842</quest_id>
-    <quest_id>521843</quest_id>
-    <quest_id>521844</quest_id>
+    <quest_id>2</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <open_time>0001-01-01 00:00:00</open_time>
+    <open_time>0001-01-01 00:00:00</open_time>
+    <open_time>0001-01-01 00:00:00</open_time>
+    <open_time>0001-01-01 00:00:00</open_time>
+    <open_time>0001-01-01 00:00:00</open_time>
+    <link_reward_id>3</link_reward_id>
+    <link_reward_id>0</link_reward_id>
+    <link_reward_id>0</link_reward_id>
+    <link_reward_id>0</link_reward_id>
+    <link_reward_id>0</link_reward_id>
+    <link_count_reward_id>4</link_count_reward_id>
+    <link_count_reward_id>0</link_count_reward_id>
+    <link_count_reward_id>0</link_count_reward_id>
+    <link_count_reward_id>0</link_count_reward_id>
+    <link_count_reward_id>0</link_count_reward_id>
+  </ActivityBingoSetting>
+  <ActivityBingoSetting id="900188">
+    <name>一枚目</name>
+    <name>二枚目</name>
+    <name>三枚目</name>
+    <quest_id>7</quest_id>
+    <quest_id>8</quest_id>
+    <quest_id>9</quest_id>
+    <quest_id>0</quest_id>
+    <quest_id>0</quest_id>
+    <open_time>0001-01-01 00:00:00</open_time>
+    <open_time>2026-09-10 11:00:00</open_time>
+    <open_time>2026-09-17 11:00:00</open_time>
+    <open_time>0001-01-01 00:00:00</open_time>
+    <open_time>0001-01-01 00:00:00</open_time>
+    <link_reward_id>11</link_reward_id>
+    <link_reward_id>13</link_reward_id>
+    <link_reward_id>15</link_reward_id>
+    <link_reward_id>0</link_reward_id>
+    <link_reward_id>0</link_reward_id>
+    <link_count_reward_id>12</link_count_reward_id>
+    <link_count_reward_id>14</link_count_reward_id>
+    <link_count_reward_id>16</link_count_reward_id>
+    <link_count_reward_id>0</link_count_reward_id>
+    <link_count_reward_id>0</link_count_reward_id>
+    <bg>bingo-1/Bingo_Image_3Y-1</bg>
+    <bg>bingo-1/Bingo_Image_3Y-2</bg>
+    <bg>bingo-1/Bingo_Image_3Y-3</bg>
   </ActivityBingoSetting>
 </root>

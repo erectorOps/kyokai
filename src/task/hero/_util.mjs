@@ -36,7 +36,7 @@ export const getAtkAttrKey = (value) => {
 
 export const getEquipType = (value) => {
   switch (value) {
-    case "斬": return "weapon";
+    case "斬": return "slash";
     case "打": return "blunt";
     case "突": return "pierce";
     case "射": return "ranged";

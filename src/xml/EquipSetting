@@ -4715,4 +4715,62 @@
     <pvp_skill_lv>0</pvp_skill_lv>
     <pvp_skill_lv>0</pvp_skill_lv>
   </EquipSetting>
+  <EquipSetting id="4372" type="專武" can_equip_hero_ids="2323" rank_limit="4" equip_lv_max="50" main_statistic="奧義傷害百分比" main_statistic_value="10" main_statistic_grow="0" rankup_instead_item="40035" rankup_ignore_unique_lock="false">
+    <secondary_statistic>3</secondary_statistic>
+    <secondary_statistic>6</secondary_statistic>
+    <secondary_statistic>0</secondary_statistic>
+    <secondary_statistic_value>40</secondary_statistic_value>
+    <secondary_statistic_value>3</secondary_statistic_value>
+    <secondary_statistic_grow>4</secondary_statistic_grow>
+    <secondary_statistic_grow>0.1</secondary_statistic_grow>
+    <skill_id>222101</skill_id>
+    <skill_id>222102</skill_id>
+    <skill_id>222103</skill_id>
+    <skill_id>222104</skill_id>
+    <skill_id>222105</skill_id>
+    <skill_lv>0</skill_lv>
+    <skill_lv>1</skill_lv>
+    <skill_lv>2</skill_lv>
+    <skill_lv>3</skill_lv>
+    <skill_lv>4</skill_lv>
+    <pvp_skill_id>0</pvp_skill_id>
+    <pvp_skill_id>0</pvp_skill_id>
+    <pvp_skill_id>0</pvp_skill_id>
+    <pvp_skill_id>0</pvp_skill_id>
+    <pvp_skill_id>0</pvp_skill_id>
+    <pvp_skill_lv>0</pvp_skill_lv>
+    <pvp_skill_lv>0</pvp_skill_lv>
+    <pvp_skill_lv>0</pvp_skill_lv>
+    <pvp_skill_lv>0</pvp_skill_lv>
+    <pvp_skill_lv>0</pvp_skill_lv>
+  </EquipSetting>
+  <EquipSetting id="4373" type="專武" can_equip_hero_ids="2335" rank_limit="4" equip_lv_max="50" main_statistic="技能傷害百分比" main_statistic_value="20" main_statistic_grow="0" rankup_instead_item="40036" rankup_ignore_unique_lock="false">
+    <secondary_statistic>8</secondary_statistic>
+    <secondary_statistic>6</secondary_statistic>
+    <secondary_statistic>0</secondary_statistic>
+    <secondary_statistic_value>20</secondary_statistic_value>
+    <secondary_statistic_value>4</secondary_statistic_value>
+    <secondary_statistic_grow>2</secondary_statistic_grow>
+    <secondary_statistic_grow>0.1</secondary_statistic_grow>
+    <skill_id>233501</skill_id>
+    <skill_id>233502</skill_id>
+    <skill_id>233503</skill_id>
+    <skill_id>233504</skill_id>
+    <skill_id>233505</skill_id>
+    <skill_lv>0</skill_lv>
+    <skill_lv>1</skill_lv>
+    <skill_lv>2</skill_lv>
+    <skill_lv>3</skill_lv>
+    <skill_lv>4</skill_lv>
+    <pvp_skill_id>0</pvp_skill_id>
+    <pvp_skill_id>0</pvp_skill_id>
+    <pvp_skill_id>0</pvp_skill_id>
+    <pvp_skill_id>0</pvp_skill_id>
+    <pvp_skill_id>0</pvp_skill_id>
+    <pvp_skill_lv>0</pvp_skill_lv>
+    <pvp_skill_lv>0</pvp_skill_lv>
+    <pvp_skill_lv>0</pvp_skill_lv>
+    <pvp_skill_lv>0</pvp_skill_lv>
+    <pvp_skill_lv>0</pvp_skill_lv>
+  </EquipSetting>
 </root>

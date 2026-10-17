@@ -120,4 +120,14 @@
     <stage_buff_second>0</stage_buff_second>
     <stage_buff_second>0</stage_buff_second>
   </MusouSetting>
+  <MusouSetting id="700013" name="黄泉の教え子" bg="area1005/100502" battle_map="102902/102902" atk_cnt_limit="3" get_item_id="0" get_item_num="0" monster_group="13" boss_time="30" monster_point="1" boss_point="10" time_point="0" b_need_point="30" a_need_point="100" s_need_point="200" ss_need_point="300" c_get_point="600" b_get_point="800" a_get_point="1000" s_get_point="1200" ss_get_point="1500">
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_group>0</stage_buff_group>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+    <stage_buff_second>0</stage_buff_second>
+  </MusouSetting>
 </root>

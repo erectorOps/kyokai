@@ -23,6 +23,12 @@ const checkMp = (buff, lv, info) => {
 
 const parseBuff = (buff, lv, info) => {
   if (buff["@_get_counter"] && buff["@_get_counter"] != "0") {
+    // 【浪花】等の蓄積型: スキル説明文側の「1個につき{N}」に1個あたりの効果を埋め込む
+    if (buff['@_effect_type'] === '奧義追加傷害') {
+      const counterVal1 = new Big(buff['@_counter_effect_val1'] ?? 0).round(2, Big.roundHalfEven);
+      const hits = new Big(buff['@_effect_val2'] ?? 0);
+      return `奥義発動時追撃(ダメージ<span class="value">${counterVal1}%</span>で${hits}回追加ダメージ)`;
+    }
     //console.log("Error: get_counterのあるバフをパースしようとしてる [buff id="+buff["@_id"] + "]");
     return "Error: get_counterのあるバフをパースしようとしてる [buff id="+buff["@_id"] + "]";
   }
@@ -41,8 +47,12 @@ const parseBuff = (buff, lv, info) => {
   const val4 = buff['@_effect_val4'] ? new Big(buff['@_effect_val4']).round(2, Big.roundHalfEven) :new Big(0);
   const val5 = buff['@_effect_val5'] ? new Big(buff['@_effect_val5']).round(2, Big.roundHalfEven) :new Big(0);
   let text = "";
+  // 効果量が全て0のステータス系バフは【状態名】の目印用ダミーなので、ゲーム内のバフ説明文を使う
+  const noEffectValue = [val1, val2, val3, val4, val5].every(v => v.eq(0)) && !!buff['@_effect_text'];
+  let usedUpDown = false;
 
   const parseUpDown = (v1) => {
+    usedUpDown = true;
     let t = "";
     if (v1 === undefined) { v1 = val1; }
     if (v1.gt(0)) {
@@ -793,6 +803,9 @@ const parseBuff = (buff, lv, info) => {
           console.log("Unknown buff effect type = "+type);
           break;
   }
+  if (usedUpDown && noEffectValue) {
+    return buff['@_effect_text'].replace(/<color=(#[A-F0-9]+?)>/ig, `<span class="value">`).replace(/<\/color>/ig, "</span>");
+  }
   if (buff['@_cant_remove'] === 'true') {
     //text += "(消去不可)";
   }
@@ -936,6 +949,30 @@ export const parseSkill = (sid, lv, kf) => {
         }
       }
     }
+  }
+
+  // 変化後スキル・同盟戦スキルのバフはゲーム側の説明文で{30}以降の番号で参照される
+  // スキル毎に12番ずつ、バフA～Dで3番ずつ割り当てられ、先頭が効果時間、次が効果内容
+  for (const [keyname, offset] of [
+    ["@_change_skill_id_a", 30],
+    ["@_change_skill_id_b", 42],
+    ["@_change_skill_id_c", 54],
+    ["@_guild_war_skill_id", 66]]) {
+    if (!s[keyname] || s[keyname] === "0") continue;
+    const c = kf.SkillSetting.find(item => item['@_id'] === s[keyname]);
+    if (!c) continue;
+    ['A', 'B', 'C', 'D'].forEach((slot, i) => {
+      const buffId = c['@_buff_id'+slot];
+      if (!buffId || buffId === "0") return;
+      const durToken = "{"+(offset + i * 3)+"}";
+      const buffToken = "{"+(offset + i * 3 + 1)+"}";
+      const buffDur = c['@_buff_dur'+slot];
+      text = text.replaceAll(durToken, buffDur);
+      const buff = kf.BuffSetting.find(item => item['@_id'] === buffId);
+      if (buff !== undefined && text.includes(buffToken)) {
+        text = text.replaceAll(buffToken, parseBuff(buff, lv, {id: buffId, duration: buffDur, if: c['@_buff_if'+slot], target: c['@_buff_target'+slot], skillTarget: c["@_target"], kf: kf}));
+      }
+    });
   }
 
   // ◯◯か◯◯のスキル

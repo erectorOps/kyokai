@@ -425,4 +425,55 @@
     <stage_id>0</stage_id>
     <stage_id>0</stage_id>
   </DungeonSetting>
+  <DungeonSetting id="26" type="EX" start_time="2026/08/01 03:00:00" end_time="2026/09/01 02:59:59" rank_id="525" stage_buff_group="602500" star_id="1000035" award_bonus_scale="1" award_bonus_start_time="2026/08/01 03:00:00" award_bonus_end_time="2026/09/01 02:59:59">
+    <stage_id>251</stage_id>
+    <stage_id>252</stage_id>
+    <stage_id>253</stage_id>
+    <stage_id>254</stage_id>
+    <stage_id>255</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+  </DungeonSetting>
+  <DungeonSetting id="27" type="EX" start_time="2026/09/01 03:00:00" end_time="2026/10/01 02:59:59" rank_id="526" stage_buff_group="602600" star_id="1000037" award_bonus_scale="0">
+    <stage_id>261</stage_id>
+    <stage_id>262</stage_id>
+    <stage_id>263</stage_id>
+    <stage_id>264</stage_id>
+    <stage_id>265</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+  </DungeonSetting>
+  <DungeonSetting id="28" type="EX" start_time="2026/10/01 03:00:00" end_time="2026/11/01 02:59:59" rank_id="527" stage_buff_group="602700" star_id="1000039" award_bonus_scale="0">
+    <stage_id>271</stage_id>
+    <stage_id>272</stage_id>
+    <stage_id>273</stage_id>
+    <stage_id>274</stage_id>
+    <stage_id>275</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+    <stage_id>0</stage_id>
+  </DungeonSetting>
 </root>

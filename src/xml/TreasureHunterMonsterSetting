@@ -132,4 +132,40 @@
     <damage_reduction_second>35</damage_reduction_second>
     <damage_reduction_second>0</damage_reduction_second>
   </TreasureHunterMonsterSetting>
+  <TreasureHunterMonsterSetting id="12" name="boss" boss_id="45012" lv="70" ani_scale="0" boss_buff_group_id="45012">
+    <damage_reduction>60</damage_reduction>
+    <damage_reduction>70</damage_reduction>
+    <damage_reduction>80</damage_reduction>
+    <damage_reduction>90</damage_reduction>
+    <damage_reduction>0</damage_reduction>
+    <damage_reduction_second>30</damage_reduction_second>
+    <damage_reduction_second>30</damage_reduction_second>
+    <damage_reduction_second>30</damage_reduction_second>
+    <damage_reduction_second>35</damage_reduction_second>
+    <damage_reduction_second>0</damage_reduction_second>
+  </TreasureHunterMonsterSetting>
+  <TreasureHunterMonsterSetting id="13" name="boss" boss_id="45013" lv="70" ani_scale="0" boss_buff_group_id="45013">
+    <damage_reduction>60</damage_reduction>
+    <damage_reduction>70</damage_reduction>
+    <damage_reduction>80</damage_reduction>
+    <damage_reduction>90</damage_reduction>
+    <damage_reduction>0</damage_reduction>
+    <damage_reduction_second>30</damage_reduction_second>
+    <damage_reduction_second>30</damage_reduction_second>
+    <damage_reduction_second>30</damage_reduction_second>
+    <damage_reduction_second>35</damage_reduction_second>
+    <damage_reduction_second>0</damage_reduction_second>
+  </TreasureHunterMonsterSetting>
+  <TreasureHunterMonsterSetting id="14" name="boss" boss_id="45014" lv="70" ani_scale="0" boss_buff_group_id="45014">
+    <damage_reduction>60</damage_reduction>
+    <damage_reduction>70</damage_reduction>
+    <damage_reduction>80</damage_reduction>
+    <damage_reduction>90</damage_reduction>
+    <damage_reduction>0</damage_reduction>
+    <damage_reduction_second>30</damage_reduction_second>
+    <damage_reduction_second>30</damage_reduction_second>
+    <damage_reduction_second>30</damage_reduction_second>
+    <damage_reduction_second>35</damage_reduction_second>
+    <damage_reduction_second>0</damage_reduction_second>
+  </TreasureHunterMonsterSetting>
 </root>

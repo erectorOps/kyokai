@@ -441,7 +441,7 @@
   <StringSetting id="5430" text="ストーリー" />
   <StringSetting id="5431" text="お気に入り以外" />
   <StringSetting id="5432" text="奥義Lvが上限に達しています" />
-  <StringSetting id="5433" text="{0}を解放しました" />
+  <StringSetting id="5433" text="{0}を解放" />
   <StringSetting id="5434" text="未読" />
   <StringSetting id="5435" text="閲覧" />
   <StringSetting id="5436" text="聖騎士スキル強化" />
@@ -1096,6 +1096,8 @@
   <StringSetting id="12213" text="スキン体験アイテムは晶石に変換されました。" />
   <StringSetting id="12214" text="使用可能なアイテムが優先して表示されます" />
   <StringSetting id="12215" text="{0}×{1} （{2}）" />
+  <StringSetting id="12216" text="一括解放獲得アイテム" />
+  <StringSetting id="12217" text="福袋獲得アイテム" />
   <StringSetting id="12501" text="レゴル" />
   <StringSetting id="12502" text="ウルティマ" />
   <StringSetting id="12503" text="闘技場ショップ" />
@@ -1313,9 +1315,14 @@
   <StringSetting id="15227" text="ビックアップしたい聖騎士を選択してください" />
   <StringSetting id="15228" text="ピックアップ対象決定" />
   <StringSetting id="15229" text="設定中" />
-  <StringSetting id="15230" text="この3人の聖騎士をピックアップ対象として&#xA;決定してよろしいですか？&#xA;※ピックアップ対象は一度決定すると、&#xA;後から変更することはできません。" />
+  <StringSetting id="15230" text="この{0}人の聖騎士をピックアップ対象として&#xA;決定してよろしいですか？&#xA;※ピックアップ対象は一度決定すると、&#xA;後から変更することはできません。" />
   <StringSetting id="15231" text="クーポン割引が{0}倍！" />
   <StringSetting id="15232" text="適用後{0}%OFF" />
+  <StringSetting id="15233" text="ウィッシュリスト" />
+  <StringSetting id="15234" text="決定回数" />
+  <StringSetting id="15235" text="WishList対象決定" />
+  <StringSetting id="15237" text="ウィッシュリストの決定回数は毎月1日3:00リセットします" />
+  <StringSetting id="15241" text="奧義強化可能" />
   <StringSetting id="16001" text="編&lt;size=24&gt;成&lt;/size&gt;" />
   <StringSetting id="16003" text="Pスキル" />
   <StringSetting id="16004" text="聖騎士" />
@@ -1626,6 +1633,7 @@
   <StringSetting id="19504" text="アイテム" />
   <StringSetting id="19505" text="レゴル" />
   <StringSetting id="19506" text="AP" />
+  <StringSetting id="19507" text="クリア評価報酬UP" />
   <StringSetting id="20001" text="奥義" />
   <StringSetting id="20101" text="スキル1" />
   <StringSetting id="20102" text="スキル2" />
@@ -1959,7 +1967,7 @@
   <StringSetting id="26503" text="{0}秒" />
   <StringSetting id="28001" text="ショップ" />
   <StringSetting id="28002" text="毎日03：00にリセット" />
-  <StringSetting id="28003" text="一括購入" />
+  <StringSetting id="28003" text="一括交換" />
   <StringSetting id="28004" text="SALE" />
   <StringSetting id="28005" text="おすすめ" />
   <StringSetting id="28006" text="残り{0}日" />
@@ -2106,7 +2114,7 @@
   <StringSetting id="29256" text="期間限定" />
   <StringSetting id="29258" text="おπの月" />
   <StringSetting id="29259" text="一周年記念" />
-  <StringSetting id="29260" text="1000日記念" />
+  <StringSetting id="29260" text="3周年記念" />
   <StringSetting id="29261" text="特殊頁籤2" />
   <StringSetting id="30001" text="BOSS" />
   <StringSetting id="30002" text="出撃履歴" />
@@ -2178,7 +2186,7 @@
   <StringSetting id="30160" text="挑戦" />
   <StringSetting id="30161" text="撃破" />
   <StringSetting id="30162" text="指定の聖騎士を所有していると、同盟戦に有利なバフを獲得できます" />
-  <StringSetting id="30163" text="聖騎士獲得へ" />
+  <StringSetting id="30163" text="聖騎士召喚へ" />
   <StringSetting id="30164" text="ボーナス挑戦時間" />
   <StringSetting id="30165" text="現在他のプレイヤーが挑戦中です" />
   <StringSetting id="30166" text="ボーナス挑戦権を獲得した聖騎士で挑戦してください" />
@@ -2904,6 +2912,13 @@
   <StringSetting id="42459" text="SkipEnd. Please Go to Result Page to Check" />
   <StringSetting id="42460" text="回：{0}" />
   <StringSetting id="42461" text="スキップ可能回数" />
+  <StringSetting id="42462" text="限界闘技場" />
+  <StringSetting id="42463" text="限界闘技場ポイント報酬" />
+  <StringSetting id="42464" text="目標ポイントを達成すると、報酬を獲得できます" />
+  <StringSetting id="42465" text="限界闘技場ランキング報酬" />
+  <StringSetting id="42466" text="イベント終了後にランキングの集計と報酬の配布が行われます" />
+  <StringSetting id="42467" text="限界闘技場攻撃チーム" />
+  <StringSetting id="42468" text="限界闘技場防御チーム" />
   <StringSetting id="43001" text="報酬" />
   <StringSetting id="43002" text="報告" />
   <StringSetting id="43003" text="クリア" />
@@ -3534,7 +3549,7 @@
   <StringSetting id="60067" text="獲得失敗" />
   <StringSetting id="60068" text="報酬を獲得済みです" />
   <StringSetting id="60069" text="ランキング" />
-  <StringSetting id="60070" text="ランキング1位～10位：称号「暗殺者の花婿」を獲得できます。&#xA;ランキング1位～100位：称号「エルフの花婿」を獲得できます。" />
+  <StringSetting id="60070" text="ランキング1位～10位：称号「狼だぞ、ガオーッ」を獲得できます。&#xA;ランキング1位～100位：称号「どうしてそんなにお胸が大きいの？」を獲得できます。" />
   <StringSetting id="60071" text="プレイヤー情報がありません" />
   <StringSetting id="60072" text="攻撃でHP-{0}" />
   <StringSetting id="60073" text="{0}秒後に更新可能" />
@@ -3784,7 +3799,7 @@
   <StringSetting id="66005" text="Lv購入" />
   <StringSetting id="66006" text="交換所" />
   <StringSetting id="66007" text="アップグレード" />
-  <StringSetting id="66008" text="シーズン期間：2026/09/03 11:00まで" />
+  <StringSetting id="66008" text="シーズン期間：2026/12/03 11:00まで" />
   <StringSetting id="66009" text="開催期間：{0}まで" />
   <StringSetting id="66010" text="デイリー" />
   <StringSetting id="66011" text="ウィークリー" />
@@ -3820,6 +3835,7 @@
   <StringSetting id="66042" text="{0}以後開放" />
   <StringSetting id="66043" text="一括領取" />
   <StringSetting id="66044" text="有償晶石の有効期限は購入日から180日間です。" />
+  <StringSetting id="66045" text="シーズンミッション「{0}まで」" />
   <StringSetting id="67001" text="ホーム画面設定" />
   <StringSetting id="67002" text="プレイヤーRANK{0}で解放" />
   <StringSetting id="67003" text="クエスト{0}クリアで解放" />
@@ -4113,6 +4129,17 @@
   <StringSetting id="79321" text="S" />
   <StringSetting id="79322" text="M" />
   <StringSetting id="79323" text="L" />
+  <StringSetting id="79501" text="WorldBossTotalDamegeRankingReward：{0}" />
+  <StringSetting id="79502" text="{1}" />
+  <StringSetting id="79503" text="WorldBossDefeatReward：{0}" />
+  <StringSetting id="79504" text="{1}" />
+  <StringSetting id="79505" text="WorldBossランキング報酬" />
+  <StringSetting id="79506" text="{0}" />
+  <StringSetting id="79507" text="累積傷害" />
+  <StringSetting id="79508" text="傷害" />
+  <StringSetting id="79509" text="BOSS討伐數" />
+  <StringSetting id="79510" text="BOSSへのダメージ：{0}" />
+  <StringSetting id="79511" text="{0}体目" />
   <StringSetting id="80000" text="聖騎士" />
   <StringSetting id="80001" text="Lv" />
   <StringSetting id="80002" text="アビリティ" />
@@ -4315,21 +4342,21 @@
   <StringSetting id="85019" text="投票エラー" />
   <StringSetting id="85020" text="投票アイテムが不足しています。" />
   <StringSetting id="85021" text="数:{0}" />
-  <StringSetting id="85022" text="コスチューム" />
+  <StringSetting id="85022" text="SSR聖騎士組" />
   <StringSetting id="85023" text="SR聖騎士組" />
   <StringSetting id="85024" text="投票按鈕3" />
-  <StringSetting id="85025" text="■投票方法&#xA;開催期間中、AP×1を消費するたびに、&#xA;総選挙に参加できるアイテム「総選挙投票チケット（SSR組）」と&#xA;「総選挙投票チケット（SR組）」を獲得できます。&#xA;&#xA;「総選挙投票チケット」1枚につき、その総選挙の「聖騎士」に1票投票できます。&#xA;さらに、投票時に晶石を使用して、投票数を2倍にできる機能を追加しました。&#xA;ぜひご参加、ご利用ください！&#xA;&#xA;※晶石を使用する場合、「総選挙投票チケット」10枚につき5晶石が消費されます。&#xA;　（10枚未満でも5晶石が消費されます）&#xA;※開催期間が終了すると、総選挙に投票できません。&#xA;※開催期間終了後、残った「総選挙投票チケット」は、消失します。&#xA;&#xA;■投票対象&#xA;・「SSR聖騎士組」&#xA;2025/8/31までに登場したSSR聖騎士が対象です。&#xA;複数VerのあるSSR聖騎士は、1キャラとして投票できます。&#xA;※別衣装は「別Ver」ボタンで切り替えて確認可能です。&#xA;※コラボ聖騎士は対象外となります。&#xA;&#xA;・「SR聖騎士組」&#xA;2025/8/31までに登場した「バースト」オリジナルのSR聖騎士が対象です。&#xA;複数VerのあるSR聖騎士は、個別に投票可能です。&#xA;※すでに昇格済みのSR聖騎士は対象外となります。&#xA;&#xA;■入賞特典&#xA;上位に入賞した聖騎士に、以下の特典があります。&#xA;&#xA;○SSR聖騎士組&#xA;第1位：特別コスチューム、専用武器の実装&#xA;上位10位：特別召喚開催&#xA;&#xA;○SR聖騎士組&#xA;第1位：SSR聖騎士として登場&#xA;&#xA;※特典実装、開催、登場の詳細は後日お知らせいたします。&#xA;※対応にはお時間をいただく場合があります。&#xA;&#xA;■推しランキング&#xA;各聖騎士ごとのプレイヤー投票数ランキングを確認できます。&#xA;&#xA;■推し称号&#xA;同一SSR聖騎士に対して3000枚を投票すると、「○○○○推し」称号が獲得できます。&#xA;また、2人以上のSSR聖騎士に必要枚数を投票すると、複数の称号を獲得可能です。&#xA;※投票期間終了後、順次配布いたします。&#xA;※晶石による加算票数は対象外です。&#xA;&#xA;■開催期間&#xA;・投票期間：{0}（木）定期メンテナンス後～{2}（木）11:00&#xA;・中間発表：{1}（木）定期メンテナンス後&#xA;・結果発表：{2}（木）定期メンテナンス後&#xA;&#xA;※各聖騎士の順位は確認できます&#xA;※各聖騎士の獲得票数は結果発表まで非公開です" />
+  <StringSetting id="85025" text="■投票方法&#xA;開催期間中、AP×1を消費するたびに、&#xA;総選挙に参加できるアイテム「総選挙投票チケット（SSR組）」と&#xA;「総選挙投票チケット（SR組）」を獲得できます。&#xA;&#xA;「総選挙投票チケット」1枚につき、その総選挙の「聖騎士」に1票投票できます。&#xA;さらに、投票時に晶石を使用して、投票数を2倍にできる機能を追加しました。&#xA;ぜひご参加、ご利用ください！&#xA;&#xA;※晶石を使用する場合、「総選挙投票チケット」10枚につき5晶石が消費されます。（10枚未満でも5晶石が消費されます）&#xA;※開催期間が終了すると、総選挙に投票できません。&#xA;※開催期間終了後、残った「総選挙投票チケット」は消失します。&#xA;&#xA;■投票対象&#xA;・「SSR聖騎士組」&#xA;2026/8/31までに登場したSSR聖騎士が対象です。&#xA;複数VerのあるSSR聖騎士は、1キャラとして投票できます。&#xA;※別衣装は「別Ver」ボタンで切り替えて確認可能です。&#xA;※コラボ聖騎士は対象外となります。&#xA;&#xA;・「SR聖騎士組」&#xA;2026/8/31までに登場した「バースト」オリジナルのSR聖騎士が対象です。&#xA;複数VerのあるSR聖騎士は、個別に投票可能です。&#xA;※すでに昇格済みのSR聖騎士は対象外となります。&#xA;&#xA;■入賞特典&#xA;上位に入賞した聖騎士に、以下の特典があります。&#xA;&#xA;○SSR聖騎士組&#xA;第1位：特別コスチューム、専用武器の実装&#xA;上位10位：特別召喚開催&#xA;&#xA;○SR聖騎士組&#xA;第1位：SSR聖騎士として登場&#xA;&#xA;※特典実装、開催、登場の詳細は後日お知らせいたします。&#xA;※対応にはお時間をいただく場合があります。&#xA;&#xA;■推しランキング&#xA;各聖騎士ごとのプレイヤー投票数ランキングを確認できます。&#xA;&#xA;■称号&#xA;同一SSR聖騎士に対して5,000枚以上投票すると、「○○○推し」称号が獲得できます。&#xA;2人以上のSSR聖騎士に必要枚数を投票すると、複数の称号を獲得可能です。&#xA;&#xA;さらに、最終的に推しランキングTOP3となったプレイヤーは、「○○○最推し」称号が獲得できます。&#xA;&#xA;※投票期間終了後、順次配布いたします。&#xA;※SR聖騎士につきましては、新規聖騎士のほか、既存聖騎士の別衣装Ver.が多く、&#xA;それぞれ個別に投票対象となることを鑑み、今回より「推し」「最推し」称号の獲得対象外とさせていただきます。&#xA;&#xA;■開催期間&#xA;・投票期間：{0}（木）定期メンテナンス後～{2}（木）11:00&#xA;・中間発表：{1}（木）定期メンテナンス後&#xA;・結果発表：{2}（木）定期メンテナンス後&#xA;&#xA;※各聖騎士の順位は確認できます&#xA;※各聖騎士の獲得票数は結果発表まで非公開です" />
   <StringSetting id="85026" text="投票説明" />
   <StringSetting id="85027" text="投票数" />
   <StringSetting id="85028" text="{0} 投票ランキング" />
-  <StringSetting id="85029" text="聖騎士に与えた投票券の数で順位が決定します。&#xA;さらに、1人の聖騎士に3000票以上投票すると、「推し」称号を獲得できます！" />
+  <StringSetting id="85029" text="聖騎士に与えた投票チケットの数でランキング順位が決定します。&#xA;聖騎士1人に5,000枚以上投票すると、「推し」称号が獲得できます。&#xA;さらに、最終的にTOP3となった場合、「最推し」称号が獲得できます！" />
   <StringSetting id="85030" text="晶石使用で倍にする" />
   <StringSetting id="85031" text="数:&lt;color=#D70000&gt;{0}&lt;/color&gt;" />
   <StringSetting id="85032" text="晶石×{0}を消費し、投票数を倍にしますか？" />
   <StringSetting id="85033" text="{0} 投票ランキング報酬" />
   <StringSetting id="85034" text="{0}" />
   <StringSetting id="85035" text="{0}個別投票報酬" />
-  <StringSetting id="85036" text="「{0}」開催期間中に、&#xA;{1}へ{2}枚投票した報酬" />
+  <StringSetting id="85036" text="{0}開催期間中に、&#xA;{1}へ{2}枚投票した報酬" />
   <StringSetting id="85037" text="投票予測" />
   <StringSetting id="85038" text="投票予測と投票報酬一覧" />
   <StringSetting id="85039" text="今回の投票で最も有力な3人のキャラクターを予測してください。予測したキャラクターがランキングに入ると、限定報酬を獲得できます。" />
@@ -4350,6 +4377,8 @@
   <StringSetting id="85054" text="個別結果" />
   <StringSetting id="85055" text="投票ランキング" />
   <StringSetting id="85056" text="自分の投票数" />
+  <StringSetting id="85057" text="{0}個別ラインキング報酬" />
+  <StringSetting id="85058" text="{0}開催期間中に、&#xA;{1}の個別ラインキングにて上位に入った報酬" />
   <StringSetting id="86001" text="シチュスゴロク" />
   <StringSetting id="86002" text="周回報酬" />
   <StringSetting id="86003" text="ダイスを振って駒を移動させ、マスに応じた報酬を獲得できます！&#xA;さらに、「おまけ」付きの枠で報酬を得ると、聖騎士の「蓄音水晶」も手に入れることができます！&#xA;※「蓄音水晶」はFANZINE聖騎士の特別ボイスを解放できるアイテムです。" />
@@ -4415,7 +4444,7 @@
   <StringSetting id="88046" text="リセットまであと{0}日" />
   <StringSetting id="88047" text="ランキングの順位は、&#xA;EXクエストの合計クリア時間で決まります" />
   <StringSetting id="88048" text="ドラッグ操作でチームの順番を変更できます" />
-  <StringSetting id="88049" text="評價數獎勵加倍" />
+  <StringSetting id="88049" text="深淵の地下神殿EX クリア評価報酬+{0}%" />
   <StringSetting id="89001" text="物理のみ" />
   <StringSetting id="89002" text="魔法のみ" />
   <StringSetting id="89003" text="前列のみ" />
@@ -4448,7 +4477,7 @@
   <StringSetting id="90008" text="開催期間：8/1(木)～8/16(金)0:00&#xA;期間中に獲得した「おπ金メダル」の数に応じて、ランキング順位が決まります。" />
   <StringSetting id="90009" text="特別交換所" />
   <StringSetting id="90010" text="【おπの月(後半)】限定ランキング" />
-  <StringSetting id="90011" text="開催期間：8/16(金)～8/31(土)0:00&#xD;&#xA;期間中に獲得した「おπ金メダル」の数に応じて、ランキング順位が決まります。" />
+  <StringSetting id="90011" text="開催期間：8/16(日)～8/31(月)0:00&#xD;&#xA;期間中に獲得した「おπ金メダル」の数に応じて、ランキング順位が決まります。" />
   <StringSetting id="90012" text="【おπの月(前半)】限定ランキング 報酬" />
   <StringSetting id="90013" text="【おπの月(前半)】限定ランキング {0} 位報酬" />
   <StringSetting id="90014" text="【おπの月(後半)】限定ランキング 報酬" />
@@ -4720,6 +4749,13 @@
   <StringSetting id="100025" text="×{0}" />
   <StringSetting id="100026" text="+{0}" />
   <StringSetting id="100027" text="{0}.{1}" />
+  <StringSetting id="100028" text="{0}+{1}" />
+  <StringSetting id="100029" text="{0}-{1}" />
+  <StringSetting id="100030" text="-{0}" />
+  <StringSetting id="100051" text="&lt;color=#FF0000&gt;{0}&lt;/color&gt;/{1}" />
+  <StringSetting id="100052" text="{0}&lt;color=#148CF1&gt;(+{1})&lt;/color&gt;/{2}" />
+  <StringSetting id="100053" text="&lt;color=#148CF1&gt;{0}&lt;/color&gt;" />
+  <StringSetting id="100054" text="&lt;color=#311711&gt;{0}&lt;/color&gt;" />
   <StringSetting id="100101" text="RANK" />
   <StringSetting id="100102" text="所持" />
   <StringSetting id="100103" text="所有" />
@@ -4729,4 +4765,5 @@
   <StringSetting id="100107" text="Lv" />
   <StringSetting id="100108" text="？？？" />
   <StringSetting id="100109" text="{0}" />
+  <StringSetting id="9999999" text="TEST" />
 </root>

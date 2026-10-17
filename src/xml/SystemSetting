@@ -7,7 +7,7 @@
   <SystemSetting def="玩家BP每間隔回復數值" val="1" />
   <SystemSetting def="玩家BP上限" val="20" />
   <SystemSetting def="玩家升級獲得BP" val="1" />
-  <SystemSetting def="客戶端遊戲幣最大顯示數" val="999999999" />
+  <SystemSetting def="客戶端遊戲幣最大顯示數" val="9999999999999" />
   <SystemSetting def="R級角色初始等級上限" val="30" />
   <SystemSetting def="SR級角色初始等級上限" val="40" />
   <SystemSetting def="SSR級角色初始等級上限" val="50" />
@@ -80,13 +80,13 @@
   <SystemSetting def="基礎角色數限制" val="150" />
   <SystemSetting def="基礎道具數限制" val="1000" />
   <SystemSetting def="AP回復商品群組" val="101" />
-  <SystemSetting def="AP回復優惠開始時間" val="2026/07/10 03:00:00" />
-  <SystemSetting def="AP回復優惠結束時間" val="2026/07/17 03:00:00" />
+  <SystemSetting def="AP回復優惠開始時間" val="2026/09/25 03:00:00" />
+  <SystemSetting def="AP回復優惠結束時間" val="2026/10/02 03:00:00" />
   <SystemSetting def="AP回復優惠商品群組" val="102" />
   <SystemSetting def="AP回復優惠額度" val="50" />
   <SystemSetting def="BP回復商品群組" val="201" />
-  <SystemSetting def="BP回復優惠開始時間" val="2026/07/10 03:00:00" />
-  <SystemSetting def="BP回復優惠結束時間" val="2026/07/17 03:00:00" />
+  <SystemSetting def="BP回復優惠開始時間" val="2026/09/25 03:00:00" />
+  <SystemSetting def="BP回復優惠結束時間" val="2026/10/02 03:00:00" />
   <SystemSetting def="BP回復優惠商品群組" val="202" />
   <SystemSetting def="BP回復優惠額度" val="50" />
   <SystemSetting def="道具欄位擴充商品群組" val="1101" />
@@ -99,8 +99,8 @@
   <SystemSetting def="投裝備套組擴充商品群組" val="1151" />
   <SystemSetting def="共通裝備套組擴充商品群組" val="1156" />
   <SystemSetting def="資源收集重置商品群組" val="501" />
-  <SystemSetting def="資源收集重置優惠開始時間" val="2026/06/12 03:00:00" />
-  <SystemSetting def="資源收集重置優惠結束時間" val="2026/06/19 03:00:00" />
+  <SystemSetting def="資源收集重置優惠開始時間" val="2026/09/04 03:00:00" />
+  <SystemSetting def="資源收集重置優惠結束時間" val="2026/09/18 03:00:00" />
   <SystemSetting def="資源收集重置優惠商品群組" val="502" />
   <SystemSetting def="資源收集重置優惠額度" val="50" />
   <SystemSetting def="遊戲幣購買商品群組" val="701" />
@@ -299,6 +299,7 @@
   <SystemSetting def="活動爬塔排行最大頁數" val="10" />
   <SystemSetting def="限界排行最大頁數" val="10" />
   <SystemSetting def="頭目連戰排行最大頁數" val="10" />
+  <SystemSetting def="世界頭目排行最大頁數" val="10" />
   <SystemSetting def="角色蒐集排行最大頁數" val="20" />
   <SystemSetting def="記憶最大解放排行最大頁數" val="20" />
   <SystemSetting def="戰力排行最大頁數" val="20" />
@@ -384,7 +385,7 @@
   <SystemSetting def="上限突破R魔屬性素材特殊數值ID" val="9000041" />
   <SystemSetting def="上限突破SR魔屬性素材特殊數值ID" val="9000042" />
   <SystemSetting def="上限突破SSR魔屬性素材特殊數值ID" val="9000043" />
-  <SystemSetting def="上限突破BBR魔屬性素材特殊數值ID" val="9000043" />
+  <SystemSetting def="上限突破BBR魔屬性素材特殊數值ID" val="9000044" />
   <SystemSetting def="上限突破R想屬性素材特殊數值ID" val="9000051" />
   <SystemSetting def="上限突破SR想屬性素材特殊數值ID" val="9000052" />
   <SystemSetting def="上限突破SSR想屬性素材特殊數值ID" val="9000053" />
@@ -412,7 +413,7 @@
   <SystemSetting def="飾品2格開放需求英雄等級" val="41" />
   <SystemSetting def="飾品4格開放需求英雄等級" val="51" />
   <SystemSetting def="飾品5格開放需求英雄等級" val="61" />
-  <SystemSetting def="新角色影片名稱" val="PS8_hero_2317.mp4" />
+  <SystemSetting def="新角色影片名稱" val="PS8_hero_2337&amp;2338.mp4" />
   <SystemSetting def="新角色影片更換時間" />
   <SystemSetting def="新角色影片更換名稱" />
   <SystemSetting def="新角色影片名稱2" />
@@ -482,19 +483,19 @@
   <SystemSetting def="地城EX關卡重置日期" val="1/15" />
   <SystemSetting def="地城排行榜獎勵配布日期" val="1" />
   <SystemSetting def="地城排行最大頁數" val="10" />
-  <SystemSetting def="活動巨乳月開始時間" val="2025-08-01 00:00:00" />
-  <SystemSetting def="活動巨乳月後半開始時間" val="2025-08-16 00:00:00" />
-  <SystemSetting def="活動巨乳月結束時間" val="2025-09-01 00:00:00" />
-  <SystemSetting def="活動巨乳月轉換道具ID" val="25" />
+  <SystemSetting def="活動巨乳月開始時間" val="2026-08-01 00:00:00" />
+  <SystemSetting def="活動巨乳月後半開始時間" val="2026-08-16 00:00:00" />
+  <SystemSetting def="活動巨乳月結束時間" val="2026-09-01 00:00:00" />
+  <SystemSetting def="活動巨乳月轉換道具ID" val="31" />
   <SystemSetting def="活動巨乳月轉換AP比率" val="1" />
   <SystemSetting def="活動巨乳月轉換BP比率" val="20" />
-  <SystemSetting def="活動巨乳月開放活動編號" val="3002" />
-  <SystemSetting def="活動巨乳月開放商店編號" val="5991" />
-  <SystemSetting def="活動巨乳月開放商店編號2" val="5990" />
-  <SystemSetting def="活動巨乳月道具排行獎勵ID" val="999993" />
-  <SystemSetting def="活動巨乳月後半道具排行獎勵ID" val="999994" />
-  <SystemSetting def="活動巨乳月開放任務編號" val="915" />
-  <SystemSetting def="活動巨乳月後半開放任務編號" val="916" />
+  <SystemSetting def="活動巨乳月開放活動編號" val="3003" />
+  <SystemSetting def="活動巨乳月開放商店編號" val="5993" />
+  <SystemSetting def="活動巨乳月開放商店編號2" val="5992" />
+  <SystemSetting def="活動巨乳月道具排行獎勵ID" val="999995" />
+  <SystemSetting def="活動巨乳月後半道具排行獎勵ID" val="999996" />
+  <SystemSetting def="活動巨乳月開放任務編號" val="922" />
+  <SystemSetting def="活動巨乳月後半開放任務編號" val="923" />
   <SystemSetting def="活動巨乳月額外倍率" val="1" />
   <SystemSetting def="活動巨乳月養成優待倍率" val="0.2" />
   <SystemSetting def="活動巨乳月角色養成優待上限" val="0.3" />
@@ -517,13 +518,13 @@
   <SystemSetting def="覺醒需求英雄等級" val="100" />
   <SystemSetting def="覺醒需求英雄Grade" val="10" />
   <SystemSetting def="覺醒需求英雄好感度" val="4" />
-  <SystemSetting def="儲值表特殊頁籤開始時間" val="2026-06-04 11:00:00" />
-  <SystemSetting def="儲值表特殊頁籤結束時間" val="2026-06-25 11:00:00" />
+  <SystemSetting def="儲值表特殊頁籤開始時間" val="2026-09-01 11:00:00" />
+  <SystemSetting def="儲值表特殊頁籤結束時間" val="2026-09-24 11:00:00" />
   <SystemSetting def="儲值表特殊頁籤2開始時間" val="2025-11-20 11:00:00" />
   <SystemSetting def="儲值表特殊頁籤2結束時間" val="2025-11-27 11:00:00" />
   <SystemSetting def="RAID救援額外增加箱數" val="1" />
-  <SystemSetting def="RAID救援額外增加箱數開始時間" val="2026-05-07 11:00:00" />
-  <SystemSetting def="RAID救援額外增加箱數結束時間" val="2026-05-21 11:00:00" />
+  <SystemSetting def="RAID救援額外增加箱數開始時間" val="2026-09-17 11:00:00" />
+  <SystemSetting def="RAID救援額外增加箱數結束時間" val="2026-09-24 11:00:00" />
   <SystemSetting def="重置加值消耗道具ID" val="0" />
   <SystemSetting def="重置加值消耗道具數量" val="1" />
   <SystemSetting def="加值消耗道具ID" val="26" />
@@ -543,4 +544,10 @@
   <SystemSetting def="屬性塔重置道具ID" val="29" />
   <SystemSetting def="公式Discord網址" val="https://discord.gg/XeFK26FtrS" />
   <SystemSetting def="黑色星期五交換所ID" val="2025" />
+  <SystemSetting def="限界PVP轉換AP比率" val="1" />
+  <SystemSetting def="限界PVP轉換BP比率" val="20" />
+  <SystemSetting def="限界PVP勝利獲得積分" val="50" />
+  <SystemSetting def="限界PVP失敗獲得積分" val="20" />
+  <SystemSetting def="限界PVP角色HP倍率" val="20" />
+  <SystemSetting def="限界PVP一次SKIP上限次數" val="10" />
 </root>

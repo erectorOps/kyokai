@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <LimitPvpSetting id="1" name="測試" open="true" start_time="2026/07/01 00:00:00" end_time="2026/09/01 00:00:00" limit_type="無限制" cost_item_id="5" cost_item_num="10" rank_reward_id="201" score_reward_id="203" battle_map="100101/100101" />
+</root>

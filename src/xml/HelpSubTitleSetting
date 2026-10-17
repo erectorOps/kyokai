@@ -64,6 +64,7 @@
   <HelpSubTitleSetting id="11701" group_id="117" help_type="一般" name="召喚" target_id="0" />
   <HelpSubTitleSetting id="11702" group_id="117" help_type="一般" name="獲得済みの聖騎士" target_id="0" />
   <HelpSubTitleSetting id="11703" group_id="117" help_type="一般" name="交換" target_id="0" />
+  <HelpSubTitleSetting id="11704" group_id="117" help_type="一般" name="ウィッシュリスト" target_id="0" />
   <HelpSubTitleSetting id="11801" group_id="118" help_type="一般" name="ショップ" target_id="0" />
   <HelpSubTitleSetting id="11901" group_id="119" help_type="一般" name="ミッション" target_id="0" />
   <HelpSubTitleSetting id="12001" group_id="120" help_type="一般" name="倉庫" target_id="0" />
@@ -89,4 +90,5 @@
   <HelpSubTitleSetting id="205" group_id="205" help_type="新手導引圖片" name="ホーム画面設定" target_id="205" />
   <HelpSubTitleSetting id="206" group_id="206" help_type="新手導引圖片" name="同盟戦" target_id="206" />
   <HelpSubTitleSetting id="207" group_id="207" help_type="新手導引圖片" name="異策戦" target_id="207" />
+  <HelpSubTitleSetting id="208" group_id="208" help_type="新手導引圖片" name="ウィッシュリスト" target_id="208" />
 </root>

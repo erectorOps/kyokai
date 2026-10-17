@@ -285,4 +285,24 @@
     <limit_boss>400113</limit_boss>
     <limit_boss>0</limit_boss>
   </ActivityLimitMainSetting>
+  <ActivityLimitMainSetting id="40057" name="第57回競撃戦" hero_group_id="2321">
+    <limit_boss>400114</limit_boss>
+    <limit_boss>400115</limit_boss>
+    <limit_boss>0</limit_boss>
+  </ActivityLimitMainSetting>
+  <ActivityLimitMainSetting id="40058" name="第58回競撃戦" hero_group_id="2329">
+    <limit_boss>400116</limit_boss>
+    <limit_boss>400117</limit_boss>
+    <limit_boss>0</limit_boss>
+  </ActivityLimitMainSetting>
+  <ActivityLimitMainSetting id="49991" name="3周年競撃戦" hero_group_id="2332">
+    <limit_boss>400118</limit_boss>
+    <limit_boss>400119</limit_boss>
+    <limit_boss>0</limit_boss>
+  </ActivityLimitMainSetting>
+  <ActivityLimitMainSetting id="40059" name="第58回競撃戦" hero_group_id="2337">
+    <limit_boss>400120</limit_boss>
+    <limit_boss>400121</limit_boss>
+    <limit_boss>0</limit_boss>
+  </ActivityLimitMainSetting>
 </root>
