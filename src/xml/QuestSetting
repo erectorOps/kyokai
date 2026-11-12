@@ -57170,7 +57170,977 @@
     <pre_hero_gp_lv>0</pre_hero_gp_lv>
     <pre_hero_gp_lv>0</pre_hero_gp_lv>
   </QuestSetting>
-  <QuestSetting id="525935" group="0" name="【《復刻》双狂のハロウィン】を全クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/10/22 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【《復刻》双狂のハロウィン】を全クリア" quest_type_1="完成關卡進度" quest_target_1_1="53590129" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="英雄" award_target_2="2260" award_number_2="1" award_type_3="遊戲幣" award_target_3="0" award_number_3="200000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+  <QuestSetting id="525935" group="0" name="【《復刻》双狂のハロウィン】を全クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/10/29 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【《復刻》双狂のハロウィン】を全クリア" quest_type_1="完成關卡進度" quest_target_1_1="53590129" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="英雄" award_target_2="2260" award_number_2="1" award_type_3="遊戲幣" award_target_3="0" award_number_3="200000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526001" group="0" name="「人気聖騎士総選挙コスチューム追加投票」に累計100枚投票チケットを消費する" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="「人気聖騎士総選挙コスチューム追加投票」に累計100枚投票チケットを消費する" quest_type_1="花費投票卷數量" quest_target_1_1="210" quest_target_1_2="0" finish_number_1="100" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526002" group="0" name="「人気聖騎士総選挙コスチューム追加投票」に累計500枚投票チケットを消費する" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="「人気聖騎士総選挙コスチューム追加投票」に累計500枚投票チケットを消費する" quest_type_1="花費投票卷數量" quest_target_1_1="210" quest_target_1_2="0" finish_number_1="500" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526003" group="0" name="「人気聖騎士総選挙コスチューム追加投票」に累計1000枚投票チケットを消費する" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="「人気聖騎士総選挙コスチューム追加投票」に累計1000枚投票チケットを消費する" quest_type_1="花費投票卷數量" quest_target_1_1="210" quest_target_1_2="0" finish_number_1="1000" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526004" group="0" name="「人気聖騎士総選挙コスチューム追加投票」に累計3000枚投票チケットを消費する" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="「人気聖騎士総選挙コスチューム追加投票」に累計3000枚投票チケットを消費する" quest_type_1="花費投票卷數量" quest_target_1_1="210" quest_target_1_2="0" finish_number_1="3000" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526005" group="0" name="「人気聖騎士総選挙コスチューム追加投票」に累計5000枚投票チケットを消費する" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="「人気聖騎士総選挙コスチューム追加投票」に累計5000枚投票チケットを消費する" quest_type_1="花費投票卷數量" quest_target_1_1="210" quest_target_1_2="0" finish_number_1="5000" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526006" group="0" name="【族王の資格】を全クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/01 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【族王の資格】を全クリア" quest_type_1="完成關卡進度" quest_target_1_1="52600128" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="遊戲幣" award_target_3="0" award_number_3="500000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526007" group="0" name="【族王の資格】BOSS・EASYをクリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/01 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【族王の資格】BOSS・EASYをクリア" quest_type_1="指定怪物擊殺數" quest_target_1_1="52601" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="10" award_number_2="300" award_type_3="遊戲幣" award_target_3="0" award_number_3="200000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526008" group="0" name="【族王の資格】BOSS・NORMALをクリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/01 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【族王の資格】BOSS・NORMALをクリア" quest_type_1="指定怪物擊殺數" quest_target_1_1="52602" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="10" award_number_2="300" award_type_3="遊戲幣" award_target_3="0" award_number_3="200000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526009" group="0" name="【族王の資格】BOSS・HARDをクリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/01 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【族王の資格】BOSS・HARDをクリア" quest_type_1="指定怪物擊殺數" quest_target_1_1="52603" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="10" award_number_2="300" award_type_3="遊戲幣" award_target_3="0" award_number_3="200000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526010" group="0" name="【族王の資格】BOSSチケット周回を1回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/01 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【族王の資格】BOSSチケット周回を1回クリア" quest_type_1="關卡數量" quest_target_1_1="52600130" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="道具" award_target_1="1990" award_number_1="1" award_type_2="道具" award_target_2="2340" award_number_2="5" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526011" group="0" name="【族王の資格】BOSSチケット周回を3回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/01 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【族王の資格】BOSSチケット周回を3回クリア" quest_type_1="關卡數量" quest_target_1_1="52600130" quest_target_1_2="0" finish_number_1="3" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="道具" award_target_1="1990" award_number_1="1" award_type_2="道具" award_target_2="2340" award_number_2="5" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526012" group="0" name="【族王の資格】BOSSチケット周回を5回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/01 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【族王の資格】BOSSチケット周回を5回クリア" quest_type_1="關卡數量" quest_target_1_1="52600130" quest_target_1_2="0" finish_number_1="5" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="道具" award_target_1="1990" award_number_1="1" award_type_2="道具" award_target_2="2340" award_number_2="5" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526013" group="0" name="【族王の資格】BOSSチケット周回を10回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/01 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【族王の資格】BOSSチケット周回を10回クリア" quest_type_1="關卡數量" quest_target_1_1="52600130" quest_target_1_2="0" finish_number_1="10" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="道具" award_target_1="1990" award_number_1="1" award_type_2="道具" award_target_2="2340" award_number_2="5" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526014" group="0" name="【族王の資格】BOSSチケット周回を20回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/01 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【族王の資格】BOSSチケット周回を20回クリア" quest_type_1="關卡數量" quest_target_1_1="52600130" quest_target_1_2="0" finish_number_1="20" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="道具" award_target_1="1990" award_number_1="1" award_type_2="道具" award_target_2="2340" award_number_2="5" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526015" group="0" name="【族王の資格】BOSSチケット周回を30回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/01 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【族王の資格】BOSSチケット周回を30回クリア" quest_type_1="關卡數量" quest_target_1_1="52600130" quest_target_1_2="0" finish_number_1="30" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="道具" award_target_1="1990" award_number_1="1" award_type_2="道具" award_target_2="2340" award_number_2="5" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526016" group="0" name="【族王の資格】BOSSチケット周回を40回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/01 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【族王の資格】BOSSチケット周回を40回クリア" quest_type_1="關卡數量" quest_target_1_1="52600130" quest_target_1_2="0" finish_number_1="40" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="道具" award_target_1="1990" award_number_1="1" award_type_2="道具" award_target_2="2340" award_number_2="5" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526017" group="0" name="【族王の資格】BOSSチケット周回を50回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/01 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【族王の資格】BOSSチケット周回を50回クリア" quest_type_1="關卡數量" quest_target_1_1="52600130" quest_target_1_2="0" finish_number_1="50" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="道具" award_target_1="1990" award_number_1="1" award_type_2="道具" award_target_2="2340" award_number_2="5" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526018" group="0" name="【族王の資格】BOSSチケット周回を60回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/01 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【族王の資格】BOSSチケット周回を60回クリア" quest_type_1="關卡數量" quest_target_1_1="52600130" quest_target_1_2="0" finish_number_1="60" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="道具" award_target_1="1990" award_number_1="1" award_type_2="道具" award_target_2="2340" award_number_2="5" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526019" group="0" name="【族王の資格】BOSSチケット周回を70回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/01 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【族王の資格】BOSSチケット周回を70回クリア" quest_type_1="關卡數量" quest_target_1_1="52600130" quest_target_1_2="0" finish_number_1="70" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="道具" award_target_1="1990" award_number_1="2" award_type_2="道具" award_target_2="2340" award_number_2="5" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526020" group="0" name="【族王の資格】BOSSチケット周回を80回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/01 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【族王の資格】BOSSチケット周回を80回クリア" quest_type_1="關卡數量" quest_target_1_1="52600130" quest_target_1_2="0" finish_number_1="80" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="3004" award_number_2="3" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526021" group="0" name="【族王の資格】BOSSチケット周回を90回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/01 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【族王の資格】BOSSチケット周回を90回クリア" quest_type_1="關卡數量" quest_target_1_1="52600130" quest_target_1_2="0" finish_number_1="90" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="3004" award_number_2="3" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526022" group="0" name="【族王の資格】BOSSチケット周回を100回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/01 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【族王の資格】BOSSチケット周回を100回クリア" quest_type_1="關卡數量" quest_target_1_1="52600130" quest_target_1_2="0" finish_number_1="100" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="3004" award_number_2="3" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526023" group="0" name="【族王の資格】BOSSチケット周回を120回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/01 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【族王の資格】BOSSチケット周回を120回クリア" quest_type_1="關卡數量" quest_target_1_1="52600130" quest_target_1_2="0" finish_number_1="120" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="3004" award_number_2="3" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526024" group="0" name="【族王の資格】BOSSチケット周回を140回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/01 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【族王の資格】BOSSチケット周回を140回クリア" quest_type_1="關卡數量" quest_target_1_1="52600130" quest_target_1_2="0" finish_number_1="140" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="3004" award_number_2="3" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526025" group="0" name="【族王の資格】BOSSチケット周回を160回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/01 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【族王の資格】BOSSチケット周回を160回クリア" quest_type_1="關卡數量" quest_target_1_1="52600130" quest_target_1_2="0" finish_number_1="160" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="3004" award_number_2="3" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526026" group="0" name="【族王の資格】BOSSチケット周回を180回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/01 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【族王の資格】BOSSチケット周回を180回クリア" quest_type_1="關卡數量" quest_target_1_1="52600130" quest_target_1_2="0" finish_number_1="180" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="3004" award_number_2="3" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526027" group="0" name="【族王の資格】BOSSチケット周回を200回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/01 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【族王の資格】BOSSチケット周回を200回クリア" quest_type_1="關卡數量" quest_target_1_1="52600130" quest_target_1_2="0" finish_number_1="200" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="3004" award_number_2="4" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526028" group="0" name="【ハロウィンの夜、忍び寄る三狐】Hard-1をクリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【ハロウィンの夜、忍び寄る三狐】Hard-1をクリア" quest_type_1="完成關卡進度" quest_target_1_1="54590110" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="道具" award_target_1="10" award_number_1="500" award_type_2="遊戲幣" award_target_2="0" award_number_2="500000" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526029" group="0" name="【ハロウィンの夜、忍び寄る三狐】Hard-2をクリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【ハロウィンの夜、忍び寄る三狐】Hard-2をクリア" quest_type_1="完成關卡進度" quest_target_1_1="54590111" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="道具" award_target_1="10" award_number_1="500" award_type_2="遊戲幣" award_target_2="0" award_number_2="500000" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526030" group="0" name="【ハロウィンの夜、忍び寄る三狐】Hard-3をクリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【ハロウィンの夜、忍び寄る三狐】Hard-3をクリア" quest_type_1="完成關卡進度" quest_target_1_1="54590112" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="道具" award_target_1="10" award_number_1="500" award_type_2="遊戲幣" award_target_2="0" award_number_2="500000" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526031" group="0" name="【ハロウィンの夜、忍び寄る三狐】Hardを累計1回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【ハロウィンの夜、忍び寄る三狐】Hardを累計1回クリア" quest_type_1="困難主線活動關卡數量" quest_target_1_1="0" quest_target_1_2="2259" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="道具" award_target_1="10" award_number_1="100" award_type_2="遊戲幣" award_target_2="0" award_number_2="100000" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526032" group="0" name="【ハロウィンの夜、忍び寄る三狐】Hardを累計3回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【ハロウィンの夜、忍び寄る三狐】Hardを累計3回クリア" quest_type_1="困難主線活動關卡數量" quest_target_1_1="0" quest_target_1_2="2259" finish_number_1="3" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="道具" award_target_1="10" award_number_1="100" award_type_2="遊戲幣" award_target_2="0" award_number_2="100000" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526033" group="0" name="【ハロウィンの夜、忍び寄る三狐】Hardを累計5回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【ハロウィンの夜、忍び寄る三狐】Hardを累計5回クリア" quest_type_1="困難主線活動關卡數量" quest_target_1_1="0" quest_target_1_2="2259" finish_number_1="5" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="道具" award_target_1="10" award_number_1="100" award_type_2="遊戲幣" award_target_2="0" award_number_2="100000" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526034" group="0" name="【ハロウィンの夜、忍び寄る三狐】Hardを累計10回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【ハロウィンの夜、忍び寄る三狐】Hardを累計10回クリア" quest_type_1="困難主線活動關卡數量" quest_target_1_1="0" quest_target_1_2="2259" finish_number_1="10" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="道具" award_target_1="10" award_number_1="100" award_type_2="遊戲幣" award_target_2="0" award_number_2="100000" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526035" group="0" name="【ハロウィンの夜、忍び寄る三狐】Hardを累計20回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【ハロウィンの夜、忍び寄る三狐】Hardを累計20回クリア" quest_type_1="困難主線活動關卡數量" quest_target_1_1="0" quest_target_1_2="2259" finish_number_1="20" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="道具" award_target_1="10" award_number_1="100" award_type_2="遊戲幣" award_target_2="0" award_number_2="100000" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526036" group="0" name="【ハロウィンの夜、忍び寄る三狐】Hardを累計30回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【ハロウィンの夜、忍び寄る三狐】Hardを累計30回クリア" quest_type_1="困難主線活動關卡數量" quest_target_1_1="0" quest_target_1_2="2259" finish_number_1="30" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="道具" award_target_1="10" award_number_1="100" award_type_2="遊戲幣" award_target_2="0" award_number_2="100000" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526037" group="0" name="【ハロウィンの夜、忍び寄る三狐】Hardを累計40回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【ハロウィンの夜、忍び寄る三狐】Hardを累計40回クリア" quest_type_1="困難主線活動關卡數量" quest_target_1_1="0" quest_target_1_2="2259" finish_number_1="40" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="道具" award_target_1="10" award_number_1="100" award_type_2="遊戲幣" award_target_2="0" award_number_2="100000" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526038" group="0" name="【ハロウィンの夜、忍び寄る三狐】Hardを累計50回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【ハロウィンの夜、忍び寄る三狐】Hardを累計50回クリア" quest_type_1="困難主線活動關卡數量" quest_target_1_1="0" quest_target_1_2="2259" finish_number_1="50" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="道具" award_target_1="10" award_number_1="100" award_type_2="遊戲幣" award_target_2="0" award_number_2="100000" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526101" group="0" name="物資調達周回【かけら】を1回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="物資調達周回【かけら】を1回クリア" quest_type_1="關卡數量" quest_target_1_1="52610110" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="10" award_number_2="300" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526102" group="0" name="物資調達周回【絆】を1回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="物資調達周回【絆】を1回クリア" quest_type_1="關卡數量" quest_target_1_1="52610111" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="10" award_number_2="300" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526103" group="0" name="物資調達周回【結晶】を1回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="物資調達周回【結晶】を1回クリア" quest_type_1="關卡數量" quest_target_1_1="52610112" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="10" award_number_2="300" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526104" group="0" name="物資調達周回【錬粉】を1回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="物資調達周回【錬粉】を1回クリア" quest_type_1="關卡數量" quest_target_1_1="52610113" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="10" award_number_2="300" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526105" group="0" name="物資調達周回【かけら】を3回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="物資調達周回【かけら】を3回クリア" quest_type_1="關卡數量" quest_target_1_1="52610110" quest_target_1_2="0" finish_number_1="3" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="30008" award_number_2="10" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526106" group="0" name="物資調達周回【絆】を3回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="物資調達周回【絆】を3回クリア" quest_type_1="關卡數量" quest_target_1_1="52610111" quest_target_1_2="0" finish_number_1="3" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="30009" award_number_2="10" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526107" group="0" name="物資調達周回【結晶】を3回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="物資調達周回【結晶】を3回クリア" quest_type_1="關卡數量" quest_target_1_1="52610112" quest_target_1_2="0" finish_number_1="3" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="30010" award_number_2="10" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526108" group="0" name="物資調達周回【錬粉】を3回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="物資調達周回【錬粉】を3回クリア" quest_type_1="關卡數量" quest_target_1_1="52610113" quest_target_1_2="0" finish_number_1="3" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="30011" award_number_2="10" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526109" group="0" name="物資調達周回【かけら】を5回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="物資調達周回【かけら】を5回クリア" quest_type_1="關卡數量" quest_target_1_1="52610110" quest_target_1_2="0" finish_number_1="5" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="30008" award_number_2="10" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526110" group="0" name="物資調達周回【絆】を5回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="物資調達周回【絆】を5回クリア" quest_type_1="關卡數量" quest_target_1_1="52610111" quest_target_1_2="0" finish_number_1="5" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="30009" award_number_2="10" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526111" group="0" name="物資調達周回【結晶】を5回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="物資調達周回【結晶】を5回クリア" quest_type_1="關卡數量" quest_target_1_1="52610112" quest_target_1_2="0" finish_number_1="5" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="30010" award_number_2="10" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526112" group="0" name="物資調達周回【錬粉】を5回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="物資調達周回【錬粉】を5回クリア" quest_type_1="關卡數量" quest_target_1_1="52610113" quest_target_1_2="0" finish_number_1="5" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="30011" award_number_2="10" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526113" group="0" name="物資調達周回【かけら】を10回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="物資調達周回【かけら】を10回クリア" quest_type_1="關卡數量" quest_target_1_1="52610110" quest_target_1_2="0" finish_number_1="10" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="30008" award_number_2="20" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526114" group="0" name="物資調達周回【絆】を10回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="物資調達周回【絆】を10回クリア" quest_type_1="關卡數量" quest_target_1_1="52610111" quest_target_1_2="0" finish_number_1="10" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="30009" award_number_2="20" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526115" group="0" name="物資調達周回【結晶】を10回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="物資調達周回【結晶】を10回クリア" quest_type_1="關卡數量" quest_target_1_1="52610112" quest_target_1_2="0" finish_number_1="10" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="30010" award_number_2="20" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526116" group="0" name="物資調達周回【錬粉】を10回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="物資調達周回【錬粉】を10回クリア" quest_type_1="關卡數量" quest_target_1_1="52610113" quest_target_1_2="0" finish_number_1="10" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="30011" award_number_2="20" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526117" group="0" name="物資調達周回【かけら】を15回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="物資調達周回【かけら】を15回クリア" quest_type_1="關卡數量" quest_target_1_1="52610110" quest_target_1_2="0" finish_number_1="15" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="30008" award_number_2="20" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526118" group="0" name="物資調達周回【絆】を15回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="物資調達周回【絆】を15回クリア" quest_type_1="關卡數量" quest_target_1_1="52610111" quest_target_1_2="0" finish_number_1="15" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="30009" award_number_2="20" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526119" group="0" name="物資調達周回【結晶】を15回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="物資調達周回【結晶】を15回クリア" quest_type_1="關卡數量" quest_target_1_1="52610112" quest_target_1_2="0" finish_number_1="15" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="30010" award_number_2="20" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526120" group="0" name="物資調達周回【錬粉】を15回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="物資調達周回【錬粉】を15回クリア" quest_type_1="關卡數量" quest_target_1_1="52610113" quest_target_1_2="0" finish_number_1="15" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="30011" award_number_2="20" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526121" group="0" name="物資調達周回【かけら】を20回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="物資調達周回【かけら】を20回クリア" quest_type_1="關卡數量" quest_target_1_1="52610110" quest_target_1_2="0" finish_number_1="20" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="30008" award_number_2="30" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526122" group="0" name="物資調達周回【絆】を20回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="物資調達周回【絆】を20回クリア" quest_type_1="關卡數量" quest_target_1_1="52610111" quest_target_1_2="0" finish_number_1="20" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="30009" award_number_2="30" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526123" group="0" name="物資調達周回【結晶】を20回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="物資調達周回【結晶】を20回クリア" quest_type_1="關卡數量" quest_target_1_1="52610112" quest_target_1_2="0" finish_number_1="20" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="30010" award_number_2="30" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526124" group="0" name="物資調達周回【錬粉】を20回クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/05 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="物資調達周回【錬粉】を20回クリア" quest_type_1="關卡數量" quest_target_1_1="52610113" quest_target_1_2="0" finish_number_1="20" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="30011" award_number_2="30" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526125" group="0" name="APを50消費する" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/09 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="APを50消費する" quest_type_1="消耗AP累積量" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="50" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="50" award_type_2="道具" award_target_2="2341" award_number_2="10" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526126" group="0" name="APを100消費する" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/09 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="APを100消費する" quest_type_1="消耗AP累積量" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="100" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="50" award_type_2="道具" award_target_2="2341" award_number_2="10" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526127" group="0" name="APを150消費する" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/09 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="APを150消費する" quest_type_1="消耗AP累積量" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="150" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="50" award_type_2="道具" award_target_2="2341" award_number_2="10" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526128" group="0" name="APを200消費する" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/09 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="APを200消費する" quest_type_1="消耗AP累積量" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="200" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="50" award_type_2="道具" award_target_2="2341" award_number_2="10" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526129" group="0" name="APを300消費する" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/09 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="APを300消費する" quest_type_1="消耗AP累積量" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="300" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="50" award_type_2="道具" award_target_2="2341" award_number_2="10" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526130" group="0" name="同盟戦を1回挑戦する" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/09 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="同盟戦を1回挑戦する" quest_type_1="進行公會戰次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="50" award_type_2="道具" award_target_2="10" award_number_2="100" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526131" group="0" name="同盟戦を2回挑戦する" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/09 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="同盟戦を2回挑戦する" quest_type_1="進行公會戰次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="2" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="50" award_type_2="道具" award_target_2="10" award_number_2="100" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526132" group="0" name="同盟戦を3回挑戦する" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/09 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="同盟戦を3回挑戦する" quest_type_1="進行公會戰次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="3" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="50" award_type_2="道具" award_target_2="10" award_number_2="100" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526133" group="0" name="同盟戦を4回挑戦する" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/09 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="同盟戦を4回挑戦する" quest_type_1="進行公會戰次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="4" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="50" award_type_2="道具" award_target_2="10" award_number_2="100" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526134" group="0" name="同盟戦を5回挑戦する" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/09 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="同盟戦を5回挑戦する" quest_type_1="進行公會戰次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="5" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="50" award_type_2="道具" award_target_2="10" award_number_2="100" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526135" group="0" name="同盟戦を6回挑戦する" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/09 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="同盟戦を6回挑戦する" quest_type_1="進行公會戰次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="6" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="50" award_type_2="道具" award_target_2="10" award_number_2="100" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526136" group="0" name="同盟戦を7回挑戦する" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/09 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="同盟戦を7回挑戦する" quest_type_1="進行公會戰次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="7" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="50" award_type_2="道具" award_target_2="10" award_number_2="100" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526137" group="0" name="同盟戦を8回挑戦する" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/09 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="同盟戦を8回挑戦する" quest_type_1="進行公會戰次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="8" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="50" award_type_2="道具" award_target_2="10" award_number_2="100" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526138" group="0" name="同盟戦を9回挑戦する" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/09 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="同盟戦を9回挑戦する" quest_type_1="進行公會戰次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="9" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="50" award_type_2="道具" award_target_2="10" award_number_2="100" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526139" group="0" name="同盟戦を10回挑戦する" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/09 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="同盟戦を10回挑戦する" quest_type_1="進行公會戰次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="10" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="50" award_type_2="道具" award_target_2="10" award_number_2="100" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526201" group="0" name="【魔討隊の盾となりて】ストーリーを全クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/12 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【魔討隊の盾となりて】ストーリーを全クリア" quest_type_1="完成關卡進度" quest_target_1_1="52620118" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="300" award_type_2="AP體力" award_target_2="0" award_number_2="200" award_type_3="遊戲幣" award_target_3="0" award_number_3="500000" award_type_4="道具" award_target_4="30012" award_number_4="1" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526202" group="0" name="疾走討伐戦を1回挑戦" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/12 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="疾走討伐戦を1回挑戦" quest_type_1="頭目連戰通關次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="2342" award_number_2="5" award_type_3="道具" award_target_3="312" award_number_3="1" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526203" group="0" name="疾走討伐戦を2回挑戦" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/12 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="疾走討伐戦を2回挑戦" quest_type_1="頭目連戰通關次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="2" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="2342" award_number_2="5" award_type_3="道具" award_target_3="313" award_number_3="1" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526204" group="0" name="疾走討伐戦を3回挑戦" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/12 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="疾走討伐戦を3回挑戦" quest_type_1="頭目連戰通關次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="3" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="2342" award_number_2="5" award_type_3="道具" award_target_3="314" award_number_3="1" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526205" group="0" name="疾走討伐戦を4回挑戦" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/12 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="疾走討伐戦を4回挑戦" quest_type_1="頭目連戰通關次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="4" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="2342" award_number_2="5" award_type_3="道具" award_target_3="315" award_number_3="1" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526206" group="0" name="疾走討伐戦を5回挑戦" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/12 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="疾走討伐戦を5回挑戦" quest_type_1="頭目連戰通關次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="5" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="2342" award_number_2="5" award_type_3="道具" award_target_3="316" award_number_3="1" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526207" group="0" name="疾走討伐戦を6回挑戦" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/12 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="疾走討伐戦を6回挑戦" quest_type_1="頭目連戰通關次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="6" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="2342" award_number_2="5" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526208" group="0" name="疾走討伐戦を7回挑戦" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/12 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="疾走討伐戦を7回挑戦" quest_type_1="頭目連戰通關次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="7" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="2342" award_number_2="5" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526209" group="0" name="疾走討伐戦を8回挑戦" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/12 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="疾走討伐戦を8回挑戦" quest_type_1="頭目連戰通關次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="8" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="2342" award_number_2="5" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526210" group="0" name="疾走討伐戦を9回挑戦" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/12 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="疾走討伐戦を9回挑戦" quest_type_1="頭目連戰通關次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="9" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="2342" award_number_2="5" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526211" group="0" name="疾走討伐戦を10回挑戦" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/12 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="疾走討伐戦を10回挑戦" quest_type_1="頭目連戰通關次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="10" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="2342" award_number_2="5" award_type_3="遊戲幣" award_target_3="0" award_number_3="100000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526223" group="0" name="【《復刻》踊りの女神に微笑みを】を全クリア     " achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/12 12:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【《復刻》踊りの女神に微笑みを】を全クリア     " quest_type_1="完成關卡進度" quest_target_1_1="53620144" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="英雄" award_target_2="2091" award_number_2="1" award_type_3="遊戲幣" award_target_3="0" award_number_3="200000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526401" group="0" name="【FANZINE】クエストを全クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/19 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【FANZINE】クエストを全クリア" quest_type_1="完成關卡進度" quest_target_1_1="52640116" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="道具" award_target_2="30016" award_number_2="1" award_type_3="遊戲幣" award_target_3="0" award_number_3="500000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526402" group="0" name="【FANZINE】周回クエストを1回挑戦" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/19 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【FANZINE】周回クエストを1回挑戦" quest_type_1="關卡數量" quest_target_1_1="52640117" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="50" award_type_2="道具" award_target_2="2344" award_number_2="5" award_type_3="遊戲幣" award_target_3="0" award_number_3="200000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526403" group="0" name="【FANZINE】周回クエストを5回挑戦" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/19 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【FANZINE】周回クエストを5回挑戦" quest_type_1="關卡數量" quest_target_1_1="52640117" quest_target_1_2="0" finish_number_1="5" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="50" award_type_2="道具" award_target_2="2344" award_number_2="5" award_type_3="遊戲幣" award_target_3="0" award_number_3="200000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526404" group="0" name="【FANZINE】周回クエストを10回挑戦" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/19 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【FANZINE】周回クエストを10回挑戦" quest_type_1="關卡數量" quest_target_1_1="52640117" quest_target_1_2="0" finish_number_1="10" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="50" award_type_2="道具" award_target_2="2344" award_number_2="5" award_type_3="遊戲幣" award_target_3="0" award_number_3="200000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526405" group="0" name="【FANZINE】周回クエストを20回挑戦" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/19 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【FANZINE】周回クエストを20回挑戦" quest_type_1="關卡數量" quest_target_1_1="52640117" quest_target_1_2="0" finish_number_1="20" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="50" award_type_2="道具" award_target_2="2344" award_number_2="5" award_type_3="遊戲幣" award_target_3="0" award_number_3="200000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526406" group="0" name="【FANZINE】周回クエストを30回挑戦" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/19 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【FANZINE】周回クエストを30回挑戦" quest_type_1="關卡數量" quest_target_1_1="52640117" quest_target_1_2="0" finish_number_1="30" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="50" award_type_2="道具" award_target_2="2344" award_number_2="5" award_type_3="遊戲幣" award_target_3="0" award_number_3="200000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526407" group="0" name="【FANZINE】周回クエストを50回挑戦" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/19 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【FANZINE】周回クエストを50回挑戦" quest_type_1="關卡數量" quest_target_1_1="52640117" quest_target_1_2="0" finish_number_1="50" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="50" award_type_2="道具" award_target_2="2344" award_number_2="5" award_type_3="遊戲幣" award_target_3="0" award_number_3="200000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="526408" group="0" name="【《復刻》エルロンの収穫祭】を全クリア" achievement_id="0" open="true" hide="false" class="活動" end_time="2026/11/19 11:00:00" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="【《復刻》エルロンの収穫祭】を全クリア" quest_type_1="完成關卡進度" quest_target_1_1="53640144" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="100" award_type_2="英雄" award_target_2="2179" award_number_2="1" award_type_3="遊戲幣" award_target_3="0" award_number_3="200000" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
     <pre_hero_group_id>0</pre_hero_group_id>
     <pre_hero_group_id>0</pre_hero_group_id>
     <pre_hero_group_id>0</pre_hero_group_id>
@@ -65080,6 +66050,206 @@
     <pre_hero_gp_lv>0</pre_hero_gp_lv>
     <pre_hero_gp_lv>0</pre_hero_gp_lv>
   </QuestSetting>
+  <QuestSetting id="600782" group="600150" name="BOSSチケット周回を1回クリア" achievement_id="0" open="true" hide="false" class="隨機每日活躍任務" open_week_1="每日" open_week_2="每日" restart_cycle="每日重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="BOSSチケット周回を1回クリア" quest_type_1="關卡數量" quest_target_1_1="52600130" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="無" award_target_1="0" award_number_1="0" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="60" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="600783" group="600150" name="BOSS任意難易度を1回クリア" achievement_id="0" open="true" hide="false" class="隨機每日活躍任務" open_week_1="每日" open_week_2="每日" restart_cycle="每日重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="BOSS任意難易度を1回クリア" quest_type_1="指定怪物擊殺數" quest_target_1_1="52601" quest_target_1_2="0" finish_number_1="1" quest_content2="BOSS任意難易度を1回クリア" quest_type_2="指定怪物擊殺數" quest_target_2_1="52602" quest_target_2_2="0" finish_number_2="1" quest_content3="BOSS任意難易度を1回クリア" quest_type_3="指定怪物擊殺數" quest_target_3_1="52603" quest_target_3_2="0" finish_number_3="1" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="無" award_target_1="0" award_number_1="0" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="60" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="600784" group="600150" name="救援戦を1回クリアする" achievement_id="0" open="true" hide="false" class="隨機每日活躍任務" open_week_1="每日" open_week_2="每日" restart_cycle="每日重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="救援戦を1回クリアする" quest_type_1="RAID戰通關次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="無" award_target_1="0" award_number_1="0" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="60" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="600785" group="600150" name="派遣を1回行う" achievement_id="0" open="true" hide="false" class="隨機每日活躍任務" open_week_1="每日" open_week_2="每日" restart_cycle="每日重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="派遣を1回行う" quest_type_1="完成的探索次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="無" award_target_1="0" award_number_1="0" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="60" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="600786" group="600150" name="召喚を1回行う" achievement_id="0" open="true" hide="false" class="隨機每日活躍任務" open_week_1="每日" open_week_2="每日" restart_cycle="每日重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="召喚を1回行う" quest_type_1="商城幣轉蛋次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="無" award_target_1="0" award_number_1="0" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="60" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="600787" group="600151" name="任意の遺跡を1回クリアする" achievement_id="0" open="true" hide="false" class="隨機每日活躍任務" open_week_1="每日" open_week_2="每日" restart_cycle="每日重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="遺跡の任意クエストを1回クリア" quest_type_1="遺跡週期關卡數量" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="無" award_target_1="0" award_number_1="0" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="60" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="600788" group="600151" name="救援戦を1回開催する" achievement_id="0" open="true" hide="false" class="隨機每日活躍任務" open_week_1="每日" open_week_2="每日" restart_cycle="每日重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="救援戦を1回開催する" quest_type_1="RAID戰自發次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="無" award_target_1="0" award_number_1="0" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="60" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="600789" group="600151" name="救援戦を1回クリアする" achievement_id="0" open="true" hide="false" class="隨機每日活躍任務" open_week_1="每日" open_week_2="每日" restart_cycle="每日重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="救援戦を1回クリアする" quest_type_1="RAID戰通關次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="無" award_target_1="0" award_number_1="0" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="60" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="600790" group="600151" name="派遣を1回行う" achievement_id="0" open="true" hide="false" class="隨機每日活躍任務" open_week_1="每日" open_week_2="每日" restart_cycle="每日重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="派遣を1回行う" quest_type_1="完成的探索次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="無" award_target_1="0" award_number_1="0" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="60" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="600791" group="600151" name="召喚を1回行う" achievement_id="0" open="true" hide="false" class="隨機每日活躍任務" open_week_1="每日" open_week_2="每日" restart_cycle="每日重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="召喚を1回行う" quest_type_1="商城幣轉蛋次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="無" award_target_1="0" award_number_1="0" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="60" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="600792" group="600152" name="疾走討伐戦を1回挑戦" achievement_id="0" open="true" hide="false" class="隨機每日活躍任務" open_week_1="每日" open_week_2="每日" restart_cycle="每日重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="疾走討伐戦を1回挑戦" quest_type_1="頭目連戰通關次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="無" award_target_1="0" award_number_1="0" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="60" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="600793" group="600152" name="遺跡の任意クエストを1回クリア" achievement_id="0" open="true" hide="false" class="隨機每日活躍任務" open_week_1="每日" open_week_2="每日" restart_cycle="每日重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="遺跡の任意クエストを1回クリア" quest_type_1="遺跡週期關卡數量" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="無" award_target_1="0" award_number_1="0" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="60" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="600794" group="600152" name="救援戦を1回クリアする" achievement_id="0" open="true" hide="false" class="隨機每日活躍任務" open_week_1="每日" open_week_2="每日" restart_cycle="每日重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="救援戦を1回クリアする" quest_type_1="RAID戰通關次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="無" award_target_1="0" award_number_1="0" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="60" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="600795" group="600152" name="派遣を1回行う" achievement_id="0" open="true" hide="false" class="隨機每日活躍任務" open_week_1="每日" open_week_2="每日" restart_cycle="每日重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="派遣を1回行う" quest_type_1="完成的探索次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="無" award_target_1="0" award_number_1="0" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="60" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="600796" group="600152" name="召喚を1回行う" achievement_id="0" open="true" hide="false" class="隨機每日活躍任務" open_week_1="每日" open_week_2="每日" restart_cycle="每日重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="召喚を1回行う" quest_type_1="商城幣轉蛋次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="無" award_target_1="0" award_number_1="0" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="60" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="600797" group="600153" name="救援戦を1回開催する" achievement_id="0" open="true" hide="false" class="隨機每日活躍任務" open_week_1="每日" open_week_2="每日" restart_cycle="每日重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="救援戦を1回開催する" quest_type_1="RAID戰自發次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="無" award_target_1="0" award_number_1="0" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="60" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="600798" group="600153" name="【FANZINE】周回クエストを1回クリアする" achievement_id="0" open="true" hide="false" class="隨機每日活躍任務" open_week_1="每日" open_week_2="每日" restart_cycle="每日重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="false" quest_content1="【Fanzine】周回クエストを1回クリアする" quest_type_1="關卡數量" quest_target_1_1="52640117" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="無" award_target_1="0" award_number_1="0" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="60" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="600799" group="600153" name="救援戦を1回クリアする" achievement_id="0" open="true" hide="false" class="隨機每日活躍任務" open_week_1="每日" open_week_2="每日" restart_cycle="每日重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="救援戦を1回クリアする" quest_type_1="RAID戰通關次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="無" award_target_1="0" award_number_1="0" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="60" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="600800" group="600153" name="派遣を1回行う" achievement_id="0" open="true" hide="false" class="隨機每日活躍任務" open_week_1="每日" open_week_2="每日" restart_cycle="每日重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="派遣を1回行う" quest_type_1="完成的探索次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="無" award_target_1="0" award_number_1="0" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="60" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="600801" group="600153" name="召喚を1回行う" achievement_id="0" open="true" hide="false" class="隨機每日活躍任務" open_week_1="每日" open_week_2="每日" restart_cycle="每日重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" all_finish="true" quest_content1="召喚を1回行う" quest_type_1="商城幣轉蛋次數" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="無" award_target_1="0" award_number_1="0" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="60" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
   <QuestSetting id="900001" group="0" name="プレイヤーRANK10を達成" achievement_id="0" open="true" hide="false" class="成長基金任務" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" pre_iap="level_quest1" all_finish="true" quest_content1="プレイヤーRANK10を達成" quest_type_1="主角等級" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="10" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="1000" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
     <pre_hero_group_id>0</pre_hero_group_id>
     <pre_hero_group_id>0</pre_hero_group_id>
@@ -66901,6 +68071,76 @@
     <pre_hero_gp_lv>0</pre_hero_gp_lv>
   </QuestSetting>
   <QuestSetting id="900183" group="0" name="「【3周年記念】ログインミッション」累計7日ログインする" achievement_id="90017701" open="true" hide="false" class="成長基金任務" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" pre_iap="kyoweb_3year_3_1" all_finish="true" quest_content1="累計7日ログインする" quest_type_1="登入遊戲" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="7" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="600" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="900184" group="0" name="「【いいおπの日】ログインミッション」累計1日ログインする" achievement_id="90018401" open="true" hide="false" class="成長基金任務" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" pre_iap="kyoweb_iioppai2026_7" all_finish="true" quest_content1="累計1日ログインする" quest_type_1="登入遊戲" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="1" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="2800" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="900185" group="0" name="「【いいおπの日】ログインミッション」累計2日ログインする" achievement_id="90018401" open="true" hide="false" class="成長基金任務" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" pre_iap="kyoweb_iioppai2026_7" all_finish="true" quest_content1="累計2日ログインする" quest_type_1="登入遊戲" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="2" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="1000" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="900186" group="0" name="「【いいおπの日】ログインミッション」累計3日ログインする" achievement_id="90018401" open="true" hide="false" class="成長基金任務" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" pre_iap="kyoweb_iioppai2026_7" all_finish="true" quest_content1="累計3日ログインする" quest_type_1="登入遊戲" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="3" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="1000" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="900187" group="0" name="「【いいおπの日】ログインミッション」累計4日ログインする" achievement_id="90018401" open="true" hide="false" class="成長基金任務" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" pre_iap="kyoweb_iioppai2026_7" all_finish="true" quest_content1="累計4日ログインする" quest_type_1="登入遊戲" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="4" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="1000" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="900188" group="0" name="「【いいおπの日】ログインミッション」累計5日ログインする" achievement_id="90018401" open="true" hide="false" class="成長基金任務" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" pre_iap="kyoweb_iioppai2026_7" all_finish="true" quest_content1="累計5日ログインする" quest_type_1="登入遊戲" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="5" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="1000" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="900189" group="0" name="「【いいおπの日】ログインミッション」累計6日ログインする" achievement_id="90018401" open="true" hide="false" class="成長基金任務" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" pre_iap="kyoweb_iioppai2026_7" all_finish="true" quest_content1="累計6日ログインする" quest_type_1="登入遊戲" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="6" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="1000" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_group_id>0</pre_hero_group_id>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+    <pre_hero_gp_lv>0</pre_hero_gp_lv>
+  </QuestSetting>
+  <QuestSetting id="900190" group="0" name="「【いいおπの日】ログインミッション」累計7日ログインする" achievement_id="90018401" open="true" hide="false" class="成長基金任務" open_week_1="每日" open_week_2="每日" restart_cycle="不重置" finish_dialog="0" pre_quest="0" pre_stage="0" pre_player_level="0" player_level_limit="0" pre_iap="kyoweb_iioppai2026_7" all_finish="true" quest_content1="累計7日ログインする" quest_type_1="登入遊戲" quest_target_1_1="0" quest_target_1_2="0" finish_number_1="7" quest_type_2="None" quest_target_2_1="0" quest_target_2_2="0" finish_number_2="0" quest_type_3="None" quest_target_3_1="0" quest_target_3_2="0" finish_number_3="0" quest_type_4="None" quest_target_4_1="0" quest_target_4_2="0" finish_number_4="0" award_bonus_scale="0" award_type_1="商城幣" award_target_1="0" award_number_1="1000" award_type_2="無" award_target_2="0" award_number_2="0" award_type_3="無" award_target_3="0" award_number_3="0" award_type_4="無" award_target_4="0" award_number_4="0" activity="0" battle_pass="0" new_return_point="0" self_call_point="0" share_call_point="0">
     <pre_hero_group_id>0</pre_hero_group_id>
     <pre_hero_group_id>0</pre_hero_group_id>
     <pre_hero_group_id>0</pre_hero_group_id>

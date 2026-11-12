@@ -10666,18 +10666,18 @@
     <ani_title>モーション7</ani_title>
     <ani_title>モーション8</ani_title>
     <ani_title>モーション9</ani_title>
-    <ani_title>null</ani_title>
+    <ani_title>モーション10</ani_title>
     <ani_title>null</ani_title>
     <ani_name>act0</ani_name>
     <ani_name>act1</ani_name>
     <ani_name>act2_1</ani_name>
     <ani_name>act2_2</ani_name>
     <ani_name>act3</ani_name>
-    <ani_name>act4</ani_name>
+    <ani_name>act4_1</ani_name>
+    <ani_name>act4_2</ani_name>
     <ani_name>act5</ani_name>
     <ani_name>act6_1</ani_name>
     <ani_name>act6_2</ani_name>
-    <ani_name>null</ani_name>
     <ani_name>null</ani_name>
   </MainPageHcgSetting>
   <MainPageHcgSetting id="231002" name="【高貴なるドレスの姫君】ルールーシーン2" hero_group="2310" pre_gp_lv="4" pre_quest_id="0" icon="mainset-hcg001/2310_2" ani_path="2310_02a/2310_02a">
@@ -11833,6 +11833,294 @@
     <ani_name>null</ani_name>
   </MainPageHcgSetting>
   <MainPageHcgSetting id="233802" name="【赤ずきんだよ～ん♪】蓮久シーン2" hero_group="2338" pre_gp_lv="4" pre_quest_id="0" icon="mainset-hcg001/2338_2" ani_path="2338_02a/2338_02a">
+    <ani_title>モーション1</ani_title>
+    <ani_title>モーション2</ani_title>
+    <ani_title>モーション3</ani_title>
+    <ani_title>モーション4</ani_title>
+    <ani_title>モーション5</ani_title>
+    <ani_title>モーション6</ani_title>
+    <ani_title>モーション7</ani_title>
+    <ani_title>モーション8</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_name>act0_1</ani_name>
+    <ani_name>act0_2</ani_name>
+    <ani_name>act1</ani_name>
+    <ani_name>act2_1</ani_name>
+    <ani_name>act2_2</ani_name>
+    <ani_name>act3</ani_name>
+    <ani_name>act4_1</ani_name>
+    <ani_name>act4_2</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+  </MainPageHcgSetting>
+  <MainPageHcgSetting id="234001" name="ウリシャスシーン1" hero_group="2340" pre_gp_lv="2" pre_quest_id="0" icon="mainset-hcg001/2340_1" ani_path="2340_01a/2340_01a">
+    <ani_title>モーション1</ani_title>
+    <ani_title>モーション2</ani_title>
+    <ani_title>モーション3</ani_title>
+    <ani_title>モーション4</ani_title>
+    <ani_title>モーション5</ani_title>
+    <ani_title>モーション6</ani_title>
+    <ani_title>モーション7</ani_title>
+    <ani_title>モーション8</ani_title>
+    <ani_title>モーション9</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_name>act0_1</ani_name>
+    <ani_name>act0_2</ani_name>
+    <ani_name>act1</ani_name>
+    <ani_name>act2_1</ani_name>
+    <ani_name>act2_2</ani_name>
+    <ani_name>act3</ani_name>
+    <ani_name>act4</ani_name>
+    <ani_name>act5_1</ani_name>
+    <ani_name>act5_2</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+  </MainPageHcgSetting>
+  <MainPageHcgSetting id="234002" name="ウリシャスシーン2" hero_group="2340" pre_gp_lv="4" pre_quest_id="0" icon="mainset-hcg001/2340_2" ani_path="2340_02a/2340_02a">
+    <ani_title>モーション1</ani_title>
+    <ani_title>モーション2</ani_title>
+    <ani_title>モーション3</ani_title>
+    <ani_title>モーション4</ani_title>
+    <ani_title>モーション5</ani_title>
+    <ani_title>モーション6</ani_title>
+    <ani_title>モーション7</ani_title>
+    <ani_title>モーション8</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_name>act0_1</ani_name>
+    <ani_name>act0_2</ani_name>
+    <ani_name>act1</ani_name>
+    <ani_name>act2_1</ani_name>
+    <ani_name>act2_2</ani_name>
+    <ani_name>act3</ani_name>
+    <ani_name>act4_1</ani_name>
+    <ani_name>act4_2</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+  </MainPageHcgSetting>
+  <MainPageHcgSetting id="233701" name="【一応、狼だぞ……ガオーッ】ヒサラシーン1" hero_group="2337" pre_gp_lv="2" pre_quest_id="0" icon="mainset-hcg001/2337_1" ani_path="2337_01a/2337_01a">
+    <ani_title>モーション1</ani_title>
+    <ani_title>モーション2</ani_title>
+    <ani_title>モーション3</ani_title>
+    <ani_title>モーション4</ani_title>
+    <ani_title>モーション5</ani_title>
+    <ani_title>モーション6</ani_title>
+    <ani_title>モーション7</ani_title>
+    <ani_title>モーション8</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_name>act0_1</ani_name>
+    <ani_name>act0_2</ani_name>
+    <ani_name>act1</ani_name>
+    <ani_name>act2_1</ani_name>
+    <ani_name>act2_2</ani_name>
+    <ani_name>act3</ani_name>
+    <ani_name>act4_1</ani_name>
+    <ani_name>act4_2</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+  </MainPageHcgSetting>
+  <MainPageHcgSetting id="233702" name="【一応、狼だぞ……ガオーッ】ヒサラシーン2" hero_group="2337" pre_gp_lv="4" pre_quest_id="0" icon="mainset-hcg001/2337_2" ani_path="2337_02a/2337_02a">
+    <ani_title>モーション1</ani_title>
+    <ani_title>モーション2</ani_title>
+    <ani_title>モーション3</ani_title>
+    <ani_title>モーション4</ani_title>
+    <ani_title>モーション5</ani_title>
+    <ani_title>モーション6</ani_title>
+    <ani_title>モーション7</ani_title>
+    <ani_title>モーション8</ani_title>
+    <ani_title>モーション9</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_name>act0</ani_name>
+    <ani_name>act1_1</ani_name>
+    <ani_name>act1_2</ani_name>
+    <ani_name>act2</ani_name>
+    <ani_name>act3_1</ani_name>
+    <ani_name>act3_2</ani_name>
+    <ani_name>act4</ani_name>
+    <ani_name>act5_1</ani_name>
+    <ani_name>act5_2</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+  </MainPageHcgSetting>
+  <MainPageHcgSetting id="234101" name="テアラシーン1" hero_group="2341" pre_gp_lv="2" pre_quest_id="0" icon="mainset-hcg001/2341_1" ani_path="2341_01a/2341_01a">
+    <ani_title>モーション1</ani_title>
+    <ani_title>モーション2</ani_title>
+    <ani_title>モーション3</ani_title>
+    <ani_title>モーション4</ani_title>
+    <ani_title>モーション5</ani_title>
+    <ani_title>モーション6</ani_title>
+    <ani_title>モーション7</ani_title>
+    <ani_title>モーション8</ani_title>
+    <ani_title>モーション9</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_name>act0_1</ani_name>
+    <ani_name>act0_2</ani_name>
+    <ani_name>act1</ani_name>
+    <ani_name>act2_1</ani_name>
+    <ani_name>act2_2</ani_name>
+    <ani_name>act3</ani_name>
+    <ani_name>act4</ani_name>
+    <ani_name>act5_1</ani_name>
+    <ani_name>act5_2</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+  </MainPageHcgSetting>
+  <MainPageHcgSetting id="234102" name="テアラシーン2" hero_group="2341" pre_gp_lv="4" pre_quest_id="0" icon="mainset-hcg001/2341_2" ani_path="2341_02a/2341_02a">
+    <ani_title>モーション1</ani_title>
+    <ani_title>モーション2</ani_title>
+    <ani_title>モーション3</ani_title>
+    <ani_title>モーション4</ani_title>
+    <ani_title>モーション5</ani_title>
+    <ani_title>モーション6</ani_title>
+    <ani_title>モーション7</ani_title>
+    <ani_title>モーション8</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_name>act0_1</ani_name>
+    <ani_name>act0_2</ani_name>
+    <ani_name>act1</ani_name>
+    <ani_name>act2_1</ani_name>
+    <ani_name>act2_2</ani_name>
+    <ani_name>act3</ani_name>
+    <ani_name>act4_1</ani_name>
+    <ani_name>act4_2</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+  </MainPageHcgSetting>
+  <MainPageHcgSetting id="234201" name="【魔討隊の盾】ナターシャシーン1" hero_group="2342" pre_gp_lv="2" pre_quest_id="0" icon="mainset-hcg001/2342_1" ani_path="2342_01a/2342_01a">
+    <ani_title>モーション1</ani_title>
+    <ani_title>モーション2</ani_title>
+    <ani_title>モーション3</ani_title>
+    <ani_title>モーション4</ani_title>
+    <ani_title>モーション5</ani_title>
+    <ani_title>モーション6</ani_title>
+    <ani_title>モーション7</ani_title>
+    <ani_title>モーション8</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_name>act0_1</ani_name>
+    <ani_name>act0_2</ani_name>
+    <ani_name>act1</ani_name>
+    <ani_name>act2_1</ani_name>
+    <ani_name>act2_2</ani_name>
+    <ani_name>act3</ani_name>
+    <ani_name>act4_1</ani_name>
+    <ani_name>act4_2</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+  </MainPageHcgSetting>
+  <MainPageHcgSetting id="234202" name="【魔討隊の盾】ナターシャシーン2" hero_group="2342" pre_gp_lv="4" pre_quest_id="0" icon="mainset-hcg001/2342_2" ani_path="2342_02a/2342_02a">
+    <ani_title>モーション1</ani_title>
+    <ani_title>モーション2</ani_title>
+    <ani_title>モーション3</ani_title>
+    <ani_title>モーション4</ani_title>
+    <ani_title>モーション5</ani_title>
+    <ani_title>モーション6</ani_title>
+    <ani_title>モーション7</ani_title>
+    <ani_title>モーション8</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_name>act0_1</ani_name>
+    <ani_name>act0_2</ani_name>
+    <ani_name>act1</ani_name>
+    <ani_name>act2_1</ani_name>
+    <ani_name>act2_2</ani_name>
+    <ani_name>act3</ani_name>
+    <ani_name>act4_1</ani_name>
+    <ani_name>act4_2</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+  </MainPageHcgSetting>
+  <MainPageHcgSetting id="234301" name="【うし乳娘】シャリクシーン1" hero_group="2343" pre_gp_lv="2" pre_quest_id="0" icon="mainset-hcg001/2343_1" ani_path="2343_01a/2343_01a">
+    <ani_title>モーション1</ani_title>
+    <ani_title>モーション2</ani_title>
+    <ani_title>モーション3</ani_title>
+    <ani_title>モーション4</ani_title>
+    <ani_title>モーション5</ani_title>
+    <ani_title>モーション6</ani_title>
+    <ani_title>モーション7</ani_title>
+    <ani_title>モーション8</ani_title>
+    <ani_title>モーション9</ani_title>
+    <ani_title>モーション10</ani_title>
+    <ani_title>null</ani_title>
+    <ani_name>act0</ani_name>
+    <ani_name>act1</ani_name>
+    <ani_name>act2_1</ani_name>
+    <ani_name>act2_2</ani_name>
+    <ani_name>act3</ani_name>
+    <ani_name>act4_1</ani_name>
+    <ani_name>act4_2</ani_name>
+    <ani_name>act5</ani_name>
+    <ani_name>act6_1</ani_name>
+    <ani_name>act6_2</ani_name>
+    <ani_name>null</ani_name>
+  </MainPageHcgSetting>
+  <MainPageHcgSetting id="234302" name="【うし乳娘】シャリクシーン2" hero_group="2343" pre_gp_lv="4" pre_quest_id="0" icon="mainset-hcg001/2343_2" ani_path="2343_02a/2343_02a">
+    <ani_title>モーション1</ani_title>
+    <ani_title>モーション2</ani_title>
+    <ani_title>モーション3</ani_title>
+    <ani_title>モーション4</ani_title>
+    <ani_title>モーション5</ani_title>
+    <ani_title>モーション6</ani_title>
+    <ani_title>モーション7</ani_title>
+    <ani_title>モーション8</ani_title>
+    <ani_title>モーション9</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_name>act0_1</ani_name>
+    <ani_name>act0_2</ani_name>
+    <ani_name>act1</ani_name>
+    <ani_name>act2_1</ani_name>
+    <ani_name>act2_2</ani_name>
+    <ani_name>act2_3</ani_name>
+    <ani_name>act3</ani_name>
+    <ani_name>act4</ani_name>
+    <ani_name>act5</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+  </MainPageHcgSetting>
+  <MainPageHcgSetting id="234401" name="【五剣の魔討隊】アーティアシーン1" hero_group="2344" pre_gp_lv="2" pre_quest_id="0" icon="mainset-hcg001/2344_1" ani_path="2344_01a/2344_01a">
+    <ani_title>モーション1</ani_title>
+    <ani_title>モーション2</ani_title>
+    <ani_title>モーション3</ani_title>
+    <ani_title>モーション4</ani_title>
+    <ani_title>モーション5</ani_title>
+    <ani_title>モーション6</ani_title>
+    <ani_title>モーション7</ani_title>
+    <ani_title>モーション8</ani_title>
+    <ani_title>モーション9</ani_title>
+    <ani_title>null</ani_title>
+    <ani_title>null</ani_title>
+    <ani_name>act0_1</ani_name>
+    <ani_name>act0_2</ani_name>
+    <ani_name>act1</ani_name>
+    <ani_name>act2_1</ani_name>
+    <ani_name>act2_2</ani_name>
+    <ani_name>act3</ani_name>
+    <ani_name>act4</ani_name>
+    <ani_name>act5_1</ani_name>
+    <ani_name>act5_2</ani_name>
+    <ani_name>null</ani_name>
+    <ani_name>null</ani_name>
+  </MainPageHcgSetting>
+  <MainPageHcgSetting id="234402" name="【五剣の魔討隊】アーティアシーン2" hero_group="2344" pre_gp_lv="4" pre_quest_id="0" icon="mainset-hcg001/2344_2" ani_path="2344_02a/2344_02a">
     <ani_title>モーション1</ani_title>
     <ani_title>モーション2</ani_title>
     <ani_title>モーション3</ani_title>

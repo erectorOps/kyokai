@@ -1918,6 +1918,34 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
+  <MonsterSetting id="40123" name="蛇型魔獣" limit_sec="120" boss_id="40123" boss_lv="70" boss_ani_scale="1" boss_buff_group_id="40123">
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="40124" name="蛇型魔獣" limit_sec="120" boss_id="40124" boss_lv="70" boss_ani_scale="1" boss_buff_group_id="40124">
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
   <MonsterSetting id="50011" name="活動1前半N" limit_sec="90" boss_id="50011" boss_lv="5" boss_ani_scale="0" boss_buff_group_id="11">
     <hero_id>1035030</hero_id>
     <hero_id>1035030</hero_id>
@@ -3850,6 +3878,48 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
+  <MonsterSetting id="52601" name="【バーストフェス】BOSS・EASY" limit_sec="90" boss_id="52601" boss_lv="15" boss_ani_scale="1" boss_buff_group_id="31">
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="52602" name="【バーストフェス】BOSS・NORMAL" limit_sec="90" boss_id="52602" boss_lv="40" boss_ani_scale="1" boss_buff_group_id="31">
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="52603" name="【バーストフェス】BOSS・HARD" limit_sec="90" boss_id="52603" boss_lv="70" boss_ani_scale="1" boss_buff_group_id="31">
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
   <MonsterSetting id="80101" name="同盟戰" limit_sec="120" boss_id="80101" boss_lv="1" boss_ani_scale="0" boss_buff_group_id="80101">
     <hero_id>0</hero_id>
     <hero_id>0</hero_id>
@@ -4677,6 +4747,62 @@
     <hero_lv>0</hero_lv>
   </MonsterSetting>
   <MonsterSetting id="81504" name="同盟戰" limit_sec="120" boss_id="81504" boss_lv="1" boss_ani_scale="0.6" boss_buff_group_id="81501">
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="81601" name="同盟戰" limit_sec="120" boss_id="81601" boss_lv="1" boss_ani_scale="0.6" boss_buff_group_id="81601">
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="81602" name="同盟戰" limit_sec="120" boss_id="81602" boss_lv="1" boss_ani_scale="0.6" boss_buff_group_id="81601">
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="81603" name="同盟戰" limit_sec="120" boss_id="81603" boss_lv="1" boss_ani_scale="0.6" boss_buff_group_id="81601">
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="81604" name="同盟戰" limit_sec="120" boss_id="81604" boss_lv="1" boss_ani_scale="0.6" boss_buff_group_id="81601">
     <hero_id>0</hero_id>
     <hero_id>0</hero_id>
     <hero_id>0</hero_id>
@@ -24218,6 +24344,636 @@
     <hero_lv>85</hero_lv>
     <hero_lv>85</hero_lv>
     <hero_lv>85</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928010101" name="第二十八期EX1-1-1" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>7835023</hero_id>
+    <hero_id>7835003</hero_id>
+    <hero_id>8835003</hero_id>
+    <hero_id>8835024</hero_id>
+    <hero_id>7835025</hero_id>
+    <hero_id>7835004</hero_id>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928010102" name="第二十八期EX1-1-2" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>7835023</hero_id>
+    <hero_id>7835003</hero_id>
+    <hero_id>7835007</hero_id>
+    <hero_id>7835028</hero_id>
+    <hero_id>8835026</hero_id>
+    <hero_id>8835037</hero_id>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928010103" name="第二十八期EX1-1-3" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8835023</hero_id>
+    <hero_id>8835007</hero_id>
+    <hero_id>7835029</hero_id>
+    <hero_id>7835027</hero_id>
+    <hero_id>7835004</hero_id>
+    <hero_id>7835037</hero_id>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928010201" name="第二十八期EX1-2-1" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>7865024</hero_id>
+    <hero_id>7865024</hero_id>
+    <hero_id>8865028</hero_id>
+    <hero_id>7865028</hero_id>
+    <hero_id>8865025</hero_id>
+    <hero_id>7865026</hero_id>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928010202" name="第二十八期EX1-2-2" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>7865002</hero_id>
+    <hero_id>7865003</hero_id>
+    <hero_id>7865032</hero_id>
+    <hero_id>8865005</hero_id>
+    <hero_id>7865034</hero_id>
+    <hero_id>8865035</hero_id>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928010203" name="第二十八期EX1-2-3" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8865001</hero_id>
+    <hero_id>7865029</hero_id>
+    <hero_id>8865003</hero_id>
+    <hero_id>7865021</hero_id>
+    <hero_id>7865031</hero_id>
+    <hero_id>7865022</hero_id>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928010301" name="第二十八期EX1-3-1" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8825023</hero_id>
+    <hero_id>7825024</hero_id>
+    <hero_id>7825024</hero_id>
+    <hero_id>7825025</hero_id>
+    <hero_id>7825025</hero_id>
+    <hero_id>8825027</hero_id>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928010302" name="第二十八期EX1-3-2" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>7825023</hero_id>
+    <hero_id>8825028</hero_id>
+    <hero_id>7825028</hero_id>
+    <hero_id>7825026</hero_id>
+    <hero_id>7825026</hero_id>
+    <hero_id>8825027</hero_id>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928010303" name="第二十八期EX1-3-3" limit_sec="120" boss_id="6280101" boss_lv="80" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>7825023</hero_id>
+    <hero_id>7825024</hero_id>
+    <hero_id>8825028</hero_id>
+    <hero_id>8825029</hero_id>
+    <hero_id>7825027</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928020101" name="第二十八期EX2-1-1" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8815001</hero_id>
+    <hero_id>7815029</hero_id>
+    <hero_id>8815031</hero_id>
+    <hero_id>7815021</hero_id>
+    <hero_id>8815034</hero_id>
+    <hero_id>7815035</hero_id>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928020102" name="第二十八期EX2-1-2" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>7815001</hero_id>
+    <hero_id>8815028</hero_id>
+    <hero_id>7815032</hero_id>
+    <hero_id>8815006</hero_id>
+    <hero_id>7815034</hero_id>
+    <hero_id>8815022</hero_id>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928020103" name="第二十八期EX2-1-3" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>7815001</hero_id>
+    <hero_id>7815024</hero_id>
+    <hero_id>7815033</hero_id>
+    <hero_id>8815021</hero_id>
+    <hero_id>8815034</hero_id>
+    <hero_id>8815022</hero_id>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928020201" name="第二十八期EX2-2-1" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8825024</hero_id>
+    <hero_id>8825024</hero_id>
+    <hero_id>8825028</hero_id>
+    <hero_id>7825025</hero_id>
+    <hero_id>7825033</hero_id>
+    <hero_id>7825004</hero_id>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928020202" name="第二十八期EX2-2-2" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8825024</hero_id>
+    <hero_id>8825028</hero_id>
+    <hero_id>7825029</hero_id>
+    <hero_id>7825026</hero_id>
+    <hero_id>7825033</hero_id>
+    <hero_id>8825034</hero_id>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928020203" name="第二十八期EX2-2-3" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>7825024</hero_id>
+    <hero_id>7825024</hero_id>
+    <hero_id>8825029</hero_id>
+    <hero_id>8825027</hero_id>
+    <hero_id>8825033</hero_id>
+    <hero_id>7825035</hero_id>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928020301" name="第二十八期EX2-3-1" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8855007</hero_id>
+    <hero_id>8855007</hero_id>
+    <hero_id>7855003</hero_id>
+    <hero_id>7855020</hero_id>
+    <hero_id>7855006</hero_id>
+    <hero_id>8855034</hero_id>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928020302" name="第二十八期EX2-3-2" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8855007</hero_id>
+    <hero_id>7855003</hero_id>
+    <hero_id>7855003</hero_id>
+    <hero_id>8855031</hero_id>
+    <hero_id>7855005</hero_id>
+    <hero_id>8855035</hero_id>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928020303" name="第二十八期EX2-3-3" limit_sec="120" boss_id="6280201" boss_lv="80" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8855023</hero_id>
+    <hero_id>8855002</hero_id>
+    <hero_id>7855015</hero_id>
+    <hero_id>7855008</hero_id>
+    <hero_id>8855031</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>80</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928030101" name="第二十八期EX3-1-1" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>7825024</hero_id>
+    <hero_id>8825024</hero_id>
+    <hero_id>8825025</hero_id>
+    <hero_id>7825027</hero_id>
+    <hero_id>8825033</hero_id>
+    <hero_id>8825034</hero_id>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928030102" name="第二十八期EX3-1-2" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8825028</hero_id>
+    <hero_id>7825028</hero_id>
+    <hero_id>7825026</hero_id>
+    <hero_id>8825027</hero_id>
+    <hero_id>8825031</hero_id>
+    <hero_id>8825034</hero_id>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928030103" name="第二十八期EX3-1-3" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8825024</hero_id>
+    <hero_id>8825028</hero_id>
+    <hero_id>8825025</hero_id>
+    <hero_id>8825026</hero_id>
+    <hero_id>7825027</hero_id>
+    <hero_id>7825034</hero_id>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928030201" name="第二十八期EX3-2-1" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8855023</hero_id>
+    <hero_id>7855024</hero_id>
+    <hero_id>8855028</hero_id>
+    <hero_id>8855029</hero_id>
+    <hero_id>7855025</hero_id>
+    <hero_id>8855026</hero_id>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928030202" name="第二十八期EX3-2-2" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8855023</hero_id>
+    <hero_id>7855023</hero_id>
+    <hero_id>7855029</hero_id>
+    <hero_id>8855025</hero_id>
+    <hero_id>8855026</hero_id>
+    <hero_id>8855027</hero_id>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928030203" name="第二十八期EX3-2-3" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8855023</hero_id>
+    <hero_id>8855023</hero_id>
+    <hero_id>8855023</hero_id>
+    <hero_id>7855025</hero_id>
+    <hero_id>7855026</hero_id>
+    <hero_id>8855027</hero_id>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928030301" name="第二十八期EX3-3-1" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8845009</hero_id>
+    <hero_id>8845006</hero_id>
+    <hero_id>8845020</hero_id>
+    <hero_id>7845012</hero_id>
+    <hero_id>8845036</hero_id>
+    <hero_id>7845036</hero_id>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928030302" name="第二十八期EX3-3-2" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>7845009</hero_id>
+    <hero_id>8845008</hero_id>
+    <hero_id>8845020</hero_id>
+    <hero_id>8845012</hero_id>
+    <hero_id>7845036</hero_id>
+    <hero_id>8845036</hero_id>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928030303" name="第二十八期EX3-3-3" limit_sec="120" boss_id="6280301" boss_lv="85" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8845009</hero_id>
+    <hero_id>7845020</hero_id>
+    <hero_id>7845012</hero_id>
+    <hero_id>8845036</hero_id>
+    <hero_id>8845036</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928040101" name="第二十八期EX4-1-1" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8835001</hero_id>
+    <hero_id>7835030</hero_id>
+    <hero_id>8835029</hero_id>
+    <hero_id>8835031</hero_id>
+    <hero_id>8835022</hero_id>
+    <hero_id>8835025</hero_id>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928040102" name="第二十八期EX4-1-2" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8835029</hero_id>
+    <hero_id>8835030</hero_id>
+    <hero_id>7835021</hero_id>
+    <hero_id>8835032</hero_id>
+    <hero_id>8835022</hero_id>
+    <hero_id>8835026</hero_id>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928040103" name="第二十八期EX4-1-3" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8835001</hero_id>
+    <hero_id>8835030</hero_id>
+    <hero_id>8835021</hero_id>
+    <hero_id>8835033</hero_id>
+    <hero_id>7835022</hero_id>
+    <hero_id>8835027</hero_id>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928040201" name="第二十八期EX4-2-1" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8845023</hero_id>
+    <hero_id>8845029</hero_id>
+    <hero_id>8845024</hero_id>
+    <hero_id>7845028</hero_id>
+    <hero_id>8845025</hero_id>
+    <hero_id>8845026</hero_id>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928040202" name="第二十八期EX4-2-2" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8845023</hero_id>
+    <hero_id>8845023</hero_id>
+    <hero_id>7845024</hero_id>
+    <hero_id>8845028</hero_id>
+    <hero_id>8845025</hero_id>
+    <hero_id>8845026</hero_id>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928040203" name="第二十八期EX4-2-3" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8845023</hero_id>
+    <hero_id>7845023</hero_id>
+    <hero_id>8845023</hero_id>
+    <hero_id>8845025</hero_id>
+    <hero_id>8845026</hero_id>
+    <hero_id>8845027</hero_id>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928040301" name="第二十八期EX4-3-1" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8815023</hero_id>
+    <hero_id>8815023</hero_id>
+    <hero_id>8815029</hero_id>
+    <hero_id>7815029</hero_id>
+    <hero_id>8815005</hero_id>
+    <hero_id>8815035</hero_id>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928040302" name="第二十八期EX4-3-2" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8815003</hero_id>
+    <hero_id>8815003</hero_id>
+    <hero_id>8815006</hero_id>
+    <hero_id>7815004</hero_id>
+    <hero_id>8815004</hero_id>
+    <hero_id>8815037</hero_id>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928040303" name="第二十八期EX4-3-3" limit_sec="120" boss_id="6280501" boss_lv="85" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>6230401</hero_id>
+    <hero_id>8815015</hero_id>
+    <hero_id>7815009</hero_id>
+    <hero_id>8815012</hero_id>
+    <hero_id>8815036</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>85</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928050101" name="第二十八期EX5-1-1" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8865028</hero_id>
+    <hero_id>8865028</hero_id>
+    <hero_id>8865029</hero_id>
+    <hero_id>8865026</hero_id>
+    <hero_id>8865027</hero_id>
+    <hero_id>8865034</hero_id>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928050102" name="第二十八期EX5-1-2" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8865028</hero_id>
+    <hero_id>8865028</hero_id>
+    <hero_id>8865024</hero_id>
+    <hero_id>8865025</hero_id>
+    <hero_id>8865027</hero_id>
+    <hero_id>8865034</hero_id>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928050103" name="第二十八期EX5-1-3" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8865028</hero_id>
+    <hero_id>8865024</hero_id>
+    <hero_id>8865029</hero_id>
+    <hero_id>8865025</hero_id>
+    <hero_id>8865026</hero_id>
+    <hero_id>8865034</hero_id>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928050201" name="第二十八期EX5-2-1" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8855023</hero_id>
+    <hero_id>8855003</hero_id>
+    <hero_id>8855003</hero_id>
+    <hero_id>8855024</hero_id>
+    <hero_id>8855025</hero_id>
+    <hero_id>8855004</hero_id>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928050202" name="第二十八期EX5-2-2" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8855023</hero_id>
+    <hero_id>8855003</hero_id>
+    <hero_id>8855007</hero_id>
+    <hero_id>8855028</hero_id>
+    <hero_id>8855026</hero_id>
+    <hero_id>8855037</hero_id>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928050203" name="第二十八期EX5-2-3" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8855023</hero_id>
+    <hero_id>8855007</hero_id>
+    <hero_id>8855029</hero_id>
+    <hero_id>8855027</hero_id>
+    <hero_id>8855004</hero_id>
+    <hero_id>8855037</hero_id>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928050301" name="第二十八期EX5-3-1" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8835015</hero_id>
+    <hero_id>8835015</hero_id>
+    <hero_id>8835009</hero_id>
+    <hero_id>8835012</hero_id>
+    <hero_id>8835036</hero_id>
+    <hero_id>8835036</hero_id>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928050302" name="第二十八期EX5-3-2" limit_sec="120" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8835002</hero_id>
+    <hero_id>8835003</hero_id>
+    <hero_id>8835008</hero_id>
+    <hero_id>8835037</hero_id>
+    <hero_id>8835004</hero_id>
+    <hero_id>8835005</hero_id>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="928050303" name="第二十八期EX5-3-3" limit_sec="120" boss_id="6280601" boss_lv="90" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>8835001</hero_id>
+    <hero_id>8835029</hero_id>
+    <hero_id>8835032</hero_id>
+    <hero_id>8835021</hero_id>
+    <hero_id>8835022</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
+    <hero_lv>90</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
   <MonsterSetting id="10010101" name="活動塔非正式配怪" limit_sec="60" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
@@ -158704,7 +159460,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525901011" name="【ハロウィンイベント】 1Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525901011" name="【ハロウィンの夜、忍び寄る三狐】 1Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045030</hero_id>
     <hero_id>1045031</hero_id>
     <hero_id>1045031</hero_id>
@@ -158718,7 +159474,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525901012" name="【ハロウィンイベント】 1Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525901012" name="【ハロウィンの夜、忍び寄る三狐】 1Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045030</hero_id>
     <hero_id>1045030</hero_id>
     <hero_id>1045031</hero_id>
@@ -158732,7 +159488,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525901013" name="【ハロウィンイベント】 1Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525901013" name="【ハロウィンの夜、忍び寄る三狐】 1Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045031</hero_id>
     <hero_id>1045030</hero_id>
     <hero_id>1045030</hero_id>
@@ -158746,7 +159502,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525902011" name="【ハロウィンイベント】 2Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525902011" name="【ハロウィンの夜、忍び寄る三狐】 2Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045032</hero_id>
     <hero_id>1045032</hero_id>
     <hero_id>1045032</hero_id>
@@ -158760,7 +159516,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525902012" name="【ハロウィンイベント】 2Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525902012" name="【ハロウィンの夜、忍び寄る三狐】 2Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045033</hero_id>
     <hero_id>1045032</hero_id>
     <hero_id>1045032</hero_id>
@@ -158774,7 +159530,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525902013" name="【ハロウィンイベント】 2Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525902013" name="【ハロウィンの夜、忍び寄る三狐】 2Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045033</hero_id>
     <hero_id>1045033</hero_id>
     <hero_id>1045033</hero_id>
@@ -158788,7 +159544,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525903011" name="【ハロウィンイベント】 3Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525903011" name="【ハロウィンの夜、忍び寄る三狐】 3Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045030</hero_id>
     <hero_id>1045032</hero_id>
     <hero_id>1045032</hero_id>
@@ -158802,7 +159558,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525903012" name="【ハロウィンイベント】 3Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525903012" name="【ハロウィンの夜、忍び寄る三狐】 3Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045030</hero_id>
     <hero_id>1045030</hero_id>
     <hero_id>1045032</hero_id>
@@ -158816,7 +159572,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525903013" name="【ハロウィンイベント】 3Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525903013" name="【ハロウィンの夜、忍び寄る三狐】 3Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045032</hero_id>
     <hero_id>1045030</hero_id>
     <hero_id>1045030</hero_id>
@@ -158830,7 +159586,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525904011" name="【ハロウィンイベント】 4Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525904011" name="【ハロウィンの夜、忍び寄る三狐】 4Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045033</hero_id>
     <hero_id>1045033</hero_id>
     <hero_id>1045031</hero_id>
@@ -158844,7 +159600,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525904012" name="【ハロウィンイベント】 4Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525904012" name="【ハロウィンの夜、忍び寄る三狐】 4Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045031</hero_id>
     <hero_id>1045033</hero_id>
     <hero_id>1045033</hero_id>
@@ -158858,7 +159614,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525904013" name="【ハロウィンイベント】 4Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525904013" name="【ハロウィンの夜、忍び寄る三狐】 4Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045031</hero_id>
     <hero_id>1045031</hero_id>
     <hero_id>1045031</hero_id>
@@ -158872,7 +159628,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525905011" name="【ハロウィンイベント】 5Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525905011" name="【ハロウィンの夜、忍び寄る三狐】 5Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045030</hero_id>
     <hero_id>1045031</hero_id>
     <hero_id>1045032</hero_id>
@@ -158886,7 +159642,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525905012" name="【ハロウィンイベント】 5Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525905012" name="【ハロウィンの夜、忍び寄る三狐】 5Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045030</hero_id>
     <hero_id>1045031</hero_id>
     <hero_id>1045032</hero_id>
@@ -158900,7 +159656,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525905013" name="【ハロウィンイベント】 5Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525905013" name="【ハロウィンの夜、忍び寄る三狐】 5Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045030</hero_id>
     <hero_id>1045031</hero_id>
     <hero_id>1045032</hero_id>
@@ -158914,7 +159670,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525906011" name="【ハロウィンイベント】 6Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525906011" name="【ハロウィンの夜、忍び寄る三狐】 6Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045033</hero_id>
     <hero_id>1045032</hero_id>
     <hero_id>1045031</hero_id>
@@ -158928,7 +159684,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525906012" name="【ハロウィンイベント】 6Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525906012" name="【ハロウィンの夜、忍び寄る三狐】 6Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045033</hero_id>
     <hero_id>1045032</hero_id>
     <hero_id>1045031</hero_id>
@@ -158942,7 +159698,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525906013" name="【ハロウィンイベント】 6Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525906013" name="【ハロウィンの夜、忍び寄る三狐】 6Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045033</hero_id>
     <hero_id>1045032</hero_id>
     <hero_id>1045031</hero_id>
@@ -158956,7 +159712,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525907011" name="【ハロウィンイベント】 7Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525907011" name="【ハロウィンの夜、忍び寄る三狐】 7Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045033</hero_id>
     <hero_id>1045031</hero_id>
     <hero_id>1045032</hero_id>
@@ -158970,7 +159726,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525907012" name="【ハロウィンイベント】 7Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525907012" name="【ハロウィンの夜、忍び寄る三狐】 7Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045030</hero_id>
     <hero_id>1045030</hero_id>
     <hero_id>1045033</hero_id>
@@ -158984,7 +159740,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525907013" name="【ハロウィンイベント】 7Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525907013" name="【ハロウィンの夜、忍び寄る三狐】 7Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045033</hero_id>
     <hero_id>1045031</hero_id>
     <hero_id>1045032</hero_id>
@@ -158998,7 +159754,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525908011" name="【ハロウィンイベント】 8Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525908011" name="【ハロウィンの夜、忍び寄る三狐】 8Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045030</hero_id>
     <hero_id>1045033</hero_id>
     <hero_id>1045032</hero_id>
@@ -159012,7 +159768,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525908012" name="【ハロウィンイベント】 8Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525908012" name="【ハロウィンの夜、忍び寄る三狐】 8Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045033</hero_id>
     <hero_id>1045032</hero_id>
     <hero_id>1045031</hero_id>
@@ -159026,7 +159782,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525908013" name="【ハロウィンイベント】 8Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525908013" name="【ハロウィンの夜、忍び寄る三狐】 8Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045030</hero_id>
     <hero_id>1045033</hero_id>
     <hero_id>1045032</hero_id>
@@ -159040,7 +159796,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525909011" name="【ハロウィンイベント】 9Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525909011" name="【ハロウィンの夜、忍び寄る三狐】 9Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045031</hero_id>
     <hero_id>1045030</hero_id>
     <hero_id>1045031</hero_id>
@@ -159054,7 +159810,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525909012" name="【ハロウィンイベント】 9Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525909012" name="【ハロウィンの夜、忍び寄る三狐】 9Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045030</hero_id>
     <hero_id>1045031</hero_id>
     <hero_id>1045030</hero_id>
@@ -159068,7 +159824,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525909013" name="【ハロウィンイベント】 9Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525909013" name="【ハロウィンの夜、忍び寄る三狐】 9Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045031</hero_id>
     <hero_id>1045030</hero_id>
     <hero_id>1045031</hero_id>
@@ -159082,7 +159838,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525910011" name="【ハロウィンイベント】 10Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525910011" name="【ハロウィンの夜、忍び寄る三狐】 10Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045032</hero_id>
     <hero_id>1045033</hero_id>
     <hero_id>1045032</hero_id>
@@ -159096,7 +159852,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525910012" name="【ハロウィンイベント】 10Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525910012" name="【ハロウィンの夜、忍び寄る三狐】 10Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045033</hero_id>
     <hero_id>1045032</hero_id>
     <hero_id>1045033</hero_id>
@@ -159110,7 +159866,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525910013" name="【ハロウィンイベント】 10Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525910013" name="【ハロウィンの夜、忍び寄る三狐】 10Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045032</hero_id>
     <hero_id>1045033</hero_id>
     <hero_id>1045032</hero_id>
@@ -159124,7 +159880,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525911011" name="【ハロウィンイベント】 11Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525911011" name="【ハロウィンの夜、忍び寄る三狐】 11Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045031</hero_id>
     <hero_id>1045032</hero_id>
     <hero_id>1045030</hero_id>
@@ -159138,7 +159894,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525911012" name="【ハロウィンイベント】 11Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525911012" name="【ハロウィンの夜、忍び寄る三狐】 11Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045031</hero_id>
     <hero_id>1045030</hero_id>
     <hero_id>1045033</hero_id>
@@ -159152,7 +159908,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525911013" name="【ハロウィンイベント】 11Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525911013" name="【ハロウィンの夜、忍び寄る三狐】 11Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045030</hero_id>
     <hero_id>1045032</hero_id>
     <hero_id>1045033</hero_id>
@@ -159166,7 +159922,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525912011" name="【ハロウィンイベント】周回Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525912011" name="【ハロウィンの夜、忍び寄る三狐】周回Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045030</hero_id>
     <hero_id>1045030</hero_id>
     <hero_id>1045030</hero_id>
@@ -159180,7 +159936,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525912012" name="【ハロウィンイベント】周回Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525912012" name="【ハロウィンの夜、忍び寄る三狐】周回Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>1045030</hero_id>
     <hero_id>1045030</hero_id>
     <hero_id>1045030</hero_id>
@@ -159194,7 +159950,7 @@
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>
-  <MonsterSetting id="525912013" name="【ハロウィンイベント】周回Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+  <MonsterSetting id="525912013" name="【ハロウィンの夜、忍び寄る三狐】周回Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
     <hero_id>2045031</hero_id>
     <hero_id>2045033</hero_id>
     <hero_id>2045032</hero_id>
@@ -159205,6 +159961,1182 @@
     <hero_lv>20</hero_lv>
     <hero_lv>20</hero_lv>
     <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="545905011" name="【ハロウィンの夜、忍び寄る三狐】H-1Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1045030</hero_id>
+    <hero_id>1045031</hero_id>
+    <hero_id>1045031</hero_id>
+    <hero_id>1045030</hero_id>
+    <hero_id>1045031</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>25</hero_lv>
+    <hero_lv>25</hero_lv>
+    <hero_lv>25</hero_lv>
+    <hero_lv>25</hero_lv>
+    <hero_lv>25</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="545905012" name="【ハロウィンの夜、忍び寄る三狐】H-1Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1045030</hero_id>
+    <hero_id>1045030</hero_id>
+    <hero_id>1045031</hero_id>
+    <hero_id>1045030</hero_id>
+    <hero_id>1045030</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>25</hero_lv>
+    <hero_lv>25</hero_lv>
+    <hero_lv>25</hero_lv>
+    <hero_lv>25</hero_lv>
+    <hero_lv>25</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="545905013" name="【ハロウィンの夜、忍び寄る三狐】H-1Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1045031</hero_id>
+    <hero_id>1045030</hero_id>
+    <hero_id>1045030</hero_id>
+    <hero_id>1045031</hero_id>
+    <hero_id>1045030</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>25</hero_lv>
+    <hero_lv>25</hero_lv>
+    <hero_lv>25</hero_lv>
+    <hero_lv>25</hero_lv>
+    <hero_lv>25</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="545905021" name="【ハロウィンの夜、忍び寄る三狐】H-2Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1045030</hero_id>
+    <hero_id>1045031</hero_id>
+    <hero_id>1045032</hero_id>
+    <hero_id>1045033</hero_id>
+    <hero_id>1045030</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="545905022" name="【ハロウィンの夜、忍び寄る三狐】H-2Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1045030</hero_id>
+    <hero_id>1045031</hero_id>
+    <hero_id>1045032</hero_id>
+    <hero_id>1045033</hero_id>
+    <hero_id>1045030</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="545905023" name="【ハロウィンの夜、忍び寄る三狐】H-2Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1045030</hero_id>
+    <hero_id>1045031</hero_id>
+    <hero_id>1045032</hero_id>
+    <hero_id>1045033</hero_id>
+    <hero_id>1045030</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="545905031" name="【ハロウィンの夜、忍び寄る三狐】H-3Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1045030</hero_id>
+    <hero_id>1045030</hero_id>
+    <hero_id>1045030</hero_id>
+    <hero_id>1045030</hero_id>
+    <hero_id>1045030</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>35</hero_lv>
+    <hero_lv>35</hero_lv>
+    <hero_lv>35</hero_lv>
+    <hero_lv>35</hero_lv>
+    <hero_lv>35</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="545905032" name="【ハロウィンの夜、忍び寄る三狐】H-3Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1045030</hero_id>
+    <hero_id>1045030</hero_id>
+    <hero_id>1045030</hero_id>
+    <hero_id>1045030</hero_id>
+    <hero_id>1045030</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>35</hero_lv>
+    <hero_lv>35</hero_lv>
+    <hero_lv>35</hero_lv>
+    <hero_lv>35</hero_lv>
+    <hero_lv>35</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="545905033" name="【ハロウィンの夜、忍び寄る三狐】H-3Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>2045031</hero_id>
+    <hero_id>2045033</hero_id>
+    <hero_id>2045032</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>35</hero_lv>
+    <hero_lv>35</hero_lv>
+    <hero_lv>35</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526001011" name="【バーストフェス】 1Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065023</hero_id>
+    <hero_id>1065023</hero_id>
+    <hero_id>1065024</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526001012" name="【バーストフェス】 1Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065029</hero_id>
+    <hero_id>1065028</hero_id>
+    <hero_id>1065024</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526001013" name="【バーストフェス】 1Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065029</hero_id>
+    <hero_id>1065028</hero_id>
+    <hero_id>1065029</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526002011" name="【バーストフェス】 2Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065012</hero_id>
+    <hero_id>1065015</hero_id>
+    <hero_id>1065015</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526002012" name="【バーストフェス】 2Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065012</hero_id>
+    <hero_id>1065015</hero_id>
+    <hero_id>1065009</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526002013" name="【バーストフェス】 2Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065012</hero_id>
+    <hero_id>1065009</hero_id>
+    <hero_id>1065009</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526003011" name="【バーストフェス】 3Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065001</hero_id>
+    <hero_id>1065001</hero_id>
+    <hero_id>1065001</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526003012" name="【バーストフェス】 3Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065021</hero_id>
+    <hero_id>1065021</hero_id>
+    <hero_id>1065021</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526003013" name="【バーストフェス】 3Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065022</hero_id>
+    <hero_id>1065022</hero_id>
+    <hero_id>1065022</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526004011" name="【バーストフェス】 6-1Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065023</hero_id>
+    <hero_id>1065028</hero_id>
+    <hero_id>1065024</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526004012" name="【バーストフェス】 6-1Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065029</hero_id>
+    <hero_id>1065024</hero_id>
+    <hero_id>1065024</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526004013" name="【バーストフェス】 6-1Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065023</hero_id>
+    <hero_id>1065028</hero_id>
+    <hero_id>1065023</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526004021" name="【バーストフェス】 6-2Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065029</hero_id>
+    <hero_id>1065024</hero_id>
+    <hero_id>1065023</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526004022" name="【バーストフェス】 6-2Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065023</hero_id>
+    <hero_id>1065023</hero_id>
+    <hero_id>1065024</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526004023" name="【バーストフェス】 6-2Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065028</hero_id>
+    <hero_id>1065028</hero_id>
+    <hero_id>1065028</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526005011" name="【バーストフェス】 8-1Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065009</hero_id>
+    <hero_id>1065009</hero_id>
+    <hero_id>1065009</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526005012" name="【バーストフェス】 8-1Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065009</hero_id>
+    <hero_id>1065009</hero_id>
+    <hero_id>1065020</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526005013" name="【バーストフェス】 8-1Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065009</hero_id>
+    <hero_id>1065020</hero_id>
+    <hero_id>1065020</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526005021" name="【バーストフェス】 8-2Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065020</hero_id>
+    <hero_id>1065009</hero_id>
+    <hero_id>1065009</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526005022" name="【バーストフェス】 8-2Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065009</hero_id>
+    <hero_id>1065009</hero_id>
+    <hero_id>1065009</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526005023" name="【バーストフェス】 8-2Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065020</hero_id>
+    <hero_id>1065020</hero_id>
+    <hero_id>1065009</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526006011" name="【バーストフェス】 9-1Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065023</hero_id>
+    <hero_id>1065028</hero_id>
+    <hero_id>1065028</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526006012" name="【バーストフェス】 9-1Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065023</hero_id>
+    <hero_id>1065029</hero_id>
+    <hero_id>1065028</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526006013" name="【バーストフェス】 9-1Wave3" limit_sec="90" boss_id="1065030" boss_lv="10" boss_ani_scale="0.1" boss_buff_group_id="0">
+    <hero_id>1065024</hero_id>
+    <hero_id>1065028</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526006021" name="【バーストフェス】 9-2Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065024</hero_id>
+    <hero_id>1065029</hero_id>
+    <hero_id>1065029</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526006022" name="【バーストフェス】 9-2Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065029</hero_id>
+    <hero_id>1065029</hero_id>
+    <hero_id>1065029</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526006023" name="【バーストフェス】 9-2Wave3" limit_sec="90" boss_id="1065030" boss_lv="10" boss_ani_scale="0.1" boss_buff_group_id="0">
+    <hero_id>1065028</hero_id>
+    <hero_id>1065028</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526006031" name="【バーストフェス】 9-3Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065023</hero_id>
+    <hero_id>1065024</hero_id>
+    <hero_id>1065024</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526006032" name="【バーストフェス】 9-3Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065023</hero_id>
+    <hero_id>1065028</hero_id>
+    <hero_id>1065024</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526006033" name="【バーストフェス】 9-3Wave3" limit_sec="90" boss_id="1065030" boss_lv="10" boss_ani_scale="0.1" boss_buff_group_id="0">
+    <hero_id>1065028</hero_id>
+    <hero_id>1065024</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526007011" name="【バーストフェス】周回Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065023</hero_id>
+    <hero_id>1065024</hero_id>
+    <hero_id>1065024</hero_id>
+    <hero_id>1065024</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526007012" name="【バーストフェス】周回Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1065023</hero_id>
+    <hero_id>1065028</hero_id>
+    <hero_id>1065028</hero_id>
+    <hero_id>1065028</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526007013" name="【バーストフェス】周回Wave3" limit_sec="90" boss_id="1065030" boss_lv="20" boss_ani_scale="0.2" boss_buff_group_id="0">
+    <hero_id>1065023</hero_id>
+    <hero_id>1065023</hero_id>
+    <hero_id>1065029</hero_id>
+    <hero_id>1065029</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526101011" name="物資調達周回【かけら】" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025001</hero_id>
+    <hero_id>1025021</hero_id>
+    <hero_id>1025021</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526101012" name="物資調達周回【かけら】" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025001</hero_id>
+    <hero_id>1025022</hero_id>
+    <hero_id>1025022</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526101013" name="物資調達周回【かけら】" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025001</hero_id>
+    <hero_id>1025021</hero_id>
+    <hero_id>1025022</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526102011" name="物資調達周回【絆】" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025023</hero_id>
+    <hero_id>1025024</hero_id>
+    <hero_id>1025027</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526102012" name="物資調達周回【絆】" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025023</hero_id>
+    <hero_id>1025025</hero_id>
+    <hero_id>1025028</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526102013" name="物資調達周回【絆】" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025023</hero_id>
+    <hero_id>1025026</hero_id>
+    <hero_id>1025029</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526103011" name="物資調達周回【結晶】" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025009</hero_id>
+    <hero_id>1025009</hero_id>
+    <hero_id>1025009</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526103012" name="物資調達周回【結晶】" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025009</hero_id>
+    <hero_id>1025009</hero_id>
+    <hero_id>1025009</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526103013" name="物資調達周回【結晶】" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025009</hero_id>
+    <hero_id>1025009</hero_id>
+    <hero_id>1025009</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526104011" name="物資調達周回【錬粉】" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025023</hero_id>
+    <hero_id>1025024</hero_id>
+    <hero_id>1025030</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526104012" name="物資調達周回【錬粉】" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025023</hero_id>
+    <hero_id>1025025</hero_id>
+    <hero_id>1025030</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526104013" name="物資調達周回【錬粉】" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1025023</hero_id>
+    <hero_id>1025024</hero_id>
+    <hero_id>1025030</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>30</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526201011" name="【魔討隊の盾となりて】1-1Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035009</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>1035020</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526201012" name="【魔討隊の盾となりて】1-1Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035009</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526201013" name="【魔討隊の盾となりて】1-1Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035009</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>1035020</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526202011" name="【魔討隊の盾となりて】2-1Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035009</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526202012" name="【魔討隊の盾となりて】2-1Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035009</hero_id>
+    <hero_id>1035020</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526202013" name="【魔討隊の盾となりて】2-1Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035020</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526203011" name="【魔討隊の盾となりて】3-1Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035015</hero_id>
+    <hero_id>1035015</hero_id>
+    <hero_id>1035012</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526203012" name="【魔討隊の盾となりて】3-1Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035015</hero_id>
+    <hero_id>1035012</hero_id>
+    <hero_id>1035012</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526203013" name="【魔討隊の盾となりて】3-1Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035015</hero_id>
+    <hero_id>1035012</hero_id>
+    <hero_id>1035012</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526204011" name="【魔討隊の盾となりて】4-1Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035015</hero_id>
+    <hero_id>1035015</hero_id>
+    <hero_id>1035018</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526204012" name="【魔討隊の盾となりて】4-1Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035015</hero_id>
+    <hero_id>1035018</hero_id>
+    <hero_id>1035015</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526204013" name="【魔討隊の盾となりて】4-1Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035015</hero_id>
+    <hero_id>1035018</hero_id>
+    <hero_id>1035015</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526205011" name="【魔討隊の盾となりて】5-1Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035009</hero_id>
+    <hero_id>1035009</hero_id>
+    <hero_id>1035012</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526205012" name="【魔討隊の盾となりて】5-1Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035009</hero_id>
+    <hero_id>1035012</hero_id>
+    <hero_id>1035012</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526205013" name="【魔討隊の盾となりて】5-1Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035009</hero_id>
+    <hero_id>1035012</hero_id>
+    <hero_id>1035012</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526206011" name="【魔討隊の盾となりて】6-1Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035009</hero_id>
+    <hero_id>1035012</hero_id>
+    <hero_id>1035015</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526206012" name="【魔討隊の盾となりて】6-1Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035009</hero_id>
+    <hero_id>1035012</hero_id>
+    <hero_id>1035015</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526206013" name="【魔討隊の盾となりて】6-1Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1035009</hero_id>
+    <hero_id>1035012</hero_id>
+    <hero_id>1035015</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526401011" name="【FANZINE】 1Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1055036</hero_id>
+    <hero_id>1055036</hero_id>
+    <hero_id>1055036</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526401012" name="【FANZINE】 1Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1055015</hero_id>
+    <hero_id>1055015</hero_id>
+    <hero_id>1055012</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526401013" name="【FANZINE】 1Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1055009</hero_id>
+    <hero_id>1055009</hero_id>
+    <hero_id>1055009</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526402011" name="【FANZINE】 2Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1055009</hero_id>
+    <hero_id>1055012</hero_id>
+    <hero_id>1055012</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526402012" name="【FANZINE】 2Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1055009</hero_id>
+    <hero_id>1055009</hero_id>
+    <hero_id>1055012</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526402013" name="【FANZINE】 2Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1055015</hero_id>
+    <hero_id>1055015</hero_id>
+    <hero_id>1055012</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526403011" name="【FANZINE】 3Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1055015</hero_id>
+    <hero_id>1055009</hero_id>
+    <hero_id>1055012</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526403012" name="【FANZINE】 3Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1055015</hero_id>
+    <hero_id>1055015</hero_id>
+    <hero_id>1055009</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526403013" name="【FANZINE】 3Wave3" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1055012</hero_id>
+    <hero_id>1055012</hero_id>
+    <hero_id>1055012</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>10</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526404011" name="【FANZINE】周回Wave1" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1055009</hero_id>
+    <hero_id>1055009</hero_id>
+    <hero_id>1055009</hero_id>
+    <hero_id>1055009</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526404012" name="【FANZINE】周回Wave2" limit_sec="90" boss_id="0" boss_lv="0" boss_ani_scale="0" boss_buff_group_id="0">
+    <hero_id>1055012</hero_id>
+    <hero_id>1055012</hero_id>
+    <hero_id>1055012</hero_id>
+    <hero_id>1055012</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>0</hero_lv>
+    <hero_lv>0</hero_lv>
+  </MonsterSetting>
+  <MonsterSetting id="526404013" name="【FANZINE】周回Wave3" limit_sec="90" boss_id="526401" boss_lv="20" boss_ani_scale="0.4" boss_buff_group_id="0">
+    <hero_id>1055015</hero_id>
+    <hero_id>1055015</hero_id>
+    <hero_id>1055015</hero_id>
+    <hero_id>1055015</hero_id>
+    <hero_id>0</hero_id>
+    <hero_id>0</hero_id>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
+    <hero_lv>20</hero_lv>
     <hero_lv>0</hero_lv>
     <hero_lv>0</hero_lv>
   </MonsterSetting>

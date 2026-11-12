@@ -3472,7 +3472,14 @@
     <bonus_cycle>0</bonus_cycle>
     <bonus_cycle>0</bonus_cycle>
   </StageAreaSetting>
-  <StageAreaSetting id="525901" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="ハロウィンの夜、忍び寄る三狐" bg="eventbg/eventbg63/event_192-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+  <StageAreaSetting id="525901" open="true" pre_stage_site="0" opposite_stage_area_id1="545901" opposite_stage_area_id2="0" name="ハロウィンの夜、忍び寄る三狐" bg="eventbg/eventbg63/event_192-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </StageAreaSetting>
+  <StageAreaSetting id="545901" open="true" pre_stage_site="52590133" opposite_stage_area_id1="525901" opposite_stage_area_id2="0" name="ハロウィンの夜、忍び寄る三狐（Hard）" bg="eventbg/eventbg63/event_192-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
     <open_cycle>0</open_cycle>
     <open_cycle>0</open_cycle>
     <bonus_cycle>0</bonus_cycle>
@@ -3480,6 +3487,55 @@
     <bonus_cycle>0</bonus_cycle>
   </StageAreaSetting>
   <StageAreaSetting id="535901" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="《復刻》双狂のハロウィン" bg="eventbg/eventbg63/event_193-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </StageAreaSetting>
+  <StageAreaSetting id="526001" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="族王の資格" bg="eventbg/eventbg64/event_194-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </StageAreaSetting>
+  <StageAreaSetting id="526101" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="物資調達" bg="eventbg/eventbg64/event_195-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </StageAreaSetting>
+  <StageAreaSetting id="526201" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="魔討隊の盾となりて" bg="eventbg/eventbg64/event_196-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </StageAreaSetting>
+  <StageAreaSetting id="536201" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="《復刻》踊りの女神に微笑みを" bg="eventbg/eventbg65/event_197-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </StageAreaSetting>
+  <StageAreaSetting id="526301" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="【いいおπの日】特別クエスト" bg="eventbg/eventbg65/event_198-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </StageAreaSetting>
+  <StageAreaSetting id="526401" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="【Fanzine】クエスト" bg="eventbg/eventbg65/event_199-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
+    <open_cycle>0</open_cycle>
+    <open_cycle>0</open_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+    <bonus_cycle>0</bonus_cycle>
+  </StageAreaSetting>
+  <StageAreaSetting id="536401" open="true" pre_stage_site="0" opposite_stage_area_id1="0" opposite_stage_area_id2="0" name="《復刻》エルロンの収穫祭" bg="eventbg/eventbg66/event_200-bg" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" cost_item_id="0" cost_item_num="0" player_exp_bonus="0" hero_exp_bonus="0" hero_gp_bonus="0" item_bonus="0" money_bonus="0" hero_fragment="0">
     <open_cycle>0</open_cycle>
     <open_cycle>0</open_cycle>
     <bonus_cycle>0</bonus_cycle>

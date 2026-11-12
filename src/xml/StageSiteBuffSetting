@@ -567,4 +567,25 @@
   <StageSiteBuffSetting group_id="60270501" buff_id="60270501" dur="0" buff_obj="我方" buff_obj_attr="風" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" info_text="風属性聖騎士の風属性攻撃+30%。" />
   <StageSiteBuffSetting group_id="60270502" buff_id="60270502" dur="0" buff_obj="我方" buff_obj_attr="魔" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" info_text="魔属性聖騎士の魔属性攻撃+30%。" />
   <StageSiteBuffSetting group_id="60270503" buff_id="60270503" dur="0" buff_obj="我方" buff_obj_attr="聖" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" info_text="聖属性聖騎士の聖属性攻撃+30%。" />
+  <StageSiteBuffSetting group_id="602800" buff_id="60280001" dur="0" buff_obj="敵方" buff_obj_attr="無" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" info_text="聖騎士の通常攻撃、スキルダメージ+&lt;color=#BB3D00&gt;30%&lt;/color&gt;、&#xA;奥義ダメージ-&lt;color=#BB3D00&gt;80%&lt;/color&gt;、行動速度-&lt;color=#BB3D00&gt;30%&lt;/color&gt;。&#xA;敵全体HP+&lt;color=#BB3D00&gt;50%&lt;/color&gt;。" />
+  <StageSiteBuffSetting group_id="602800" buff_id="60280002" dur="9999" buff_obj="我方" buff_obj_attr="無" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" />
+  <StageSiteBuffSetting group_id="602800" buff_id="60280003" dur="9999" buff_obj="我方" buff_obj_attr="無" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" />
+  <StageSiteBuffSetting group_id="602800" buff_id="60280004" dur="9999" buff_obj="我方" buff_obj_attr="無" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" />
+  <StageSiteBuffSetting group_id="602800" buff_id="60280005" dur="9999" buff_obj="我方" buff_obj_attr="無" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" />
+  <StageSiteBuffSetting group_id="60280101" buff_id="60280101" dur="0" buff_obj="我方" buff_obj_attr="風" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" info_text="風属性聖騎士の風属性攻撃+30%。" />
+  <StageSiteBuffSetting group_id="60280102" buff_id="60280102" dur="0" buff_obj="我方" buff_obj_attr="魔" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" info_text="魔属性聖騎士の魔属性攻撃+30%。" />
+  <StageSiteBuffSetting group_id="60280103" buff_id="60280103" dur="0" buff_obj="我方" buff_obj_attr="水" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" info_text="水属性聖騎士の水属性攻撃+30%。" />
+  <StageSiteBuffSetting group_id="60280201" buff_id="60280201" dur="0" buff_obj="我方" buff_obj_attr="聖" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" info_text="聖属性聖騎士の聖属性攻撃+30%。" />
+  <StageSiteBuffSetting group_id="60280202" buff_id="60280202" dur="0" buff_obj="我方" buff_obj_attr="水" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" info_text="水属性聖騎士の水属性攻撃+30%。" />
+  <StageSiteBuffSetting group_id="60280203" buff_id="60280203" dur="0" buff_obj="我方" buff_obj_attr="想" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" info_text="想属性聖騎士の想属性攻撃+30%。" />
+  <StageSiteBuffSetting group_id="60280301" buff_id="60280301" dur="0" buff_obj="我方" buff_obj_attr="水" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" info_text="水属性聖騎士の水属性攻撃+30%。" />
+  <StageSiteBuffSetting group_id="60280302" buff_id="60280302" dur="0" buff_obj="我方" buff_obj_attr="想" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" info_text="想属性聖騎士の想属性攻撃+30%。" />
+  <StageSiteBuffSetting group_id="60280303" buff_id="60280303" dur="0" buff_obj="我方" buff_obj_attr="火" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" info_text="火属性聖騎士の火属性攻撃+30%。" />
+  <StageSiteBuffSetting group_id="60280401" buff_id="60280401" dur="0" buff_obj="我方" buff_obj_attr="風" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" info_text="風属性聖騎士の風属性攻撃+30%。" />
+  <StageSiteBuffSetting group_id="60280402" buff_id="60280402" dur="0" buff_obj="我方" buff_obj_attr="火" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" info_text="火属性聖騎士の火属性攻撃+30%。" />
+  <StageSiteBuffSetting group_id="60280403" buff_id="60280403" dur="0" buff_obj="我方" buff_obj_attr="聖" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" info_text="聖属性聖騎士の聖属性攻撃+30%。" />
+  <StageSiteBuffSetting group_id="60280501" buff_id="60280501" dur="0" buff_obj="我方" buff_obj_attr="魔" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" info_text="魔属性聖騎士の魔属性攻撃+30%。" />
+  <StageSiteBuffSetting group_id="60280502" buff_id="60280502" dur="0" buff_obj="我方" buff_obj_attr="想" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" info_text="想属性聖騎士の想属性攻撃+30%。" />
+  <StageSiteBuffSetting group_id="60280503" buff_id="60280503" dur="0" buff_obj="我方" buff_obj_attr="風" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" info_text="風属性聖騎士の風属性攻撃+30%。" />
+  <StageSiteBuffSetting group_id="226201" buff_id="226201" dur="0" buff_obj="敵方" buff_obj_attr="無" buff_obj_weapon="無" buff_obj_job="無" buff_obj_pos="無" buff_obj_atk="無" info_text="全ての敵は&quot;相克の調和&quot;を持つ(自身に対して不利属性の被ダメージ+50%、非不利属性の被ダメージ-80%)" />
 </root>

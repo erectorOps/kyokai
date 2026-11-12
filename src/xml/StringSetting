@@ -295,7 +295,7 @@
   <StringSetting id="5261" text="上限に達しました" />
   <StringSetting id="5263" text="キャ&lt;size=24&gt;ラ&lt;/size&gt;" />
   <StringSetting id="5270" text="ウルティマ強化" />
-  <StringSetting id="5271" text="ウルティマが不足しています" />
+  <StringSetting id="5271" text="必要な素材が不足しています" />
   <StringSetting id="5272" text="素材が不足してます" />
   <StringSetting id="5275" text="能力" />
   <StringSetting id="5276" text="基本" />
@@ -1252,7 +1252,7 @@
   <StringSetting id="15164" text="ポイントが不足しています" />
   <StringSetting id="15165" text="{0}【{1}】" />
   <StringSetting id="15166" text="報酬をお便りに送りました" />
-  <StringSetting id="15167" text="※武装召喚は履歴の対象外となります。" />
+  <StringSetting id="15167" text="最新200回までの召喚履歴を表示します&#xA;武装召喚は履歴の対象外となります" />
   <StringSetting id="15168" text="魔法陣を描いてください" />
   <StringSetting id="15169" text="イラスト：{0}" />
   <StringSetting id="15170" text="該当する履歴はありません。" />
@@ -1604,6 +1604,8 @@
   <StringSetting id="18146" text="{0}の{1}消費-{2}%" />
   <StringSetting id="18147" text="{0}の消耗DOWN" />
   <StringSetting id="18148" text="挑戦可能回数" />
+  <StringSetting id="18149" text="競擊戰" />
+  <StringSetting id="18150" text="異策戰" />
   <StringSetting id="19001" text="メインストーリー(Normal)" />
   <StringSetting id="19002" text="メインストーリー(Hard)" />
   <StringSetting id="19003" text="資源収集" />
@@ -2114,7 +2116,7 @@
   <StringSetting id="29256" text="期間限定" />
   <StringSetting id="29258" text="おπの月" />
   <StringSetting id="29259" text="一周年記念" />
-  <StringSetting id="29260" text="3周年記念" />
+  <StringSetting id="29260" text="いいおπの日" />
   <StringSetting id="29261" text="特殊頁籤2" />
   <StringSetting id="30001" text="BOSS" />
   <StringSetting id="30002" text="出撃履歴" />
@@ -3549,7 +3551,7 @@
   <StringSetting id="60067" text="獲得失敗" />
   <StringSetting id="60068" text="報酬を獲得済みです" />
   <StringSetting id="60069" text="ランキング" />
-  <StringSetting id="60070" text="ランキング1位～10位：称号「狼だぞ、ガオーッ」を獲得できます。&#xA;ランキング1位～100位：称号「どうしてそんなにお胸が大きいの？」を獲得できます。" />
+  <StringSetting id="60070" text="ランキング1位～10位：称号「{0}」を獲得できます。&#xA;ランキング1位～100位：称号「{1}」を獲得できます。" />
   <StringSetting id="60071" text="プレイヤー情報がありません" />
   <StringSetting id="60072" text="攻撃でHP-{0}" />
   <StringSetting id="60073" text="{0}秒後に更新可能" />
@@ -4752,6 +4754,8 @@
   <StringSetting id="100028" text="{0}+{1}" />
   <StringSetting id="100029" text="{0}-{1}" />
   <StringSetting id="100030" text="-{0}" />
+  <StringSetting id="100031" text="{0}～" />
+  <StringSetting id="100032" text="{0}～{1}" />
   <StringSetting id="100051" text="&lt;color=#FF0000&gt;{0}&lt;/color&gt;/{1}" />
   <StringSetting id="100052" text="{0}&lt;color=#148CF1&gt;(+{1})&lt;/color&gt;/{2}" />
   <StringSetting id="100053" text="&lt;color=#148CF1&gt;{0}&lt;/color&gt;" />

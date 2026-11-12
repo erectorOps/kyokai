@@ -326,6 +326,14 @@
   <StageWorldSetting id="5258" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2258" name="【Fanzine】クエスト" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="5358" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2358" name="《復刻》悪玉ハロウィン" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="5259" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2259" name="ハロウィンの夜、忍び寄る三狐" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5459" opposite_stage_world_id1="5259" opposite_stage_world_id2="0" arrive_id="2259" name="ハロウィンの夜、忍び寄る三狐（Hard）" world_type="活動_困難" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="5359" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2359" name="《復刻》双狂のハロウィン" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5260" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2260" name="族王の資格" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5261" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2261" name="物資調達" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5262" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2262" name="魔討隊の盾となりて" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5362" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2362" name="《復刻》踊りの女神に微笑みを" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5263" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2263" name="【いいおπの日】特別クエスト" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5264" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2264" name="【Fanzine】クエスト" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
+  <StageWorldSetting id="5364" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="2364" name="《復刻》エルロンの収穫祭" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
   <StageWorldSetting id="99991" opposite_stage_world_id1="0" opposite_stage_world_id2="0" arrive_id="99991" name="測試木樁" world_type="活動_普通" pos_x="0" pos_y="0" atk_cnt_limit="0" restart_cycle="不重置" />
 </root>
